@@ -70,6 +70,8 @@ test4
 
 [마크다운 가운데, 왼쪽, 오른쪽 정렬 할 수 있는 방법 추가(한글)](http://ccl.cckorea.org/syntax/)
 
+[예제가 많음(한글)](https://steemit.com/kr/@nand/markdown)
+
 [전체 규칙 (Github Guide)](https://guides.github.com/features/mastering-markdown/)
 
 
