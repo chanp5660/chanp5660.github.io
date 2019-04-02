@@ -1,7 +1,7 @@
 library(XML)
 library(data.table)
 
-api_url = "http://openapi.airkorea.or.kr/openapi/services/rest/ArpltnInforInqireSvc/getCtprvnMesureSidoLIst?serviceKey=++++++5LOf8IoSVLnwmbJvn7FT%2FB6iMZ123NpHyep43bLR6yaUGDZXGy7Vq6m%2BtmgauqXTWiM+++++&numOfRows=10&pageNo=1&sidoName=%EC%84%9C%EC%9A%B8&searchCondition=DAILY" # api의 주소
+api_url = "http://openapi.airkorea.or.kr/openapi/services/rest/ArpltnInforInqireSvc/getCtprvnMesureSidoLIst?serviceKey=+++++++++&numOfRows=10&pageNo=1&sidoName=%EC%84%9C%EC%9A%B8&searchCondition=DAILY" # api의 주소
 data = xmlTreeParse(api_url,useInternalNodes=T,encoding="UTF-8")# UTF-8 인코딩
 rootNode <- xmlRoot(data) # root node 정보를 확인
 items = rootNode[[2]][["items"]]#root node에서 body부분의 items부분을 읽는다.
