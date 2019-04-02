@@ -1,6 +1,6 @@
 # 폴더 정의
 
-'빅데이터분석'과목에서 github와 openApi를 이용해보는 연습을 한 폴더
+'빅데이터분석'과목에서 github와 openApi를 이용해보는 연습을 한 폴더 (추가로 보기 좋게 만들기 위해서 MarkDown도 이용\[마지막에 사이트 소개\])
 <br></br>
 <br></br>
 
@@ -63,3 +63,14 @@ for(i in 1:size){
 test4 <- rbindlist(test3)#모든 리스트를 데이터프레임 형태로 합쳐준다.
 test4
 ```
+
+
+# MarkDown
+[깃허브에서 makrdown으로 꾸미는 방법(한글)](https://heropy.blog/2017/09/30/markdown/)
+
+[마크다운 가운데, 왼쪽, 오른쪽 정렬 할 수 있는 방법 추가(한글)](http://ccl.cckorea.org/syntax/)
+
+[전체 규칙 (Github Guide)](https://guides.github.com/features/mastering-markdown/)
+
+
+
