@@ -14,7 +14,7 @@
 
 > 인증키 위치
 
-![캡처2](https://user-images.githubusercontent.com/46266247/55397565-7dba1500-5581-11e9-82ba-697612b6b788.PNG)
+![캡처2](https://user-images.githubusercontent.com/46266247/55399860-3afb3b80-5587-11e9-9842-d2d671d92073.PNG)
 
 > 미리보기 하는 방법
 
