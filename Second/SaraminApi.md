@@ -10,7 +10,7 @@ library(data.table)#rvest보다 늦게 실행해야 한다.
 Day_Sel <-function(Start_day,End_day){# 개시 시작일 기준
   Start=as.POSIXct(paste0(Start_day," 00:00:00 KST")) # 시작 날짜
   End=as.POSIXct(paste0(End_day," 00:00:00 KST")) # 끝 날짜
-  api_url=paste0("http://api.saramin.co.kr/job-search?published_min=",Start,"&published_max=",End)
+  api_url=paste0(url,"published_min=",Start,"&published_max=",End)
   return(api_url)
 }
 
@@ -56,6 +56,7 @@ Store_keyword <- function(api_url,max_page){
 }
 
 #### 한 페이지당 최대 110장 읽을 수 있다.
+url = "http://api.saramin.co.kr/job-search?"
 api_url=Day_Sel("2019-04-04","2019-04-07")#시작날짜, 끝날짜
 total = Total(api_url)
 Store_keyword(api_url,total)
