@@ -50,7 +50,7 @@ Store_keyword <- function(api_url,max_page){
     }
     
     test4 <- rbindlist(test3)#모든 리스트를 데이터프레임 형태로 합쳐준다.
-    write.csv(test4[,c("keyword","salary")],paste0("T:/2019-1/bigdataanalysis/project/result/Sample_page",page,".csv"))
+    write.csv(test4[,c("keyword","salary")],paste0("저장할 ",page,".csv"))
     print(paste(page,"/",(max_page%/%110)))
   }
 }
