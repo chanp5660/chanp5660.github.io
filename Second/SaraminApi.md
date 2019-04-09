@@ -10,7 +10,7 @@ library(data.table)#rvest보다 늦게 실행해야 한다.
 Day_Sel <-function(Start_day,End_day){# 개시 시작일 기준
   Start=as.POSIXct(paste0(Start_day," 00:00:00 KST")) # 시작 날짜
   End=as.POSIXct(paste0(End_day," 00:00:00 KST")) # 끝 날짜
-  api_url=paste0(url,"published_min=",Start,"&published_max=",End)
+  api_url=paste0("http://api.saramin.co.kr/job-search?published_min=",Start,"&published_max=",End)
   return(api_url)
 }
 
@@ -50,18 +50,18 @@ Store_keyword <- function(api_url,max_page){
     }
     
     test4 <- rbindlist(test3)#모든 리스트를 데이터프레임 형태로 합쳐준다.
-    write.csv(test4[,c("keyword","salary")],paste0("저장할 ",page,".csv"))
+    write.csv(test4[,c("keyword","salary")],paste0(Down_file,"page_",page,".csv"))
     print(paste(page,"/",(max_page%/%110)))
   }
 }
 
 #### 한 페이지당 최대 110장 읽을 수 있다.
-url = "http://api.saramin.co.kr/job-search?"
+Down_file = "D:/probablity_delete/"
 api_url=Day_Sel("2019-04-04","2019-04-07")#시작날짜, 끝날짜
 total = Total(api_url)
 Store_keyword(api_url,total)
 
-
 ###날짜별로 저장 될 수 있게 만들기
+
 
 ```
