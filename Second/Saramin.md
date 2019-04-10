@@ -1,3 +1,4 @@
+```r
 library(rvest)
 library(dplyr)
 #사람인에 해당하는 공채의 정보를 구하기
@@ -44,3 +45,4 @@ Company_nm
 #범주
 Category
 #고용형태
+```
