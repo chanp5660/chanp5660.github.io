@@ -22,21 +22,18 @@ temp = gsub("</span>$","",temp)
 # Category = strsplit(X , "</span>") # 리스트 형식으로 
 Category = gsub("</span>",",",temp)# strsplit(Category,",")#로 분리 가능
 
-# # 정규직, 계약직, 인턴직  고용형태
-# employment_type = html_data %>% html_nodes(".employment_type") %>% html_text()
-# temp = html_data %>% html_nodes(".company_info") %>%html_text()
-# Delstr ="^\\r\\n                |\\r\\n            $"
-# strsplit(gsub(Delstr,"",temp),"\\r\\n                        ")
-# 
-# temp = html_data %>% html_nodes(".company_info p")
-# (grep("employment",temp)[2:93]-grep("employment",temp)[1:92]-3)/2
-# grep("salary",temp)
-# grep("work_place",temp)
-# temp[1]
-# #
-# 
-# temp = html_data %>% html_nodes(".company_info p")
-# bind_rows(lapply(xml_attrs(temp), function(x) data.frame(as.list(x), stringsAsFactors=FALSE)))
+# 공고 url
+job_url = unique(html_data %>% html_nodes(".str_tit") %>% html_attr("href"))
+#
+
+# 정규직, 계약직, 인턴직  고용형태
+
+#
+
+
+
+
+
 
 #공고 제목
 Title_nm
@@ -44,5 +41,7 @@ Title_nm
 Company_nm
 #범주
 Category
+# 공고 url
+job_url
 #고용형태
 ```
