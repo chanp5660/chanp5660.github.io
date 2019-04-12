@@ -10,8 +10,6 @@ library(plyr)
 library(dplyr)
 library(magrittr)
 
-
-page = 1
 # --------- 해당 페이지의 회사이름,공고제목,범주,url저장 ------- 
 Read_url <- function(page){
   url = paste0("http://www.saramin.co.kr/zf_user/jobs/public/list/page/",page,"?sort=ed&listType=public&public_list_flag=y&page=",page,"#searchTitle")
@@ -47,34 +45,25 @@ Read_url <- function(page){
   return (list("Title_nm"=Title_nm,"Company_nm"=Company_nm,"Category"=Category,"job_url_num"=job_url_num))
 }
 
-Read_url(1)
-Read_url(2)
-
-
-
-
-num = 35994221
-num = 35912962
-
-# ------- num에 해당되는 정보를 html로 저장 ---------
-Store <- function(num){ 
-  #-------------js파일로 실행시킬 내용 저장-----------------------------------------------------------#
+# ---------------------- num에 해당되는 정보를 html로 저장 ---------------
+Save_html <- function(num){ 
+  #------------------- js파일로 실행시킬 내용 저장----------------------------------#
   test = paste0(
-  "var webPage = require('webpage');
-  var page = webPage.create();
-  
-  var fs = require('fs');
-  var path = 'T:/2019-1/bigdataanalysis/project/result/saramin/",num,".html'
-  
-  page.open('http://www.saramin.co.kr/zf_user/jobs/relay/view?isMypage=no&rec_idx=",num,"&recommend_ids=eJxNjbsRQwEIw6ZJj%2FkYU2eQ7L9Fcq8IlDrJ5yh1a%2FJD%2BKvfUYNmxGKBNYsukx3rxLE1MWebBt9YCeCP2UxTbxzUHOTvl7t1s%2BSJZbZHGsfgWGc8%2BAXknC%2Fp&view_type=public-recruit&gz=1&t_ref=public-recruit#seq=0', function (status) {
-  var content = page.content;
-  fs.write(path,content,'w')
-  phantom.exit();
-  });")
+    "var webPage = require('webpage');
+    var page = webPage.create();
+    
+    var fs = require('fs');
+    var path = 'T:/2019-1/bigdataanalysis/project/result/saramin/",num,".html'
+    
+    page.open('http://www.saramin.co.kr/zf_user/jobs/relay/view?isMypage=no&rec_idx=",num,"&recommend_ids=eJxNjbsRQwEIw6ZJj%2FkYU2eQ7L9Fcq8IlDrJ5yh1a%2FJD%2BKvfUYNmxGKBNYsukx3rxLE1MWebBt9YCeCP2UxTbxzUHOTvl7t1s%2BSJZbZHGsfgWGc8%2BAXknC%2Fp&view_type=public-recruit&gz=1&t_ref=public-recruit#seq=0', function (status) {
+    var content = page.content;
+    fs.write(path,content,'w')
+    phantom.exit();
+    });")
   
   writeLines(test, "T:/2019-1/bigdataanalysis/phantomjs-2.1.1-windows/scraping/scrape.js")
   
-  #---------------------html로 저자-----------------------------------------------#
+  #--------------------- html로 저자-----------------------------------------------#
   phantomjs = 'T:/2019-1/bigdataanalysis/phantomjs-2.1.1-windows/bin/phantomjs'
   scrape = "T:/2019-1/bigdataanalysis/phantomjs-2.1.1-windows/scraping/scrape.js"
   exec_scrape = paste(phantomjs, scrape)
@@ -82,16 +71,64 @@ Store <- function(num){
   system(exec_scrape)
 }
 
-# ------- num에 해당되는 데이터 읽기  -----------
+# --------------------- num에 해당되는 데이터 읽기  ------------------------#
 Read_data <- function(num){
   html_data = read_html(paste0('T:/2019-1/bigdataanalysis/project/result/saramin/',num,'.html'))
 }
 
-# ---------------
+# --------------------- html_data에 해당하는 추가정보 불러오기 ---------------#
+Infor1 <- function(html_data){
+  infor_nm = html_data %>% html_nodes(".jview") %>% extract(1) %>% html_nodes(".col") %>% html_nodes("dt") %>% html_text()
+  infor_data= gsub("  |\\n","",html_data %>% html_nodes(".jview") %>% extract(1) %>% html_nodes(".col") %>% html_nodes("dd") %>% html_text())
+  return(list("infor_nm"=infor_nm,"infor_data"=infor_data))
+}
 
-a = html_data %>% html_nodes(".jview") %>% extract(1) %>% html_nodes(".col") %>% html_nodes("dt") %>% html_text()
-b = gsub("  |\\n","",html_data %>% html_nodes(".jview") %>% extract(1) %>% html_nodes(".col") %>% html_nodes("dd") %>% html_text())
-list(a,b)
+# ------------------------------- 조회수, 홈페이지접속 ------------------------------------#
+View_cnt =function(html_data){
+  temp = html_data %>% html_nodes(".jview") %>% extract(1) %>% html_nodes(".meta") %>% html_nodes("li") %>% html_text()
+  temp = strsplit(grep("조회수|홈페이지접속|자사양식다운수",temp,value=T)," ")
+  nm=c()
+  cnt =c()
+  for(i in temp){
+    nm = c(nm,i[1])
+    cnt = c(cnt,i[2])
+  }
+  ##이 부분에서 몇번째짜리 값을 뽑는게 아니라 해당되는 값을 뽑아야함
+  return(list("view_nm"=nm,"view_cnt"=cnt))
+}
+
+# ---------------------------------------------------------수정 중 ----------------------------#
+num = 35994221
+html_data = Read_data(num)
+infor_nm = html_data %>% html_nodes(".jview") %>% extract(1) %>% html_nodes(".col") %>% html_nodes("dt") %>% html_text()
+infor_data= gsub("  |\\n","",html_data %>% html_nodes(".jview") %>% extract(1) %>% html_nodes(".col") %>% html_nodes("dd") %>% html_text())
+
+
+
+#
+#------------------예제 -------------------#
+#url 저장 (카테고리도 여기서 추가)
+page = 1
+Read_url(page)$job_url_num
+page = 2
+Read_url(page)$job_url_num
+
+#html 저장
+num = 35994221
+Save_html(num)
+num = 35912962
+Save_html(num)
+
+#html 실행 후 내용
+### 예제 1
+html_data = Read_data(num)
+Infor1(html_data)
+View_cnt(html_data)
+
+### 예제 2
+html_data = Read_data(num)
+Infor1(html_data)
+View_cnt(html_data)
 
 ```
 
