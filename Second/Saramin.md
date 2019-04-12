@@ -10,6 +10,15 @@ library(plyr)
 library(dplyr)
 library(magrittr)
 
+# 공채중인 총 건수        한 페이지에 100개씩 총개수/100 해서 몫+1만큼 반복 
+Page_total = function(){
+  url = "http://www.saramin.co.kr/zf_user/jobs/public/list?sort=ed&quick_apply=&search_day=&keyword=#listTop"
+  html_data = read_html(url,encoding="UTF-8")
+  page = html_data %>% html_nodes(xpath='//*[@id="content"]/div[4]/div[1]/ul/li/a/strong/span') %>% html_text()
+  page = as.numeric(gsub(",","",page)) %/% 100 +1
+  return(page)
+}
+
 # --------- 해당 페이지의 회사이름,공고제목,범주,url저장 ------- 
 Read_url <- function(page){
   url = paste0("http://www.saramin.co.kr/zf_user/jobs/public/list/page/",page,"?sort=ed&listType=public&public_list_flag=y&page=",page,"#searchTitle")
@@ -76,42 +85,53 @@ Read_data <- function(num){
   html_data = read_html(paste0('T:/2019-1/bigdataanalysis/project/result/saramin/',num,'.html'))
 }
 
-# --------------------- html_data에 해당하는 추가정보 불러오기 ---------------#
+# --------------------- html_data에 해당하는  추가정보 불러오기,  ---------------#
+# ------------------------------- 조회수, 홈페이지접속, 자사양식다운로드 -------------------------#
+# ------------------------------- 회사명, 공고제목, 즐겨찾기 수 -------------------------#
+# ------------------------------- 시작일, 마감ㅇ -------------------------#
 Infor1 <- function(html_data){
-  infor_nm = html_data %>% html_nodes(".jview") %>% extract(1) %>% html_nodes(".col") %>% html_nodes("dt") %>% html_text()
-  infor_data= gsub("  |\\n","",html_data %>% html_nodes(".jview") %>% extract(1) %>% html_nodes(".col") %>% html_nodes("dd") %>% html_text())
-  return(list("infor_nm"=infor_nm,"infor_data"=infor_data))
-}
-
-# ------------------------------- 조회수, 홈페이지접속 ------------------------------------#
-View_cnt =function(html_data){
+  Infor_nm = html_data %>% html_nodes(".jview") %>% extract(1) %>% html_nodes(".col") %>% html_nodes("dt") %>% html_text()
+  Infor_data= gsub("  |\\n","",html_data %>% html_nodes(".jview") %>% extract(1) %>% html_nodes(".col") %>% html_nodes("dd") %>% html_text())
+  temp = html_data %>% html_nodes(".jview") %>% extract(1) %>% html_nodes(xpath='//*[@id="content"]/div[2]/div[1]/div[1]/div[1]/div/a[1]') %>% html_text()
+  Company = gsub("\n|  ","",temp)
+  Title = html_data %>% html_nodes(".jview") %>% extract(1) %>% html_nodes(xpath='//*[@id="content"]/div[2]/div[1]/div[1]/div[1]/div/h1') %>% html_text()
+  Favor = html_data %>% html_nodes(".jview") %>% extract(1) %>% html_nodes(xpath='//*[@id="content"]/div[2]/div[1]/div[1]/div[1]/div/button[2]/span') %>% html_text()
   temp = html_data %>% html_nodes(".jview") %>% extract(1) %>% html_nodes(".meta") %>% html_nodes("li") %>% html_text()
   temp = strsplit(grep("조회수|홈페이지접속|자사양식다운수",temp,value=T)," ")
-  nm=c()
-  cnt =c()
+  view_nm=c()
+  view_cnt =c()
   for(i in temp){
-    nm = c(nm,i[1])
-    cnt = c(cnt,i[2])
+    view_nm = c(view_nm,i[1])
+    view_cnt = c(view_cnt,i[2])
   }
-  ##이 부분에서 몇번째짜리 값을 뽑는게 아니라 해당되는 값을 뽑아야함
-  return(list("view_nm"=nm,"view_cnt"=cnt))
+  Day_start = html_data %>% html_nodes(".jview") %>% extract(1) %>% html_nodes(xpath='//*[@id="content"]/div[2]/div[1]/div[1]/div[4]/div[2]/div/dl/dd[1]') %>% html_text()
+  Day_end = html_data %>% html_nodes(".jview") %>% extract(1) %>% html_nodes(xpath='//*[@id="content"]/div[2]/div[1]/div[1]/div[4]/div[2]/div/dl/dd[2]') %>% html_text()
+  
+  
+  return(list("Company"=Company, "Title"=Title, "Favor"=Favor, "Infor_nm"=Infor_nm, 
+              "Infor_data"=Infor_data, "view_nm"=view_nm, "view_cnt"=view_cnt, 
+              "Day_start"=Day_start, "Day_end"=Day_end))
 }
 
-# ---------------------------------------------------------수정 중 ----------------------------#
-num = 35994221
-html_data = Read_data(num)
-infor_nm = html_data %>% html_nodes(".jview") %>% extract(1) %>% html_nodes(".col") %>% html_nodes("dt") %>% html_text()
-infor_data= gsub("  |\\n","",html_data %>% html_nodes(".jview") %>% extract(1) %>% html_nodes(".col") %>% html_nodes("dd") %>% html_text())
 
+
+# ------------------------------- 수정 중 ----------------------------#
 
 
 #
 #------------------예제 -------------------#
+# 총 몇페이지?
+page = Page_total()
+
+
 #url 저장 (카테고리도 여기서 추가)
 page = 1
 Read_url(page)$job_url_num
 page = 2
 Read_url(page)$job_url_num
+
+Num_data = write.csv()
+
 
 #html 저장
 num = 35994221
@@ -119,16 +139,21 @@ Save_html(num)
 num = 35912962
 Save_html(num)
 
+# len = length(Read_url(page[1])$job_url_num)
+# temp = as.numeric(Read_url(page[1])$job_url_num)
+# for(i in 1:len){
+#   Save_html(temp[i])
+#   Sys.sleep(10)# 한번에 많이 하면 터진다.
+#   print(paste0(i,"/",len))
+# }
+
+
 #html 실행 후 내용
 ### 예제 1
 html_data = Read_data(num)
 Infor1(html_data)
-View_cnt(html_data)
 
-### 예제 2
-html_data = Read_data(num)
-Infor1(html_data)
-View_cnt(html_data)
+
 
 ```
 
