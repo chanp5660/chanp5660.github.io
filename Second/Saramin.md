@@ -19,6 +19,14 @@ Page_total = function(){
   return(page)
 }
 
+# 공고번호 중 추가할 번호 저장,출력 (공고번호는 유일한다고 생각) 원래 번호 중 없으면 추가한다.
+Add_num =function(add){
+  num = read.csv("T:/2019-1/bigdataanalysis/project/result/num_total.txt")[,2]
+  add_num = add[!add %in% num]
+  num=c(num,add_num)
+  write.csv(num,"T:/2019-1/bigdataanalysis/project/result/num_total.txt")
+  return(add_num)
+}
 # --------- 해당 페이지의 회사이름,공고제목,범주,url저장 ------- 
 Read_url <- function(page){
   url = paste0("http://www.saramin.co.kr/zf_user/jobs/public/list/page/",page,"?sort=ed&listType=public&public_list_flag=y&page=",page,"#searchTitle")
@@ -125,12 +133,14 @@ page = Page_total()
 
 
 #url 저장 (카테고리도 여기서 추가)
-page = 1
-Read_url(page)$job_url_num
-page = 2
-Read_url(page)$job_url_num
-
-Num_data = write.csv()
+num=c()
+for(i in 1:page){
+  num=unique(c(num,Read_url(i)$job_url_num))
+}
+write.csv(num,"T:/2019-1/bigdataanalysis/project/result/num_total.txt")
+num2 = read.csv("T:/2019-1/bigdataanalysis/project/result/num_total.txt")[,2]
+str(num2)
+#없는 숫자만 찾아서 데이터를 저장 시키면 된다.
 
 
 #html 저장
@@ -139,19 +149,24 @@ Save_html(num)
 num = 35912962
 Save_html(num)
 
-# len = length(Read_url(page[1])$job_url_num)
-# temp = as.numeric(Read_url(page[1])$job_url_num)
-# for(i in 1:len){
-#   Save_html(temp[i])
-#   Sys.sleep(10)# 한번에 많이 하면 터진다.
-#   print(paste0(i,"/",len))
-# }
-
+len = length(Read_url(page)$job_url_num)
+temp = as.numeric(Read_url(page)$job_url_num)
+for(i in 1:len){
+  Save_html(temp[i])
+  Sys.sleep(25)# 한번에 많이 하면 터진다.
+  print(paste0(i,"/",len))
+}
+for(i in 55:50){
+  Save_html(temp[i])
+  Sys.sleep(10)# 한번에 많이 하면 터진다.
+  print(paste0(i,"/",len))
+}
 
 #html 실행 후 내용
 ### 예제 1
 html_data = Read_data(num)
 Infor1(html_data)
+
 
 
 
