@@ -10,6 +10,8 @@ library(plyr)
 library(dplyr)
 library(magrittr)
 
+
+
 # 공채중인 총 건수        한 페이지에 100개씩 총개수/100 해서 몫+1만큼 반복 
 Page_total = function(){
   url = "http://www.saramin.co.kr/zf_user/jobs/public/list?sort=ed&quick_apply=&search_day=&keyword=#listTop"
@@ -19,7 +21,23 @@ Page_total = function(){
   return(page)
 }
 
-# 공고번호 중 추가할 번호 저장,출력 (공고번호는 유일한다고 생각) 원래 번호 중 없으면 추가한다.
+### 공고 번호 처음 저장 했는지 안했는지 구분 가능(물론 처음에는 한번 다 성공 해놔야함) 이미 한번 해둠!! 기억만 해두자 
+{ # page = Page_total()
+  # num=c()
+  # for(i in 1:page){
+  #   num=unique(c(num,Read_url(i)$job_url_num))
+  # }
+  # write.csv(num,"T:/2019-1/bigdataanalysis/project/result/num_total.txt")
+}
+
+# === 처음에 공고번호가 다 사용 되었는지만 확인.하고 삭제. 다음부터는 밑의 번호만 있으면 됨. 또 저장 시키는 걸 방지 (출력, 없는 번호만 출력)
+ExistCheck_num = function(num){
+  temp = list.files(path="T:/2019-1/bigdataanalysis/project/result/saramin", pattern = NULL)
+  exist_num = gsub(".html","",temp)
+  return(num[!num %in% exist_num])
+}
+
+# 공고번호 중 추가할 번호 저장,출력 (공고번호는 유일한다고 생각) 원래 번호 중 없으면 추가한다. (출력번호를 추가하면 됨)
 Add_num =function(add){
   num = read.csv("T:/2019-1/bigdataanalysis/project/result/num_total.txt")[,2]
   add_num = add[!add %in% num]
@@ -27,6 +45,7 @@ Add_num =function(add){
   write.csv(num,"T:/2019-1/bigdataanalysis/project/result/num_total.txt")
   return(add_num)
 }
+
 # --------- 해당 페이지의 회사이름,공고제목,범주,url저장 ------- 
 Read_url <- function(page){
   url = paste0("http://www.saramin.co.kr/zf_user/jobs/public/list/page/",page,"?sort=ed&listType=public&public_list_flag=y&page=",page,"#searchTitle")
@@ -132,14 +151,8 @@ Infor1 <- function(html_data){
 page = Page_total()
 
 
-#url 저장 (카테고리도 여기서 추가)
-num=c()
-for(i in 1:page){
-  num=unique(c(num,Read_url(i)$job_url_num))
-}
-write.csv(num,"T:/2019-1/bigdataanalysis/project/result/num_total.txt")
-num2 = read.csv("T:/2019-1/bigdataanalysis/project/result/num_total.txt")[,2]
-str(num2)
+
+
 #없는 숫자만 찾아서 데이터를 저장 시키면 된다.
 
 
@@ -149,6 +162,7 @@ Save_html(num)
 num = 35912962
 Save_html(num)
 
+page = 1
 len = length(Read_url(page)$job_url_num)
 temp = as.numeric(Read_url(page)$job_url_num)
 for(i in 1:len){
@@ -166,6 +180,9 @@ for(i in 55:50){
 ### 예제 1
 html_data = Read_data(num)
 Infor1(html_data)
+
+
+
 
 
 
