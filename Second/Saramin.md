@@ -150,8 +150,15 @@ Infor1 <- function(html_data){
 # 총 몇페이지?
 page = Page_total()
 
-
-
+# 날짜 
+temp = html_data %>% html_nodes(".jview") %>% extract(1) %>% html_nodes(".info_period") %>% html_children() %>% html_text()
+Name = c()
+Time = c()
+for(i in 1:length(temp)){
+  if(i%%2==1)Name = c(Name,temp[i])
+  else Time = c(Time,temp[i])
+}
+list(Name,Time)
 
 #없는 숫자만 찾아서 데이터를 저장 시키면 된다.
 
@@ -163,27 +170,22 @@ num = 35912962
 Save_html(num)
 
 page = 1
-len = length(Read_url(page)$job_url_num)
-temp = as.numeric(Read_url(page)$job_url_num)
-for(i in 1:len){
-  Save_html(temp[i])
-  Sys.sleep(25)# 한번에 많이 하면 터진다.
-  print(paste0(i,"/",len))
-}
-for(i in 55:50){
+temp = Read_url(page)$job_url_num
+temp = ExistCheck_num(temp)
+
+for(i in 1:length(temp)){
   Save_html(temp[i])
   Sys.sleep(10)# 한번에 많이 하면 터진다.
-  print(paste0(i,"/",len))
+  print(paste0(i,"/",length(temp)))
 }
+
 
 #html 실행 후 내용
 ### 예제 1
+num = 35994221
+num = 35912962
 html_data = Read_data(num)
 Infor1(html_data)
-
-
-
-
 
 
 
