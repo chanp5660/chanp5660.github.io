@@ -14,15 +14,13 @@
 ## 실제 과정
 
 ### 데이터를 가져와야하는 사이트 사진1
-[사람인의 공채의 명가](http://www.saramin.co.kr/zf_user/jobs/public/list)
 ![공채의 명가](https://user-images.githubusercontent.com/46266247/56227133-b98bc900-60af-11e9-9eb6-ccc56489f59c.JPG)
 ### 데이터를 가져와야하는 사이트 사진2
 ![공고1](https://user-images.githubusercontent.com/46266247/56227194-db854b80-60af-11e9-9ed3-b2854bfe92b8.JPG)
 * * *
 ![공고2](https://user-images.githubusercontent.com/46266247/56227197-dd4f0f00-60af-11e9-8c58-1e4cebc10496.JPG)
+[사람인의 공채의 명가](http://www.saramin.co.kr/zf_user/jobs/public/list)
 
-
-[R코드](https://github.com/chanp5660/chanp5660/blob/master/Second/Saramin.R)
 ### 과정
 - 'PantomJs' 프로그램을 사용해서 html 파일로 저장.
 ![JShtml](https://user-images.githubusercontent.com/46266247/56230134-9d3f5a80-60b6-11e9-9398-fa49e08fa2f1.png)
@@ -32,7 +30,7 @@
 - Html 파일을 'rvest' 패키지를 사용해서 읽는다.
   - 필요한 정보들을 rvest와 gsub, grep, gregexpr, strsplit등 텍스트를 다루는 함수, match, Sys.sleep, write.csv등 그 외의 필요한 함수들을 사용하여 분류하여 저장.
 - 데이터를 500개씩 나누어 저장.[csv파일](https://github.com/chanp5660/chanp5660/tree/master/Result/saramin_csv)
-
+[R코드](https://github.com/chanp5660/chanp5660/blob/master/Second/Saramin.R)
 
 ## 이번 느낀점
 '사람인'을 사이트를 크롤링 할 때 R언어를 사용해서 JS로 작성된 html을 저장하고 html 읽은 후 문자열을 보기 좋게 수정 후에 분류하는 과정까지 생각보다 까다로워서 시간이 많이 들었습니다. 아직 비슷한 다른 사이트의 정보도 얻어야 하기 때문에 시간이 좀 더 필요하다고 생각합니다. 한 번 해봤기 때문에 전보다는 좀 더 빠를 것입니다. 그동안 만들어진 데이터를 사용만 해보았습니다. 이번에는 직접 정리가 잘 되어 있는 데이터를 만드는 것으로 이 과정이 정말 중요한 것이라고 다시한번 생각하게 되었습니다.
