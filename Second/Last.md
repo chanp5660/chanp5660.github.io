@@ -4,7 +4,7 @@
 
 * * *
 
-## 사람인 [R코드](https://github.com/chanp5660/chanp5660/blob/master/Second/Saramin.R)
+## 사람인
 - 자바스크립트로 이루어져있어 [phantomjs](http://phantomjs.org/download.html) 프로그램을 이용하여 html 파일로 저장한다.
 - html을 **rvest** 패키지를 이용해서 크롤링
   - 총 페이지의 수를 구함
@@ -21,10 +21,17 @@
 * * *
 ![공고2](https://user-images.githubusercontent.com/46266247/56227197-dd4f0f00-60af-11e9-8c58-1e4cebc10496.JPG)
 
-### PantomJs 프로그램을 사용해서 html 파일로 저장
+
+[R코드](https://github.com/chanp5660/chanp5660/blob/master/Second/Saramin.R)
+### 과정
+- 'PantomJs' 프로그램을 사용해서 html 파일로 저장.
 ![JShtml](https://user-images.githubusercontent.com/46266247/56230134-9d3f5a80-60b6-11e9-9398-fa49e08fa2f1.png)
-
-
+  - 총 개수, 총 페이지수를 구해서 모든 공고의 상세보기 URL 번호 저장. [num_total.txt파일](https://github.com/chanp5660/chanp5660/blob/master/Result/num_total.txt)
+    - ```http://www.saramin.co.kr/zf_user/jobs/relay/view?isMypage=no&rec_idx=```**36015093**```&recommend_ids=eJxVzrsNgFAMQ9Fp6F%2FifGsGYf8tgM4uj65iBXUyzP0p86tvfAQmmFstjGRmghlrTNdqWq1l6vuE6LspjGHOSG3IbZ39%2BQKwQS%2BW&view_type=public-recruit&gz=1&t_ref=public-recruit#seq=0```
+  - 해당 URL을 이용해서 각 html 파일로 저장.[Html파일](https://github.com/chanp5660/chanp5660/tree/master/Result/saramin)
+- Html 파일을 'rvest' 패키지를 사용해서 읽는다.
+  - 필요한 정보들을 rvest와 gsub, grep, gregexpr, strsplit등 텍스트를 다루는 함수, match, Sys.sleep, write.csv등 그 외의 필요한 함수들을 사용하여 분류하여 저장.
+- 데이터를 500개씩 나누어 저장.[csv파일](https://github.com/chanp5660/chanp5660/tree/master/Result/saramin_csv)
 
 
 ## 이번 느낀점
