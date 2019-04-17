@@ -53,15 +53,6 @@ Read_url <- function(page){
   return (list("Title_nm"=Title_nm,"Company_nm"=Company_nm,"Category"=Category,"job_url_num"=job_url_num))
 }
 
-### 공고 번호 처음 저장 했는지 안했는지 구분 가능(물론 처음에는 한번 다 성공 해놔야함) 이미 한번 해둠!! 기억만 해두자 
-{ # page = Page_total()
-  # num=c()
-  # for(i in 1:page){
-  #   num=unique(c(num,Read_url(i)$job_url_num))
-  # }
-  # write.csv(num,"T:/2019-1/bigdataanalysis/project/result/num_total.txt")
-}
-
 # === 사용되지 않는 공고번호 출력   => 한번 다 하고 나면 삭제-------------------------------------- #
 ExistCheck_num = function(num){
   temp = list.files(path="T:/2019-1/bigdataanalysis/project/result/saramin", pattern = NULL)
@@ -103,7 +94,12 @@ Save_html <- function(num){
   
   system(exec_scrape)
 }
-
+# for(i in 1:length(num)){ # 반복하는 방법
+#   Save_html(num[i])
+#   Sys.sleep(10)# 한번에 많이 하면 터진다.
+#   print(paste0(i,"/",length(num)))
+#   if(i%%10==0)Sys.sleep(60)
+# }
 
 # ------------------------------------------------------------------------------------------------- #
 # ------------------------------------------------------------------------------------------------- #
@@ -121,9 +117,9 @@ Read_data <- function(num){
 Infor1 <- function(html_data){
   # -------------------------      추가정보      --------------------#
   Infor_nm = html_data %>% html_nodes(".jview") %>% extract(1) %>% html_nodes(".col") %>% html_nodes("dt") %>% html_text()
-  Infor_data= gsub("  |\\n","",html_data %>% html_nodes(".jview") %>% extract(1) %>% html_nodes(".col") %>% html_nodes("dd") %>% html_text())
-  temp = html_data %>% html_nodes(".jview") %>% extract(1) %>% html_nodes(xpath='//*[@id="content"]/div[2]/div[1]/div[1]/div[1]/div/a[1]') %>% html_text()
+  Infor_data= gsub("  |\\n|상세보기|닫기","",html_data %>% html_nodes(".jview") %>% extract(1) %>% html_nodes(".col") %>% html_nodes("dd") %>% html_text())
   # ------------------------------- 회사명, 공고제목, 즐겨찾기 수 -------------------------#
+  temp = html_data %>% html_nodes(".jview") %>% extract(1) %>% html_nodes(xpath='//*[@id="content"]/div[2]/div[1]/div[1]/div[1]/div/a[1]') %>% html_text()
   Company = gsub("\n|  ","",temp)
   Title = html_data %>% html_nodes(".jview") %>% extract(1) %>% html_nodes(xpath='//*[@id="content"]/div[2]/div[1]/div[1]/div[1]/div/h1') %>% html_text()
   Favor = html_data %>% html_nodes(".jview") %>% extract(1) %>% html_nodes(xpath='//*[@id="content"]/div[2]/div[1]/div[1]/div[1]/div/button[2]/span') %>% html_text()
@@ -144,21 +140,106 @@ Infor1 <- function(html_data){
     if(i%%2==1)Time_nm = c(Time_nm,temp[i])
     else Time = c(Time,temp[i])
   }
+  temp = t(c(Company,Title,Favor,view_cnt,Infor_data,Time))
+  colnames(temp)=c("회사명","공고제목","즐겨찾기 수",view_nm,Infor_nm,Time_nm)
+  return(temp)
+}
+
+#-------------------------num 에 해당하는 html정보들을 csv파일로 저장.----------------------------- #
+Make_data_nm <- function(L,name){
+  # L은 nm,과 data가 들어있는 리스트이다.
+  # name에 맞추어 없는 name에는 빈칸을 넣는다.
+  temp = t(1:length(name))
+  Index = match(colnames(L),name)
+  temp[Index] = L
+  temp[-Index]=NA
+  return(temp)
+}
+Make_data_sub <- function(name,num,start=1){
+  stop=start
+  for(i in start:length(num)){
+    try({
+      #실제 데이터
+      L = Infor1(Read_data(num[i]))
+      #데이터 저장
+      one_data = Make_data_nm(L,name)
+      stop=i
+      print(paste0(i,"/",length(num)))
+      break 
+    })
+  }
+  return(list(one_data,stop))
+}# Make_data를 돕기 위한 데이터
+Make_data <- function(num){
+  # 속성으로 정할 name
+  name =read.csv("T:/2019-1/bigdataanalysis/project/result/all_nm.txt",stringsAsFactors = F)[,2]
   
-  return(list("Company"=Company, "Title"=Title, "Favor"=Favor, "Infor_nm"=Infor_nm, 
-              "Infor_data"=Infor_data, "view_nm"=view_nm, "view_cnt"=view_cnt, 
-              "Time_nm"=Time_nm, "Time"=Time))
+  one_row = Make_data_sub(name,num)#데이터 첫행 설정
+  one_data = one_row[[1]]
+  start = one_row[[2]]+1
+  Last_num = TRUE
+  #나머지 데이터를 추가 
+  for(i in start:length(num)){
+    try({
+      Last_num = TRUE
+      #실제 데이터
+      L = Infor1(Read_data(num[i]))
+      # 데이터로 변환
+      temp = Make_data_nm(L,name)
+      #데이터 저장
+      one_data = rbind(one_data,temp)
+      
+      #500개 넘어갈때마다 랜덤 제목으로 저장 
+      if(nrow(one_data)>=500){
+        print(paste0(i,"/",length(num)," csv파일로 저장"))#어디까지 성공했는지
+        colnames(one_data)=name
+        write.csv(one_data,paste0("T:/2019-1/bigdataanalysis/project/result/saramin_csv/",round(runif(1)*100000),".csv"))
+        i=i+1
+        one_row = Make_data_sub(name,num,i)#데이터 첫행 설정
+        one_data = one_row[[1]]
+        start = one_row[[2]]+1
+        print(paste0(i,"/",length(num)))#어디까지 성공했는지
+        Last_num = FALSE
+      }else{
+        print(paste0(i,"/",length(num)))#어디까지 성공했는지
+      }
+    })
+  }
+  
+  # 500속하지 않는 부분 저장
+  if(Last_num){
+    colnames(one_data)=name
+    write.csv(one_data,paste0("T:/2019-1/bigdataanalysis/project/result/saramin_csv/",round(runif(1)*100000),".csv"))
+    print("남은 부분까지 저장 완료")
+  }
+}
+
+# ------------------------------------------------------------------------------------------------- #
+# ------------------------------------------------------------------------------------------------- #
+# ------------------------------------------------------------------------------------------------- #
+# -------------------------------- 실제로 데이터 저장 --------------------------------------------- #
+
+num = gsub(".html","",list.files(path="T:/2019-1/bigdataanalysis/project/result/saramin", pattern = NULL))
+name = read.csv("T:/2019-1/bigdataanalysis/project/result/all_nm.txt",stringsAsFactors = F)[,2]
+
+name = c()
+for(i in 1:length(num)){
+  data = Infor1(Read_data(num[i]))
+  name = unique(c(name,colnames(data)))
+  print(paste0(i,"/",length(num)))
+}
+
+L = list()
+for(i in 1:length(num)){
+  try({
+  L = c(L,list(Infor1(Read_data(num[i]))))
+  print(paste0(i,"/",length(num)))
+  })
 }
 
 
 
-
-
-
-
-
-
-
+#
 
 
 
@@ -182,38 +263,7 @@ for(i in 1:page){
 num # 데이터를 저장해야 되는 정보 
 
 
-for(i in 1:length(num)){
-  Save_html(num[i])
-  Sys.sleep(10)# 한번에 많이 하면 터진다.
-  print(paste0(i,"/",length(num)))
-  if(i%%10==0)Sys.sleep(60)
-}
-
-#html 저장
-num = 35994221
-Save_html(num)
-num = 35912962
-Save_html(num)
-
-page = 1
-temp = Read_url(page)$job_url_num
-temp = ExistCheck_num(temp)
-
-for(i in 1:length(temp)){
-  Save_html(temp[i])
-  Sys.sleep(10)# 한번에 많이 하면 터진다.
-  print(paste0(i,"/",length(temp)))
-  if(i%%10==0)Sys.sleep(100)
-}
 
 
-#html 실행 후 내용
-### 예제 1
-num = 35994221
-num = 35912962
-html_data = Read_data(num)
-Infor1(html_data)
 
-num = 35994221
-html_data = Read_data(num)
-html_data %>% html_nodes("")
+
