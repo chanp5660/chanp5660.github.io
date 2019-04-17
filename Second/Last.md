@@ -57,24 +57,4 @@
 워크넷(고용노동부) 사이트까지 자동화 시키는 것.(한개의 사이트로는 부족하다고 생각.)
 각 사이트마다 형태가 다를 텐데 그 분류를 비슷하게 하여 가능한 색인이 잘 되게 만들어야겠다.
 
-# 재구현 가능한 R코드[이동](https://github.com/chanp5660/chanp5660/blob/master/Second/Saramin.R)
-
-```r
-# ----- 라이브러리 ----- #
-library(rvest)
-library(stringr)
-library(plyr)
-library(dplyr)
-library(magrittr)
-
-# ---- 첫 화면에서 총 개수 가져오기  ----- #
-url = "http://www.saramin.co.kr/zf_user/jobs/public/list"
-html_data = read_html(url,encoding="UTF-8")
-doc_cnt = html_data %>% html_nodes(xpath='//*[@id="content"]/div[4]/div[1]/ul/li/a/strong/span') %>% html_text()
-doc_cnt = as.numeric(gsub(",","",doc_cnt))
-doc_cnt
-
-
-
-
-```
+# R코드[이동](https://github.com/chanp5660/chanp5660/blob/master/Second/Saramin.R)
