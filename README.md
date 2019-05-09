@@ -3,13 +3,27 @@
 <br>
 <br>
 
-# 가능 언어
+# 활용 가능한 언어
 
-**C++**
+### [C/C++](https://github.com/chanp5660/C_chanp5660)
 
-**Java**
+### [Java](https://github.com/chanp5660/Java_chanp5660)
 
-**R**
+### [Python](https://github.com/chanp5660/Python_chanp5660)
+
+### [R](https://github.com/chanp5660/R_chanp5660)
+
+# 관련된 기능 설명 및 예제
+
+Github
+, Xshell
+, Atom
+, Eclipse
+, Visual studio
+, R studio
+, Spider
+
+
 
 
 
