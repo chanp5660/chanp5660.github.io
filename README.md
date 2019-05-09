@@ -22,6 +22,10 @@ Github
 , Visual studio
 , R studio
 , Spider
+, Task Scheduler
+, Putty
+, Unix(Ubuntu)
+
 
 
 
