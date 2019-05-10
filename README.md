@@ -44,6 +44,7 @@ Github
 , Unix(Ubuntu)
 , Excel
 , Powerpoint
+, Octoparse
 
 # 들었던 수업
 
@@ -60,7 +61,7 @@ Github
 
 그 외
 
-> 집합론, 중앙은행의
+> 집합론, 중앙은행의이론과실제
 
 
 # 폴더 설명
