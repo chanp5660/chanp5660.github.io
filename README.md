@@ -48,7 +48,7 @@ Github
 , Powerpoint
 , Octoparse
 
-# 들었던 수업
+#  수업
 
 컴퓨터 관련
 
