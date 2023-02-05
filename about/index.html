@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Document Settings -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Base Meta -->
+    <!-- dynamically fixing the title for tag/author pages -->
+
+
+
+    <title>머신러닝 엔지니어 박찬 기술 블로그</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Styles'n'Scripts -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.edited.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
+    
+    <!-- custom.css -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/custom.css" />
+    
+    <!--  Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">    
+    
+    <!-- 웹폰트 추가 -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css">    
+    
+    <!-- syntax.css 추가 -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css">  
+    
+    <!-- highlight.js -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+    <style>.hljs { background: none; }</style>
+
+    <!--[if IE]>
+        <style>
+            p, ol, ul{
+                width: 100%;
+            }
+            blockquote{
+                width: 100%;
+            }
+        </style>
+    <![endif]-->
+    
+    <!-- This tag outputs SEO meta+structured data and other important settings -->
+    <meta name="description" content="오늘 공부한 내용은 오늘 정리하자" />
+    <link rel="shortcut icon" href="http://localhost:4000/assets/built/images/favicon.jpg" type="image/png" />
+    <link rel="canonical" href="http://localhost:4000/about/" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+
+     <!--title below is coming from _includes/dynamic_title-->
+    <meta property="og:site_name" content="Today I Learned" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="머신러닝 엔지니어 박찬 기술 블로그" />
+    <meta property="og:description" content="## 블로그 주요 내용 - 논문 - 논문 이해를 위한 수학 지식 - 구현을 위한 코딩 능력 - 인공지능(머신러닝, 딥러닝) 이론 지식 - 개발적 역량(Docker, Linux, git) - 도메인 관련 지식 - 프로젝트 # 이력서 --- > 생년월일 : 1995.11.26 이메일 : chanp5660@naver.com 블로그 : https://chanp5660.github.io/ ## 기술 > Python," />
+    <meta property="og:url" content="http://localhost:4000/about/" />
+    <meta property="og:image" content="http://localhost:4000/assets/built/images/blog-cover.jpg" />
+    <meta property="article:publisher" content="https://www.facebook.com/" />
+    <meta property="article:author" content="https://www.facebook.com/" />
+    <meta property="article:published_time" content="" />
+    <meta property="article:modified_time" content="" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="머신러닝 엔지니어 박찬 기술 블로그" />
+    <meta name="twitter:description" content="## 블로그 주요 내용 - 논문 - 논문 이해를 위한 수학 지식 - 구현을 위한 코딩 능력 - 인공지능(머신러닝, 딥러닝) 이론 지식 - 개발적 역량(Docker, Linux, git) - 도메인 관련 지식 - 프로젝트 # 이력서 --- > 생년월일 : 1995.11.26 이메일 : chanp5660@naver.com 블로그 : https://chanp5660.github.io/ ## 기술 > Python," />
+    <meta name="twitter:url" content="http://localhost:4000/" />
+    <meta name="twitter:image" content="http://localhost:4000/assets/built/images/blog-cover.jpg" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="Today I Learned" />
+    <meta name="twitter:site" content="@" />
+    <meta name="twitter:creator" content="@" />
+    <meta property="og:image:width" content="1400" />
+    <meta property="og:image:height" content="933" />
+
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Website",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Today I Learned",
+        "logo": "http://localhost:4000/"
+    },
+    "url": "http://localhost:4000/about/",
+    "image": {
+        "@type": "ImageObject",
+        "url": "http://localhost:4000/assets/built/images/blog-cover.jpg",
+        "width": 2000,
+        "height": 666
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://localhost:4000/about/"
+    },
+    "description": "## 블로그 주요 내용 - 논문 - 논문 이해를 위한 수학 지식 - 구현을 위한 코딩 능력 - 인공지능(머신러닝, 딥러닝) 이론 지식 - 개발적 역량(Docker, Linux, git) - 도메인 관련 지식 - 프로젝트 # 이력서 --- > 생년월일 : 1995.11.26 이메일 : chanp5660@naver.com 블로그 : https://chanp5660.github.io/ ## 기술 > Python,"
+}
+    </script>
+
+    <!-- <script type="text/javascript" src="https://demo.ghost.io/public/ghost-sdk.min.js?v=724281a32e"></script>
+    <script type="text/javascript">
+    ghost.init({
+    	clientId: "ghost-frontend",
+    	clientSecret: "f84a07a72b17"
+    });
+    </script> -->
+
+    <meta name="generator" content="Jekyll 3.6.2" />
+    <link rel="alternate" type="application/rss+xml" title="머신러닝 엔지니어 박찬 기술 블로그" href="/feed.xml" />
+
+
+</head>
+<body class="page-template">
+
+    <div class="site-wrapper">
+        <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
+        <!-- < default -->
+<!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template -->
+
+<!-- The big featured header, it uses blog cover image as a BG if available -->
+<header class="site-header outer">
+    <div class="inner">
+        <nav class="site-nav">
+    <div class="site-nav-left">
+        
+            
+                <a class="site-nav-logo" href="http://localhost:4000/">Today I Learned</a>
+            
+        
+        
+            <ul class="nav" role="menu">
+    <li class="nav-home" role="menuitem"><a href="/">Home</a></li>
+    <li class="nav-about" role="menuitem"><a href="/about/">About</a></li>
+    <li class="nav-python" role="menuitem"><a href="/tag/project/">Project</a></li>
+    <li class="nav-python" role="menuitem"><a href="/tag/deeplearning/">Deep-Learning</a></li>
+    <li class="nav-python" role="menuitem"><a href="/tag/python/">Python</a></li>
+    <li class="nav-github" role="menuitem"><a href="/tag/github/">Github</a></li>
+    <li class="nav-github" role="menuitem"><a href="/tag/exitem/">EX-item</a></li>
+
+    
+    
+    <li class="nav-archive" role="menuitem"><a href="/archive.html">All Posts</a></li>
+    <li class="nav-archive" role="menuitem"><a href="/author_archive.html">Tag별 Posts</a></li>
+</ul>
+        
+    </div>
+    <div class="site-nav-right">
+        <div class="social-links">
+            
+            
+        </div>
+        
+            <a class="subscribe-button" href="#subscribe">Search</a>
+        
+    </div>
+</nav>
+
+    </div>
+</header>
+
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
+<main id="site-main" class="site-main outer" role="main">
+    <div class="inner">
+
+        <article class="post-full  post page no-image">
+
+            <header class="post-full-header">
+                <h1 class="post-full-title">머신러닝 엔지니어 박찬 기술 블로그</h1>
+            </header>
+
+            
+
+            <section class="post-full-content">
+                <h2 id="블로그-주요-내용">블로그 주요 내용</h2>
+
+<ul>
+  <li>논문
+    <ul>
+      <li>논문 이해를 위한 수학 지식</li>
+      <li>구현을 위한 코딩 능력</li>
+    </ul>
+  </li>
+  <li>인공지능(머신러닝, 딥러닝) 이론 지식</li>
+  <li>개발적 역량(Docker, Linux, git)</li>
+  <li>도메인 관련 지식</li>
+  <li>프로젝트</li>
+</ul>
+
+<h1 id="이력서">이력서</h1>
+<hr />
+
+<blockquote>
+  <p>생년월일 : 1995.11.26<br />
+이메일 : chanp5660@naver.com<br />
+블로그 : https://chanp5660.github.io/</p>
+</blockquote>
+
+<h2 id="기술">기술</h2>
+
+<blockquote>
+  <p>Python, Git, Github, Jupyter</p>
+</blockquote>
+
+<div style="position: relative; left: 20px; top: 5px;">
+    
+<img alt="Python" src="https://img.shields.io/badge/Python-3776AB.svg?&amp;style=for-the-badge&amp;logo=Python&amp;logoColor=white" /> 
+    
+<img alt="Git" src="https://img.shields.io/badge/Git-F05032.svg?&amp;style=for-the-badge&amp;logo=Git&amp;logoColor=white" />
+    
+<img alt="Github" src="https://img.shields.io/badge/github-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" />
+    
+<img alt="Jupyter" src="https://img.shields.io/badge/Jupyter-F37626.svg?&amp;style=for-the-badge&amp;logo=Jupyter&amp;logoColor=white" /> 
+
+</div>
+
+<h2 id="학력">학력</h2>
+
+<blockquote>
+  <p>전북대학교 대학원/ 석사 수료<br />
+2020년 03월 - 2022년 2월, 전주<br />
+학과 : 전자.정보공학부(컴퓨터공학)<br />
+전공 : 정보처리/데이터마이닝</p>
+</blockquote>
+
+<blockquote>
+  <p>전북대학교 / 학사 졸업<br />
+2014년 03월 - 2020년 02월, 전주<br />
+주전공 : 통계학과<br />
+부전공 : 컴퓨터공학부</p>
+</blockquote>
+
+<h2 id="병역-사항">병역 사항</h2>
+
+<blockquote>
+  <p>의무경찰 만기 전역<br />
+2015년 04월 - 2017년 01월</p>
+</blockquote>
+
+<h2 id="논문">논문</h2>
+
+<blockquote>
+  <p>박찬, &amp; 이경순. (2020). 농산물 가격변동 데이터 특이치 탐지. 한국정보과학회 학술발표논문집, 565-567.<br />
+https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE10529713</p>
+</blockquote>
+
+<blockquote>
+  <p>Park, C., &amp; Lee, K. S. (2020). Named Entity Recognition for Analyzing Factors of Agrifood Price Fluctuation. In Annual Conference on Human and Language Technology (pp. 347-350). Human and Language Technology.<br />
+https://koreascience.kr/article/CFKO202030060856861.page</p>
+</blockquote>
+
+<h2 id="프로젝트">프로젝트</h2>
+<hr />
+
+<h3 id="범부처-협업-클라우드-혁신사례-창출사업-2020년2021년">범부처 협업 클라우드 혁신사례 창출사업 (2020년~2021년)</h3>
+<ul>
+  <li><strong>목적</strong> : 관련 업체들의 협업으로 전북 로컬푸드에 정보를 제공 및 예측하여 재고의 손해를 줄이는 것</li>
+  <li><strong>맡은 부분</strong> : 온라인 &amp; 소셜 미디어 데이터 기반 가격 예측 서비스</li>
+</ul>
+
+<h4 id="농산물-가격변동-데이터-특이치-탐지-2020년">농산물 가격변동 데이터 특이치 탐지 (2020년)</h4>
+
+<ul>
+  <li><strong>목적</strong> : 다른 시계열 데이터와는 보다 농산물 가격변동에 대한 특이치는 중요한 정보이다. 특이치 부분을 어떻게 찾을지 어떤 특징들이 있는지 알아보고  향후 연구에서 농산물 가격을 예측하는데 도움을 준다.</li>
+  <li><strong>방법</strong> : 가격 데이터의 특징을 통해 <strong>시계열 분석</strong>을 하고 계절, 월별 등으로 데이터를 나누는 등 <strong>특이치 탐지</strong> 방법을 찾는다.</li>
+</ul>
+
+<h4 id="소셜-미디어-농산품-가격변동요인-탐지를-위한-지식-구축-2020년">소셜 미디어 농산품 가격변동요인 탐지를 위한 지식 구축 (2020년)</h4>
+
+<ul>
+  <li>관련 사이트들을 <strong>웹 스크랩핑</strong>하여 <strong>데이터 수집</strong></li>
+  <li><strong>문서 유사도</strong> 및 <strong>토픽 모델링</strong>을 통해 레시피의 식재료 사이의 <strong>상호 관계 파악</strong>(상호정보량PMI)</li>
+</ul>
+
+<p><img src="https://user-images.githubusercontent.com/46266247/216518076-f92fc2b9-c3ff-47d2-8c62-76e371877e6d.png" width="65%" height="50%" /></p>
+
+<h4 id="농산물-가격변동요인-탐지를-위한-형태소분석-및-개체명-추출-2020년">농산물 가격변동요인 탐지를 위한 형태소분석 및 개체명 추출 (2020년)</h4>
+
+<ul>
+  <li>
+    <p>농산물 문서에 대한 <strong>형태소분석</strong>과 <strong>개체명 인식</strong>을 통해 새로운 문서에 대한 개체명을 추출한다. 향후 인과관계를 추출을 위한 과정이다.</p>
+  </li>
+  <li>
+    <p>농산물 개체명 태그 정의 일부
+<img src="https://user-images.githubusercontent.com/46266247/216519216-654d835a-22ae-4879-b4e0-5ba989e9a7fc.png" width="30%" height="30%" /></p>
+  </li>
+  <li>
+    <p>인과관계 탬플릿 일부분 발췌
+<img src="https://user-images.githubusercontent.com/46266247/216519230-2f9ed57d-b11f-4156-93af-3efdba7539f6.png" width="30%" height="30%" /></p>
+  </li>
+  <li>
+    <p>개체명인식 예
+<img src="https://user-images.githubusercontent.com/46266247/216519241-1b15ad23-4cbf-4319-9636-89782ad76509.png" width="30%" height="30%" /></p>
+  </li>
+</ul>
+
+<h3 id="소셜-미디어-빅카인즈-트위터-토픽-모델링--lda-2020년">소셜 미디어( 빅카인즈, 트위터) 토픽 모델링- LDA (2020년)</h3>
+<ul>
+  <li>목적 :  빅카인즈와 트위터에서 LDA를 이용하여 해마다 어떤 토픽으로 나뉘는지 특징을 살펴본다.<br />
+첨부링크,,,, 블로그에 추가하여 넣는다.</li>
+</ul>
+
+<h3 id="따릉이-자전거-구역-추가-달리구-2019년">따릉이 자전거 구역 추가 (달리구) (2019년)</h3>
+<ul>
+  <li>목적 : 서울 따릉이 데이터를 분석하여 전주에 자전거 설치에 대한 정보를 제공하기 위해</li>
+  <li>맡은 부분 : 데이터 수집 및 분석</li>
+</ul>
+
+<h1 id="자기소개서">자기소개서</h1>
+
+<p>머신러닝 엔지니어 신입으로 지원합니다.</p>
+
+<h2 id="전공">전공</h2>
+<ul>
+  <li>학부 : 통계학과(전공), 컴퓨터공학부(부전공) 졸업</li>
+  <li>석사 : 컴퓨터공학부(정보처리데이터마이닝) 수료</li>
+</ul>
+
+<h2 id="데이터에-의미를-붙이고-의심하게-되다">데이터에 의미를 붙이고 의심하게 되다.</h2>
+<p>통계학 수업 중 모의 엘포인트 빅데이터 경진대회(5회)에서 쇼핑몰 고객의 카드 소비내역 데이터를 분석하는 팀프로젝트가 맡았습니다. 분석하는 부분을 맡아 실제 데이터를 통해 의미를 찾아가는 과정을 접하면서 흥미가 생겼습니다. 연령대, 요일에 따른 소비패턴은 한국의 소비패턴과 비슷했지만 성별에 대한 해석에 문제가 있다는 것을 알게 되었습니다. 단순히 보면 성별에 따라서 큰 차이가 없었는데 “남성과 여성의 소비패턴이 비슷하다” 라고 해석하는 것보다는 남,여가 구분되어 있지만 실제 이용 고객은 여성인 주부가 주를 이루고 남성의 카드를 이용했다는 것이 더욱 의미있는 추론이라는 결론을 가지게 되었습니다. 처음으로 제게 주어진 데이터를 의심해야한다는 계기가 되었고 분석하고 의미를 붙일 때 가장 중요하게 생각하는 부분입니다.</p>
+
+<h2 id="통계에-컴퓨터를-더하다">통계에 컴퓨터를 더하다</h2>
+<p>통계학 머신러닝 수업 중 캐글(Kaggle) 플랫폼에서 “House Prices” 집, 주변의 정보의 데이터를 이용해 집 값을 예측하는 팀프로젝트를 하였습니다. 기존에 경험했던 통계적 기법을 사용하여 적은 데이터로 추론하며 근거를 찾아가며 진행했었다면 Python Scikit-Learn 라이브러리를 이용하여 데이터를 근거로 추론하는 것에 흥미를 느끼게 되었습니다. 그래서 컴퓨터 기술을 배울 필요를 느끼게 되었고 부전공으로 컴퓨터공학부를 하게 되었습니다. 이 경험이 제겐 통계적 기법과 컴퓨터 기술이 협력하게 되는 계기가 되었습니다.</p>
+
+<h2 id="전문-분야가-늘어나다">전문 분야가 늘어나다</h2>
+<p>석사 연구를 할 때 주로 농식품 관련 텍스트와 가격 데이터를 다루었습니다. 텍스트에 관해서는 새로운 용어들(출하, 반입, 작목, 햇, 파종 등)에 대한 평소에 접하지 못해던 부분에 공부를 해야 데이터를 해석할 수 있어 농산물 관련 사이트 KAMIS, 남도장터 등을 참고하여 쓰이는 용어를 배웠습니다. 가격 데이터의 변동을 해석하기 위해서는 각 품목에 대한 정보(심는 시기, 재배 시기 등)이 중요했습니다. 그 외에도 심어져 있는 시기의 기상 정보, 병충해 정보, 전년도의 재고, 올해의 출하량에 관련된 정보들도 가격 데이터를 해석하기에 필요한 정보들이었습니다. 다른 도메인을 공부할수록 더욱 의미있는 결과를 도출할 수 있다는 것을 배울 수 있었습니다.</p>
+
+<h2 id="의사소통에-대해-배우다">의사소통에 대해 배우다</h2>
+<p>석사생 때 학교와 기관이 협업하는 프로젝트에 참여하면서 메일의 답장을 이용한 기록 방법으로 여러 프로젝트를 하더라도 헷갈리지 않고 진행할 수 있었던 방법, 회의 내용을 보고서 형식으로 기록해 다음 회의에서 자연스럽게 이어질 수 있는 방법 등 비즈니스적인 소통 방법에 대해서 배울 수 있었습니다.</p>
+
+<hr />
+<h2 id="나는-옳은-선택을-하는게-아니라-내가-선택한-것을-옳게-만든다">나는 옳은 선택을 하는게 아니라, 내가 선택한 것을 옳게 만든다.</h2>
+<ul>
+  <li>가장 좋아하는 문장으로 내가 선택한 것에 의심하지 말고 자신감을 가지고 그 선택을 옳게 만들어가는 과정만 있으므로 후회할 시간에 선택한 것에 최선을 다하는 것이 좋다고 생각합니다.</li>
+  <li>현재 나를 있게 해준 나의 선택 : 통계학과, 부전공 컴퓨터공학부, 대학원 컴퓨터공학부(정보처리데이터마이닝), 1년간 휴식, 의무경찰, 태권도 4단</li>
+</ul>
+
+<hr />
+
+<ul>
+  <li>현재 내가 하고 있는것 추가</li>
+</ul>
+
+<p>사이트 참조</p>
+<ul>
+  <li>잡코리아</li>
+</ul>
+
+<p>최신 이슈 관련해서 본인의 생각을 적어본다.</p>
+
+
+            </section>
+
+        </article>
+
+    </div>
+</main>
+
+<!-- /post -->
+
+<!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs -->
+<script>
+$(function() {
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+});
+</script>
+
+
+
+        <!-- Previous/next page links - displayed on every page -->
+        
+
+        <!-- The footer at the very bottom of the screen -->
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="http://localhost:4000/">Today I Learned</a> &copy; 2023</section>
+                <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> &
+                    <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> using
+                    <a href="https://github.com/jekyllt/jasper2" target="_blank" rel="noopener">Jasper2</a></section>
+                <nav class="site-footer-nav">
+                    <a href="/">Latest Posts</a>
+                    
+                    
+                    <a href="https://ghost.org" target="_blank" rel="noopener">Ghost</a>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- The big email subscribe modal content -->
+    
+        <div id="subscribe" class="subscribe-overlay">
+            <a class="subscribe-overlay-close" href="#"></a>
+            <div class="subscribe-overlay-content">
+                
+                <h1 class="subscribe-overlay-title">Search Today I Learned</h1>
+                <p class="subscribe-overlay-description">
+                lunr.js를 이용한 posts 검색 </p>
+                <span id="searchform" method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  />
+    <input class="location" type="hidden" name="location"  />
+    <input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" onkeyup="myFunc()" 
+               id="searchtext" type="text" name="searchtext"  
+               placeholder="Search..." />
+    </div>
+    <script type="text/javascript">
+        function myFunc() {
+            if(event.keyCode == 13) {
+                var url = encodeURIComponent($("#searchtext").val());
+                location.href = "/search.html?query=" + url;
+            }
+        }
+    </script>
+</span>
+            </div>
+        </div>
+    
+
+    <!-- highlight.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
+    <script>$(document).ready(function() {
+      $('pre code').each(function(i, block) {
+        hljs.highlightBlock(block);
+      });
+    });</script>
+
+    <!-- jQuery + Fitvids, which makes all video embeds responsive -->
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="https://demo.ghost.io/assets/js/jquery.fitvids.js?v=724281a32e"></script>
+
+
+    <!-- Paginator increased to "infinit" in _config.yml -->
+    <!-- if paginator.posts  -->
+    <!-- <script>
+        var maxPages = parseInt('');
+    </script>
+    <script src="/assets/js/infinitescroll.js"></script> -->
+    <!-- /endif -->
+
+    
+
+
+    <!-- Add Google Analytics  -->
+    <!-- Google Analytics Tracking code -->
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-32300574-2', 'auto');
+  ga('send', 'pageview');
+
+ </script>
+
+
+    <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
+    
+        <script>
+$(function() {
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+});
+</script>
+
+    
+
+    <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
+    <!-- ghost_foot -->
+
+</body>
+</html>

@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
+  <link href="http://localhost:4000/tag/github/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2023-02-06T08:50:59+09:00</updated>
+  <id>http://localhost:4000/tag/github/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">Today I Learned | </title>
+  
+
+  
+    <subtitle>오늘 공부한 내용은 오늘 정리하자</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Git-version 변경</title>
+      <link href="http://localhost:4000/Git-version-%EB%B3%80%EA%B2%BD" rel="alternate" type="text/html" title="Git-version 변경" />
+      <published>2022-07-18T12:50:00+09:00</published>
+      <updated>2022-07-18T12:50:00+09:00</updated>
+      <id>http://localhost:4000/Git-version%20%EB%B3%80%EA%B2%BD</id>
+      <content type="html" xml:base="http://localhost:4000/Git-version-%EB%B3%80%EA%B2%BD">&lt;h1 id=&quot;git-version-변경&quot;&gt;Git-version 변경&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;본인 블로그(&lt;a href=&quot;https://chanp5660.github.io&quot;&gt;chanp5660.github.io&lt;/a&gt;) 에 서브모듈을 통해 빌드를 자동화 하고 싶었는데 Travis가 유료 프로그램으로 변경되면서 &lt;a href=&quot;https://moon9342.github.io/&quot;&gt;참조블로그&lt;/a&gt; 를 따라 하다가 블로그가 업로드 되지 않는 문제가 생겼다. &lt;br /&gt;
+&lt;strong&gt;도르마무&lt;/strong&gt;가 생각났지만… 현실은 과거를 후회하는 일반인이므로 이성적으로 생각했다.
+왠걸 최근에 git에 문제가 생긴 폴더를 업로드 해놓은 생각이 들었다.&lt;br /&gt;
+따라서 &lt;strong&gt;git 장점인 버전관리&lt;/strong&gt; 즉, git을 이용해 업로드가 잘 되었던 상황으로 돌아가기로 했다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;준비
+    &lt;ul&gt;
+      &lt;li&gt;github 가입 https://chanp5660.github.io/가입-및-프로필&lt;/li&gt;
+      &lt;li&gt;git 설치 https://taewow.tistory.com/13&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;git-push가-여러번일때&quot;&gt;git push가 여러번일때&lt;/h2&gt;
+
+&lt;p&gt;– 수정 중 –&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="github" />
+      
+
+      
+        <summary type="html">Git-version 변경</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Github-가입 및 프로필</title>
+      <link href="http://localhost:4000/Github-%EA%B0%80%EC%9E%85-%EB%B0%8F-%ED%94%84%EB%A1%9C%ED%95%84" rel="alternate" type="text/html" title="Github-가입 및 프로필" />
+      <published>2022-07-18T12:50:00+09:00</published>
+      <updated>2022-07-18T12:50:00+09:00</updated>
+      <id>http://localhost:4000/Github-%EA%B0%80%EC%9E%85%20%EB%B0%8F%20%ED%94%84%EB%A1%9C%ED%95%84</id>
+      <content type="html" xml:base="http://localhost:4000/Github-%EA%B0%80%EC%9E%85-%EB%B0%8F-%ED%94%84%EB%A1%9C%ED%95%84">&lt;h1 id=&quot;github-가입-및-프로필&quot;&gt;Github-가입 및 프로필&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Git을 공유하거나 온라인에 보관하기 위해서는 꼭 필요한 Github&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;가입&quot;&gt;가입&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Github 회원가입  &lt;a href=&quot;https://github.com/signup?source=login&quot;&gt;Github-signup&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;가입 이메일,비밀번호 및 닉네임 작성&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;닉네임으로 겉으로 보이는 상황이 많으므로 신경 써주는게 좋다.&lt;/li&gt;
+      &lt;li&gt;가입 이메일로 인증코드가 가면 따라 입력해주면 된다.&lt;/li&gt;
+      &lt;li&gt;나머지 설정은 필요할 때 추가하면 되므로 넘어가도 좋다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/179445700-c4339721-92b4-4207-997a-a125bfc79288.png&quot; width=&quot;70%&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;처음 화면에서 왼쪽에 초록색 버튼으로 Create repository 를 클릭해준다.
+    &lt;ul&gt;
+      &lt;li&gt;repository는 하나의 저장소로 하나의 계정으로 주제, 프로젝트 등 상황에 따라 계속 추가할 수 있다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/179446085-b476256a-873a-438d-9f94-ce6898810fa3.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;아이디를 본인의 닉네임을 또 적어준다. 프로필이 될 ReadMe 파일을 추가해준다.
+    &lt;ul&gt;
+      &lt;li&gt;깃허브에서는 특정 아이디 형식에 따라 다른 환경을 제공해주기도 한다.
+        &lt;ul&gt;
+          &lt;li&gt;닉네임/닉네임 : 깃허브 프로필에 보여지는 readme를 제공한다.&lt;/li&gt;
+          &lt;li&gt;닉네임/닉네임.github.io : 깃허브 블로그 링크를 제공하므로 다음에 githubio 블로그를 만든다면 해당 repository에 저장해서 이용하면 된다.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Add a ReadMe file 을 클릭해주어 repository 생성 시 자동으로 추가될 수 있도록 한다.&lt;/li&gt;
+      &lt;li&gt;가장 아래 부분에 create repository를 클릭해준다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/179446481-fda04930-3363-4645-b400-c4d3ac7fba1e.png&quot; width=&quot;80%&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;“https://github.com/본인닉네임” 주소로 이동하면 결과 확인 가능하고 오른쪽 연필 모양으로 내용 수정 가능&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/179446977-d710c92c-bdc6-4faf-a7f9-f1a865c0ca90.png&quot; width=&quot;80%&quot; /&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="github" />
+      
+
+      
+        <summary type="html">Github-가입 및 프로필</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">깃허브블로그(2)-목차추가</title>
+      <link href="http://localhost:4000/%EA%B9%83%ED%97%88%EB%B8%8C%EB%B8%94%EB%A1%9C%EA%B7%B8(2)-%EB%AA%A9%EC%B0%A8%EC%B6%94%EA%B0%80" rel="alternate" type="text/html" title="깃허브블로그(2)-목차추가" />
+      <published>2022-07-17T02:08:00+09:00</published>
+      <updated>2022-07-17T02:08:00+09:00</updated>
+      <id>http://localhost:4000/%EA%B9%83%ED%97%88%EB%B8%8C%EB%B8%94%EB%A1%9C%EA%B7%B8(2)-%EB%AA%A9%EC%B0%A8%EC%B6%94%EA%B0%80</id>
+      <content type="html" xml:base="http://localhost:4000/%EA%B9%83%ED%97%88%EB%B8%8C%EB%B8%94%EB%A1%9C%EA%B7%B8(2)-%EB%AA%A9%EC%B0%A8%EC%B6%94%EA%B0%80">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;깃허브 블로그 포스팅&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./깃허브블로그(1)-ipynb포스팅&quot;&gt;깃허브블로그(1)-ipynb포스팅&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./깃허브블로그(2)-목차추가&quot;&gt;깃허브블로그(2)-목차추가&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./깃허브블로그(3)-깃허브업데이트&quot;&gt;깃허브블로그(3)-깃허브업데이트&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;깃허브블로그2-목차추가&quot;&gt;깃허브블로그(2)-목차추가&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;어떤 사람들이 필요한 블로그인가?&lt;br /&gt;
+    - 포스팅 된 글의 시리즈를 가질 때 목차 설정하는 방법&lt;br /&gt;
+    - 기존 준비 : &lt;a href=&quot;https://moon9342.github.io/&quot;&gt;https://moon9342.github.io/&lt;/a&gt; 블로그의 깃허브 블로그를 생성한 사람, 같은 주제로 포스팅된 글이 2개 이상 있어야 한다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;목차-구성-html-파일-생성&quot;&gt;목차 구성 HTML 파일 생성&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;root/_includes 폴더에 저장 ( 다른폴더에 해도 된다. )&lt;/li&gt;
+  &lt;li&gt;제목의 형식은 따로 없지만 블로그에 목차가 여러개이면 헷갈릴 수 있으므로 본인의 형식을 정하는 것도 좋다.
+    &lt;ul&gt;
+      &lt;li&gt;예시 : 형식이 “주제-table-of-contents.html” 이면 본 블로그 목차라면 “githubblog-table-of-contens.html”로 지정한다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;아래 내용으로 html 내용을 채워준다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;table-of-contents-list&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;table-of-contents-list&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;./python-basic&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Python 강좌(1) - Python 기본&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;./python-control-statement&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Python 강좌(2) - Python 제어문&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;href 부분에는 포스팅 된 글의 날짜를 제외한 제목이다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;./python-basic&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Python 강좌(1) - Python 기본&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;css-style-추가&quot;&gt;CSS style 추가&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;한번만 설정하면 되는 것으로 처음하는 사람은 &lt;a href=&quot;https://moon9342.github.io/jekyll-struct&quot;&gt;https://moon9342.github.io/jekyll-struct&lt;/a&gt; 를 참조&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;post안에-html-링크-추가&quot;&gt;post안에 html 링크 추가&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;포스트 안에 원하는 목차 위치에 해당 문구를 추가하면 된다.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;형식&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/179366362-a4392897-8b0b-4b0b-b64f-66e63b8ea3da.png&quot; width=&quot;30%&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;예시&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/179366390-f000ca7d-4f08-4173-9585-78e4b653e86f.png&quot; width=&quot;50%&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;결과&quot;&gt;결과&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/179365355-379624c4-101b-4021-8d3d-70c8abdd294c.png&quot; width=&quot;70%&quot; /&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="github" />
+      
+
+      
+        <summary type="html">깃허브 블로그 포스팅 깃허브블로그(1)-ipynb포스팅 깃허브블로그(2)-목차추가 깃허브블로그(3)-깃허브업데이트</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">깃허브블로그(1)-ipynb포스팅</title>
+      <link href="http://localhost:4000/%EA%B9%83%ED%97%88%EB%B8%8C%EB%B8%94%EB%A1%9C%EA%B7%B8(1)-ipynb%ED%8F%AC%EC%8A%A4%ED%8C%85" rel="alternate" type="text/html" title="깃허브블로그(1)-ipynb포스팅" />
+      <published>2022-07-17T02:08:00+09:00</published>
+      <updated>2022-07-17T02:08:00+09:00</updated>
+      <id>http://localhost:4000/%EA%B9%83%ED%97%88%EB%B8%8C%EB%B8%94%EB%A1%9C%EA%B7%B8(1)-ipynb%ED%8F%AC%EC%8A%A4%ED%8C%85</id>
+      <content type="html" xml:base="http://localhost:4000/%EA%B9%83%ED%97%88%EB%B8%8C%EB%B8%94%EB%A1%9C%EA%B7%B8(1)-ipynb%ED%8F%AC%EC%8A%A4%ED%8C%85">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;깃허브 블로그 포스팅&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./깃허브블로그(1)-ipynb포스팅&quot;&gt;깃허브블로그(1)-ipynb포스팅&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./깃허브블로그(2)-목차추가&quot;&gt;깃허브블로그(2)-목차추가&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./깃허브블로그(3)-깃허브업데이트&quot;&gt;깃허브블로그(3)-깃허브업데이트&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;깃허브블로그1-ipynb포스팅&quot;&gt;깃허브블로그(1)-ipynb포스팅&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;어떤 사람들이 필요한 블로그인가?&lt;br /&gt;
+    - ipynb형식 포스팅을 하려고 하는 사람  &lt;br /&gt;
+    - 기존 준비 : githubio 블로그, jekell 테마 사용하는 사람, ipynb 형식 파일을 만들 수 있는 사람&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;ipynb-파일-생성&quot;&gt;ipynb 파일 생성&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;jekell 포스팅 형태에서는 ipynb 파일 이름이 yyyy-mm-dd-제목.ipynb 형식으로 저장한다.&lt;/li&gt;
+  &lt;li&gt;예를 들어 본 블로그는 “2022-07-16-깃허브블로그(1)-ipynb포스팅.ipynb” 으로 생성한다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ipynb-to-md-in-jupyterlab&quot;&gt;ipynb to md in jupyterlab&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;githubio 포스팅은 md(markdown)형식으로 포스팅을 해야하므로 ipynb 형식을 md 형식으로 변경해주어야한다.&lt;/li&gt;
+  &lt;li&gt;jupyter lab에서는 해당 파일을 실행 후 File =&amp;gt; Save and Export Notebook As… =&amp;gt; Markdown 을 클릭하면 로컬 다운로드에 md 파일로 생성된다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/179354050-316fed8c-9080-456b-bc11-11cbe8d462de.png&quot; width=&quot;50%&quot; /&gt; &lt;img src=&quot;https://user-images.githubusercontent.com/46266247/179354094-02898f8f-392b-4c5c-945b-f21b167b91d7.png&quot; width=&quot;20%&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;ipynb-to-md-in-command-anaconda-prompt&quot;&gt;ipynb to md in command, Anaconda Prompt&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;nbconvert&lt;/strong&gt; 는 ipynb(jupyter notebook) 파일 형식을 markdown 파일로 변경할 때 사용할 수 있는 프로그램이다.&lt;/li&gt;
+  &lt;li&gt;설치(본인이 설치되는 걸로 아무거나 해도 된다.)
+    &lt;ul&gt;
+      &lt;li&gt;pip install nbconvert&lt;/li&gt;
+      &lt;li&gt;conda install nbconvert&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;jupyter nbconvert –to markdown [ipynb형식 파일 이름]
+    &lt;ul&gt;
+      &lt;li&gt;예시 : jupyter nbconvert –to markdown “2022-07-16-깃허브블로그(1)-ipynb포스팅.ipynb”&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;같은 폴더에 같은 이름으로 md 파일이 생성된다.&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="github" />
+      
+
+      
+        <summary type="html">깃허브 블로그 포스팅 깃허브블로그(1)-ipynb포스팅 깃허브블로그(2)-목차추가 깃허브블로그(3)-깃허브업데이트</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">깃허브블로그(3)-깃허브업데이트</title>
+      <link href="http://localhost:4000/%EA%B9%83%ED%97%88%EB%B8%8C%EB%B8%94%EB%A1%9C%EA%B7%B8(3)-%EA%B9%83%ED%97%88%EB%B8%8C%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8" rel="alternate" type="text/html" title="깃허브블로그(3)-깃허브업데이트" />
+      <published>2022-07-17T02:08:00+09:00</published>
+      <updated>2022-07-17T02:08:00+09:00</updated>
+      <id>http://localhost:4000/%EA%B9%83%ED%97%88%EB%B8%8C%EB%B8%94%EB%A1%9C%EA%B7%B8(3)-%EA%B9%83%ED%97%88%EB%B8%8C%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8</id>
+      <content type="html" xml:base="http://localhost:4000/%EA%B9%83%ED%97%88%EB%B8%8C%EB%B8%94%EB%A1%9C%EA%B7%B8(3)-%EA%B9%83%ED%97%88%EB%B8%8C%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;깃허브 블로그 포스팅&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./깃허브블로그(1)-ipynb포스팅&quot;&gt;깃허브블로그(1)-ipynb포스팅&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./깃허브블로그(2)-목차추가&quot;&gt;깃허브블로그(2)-목차추가&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./깃허브블로그(3)-깃허브업데이트&quot;&gt;깃허브블로그(3)-깃허브업데이트&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;깃허브블로그3-깃허브업데이트&quot;&gt;깃허브블로그(3)-깃허브업데이트&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;어떤 사람들이 필요한 블로그인가?&lt;br /&gt;
+    - 로컬에서 수정된 내용들을 깃허브에 업데이트 해야하는 사람 &lt;br /&gt;
+    - 기존 준비 : &lt;a href=&quot;https://moon9342.github.io/&quot;&gt;https://moon9342.github.io/&lt;/a&gt; 블로그의 깃허브 블로그를 생성한 사람, 로컬에서 해당 블로그를 수정한 사람&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;로컬에서-블로그-정리&quot;&gt;로컬에서 블로그 정리&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;command 에서 블로그 폴더 위치에서 실행을 한번 해준다&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;jekyll serve
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;블로그-업로드&quot;&gt;블로그 업로드&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;업로드할 블로그 폴더 위치에서 git bash를 연다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/179364479-38110f95-5984-405c-b624-3e0d5b6ef754.png&quot; width=&quot;50%&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;아래 명령어를 순서대로 입력한다.
+    &lt;ul&gt;
+      &lt;li&gt;git add -A  : 변경된 내용을 staging Area로 보내주는 역할 &lt;a href=&quot;https://june98.tistory.com/23&quot;&gt;https://june98.tistory.com/23&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;git commit -m “업데이트 내용” : 변경된 내용을 실제 저장하는 역할로 업데이트한 내용을 메모와 함께 저장할 수 있다.&lt;/li&gt;
+      &lt;li&gt;git push origin master : commit으로 저장된 내용을 업로드 하여 실제 내용을 바꾼다.( 본인의 브런치가 main 일수로 master일수도 있으니 확인해야한다. )
+        &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  git add &lt;span class=&quot;nt&quot;&gt;-A&lt;/span&gt;
+  git commit &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;깃허브블로그_업데이트&quot;&lt;/span&gt;
+  git push origin master
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;결과&quot;&gt;결과&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;깃허브에 업로드 된 후 5분 이내로 블로그가 변경된다.
+&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/179365549-46137ecd-26d2-4bef-87ca-b2dee1b9286e.png&quot; width=&quot;80%&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="github" />
+      
+
+      
+        <summary type="html">깃허브 블로그 포스팅 깃허브블로그(1)-ipynb포스팅 깃허브블로그(2)-목차추가 깃허브블로그(3)-깃허브업데이트</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">깃허브 블로그 따라하기 유투브</title>
+      <link href="http://localhost:4000/%EA%B9%83%ED%97%88%EB%B8%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%84%A4%EC%A0%95-%EB%B0%8F-%EC%88%98%EC%A0%95" rel="alternate" type="text/html" title="깃허브 블로그 따라하기 유투브" />
+      <published>2022-07-14T02:08:00+09:00</published>
+      <updated>2022-07-14T02:08:00+09:00</updated>
+      <id>http://localhost:4000/%EA%B9%83%ED%97%88%EB%B8%8C%20%EB%B8%94%EB%A1%9C%EA%B7%B8%20%EC%84%A4%EC%A0%95%20%EB%B0%8F%20%EC%88%98%EC%A0%95</id>
+      <content type="html" xml:base="http://localhost:4000/%EA%B9%83%ED%97%88%EB%B8%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%84%A4%EC%A0%95-%EB%B0%8F-%EC%88%98%EC%A0%95">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;깃허브 블로그 포스팅&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./깃허브블로그(1)-ipynb포스팅&quot;&gt;깃허브블로그(1)-ipynb포스팅&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./깃허브블로그(2)-목차추가&quot;&gt;깃허브블로그(2)-목차추가&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./깃허브블로그(3)-깃허브업데이트&quot;&gt;깃허브블로그(3)-깃허브업데이트&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;깃허브-블로그-따라하기-유투브&quot;&gt;깃허브 블로그 따라하기 유투브&lt;/h1&gt;
+&lt;p&gt;https://www.youtube.com/watch?v=2ClW2LdqP30 유투브&lt;/p&gt;
+
+&lt;p&gt;https://moon9342.github.io/jekyll-start 사이트&lt;/p&gt;
+
+&lt;h2 id=&quot;jekyll-기반의-github-page-생성1---환경설정&quot;&gt;Jekyll 기반의 GitHub Page 생성(1) - 환경설정&lt;/h2&gt;
+&lt;p&gt;https://www.youtube.com/watch?v=2ClW2LdqP30&lt;/p&gt;
+
+&lt;h2 id=&quot;jekyll-기반의-github-page-생성2---블로그-수정-영상-환경설정파일-수정&quot;&gt;Jekyll 기반의 GitHub Page 생성(2) - 블로그 수정 영상 (환경설정파일 수정)&lt;/h2&gt;
+&lt;p&gt;https://www.youtube.com/watch?v=OO5IZrx1ZVE&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;posts에 date 끝네 +0900 을 붙여야 업데이트가 된다.&lt;/li&gt;
+  &lt;li&gt;gulp 명령어가 실행이 안되면 터미널에 npm install –global gulp-cli 를 실행&lt;/li&gt;
+  &lt;li&gt;rough 테마 종류 보는 사이트 : https://spsarolkar.github.io/rouge-theme-preview/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;-&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="github" />
+      
+
+      
+        <summary type="html">깃허브 블로그 포스팅 깃허브블로그(1)-ipynb포스팅 깃허브블로그(2)-목차추가 깃허브블로그(3)-깃허브업데이트</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">깃허브 블로그 추천 테마</title>
+      <link href="http://localhost:4000/%EA%B9%83%ED%97%88%EB%B8%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%84%A4%EC%B9%98" rel="alternate" type="text/html" title="깃허브 블로그 추천 테마" />
+      <published>2022-07-14T02:08:00+09:00</published>
+      <updated>2022-07-14T02:08:00+09:00</updated>
+      <id>http://localhost:4000/%EA%B9%83%ED%97%88%EB%B8%8C%20%EB%B8%94%EB%A1%9C%EA%B7%B8%20%EC%84%A4%EC%B9%98</id>
+      <content type="html" xml:base="http://localhost:4000/%EA%B9%83%ED%97%88%EB%B8%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%84%A4%EC%B9%98">&lt;h1 id=&quot;깃허브-블로그-추천-테마&quot;&gt;깃허브 블로그 추천 테마&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;http://jekyllthemes.org/&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;https://jekyll-themes.com/free/&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;여기에서 minimalistic&lt;br /&gt;
+  https://jekyll-themes.com/jekyll-theme-minimalistic/&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;블로그-기본-변경&quot;&gt;블로그 기본 변경&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;_config.yml 수정
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;프로필 이미지 수정 
+  &lt;img src=&quot;https://user-images.githubusercontent.com/46266247/178733264-9c4d49e6-3698-4096-8da4-16318de6f27a.jpg&quot; alt=&quot;dog-gdd132e1b0_1920&quot; /&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;파비콘 수정 (favicon, 탭에 뜨는 이미지 설정)
+  https://velog.io/@eona1301/Github-Blog-%ED%8C%8C%EB%B9%84%EC%BD%98Favicon-%EC%84%B8%ED%8C%85%ED%95%98%EA%B8%B0&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;블로그-주소-설정&quot;&gt;블로그 주소 설정&lt;/h1&gt;
+
+&lt;p&gt;https://ahnslab.com/21-how-to-start-github-blog/&lt;/p&gt;
+
+&lt;h1 id=&quot;쉽고-빠르게-github-블로그&quot;&gt;쉽고 빠르게 GitHub 블로그&lt;/h1&gt;
+&lt;p&gt;https://dreamgonfly.github.io/blog/jekyll-remote-theme/&lt;/p&gt;
+
+&lt;h1 id=&quot;개인-로컬-환경windows에서-github-blog-with-jekyll-세팅하기&quot;&gt;개인 로컬 환경(windows)에서 GitHub Blog With jekyll 세팅하기&lt;/h1&gt;
+
+&lt;p&gt;https://rerewww.github.io/setting/setting-jekyll-blog/&lt;/p&gt;
+
+&lt;h1 id=&quot;git-git-bash-연동&quot;&gt;git Git bash 연동&lt;/h1&gt;
+
+&lt;p&gt;https://transferhwang.tistory.com/160&lt;/p&gt;
+
+&lt;h1 id=&quot;minimal-mistakes-를-적용한-github-page-만들기&quot;&gt;Minimal Mistakes 를 적용한 Github Page 만들기&lt;/h1&gt;
+&lt;p&gt;https://pnurep.github.io/blogging/github-page-minimal-mistakes/#&lt;/p&gt;
+
+&lt;h1 id=&quot;깃허브-블로그-따라하기-유투브&quot;&gt;깃허브 블로그 따라하기 유투브&lt;/h1&gt;
+
+&lt;p&gt;https://www.youtube.com/watch?v=2ClW2LdqP30  유투브&lt;/p&gt;
+
+&lt;p&gt;https://moon9342.github.io/jekyll-start 사이트&lt;/p&gt;
+
+&lt;h2 id=&quot;jekyll-실행-시킬-때-require-cannot-load-such-file--webrick-loaderror-오류가-난다면-bundle-add-webrick&quot;&gt;jekyll 실행 시킬 때 `require’: cannot load such file – webrick (LoadError) 오류가 난다면 bundle add webrick&lt;/h2&gt;
+&lt;p&gt;https://junho85.pe.kr/1850&lt;/p&gt;
+
+&lt;h1 id=&quot;주피터-노트북에서-md-파일-보기&quot;&gt;주피터 노트북에서 MD 파일 보기&lt;/h1&gt;
+&lt;p&gt;JupyterLab markdown rendering&lt;br /&gt;
+https://www.youtube.com/watch?v=eQsRlqK-z1c&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="github" />
+      
+
+      
+        <summary type="html">깃허브 블로그 추천 테마</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">깃허브 ipynb 업로드 방법</title>
+      <link href="http://localhost:4000/GITupload" rel="alternate" type="text/html" title="깃허브 ipynb 업로드 방법" />
+      <published>2022-07-07T02:08:00+09:00</published>
+      <updated>2022-07-07T02:08:00+09:00</updated>
+      <id>http://localhost:4000/GITupload</id>
+      <content type="html" xml:base="http://localhost:4000/GITupload">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;깃허브 블로그 포스팅&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./깃허브블로그(1)-ipynb포스팅&quot;&gt;깃허브블로그(1)-ipynb포스팅&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./깃허브블로그(2)-목차추가&quot;&gt;깃허브블로그(2)-목차추가&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./깃허브블로그(3)-깃허브업데이트&quot;&gt;깃허브블로그(3)-깃허브업데이트&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;깃허브-ipynb-업로드-방법&quot;&gt;깃허브 ipynb 업로드 방법&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;가정&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Git 아이디가 생성&lt;/li&gt;
+  &lt;li&gt;저장소 하나이상 생성&lt;/li&gt;
+  &lt;li&gt;아나콘다 가상환경 및 jupyter lab, Git 설치&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;1-깃허브-사이트에서-연동할-주소를-가져오기&quot;&gt;1. 깃허브 사이트에서 연동할 주소를 가져오기&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;아래 사진에서 HTTPs 버튼 클릭 후 오른쪽에 있는 복사 버튼을 클릭하면 URL이 복사가 됨&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/177748644-6bfc159a-777c-495d-aa2d-4e31037245f9.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;추가 참조 (https://www.lainyzine.com/ko/article/how-to-link-github-remote-repository-and-local-git-repository/)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;2-변경하거나-추가하는-방법&quot;&gt;2. 변경하거나 추가하는 방법&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;반복된 업데이트 명령어(컴퓨터 -&amp;gt; git)
+    &lt;ul&gt;
+      &lt;li&gt;하루 처음 명령어
+        &lt;ul&gt;
+          &lt;li&gt;init : git init&lt;/li&gt;
+          &lt;li&gt;branch : git branch -m main&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;계속 반복적으로 작성해주어야 하는 명령어
+        &lt;ul&gt;
+          &lt;li&gt;add : git add -A&lt;/li&gt;
+          &lt;li&gt;commit : git commit -m “저장할 메시지”&lt;/li&gt;
+          &lt;li&gt;push : git push origin master&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;반복된 업데이트 명령어(git -&amp;gt; 컴퓨터)
+    &lt;ul&gt;
+      &lt;li&gt;pull : git pull&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;추가 참조 (https://www.lainyzine.com/ko/article/how-to-link-github-remote-repository-and-local-git-repository/)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;3-ipynb-을-업로드-하는-방법&quot;&gt;3. ipynb 을 업로드 하는 방법&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;검색해봤지만 기존 파일로 바로 업로드 하는 방법을 찾지 못함&lt;/li&gt;
+  &lt;li&gt;jupyter lab 에서 markdown 파일로 저장 후 _posts 에 저장해서 업로드 함&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;4-이미지-파일-업로드&quot;&gt;4. 이미지 파일 업로드&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;따로 업로드가 안되기 때문에 git의 issue를 이용하거나 이미지 폴더를 이용해서 연결함&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;5-git-upload-batch-파일-만들기&quot;&gt;5. git upload batch 파일 만들기&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;git init 그리고 git remote 로 원격 설정이 되어 있는 상태에서는 앞으로 계속 add, commit, push 를 통해 버전 업을 해주어야한다.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;편의성을 위해 commit message만 입력 받으면 자동으로 add, commit, push가 되도록 배치파일을 생성한다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;먼저 .git 파일이 있는 곳으로 이동해주고나서 나머지 명령어들이 실행되어야 하므로 아래와 같은 코드를 “파일제목.bat” 로 만들어준다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;set&lt;/span&gt; /p &lt;span class=&quot;nv&quot;&gt;message&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;commit message 입력해주세요  :  &quot;&lt;/span&gt;
+call &lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;C:&lt;span class=&quot;se&quot;&gt;\U&lt;/span&gt;sers&lt;span class=&quot;se&quot;&gt;\t&lt;/span&gt;kd8484&lt;span class=&quot;se&quot;&gt;\D&lt;/span&gt;esktop&lt;span class=&quot;se&quot;&gt;\c&lt;/span&gt;hanp5660&lt;span class=&quot;se&quot;&gt;\[&lt;/span&gt;GitHubPage]
+call git add &lt;span class=&quot;nt&quot;&gt;-A&lt;/span&gt;
+call git commit &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;%message%&quot;&lt;/span&gt;
+call git push origin master 
+
+pause
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="github" />
+      
+
+      
+        <summary type="html">깃허브 블로그 포스팅 깃허브블로그(1)-ipynb포스팅 깃허브블로그(2)-목차추가 깃허브블로그(3)-깃허브업데이트</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

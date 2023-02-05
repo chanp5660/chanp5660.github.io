@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
+    <url>
+        <loc>http://localhost:4000/%EB%B0%B1%EC%A4%80_%EC%9E%AC%EA%B7%80.html</loc>
+        
+        <lastmod>2022-08-13T11:27:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/%EB%82%98%EB%9D%BC%EC%9E%A5%ED%84%B0-%EB%84%A4%EC%9D%B4%EB%B2%84%EB%A9%94%EC%9D%BC%EC%9E%90%EB%8F%99%EB%B3%B4%EB%82%B4%EA%B8%B0.html</loc>
+        
+        <lastmod>2022-07-27T16:16:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/W3school_pythontutorial(4).html</loc>
+        
+        <lastmod>2022-07-27T13:46:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/W3school_pythontutorial(5)-Tuples.html</loc>
+        
+        <lastmod>2022-07-26T23:40:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/W3school_pythontutorial(3)-Lists.html</loc>
+        
+        <lastmod>2022-07-26T23:40:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/%EB%82%98%EB%9D%BC%EC%9E%A5%ED%84%B0-%EC%88%98%EC%A7%91(1)-OPENAPI.html</loc>
+        
+        <lastmod>2022-07-25T23:43:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/%EB%82%98%EB%9D%BC%EC%9E%A5%ED%84%B0-%EC%88%98%EC%A7%91(2)-Selenium.html</loc>
+        
+        <lastmod>2022-07-25T23:41:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/NLP-%EC%9E%90%EC%97%B0%EC%96%B4%EC%B2%98%EB%A6%AC(2)-%EC%96%B8%EC%96%B4-%EB%AA%A8%EB%8D%B8.html</loc>
+        
+        <lastmod>2022-07-22T22:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/%EB%B0%B1%EC%A4%80_%EA%B8%B0%EB%B3%B8-%EC%88%98%ED%95%99-2%EB%8B%A8%EA%B3%84.html</loc>
+        
+        <lastmod>2022-07-22T13:39:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/HTML-%EC%B1%85%EA%B0%88%ED%94%BC.html</loc>
+        
+        <lastmod>2022-07-21T15:06:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/NLP-%EC%9E%90%EC%97%B0%EC%96%B4%EC%B2%98%EB%A6%AC(1)-%ED%85%8D%EC%8A%A4%ED%8A%B8-%EC%A0%84%EC%B2%98%EB%A6%AC.html</loc>
+        
+        <lastmod>2022-07-20T20:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/W3school_pythontutorial(2)-String_Methods.html</loc>
+        
+        <lastmod>2022-07-20T12:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/ipynb%ED%8C%8C%EC%9D%BC-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%97%85%EB%A1%9C%EB%93%9C-%EC%9E%90%EB%8F%99%ED%99%94.html</loc>
+        
+        <lastmod>2022-07-20T03:40:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/%EC%A3%BC%EC%8B%9D-%EB%B6%84%EC%84%9D-%EB%B0%8F-%EC%98%88%EC%B8%A1(1)-%EC%88%98%EC%A7%91-%EB%B0%8F-DB.html</loc>
+        
+        <lastmod>2022-07-18T20:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/W3school_pythontutorial(1).html</loc>
+        
+        <lastmod>2022-07-18T20:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/Github-%EA%B0%80%EC%9E%85-%EB%B0%8F-%ED%94%84%EB%A1%9C%ED%95%84.html</loc>
+        
+        <lastmod>2022-07-18T12:50:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/Git-version-%EB%B3%80%EA%B2%BD.html</loc>
+        
+        <lastmod>2022-07-18T12:50:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/Jupyter-%EC%95%88%EC%A0%95%EC%A0%81%EC%9D%B8-%EC%9D%B4%EB%AF%B8%EC%A7%80%EC%B6%94%EA%B0%80.html</loc>
+        
+        <lastmod>2022-07-18T12:12:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/%EA%B9%83%ED%97%88%EB%B8%8C%EB%B8%94%EB%A1%9C%EA%B7%B8(3)-%EA%B9%83%ED%97%88%EB%B8%8C%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8.html</loc>
+        
+        <lastmod>2022-07-17T02:08:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/%EA%B9%83%ED%97%88%EB%B8%8C%EB%B8%94%EB%A1%9C%EA%B7%B8(2)-%EB%AA%A9%EC%B0%A8%EC%B6%94%EA%B0%80.html</loc>
+        
+        <lastmod>2022-07-17T02:08:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/%EA%B9%83%ED%97%88%EB%B8%8C%EB%B8%94%EB%A1%9C%EA%B7%B8(1)-ipynb%ED%8F%AC%EC%8A%A4%ED%8C%85.html</loc>
+        
+        <lastmod>2022-07-17T02:08:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/%EA%B9%83%ED%97%88%EB%B8%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%84%A4%EC%B9%98.html</loc>
+        
+        <lastmod>2022-07-14T02:08:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/%EA%B9%83%ED%97%88%EB%B8%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%84%A4%EC%A0%95-%EB%B0%8F-%EC%88%98%EC%A0%95.html</loc>
+        
+        <lastmod>2022-07-14T02:08:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/%EB%B0%B1%EC%A4%80_%EA%B8%B0%EB%B3%B8-%EC%88%98%ED%95%99-1%EB%8B%A8%EA%B3%84.html</loc>
+        
+        <lastmod>2022-07-13T17:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/%EB%B0%B1%EC%A4%80_%EB%AC%B8%EC%9E%90%EC%97%B4%EB%8B%A8%EA%B3%84.html</loc>
+        
+        <lastmod>2022-07-07T17:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/GITupload.html</loc>
+        
+        <lastmod>2022-07-07T02:08:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/%EB%B0%B1%EC%A4%80_%EC%A1%B0%EA%B1%B4%EB%AC%B8.html</loc>
+        
+        <lastmod>2022-07-06T17:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/%EB%B0%B1%EC%A4%80_%EC%9E%85%EC%B6%9C%EB%A0%A5%EA%B3%BC-%EC%82%AC%EC%B9%99%EC%97%B0%EC%82%B0.html</loc>
+        
+        <lastmod>2022-07-06T17:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/R%EC%96%B8%EC%96%B4-%EC%82%AC%EB%9E%8C%EC%9D%B8%ED%81%AC%EB%A1%A4%EB%A7%81.html</loc>
+        
+        <lastmod>2019-05-19T00:19:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/Octoparse%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%9C-%ED%81%AC%EB%A1%A4%EB%A7%81.html</loc>
+        
+        <lastmod>2019-05-10T00:30:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/R%EC%96%B8%EC%96%B4-RSelenium_tutorial.html</loc>
+        
+        <lastmod>2019-05-10T00:19:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+</urlset>
