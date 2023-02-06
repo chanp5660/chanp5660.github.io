@@ -3,4 +3,36 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
+    <url>
+        <loc>http://localhost:4000/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%88%98%EC%A7%91.html</loc>
+        
+        <lastmod>2023-02-06T17:00:31+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0.html</loc>
+        
+        <lastmod>2023-02-03T17:05:31+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
 </urlset>

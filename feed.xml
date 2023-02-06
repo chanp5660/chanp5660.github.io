@@ -1,1 +1,122 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-06T16:45:19+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ML Engineer Chanp5660</title><subtitle>Chanp5660 박찬 기술 블로그</subtitle></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-06T22:30:51+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ML Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">머신러닝 데이터 수집</title><link href="http://localhost:4000/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%88%98%EC%A7%91" rel="alternate" type="text/html" title="머신러닝 데이터 수집" /><published>2023-02-06T17:00:31+09:00</published><updated>2023-02-06T17:00:31+09:00</updated><id>http://localhost:4000/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%88%98%EC%A7%91</id><content type="html" xml:base="http://localhost:4000/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%88%98%EC%A7%91">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;AI(머신러닝, 딥러닝)&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./깃허브-연습(파이썬-2)&quot;&gt;Python 강좌(1) - 목차만들기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./파이썬-하이라이트-확인&quot;&gt;Python 강좌(2) - Python 하이라이트 확인&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;참조-사이트-및-책&quot;&gt;참조 사이트 및 책&lt;/h1&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://wikidocs.net/book/2155&quot;&gt;&lt;strong&gt;딥 러닝을 이용한 자연어 처리 입문&lt;/strong&gt;&lt;/a&gt; 책을 보고 복습할 겸 작성한 글로 깊고 자세한 공부는 해당 링크를 통해 공부하는 것을 추천드립니다.&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>chanp5660</name></author><category term="ai" /><summary type="html">AI(머신러닝, 딥러닝) Python 강좌(1) - 목차만들기 Python 강좌(2) - Python 하이라이트 확인</summary></entry><entry><title type="html">머신러닝 워크플로우</title><link href="http://localhost:4000/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0" rel="alternate" type="text/html" title="머신러닝 워크플로우" /><published>2023-02-03T17:05:31+09:00</published><updated>2023-02-03T17:05:31+09:00</updated><id>http://localhost:4000/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%20%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0</id><content type="html" xml:base="http://localhost:4000/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;AI(머신러닝, 딥러닝)&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./깃허브-연습(파이썬-2)&quot;&gt;Python 강좌(1) - 목차만들기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./파이썬-하이라이트-확인&quot;&gt;Python 강좌(2) - Python 하이라이트 확인&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img alt=&quot;머신러닝 워크플로우&quot; src=&quot;https://wikidocs.net/images/page/31947/%EB%A8%B8%EC%8B%A0_%EB%9F%AC%EB%8B%9D_%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0.PNG&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;요약&quot;&gt;요약&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;머신-러닝-워크플로우는-특정-도메인의-데이터를-수집해서-점검-및-탐색을-통해-데이터의-특징들을-파악한다-그리고-파악된-정보로-전처리-및-정제를-통해-학습하기-위한-데이터로-변형-및-어떤-모델링으로-선택할지-파악한다-특정-모델링으로-선택-했다면-모델링-훈련을-통해-테스트-데이터로-평가하여-하이퍼-파라미터-수정-등-성능을-높이는-작업을-반복해준다-성능이-좋은-모델링으로-배포를-하고-그-데이터가-수집된다면-앞과-같은-과정을-반복하여-성능을-좋게-만드는-작업이다&quot;&gt;머신 러닝 워크플로우는 특정 도메인의 데이터를 수집해서 점검 및 탐색을 통해 데이터의 특징들을 파악한다. 그리고 파악된 정보로 전처리 및 정제를 통해 학습하기 위한 데이터로 변형 및 어떤 모델링으로 선택할지 파악한다. 특정 모델링으로 선택 했다면 모델링 훈련을 통해 테스트 데이터로 평가하여 하이퍼 파라미터 수정 등 성능을 높이는 작업을 반복해준다. 성능이 좋은 모델링으로 배포를 하고 그 데이터가 수집된다면 앞과 같은 과정을 반복하여 성능을 좋게 만드는 작업이다.&lt;/h2&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;단계별-간단한-설명&quot;&gt;단계별 간단한 설명&lt;/h1&gt;
+&lt;h2 id=&quot;수집&quot;&gt;수집&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;머신러닝에 학습시킬 데이터를 수집하는 것이다.&lt;/li&gt;
+  &lt;li&gt;데이터는 컴퓨터에 기록될 수 있는 다양한 형태(텍스트, 음성, 영상 등)를 가지고 있다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;점검-및-탐색&quot;&gt;점검 및 탐색&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;데이터를 점검하고 탐색하는 단계&lt;/li&gt;
+  &lt;li&gt;데이터 구조 파악&lt;/li&gt;
+  &lt;li&gt;잡음(노이즈), 특이치, 이상치, 데이터 파악&lt;/li&gt;
+  &lt;li&gt;머신러닝에 적용하기 위해 데이터를 어떻게 전처리 해야하는지 파악&lt;/li&gt;
+  &lt;li&gt;탐색적 데이터 분석 (Exploratory Data Analysis, EDA) 단계라고도 한다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;전처리-및-정제&quot;&gt;전처리 및 정제&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;학습하기 위해 데이터를 특정 형태로 정리해주는 단계&lt;/li&gt;
+  &lt;li&gt;많은 단계를 다루고 있는데 실제 학습 데이터로 입출력에 넣을 수 있도록 변형하거나 값이 너무 커서 데이터의 스케일을 변형하는 등 원하는 작업에 따라 방법 또한 매우 다양한다.&lt;/li&gt;
+  &lt;li&gt;어떤 모델링을 선택할지에 따라 처리과정도 다르다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;모델링-및-훈련&quot;&gt;모델링 및 훈련&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;전처리가 완료된 데이터를 머신러닝 알고리즘을 통해 기계에 학습(train)한다.&lt;/li&gt;
+  &lt;li&gt;과적합을 방지하기 위해서
+    &lt;ul&gt;
+      &lt;li&gt;단, 평가를 하기 위해 모든 데이터를 학습하는 것이 아닌 테스트(test) 데이터를 남겨두어야 한다.&lt;/li&gt;
+      &lt;li&gt;좀 더 평가를 확실하게 하려면 검증(dev) 데이터도 남겨 같이 평가에 활용한다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;평가&quot;&gt;평가&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;학습된 모델의 성능을 평가한다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;배포&quot;&gt;배포&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;평가에서 만족할만한 결과가 나왔다면 해당 모델을 배포하는 단계이다&lt;/li&gt;
+  &lt;li&gt;모델의 추후 전체적인 피드백이 있다면 수집단계로 돌아가 위와 같은 과정을 반복하게 된다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;수집-1&quot;&gt;수집&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;머신러닝에 학습시킬 데이터&lt;/li&gt;
+  &lt;li&gt;자연어처리
+    &lt;ul&gt;
+      &lt;li&gt;말뭉치, 코퍼스(corpus) : 조사나 연구 목적에 의해서 특정 도메인으로부터 수집된 텍스트 집합을 말합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;텍스트 데이터의 파일 형식
+    &lt;ul&gt;
+      &lt;li&gt;txt파일&lt;/li&gt;
+      &lt;li&gt;csv파일&lt;/li&gt;
+      &lt;li&gt;xml파일&lt;/li&gt;
+      &lt;li&gt;json파일 등&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;출처
+    &lt;ul&gt;
+      &lt;li&gt;음성 데이터&lt;/li&gt;
+      &lt;li&gt;웹 수집기를 통해 수집된 데이터&lt;/li&gt;
+      &lt;li&gt;영화 리뷰 등&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;점검-및-탐색-탐색적-데이터-분석eda-단계&quot;&gt;점검 및 탐색, 탐색적 데이터 분석(EDA) 단계&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;데이터를 점검하고 탐색하는 단계
+    &lt;ul&gt;
+      &lt;li&gt;데이터의 구조
+        &lt;ul&gt;
+          &lt;li&gt;데이터 타입(독립변수, 종속 변수, 변수 유형, 변수의 데이터 타입 등)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;노이즈 데이터&lt;/li&gt;
+      &lt;li&gt;머신러닝 적용을 위해서 데이터를 어떻게 정제해야하는지 등&lt;/li&gt;
+      &lt;li&gt;데이터의 특징과 내재하는 구조적 관계를 알아내는 과정을 의미&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;참조-사이트-및-책&quot;&gt;참조 사이트 및 책&lt;/h1&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://wikidocs.net/book/2155&quot;&gt;&lt;strong&gt;딥 러닝을 이용한 자연어 처리 입문&lt;/strong&gt;&lt;/a&gt; 책을 보고 복습할 겸 작성한 글로 깊고 자세한 공부는 해당 링크를 통해 공부하는 것을 추천드립니다.&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>chanp5660</name></author><category term="ai" /><summary type="html">AI(머신러닝, 딥러닝) Python 강좌(1) - 목차만들기 Python 강좌(2) - Python 하이라이트 확인</summary></entry></feed>
