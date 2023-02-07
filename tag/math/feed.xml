@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
+  <link href="http://localhost:4000/tag/math/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2023-02-07T15:56:51+09:00</updated>
+  <id>http://localhost:4000/tag/math/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">ML Engineer Chanp5660 | </title>
+  
+
+  
+    <subtitle>박찬</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">math_test</title>
+      <link href="http://localhost:4000/math_test" rel="alternate" type="text/html" title="math_test" />
+      <published>2023-02-07T14:00:00+09:00</published>
+      <updated>2023-02-07T14:00:00+09:00</updated>
+      <id>http://localhost:4000/math_test</id>
+      <content type="html" xml:base="http://localhost:4000/math_test">&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;math test&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;devskill test
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="math" />
+      
+
+      
+        <summary type="html">print(&quot;math test&quot;)</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

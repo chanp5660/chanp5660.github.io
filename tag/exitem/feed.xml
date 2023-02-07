@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
+  <link href="http://localhost:4000/tag/exitem/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2023-02-07T15:56:51+09:00</updated>
+  <id>http://localhost:4000/tag/exitem/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">ML Engineer Chanp5660 | </title>
+  
+
+  
+    <subtitle>박찬</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">jekyll-목차추가하기</title>
+      <link href="http://localhost:4000/jekyll-%EB%AA%A9%EC%B0%A8%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0" rel="alternate" type="text/html" title="jekyll-목차추가하기" />
+      <published>2023-02-07T14:00:00+09:00</published>
+      <updated>2023-02-07T14:00:00+09:00</updated>
+      <id>http://localhost:4000/jekyll-%EB%AA%A9%EC%B0%A8%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0</id>
+      <content type="html" xml:base="http://localhost:4000/jekyll-%EB%AA%A9%EC%B0%A8%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0">&lt;h1 id=&quot;jekyll로-만든-깃허브-블로그에-목차-추가하기&quot;&gt;jekyll로 만든 깃허브 블로그에 목차 추가하기&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ipynb 내에 {\% include “html 파일”\%}&lt;/li&gt;
+  &lt;li&gt;만들어진 블로그 내에 blogmaker-include 부분에 목차 html을 생성한다.&lt;/li&gt;
+  &lt;li&gt;예시 파일
+    &lt;ul&gt;
+      &lt;li&gt;python에 관련된 부분이라 가정&lt;/li&gt;
+      &lt;li&gt;html 제목의 형태 “원하는 제목”-table-of-contents.html&lt;/li&gt;
+      &lt;li&gt;최종 형태 : python-table-of-contents.html&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;table-of-contents-list&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;목차 설명 부분 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;table-of-contents-list&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;./깃허브-연습(파이썬-2)&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Python 강좌(1) - 목차만들기&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;./파이썬-하이라이트-확인&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Python 강좌(2) - Python 하이라이트 확인&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;예시파일 결과&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;목차 설명 부분 &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./깃허브-연습(파이썬-2)&quot;&gt;Python 강좌(1) - 목차만들기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./파이썬-하이라이트-확인&quot;&gt;Python 강좌(2) - Python 하이라이트 확인&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;본 블로그의 수정을 위해 기록한 글&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+
+      
+        <summary type="html">jekyll로 만든 깃허브 블로그에 목차 추가하기</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

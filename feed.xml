@@ -1,4 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-07T14:12:55+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ML Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">머신러닝 데이터 수집</title><link href="http://localhost:4000/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%88%98%EC%A7%91" rel="alternate" type="text/html" title="머신러닝 데이터 수집" /><published>2023-02-06T17:00:31+09:00</published><updated>2023-02-06T17:00:31+09:00</updated><id>http://localhost:4000/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%88%98%EC%A7%91</id><content type="html" xml:base="http://localhost:4000/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%88%98%EC%A7%91">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;AI(머신러닝, 딥러닝)&lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-07T15:56:51+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ML Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">project_test</title><link href="http://localhost:4000/project_test" rel="alternate" type="text/html" title="project_test" /><published>2023-02-07T14:00:00+09:00</published><updated>2023-02-07T14:00:00+09:00</updated><id>http://localhost:4000/project_test</id><content type="html" xml:base="http://localhost:4000/project_test">&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;project test&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;project test
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="project" /><summary type="html">print(&quot;project test&quot;)</summary></entry><entry><title type="html">programing_test</title><link href="http://localhost:4000/programing_test" rel="alternate" type="text/html" title="programing_test" /><published>2023-02-07T14:00:00+09:00</published><updated>2023-02-07T14:00:00+09:00</updated><id>http://localhost:4000/programing_test</id><content type="html" xml:base="http://localhost:4000/programing_test">&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;programing test&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;programing test
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="programing" /><summary type="html">print(&quot;programing test&quot;)</summary></entry><entry><title type="html">math_test</title><link href="http://localhost:4000/math_test" rel="alternate" type="text/html" title="math_test" /><published>2023-02-07T14:00:00+09:00</published><updated>2023-02-07T14:00:00+09:00</updated><id>http://localhost:4000/math_test</id><content type="html" xml:base="http://localhost:4000/math_test">&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;math test&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;devskill test
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="math" /><summary type="html">print(&quot;math test&quot;)</summary></entry><entry><title type="html">jekyll-목차추가하기</title><link href="http://localhost:4000/jekyll-%EB%AA%A9%EC%B0%A8%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0" rel="alternate" type="text/html" title="jekyll-목차추가하기" /><published>2023-02-07T14:00:00+09:00</published><updated>2023-02-07T14:00:00+09:00</updated><id>http://localhost:4000/jekyll-%EB%AA%A9%EC%B0%A8%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/jekyll-%EB%AA%A9%EC%B0%A8%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0">&lt;h1 id=&quot;jekyll로-만든-깃허브-블로그에-목차-추가하기&quot;&gt;jekyll로 만든 깃허브 블로그에 목차 추가하기&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ipynb 내에 {\% include “html 파일”\%}&lt;/li&gt;
+  &lt;li&gt;만들어진 블로그 내에 blogmaker-include 부분에 목차 html을 생성한다.&lt;/li&gt;
+  &lt;li&gt;예시 파일
+    &lt;ul&gt;
+      &lt;li&gt;python에 관련된 부분이라 가정&lt;/li&gt;
+      &lt;li&gt;html 제목의 형태 “원하는 제목”-table-of-contents.html&lt;/li&gt;
+      &lt;li&gt;최종 형태 : python-table-of-contents.html&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;table-of-contents-list&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;목차 설명 부분 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;table-of-contents-list&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;./깃허브-연습(파이썬-2)&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Python 강좌(1) - 목차만들기&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;./파이썬-하이라이트-확인&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Python 강좌(2) - Python 하이라이트 확인&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;예시파일 결과&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;목차 설명 부분 &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./깃허브-연습(파이썬-2)&quot;&gt;Python 강좌(1) - 목차만들기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./파이썬-하이라이트-확인&quot;&gt;Python 강좌(2) - Python 하이라이트 확인&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;본 블로그의 수정을 위해 기록한 글&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><summary type="html">jekyll로 만든 깃허브 블로그에 목차 추가하기</summary></entry><entry><title type="html">devskill_test</title><link href="http://localhost:4000/devskill_test" rel="alternate" type="text/html" title="devskill_test" /><published>2023-02-07T14:00:00+09:00</published><updated>2023-02-07T14:00:00+09:00</updated><id>http://localhost:4000/devskill_test</id><content type="html" xml:base="http://localhost:4000/devskill_test">&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;devskill test&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;devskill test
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="devskill" /><summary type="html">print(&quot;devskill test&quot;)</summary></entry><entry><title type="html">머신러닝 데이터 수집</title><link href="http://localhost:4000/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%88%98%EC%A7%91" rel="alternate" type="text/html" title="머신러닝 데이터 수집" /><published>2023-02-06T17:00:31+09:00</published><updated>2023-02-06T17:00:31+09:00</updated><id>http://localhost:4000/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%88%98%EC%A7%91</id><content type="html" xml:base="http://localhost:4000/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%88%98%EC%A7%91">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;AI(머신러닝, 딥러닝)&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./깃허브-연습(파이썬-2)&quot;&gt;Python 강좌(1) - 목차만들기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./파이썬-하이라이트-확인&quot;&gt;Python 강좌(2) - Python 하이라이트 확인&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;참조-사이트-및-책&quot;&gt;참조 사이트 및 책&lt;/h1&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://wikidocs.net/book/2155&quot;&gt;&lt;strong&gt;딥 러닝을 이용한 자연어 처리 입문&lt;/strong&gt;&lt;/a&gt; 책을 보고 복습할 겸 작성한 글로 깊고 자세한 공부는 해당 링크를 통해 공부하는 것을 추천드립니다.&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>chanp5660</name></author><category term="ai" /><summary type="html">AI(머신러닝, 딥러닝) Python 강좌(1) - 목차만들기 Python 강좌(2) - Python 하이라이트 확인</summary></entry><entry><title type="html">머신러닝 데이터 수집</title><link href="http://localhost:4000/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%88%98%EC%A7%91" rel="alternate" type="text/html" title="머신러닝 데이터 수집" /><published>2023-02-06T17:00:31+09:00</published><updated>2023-02-06T17:00:31+09:00</updated><id>http://localhost:4000/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%88%98%EC%A7%91</id><content type="html" xml:base="http://localhost:4000/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%88%98%EC%A7%91">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;AI(머신러닝, 딥러닝)&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./깃허브-연습(파이썬-2)&quot;&gt;Python 강좌(1) - 목차만들기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./파이썬-하이라이트-확인&quot;&gt;Python 강좌(2) - Python 하이라이트 확인&lt;/a&gt;&lt;/li&gt;
