@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Document Settings -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Base Meta -->
+    <!-- dynamically fixing the title for tag/author pages -->
+
+
+
+    <title>백준-단계별-기본 수학 1단계</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Styles'n'Scripts -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.edited.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
+    
+    <!-- custom.css -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/custom.css" />
+    
+    <!--  Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">    
+    
+    <!-- 웹폰트 추가 -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css">    
+    
+    <!-- syntax.css 추가 -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css">  
+    
+    <!-- highlight.js -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+    <style>.hljs { background: none; }</style>
+
+    <!--[if IE]>
+        <style>
+            p, ol, ul{
+                width: 100%;
+            }
+            blockquote{
+                width: 100%;
+            }
+        </style>
+    <![endif]-->
+    
+    <!-- This tag outputs SEO meta+structured data and other important settings -->
+    <meta name="description" content="박찬" />
+    <link rel="shortcut icon" href="http://localhost:4000/assets/built/images/favicon.jpg" type="image/png" />
+    <link rel="canonical" href="http://localhost:4000/%EB%B0%B1%EC%A4%80_%EA%B8%B0%EB%B3%B8-%EC%88%98%ED%95%99-1%EB%8B%A8%EA%B3%84" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+
+     <!--title below is coming from _includes/dynamic_title-->
+    <meta property="og:site_name" content="ML Engineer Chanp5660" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="백준-단계별-기본 수학 1단계" />
+    <meta property="og:description" content="백준-단계별-기본 수학 1단계 https://www.acmicpc.net/step/8 달팽이는 올라가고 싶다 (4-2869) https://www.acmicpc.net/problem/2869 문제 땅 위에 달팽이가 있다. 이 달팽이는 높이가 V미터인 나무 막대를 올라갈 것이다. 달팽이는 낮에 A미터 올라갈 수 있다. 하지만, 밤에 잠을 자는 동안 B미터 미끄러진다. 또, 정상에 올라간 후에는 미끄러지지 않는다. 달팽이가 나무 막대를 모두 올라가려면, 며칠이 걸리는지 구하는 프로그램을" />
+    <meta property="og:url" content="http://localhost:4000/%EB%B0%B1%EC%A4%80_%EA%B8%B0%EB%B3%B8-%EC%88%98%ED%95%99-1%EB%8B%A8%EA%B3%84" />
+    <meta property="og:image" content="http://localhost:4000/assets/built/images/baekjoon-logo.png" />
+    <meta property="article:publisher" content="https://www.facebook.com/" />
+    <meta property="article:author" content="https://www.facebook.com/" />
+    <meta property="article:published_time" content="2022-07-13T17:00:00+09:00" />
+    <meta property="article:modified_time" content="2022-07-13T17:00:00+09:00" />
+    <meta property="article:tag" content="Programing" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="백준-단계별-기본 수학 1단계" />
+    <meta name="twitter:description" content="백준-단계별-기본 수학 1단계 https://www.acmicpc.net/step/8 달팽이는 올라가고 싶다 (4-2869) https://www.acmicpc.net/problem/2869 문제 땅 위에 달팽이가 있다. 이 달팽이는 높이가 V미터인 나무 막대를 올라갈 것이다. 달팽이는 낮에 A미터 올라갈 수 있다. 하지만, 밤에 잠을 자는 동안 B미터 미끄러진다. 또, 정상에 올라간 후에는 미끄러지지 않는다. 달팽이가 나무 막대를 모두 올라가려면, 며칠이 걸리는지 구하는 프로그램을" />
+    <meta name="twitter:url" content="http://localhost:4000/" />
+    <meta name="twitter:image" content="http://localhost:4000/assets/built/images/baekjoon-logo.png" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="ML Engineer Chanp5660" />
+    <meta name="twitter:label2" content="Filed under" />
+    <meta name="twitter:data2" content="Programing" />
+    <meta name="twitter:site" content="@" />
+    <meta name="twitter:creator" content="@" />
+    <meta property="og:image:width" content="1400" />
+    <meta property="og:image:height" content="933" />
+
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Website",
+    "publisher": {
+        "@type": "Organization",
+        "name": "ML Engineer Chanp5660",
+        "logo": "http://localhost:4000/"
+    },
+    "url": "http://localhost:4000/%EB%B0%B1%EC%A4%80_%EA%B8%B0%EB%B3%B8-%EC%88%98%ED%95%99-1%EB%8B%A8%EA%B3%84",
+    "image": {
+        "@type": "ImageObject",
+        "url": "http://localhost:4000/assets/built/images/baekjoon-logo.png",
+        "width": 2000,
+        "height": 666
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://localhost:4000/%EB%B0%B1%EC%A4%80_%EA%B8%B0%EB%B3%B8-%EC%88%98%ED%95%99-1%EB%8B%A8%EA%B3%84"
+    },
+    "description": "백준-단계별-기본 수학 1단계 https://www.acmicpc.net/step/8 달팽이는 올라가고 싶다 (4-2869) https://www.acmicpc.net/problem/2869 문제 땅 위에 달팽이가 있다. 이 달팽이는 높이가 V미터인 나무 막대를 올라갈 것이다. 달팽이는 낮에 A미터 올라갈 수 있다. 하지만, 밤에 잠을 자는 동안 B미터 미끄러진다. 또, 정상에 올라간 후에는 미끄러지지 않는다. 달팽이가 나무 막대를 모두 올라가려면, 며칠이 걸리는지 구하는 프로그램을"
+}
+    </script>
+
+    <!-- <script type="text/javascript" src="https://demo.ghost.io/public/ghost-sdk.min.js?v=724281a32e"></script>
+    <script type="text/javascript">
+    ghost.init({
+    	clientId: "ghost-frontend",
+    	clientSecret: "f84a07a72b17"
+    });
+    </script> -->
+
+    <meta name="generator" content="Jekyll 3.6.2" />
+    <link rel="alternate" type="application/rss+xml" title="백준-단계별-기본 수학 1단계" href="/feed.xml" />
+
+
+</head>
+<body class="post-template">
+
+    <div class="site-wrapper">
+        <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
+        <!-- default -->
+
+<!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template -->
+
+<header class="site-header outer">
+    <div class="inner">
+        <nav class="site-nav">
+    <div class="site-nav-left">
+        
+            
+                <a class="site-nav-logo" href="/">ML Engineer Chanp5660</a>
+            
+        
+        
+            <ul class="nav" role="menu">
+    <li class="nav-home" role="menuitem"><a href="/">Home</a></li>
+    <li class="nav-about" role="menuitem"><a href="/about/">Chanp5660</a></li>
+    <li class="nav-project" role="menuitem"><a href="/tag/project/">Project</a></li>
+    <li class="nav-ai" role="menuitem"><a href="/tag/ai/">AI</a></li>
+    <li class="nav-math" role="menuitem"><a href="/tag/math/">Math</a></li>
+    <li class="nav-programing" role="menuitem"><a href="/tag/programing/">Programing</a></li>
+    <li class="nav-devskill" role="menuitem"><a href="/tag/devskill/">DevSkill</a></li>
+    <li class="nav-exitem" role="menuitem"><a href="/tag/exitem/">Ex-item</a></li>
+
+    <li class="nav-archive" role="menuitem"><a href="/archive.html">All Posts</a></li>
+    <li class="nav-archive" role="menuitem"><a href="/author_archive.html">Tag Posts</a></li>
+</ul>
+        
+    </div>
+    <div class="site-nav-right">
+        <div class="social-links">
+            
+            
+        </div>
+        
+            <a class="subscribe-button" href="#subscribe">Search</a>
+        
+    </div>
+</nav>
+
+    </div>
+</header>
+
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
+<main id="site-main" class="site-main outer" role="main">
+    <div class="inner">
+
+        <article class="post-full  tag-programing post tag-python ">
+
+            <header class="post-full-header">
+                <section class="post-full-meta">
+                    <time class="post-full-meta-date" datetime="13 July 2022">13 July 2022</time>
+                    
+                        <span class="date-divider">/</span>
+                        
+                            
+                               <a href='/tag/programing/'>PROGRAMING</a>
+                            
+                        
+                    
+                </section>
+                <h1 class="post-full-title">백준-단계별-기본 수학 1단계</h1>
+            </header>
+            
+            <!--
+            
+            <figure class="post-full-image" style="background-image: url(/assets/built/images/baekjoon-logo.png)">
+            </figure>
+            
+            -->
+
+            <section class="post-full-content">
+                <div class="kg-card-markdown">
+                    <h1 id="백준-단계별-기본-수학-1단계">백준-단계별-기본 수학 1단계</h1>
+<p>https://www.acmicpc.net/step/8</p>
+
+<h2 id="달팽이는-올라가고-싶다-4-2869">달팽이는 올라가고 싶다 (4-2869)</h2>
+<p>https://www.acmicpc.net/problem/2869</p>
+
+<ul>
+  <li>
+    <p>문제<br />
+땅 위에 달팽이가 있다. 이 달팽이는 높이가 V미터인 나무 막대를 올라갈 것이다.<br />
+달팽이는 낮에 A미터 올라갈 수 있다. 하지만, 밤에 잠을 자는 동안 B미터 미끄러진다. 또, 정상에 올라간 후에는 미끄러지지 않는다.<br />
+달팽이가 나무 막대를 모두 올라가려면, 며칠이 걸리는지 구하는 프로그램을 작성하시오.</p>
+  </li>
+  <li>입력<br />
+첫째 줄에 세 정수 A, B, V가 공백으로 구분되어서 주어진다. (1 ≤ B &lt; A ≤ V ≤ 1,000,000,000)</li>
+  <li>출력<br />
+첫째 줄에 달팽이가 나무 막대를 모두 올라가는데 며칠이 걸리는지 출력한다.</li>
+</ul>
+
+<p>예제 입력 1 <br />
+2 1 5<br />
+예제 출력 1 <br />
+4<br />
+예제 입력 2  <br />
+5 1 6<br />
+예제 출력 2 <br />
+2<br />
+예제 입력 3 <br />
+100 99 1000000000<br />
+예제 출력 3 <br />
+999999901</p>
+
+<ul>
+  <li>코딩 전
+    <ul>
+      <li>낮과 밤의 합이 하루에 올라갈 수 있는 높이</li>
+      <li>총 높이를 하루에 올라갈 수 있는 높이로 나누면 된다.</li>
+    </ul>
+  </li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#Day,Night,Height = [2,1,5]
+</span><span class="n">Day</span><span class="p">,</span><span class="n">Night</span><span class="p">,</span><span class="n">Height</span> <span class="o">=</span> <span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">input</span><span class="p">().</span><span class="n">split</span><span class="p">()]</span>
+<span class="n">Height_day</span> <span class="o">=</span> <span class="n">Day</span><span class="o">-</span><span class="n">Night</span>
+<span class="n">Height</span> <span class="o">-=</span> <span class="n">Day</span> <span class="c1"># 마지막에 정상에 올라간 높이만큼은 제외하고 진행
+</span><span class="n">Day_Count</span> <span class="o">=</span> <span class="mi">1</span><span class="o">+</span><span class="n">Height</span><span class="o">/</span><span class="n">Height_day</span>
+<span class="k">if</span> <span class="nb">int</span><span class="p">(</span><span class="n">Day_Count</span><span class="p">)</span><span class="o">!=</span><span class="n">Day_Count</span><span class="p">:</span>
+    <span class="n">Day_Count</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">Day_Count</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="n">Day_Count</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">Day_Count</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">Day_Count</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> 100 99 1000000000
+
+
+999999901
+</code></pre></div></div>
+
+<ul>
+  <li>코딩 후
+    <ul>
+      <li>정상에 올라간 후에는 미끄러지 않는 조건을 생각하지 않았다.</li>
+      <li>전체 높이에서 하루 올라가는 높이만큼은 제외하고 구한다.</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="acm-호텔-5-10250">ACM 호텔 (5-10250)</h2>
+<p>https://www.acmicpc.net/problem/10250</p>
+
+<p>ACM 호텔 매니저 지우는 손님이 도착하는 대로 빈 방을 배정하고 있다. 고객 설문조사에 따르면 손님들은 호텔 정문으로부터 걸어서 가장 짧은 거리에 있는 방을 선호한다고 한다. 여러분은 지우를 도와 줄 프로그램을 작성하고자 한다. 즉 설문조사 결과 대로 호텔 정문으로부터 걷는 거리가 가장 짧도록 방을 배정하는 프로그램을 작성하고자 한다.</p>
+
+<p>문제를 단순화하기 위해서 호텔은 직사각형 모양이라고 가정하자. 각 층에 W 개의 방이 있는 H 층 건물이라고 가정하자 (1 ≤ H, W ≤ 99). 그리고 엘리베이터는 가장 왼쪽에 있다고 가정하자(그림 1 참고). 이런 형태의 호텔을 H × W 형태 호텔이라고 부른다. 호텔 정문은 일층 엘리베이터 바로 앞에 있는데, 정문에서 엘리베이터까지의 거리는 무시한다. 또 모든 인접한 두 방 사이의 거리는 같은 거리(거리 1)라고 가정하고 호텔의 정면 쪽에만 방이 있다고 가정한다.</p>
+
+<p><img width="261" alt="elevator" src="https://user-images.githubusercontent.com/46266247/178699489-65abc955-4ba1-420a-8653-70e933bbf0cf.png" /></p>
+
+<p>그림 1. H = 6 이고 W = 12 인 H × W 호텔을 간략하게 나타낸 그림</p>
+
+<p>방 번호는 YXX 나 YYXX 형태인데 여기서 Y 나 YY 는 층 수를 나타내고 XX 는 엘리베이터에서부터 세었을 때의 번호를 나타낸다. 즉, 그림 1 에서 빗금으로 표시한 방은 305 호가 된다.</p>
+
+<p>손님은 엘리베이터를 타고 이동하는 거리는 신경 쓰지 않는다. 다만 걷는 거리가 같을 때에는 아래층의 방을 더 선호한다. 예를 들면 102 호 방보다는 301 호 방을 더 선호하는데, 102 호는 거리 2 만큼 걸어야 하지만 301 호는 거리 1 만큼만 걸으면 되기 때문이다. 같은 이유로 102 호보다 201 호를 더 선호한다.</p>
+
+<p>여러분이 작성할 프로그램은 초기에 모든 방이 비어있다고 가정하에 이 정책에 따라 N 번째로 도착한 손님에게 배정될 방 번호를 계산하는 프로그램이다. 첫 번째 손님은 101 호, 두 번째 손님은 201 호 등과 같이 배정한다. 그림 1 의 경우를 예로 들면, H = 6이므로 10 번째 손님은 402 호에 배정해야 한다.</p>
+
+<ul>
+  <li>
+    <p>입력<br />
+프로그램은 표준 입력에서 입력 데이터를 받는다. 프로그램의 입력은 T 개의 테스트 데이터로 이루어져 있는데 T 는 입력의 맨 첫 줄에 주어진다. 각 테스트 데이터는 한 행으로서 H, W, N, 세 정수를 포함하고 있으며 각각 호텔의 층 수, 각 층의 방 수, 몇 번째 손님인지를 나타낸다(1 ≤ H, W ≤ 99, 1 ≤ N ≤ H × W).</p>
+  </li>
+  <li>
+    <p>출력<br />
+프로그램은 표준 출력에 출력한다. 각 테스트 데이터마다 정확히 한 행을 출력하는데, 내용은 N 번째 손님에게 배정되어야 하는 방 번호를 출력한다.</p>
+  </li>
+</ul>
+
+<p>예제 입력 1 <br />
+2<br />
+6 12 10<br />
+30 50 72</p>
+
+<p>예제 출력 1 <br />
+402<br />
+1203</p>
+
+<ul>
+  <li>나만의 해석
+    <ul>
+      <li>우선순위 호수(W)가 작을수록, 층수(H)가 낮을수록 선호</li>
+    </ul>
+  </li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">T</span> <span class="o">=</span> <span class="mi">2</span>
+
+<span class="n">H</span><span class="p">,</span> <span class="n">W</span><span class="p">,</span> <span class="n">N</span> <span class="o">=</span> <span class="p">[</span><span class="mi">6</span><span class="p">,</span><span class="mi">12</span><span class="p">,</span><span class="mi">10</span><span class="p">]</span> <span class="c1"># 호텔의 층 수, 각 층의 방 수, 몇 번째 손님
+</span>
+<span class="c1"># H/N 나누기 하여 몫이 호수! 나머지가 층수!
+</span><span class="n">COUNT</span> <span class="o">=</span> <span class="n">N</span><span class="o">/</span><span class="n">H</span> <span class="k">if</span> <span class="n">N</span><span class="o">/</span><span class="n">H</span> <span class="o">==</span> <span class="nb">int</span><span class="p">(</span><span class="n">N</span><span class="o">/</span><span class="n">H</span><span class="p">)</span> <span class="k">else</span> <span class="nb">int</span><span class="p">(</span><span class="n">N</span><span class="o">/</span><span class="n">H</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span> <span class="c1"># 올림
+</span><span class="n">floor</span> <span class="o">=</span> <span class="n">H</span> <span class="k">if</span> <span class="n">N</span><span class="o">%</span><span class="n">H</span> <span class="o">==</span> <span class="mi">0</span> <span class="k">else</span> <span class="n">N</span><span class="o">%</span><span class="n">H</span> <span class="c1"># 나누어 떨어지면 꼭대기층이다.
+</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">floor</span><span class="o">*</span><span class="mi">100</span><span class="o">+</span><span class="n">COUNT</span><span class="p">))</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>402
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 제출코드
+</span><span class="n">T</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">T</span><span class="p">):</span>
+    <span class="n">H</span><span class="p">,</span> <span class="n">W</span><span class="p">,</span> <span class="n">N</span> <span class="o">=</span> <span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">input</span><span class="p">().</span><span class="n">split</span><span class="p">()]</span><span class="c1"># 호텔의 층 수, 각 층의 방 수, 몇 번째 손님
+</span>
+    <span class="c1"># H/N 나누기 하여 몫이 호수! 나머지가 층수!
+</span>    <span class="n">COUNT</span> <span class="o">=</span> <span class="n">N</span><span class="o">/</span><span class="n">H</span> <span class="k">if</span> <span class="n">N</span><span class="o">/</span><span class="n">H</span> <span class="o">==</span> <span class="nb">int</span><span class="p">(</span><span class="n">N</span><span class="o">/</span><span class="n">H</span><span class="p">)</span> <span class="k">else</span> <span class="nb">int</span><span class="p">(</span><span class="n">N</span><span class="o">/</span><span class="n">H</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span> <span class="c1"># 올림
+</span>    <span class="n">floor</span> <span class="o">=</span> <span class="n">H</span> <span class="k">if</span> <span class="n">N</span><span class="o">%</span><span class="n">H</span> <span class="o">==</span> <span class="mi">0</span> <span class="k">else</span> <span class="n">N</span><span class="o">%</span><span class="n">H</span> <span class="c1"># 나누어 떨어지면 꼭대기층이다.
+</span>
+    <span class="k">print</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">floor</span><span class="o">*</span><span class="mi">100</span><span class="o">+</span><span class="n">COUNT</span><span class="p">))</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> 2
+ 6 12 10
+
+
+402
+
+
+ 30 50 72
+
+
+1203
+</code></pre></div></div>
+
+<hr />
+
+<hr />
+
+<h2 id="부녀회장이-될테야-6-2775">부녀회장이 될테야 (6-2775)</h2>
+
+<p>https://www.acmicpc.net/problem/2775</p>
+
+<ul>
+  <li>
+    <p>문제<br />
+평소 반상회에 참석하는 것을 좋아하는 주희는 이번 기회에 부녀회장이 되고 싶어 각 층의 사람들을 불러 모아 반상회를 주최하려고 한다.<br />
+이 아파트에 거주를 하려면 조건이 있는데, “a층의 b호에 살려면 자신의 아래(a-1)층의 1호부터 b호까지 사람들의 수의 합만큼 사람들을 데려와 살아야 한다” 는 계약 조항을 꼭 지키고 들어와야 한다.<br />
+아파트에 비어있는 집은 없고 모든 거주민들이 이 계약 조건을 지키고 왔다고 가정했을 때, 주어지는 양의 정수 k와 n에 대해 k층에 n호에는 몇 명이 살고 있는지 출력하라. 단, 아파트에는 0층부터 있고 각층에는 1호부터 있으며, 0층의 i호에는 i명이 산다.</p>
+  </li>
+  <li>
+    <p>입력<br />
+첫 번째 줄에 Test case의 수 T가 주어진다. 그리고 각각의 케이스마다 입력으로 첫 번째 줄에 정수 k, 두 번째 줄에 정수 n이 주어진다</p>
+  </li>
+  <li>
+    <p>출력<br />
+각각의 Test case에 대해서 해당 집에 거주민 수를 출력하라.</p>
+  </li>
+  <li>
+    <p>제한<br />
+1 ≤ k, n ≤ 14</p>
+  </li>
+  <li>
+    <p>예제 입력 1 <br />
+2<br />
+1<br />
+3<br />
+2<br />
+3</p>
+  </li>
+  <li>
+    <p>예제 출력 1 <br />
+6<br />
+10</p>
+  </li>
+  <li>
+    <p>나만의 해석</p>
+    <ul>
+      <li>재귀함수를 이용해서 위의 설명대로 하면 될 것 같다.</li>
+    </ul>
+  </li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">FIND_CT</span><span class="p">(</span><span class="n">K</span><span class="p">,</span><span class="n">N</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">N</span><span class="o">==</span><span class="mi">1</span><span class="p">:</span> <span class="c1">#  0층부터 있고 각층에는 1호
+</span>        <span class="k">return</span> <span class="mi">1</span>
+    <span class="k">if</span> <span class="n">K</span><span class="o">==</span><span class="mi">0</span><span class="p">:</span> <span class="c1">#  0층의 i호에는 i명이 산다.
+</span>        <span class="k">return</span> <span class="n">N</span>
+    
+    <span class="c1"># 현재 인원은 {FIND_CT(K-1,N) : 아래층인 B} + {FIND_CT(K,N-1) : 1~(B-1)의 합인 왼쪽층(N-1)} 둘의 합이다.
+</span>    <span class="k">return</span> <span class="n">FIND_CT</span><span class="p">(</span><span class="n">K</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="n">N</span><span class="p">)</span><span class="o">+</span><span class="n">FIND_CT</span><span class="p">(</span><span class="n">K</span><span class="p">,</span><span class="n">N</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> 
+
+<span class="n">FIND_CT</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">6</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>21
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 제출코드
+</span><span class="k">def</span> <span class="nf">FIND_CT</span><span class="p">(</span><span class="n">K</span><span class="p">,</span><span class="n">N</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">N</span><span class="o">==</span><span class="mi">1</span><span class="p">:</span> <span class="c1">#  0층부터 있고 각층에는 1호
+</span>        <span class="k">return</span> <span class="mi">1</span>
+    <span class="k">if</span> <span class="n">K</span><span class="o">==</span><span class="mi">0</span><span class="p">:</span> <span class="c1">#  0층의 i호에는 i명이 산다.
+</span>        <span class="k">return</span> <span class="n">N</span>
+    
+    <span class="c1"># 현재 인원은 {FIND_CT(K-1,N) : 아래층인 B} + {FIND_CT(K,N-1) : 1~(B-1)의 합인 왼쪽층(N-1)} 둘의 합이다.
+</span>    <span class="k">return</span> <span class="n">FIND_CT</span><span class="p">(</span><span class="n">K</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="n">N</span><span class="p">)</span><span class="o">+</span><span class="n">FIND_CT</span><span class="p">(</span><span class="n">K</span><span class="p">,</span><span class="n">N</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> 
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())):</span>
+    <span class="n">K</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
+    <span class="n">N</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
+    <span class="n">FIND_CT</span><span class="p">(</span><span class="n">K</span><span class="p">,</span><span class="n">N</span><span class="p">)</span>
+</code></pre></div></div>
+
+<ul>
+  <li>재귀함수를 사용하면 시간초과가 나온다.</li>
+  <li><del>수학적으로 계산을 해야할 것 같다.</del> 반복문으로 해결해야할 것 같다.</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">ALL_room</span> <span class="o">=</span> <span class="p">[]</span> <span class="c1"># 모든 방
+</span>
+<span class="n">K</span><span class="p">,</span><span class="n">N</span><span class="o">=</span> <span class="mi">2</span><span class="p">,</span><span class="mi">3</span>
+
+<span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="n">K</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
+    <span class="n">New_floor</span> <span class="o">=</span> <span class="p">[]</span> <span class="c1"># 각 층을 추가해준다. K 만큼
+</span>    <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="n">N</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
+        <span class="c1"># 각 호수에 해당하는 값을 New_floor 층 리스트에 넣어준다.
+</span>        <span class="k">if</span> <span class="n">n</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="n">New_floor</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="n">k</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span> <span class="c1"># 0층에서는 기본 값으로 n을 넣어준다.
+</span>            <span class="n">New_floor</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">New_floor</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">New_floor</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">+</span><span class="n">ALL_room</span><span class="p">[</span><span class="n">k</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+    <span class="n">ALL_room</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">New_floor</span><span class="p">)</span>
+    
+<span class="k">print</span><span class="p">(</span><span class="n">ALL_room</span><span class="p">[</span><span class="n">K</span><span class="p">][</span><span class="n">N</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>            
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>10
+1 4 10 
+1 3 6 
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#제출코드
+</span><span class="n">K_list</span><span class="o">=</span><span class="p">[]</span>
+<span class="n">N_list</span><span class="o">=</span><span class="p">[]</span>
+
+<span class="n">COUNT_input</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span> 
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">COUNT_input</span><span class="p">):</span>
+    <span class="n">K_list</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">()))</span>
+    <span class="n">N_list</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">()))</span>
+
+
+
+<span class="n">ALL_room</span> <span class="o">=</span> <span class="p">[]</span> <span class="c1"># 모든 방
+</span>
+<span class="n">K</span><span class="p">,</span><span class="n">N</span><span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="n">K_list</span><span class="p">),</span><span class="nb">max</span><span class="p">(</span><span class="n">N_list</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="n">K</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
+    <span class="n">New_floor</span> <span class="o">=</span> <span class="p">[]</span> <span class="c1"># 각 층을 추가해준다. K 만큼
+</span>    <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="n">N</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
+        <span class="c1"># 각 호수에 해당하는 값을 New_floor 층 리스트에 넣어준다.
+</span>        <span class="k">if</span> <span class="n">n</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="n">New_floor</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="n">k</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span> <span class="c1"># 0층에서는 기본 값으로 n을 넣어준다.
+</span>            <span class="n">New_floor</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">New_floor</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">New_floor</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">+</span><span class="n">ALL_room</span><span class="p">[</span><span class="n">k</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+    <span class="n">ALL_room</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">New_floor</span><span class="p">)</span>
+    
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">COUNT_input</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">ALL_room</span><span class="p">[</span><span class="n">K_list</span><span class="p">[</span><span class="n">i</span><span class="p">]][</span><span class="n">N_list</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span> 
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="큰-수-ab-8-10757">큰 수 A+B (8-10757)</h2>
+
+<p>https://www.acmicpc.net/problem/10757</p>
+
+<ul>
+  <li>
+    <p>문제<br />
+두 정수 A와 B를 입력받은 다음, A+B를 출력하는 프로그램을 작성하시오.</p>
+  </li>
+  <li>
+    <p>입력<br />
+첫째 줄에 A와 B가 주어진다. (0 &lt; A,B &lt; 1010000)</p>
+  </li>
+  <li>
+    <p>출력<br />
+첫째 줄에 A+B를 출력한다.</p>
+  </li>
+  <li>예제 입력 1 <br />
+9223372036854775807 9223372036854775808</li>
+  <li>
+    <p>예제 출력 1 <br />
+18446744073709551615</p>
+  </li>
+  <li>나만의 해석
+    <ul>
+      <li>… 없음</li>
+    </ul>
+  </li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 제출코드
+</span><span class="n">A</span><span class="p">,</span><span class="n">B</span> <span class="o">=</span> <span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">input</span><span class="p">().</span><span class="n">split</span><span class="p">()]</span>
+<span class="k">print</span><span class="p">(</span><span class="n">A</span><span class="o">+</span><span class="n">B</span><span class="p">)</span>
+</code></pre></div></div>
+
+                </div>
+            </section>
+
+            <!-- Email subscribe form at the bottom of the page -->
+            
+            <!--
+            
+                <section class="subscribe-form">
+                    <h3 class="subscribe-form-title">Subscribe to ML Engineer Chanp5660</h3>
+                    <p>Get the latest posts delivered right to your inbox</p>
+                    <span id="searchform" method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  />
+    <input class="location" type="hidden" name="location"  />
+    <input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" onkeyup="myFunc()" 
+               id="searchtext" type="text" name="searchtext"  
+               placeholder="Search..." />
+    </div>
+    <script type="text/javascript">
+        function myFunc() {
+            if(event.keyCode == 13) {
+                var url = encodeURIComponent($("#searchtext").val());
+                location.href = "/search.html?query=" + url;
+            }
+        }
+    </script>
+</span>
+                </section>
+            
+            -->
+
+            <footer class="post-full-footer">
+                <!-- Everything inside the #author tags pulls data from the author -->
+                <!-- #author-->
+                
+                    
+                        <section class="author-card">
+                            
+                                <img class="author-profile-image" src="/assets/built/images/favicon.jpg" alt="chanp5660" />
+                            
+                            <section class="author-card-content">
+                                <h4 class="author-card-name"><a href="/author/chanp5660">chanp5660</a></h4>
+                                
+                                    <p><a href="https://chanp5660.github.io">ML Engineer Chanp5660</a></p>
+                                
+                            </section>
+                        </section>
+                        <div class="post-full-footer-right">
+                            <a class="author-card-button" href="/author/chanp5660">Read More</a>
+                        </div>
+                    
+                
+                <!-- /author  -->
+            </footer>
+
+            <!-- If you use Disqus comments, just uncomment this block.
+            The only thing you need to change is "test-apkdzgmqhj" - which
+            should be replaced with your own Disqus site-id. -->
+            
+                <section class="post-full-comments">
+                    <div id="disqus_thread"></div>
+                    <script>
+                        var disqus_config = function () {
+                            var this_page_url = 'http://localhost:4000/%EB%B0%B1%EC%A4%80_%EA%B8%B0%EB%B3%B8-%EC%88%98%ED%95%99-1%EB%8B%A8%EA%B3%84';
+                            var this_page_identifier = '/백준_기본 수학 1단계';
+                            var this_page_title = '백준-단계별-기본 수학 1단계';
+                        };
+                        (function() {
+                            var d = document, s = d.createElement('script');
+                            s.src = 'https://chanp5660.disqus.com/embed.js';
+                            s.setAttribute('data-timestamp', +new Date());
+                            (d.head || d.body).appendChild(s);
+                        })();
+                    </script>
+                </section>
+            
+
+        </article>
+
+    </div>
+</main>
+
+<!-- Links to Previous/Next posts -->
+<aside class="read-next outer">
+    <div class="inner">
+        <div class="read-next-feed">
+            
+                
+                
+                
+                
+                    <article class="read-next-card"
+                        
+                            style="background-image: url(/assets/built/images/blog-cover.jpg)"
+                        
+                    >
+                        <header class="read-next-card-header">
+                            <small class="read-next-card-header-sitetitle">&mdash; ML Engineer Chanp5660 &mdash;</small>
+                            
+                                <h3 class="read-next-card-header-title"><a href="/tag/programing/">Programing</a></h3>
+                            
+                        </header>
+                        <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
+</div>
+                        <div class="read-next-card-content">
+                            <ul>
+                                
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/programing_test">programing_test</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/%EB%B0%B1%EC%A4%80_%EC%9E%AC%EA%B7%80">백준-단계별-재귀</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/W3school_pythontutorial(4)">W3school_pythontutorial(4)</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                            </ul>
+                        </div>
+                        <footer class="read-next-card-footer">
+                            <a href="/tag/programing/">
+                                
+                                    See all 11 posts  →
+                                
+                            </a>
+                        </footer>
+                    </article>
+                
+            
+
+            <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+
+    <article class="post-card post-template">
+        
+            <a class="post-card-image-link" href="/git-github-jekyll-%EA%B9%83%ED%97%88%EB%B8%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%84%A4%EC%B9%98">
+                <div class="post-card-image" style="background-image: url(/assets/built/images/github-logo.png)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/git-github-jekyll-%EA%B9%83%ED%97%88%EB%B8%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%84%A4%EC%B9%98">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags">Github</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">깃허브 블로그 추천 테마</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p>깃허브 블로그 추천 테마
+
+</p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/built/images/favicon.jpg" alt="chanp5660" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/chanp5660/">chanp5660</a>
+                        </span>
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      1 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+            
+
+            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+
+    <article class="post-card post-template">
+        
+            <a class="post-card-image-link" href="/%EB%B0%B1%EC%A4%80_%EB%AC%B8%EC%9E%90%EC%97%B4%EB%8B%A8%EA%B3%84">
+                <div class="post-card-image" style="background-image: url(/assets/built/images/baekjoon-logo.png)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/%EB%B0%B1%EC%A4%80_%EB%AC%B8%EC%9E%90%EC%97%B4%EB%8B%A8%EA%B3%84">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags">Programing</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">백준-단계별-문자열단계</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p>백준-단계별-문자열단계
+https://www.acmicpc.net/step/7
+
+</p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/built/images/favicon.jpg" alt="chanp5660" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/chanp5660/">chanp5660</a>
+                        </span>
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      1 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+            
+
+        </div>
+    </div>
+</aside>
+
+<!-- Floating header which appears on-scroll, included from includes/floating-header.hbs -->
+<div class="floating-header">
+    <div class="floating-header-logo">
+        <a href="http://localhost:4000/">
+            
+            <span>ML Engineer Chanp5660</span>
+        </a>
+    </div>
+    <span class="floating-header-divider">&mdash;</span>
+    <div class="floating-header-title">백준-단계별-기본 수학 1단계</div>
+    <div class="floating-header-share">
+        <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
+</svg>
+</div>
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=%EB%B0%B1%EC%A4%80-%EB%8B%A8%EA%B3%84%EB%B3%84-%EA%B8%B0%EB%B3%B8+%EC%88%98%ED%95%99+1%EB%8B%A8%EA%B3%84&amp;url=https://chanp5660.github.io/%EB%B0%B1%EC%A4%80_%EA%B8%B0%EB%B3%B8-%EC%88%98%ED%95%99-1%EB%8B%A8%EA%B3%84"
+            onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+
+        </a>
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://chanp5660.github.io/%EB%B0%B1%EC%A4%80_%EA%B8%B0%EB%B3%B8-%EC%88%98%ED%95%99-1%EB%8B%A8%EA%B3%84"
+            onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+
+        </a>
+    </div>
+    <progress class="progress" value="0">
+        <div class="progress-container">
+            <span class="progress-bar"></span>
+        </div>
+    </progress>
+</div>
+
+
+<!-- /post -->
+
+<!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs -->
+
+
+        <!-- Previous/next page links - displayed on every page -->
+        
+
+        <!-- The footer at the very bottom of the screen -->
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="http://localhost:4000/">ML Engineer Chanp5660</a> &copy; 2023</section>
+                <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> &
+                    <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> using
+                    <a href="https://github.com/jekyllt/jasper2" target="_blank" rel="noopener">Jasper2</a></section>
+                <nav class="site-footer-nav">
+                    <a href="/">Latest Posts</a>
+                    
+                    
+                    <a href="https://ghost.org" target="_blank" rel="noopener">Ghost</a>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- The big email subscribe modal content -->
+    
+        <div id="subscribe" class="subscribe-overlay">
+            <a class="subscribe-overlay-close" href="#"></a>
+            <div class="subscribe-overlay-content">
+                
+                <h1 class="subscribe-overlay-title">Search ML Engineer Chanp5660</h1>
+                <p class="subscribe-overlay-description">
+                lunr.js를 이용한 posts 검색 </p>
+                <span id="searchform" method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  />
+    <input class="location" type="hidden" name="location"  />
+    <input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" onkeyup="myFunc()" 
+               id="searchtext" type="text" name="searchtext"  
+               placeholder="Search..." />
+    </div>
+    <script type="text/javascript">
+        function myFunc() {
+            if(event.keyCode == 13) {
+                var url = encodeURIComponent($("#searchtext").val());
+                location.href = "/search.html?query=" + url;
+            }
+        }
+    </script>
+</span>
+            </div>
+        </div>
+    
+
+    <!-- highlight.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
+    <script>$(document).ready(function() {
+      $('pre code').each(function(i, block) {
+        hljs.highlightBlock(block);
+      });
+    });</script>
+
+    <!-- jQuery + Fitvids, which makes all video embeds responsive -->
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="https://demo.ghost.io/assets/js/jquery.fitvids.js?v=724281a32e"></script>
+
+
+    <!-- Paginator increased to "infinit" in _config.yml -->
+    <!-- if paginator.posts  -->
+    <!-- <script>
+        var maxPages = parseInt('');
+    </script>
+    <script src="/assets/js/infinitescroll.js"></script> -->
+    <!-- /endif -->
+
+    
+
+
+    <!-- Add Google Analytics  -->
+    <!-- Google Analytics Tracking code -->
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-32300574-2', 'auto');
+  ga('send', 'pageview');
+
+ </script>
+
+
+    <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
+    
+        <script>
+
+// NOTE: Scroll performance is poor in Safari
+// - this appears to be due to the events firing much more slowly in Safari.
+//   Dropping the scroll event and using only a raf loop results in smoother
+//   scrolling but continuous processing even when not scrolling
+$(document).ready(function () {
+    // Start fitVids
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+    // End fitVids
+
+    var progressBar = document.querySelector('progress');
+    var header = document.querySelector('.floating-header');
+    var title = document.querySelector('.post-full-title');
+
+    var lastScrollY = window.scrollY;
+    var lastWindowHeight = window.innerHeight;
+    var lastDocumentHeight = $(document).height();
+    var ticking = false;
+
+    function onScroll() {
+        lastScrollY = window.scrollY;
+        requestTick();
+    }
+
+    function onResize() {
+        lastWindowHeight = window.innerHeight;
+        lastDocumentHeight = $(document).height();
+        requestTick();
+    }
+
+    function requestTick() {
+        if (!ticking) {
+            requestAnimationFrame(update);
+        }
+        ticking = true;
+    }
+
+    function update() {
+        var trigger = title.getBoundingClientRect().top + window.scrollY;
+        var triggerOffset = title.offsetHeight + 35;
+        var progressMax = lastDocumentHeight - lastWindowHeight;
+
+        // show/hide floating header
+        if (lastScrollY >= trigger + triggerOffset) {
+            header.classList.add('floating-active');
+        } else {
+            header.classList.remove('floating-active');
+        }
+
+        progressBar.setAttribute('max', progressMax);
+        progressBar.setAttribute('value', lastScrollY);
+
+        ticking = false;
+    }
+
+    window.addEventListener('scroll', onScroll, {passive: true});
+    window.addEventListener('resize', onResize, false);
+
+    update();
+});
+</script>
+
+    
+
+    <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
+    <!-- ghost_foot -->
+
+</body>
+</html>

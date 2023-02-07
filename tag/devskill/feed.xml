@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/devskill/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-02-07T21:09:34+09:00</updated>
+  <updated>2023-02-07T22:36:03+09:00</updated>
   <id>http://localhost:4000/tag/devskill/feed.xml</id>
 
   
@@ -32,15 +32,97 @@
 
   
     <entry>
-      <title type="html">devskill_test</title>
-      <link href="http://localhost:4000/devskill_test" rel="alternate" type="text/html" title="devskill_test" />
-      <published>2023-02-07T14:00:00+09:00</published>
-      <updated>2023-02-07T14:00:00+09:00</updated>
-      <id>http://localhost:4000/devskill_test</id>
-      <content type="html" xml:base="http://localhost:4000/devskill_test">&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;devskill test&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+      <title type="html">깃허브 ipynb 업로드 방법</title>
+      <link href="http://localhost:4000/gitupload" rel="alternate" type="text/html" title="깃허브 ipynb 업로드 방법" />
+      <published>2022-07-07T02:08:00+09:00</published>
+      <updated>2022-07-07T02:08:00+09:00</updated>
+      <id>http://localhost:4000/gitupload</id>
+      <content type="html" xml:base="http://localhost:4000/gitupload">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;깃허브 블로그 포스팅&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./깃허브블로그(1)-ipynb포스팅&quot;&gt;깃허브블로그(1)-ipynb포스팅&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./깃허브블로그(2)-목차추가&quot;&gt;깃허브블로그(2)-목차추가&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./깃허브블로그(3)-깃허브업데이트&quot;&gt;깃허브블로그(3)-깃허브업데이트&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;devskill test
+&lt;h1 id=&quot;깃허브-ipynb-업로드-방법&quot;&gt;깃허브 ipynb 업로드 방법&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;앞서 준비해야할 것&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Git 아이디가 생성&lt;/li&gt;
+  &lt;li&gt;저장소 하나이상 생성&lt;/li&gt;
+  &lt;li&gt;아나콘다 가상환경 및 jupyter lab, Git 설치&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;1-깃허브-사이트에서-연동할-주소를-가져오기&quot;&gt;1. 깃허브 사이트에서 연동할 주소를 가져오기&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;아래 사진에서 HTTPs 버튼 클릭 후 오른쪽에 있는 복사 버튼을 클릭하면 URL이 복사가 됨&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/177748644-6bfc159a-777c-495d-aa2d-4e31037245f9.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;추가 참조 (https://www.lainyzine.com/ko/article/how-to-link-github-remote-repository-and-local-git-repository/)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;2-변경하거나-추가하는-방법&quot;&gt;2. 변경하거나 추가하는 방법&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;반복된 업데이트 명령어(컴퓨터 -&amp;gt; git)
+    &lt;ul&gt;
+      &lt;li&gt;하루 처음 명령어
+        &lt;ul&gt;
+          &lt;li&gt;init : git init&lt;/li&gt;
+          &lt;li&gt;branch : git branch -m main&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;계속 반복적으로 작성해주어야 하는 명령어
+        &lt;ul&gt;
+          &lt;li&gt;add : git add -A&lt;/li&gt;
+          &lt;li&gt;commit : git commit -m “저장할 메시지”&lt;/li&gt;
+          &lt;li&gt;push : git push origin master&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;반복된 업데이트 명령어(git -&amp;gt; 컴퓨터)
+    &lt;ul&gt;
+      &lt;li&gt;pull : git pull&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;추가 참조 (https://www.lainyzine.com/ko/article/how-to-link-github-remote-repository-and-local-git-repository/)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;3-ipynb-을-업로드-하는-방법&quot;&gt;3. ipynb 을 업로드 하는 방법&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;검색해봤지만 기존 파일로 바로 업로드 하는 방법을 찾지 못함&lt;/li&gt;
+  &lt;li&gt;jupyter lab 에서 markdown 파일로 저장 후 _posts 에 저장해서 업로드 함&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;4-이미지-파일-업로드&quot;&gt;4. 이미지 파일 업로드&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;따로 업로드가 안되기 때문에 git의 issue를 이용하거나 이미지 폴더를 이용해서 연결함&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;5-git-upload-batch-파일-만들기&quot;&gt;5. git upload batch 파일 만들기&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;git init 그리고 git remote 로 원격 설정이 되어 있는 상태에서는 앞으로 계속 add, commit, push 를 통해 버전 업을 해주어야한다.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;편의성을 위해 commit message만 입력 받으면 자동으로 add, commit, push가 되도록 배치파일을 생성한다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;먼저 .git 파일이 있는 곳으로 이동해주고나서 나머지 명령어들이 실행되어야 하므로 아래와 같은 코드를 “파일제목.bat” 로 만들어준다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;set&lt;/span&gt; /p &lt;span class=&quot;nv&quot;&gt;message&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;commit message 입력해주세요  :  &quot;&lt;/span&gt;
+call &lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;C:&lt;span class=&quot;se&quot;&gt;\U&lt;/span&gt;sers&lt;span class=&quot;se&quot;&gt;\t&lt;/span&gt;kd8484&lt;span class=&quot;se&quot;&gt;\D&lt;/span&gt;esktop&lt;span class=&quot;se&quot;&gt;\c&lt;/span&gt;hanp5660&lt;span class=&quot;se&quot;&gt;\[&lt;/span&gt;GitHubPage]
+call git add &lt;span class=&quot;nt&quot;&gt;-A&lt;/span&gt;
+call git commit &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;%message%&quot;&lt;/span&gt;
+call git push origin master 
+
+pause
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
 
       
@@ -62,7 +144,7 @@
       
 
       
-        <summary type="html">print(&quot;devskill test&quot;)</summary>
+        <summary type="html">깃허브 블로그 포스팅 깃허브블로그(1)-ipynb포스팅 깃허브블로그(2)-목차추가 깃허브블로그(3)-깃허브업데이트</summary>
       
 
       

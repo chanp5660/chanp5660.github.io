@@ -70,22 +70,6 @@
     
       
       <item>
-        <title>devskill_test</title>
-        
-          <description>&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;devskill test&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-</description>
-        
-        <pubDate>Tue, 07 Feb 2023 14:00:00 +0900</pubDate>
-        <link>
-        http://localhost:4000/devskill_test</link>
-        <guid isPermaLink="true">http://localhost:4000/devskill_test</guid>
-      </item>
-      
-    
-      
-      <item>
         <title>머신러닝 데이터 수집</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;AI(머신러닝, 딥러닝)&lt;/span&gt;&lt;/p&gt;
@@ -143,6 +127,256 @@
     
       
       <item>
+        <title>백준-단계별-재귀</title>
+        
+          <description>&lt;h1 id=&quot;백준-단계별-재귀&quot;&gt;백준-단계별-재귀&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.acmicpc.net/step/19&quot;&gt;https://www.acmicpc.net/step/19&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sat, 13 Aug 2022 11:27:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/%EB%B0%B1%EC%A4%80_%EC%9E%AC%EA%B7%80</link>
+        <guid isPermaLink="true">http://localhost:4000/%EB%B0%B1%EC%A4%80_%EC%9E%AC%EA%B7%80</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>나라장터-네이버메일자동보내기</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;나라장터 낙찰가를 예측하고 자동으로 입찰내용 메일 보내기&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./나라장터-수집(1)-OPENAPI&quot;&gt;나라장터-수집(1)-OPENAPI &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./나라장터-수집(2)-Selenium&quot;&gt;나라장터-수집(2)-Selenium &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./나라장터-메일자동보내기&quot;&gt;나라장터-메일자동보내기 &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Wed, 27 Jul 2022 16:16:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/%EB%82%98%EB%9D%BC%EC%9E%A5%ED%84%B0-%EB%84%A4%EC%9D%B4%EB%B2%84%EB%A9%94%EC%9D%BC%EC%9E%90%EB%8F%99%EB%B3%B4%EB%82%B4%EA%B8%B0</link>
+        <guid isPermaLink="true">http://localhost:4000/%EB%82%98%EB%9D%BC%EC%9E%A5%ED%84%B0-%EB%84%A4%EC%9D%B4%EB%B2%84%EB%A9%94%EC%9D%BC%EC%9E%90%EB%8F%99%EB%B3%B4%EB%82%B4%EA%B8%B0</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>W3school_pythontutorial(4)</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;W3school에서 python 내실 다지기 목록&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./W3school_pythontutorial(1)&quot;&gt;W3school_pythontutorial(1) Syntax ~ Strings &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./W3school_pythontutorial(2)-String_Methods&quot;&gt;W3school_pythontutorial(2)-String_Methods &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./W3school_pythontutorial(3)-Lists&quot;&gt;W3school_pythontutorial(3)-Lists&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./W3school_pythontutorial(4)&quot;&gt;W3school_pythontutorial(4) Booleans ~ Arrays&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./W3school_pythontutorial(5)-Tuples&quot;&gt;W3school_pythontutorial(5)-Tuples&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Wed, 27 Jul 2022 13:46:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/W3school_pythontutorial(4)</link>
+        <guid isPermaLink="true">http://localhost:4000/W3school_pythontutorial(4)</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>W3school_pythontutorial(5)-Tuples</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;W3school에서 python 내실 다지기 목록&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./W3school_pythontutorial(1)&quot;&gt;W3school_pythontutorial(1) Syntax ~ Strings &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./W3school_pythontutorial(2)-String_Methods&quot;&gt;W3school_pythontutorial(2)-String_Methods &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./W3school_pythontutorial(3)-Lists&quot;&gt;W3school_pythontutorial(3)-Lists&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./W3school_pythontutorial(4)&quot;&gt;W3school_pythontutorial(4) Booleans ~ Arrays&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./W3school_pythontutorial(5)-Tuples&quot;&gt;W3school_pythontutorial(5)-Tuples&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Tue, 26 Jul 2022 23:40:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/W3school_pythontutorial(5)-Tuples</link>
+        <guid isPermaLink="true">http://localhost:4000/W3school_pythontutorial(5)-Tuples</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>W3school_pythontutorial(3)-Lists</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;W3school에서 python 내실 다지기 목록&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./W3school_pythontutorial(1)&quot;&gt;W3school_pythontutorial(1) Syntax ~ Strings &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./W3school_pythontutorial(2)-String_Methods&quot;&gt;W3school_pythontutorial(2)-String_Methods &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./W3school_pythontutorial(3)-Lists&quot;&gt;W3school_pythontutorial(3)-Lists&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./W3school_pythontutorial(4)&quot;&gt;W3school_pythontutorial(4) Booleans ~ Arrays&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./W3school_pythontutorial(5)-Tuples&quot;&gt;W3school_pythontutorial(5)-Tuples&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Tue, 26 Jul 2022 23:40:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/W3school_pythontutorial(3)-Lists</link>
+        <guid isPermaLink="true">http://localhost:4000/W3school_pythontutorial(3)-Lists</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>나라장터-수집(1)-OPENAPI</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;나라장터 낙찰가를 예측하고 자동으로 입찰내용 메일 보내기&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./나라장터-수집(1)-OPENAPI&quot;&gt;나라장터-수집(1)-OPENAPI &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./나라장터-수집(2)-Selenium&quot;&gt;나라장터-수집(2)-Selenium &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./나라장터-메일자동보내기&quot;&gt;나라장터-메일자동보내기 &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Mon, 25 Jul 2022 23:43:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/%EB%82%98%EB%9D%BC%EC%9E%A5%ED%84%B0-%EC%88%98%EC%A7%91(1)-OPENAPI</link>
+        <guid isPermaLink="true">http://localhost:4000/%EB%82%98%EB%9D%BC%EC%9E%A5%ED%84%B0-%EC%88%98%EC%A7%91(1)-OPENAPI</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>나라장터-수집(2)-Selenium</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;나라장터 낙찰가를 예측하고 자동으로 입찰내용 메일 보내기&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./나라장터-수집(1)-OPENAPI&quot;&gt;나라장터-수집(1)-OPENAPI &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./나라장터-수집(2)-Selenium&quot;&gt;나라장터-수집(2)-Selenium &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./나라장터-메일자동보내기&quot;&gt;나라장터-메일자동보내기 &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Mon, 25 Jul 2022 23:41:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/%EB%82%98%EB%9D%BC%EC%9E%A5%ED%84%B0-%EC%88%98%EC%A7%91(2)-Selenium</link>
+        <guid isPermaLink="true">http://localhost:4000/%EB%82%98%EB%9D%BC%EC%9E%A5%ED%84%B0-%EC%88%98%EC%A7%91(2)-Selenium</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>백준-단계별-기본 수학 2단계</title>
+        
+          <description>&lt;h1 id=&quot;백준-단계별-기본-수학-2단계&quot;&gt;백준-단계별-기본 수학 2단계&lt;/h1&gt;
+&lt;p&gt;https://www.acmicpc.net/step/10&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 22 Jul 2022 13:39:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/%EB%B0%B1%EC%A4%80_%EA%B8%B0%EB%B3%B8-%EC%88%98%ED%95%99-2%EB%8B%A8%EA%B3%84</link>
+        <guid isPermaLink="true">http://localhost:4000/%EB%B0%B1%EC%A4%80_%EA%B8%B0%EB%B3%B8-%EC%88%98%ED%95%99-2%EB%8B%A8%EA%B3%84</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>HTML-책갈피</title>
+        
+          <description>&lt;h1 id=&quot;html-책갈피&quot;&gt;HTML-책갈피&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Thu, 21 Jul 2022 15:06:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/HTML-%EC%B1%85%EA%B0%88%ED%94%BC</link>
+        <guid isPermaLink="true">http://localhost:4000/HTML-%EC%B1%85%EA%B0%88%ED%94%BC</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>W3school_pythontutorial(2)-String_Methods</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;W3school에서 python 내실 다지기 목록&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./W3school_pythontutorial(1)&quot;&gt;W3school_pythontutorial(1) Syntax ~ Strings &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./W3school_pythontutorial(2)-String_Methods&quot;&gt;W3school_pythontutorial(2)-String_Methods &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./W3school_pythontutorial(3)-Lists&quot;&gt;W3school_pythontutorial(3)-Lists&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./W3school_pythontutorial(4)&quot;&gt;W3school_pythontutorial(4) Booleans ~ Arrays&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./W3school_pythontutorial(5)-Tuples&quot;&gt;W3school_pythontutorial(5)-Tuples&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Wed, 20 Jul 2022 12:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/W3school_pythontutorial(2)-String_Methods</link>
+        <guid isPermaLink="true">http://localhost:4000/W3school_pythontutorial(2)-String_Methods</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>ipynb 파일 블로그 업로드 자동화</title>
+        
+          <description>&lt;h1 id=&quot;ipynb-파일-블로그-업로드-자동화&quot;&gt;ipynb 파일 블로그 업로드 자동화&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Wed, 20 Jul 2022 03:40:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/ipynb%ED%8C%8C%EC%9D%BC-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%97%85%EB%A1%9C%EB%93%9C-%EC%9E%90%EB%8F%99%ED%99%94</link>
+        <guid isPermaLink="true">http://localhost:4000/ipynb%ED%8C%8C%EC%9D%BC-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%97%85%EB%A1%9C%EB%93%9C-%EC%9E%90%EB%8F%99%ED%99%94</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>주식 분석 및 예측(1)-수집 및 DB</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;주식 분석 및 예측 목차는 몇개 추가하지 않고 소주제로 다룰 것이다.&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./주식-분석-및-예측(1)-수집-및-DB&quot;&gt;주식 분석 및 예측(1)-수집 및 DB&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Mon, 18 Jul 2022 20:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/%EC%A3%BC%EC%8B%9D-%EB%B6%84%EC%84%9D-%EB%B0%8F-%EC%98%88%EC%B8%A1(1)-%EC%88%98%EC%A7%91-%EB%B0%8F-DB</link>
+        <guid isPermaLink="true">http://localhost:4000/%EC%A3%BC%EC%8B%9D-%EB%B6%84%EC%84%9D-%EB%B0%8F-%EC%98%88%EC%B8%A1(1)-%EC%88%98%EC%A7%91-%EB%B0%8F-DB</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>W3school_pythontutorial(1)</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;W3school에서 python 내실 다지기 목록&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./W3school_pythontutorial(1)&quot;&gt;W3school_pythontutorial(1) Syntax ~ Strings &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./W3school_pythontutorial(2)-String_Methods&quot;&gt;W3school_pythontutorial(2)-String_Methods &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./W3school_pythontutorial(3)-Lists&quot;&gt;W3school_pythontutorial(3)-Lists&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./W3school_pythontutorial(4)&quot;&gt;W3school_pythontutorial(4) Booleans ~ Arrays&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./W3school_pythontutorial(5)-Tuples&quot;&gt;W3school_pythontutorial(5)-Tuples&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Mon, 18 Jul 2022 20:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/W3school_pythontutorial(1)</link>
+        <guid isPermaLink="true">http://localhost:4000/W3school_pythontutorial(1)</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Github-가입 및 프로필</title>
         
           <description>&lt;h1 id=&quot;github-가입-및-프로필&quot;&gt;Github-가입 및 프로필&lt;/h1&gt;
@@ -168,6 +402,21 @@
         <link>
         http://localhost:4000/git-version-%EB%B3%80%EA%B2%BD</link>
         <guid isPermaLink="true">http://localhost:4000/git-version-%EB%B3%80%EA%B2%BD</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Jupyter-안정적인 이미지추가</title>
+        
+          <description>&lt;h1 id=&quot;jupyter-안정적인-이미지추가&quot;&gt;Jupyter-안정적인 이미지추가&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Mon, 18 Jul 2022 12:12:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/Jupyter-%EC%95%88%EC%A0%95%EC%A0%81%EC%9D%B8-%EC%9D%B4%EB%AF%B8%EC%A7%80%EC%B6%94%EA%B0%80</link>
+        <guid isPermaLink="true">http://localhost:4000/Jupyter-%EC%95%88%EC%A0%95%EC%A0%81%EC%9D%B8-%EC%9D%B4%EB%AF%B8%EC%A7%80%EC%B6%94%EA%B0%80</guid>
       </item>
       
     
@@ -268,6 +517,38 @@
     
       
       <item>
+        <title>백준-단계별-기본 수학 1단계</title>
+        
+          <description>&lt;h1 id=&quot;백준-단계별-기본-수학-1단계&quot;&gt;백준-단계별-기본 수학 1단계&lt;/h1&gt;
+&lt;p&gt;https://www.acmicpc.net/step/8&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 13 Jul 2022 17:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/%EB%B0%B1%EC%A4%80_%EA%B8%B0%EB%B3%B8-%EC%88%98%ED%95%99-1%EB%8B%A8%EA%B3%84</link>
+        <guid isPermaLink="true">http://localhost:4000/%EB%B0%B1%EC%A4%80_%EA%B8%B0%EB%B3%B8-%EC%88%98%ED%95%99-1%EB%8B%A8%EA%B3%84</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>백준-단계별-문자열단계</title>
+        
+          <description>&lt;h1 id=&quot;백준-단계별-문자열단계&quot;&gt;백준-단계별-문자열단계&lt;/h1&gt;
+&lt;p&gt;https://www.acmicpc.net/step/7&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 07 Jul 2022 17:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/%EB%B0%B1%EC%A4%80_%EB%AC%B8%EC%9E%90%EC%97%B4%EB%8B%A8%EA%B3%84</link>
+        <guid isPermaLink="true">http://localhost:4000/%EB%B0%B1%EC%A4%80_%EB%AC%B8%EC%9E%90%EC%97%B4%EB%8B%A8%EA%B3%84</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>깃허브 ipynb 업로드 방법</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;깃허브 블로그 포스팅&lt;/span&gt;&lt;/p&gt;
@@ -283,6 +564,83 @@
         <link>
         http://localhost:4000/gitupload</link>
         <guid isPermaLink="true">http://localhost:4000/gitupload</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>백준-단계별-조건문</title>
+        
+          <description>&lt;h1 id=&quot;백준-단계별-조건문&quot;&gt;백준-단계별-조건문&lt;/h1&gt;
+&lt;p&gt;https://www.acmicpc.net/step/4&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 06 Jul 2022 17:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/%EB%B0%B1%EC%A4%80_%EC%A1%B0%EA%B1%B4%EB%AC%B8</link>
+        <guid isPermaLink="true">http://localhost:4000/%EB%B0%B1%EC%A4%80_%EC%A1%B0%EA%B1%B4%EB%AC%B8</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>백준-단계별-입출력과 사칙연산</title>
+        
+          <description>&lt;h1 id=&quot;백준-단계별-입출력과-사칙연산&quot;&gt;백준-단계별-입출력과 사칙연산&lt;/h1&gt;
+&lt;p&gt;https://www.acmicpc.net/step/1&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 06 Jul 2022 17:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/%EB%B0%B1%EC%A4%80_%EC%9E%85%EC%B6%9C%EB%A0%A5%EA%B3%BC-%EC%82%AC%EC%B9%99%EC%97%B0%EC%82%B0</link>
+        <guid isPermaLink="true">http://localhost:4000/%EB%B0%B1%EC%A4%80_%EC%9E%85%EC%B6%9C%EB%A0%A5%EA%B3%BC-%EC%82%AC%EC%B9%99%EC%97%B0%EC%82%B0</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>R언어를 이용한 사람인 크롤링</title>
+        
+          <description>&lt;h1 id=&quot;r언어를-이용한-사람인-크롤링&quot;&gt;R언어를 이용한 사람인 크롤링&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Sun, 19 May 2019 00:19:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/R%EC%96%B8%EC%96%B4-%EC%82%AC%EB%9E%8C%EC%9D%B8%ED%81%AC%EB%A1%A4%EB%A7%81</link>
+        <guid isPermaLink="true">http://localhost:4000/R%EC%96%B8%EC%96%B4-%EC%82%AC%EB%9E%8C%EC%9D%B8%ED%81%AC%EB%A1%A4%EB%A7%81</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Octoparse 를 사용한 크롤링</title>
+        
+          <description>&lt;h1 id=&quot;octoparse-를-사용한-크롤링&quot;&gt;Octoparse 를 사용한 크롤링&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Fri, 10 May 2019 00:30:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/Octoparse%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%9C-%ED%81%AC%EB%A1%A4%EB%A7%81</link>
+        <guid isPermaLink="true">http://localhost:4000/Octoparse%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%9C-%ED%81%AC%EB%A1%A4%EB%A7%81</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>R언어-RSelenium_tutorial</title>
+        
+          <description>&lt;h1 id=&quot;r언어-rselenium_tutorial&quot;&gt;R언어-RSelenium_tutorial&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Fri, 10 May 2019 00:19:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/R%EC%96%B8%EC%96%B4-RSelenium_tutorial</link>
+        <guid isPermaLink="true">http://localhost:4000/R%EC%96%B8%EC%96%B4-RSelenium_tutorial</guid>
       </item>
       
     
