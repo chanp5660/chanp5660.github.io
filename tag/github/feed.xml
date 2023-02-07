@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
+  <link href="http://localhost:4000/tag/github/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2023-02-07T21:09:34+09:00</updated>
+  <id>http://localhost:4000/tag/github/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">ML Engineer Chanp5660 | </title>
+  
+
+  
+    <subtitle>박찬</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">깃허브 블로그 추천 테마</title>
+      <link href="http://localhost:4000/git-github-jekyll-%EA%B9%83%ED%97%88%EB%B8%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%84%A4%EC%B9%98" rel="alternate" type="text/html" title="깃허브 블로그 추천 테마" />
+      <published>2022-07-14T02:08:00+09:00</published>
+      <updated>2022-07-14T02:08:00+09:00</updated>
+      <id>http://localhost:4000/git-github-jekyll-%EA%B9%83%ED%97%88%EB%B8%8C%20%EB%B8%94%EB%A1%9C%EA%B7%B8%20%EC%84%A4%EC%B9%98</id>
+      <content type="html" xml:base="http://localhost:4000/git-github-jekyll-%EA%B9%83%ED%97%88%EB%B8%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%84%A4%EC%B9%98">&lt;h1 id=&quot;깃허브-블로그-추천-테마&quot;&gt;깃허브 블로그 추천 테마&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;http://jekyllthemes.org/&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;https://jekyll-themes.com/free/&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;여기에서 minimalistic&lt;br /&gt;
+  https://jekyll-themes.com/jekyll-theme-minimalistic/&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;블로그-기본-변경&quot;&gt;블로그 기본 변경&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;_config.yml 수정
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;프로필 이미지 수정 
+  &lt;img src=&quot;https://user-images.githubusercontent.com/46266247/178733264-9c4d49e6-3698-4096-8da4-16318de6f27a.jpg&quot; alt=&quot;dog-gdd132e1b0_1920&quot; /&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;파비콘 수정 (favicon, 탭에 뜨는 이미지 설정)
+  https://velog.io/@eona1301/Github-Blog-%ED%8C%8C%EB%B9%84%EC%BD%98Favicon-%EC%84%B8%ED%8C%85%ED%95%98%EA%B8%B0&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;블로그-주소-설정&quot;&gt;블로그 주소 설정&lt;/h1&gt;
+
+&lt;p&gt;https://ahnslab.com/21-how-to-start-github-blog/&lt;/p&gt;
+
+&lt;h1 id=&quot;쉽고-빠르게-github-블로그&quot;&gt;쉽고 빠르게 GitHub 블로그&lt;/h1&gt;
+&lt;p&gt;https://dreamgonfly.github.io/blog/jekyll-remote-theme/&lt;/p&gt;
+
+&lt;h1 id=&quot;개인-로컬-환경windows에서-github-blog-with-jekyll-세팅하기&quot;&gt;개인 로컬 환경(windows)에서 GitHub Blog With jekyll 세팅하기&lt;/h1&gt;
+
+&lt;p&gt;https://rerewww.github.io/setting/setting-jekyll-blog/&lt;/p&gt;
+
+&lt;h1 id=&quot;git-git-bash-연동&quot;&gt;git Git bash 연동&lt;/h1&gt;
+
+&lt;p&gt;https://transferhwang.tistory.com/160&lt;/p&gt;
+
+&lt;h1 id=&quot;minimal-mistakes-를-적용한-github-page-만들기&quot;&gt;Minimal Mistakes 를 적용한 Github Page 만들기&lt;/h1&gt;
+&lt;p&gt;https://pnurep.github.io/blogging/github-page-minimal-mistakes/#&lt;/p&gt;
+
+&lt;h1 id=&quot;깃허브-블로그-따라하기-유투브&quot;&gt;깃허브 블로그 따라하기 유투브&lt;/h1&gt;
+
+&lt;p&gt;https://www.youtube.com/watch?v=2ClW2LdqP30  유투브&lt;/p&gt;
+
+&lt;p&gt;https://moon9342.github.io/jekyll-start 사이트&lt;/p&gt;
+
+&lt;h2 id=&quot;jekyll-실행-시킬-때-require-cannot-load-such-file--webrick-loaderror-오류가-난다면-bundle-add-webrick&quot;&gt;jekyll 실행 시킬 때 `require’: cannot load such file – webrick (LoadError) 오류가 난다면 bundle add webrick&lt;/h2&gt;
+&lt;p&gt;https://junho85.pe.kr/1850&lt;/p&gt;
+
+&lt;h1 id=&quot;주피터-노트북에서-md-파일-보기&quot;&gt;주피터 노트북에서 MD 파일 보기&lt;/h1&gt;
+&lt;p&gt;JupyterLab markdown rendering&lt;br /&gt;
+https://www.youtube.com/watch?v=eQsRlqK-z1c&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="github" />
+      
+
+      
+        <summary type="html">깃허브 블로그 추천 테마</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

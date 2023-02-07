@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/project/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-02-07T19:38:47+09:00</updated>
+  <updated>2023-02-07T21:09:34+09:00</updated>
   <id>http://localhost:4000/tag/project/feed.xml</id>
 
   
@@ -30,44 +30,6 @@
   
   
 
-  
-    <entry>
-      <title type="html">project_test</title>
-      <link href="http://localhost:4000/project_test" rel="alternate" type="text/html" title="project_test" />
-      <published>2023-02-07T14:00:00+09:00</published>
-      <updated>2023-02-07T14:00:00+09:00</updated>
-      <id>http://localhost:4000/project_test</id>
-      <content type="html" xml:base="http://localhost:4000/project_test">&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;project test&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;project test
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="project" />
-      
-
-      
-        <summary type="html">print(&quot;project test&quot;)</summary>
-      
-
-      
-      
-    </entry>
   
     <entry>
       <title type="html">토픽모델링(빅데이터카인즈,트위터)</title>

@@ -1,4 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-07T19:38:47+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ML Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">토픽모델링(빅데이터카인즈,트위터)</title><link href="http://localhost:4000/%ED%86%A0%ED%94%BD%EB%AA%A8%EB%8D%B8%EB%A7%81(%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%B9%B4%EC%9D%B8%EC%A6%88_%ED%8A%B8%EC%9C%84%ED%84%B0)" rel="alternate" type="text/html" title="토픽모델링(빅데이터카인즈,트위터)" /><published>2023-02-07T14:00:00+09:00</published><updated>2023-02-07T14:00:00+09:00</updated><id>http://localhost:4000/%ED%86%A0%ED%94%BD%EB%AA%A8%EB%8D%B8%EB%A7%81(%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%B9%B4%EC%9D%B8%EC%A6%88_%ED%8A%B8%EC%9C%84%ED%84%B0)</id><content type="html" xml:base="http://localhost:4000/%ED%86%A0%ED%94%BD%EB%AA%A8%EB%8D%B8%EB%A7%81(%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%B9%B4%EC%9D%B8%EC%A6%88_%ED%8A%B8%EC%9C%84%ED%84%B0)">&lt;h1 id=&quot;토픽모델링빅데이터카인즈-트위터&quot;&gt;토픽모델링(빅데이터카인즈, 트위터)&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-07T21:09:34+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ML Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">devskill_test</title><link href="http://localhost:4000/devskill_test" rel="alternate" type="text/html" title="devskill_test" /><published>2023-02-07T14:00:00+09:00</published><updated>2023-02-07T14:00:00+09:00</updated><id>http://localhost:4000/devskill_test</id><content type="html" xml:base="http://localhost:4000/devskill_test">&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;devskill test&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;devskill test
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="devskill" /><summary type="html">print(&quot;devskill test&quot;)</summary></entry><entry><title type="html">토픽모델링(빅데이터카인즈,트위터)</title><link href="http://localhost:4000/%ED%86%A0%ED%94%BD%EB%AA%A8%EB%8D%B8%EB%A7%81(%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%B9%B4%EC%9D%B8%EC%A6%88_%ED%8A%B8%EC%9C%84%ED%84%B0)" rel="alternate" type="text/html" title="토픽모델링(빅데이터카인즈,트위터)" /><published>2023-02-07T14:00:00+09:00</published><updated>2023-02-07T14:00:00+09:00</updated><id>http://localhost:4000/%ED%86%A0%ED%94%BD%EB%AA%A8%EB%8D%B8%EB%A7%81(%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%B9%B4%EC%9D%B8%EC%A6%88_%ED%8A%B8%EC%9C%84%ED%84%B0)</id><content type="html" xml:base="http://localhost:4000/%ED%86%A0%ED%94%BD%EB%AA%A8%EB%8D%B8%EB%A7%81(%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%B9%B4%EC%9D%B8%EC%A6%88_%ED%8A%B8%EC%9C%84%ED%84%B0)">&lt;h1 id=&quot;토픽모델링빅데이터카인즈-트위터&quot;&gt;토픽모델링(빅데이터카인즈, 트위터)&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;LDA를 이용해서 빅데이터카인즈와 트위터에서 2019~2020년의 토픽모델링을 통해 주요 토픽이 무엇인지 파악할 수 있게 한다.&lt;/li&gt;
@@ -391,11 +395,7 @@ if(typeof(LDAvis) !== &quot;undefined&quot;){
             })
          });
 }
-&lt;/script&gt;</content><author><name>chanp5660</name></author><category term="project" /><summary type="html">토픽모델링(빅데이터카인즈, 트위터)</summary></entry><entry><title type="html">project_test</title><link href="http://localhost:4000/project_test" rel="alternate" type="text/html" title="project_test" /><published>2023-02-07T14:00:00+09:00</published><updated>2023-02-07T14:00:00+09:00</updated><id>http://localhost:4000/project_test</id><content type="html" xml:base="http://localhost:4000/project_test">&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;project test&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;project test
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="project" /><summary type="html">print(&quot;project test&quot;)</summary></entry><entry><title type="html">programing_test</title><link href="http://localhost:4000/programing_test" rel="alternate" type="text/html" title="programing_test" /><published>2023-02-07T14:00:00+09:00</published><updated>2023-02-07T14:00:00+09:00</updated><id>http://localhost:4000/programing_test</id><content type="html" xml:base="http://localhost:4000/programing_test">&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;programing test&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/script&gt;</content><author><name>chanp5660</name></author><category term="project" /><summary type="html">토픽모델링(빅데이터카인즈, 트위터)</summary></entry><entry><title type="html">programing_test</title><link href="http://localhost:4000/programing_test" rel="alternate" type="text/html" title="programing_test" /><published>2023-02-07T14:00:00+09:00</published><updated>2023-02-07T14:00:00+09:00</updated><id>http://localhost:4000/programing_test</id><content type="html" xml:base="http://localhost:4000/programing_test">&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;programing test&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;programing test
@@ -403,11 +403,7 @@ if(typeof(LDAvis) !== &quot;undefined&quot;){
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;devskill test
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="math" /><summary type="html">print(&quot;math test&quot;)</summary></entry><entry><title type="html">devskill_test</title><link href="http://localhost:4000/devskill_test" rel="alternate" type="text/html" title="devskill_test" /><published>2023-02-07T14:00:00+09:00</published><updated>2023-02-07T14:00:00+09:00</updated><id>http://localhost:4000/devskill_test</id><content type="html" xml:base="http://localhost:4000/devskill_test">&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;devskill test&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;devskill test
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="devskill" /><summary type="html">print(&quot;devskill test&quot;)</summary></entry><entry><title type="html">jekyll-목차추가하기</title><link href="http://localhost:4000/jekyll-%EB%AA%A9%EC%B0%A8%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0" rel="alternate" type="text/html" title="jekyll-목차추가하기" /><published>2023-02-07T14:00:00+09:00</published><updated>2023-02-07T14:00:00+09:00</updated><id>http://localhost:4000/jekyll-%EB%AA%A9%EC%B0%A8%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/jekyll-%EB%AA%A9%EC%B0%A8%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0">&lt;h1 id=&quot;jekyll로-만든-깃허브-블로그에-목차-추가하기&quot;&gt;jekyll로 만든 깃허브 블로그에 목차 추가하기&lt;/h1&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="math" /><summary type="html">print(&quot;math test&quot;)</summary></entry><entry><title type="html">jekyll-목차추가하기</title><link href="http://localhost:4000/jekyll-%EB%AA%A9%EC%B0%A8%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0" rel="alternate" type="text/html" title="jekyll-목차추가하기" /><published>2023-02-07T14:00:00+09:00</published><updated>2023-02-07T14:00:00+09:00</updated><id>http://localhost:4000/jekyll-%EB%AA%A9%EC%B0%A8%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/jekyll-%EB%AA%A9%EC%B0%A8%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0">&lt;h1 id=&quot;jekyll로-만든-깃허브-블로그에-목차-추가하기&quot;&gt;jekyll로 만든 깃허브 블로그에 목차 추가하기&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;ipynb 내에 {\% include “html 파일”\%}&lt;/li&gt;
@@ -576,4 +572,79 @@ if(typeof(LDAvis) !== &quot;undefined&quot;){
 &lt;h1 id=&quot;참조-사이트-및-책&quot;&gt;참조 사이트 및 책&lt;/h1&gt;
 &lt;blockquote&gt;
   &lt;p&gt;&lt;a href=&quot;https://wikidocs.net/book/2155&quot;&gt;&lt;strong&gt;딥 러닝을 이용한 자연어 처리 입문&lt;/strong&gt;&lt;/a&gt; 책을 보고 복습할 겸 작성한 글로 깊고 자세한 공부는 해당 링크를 통해 공부하는 것을 추천드립니다.&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name>chanp5660</name></author><category term="ai" /><summary type="html">AI(머신러닝, 딥러닝) Python 강좌(1) - 목차만들기 Python 강좌(2) - Python 하이라이트 확인</summary></entry></feed>
+&lt;/blockquote&gt;</content><author><name>chanp5660</name></author><category term="ai" /><summary type="html">AI(머신러닝, 딥러닝) Python 강좌(1) - 목차만들기 Python 강좌(2) - Python 하이라이트 확인</summary></entry><entry><title type="html">Github-가입 및 프로필</title><link href="http://localhost:4000/github-%EA%B0%80%EC%9E%85-%EB%B0%8F-%ED%94%84%EB%A1%9C%ED%95%84" rel="alternate" type="text/html" title="Github-가입 및 프로필" /><published>2022-07-18T12:50:00+09:00</published><updated>2022-07-18T12:50:00+09:00</updated><id>http://localhost:4000/github-%EA%B0%80%EC%9E%85%20%EB%B0%8F%20%ED%94%84%EB%A1%9C%ED%95%84</id><content type="html" xml:base="http://localhost:4000/github-%EA%B0%80%EC%9E%85-%EB%B0%8F-%ED%94%84%EB%A1%9C%ED%95%84">&lt;h1 id=&quot;github-가입-및-프로필&quot;&gt;Github-가입 및 프로필&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Git을 공유하거나 온라인에 보관하기 위해서는 꼭 필요한 Github&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;가입&quot;&gt;가입&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Github 회원가입  &lt;a href=&quot;https://github.com/signup?source=login&quot;&gt;Github-signup&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;가입 이메일,비밀번호 및 닉네임 작성&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;닉네임으로 겉으로 보이는 상황이 많으므로 신경 써주는게 좋다.&lt;/li&gt;
+      &lt;li&gt;가입 이메일로 인증코드가 가면 따라 입력해주면 된다.&lt;/li&gt;
+      &lt;li&gt;나머지 설정은 필요할 때 추가하면 되므로 넘어가도 좋다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/179445700-c4339721-92b4-4207-997a-a125bfc79288.png&quot; width=&quot;70%&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;처음 화면에서 왼쪽에 초록색 버튼으로 Create repository 를 클릭해준다.
+    &lt;ul&gt;
+      &lt;li&gt;repository는 하나의 저장소로 하나의 계정으로 주제, 프로젝트 등 상황에 따라 계속 추가할 수 있다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/179446085-b476256a-873a-438d-9f94-ce6898810fa3.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;아이디를 본인의 닉네임을 또 적어준다. 프로필이 될 ReadMe 파일을 추가해준다.
+    &lt;ul&gt;
+      &lt;li&gt;깃허브에서는 특정 아이디 형식에 따라 다른 환경을 제공해주기도 한다.
+        &lt;ul&gt;
+          &lt;li&gt;닉네임/닉네임 : 깃허브 프로필에 보여지는 readme를 제공한다.&lt;/li&gt;
+          &lt;li&gt;닉네임/닉네임.github.io : 깃허브 블로그 링크를 제공하므로 다음에 githubio 블로그를 만든다면 해당 repository에 저장해서 이용하면 된다.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Add a ReadMe file 을 클릭해주어 repository 생성 시 자동으로 추가될 수 있도록 한다.&lt;/li&gt;
+      &lt;li&gt;가장 아래 부분에 create repository를 클릭해준다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/179446481-fda04930-3363-4645-b400-c4d3ac7fba1e.png&quot; width=&quot;80%&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;“https://github.com/본인닉네임” 주소로 이동하면 결과 확인 가능하고 오른쪽 연필 모양으로 내용 수정 가능&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/179446977-d710c92c-bdc6-4faf-a7f9-f1a865c0ca90.png&quot; width=&quot;80%&quot; /&gt;&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><summary type="html">Github-가입 및 프로필</summary></entry><entry><title type="html">Git-version 변경</title><link href="http://localhost:4000/git-version-%EB%B3%80%EA%B2%BD" rel="alternate" type="text/html" title="Git-version 변경" /><published>2022-07-18T12:50:00+09:00</published><updated>2022-07-18T12:50:00+09:00</updated><id>http://localhost:4000/git-version%20%EB%B3%80%EA%B2%BD</id><content type="html" xml:base="http://localhost:4000/git-version-%EB%B3%80%EA%B2%BD">&lt;h1 id=&quot;git-version-변경&quot;&gt;Git-version 변경&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;본인 블로그(&lt;a href=&quot;https://chanp5660.github.io&quot;&gt;chanp5660.github.io&lt;/a&gt;) 에 서브모듈을 통해 빌드를 자동화 하고 싶었는데 Travis가 유료 프로그램으로 변경되면서 &lt;a href=&quot;https://moon9342.github.io/&quot;&gt;참조블로그&lt;/a&gt; 를 따라 하다가 블로그가 업로드 되지 않는 문제가 생겼다. &lt;br /&gt;
+&lt;strong&gt;도르마무&lt;/strong&gt;가 생각났지만… 현실은 과거를 후회하는 일반인이므로 이성적으로 생각했다.
+왠걸 최근에 git에 문제가 생긴 폴더를 업로드 해놓은 생각이 들었다.&lt;br /&gt;
+따라서 &lt;strong&gt;git 장점인 버전관리&lt;/strong&gt; 즉, git을 이용해 업로드가 잘 되었던 상황으로 돌아가기로 했다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;준비
+    &lt;ul&gt;
+      &lt;li&gt;github 가입 https://chanp5660.github.io/가입-및-프로필&lt;/li&gt;
+      &lt;li&gt;git 설치 https://taewow.tistory.com/13&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;git-push가-여러번일때&quot;&gt;git push가 여러번일때&lt;/h2&gt;
+
+&lt;p&gt;– 수정 중 –&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><summary type="html">Git-version 변경</summary></entry></feed>
