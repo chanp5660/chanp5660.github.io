@@ -4,9 +4,41 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc>http://localhost:4000/TIL-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B9%84.html</loc>
+        
+        <lastmod>2023-02-10T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
         <loc>http://localhost:4000/%EC%84%9C%ED%8F%AC%ED%8A%B8%EB%B2%A1%ED%84%B0%EB%A8%B8%EC%8B%A0(SVM).html</loc>
         
         <lastmod>2023-02-10T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/TIL-%EC%95%A0%ED%81%AC%EB%AF%B8%EB%9E%A9.html</loc>
+        
+        <lastmod>2023-02-09T00:00:00+09:00</lastmod>
         
 
         
@@ -36,7 +68,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/%ED%86%A0%ED%94%BD%EB%AA%A8%EB%8D%B8%EB%A7%81(%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%B9%B4%EC%9D%B8%EC%A6%88_%ED%8A%B8%EC%9C%84%ED%84%B0).html</loc>
+        <loc>http://localhost:4000/%ED%86%A0%ED%94%BD%EB%B6%84%EB%A5%98(%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%B9%B4%EC%9D%B8%EC%A6%88_%ED%8A%B8%EC%9C%84%ED%84%B0).html</loc>
         
         <lastmod>2023-02-07T14:00:00+09:00</lastmod>
         
@@ -87,22 +119,6 @@
         <loc>http://localhost:4000/jekyll-%EB%AA%A9%EC%B0%A8%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0.html</loc>
         
         <lastmod>2023-02-07T14:00:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%88%98%EC%A7%91.html</loc>
-        
-        <lastmod>2023-02-06T17:00:31+09:00</lastmod>
         
 
         

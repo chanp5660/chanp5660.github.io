@@ -8,6 +8,21 @@
     
       
       <item>
+        <title>TIL-데이터비</title>
+        
+          <description>&lt;h1 id=&quot;데이터비&quot;&gt;데이터비&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Fri, 10 Feb 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/TIL-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B9%84</link>
+        <guid isPermaLink="true">http://localhost:4000/TIL-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B9%84</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>서포트벡터머신(svm)</title>
         
           <description>&lt;h1 id=&quot;서포트-벡터-머신&quot;&gt;서포트 벡터 머신&lt;/h1&gt;
@@ -18,6 +33,21 @@
         <link>
         http://localhost:4000/%EC%84%9C%ED%8F%AC%ED%8A%B8%EB%B2%A1%ED%84%B0%EB%A8%B8%EC%8B%A0(SVM)</link>
         <guid isPermaLink="true">http://localhost:4000/%EC%84%9C%ED%8F%AC%ED%8A%B8%EB%B2%A1%ED%84%B0%EB%A8%B8%EC%8B%A0(SVM)</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>TIL-애크미랩</title>
+        
+          <description>&lt;h1 id=&quot;애크미랩&quot;&gt;애크미랩&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Thu, 09 Feb 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/TIL-%EC%95%A0%ED%81%AC%EB%AF%B8%EB%9E%A9</link>
+        <guid isPermaLink="true">http://localhost:4000/TIL-%EC%95%A0%ED%81%AC%EB%AF%B8%EB%9E%A9</guid>
       </item>
       
     
@@ -38,16 +68,16 @@
     
       
       <item>
-        <title>토픽모델링(빅데이터카인즈,트위터)</title>
+        <title>토픽분류(빅데이터카인즈,트위터)</title>
         
-          <description>&lt;h1 id=&quot;토픽모델링빅데이터카인즈-트위터&quot;&gt;토픽모델링(빅데이터카인즈, 트위터)&lt;/h1&gt;
+          <description>&lt;h1 id=&quot;토픽분류빅데이터카인즈-트위터&quot;&gt;토픽분류(빅데이터카인즈, 트위터)&lt;/h1&gt;
 
 </description>
         
         <pubDate>Tue, 07 Feb 2023 14:00:00 +0900</pubDate>
         <link>
-        http://localhost:4000/%ED%86%A0%ED%94%BD%EB%AA%A8%EB%8D%B8%EB%A7%81(%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%B9%B4%EC%9D%B8%EC%A6%88_%ED%8A%B8%EC%9C%84%ED%84%B0)</link>
-        <guid isPermaLink="true">http://localhost:4000/%ED%86%A0%ED%94%BD%EB%AA%A8%EB%8D%B8%EB%A7%81(%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%B9%B4%EC%9D%B8%EC%A6%88_%ED%8A%B8%EC%9C%84%ED%84%B0)</guid>
+        http://localhost:4000/%ED%86%A0%ED%94%BD%EB%B6%84%EB%A5%98(%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%B9%B4%EC%9D%B8%EC%A6%88_%ED%8A%B8%EC%9C%84%ED%84%B0)</link>
+        <guid isPermaLink="true">http://localhost:4000/%ED%86%A0%ED%94%BD%EB%B6%84%EB%A5%98(%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%B9%B4%EC%9D%B8%EC%A6%88_%ED%8A%B8%EC%9C%84%ED%84%B0)</guid>
       </item>
       
     
@@ -95,25 +125,6 @@
         <link>
         http://localhost:4000/jekyll-%EB%AA%A9%EC%B0%A8%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0</link>
         <guid isPermaLink="true">http://localhost:4000/jekyll-%EB%AA%A9%EC%B0%A8%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>머신러닝 데이터 수집</title>
-        
-          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;AI(머신러닝, 딥러닝)&lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./깃허브-연습(파이썬-2)&quot;&gt;Python 강좌(1) - 목차만들기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./파이썬-하이라이트-확인&quot;&gt;Python 강좌(2) - Python 하이라이트 확인&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        
-        <pubDate>Mon, 06 Feb 2023 17:00:31 +0900</pubDate>
-        <link>
-        http://localhost:4000/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%88%98%EC%A7%91</link>
-        <guid isPermaLink="true">http://localhost:4000/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%88%98%EC%A7%91</guid>
       </item>
       
     

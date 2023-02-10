@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/project/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-02-10T01:04:32+09:00</updated>
+  <updated>2023-02-10T22:52:12+09:00</updated>
   <id>http://localhost:4000/tag/project/feed.xml</id>
 
   
@@ -32,12 +32,12 @@
 
   
     <entry>
-      <title type="html">토픽모델링(빅데이터카인즈,트위터)</title>
-      <link href="http://localhost:4000/%ED%86%A0%ED%94%BD%EB%AA%A8%EB%8D%B8%EB%A7%81(%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%B9%B4%EC%9D%B8%EC%A6%88_%ED%8A%B8%EC%9C%84%ED%84%B0)" rel="alternate" type="text/html" title="토픽모델링(빅데이터카인즈,트위터)" />
+      <title type="html">토픽분류(빅데이터카인즈,트위터)</title>
+      <link href="http://localhost:4000/%ED%86%A0%ED%94%BD%EB%B6%84%EB%A5%98(%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%B9%B4%EC%9D%B8%EC%A6%88_%ED%8A%B8%EC%9C%84%ED%84%B0)" rel="alternate" type="text/html" title="토픽분류(빅데이터카인즈,트위터)" />
       <published>2023-02-07T14:00:00+09:00</published>
       <updated>2023-02-07T14:00:00+09:00</updated>
-      <id>http://localhost:4000/%ED%86%A0%ED%94%BD%EB%AA%A8%EB%8D%B8%EB%A7%81(%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%B9%B4%EC%9D%B8%EC%A6%88_%ED%8A%B8%EC%9C%84%ED%84%B0)</id>
-      <content type="html" xml:base="http://localhost:4000/%ED%86%A0%ED%94%BD%EB%AA%A8%EB%8D%B8%EB%A7%81(%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%B9%B4%EC%9D%B8%EC%A6%88_%ED%8A%B8%EC%9C%84%ED%84%B0)">&lt;h1 id=&quot;토픽모델링빅데이터카인즈-트위터&quot;&gt;토픽모델링(빅데이터카인즈, 트위터)&lt;/h1&gt;
+      <id>http://localhost:4000/%ED%86%A0%ED%94%BD%EB%B6%84%EB%A5%98(%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%B9%B4%EC%9D%B8%EC%A6%88_%ED%8A%B8%EC%9C%84%ED%84%B0)</id>
+      <content type="html" xml:base="http://localhost:4000/%ED%86%A0%ED%94%BD%EB%B6%84%EB%A5%98(%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%B9%B4%EC%9D%B8%EC%A6%88_%ED%8A%B8%EC%9C%84%ED%84%B0)">&lt;h1 id=&quot;토픽분류빅데이터카인즈-트위터&quot;&gt;토픽분류(빅데이터카인즈, 트위터)&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;LDA를 이용해서 빅데이터카인즈와 트위터에서 2019~2020년의 토픽모델링을 통해 주요 토픽이 무엇인지 파악할 수 있게 한다.&lt;/li&gt;
@@ -451,7 +451,7 @@ if(typeof(LDAvis) !== &quot;undefined&quot;){
       
 
       
-        <summary type="html">토픽모델링(빅데이터카인즈, 트위터)</summary>
+        <summary type="html">토픽분류(빅데이터카인즈, 트위터)</summary>
       
 
       
