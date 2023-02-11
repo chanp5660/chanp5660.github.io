@@ -8,6 +8,111 @@
     
       
       <item>
+        <title>유클리드공간</title>
+        
+          <description>&lt;h1 id=&quot;유클리드공간&quot;&gt;유클리드공간&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Sun, 12 Feb 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/%EC%9C%A0%ED%81%B4%EB%A6%AC%EB%93%9C%EA%B3%B5%EA%B0%84</link>
+        <guid isPermaLink="true">http://localhost:4000/%EC%9C%A0%ED%81%B4%EB%A6%AC%EB%93%9C%EA%B3%B5%EA%B0%84</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>내적연산</title>
+        
+          <description>&lt;h1 id=&quot;내적-연산&quot;&gt;내적 연산&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Sun, 12 Feb 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/%EB%82%B4%EC%A0%81%EC%97%B0%EC%82%B0</link>
+        <guid isPermaLink="true">http://localhost:4000/%EB%82%B4%EC%A0%81%EC%97%B0%EC%82%B0</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>TIL-코난테크놀로지</title>
+        
+          <description>&lt;h1 id=&quot;코난테크놀로지&quot;&gt;코난테크놀로지&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Sat, 11 Feb 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/TIL-%EC%BD%94%EB%82%9C%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80</link>
+        <guid isPermaLink="true">http://localhost:4000/TIL-%EC%BD%94%EB%82%9C%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>TIL-머신러닝 엔지니어 자격요건</title>
+        
+          <description>&lt;h1 id=&quot;머신러닝-엔지니어-자격요건&quot;&gt;머신러닝 엔지니어 자격요건&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Sat, 11 Feb 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/TIL-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EC%9E%90%EA%B2%A9%EC%9A%94%EA%B1%B4</link>
+        <guid isPermaLink="true">http://localhost:4000/TIL-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EC%9E%90%EA%B2%A9%EC%9A%94%EA%B1%B4</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>TIL-한국해양기상기술</title>
+        
+          <description>&lt;h1 id=&quot;한국해양기상기술&quot;&gt;한국해양기상기술&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Fri, 10 Feb 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/TIL-%ED%95%9C%EA%B5%AD%ED%95%B4%EC%96%91%EA%B8%B0%EC%83%81%EA%B8%B0%EC%88%A0</link>
+        <guid isPermaLink="true">http://localhost:4000/TIL-%ED%95%9C%EA%B5%AD%ED%95%B4%EC%96%91%EA%B8%B0%EC%83%81%EA%B8%B0%EC%88%A0</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>TIL-에이아이스페라</title>
+        
+          <description>&lt;h1 id=&quot;에이아이스페라&quot;&gt;에이아이스페라&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Fri, 10 Feb 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/TIL-aispera</link>
+        <guid isPermaLink="true">http://localhost:4000/TIL-aispera</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>TIL-애크미랩</title>
+        
+          <description>&lt;h1 id=&quot;애크미랩&quot;&gt;애크미랩&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Fri, 10 Feb 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/TIL-%EC%95%A0%ED%81%AC%EB%AF%B8%EB%9E%A9</link>
+        <guid isPermaLink="true">http://localhost:4000/TIL-%EC%95%A0%ED%81%AC%EB%AF%B8%EB%9E%A9</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>TIL-데이터비</title>
         
           <description>&lt;h1 id=&quot;데이터비&quot;&gt;데이터비&lt;/h1&gt;
@@ -33,21 +138,6 @@
         <link>
         http://localhost:4000/%EC%84%9C%ED%8F%AC%ED%8A%B8%EB%B2%A1%ED%84%B0%EB%A8%B8%EC%8B%A0(SVM)</link>
         <guid isPermaLink="true">http://localhost:4000/%EC%84%9C%ED%8F%AC%ED%8A%B8%EB%B2%A1%ED%84%B0%EB%A8%B8%EC%8B%A0(SVM)</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>TIL-애크미랩</title>
-        
-          <description>&lt;h1 id=&quot;애크미랩&quot;&gt;애크미랩&lt;/h1&gt;
-
-</description>
-        
-        <pubDate>Thu, 09 Feb 2023 00:00:00 +0900</pubDate>
-        <link>
-        http://localhost:4000/TIL-%EC%95%A0%ED%81%AC%EB%AF%B8%EB%9E%A9</link>
-        <guid isPermaLink="true">http://localhost:4000/TIL-%EC%95%A0%ED%81%AC%EB%AF%B8%EB%9E%A9</guid>
       </item>
       
     
@@ -94,22 +184,6 @@
         <link>
         http://localhost:4000/programing_test</link>
         <guid isPermaLink="true">http://localhost:4000/programing_test</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>math_test</title>
-        
-          <description>&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;math test&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-</description>
-        
-        <pubDate>Tue, 07 Feb 2023 14:00:00 +0900</pubDate>
-        <link>
-        http://localhost:4000/math_test</link>
-        <guid isPermaLink="true">http://localhost:4000/math_test</guid>
       </item>
       
     

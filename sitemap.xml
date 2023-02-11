@@ -4,6 +4,118 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc>http://localhost:4000/%EC%9C%A0%ED%81%B4%EB%A6%AC%EB%93%9C%EA%B3%B5%EA%B0%84.html</loc>
+        
+        <lastmod>2023-02-12T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/%EB%82%B4%EC%A0%81%EC%97%B0%EC%82%B0.html</loc>
+        
+        <lastmod>2023-02-12T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/TIL-%EC%BD%94%EB%82%9C%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80.html</loc>
+        
+        <lastmod>2023-02-11T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/TIL-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EC%9E%90%EA%B2%A9%EC%9A%94%EA%B1%B4.html</loc>
+        
+        <lastmod>2023-02-11T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/TIL-%ED%95%9C%EA%B5%AD%ED%95%B4%EC%96%91%EA%B8%B0%EC%83%81%EA%B8%B0%EC%88%A0.html</loc>
+        
+        <lastmod>2023-02-10T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/TIL-aispera.html</loc>
+        
+        <lastmod>2023-02-10T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/TIL-%EC%95%A0%ED%81%AC%EB%AF%B8%EB%9E%A9.html</loc>
+        
+        <lastmod>2023-02-10T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
         <loc>http://localhost:4000/TIL-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B9%84.html</loc>
         
         <lastmod>2023-02-10T00:00:00+09:00</lastmod>
@@ -23,22 +135,6 @@
         <loc>http://localhost:4000/%EC%84%9C%ED%8F%AC%ED%8A%B8%EB%B2%A1%ED%84%B0%EB%A8%B8%EC%8B%A0(SVM).html</loc>
         
         <lastmod>2023-02-10T00:00:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/TIL-%EC%95%A0%ED%81%AC%EB%AF%B8%EB%9E%A9.html</loc>
-        
-        <lastmod>2023-02-09T00:00:00+09:00</lastmod>
         
 
         
@@ -85,22 +181,6 @@
     
     <url>
         <loc>http://localhost:4000/programing_test.html</loc>
-        
-        <lastmod>2023-02-07T14:00:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/math_test.html</loc>
         
         <lastmod>2023-02-07T14:00:00+09:00</lastmod>
         

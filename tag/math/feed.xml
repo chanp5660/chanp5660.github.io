@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/math/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-02-10T22:52:12+09:00</updated>
+  <updated>2023-02-12T01:43:34+09:00</updated>
   <id>http://localhost:4000/tag/math/feed.xml</id>
 
   
@@ -32,16 +32,46 @@
 
   
     <entry>
-      <title type="html">math_test</title>
-      <link href="http://localhost:4000/math_test" rel="alternate" type="text/html" title="math_test" />
-      <published>2023-02-07T14:00:00+09:00</published>
-      <updated>2023-02-07T14:00:00+09:00</updated>
-      <id>http://localhost:4000/math_test</id>
-      <content type="html" xml:base="http://localhost:4000/math_test">&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;math test&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+      <title type="html">내적연산</title>
+      <link href="http://localhost:4000/%EB%82%B4%EC%A0%81%EC%97%B0%EC%82%B0" rel="alternate" type="text/html" title="내적연산" />
+      <published>2023-02-12T00:00:00+09:00</published>
+      <updated>2023-02-12T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%EB%82%B4%EC%A0%81%EC%97%B0%EC%82%B0</id>
+      <content type="html" xml:base="http://localhost:4000/%EB%82%B4%EC%A0%81%EC%97%B0%EC%82%B0">&lt;h1 id=&quot;내적-연산&quot;&gt;내적 연산&lt;/h1&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;devskill test
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+&lt;ul&gt;
+  &lt;li&gt;선형대수학에서는 스칼라곱(scalar product) 또는 점곱(dot product)은 유클리드 공간의 두 벡터로부터 실수 스칼라를 얻는 연산이다.&lt;/li&gt;
+  &lt;li&gt;스칼라곱이 유클리드 공간의 내적을 이루므로, 이를 단순히 “내적”이라고 부르기도 한다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;정의&quot;&gt;정의&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;차원이 n인 유클리드 공간 $\mathbb{R} ^{n}$ 의 두 벡터 $a,b$ 가 스칼라곱 $a \cdot b \in \mathbb{R}$ 은 두 가지로 정의할 수 있으며, 두 정의는 서로 동치이다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;대수적-정의&quot;&gt;대수적 정의&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;두 벡터의 좌표가 각각 ${\displaystyle \mathbf {a} =(a_{1},a_{2},\dots ,a_{n})}$와  ${\displaystyle \mathbf {b} =(b_{1},b_{2},\dots ,b_{n})}$라면, 이 둘의 스칼라곱은 같은 위치의 성분을 곱한 뒤 모두 합하여 얻는 값이다.
+    &lt;ul&gt;
+      &lt;li&gt;${\displaystyle \mathbf {a} \cdot \mathbf {b} =a_{1}b_{1}+a_{2}b_{2}+\cdots +a_{n}b_{n}}$&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;예를 들어, 두 3차원 벡터 ${\displaystyle (1,3,-2),(4,2,1)\in \mathbb {R} ^{3}}$의 스칼라곱은 다음과 같다.
+    &lt;ul&gt;
+      &lt;li&gt;${\displaystyle (1,3,-2)\cdot (4,2,1)=1\times 4+3\times 2+(-2)\times 1=8}$&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;기하학적-정의방향이-들어감&quot;&gt;기하학적 정의(방향이 들어감)&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;의미를 해석하기에는 무리가 없어 나중에 추가&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;참조&quot;&gt;참조&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/스칼라곱&quot;&gt;위키피디아&lt;/a&gt;&lt;/p&gt;</content>
 
       
       
@@ -62,7 +92,58 @@
       
 
       
-        <summary type="html">print(&quot;math test&quot;)</summary>
+        <summary type="html">내적 연산</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">유클리드공간</title>
+      <link href="http://localhost:4000/%EC%9C%A0%ED%81%B4%EB%A6%AC%EB%93%9C%EA%B3%B5%EA%B0%84" rel="alternate" type="text/html" title="유클리드공간" />
+      <published>2023-02-12T00:00:00+09:00</published>
+      <updated>2023-02-12T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%EC%9C%A0%ED%81%B4%EB%A6%AC%EB%93%9C%EA%B3%B5%EA%B0%84</id>
+      <content type="html" xml:base="http://localhost:4000/%EC%9C%A0%ED%81%B4%EB%A6%AC%EB%93%9C%EA%B3%B5%EA%B0%84">&lt;h1 id=&quot;유클리드공간&quot;&gt;유클리드공간&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;유클리드가 연구했던 평면과 공간을 일반화한 것이다.&lt;/li&gt;
+  &lt;li&gt;거리,길이, 각도를 좌표계에 도입하여, 임의 차원의 공간으로 확장한 것이다.&lt;/li&gt;
+  &lt;li&gt;이는 표준적인 유한 차원, 실수, 내적 공간이다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;정의&quot;&gt;정의&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;음이 아닌 정수 $n=0,1,2,\dots$ 에 대하여 n차원 유클리드 공간 $\mathbb {R} ^n$은 집합으로서 실수 집합 $\mathbb {R}$의 n번 곱집합이다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;이 위에 내적 $\langle u,v\rangle =\sum &lt;em&gt;^{n}u&lt;/em&gt;{i}v_{i}$ 을 정의하면, $
+\mathbb {R} ^{n}$은 실수 &lt;a href=&quot;https://ko.wikipedia.org/wiki/힐베르트_공간&quot;&gt;힐베르트 공간&lt;/a&gt;을 이룬다. 이에 따라서 유클리드 공간은 내적 공간, 바나흐 공간, 노름 공간, 벡터 공간, 완비 거리 공간, 위상 공간을 이룬다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="math" />
+      
+
+      
+        <summary type="html">유클리드공간</summary>
       
 
       
