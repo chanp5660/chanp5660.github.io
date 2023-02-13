@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/author/chanp5660/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-02-13T10:22:46+09:00</updated>
+  <updated>2023-02-13T22:58:47+09:00</updated>
   <id>http://localhost:4000/author/chanp5660/feed.xml</id>
 
   
@@ -32,12 +32,89 @@
 
   
     <entry>
-      <title type="html">용어정리</title>
-      <link href="http://localhost:4000/TIL-%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC" rel="alternate" type="text/html" title="용어정리" />
+      <title type="html">로지스틱회귀</title>
+      <link href="http://localhost:4000/%EB%A1%9C%EC%A7%80%EC%8A%A4%ED%8B%B1%ED%9A%8C%EA%B7%80" rel="alternate" type="text/html" title="로지스틱회귀" />
       <published>2023-02-13T00:00:00+09:00</published>
       <updated>2023-02-13T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC">&lt;h1 id=&quot;용어정리&quot;&gt;용어정리&lt;/h1&gt;
+      <id>http://localhost:4000/%EB%A1%9C%EC%A7%80%EC%8A%A4%ED%8B%B1%ED%9A%8C%EA%B7%80</id>
+      <content type="html" xml:base="http://localhost:4000/%EB%A1%9C%EC%A7%80%EC%8A%A4%ED%8B%B1%ED%9A%8C%EA%B7%80">&lt;h1 id=&quot;로지스틱-회귀&quot;&gt;로지스틱 회귀&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;이벤트가 발생할 확률을 결정&lt;/strong&gt;하는데 사용되는 통계 모델&lt;/li&gt;
+  &lt;li&gt;특성 간의 관계를 보여주고 특정 결과의 확률을 계산합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;사용&quot;&gt;사용&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;머신러닝에서 정확한 예측을 생성하는데 사용&lt;/li&gt;
+  &lt;li&gt;선형 회귀와 유사하며 대상 변수가 이진입니다. (0,1)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;측정-가능한-항목&quot;&gt;측정 가능한 항목&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;B, 설명 변수, 특성(측정 대상 항목)&lt;/li&gt;
+  &lt;li&gt;Y, 응답 변수, 목표 이진 변수&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;예시&quot;&gt;예시&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;학생이 시험에 합격될지 불합격될지 예측할 때&lt;/li&gt;
+  &lt;li&gt;B, 설명 변수, 특성(측정 대상 항목) : &lt;strong&gt;공부한 시간&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Y, 응답 변수, 목표 이진 변수 : &lt;strong&gt;합격,불합격&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;종류&quot;&gt;종류&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;이진 로지스틱 회귀&lt;/strong&gt; : 0,1 처럼 2가지의 결과&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;다항 로지스틱 회귀&lt;/strong&gt; : 응답 변수에 순서가 업는 3개 이상의 변수가 포함&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;순서 로지스틱 회귀&lt;/strong&gt; : 3개 이상의 변수가 포함될 수 있음, 대신 측정에는 순서가 있음, 예를 들어 1~5점으로 평가를 하는 경우&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;이미지&quot;&gt;이미지&lt;/h1&gt;
+
+&lt;p&gt;&lt;img alt=&quot;로지스틱회귀 위키피디아&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Logistic-curve.svg/480px-Logistic-curve.svg.png&quot; width=&quot;60%&quot; height=&quot;60%&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;참조&quot;&gt;참조&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.tibco.com/ko/reference-center/what-is-logistic-regression&quot;&gt;블로그&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://ko.wikipedia.org/wiki/로지스틱_회귀&quot;&gt;위키피디아&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="ai" />
+      
+
+      
+        <summary type="html">로지스틱 회귀</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">용어정리필요</title>
+      <link href="http://localhost:4000/ML%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94" rel="alternate" type="text/html" title="용어정리필요" />
+      <published>2023-02-13T00:00:00+09:00</published>
+      <updated>2023-02-13T00:00:00+09:00</updated>
+      <id>http://localhost:4000/ML%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94</id>
+      <content type="html" xml:base="http://localhost:4000/ML%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94">&lt;h1 id=&quot;용어정리&quot;&gt;용어정리&lt;/h1&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;필요한 용어 정리는 한번 하자&lt;br /&gt;
@@ -49,6 +126,7 @@
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/서포트벡터머신(SVM)&quot;&gt;SVM&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/로지스틱회귀&quot;&gt;로지스틱 회귀분석&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;포스팀-안됨&quot;&gt;포스팀 안됨&lt;/h2&gt;
@@ -58,11 +136,119 @@
 &lt;/blockquote&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.tibco.com/ko/reference-center/what-is-logistic-regression&quot;&gt;로지스틱 회귀분석&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://heytech.tistory.com/361&quot;&gt;손실함수&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://velog.io/@hyunicecream/GridSearchCV란-어떻게-사용할까&quot;&gt;GridSearch&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="ai" />
+      
+
+      
+        <summary type="html">용어정리</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">TIL-인사이저</title>
+      <link href="http://localhost:4000/TIL-%EC%95%A0%ED%81%AC%EB%AF%B8%EB%9E%A9-Copy1" rel="alternate" type="text/html" title="TIL-인사이저" />
+      <published>2023-02-13T00:00:00+09:00</published>
+      <updated>2023-02-13T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-%EC%95%A0%ED%81%AC%EB%AF%B8%EB%9E%A9-Copy1</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-%EC%95%A0%ED%81%AC%EB%AF%B8%EB%9E%A9-Copy1">&lt;h1 id=&quot;인사이저&quot;&gt;인사이저&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;생각보다 기록이 없어서 알아보기 힘들다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;내가 판단할 수 있는 정보가 없었고 복지에 관련된 내용이 없어서 회사 분위기조차 파악이 되지 않았다. 부딪혀보자는 생각으로는 들어가서 배우는 느낌으로는 좋을 것 같다. 하지만 이것도 추측으로 아무것도 알수가 없다. 그리고 기록이 2020년 11월에 멈춰 있는 것으로 보아 지금은 안정?위험? 둘 중에 하나이므로 추가 정보가 있지 않는 이상 시도하기 어려울 것 같다. 직무는 내게 맞았던 것 같은데 아쉽다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;인사이저-기본-정보&quot;&gt;인사이저 기본 정보&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.incizor.com/&quot;&gt;공식 사이트 참조&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;크게 두가지 제품(Text Analytics, OCR)을 가지고 있다.&lt;/li&gt;
+  &lt;li&gt;Text Analytics(텍스트분석)
+    &lt;ul&gt;
+      &lt;li&gt;문서더미에서 가치 창출, 인사이저에 맡기세요! 단순 키워드 기반 문서 분류부터 내용의 유사도를 통한 문서 클러스팅까지, 인사이저 고유의 기술력으로 문서를 분류해 드립니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;OCR(아날로그 정보를 디지털 정보로 변환하는 기술)
+    &lt;ul&gt;
+      &lt;li&gt;아날로그 정보를 빠르고 정확하게 디지털 정보로 변환함으로써 데이터 활용성 향상 및 업무의 효율성 향상을 가져다 드립니다. 세계 최고 수준의 인사이저 AI OCR을 경험하세요.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2018년 4월 20일 설립 (업력 6년차)&lt;/li&gt;
+  &lt;li&gt;주소 : 서울 영등포구 은행로 29, 2층 13호&lt;/li&gt;
+  &lt;li&gt;사업 내용 : 소프트웨어 개발,공급,정보처리 구축,컨설팅/기술,경영 자문/소프트웨어 임대&lt;/li&gt;
+  &lt;li&gt;사원수 : 6명
+    &lt;ul&gt;
+      &lt;li&gt;&lt;span style=&quot;color:blue&quot;&gt;최근 입사자가 한명씩 늘고 있는데 퇴사자는 한명인 소규모 그룹이라 뭐라 판단하기가 어렵다.&lt;/span&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+&lt;h2 id=&quot;연혁&quot;&gt;연혁&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2020
+    &lt;ul&gt;
+      &lt;li&gt;11
+        &lt;ul&gt;
+          &lt;li&gt;팁스(TIPS) 프로그램 선정&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2020
+    &lt;ul&gt;
+      &lt;li&gt;07
+        &lt;ul&gt;
+          &lt;li&gt;기관투자유치&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;04
+        &lt;ul&gt;
+          &lt;li&gt;네이버 클라우드 OCR 컴피턴시 파트너 선정&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;02
+        &lt;ul&gt;
+          &lt;li&gt;벤처인증&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2018
+    &lt;ul&gt;
+      &lt;li&gt;04
+        &lt;ul&gt;
+          &lt;li&gt;(주)인사이저 설립&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content>
 
       
       
@@ -85,7 +271,7 @@
       
 
       
-        <summary type="html">용어정리</summary>
+        <summary type="html">인사이저</summary>
       
 
       
@@ -219,23 +405,36 @@
       <id>http://localhost:4000/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95</id>
       <content type="html" xml:base="http://localhost:4000/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95">&lt;h1 id=&quot;머신러닝-학습방법&quot;&gt;머신러닝 학습방법&lt;/h1&gt;
 
-&lt;h2 id=&quot;지도-학습&quot;&gt;지도 학습&lt;/h2&gt;
+&lt;h1 id=&quot;종류&quot;&gt;종류&lt;/h1&gt;
+
+&lt;h2 id=&quot;지도-학습&quot;&gt;&lt;a href=&quot;https://chanp5660.github.io/ML학습방법-지도학습&quot;&gt;지도 학습&lt;/a&gt;&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;데이터에서 반복적으로 학습하는 알고리즘을 사용하여 컴퓨터가 어디를 찾아봐야 하는 지를 명시적으로 프로그래밍하지 않고도 숨겨진 통찰력을 찾을 수 있도록 하는 데이터 분석 방법&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;비지도-학습&quot;&gt;비지도 학습&lt;/h2&gt;
+&lt;h2 id=&quot;비지도-학습&quot;&gt;&lt;a href=&quot;https://chanp5660.github.io/ML학습방법-비지도학습&quot;&gt;비지도 학습&lt;/a&gt;&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;지도 학습과는 달리 정답 라벨이 없는 데이터를 비슷한 특징끼리 군집화 하여 새로운 데이터에 대한 결과를 예측하는 방법&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;강화-학습&quot;&gt;강화 학습&lt;/h2&gt;
+&lt;h2 id=&quot;강화-학습&quot;&gt;&lt;a href=&quot;https://chanp5660.github.io/ML학습방법-강화학습&quot;&gt;강화 학습&lt;/a&gt;&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;행동 심리학에서 나온 이론으로 분류할 수 있는 데이터가 존재하는 것도 아니고 데이터가 있어도 정답이 따로 정해져 있지 않으며 자신이 한 행동에 대해 보상(reward)를 받으며 학습하는 것&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;일반적인-단계&quot;&gt;일반적인 단계&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;데이터분류 X,Y, train, dev, test 데이터를 분류&lt;/li&gt;
+  &lt;li&gt;분류기 인스턴스화&lt;/li&gt;
+  &lt;li&gt;하이퍼 파라미터 수정&lt;/li&gt;
+  &lt;li&gt;fit (training, 학습, 훈련)&lt;/li&gt;
+  &lt;li&gt;predict (예측, 테스트, develop)&lt;/li&gt;
+  &lt;li&gt;score (평가)&lt;/li&gt;
+&lt;/ol&gt;</content>
 
       
       
@@ -269,10 +468,7 @@
       <published>2023-02-12T00:00:00+09:00</published>
       <updated>2023-02-12T00:00:00+09:00</updated>
       <id>http://localhost:4000/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95-%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5</id>
-      <content type="html" xml:base="http://localhost:4000/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95-%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5">&lt;h1 id=&quot;머신러닝-학습방법---지도학습&quot;&gt;머신러닝 학습방법 - 지도학습&lt;/h1&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+      <content type="html" xml:base="http://localhost:4000/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95-%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5">&lt;h1 id=&quot;머신러닝-학습방법---지도학습&quot;&gt;머신러닝 학습방법 - 지도학습&lt;/h1&gt;</content>
 
       
       
@@ -448,973 +644,6 @@
 
       
         <summary type="html">머신러닝 엔지니어 자격요건</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">TIL-코난테크놀로지</title>
-      <link href="http://localhost:4000/TIL-%EC%BD%94%EB%82%9C%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80" rel="alternate" type="text/html" title="TIL-코난테크놀로지" />
-      <published>2023-02-11T00:00:00+09:00</published>
-      <updated>2023-02-11T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-%EC%BD%94%EB%82%9C%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-%EC%BD%94%EB%82%9C%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80">&lt;h1 id=&quot;코난테크놀로지&quot;&gt;코난테크놀로지&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;대규모 인공지능 시스템&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;사원수만 무려 189명으로 인공지능에서 영상, 텍스트, 음성 등 모든 분야에서 활동하는 아주 큰 회사이다. 인공지능을 기반으로 하기에 사원들마다 대화도 잘 될 것 같고 성장을 할수도 있고 회사를 성장 시킬 수도 있는 환경이 잡혀 있는 것 같아 꼭 한번 구직하고 싶은 곳이다. 뽑는 기준이 대졸을 기준으로 뽑고 있어서 대학을 나오고 자격요건만 채운다면 누구나 도전이 가능하기에 다양한 사람들이 많을 것 같아 재미있을 것 같다.&lt;br /&gt;
-단지, 블라인드 어플에서 점수가 낮은 부분이 가장 큰 단점으로 작용하는데 원래 불만 있는 사람들이 작성하는 경우가 많아서 그렇다고 치고 입사자와 퇴사자 비율을 살펴보면 비숫한 느낌이 있어 불만이 있는 부서들이 있기는 한 것 같다. 안정화 된 곳이라면 뽑히는 것도 적도 퇴사자도 적어야 한다.(총 인원수가 많아서 안정적이라고 볼수도 있다. 아직 내가 경험이 적어서 이정도 시야밖에 없는 것 같다.)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;코난테크놀로지-1&quot;&gt;코난테크놀로지&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.konantech.com/&quot;&gt;공식 사이트 참조&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2022년 7월 상장(KRX:402030), 설립 1999.4&lt;/li&gt;
-  &lt;li&gt;본사 위치 : 서울특별시 서초구 강남대로 327 대륭서초타워 6,7층&lt;/li&gt;
-  &lt;li&gt;주요 사업 : 소프트웨어 개발 공급, 인터넷서비스 제공, 데이터베이스 및 정보처리업&lt;/li&gt;
-  &lt;li&gt;주요 기술군 : Deep Vision, Deep Speech, Deep Text Analytics, Deep Conversational Agent&lt;/li&gt;
-  &lt;li&gt;주요 제품 : Konan Search, Konan Analytics, Konan Chatbot, Konan Listener, Konan Voice, Konan Watcher, pulseK 등&lt;/li&gt;
-  &lt;li&gt;매출액 : 178억 4,909만원 (2021.12. IFRS 개별)&lt;/li&gt;
-  &lt;li&gt;전체인력 : 189명 (2022.12. 기준)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;연혁&quot;&gt;연혁&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2022년　
-    &lt;ul&gt;
-      &lt;li&gt;12월　　
-        &lt;ul&gt;
-          &lt;li&gt;국군재정관리단과 약 75억 규모의 스마트 인재관리시스템 구축용역 계약 체결&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;10월　　
-        &lt;ul&gt;
-          &lt;li&gt;AI 분야 사업협력을 위한 지분 인수계약 체결 (SK텔레콤㈜ &amp;lt;- SK커뮤니케이션즈㈜)&lt;/li&gt;
-          &lt;li&gt;제 53회 한국전자전 (KES 2022) 참가 (산업통상자원부)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;8월　　
-        &lt;ul&gt;
-          &lt;li&gt;2022 인공지능 대학원 심포지엄 참가 (과학기술정보통신부)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;7월　　
-        &lt;ul&gt;
-          &lt;li&gt;공공정보화 리더스포럼 2022 참가 (한국IT서비스산업협회)&lt;/li&gt;
-          &lt;li&gt;코스닥시장 상장 개시 (2022년 7월 7일)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;6월　　
-        &lt;ul&gt;
-          &lt;li&gt;스마트테크 코리아 2022 참가 (인공지능&amp;amp;빅데이터 쇼)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;5월　　
-        &lt;ul&gt;
-          &lt;li&gt;코스닥 상장예비심사 통과 및 증권신고서 제출&lt;/li&gt;
-          &lt;li&gt;인공지능 성우 서비스 ‘코난보이스’ (Konan Voice) 출시&lt;/li&gt;
-          &lt;li&gt;국민 일자리 앱 벼룩시장 ‘AI 추천일자리’ 구축&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;4월　　
-        &lt;ul&gt;
-          &lt;li&gt;비전AI전문가 최정주 전무 영입&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;2월　　
-        &lt;ul&gt;
-          &lt;li&gt;한국항공우주산업㈜ (KAI)와 항공우주분야 기술력 강화를 위한 업무협력(MOA) 체결&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;1월　　
-        &lt;ul&gt;
-          &lt;li&gt;2022 이머징 AI+X TOP 100 선정 (지능정보산업협회)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2021년　
-    &lt;ul&gt;
-      &lt;li&gt;12월　　
-        &lt;ul&gt;
-          &lt;li&gt;지능형 CCTV 성능시험 인증-디와처 버전 0.8 (K-ICTC)&lt;/li&gt;
-          &lt;li&gt;코스닥 상장예비심사 신청 (주관사 : 한국투자증권)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;11월　　
-        &lt;ul&gt;
-          &lt;li&gt;한국항공우주산업㈜ (KAI)와 전략적 제휴를 위한 사업협력 및 지분투자 유치&lt;/li&gt;
-          &lt;li&gt;코스닥 기술특례상장 기술성 평가 통과 (평가등급 : 한국기업데이터 AA등급, 나이스디앤비 A등급)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;7월　　
-        &lt;ul&gt;
-          &lt;li&gt;고객 소통 강화를 위한 공식 유튜브 채널 개설 (코난 뉴스, 코난 피플, 코난 언팩, 코난 가이드 등 4가지 콘텐츠 운영)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;5월　　
-        &lt;ul&gt;
-          &lt;li&gt;2021년 SW공학기술 역량강화 지원사업 수행기업 선정 (과학기술정보통신부)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;4월　　
-        &lt;ul&gt;
-          &lt;li&gt;지능형 인재개발 체계 범부처 적극행정 우수사례 선정 (인사혁신처)&lt;/li&gt;
-          &lt;li&gt;서민금융진흥원 상담봇 고도화 수주&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;2월
-        &lt;ul&gt;
-          &lt;li&gt;제20회 대한민국 SW기업경쟁력대상 “지식정보화 연구소장상” 수상 (과학기술정보통신부)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2020년　
-    &lt;ul&gt;
-      &lt;li&gt;12월　　
-        &lt;ul&gt;
-          &lt;li&gt;2020 SP 인증 우수 사례 선정 (정보통신산업진흥원)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;4월  　　
-        &lt;ul&gt;
-          &lt;li&gt;인공지능 기반 자막 자동 생성 솔루션 ‘D-Listener’ 홍보사이트 공개&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;2월  　　
-        &lt;ul&gt;
-          &lt;li&gt;제19회 대한민국 SW기업경쟁력 “우수상” 수상&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2019년　
-    &lt;ul&gt;
-      &lt;li&gt;10월　　
-        &lt;ul&gt;
-          &lt;li&gt;GS인증-코난 에널리틱스 5 (한국정보통신기술협회)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;7월　　
-        &lt;ul&gt;
-          &lt;li&gt;비정형 데이터분석 솔루션 코난 애널리틱스 5 릴리즈&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;8월　　
-        &lt;ul&gt;
-          &lt;li&gt;윤덕호 부사장 『파이썬 날코딩으로 알고 짜는 딥러닝』 출간&lt;/li&gt;
-          &lt;li&gt;아프리카TV와 AI기반 유저 서비스 협약 체결&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;5월　　
-        &lt;ul&gt;
-          &lt;li&gt;GS ITM 및 한국NEC와 업무협약 체결&lt;/li&gt;
-          &lt;li&gt;과학기술정보통신부 ‘본인정보 활용(MyData)실증서비스’ 과제 수주&lt;/li&gt;
-          &lt;li&gt;롯데백화점 AI 및 빅데이터 기반 VOC 분석시스템 구축&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;4월　　
-        &lt;ul&gt;
-          &lt;li&gt;창립 20주년 행사 개최&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2018년　
-    &lt;ul&gt;
-      &lt;li&gt;12월　　
-        &lt;ul&gt;
-          &lt;li&gt;ICT 대상 지능정보 분야 대상 수상 (과학기술정보통신부)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;11월　　
-        &lt;ul&gt;
-          &lt;li&gt;GS인증-코난 서치 5 (한국정보통신기술협회)&lt;/li&gt;
-          &lt;li&gt;공공부문발주자협의 공로상 수상 (공공부문발주자협의회)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;9월　　
-        &lt;ul&gt;
-          &lt;li&gt;소프트웨어 프로세스 품질인증 우수상 수상 (정보통신산업진흥원)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;7월　　
-        &lt;ul&gt;
-          &lt;li&gt;펄스K v5 서비스 오픈 (최신 버전)&lt;/li&gt;
-          &lt;li&gt;펄스K 미디어간담회&lt;/li&gt;
-          &lt;li&gt;코난 서치 5 릴리즈&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;1월　　
-        &lt;ul&gt;
-          &lt;li&gt;GS인증-코난봇 v2 (한국정보통신기술협회)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2017년　
-    &lt;ul&gt;
-      &lt;li&gt;12월　　
-        &lt;ul&gt;
-          &lt;li&gt;인공지능 추천솔루션 코난스마트매치 출시&lt;/li&gt;
-          &lt;li&gt;펄스케이 서비스 리뉴얼&lt;/li&gt;
-          &lt;li&gt;2017 SW 품질대상 최우수상 수상 (이지파인더, 한국정보통신기술협회)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;7월　　
-        &lt;ul&gt;
-          &lt;li&gt;GS인증-ezFinder v1 (한국정보통신기술협회)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;6월　　
-        &lt;ul&gt;
-          &lt;li&gt;뉴스뱅과 펄스케이 기반 온라인 자동분석리포트 제공서비스에 대한 MOU 체결&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;5월　　
-        &lt;ul&gt;
-          &lt;li&gt;Top 25 APAC Artificial Intelligent Companies 2017 선정 (CIO Advisor)&lt;/li&gt;
-          &lt;li&gt;데이터 디스커버리 솔루션, 코난 리파인더 출시&lt;/li&gt;
-          &lt;li&gt;OGQ와 인공지능 기반 이미지/동영상 분석기술을 활용한 플랫폼 서비스 MOU 체결&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;3월　　
-        &lt;ul&gt;
-          &lt;li&gt;국민대학교와 인공지능 기반 온라인 학사상담 서비스(챗봇) 구현에 대한 산학협력 MOU 체결&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;2월　　
-        &lt;ul&gt;
-          &lt;li&gt;GS인증-코난 애널리틱스 4 Spark (한국정보통신기술협회)&lt;/li&gt;
-          &lt;li&gt;지능정보기술연구원(AIRI)과 인공지능 기술개발 협력을 위한 MOU 체결&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2016년　
-    &lt;ul&gt;
-      &lt;li&gt;12월　　
-        &lt;ul&gt;
-          &lt;li&gt;K-ICT 대상 지능정보 부문 우수상 수상 (미래부)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;11월　　
-        &lt;ul&gt;
-          &lt;li&gt;푸드테크와 O2O 활용한 AI 챗봇 주문서비스 MOU 체결&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;9월　　
-        &lt;ul&gt;
-          &lt;li&gt;개인화를 위한 콘텐츠추천 시스템, 코난 스마트매치 출시&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;7월　　
-        &lt;ul&gt;
-          &lt;li&gt;GS인증-코난 애널리틱스 4 (한국정보통신기술협회)&lt;/li&gt;
-          &lt;li&gt;GS인증-코난 링크 (한국정보통신기술협회)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;5월　　
-        &lt;ul&gt;
-          &lt;li&gt;대화형 질의응답(챗봇) 시스템, 코난봇 출시&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;4월　　
-        &lt;ul&gt;
-          &lt;li&gt;글로벌 표절검사기업 , Turnitin LCC와 전략적 업무제휴&lt;/li&gt;
-          &lt;li&gt;지능정보기술포럼 운영위원 (미래부)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;3월　　
-        &lt;ul&gt;
-          &lt;li&gt;하둡 기반의 빅데이터 분석플랫폼, 코난 애널리틱스 4 스파크 출시&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;2월　　
-        &lt;ul&gt;
-          &lt;li&gt;빅데이터 사업부문 공로상 수상 (한국정보화진흥원)&lt;/li&gt;
-          &lt;li&gt;SP(Software Process)인증 2등급 (정보통신산업진흥원)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;1월　　
-        &lt;ul&gt;
-          &lt;li&gt;비정형데이터 통합 분석플랫폼, 코난 애널리틱스 4 출시&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2015년　
-    &lt;ul&gt;
-      &lt;li&gt;12월　　
-        &lt;ul&gt;
-          &lt;li&gt;핸디소프트와 검색사업 강화를 위한 전략제휴&lt;/li&gt;
-          &lt;li&gt;펄스K v4 릴리즈&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;3월　　
-        &lt;ul&gt;
-          &lt;li&gt;제4회 대한민국 소프트웨어 사업자 대상 경영부문 최우수상 수상 (전자신문)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;2월　　
-        &lt;ul&gt;
-          &lt;li&gt;GS인증-코난 미디어아크 (한국정보통신기술협회)&lt;/li&gt;
-          &lt;li&gt;제 14회 대한민국 SW기업경쟁력 대상 우수상 수상 (한국SW기업협회)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;1월　　
-        &lt;ul&gt;
-          &lt;li&gt;행정업무용 소프트웨어 선정 - 코난 서치 4 (한국정보통신기술협회)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2014년　
-    &lt;ul&gt;
-      &lt;li&gt;11월　　
-        &lt;ul&gt;
-          &lt;li&gt;제 1회 대한민국 SW품질대상 우수상 수상-코난 서치 4 (한국정보통신기술협회)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;4월　　
-        &lt;ul&gt;
-          &lt;li&gt;개인용 통합검색 어플리케이션 ‘findboxS(파인드박스)’ 출시&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2013년　
-    &lt;ul&gt;
-      &lt;li&gt;11월　　
-        &lt;ul&gt;
-          &lt;li&gt;CJ헬로비전에 빅데이터 솔루션 공급&lt;/li&gt;
-          &lt;li&gt;제 1회 대한민국 SW품질대상 우수상 수상-코난 서치 4 (한국정보통신기술협회)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;10월　　
-        &lt;ul&gt;
-          &lt;li&gt;(주)코난테크놀로지 사옥 이전 (강남역 대륭서초타워 5, 6, 7층)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;9월　　
-        &lt;ul&gt;
-          &lt;li&gt;SP(Software Process)인증 2등급 (정보통신산업진흥원)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;8월　　
-        &lt;ul&gt;
-          &lt;li&gt;GS인증-코난 서치 4 (한국정보통신기술협회)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;3월　　
-        &lt;ul&gt;
-          &lt;li&gt;텍스트 분석기 ‘KTA(KONAN Text Analytics)’ 출시&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;1월　　
-        &lt;ul&gt;
-          &lt;li&gt;터키 도우쉬플래닛 쇼핑몰 검색엔진 구축&lt;/li&gt;
-          &lt;li&gt;펄스K v3 릴리즈&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2012년　　
-    &lt;ul&gt;
-      &lt;li&gt;6월　　
-        &lt;ul&gt;
-          &lt;li&gt;SW공학 적용 우수기업 선정 (코드품질 개선 및 결함분석, 소프트웨어공학센터)&lt;/li&gt;
-          &lt;li&gt;2012 히트상품-고객만족상 수상-코난 밈체커 (디지털타임스)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;5월　　
-        &lt;ul&gt;
-          &lt;li&gt;에스코토스 컨설팅과 기업 명성관리 온라인 브랜드 개발을 위한 전략 제휴&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;4월　　
-        &lt;ul&gt;
-          &lt;li&gt;한국소셜네트워크협회와 소셜미디어 산업 연구 및 학술활동에 대한 전략 제휴&lt;/li&gt;
-          &lt;li&gt;디지털타임스 브랜드파워대상: 통합검색솔루션 부문 - 밈체커&lt;/li&gt;
-          &lt;li&gt;펄스K 상용 서비스 오픈 (v2)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;2월　　
-        &lt;ul&gt;
-          &lt;li&gt;제 11회 대한민국 SW기업 경쟁력 대상 특별상 수상(지식정보화연구센터장상,지식경제부)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2011년　
-    &lt;ul&gt;
-      &lt;li&gt;11월　　
-        &lt;ul&gt;
-          &lt;li&gt;펄스K OBT (Open Beta Test) 오픈&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;10월　　
-        &lt;ul&gt;
-          &lt;li&gt;대한민국 벤처창업대전 대통령상 수상 (행정안전부)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;9월　　
-        &lt;ul&gt;
-          &lt;li&gt;펄스K CBT (Closed Beta Test) 오픈, 펄스K 개발 릴리즈 (v1)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;7월　　
-        &lt;ul&gt;
-          &lt;li&gt;버슨-마스텔러코리아와 소셜 미디어 분석을 위한 전략 제휴&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;6월　　
-        &lt;ul&gt;
-          &lt;li&gt;스마트TV 검색플랫폼 ‘인터랙티브 시맨틱’ 출시&lt;/li&gt;
-          &lt;li&gt;1월　　&lt;/li&gt;
-          &lt;li&gt;표절검색 서비스 ‘밈체커 클라우드’ 출시&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2010년　
-    &lt;ul&gt;
-      &lt;li&gt;10월　　
-        &lt;ul&gt;
-          &lt;li&gt;IT 히트상품 선정-코난 밈체커 (디지털타임스)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;8월　　
-        &lt;ul&gt;
-          &lt;li&gt;포에듀와 표절검색 사업역량 강화를 위한 전략 제휴&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;6월　　
-        &lt;ul&gt;
-          &lt;li&gt;하반기 히트상품 선정-코난 소프트매칭 (디지털타임스)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;4월　　
-        &lt;ul&gt;
-          &lt;li&gt;DT브랜드파워대상-통합검색솔루션 독크루저 (디지털타임스)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;2월　　
-        &lt;ul&gt;
-          &lt;li&gt;제9회 대한민국 SW기업 기업경쟁력 대상 우수상 (지식경제부)&lt;/li&gt;
-          &lt;li&gt;대한민국 SW기업 경쟁력 대상 전자신문사장상 수상&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2009년　
-    &lt;ul&gt;
-      &lt;li&gt;12월　　
-        &lt;ul&gt;
-          &lt;li&gt;GS인증-코난 웹크롤러 (정보통신부)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;9월　　
-        &lt;ul&gt;
-          &lt;li&gt;검색 기술 전문 컨퍼런스, Search Technology Summit 2009 개최&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;8월　　
-        &lt;ul&gt;
-          &lt;li&gt;검색솔루션그룹 3주년 기념식&lt;/li&gt;
-          &lt;li&gt;한국고용정보원의 일자리 검색을 위한 소프트매칭 구축사업 수주&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;7월　　
-        &lt;ul&gt;
-          &lt;li&gt;공식 행정업무용 소프트웨어 선정 - 독크루저 (한국소프트웨어산업협회)&lt;/li&gt;
-          &lt;li&gt;공식 행정업무용 소프트웨어 선정 - 웹크롤러 (한국소프트웨어산업협회)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;6월　　
-        &lt;ul&gt;
-          &lt;li&gt;특허청의 ‘국문전용 검색엔진 구축 프로젝트’ 수주&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;4월　　
-        &lt;ul&gt;
-          &lt;li&gt;지능형 자동분류솔루션, 코난 자동분류기(KAC 2.0) 출시&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;2월　　
-        &lt;ul&gt;
-          &lt;li&gt;모사답안 검증솔루션, 독크루저e러닝 출시&lt;/li&gt;
-          &lt;li&gt;New 네이트에 차세대 검색기술 제공 (이미지검색,시맨틱 외)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;1월　　
-        &lt;ul&gt;
-          &lt;li&gt;㈜인포섹과 개인정보보호제품 개발을 위한 전략 제휴&lt;/li&gt;
-          &lt;li&gt;연 매출 133억원으로 기업검색 솔루션 시장 1위 등극&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2008년　
-    &lt;ul&gt;
-      &lt;li&gt;12월　　
-        &lt;ul&gt;
-          &lt;li&gt;LG전자 홈페이지에 독크루저 도입, 검색 고도화 프로젝트 완료&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;11월　　
-        &lt;ul&gt;
-          &lt;li&gt;검색솔루션 파트너스데이 Fall 2008 개최&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;5월　　
-        &lt;ul&gt;
-          &lt;li&gt;검색솔루션 파트너스데이 Spring 2008 개최&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;3월　　
-        &lt;ul&gt;
-          &lt;li&gt;기록관리 분야별 최우수기업상 수상 (한국기록관리협회)&lt;/li&gt;
-          &lt;li&gt;KTF 유무선 포털 확장 지원&lt;/li&gt;
-          &lt;li&gt;SK11번가 개장 및 SK커머스플래닛 Open&lt;/li&gt;
-          &lt;li&gt;“코난 웹크롤러 v.2.0” 릴리즈&lt;/li&gt;
-          &lt;li&gt;코디얼과 검색사업 강화를 위한 전략 제휴&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2007년　
-    &lt;ul&gt;
-      &lt;li&gt;12월　　
-        &lt;ul&gt;
-          &lt;li&gt;디지털 미디어 페스티벌 2007 솔루션부문 고객만족 대상 수상 (한국디지털에이전시산업협회)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;10월　　
-        &lt;ul&gt;
-          &lt;li&gt;검색사업 파트너를 위한 Partner’s Day 2007 개최&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;8월　　
-        &lt;ul&gt;
-          &lt;li&gt;중복동영상 검색 처리 제품 출시&lt;/li&gt;
-          &lt;li&gt;기획예산처에 독크루저 공급&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;7월　　
-        &lt;ul&gt;
-          &lt;li&gt;국가기록원 주최 ‘기록엑스포 2007’ 참여, 독크로저 및 디지털아크 첫 선&lt;/li&gt;
-          &lt;li&gt;동영상검색 서비스 오픈(SKT)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;3월　　
-        &lt;ul&gt;
-          &lt;li&gt;네이트, 싸이월드 통합검색 제공&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;2월　　
-        &lt;ul&gt;
-          &lt;li&gt;“코난 공유서버 검색” 정식버전 릴리즈&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;1월　　
-        &lt;ul&gt;
-          &lt;li&gt;(주)코난테크놀로지 강남역 미림타워 회사 이전&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2006년　
-    &lt;ul&gt;
-      &lt;li&gt;12월　　
-        &lt;ul&gt;
-          &lt;li&gt;중소SW기업 사용성 개선 지원사업 선정-코난 데스크톱 검색 (한국소프트웨어진흥원)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;11월　　
-        &lt;ul&gt;
-          &lt;li&gt;㈜SK 커뮤니케이션즈와 검색사업 전략적 제휴 (지분투자)&lt;/li&gt;
-          &lt;li&gt;GS인증-코난 독크루저 (정보통신부)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;10월　　
-        &lt;ul&gt;
-          &lt;li&gt;SK커뮤니케이션즈, 엠파스와 ‘UCC와 차세대 검색 서비스 사업 제휴’ 체결&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;8월　　
-        &lt;ul&gt;
-          &lt;li&gt;검색솔루션그룹 출범&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;7월　　
-        &lt;ul&gt;
-          &lt;li&gt;영상처리시스템의 컬러영상 처리방법 미국 특허 등록&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;4월　　
-        &lt;ul&gt;
-          &lt;li&gt;미국 ScheduAll (방송 프로그램 제작 및 운영 관리 솔루션 업체)과 파트너쉽 체결&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;2월　　
-        &lt;ul&gt;
-          &lt;li&gt;기술혁신형 이노비즈(INNO-BIZ)기업 선정(중소기업청)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;1월　　
-        &lt;ul&gt;
-          &lt;li&gt;개인 데스크톱 검색 솔루션 “코난 데스크톱 검색 v.2.x” GS인증 획득 (정보통신부)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2005년　
-    &lt;ul&gt;
-      &lt;li&gt;12월　　
-        &lt;ul&gt;
-          &lt;li&gt;개인 데스크톱 PC 검색 솔루션 “코난 데스크톱검색 2.0 “출시&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;11월　　
-        &lt;ul&gt;
-          &lt;li&gt;미국 Exanet (NAS 업체)과 파트너쉽 체결&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;10월　　
-        &lt;ul&gt;
-          &lt;li&gt;영국 런던 Konan Digital Inc. 유럽지사 설립&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;6월　　
-        &lt;ul&gt;
-          &lt;li&gt;AAF(Advanced Authoring Format) Association에 Associate Member로 가입&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;5월　　
-        &lt;ul&gt;
-          &lt;li&gt;코난 대용량 통합 검색엔진 독크루저 3.x 출시&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;4월　　
-        &lt;ul&gt;
-          &lt;li&gt;홍콩의 Ideal Systems, SI업체와 NDA 체결&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;3월　　
-        &lt;ul&gt;
-          &lt;li&gt;제 4회 대한민국 SW사업자 대상 경영상 수상&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;2월　　
-        &lt;ul&gt;
-          &lt;li&gt;해외법인 설립, Konan Digital Inc. (Glendale, California, USA)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2004년　
-    &lt;ul&gt;
-      &lt;li&gt;10월　　
-        &lt;ul&gt;
-          &lt;li&gt;중한교차검색 서비스 시작 (http://china.empas.com)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;7월　　
-        &lt;ul&gt;
-          &lt;li&gt;세계일류상품 생산기업 선정-코난 미디어아크(산자부)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;6월　　
-        &lt;ul&gt;
-          &lt;li&gt;(주)스펙트라 (한국 eCRM 업체)와 전략적 제휴 체결&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;5월　　
-        &lt;ul&gt;
-          &lt;li&gt;Software Generation Ltd. (영국 아카이브 관리 소프트웨어 개발업체)와 파트너쉽 체결&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;4월　　
-        &lt;ul&gt;
-          &lt;li&gt;IPV Limited(영국 동영상 브라우징 소프트웨어 개발업체)와 파트너쉽 체결&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;3월　　
-        &lt;ul&gt;
-          &lt;li&gt;Ligos Corporation(미국 MPEG1 인코더 개발업체)와 파트너쉽 체결&lt;/li&gt;
-          &lt;li&gt;KONAN DigitalArc에 기반한 SBS 디지털 뉴스 시스템 출범&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2003년　　
-    &lt;ul&gt;
-      &lt;li&gt;9월　　
-        &lt;ul&gt;
-          &lt;li&gt;코난테크놀로지, 전자신문 뉴스검색 시스템 구축&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;6월　　
-        &lt;ul&gt;
-          &lt;li&gt;중/한 자동번역 서비스 시작 (http://china.empas.com)&lt;/li&gt;
-          &lt;li&gt;독크루저, 대용량 검색 솔루션, 기업용 버전 출시&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;5월　　
-        &lt;ul&gt;
-          &lt;li&gt;KOBA2003’ 참가, DRM 및 아카이빙 시스템 시연&lt;/li&gt;
-          &lt;li&gt;대용량 통합검색 엔진 “코난 독크루저 2.x” 출시&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;2월　　
-        &lt;ul&gt;
-          &lt;li&gt;KBI(Korean Broadcasting Institute)에 KONAN DigitalArc 아카이브 센터에 구축&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2002년　
-    &lt;ul&gt;
-      &lt;li&gt;12월　　
-        &lt;ul&gt;
-          &lt;li&gt;MPEG7 기반 이미지 검색 기술 국내 특허 획득&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;11월　　
-        &lt;ul&gt;
-          &lt;li&gt;SYSTEX Inc.(대만 최대 SI업체)와 판매대리권에 대한 전략적 제휴 체결 (코난 미디어아크 및 검색엔진)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2001년　
-    &lt;ul&gt;
-      &lt;li&gt;12월　　
-        &lt;ul&gt;
-          &lt;li&gt;정보통신부장관 표창장 수상&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;8월　　
-        &lt;ul&gt;
-          &lt;li&gt;코난 이미지 검색기술 MPEG7 국제 표준으로 채택&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;6월　　
-        &lt;ul&gt;
-          &lt;li&gt;Empas XP 검색 엔진 개발&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;3월　　
-        &lt;ul&gt;
-          &lt;li&gt;중/한, 일/한 자동번역 솔루션 출시&lt;/li&gt;
-          &lt;li&gt;Multimedia Information Retrieval System 출시&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2000년　
-    &lt;ul&gt;
-      &lt;li&gt;12월　　
-        &lt;ul&gt;
-          &lt;li&gt;㈜지식발전소(www.empas.com)과 전략적 제휴 체결&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;9월　　
-        &lt;ul&gt;
-          &lt;li&gt;Voicexml 출시&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;1999년　
-    &lt;ul&gt;
-      &lt;li&gt;12월　　
-        &lt;ul&gt;
-          &lt;li&gt;Text Search/CJK, TopicFinder, ImageFinder 출시&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;4월　　
-        &lt;ul&gt;
-          &lt;li&gt;㈜코난테크놀로지 설립&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">코난테크놀로지</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">TIL-이노룰스</title>
-      <link href="http://localhost:4000/TIL-%EC%9D%B4%EB%85%B8%EB%A3%B0%EC%8A%A4" rel="alternate" type="text/html" title="TIL-이노룰스" />
-      <published>2023-02-10T00:00:00+09:00</published>
-      <updated>2023-02-10T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-%EC%9D%B4%EB%85%B8%EB%A3%B0%EC%8A%A4</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-%EC%9D%B4%EB%85%B8%EB%A3%B0%EC%8A%A4">&lt;h1 id=&quot;한국해양기상기술&quot;&gt;한국해양기상기술&lt;/h1&gt;
-
-&lt;blockquote&gt;
-
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;한국해양기상기술-기본-정보&quot;&gt;한국해양기상기술 기본 정보&lt;/h1&gt;
-&lt;p&gt;사이트 및 &lt;a href=&quot;https://www.saramin.co.kr/zf_user/company-info/view/csn/UGIzQmh5aFBJb1JYT3g2cnNHUjFqdz09/company_nm/(주)한국해양기상기술&quot;&gt;사람인 참조&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;사이트 : &lt;a href=&quot;http://koast.net/wp&quot;&gt;http://koast.net/wp&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2010년 12월 22일 설립 (업력 14년차)&lt;/li&gt;
-  &lt;li&gt;기업 형태 : 중소기업&lt;/li&gt;
-  &lt;li&gt;사원수  : 31명
-    &lt;ul&gt;
-      &lt;li&gt;&lt;span style=&quot;color:blue&quot;&gt; 입사자 수는 꾸준히 있는데에 비해 퇴사자 수는 적은 것을 보면 꽤 안정적이다, 업력만 봐도 그럴 것 같았고 안정적으로 일을 할 수 있는 곳 같다. &lt;/span&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;업종 : 시스템 소프트웨어 개발 및 공급업&lt;/li&gt;
-  &lt;li&gt;사업 내용 : 소프트웨어 자문 개발, 공급&lt;/li&gt;
-  &lt;li&gt;기업 비전
-    &lt;ul&gt;
-      &lt;li&gt;㈜한국해양기상기술은 UM모델의 분석 및 사용자 관리시스템인 KUMUI를 구축한 핵심 인력을 바탕&lt;/li&gt;
-      &lt;li&gt;해양•기상 사업 컨설팅, 예측에 대한 과학적 자료제공&lt;/li&gt;
-      &lt;li&gt;응용소프트웨어 개발 및 DB구축, 하드웨어 개발을 통한 통합솔루션을 제공&lt;/li&gt;
-      &lt;li&gt;관측 및 수치모델정보의 3차원 가시화를 위한 솔루션과 다년간의 경험을 보유&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;연혁
-    &lt;ul&gt;
-      &lt;li&gt;2022 06 녹색기술인증 등록(제 GT-22-01448호)&lt;/li&gt;
-      &lt;li&gt;2022 03 항공기상청장표창(제2022-5호)&lt;/li&gt;
-      &lt;li&gt;2022 01 해양조사정보업등록(제 1-26호)&lt;/li&gt;
-      &lt;li&gt;2020 12 수도권기상청표창(제 170호)&lt;/li&gt;
-      &lt;li&gt;2019 09 공간정보사업자 취득(2019-00002-01)&lt;/li&gt;
-      &lt;li&gt;2018 01 신기술(형광관측영상 분석방법을 이용한 활성 식물플랑크톤 개체수 측정)인증 획득&lt;/li&gt;
-      &lt;li&gt;2017 11 벤처기업인증 (제20170114221호)&lt;/li&gt;
-      &lt;li&gt;2017 06 기상청장 표창&lt;/li&gt;
-      &lt;li&gt;2017 06 기상사업자(기상예보업)등록(기상청 제201139-03호)&lt;/li&gt;
-      &lt;li&gt;2016 12 인재육성형중소기업지정(중소기업청 제 2016-0208호)&lt;/li&gt;
-      &lt;li&gt;2016 03 환경부장관 표창&lt;/li&gt;
-      &lt;li&gt;2015 04 ISO9001:2008 인증&lt;/li&gt;
-      &lt;li&gt;2015 03 정보통신공사업 등록&lt;/li&gt;
-      &lt;li&gt;2014 10 한국해양과학기술진흥원장 표창&lt;/li&gt;
-      &lt;li&gt;2014 03 연구개발서비스업 신고(신고번호 제20141600호)&lt;/li&gt;
-      &lt;li&gt;2014 03 기술혁신형 중소기업(INNO-Biz)&lt;/li&gt;
-      &lt;li&gt;2012 07 기상청장 표창장 수상(JCOMM 총회관련)&lt;/li&gt;
-      &lt;li&gt;2012 03 (해양부문)엔지니어링사업자 등록(E-13-55호)&lt;/li&gt;
-      &lt;li&gt;2012 01 기업부설연구소 등록(제2012110046호)&lt;/li&gt;
-      &lt;li&gt;2011 04 기상사업자 등록(제 201169-01호)&lt;/li&gt;
-      &lt;li&gt;2011 03 전산업무 개발 직접생산확인&lt;/li&gt;
-      &lt;li&gt;2011 01 기술사사무소 등록(등록번호 제 2011-048)&lt;/li&gt;
-      &lt;li&gt;2011 01 소프트웨어사업자 등록(신고번호 B11038430)&lt;/li&gt;
-      &lt;li&gt;2010 12 (주)한국해양기상기술 설립&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;포지션-및-자격요건&quot;&gt;포지션 및 자격요건&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.jobkorea.co.kr/Recruit/GI_Read/40325640?Oem_Code=C1&quot;&gt;사이트&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;풀스택 개발자(1명)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;담당업무
-    &lt;ul&gt;
-      &lt;li&gt;기상청 프로젝트 개발 및 운영 업무&lt;/li&gt;
-      &lt;li&gt;기상, 해양, 공간 정보 관련 R &amp;amp; D&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;자격요건
-    &lt;ul&gt;
-      &lt;li&gt;학력 : 대졸이상&lt;/li&gt;
-      &lt;li&gt;경력 : 신입&lt;/li&gt;
-      &lt;li&gt;Python 기본적인 문법을 알고 있는 분&lt;/li&gt;
-      &lt;li&gt;리눅스, SQL, javascript 기본 지식이 있으신 분&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;우대사항
-    &lt;ul&gt;
-      &lt;li&gt;평소 소프트웨어 개발에 관심있고 다양한 경험을 도전하신 분&lt;/li&gt;
-      &lt;li&gt;컴퓨터 공학 및 관련 학과 전공자&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;업무환경
-    &lt;ul&gt;
-      &lt;li&gt;공공기관 클라이언트를 상대로 과학자료의 가공 및 표출을 주 업무로 합니다.&lt;/li&gt;
-      &lt;li&gt;회사 정책으로 파견근무를 지양하고 본사 근무를 원칙으로 합니다.(단, 일반적인 수준의 외근과 출장은 있습니다.)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;기술사항
-    &lt;ul&gt;
-      &lt;li&gt;취급분야가 다양하지만 각각의 난이도는 낮은 편 입니다.&lt;/li&gt;
-      &lt;li&gt;리눅스쉡 활용 능력은 필수적입니다.&lt;/li&gt;
-      &lt;li&gt;수학적인 기능 구현 시 대부분 규격이 제시되기 때문에 관련 능력은 중요하지 않습니다.&lt;/li&gt;
-      &lt;li&gt;openlayers, cesium 같은 GIS 플랫폼을 활용하는 경우도 있습니다.&lt;/li&gt;
-      &lt;li&gt;python 으로 ascii는 물론 netcdf, grid 등 다양한 포맷 데이터를 취급합니다.&lt;/li&gt;
-      &lt;li&gt;ascii 파싱으로 가능하다면 쉽게 적응 할 수 있는 수준입니다.&lt;/li&gt;
-      &lt;li&gt;DB는 기초적인 CRUD 쿼리 작성이 가능하면 됩니다.&lt;/li&gt;
-      &lt;li&gt;정해진 서버 환경으로 인해 웹 서버사이드에 php를 자주 적용하지만 그 외에는 제약이 적어서 원하는 기술을 적용하는 자기 계발적 업무가 가능합니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">한국해양기상기술</summary>
       
 
       

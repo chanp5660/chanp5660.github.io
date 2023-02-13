@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/exitem/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-02-13T10:22:46+09:00</updated>
+  <updated>2023-02-13T22:58:47+09:00</updated>
   <id>http://localhost:4000/tag/exitem/feed.xml</id>
 
   
@@ -32,37 +32,88 @@
 
   
     <entry>
-      <title type="html">용어정리</title>
-      <link href="http://localhost:4000/TIL-%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC" rel="alternate" type="text/html" title="용어정리" />
+      <title type="html">TIL-인사이저</title>
+      <link href="http://localhost:4000/TIL-%EC%95%A0%ED%81%AC%EB%AF%B8%EB%9E%A9-Copy1" rel="alternate" type="text/html" title="TIL-인사이저" />
       <published>2023-02-13T00:00:00+09:00</published>
       <updated>2023-02-13T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC">&lt;h1 id=&quot;용어정리&quot;&gt;용어정리&lt;/h1&gt;
+      <id>http://localhost:4000/TIL-%EC%95%A0%ED%81%AC%EB%AF%B8%EB%9E%A9-Copy1</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-%EC%95%A0%ED%81%AC%EB%AF%B8%EB%9E%A9-Copy1">&lt;h1 id=&quot;인사이저&quot;&gt;인사이저&lt;/h1&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;필요한 용어 정리는 한번 하자&lt;br /&gt;
-필요한 정보까지만 포스팅하자 ( 깊게 하려니 너무 오래 걸린다. )
-차근차근 하자&lt;/p&gt;
+  &lt;p&gt;생각보다 기록이 없어서 알아보기 힘들다.&lt;/p&gt;
 &lt;/blockquote&gt;
-
-&lt;h2 id=&quot;포스팅-됨&quot;&gt;포스팅 됨&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/서포트벡터머신(SVM)&quot;&gt;SVM&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;포스팀-안됨&quot;&gt;포스팀 안됨&lt;/h2&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;이동하면서 볼 수 있도록 공부할만한 사이트 링크 걸어둔다.&lt;/p&gt;
+  &lt;p&gt;내가 판단할 수 있는 정보가 없었고 복지에 관련된 내용이 없어서 회사 분위기조차 파악이 되지 않았다. 부딪혀보자는 생각으로는 들어가서 배우는 느낌으로는 좋을 것 같다. 하지만 이것도 추측으로 아무것도 알수가 없다. 그리고 기록이 2020년 11월에 멈춰 있는 것으로 보아 지금은 안정?위험? 둘 중에 하나이므로 추가 정보가 있지 않는 이상 시도하기 어려울 것 같다. 직무는 내게 맞았던 것 같은데 아쉽다.&lt;/p&gt;
 &lt;/blockquote&gt;
 
+&lt;h1 id=&quot;인사이저-기본-정보&quot;&gt;인사이저 기본 정보&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.incizor.com/&quot;&gt;공식 사이트 참조&lt;/a&gt;&lt;/p&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.tibco.com/ko/reference-center/what-is-logistic-regression&quot;&gt;로지스틱 회귀분석&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;크게 두가지 제품(Text Analytics, OCR)을 가지고 있다.&lt;/li&gt;
+  &lt;li&gt;Text Analytics(텍스트분석)
+    &lt;ul&gt;
+      &lt;li&gt;문서더미에서 가치 창출, 인사이저에 맡기세요! 단순 키워드 기반 문서 분류부터 내용의 유사도를 통한 문서 클러스팅까지, 인사이저 고유의 기술력으로 문서를 분류해 드립니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;OCR(아날로그 정보를 디지털 정보로 변환하는 기술)
+    &lt;ul&gt;
+      &lt;li&gt;아날로그 정보를 빠르고 정확하게 디지털 정보로 변환함으로써 데이터 활용성 향상 및 업무의 효율성 향상을 가져다 드립니다. 세계 최고 수준의 인사이저 AI OCR을 경험하세요.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2018년 4월 20일 설립 (업력 6년차)&lt;/li&gt;
+  &lt;li&gt;주소 : 서울 영등포구 은행로 29, 2층 13호&lt;/li&gt;
+  &lt;li&gt;사업 내용 : 소프트웨어 개발,공급,정보처리 구축,컨설팅/기술,경영 자문/소프트웨어 임대&lt;/li&gt;
+  &lt;li&gt;사원수 : 6명
+    &lt;ul&gt;
+      &lt;li&gt;&lt;span style=&quot;color:blue&quot;&gt;최근 입사자가 한명씩 늘고 있는데 퇴사자는 한명인 소규모 그룹이라 뭐라 판단하기가 어렵다.&lt;/span&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+&lt;h2 id=&quot;연혁&quot;&gt;연혁&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2020
+    &lt;ul&gt;
+      &lt;li&gt;11
+        &lt;ul&gt;
+          &lt;li&gt;팁스(TIPS) 프로그램 선정&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2020
+    &lt;ul&gt;
+      &lt;li&gt;07
+        &lt;ul&gt;
+          &lt;li&gt;기관투자유치&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;04
+        &lt;ul&gt;
+          &lt;li&gt;네이버 클라우드 OCR 컴피턴시 파트너 선정&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;02
+        &lt;ul&gt;
+          &lt;li&gt;벤처인증&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2018
+    &lt;ul&gt;
+      &lt;li&gt;04
+        &lt;ul&gt;
+          &lt;li&gt;(주)인사이저 설립&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content>
 
       
       
@@ -85,7 +136,7 @@
       
 
       
-        <summary type="html">용어정리</summary>
+        <summary type="html">인사이저</summary>
       
 
       

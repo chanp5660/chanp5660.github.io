@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/ai/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-02-13T10:22:46+09:00</updated>
+  <updated>2023-02-13T22:58:47+09:00</updated>
   <id>http://localhost:4000/tag/ai/feed.xml</id>
 
   
@@ -32,15 +32,212 @@
 
   
     <entry>
+      <title type="html">용어정리필요</title>
+      <link href="http://localhost:4000/ML%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94" rel="alternate" type="text/html" title="용어정리필요" />
+      <published>2023-02-13T00:00:00+09:00</published>
+      <updated>2023-02-13T00:00:00+09:00</updated>
+      <id>http://localhost:4000/ML%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94</id>
+      <content type="html" xml:base="http://localhost:4000/ML%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94">&lt;h1 id=&quot;용어정리&quot;&gt;용어정리&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;필요한 용어 정리는 한번 하자&lt;br /&gt;
+필요한 정보까지만 포스팅하자 ( 깊게 하려니 너무 오래 걸린다. )
+차근차근 하자&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;포스팅-됨&quot;&gt;포스팅 됨&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/서포트벡터머신(SVM)&quot;&gt;SVM&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/로지스틱회귀&quot;&gt;로지스틱 회귀분석&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;포스팀-안됨&quot;&gt;포스팀 안됨&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;이동하면서 볼 수 있도록 공부할만한 사이트 링크 걸어둔다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://heytech.tistory.com/361&quot;&gt;손실함수&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://velog.io/@hyunicecream/GridSearchCV란-어떻게-사용할까&quot;&gt;GridSearch&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="ai" />
+      
+
+      
+        <summary type="html">용어정리</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">로지스틱회귀</title>
+      <link href="http://localhost:4000/%EB%A1%9C%EC%A7%80%EC%8A%A4%ED%8B%B1%ED%9A%8C%EA%B7%80" rel="alternate" type="text/html" title="로지스틱회귀" />
+      <published>2023-02-13T00:00:00+09:00</published>
+      <updated>2023-02-13T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%EB%A1%9C%EC%A7%80%EC%8A%A4%ED%8B%B1%ED%9A%8C%EA%B7%80</id>
+      <content type="html" xml:base="http://localhost:4000/%EB%A1%9C%EC%A7%80%EC%8A%A4%ED%8B%B1%ED%9A%8C%EA%B7%80">&lt;h1 id=&quot;로지스틱-회귀&quot;&gt;로지스틱 회귀&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;이벤트가 발생할 확률을 결정&lt;/strong&gt;하는데 사용되는 통계 모델&lt;/li&gt;
+  &lt;li&gt;특성 간의 관계를 보여주고 특정 결과의 확률을 계산합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;사용&quot;&gt;사용&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;머신러닝에서 정확한 예측을 생성하는데 사용&lt;/li&gt;
+  &lt;li&gt;선형 회귀와 유사하며 대상 변수가 이진입니다. (0,1)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;측정-가능한-항목&quot;&gt;측정 가능한 항목&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;B, 설명 변수, 특성(측정 대상 항목)&lt;/li&gt;
+  &lt;li&gt;Y, 응답 변수, 목표 이진 변수&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;예시&quot;&gt;예시&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;학생이 시험에 합격될지 불합격될지 예측할 때&lt;/li&gt;
+  &lt;li&gt;B, 설명 변수, 특성(측정 대상 항목) : &lt;strong&gt;공부한 시간&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Y, 응답 변수, 목표 이진 변수 : &lt;strong&gt;합격,불합격&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;종류&quot;&gt;종류&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;이진 로지스틱 회귀&lt;/strong&gt; : 0,1 처럼 2가지의 결과&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;다항 로지스틱 회귀&lt;/strong&gt; : 응답 변수에 순서가 업는 3개 이상의 변수가 포함&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;순서 로지스틱 회귀&lt;/strong&gt; : 3개 이상의 변수가 포함될 수 있음, 대신 측정에는 순서가 있음, 예를 들어 1~5점으로 평가를 하는 경우&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;이미지&quot;&gt;이미지&lt;/h1&gt;
+
+&lt;p&gt;&lt;img alt=&quot;로지스틱회귀 위키피디아&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Logistic-curve.svg/480px-Logistic-curve.svg.png&quot; width=&quot;60%&quot; height=&quot;60%&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;참조&quot;&gt;참조&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.tibco.com/ko/reference-center/what-is-logistic-regression&quot;&gt;블로그&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://ko.wikipedia.org/wiki/로지스틱_회귀&quot;&gt;위키피디아&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="ai" />
+      
+
+      
+        <summary type="html">로지스틱 회귀</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">머신러닝학습방법</title>
+      <link href="http://localhost:4000/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95" rel="alternate" type="text/html" title="머신러닝학습방법" />
+      <published>2023-02-12T00:00:00+09:00</published>
+      <updated>2023-02-12T00:00:00+09:00</updated>
+      <id>http://localhost:4000/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95</id>
+      <content type="html" xml:base="http://localhost:4000/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95">&lt;h1 id=&quot;머신러닝-학습방법&quot;&gt;머신러닝 학습방법&lt;/h1&gt;
+
+&lt;h1 id=&quot;종류&quot;&gt;종류&lt;/h1&gt;
+
+&lt;h2 id=&quot;지도-학습&quot;&gt;&lt;a href=&quot;https://chanp5660.github.io/ML학습방법-지도학습&quot;&gt;지도 학습&lt;/a&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;데이터에서 반복적으로 학습하는 알고리즘을 사용하여 컴퓨터가 어디를 찾아봐야 하는 지를 명시적으로 프로그래밍하지 않고도 숨겨진 통찰력을 찾을 수 있도록 하는 데이터 분석 방법&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;비지도-학습&quot;&gt;&lt;a href=&quot;https://chanp5660.github.io/ML학습방법-비지도학습&quot;&gt;비지도 학습&lt;/a&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;지도 학습과는 달리 정답 라벨이 없는 데이터를 비슷한 특징끼리 군집화 하여 새로운 데이터에 대한 결과를 예측하는 방법&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;강화-학습&quot;&gt;&lt;a href=&quot;https://chanp5660.github.io/ML학습방법-강화학습&quot;&gt;강화 학습&lt;/a&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;행동 심리학에서 나온 이론으로 분류할 수 있는 데이터가 존재하는 것도 아니고 데이터가 있어도 정답이 따로 정해져 있지 않으며 자신이 한 행동에 대해 보상(reward)를 받으며 학습하는 것&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;일반적인-단계&quot;&gt;일반적인 단계&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;데이터분류 X,Y, train, dev, test 데이터를 분류&lt;/li&gt;
+  &lt;li&gt;분류기 인스턴스화&lt;/li&gt;
+  &lt;li&gt;하이퍼 파라미터 수정&lt;/li&gt;
+  &lt;li&gt;fit (training, 학습, 훈련)&lt;/li&gt;
+  &lt;li&gt;predict (예측, 테스트, develop)&lt;/li&gt;
+  &lt;li&gt;score (평가)&lt;/li&gt;
+&lt;/ol&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="ai" />
+      
+
+      
+        <summary type="html">머신러닝 학습방법</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">머신러닝-지도학습</title>
       <link href="http://localhost:4000/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95-%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5" rel="alternate" type="text/html" title="머신러닝-지도학습" />
       <published>2023-02-12T00:00:00+09:00</published>
       <updated>2023-02-12T00:00:00+09:00</updated>
       <id>http://localhost:4000/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95-%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5</id>
-      <content type="html" xml:base="http://localhost:4000/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95-%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5">&lt;h1 id=&quot;머신러닝-학습방법---지도학습&quot;&gt;머신러닝 학습방법 - 지도학습&lt;/h1&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+      <content type="html" xml:base="http://localhost:4000/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95-%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5">&lt;h1 id=&quot;머신러닝-학습방법---지도학습&quot;&gt;머신러닝 학습방법 - 지도학습&lt;/h1&gt;</content>
 
       
       
@@ -143,60 +340,8 @@
     </entry>
   
     <entry>
-      <title type="html">머신러닝학습방법</title>
-      <link href="http://localhost:4000/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95" rel="alternate" type="text/html" title="머신러닝학습방법" />
-      <published>2023-02-12T00:00:00+09:00</published>
-      <updated>2023-02-12T00:00:00+09:00</updated>
-      <id>http://localhost:4000/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95</id>
-      <content type="html" xml:base="http://localhost:4000/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95">&lt;h1 id=&quot;머신러닝-학습방법&quot;&gt;머신러닝 학습방법&lt;/h1&gt;
-
-&lt;h2 id=&quot;지도-학습&quot;&gt;지도 학습&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;데이터에서 반복적으로 학습하는 알고리즘을 사용하여 컴퓨터가 어디를 찾아봐야 하는 지를 명시적으로 프로그래밍하지 않고도 숨겨진 통찰력을 찾을 수 있도록 하는 데이터 분석 방법&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;비지도-학습&quot;&gt;비지도 학습&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;지도 학습과는 달리 정답 라벨이 없는 데이터를 비슷한 특징끼리 군집화 하여 새로운 데이터에 대한 결과를 예측하는 방법&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;강화-학습&quot;&gt;강화 학습&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;행동 심리학에서 나온 이론으로 분류할 수 있는 데이터가 존재하는 것도 아니고 데이터가 있어도 정답이 따로 정해져 있지 않으며 자신이 한 행동에 대해 보상(reward)를 받으며 학습하는 것&lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="ai" />
-      
-
-      
-        <summary type="html">머신러닝 학습방법</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">서포트벡터머신(svm)</title>
-      <link href="http://localhost:4000/%EC%84%9C%ED%8F%AC%ED%8A%B8%EB%B2%A1%ED%84%B0%EB%A8%B8%EC%8B%A0(SVM)" rel="alternate" type="text/html" title="서포트벡터머신(svm)" />
+      <title type="html">서포트 벡터 머신</title>
+      <link href="http://localhost:4000/%EC%84%9C%ED%8F%AC%ED%8A%B8%EB%B2%A1%ED%84%B0%EB%A8%B8%EC%8B%A0(SVM)" rel="alternate" type="text/html" title="서포트 벡터 머신" />
       <published>2023-02-10T00:00:00+09:00</published>
       <updated>2023-02-10T00:00:00+09:00</updated>
       <id>http://localhost:4000/%EC%84%9C%ED%8F%AC%ED%8A%B8%EB%B2%A1%ED%84%B0%EB%A8%B8%EC%8B%A0(SVM)</id>
