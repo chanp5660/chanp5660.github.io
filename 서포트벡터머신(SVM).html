@@ -227,9 +227,34 @@ into the {body} of the default.hbs template -->
 <h1 id="정의">정의</h1>
 
 <ul>
-  <li>SVM은 분류 또는 회귀 분석에 사용 가능한 초평면* 또는 초평면들의 집합으로 구성되어 있다.</li>
-  <li></li>
-  <li>초평면 : 3차원의 공간 속의 평면을 가리킴</li>
+  <li>
+    <p>SVM은 분류 또는 회귀 분석에 사용 가능한 초평면* 또는 초평면들의 집합으로 구성되어 있다.</p>
+  </li>
+  <li>
+    <p>초평면 : 3차원의 공간 속의 평면을 가리킴</p>
+  </li>
+</ul>
+
+<h1 id="목표-및-아이디어">목표 및 아이디어</h1>
+
+<ul>
+  <li>데이터를 분류하는 것은 기계학습에 있어서 일반적인 작업이다.</li>
+  <li>주어진 데이터 점들이 두 개의 클래스 안에 각각 속해 있다고 가정했을 때, 새로운 데ㅣ터 점이 두 클래스 중 어느 곳에 속하는지 결정하는 것이 목표이다.</li>
+  <li>선형 분류
+    <ul>
+      <li>데이터 점이 P-차원 벡터 (p개의 숫자 리스트)로 주어졌을 때, 이러한 데이터 점을 (p-1)-차원의 초평면으로 분류할 수 있는지를 확인하고 싶은 것이다.</li>
+    </ul>
+  </li>
+  <li>데이터를 분류하는 초평면은 여러 경우가 나올 수 있다.
+    <ul>
+      <li>초평면을 선택하는 타당한 방법 중 하나는 두 클래스 사이에서 가장 큰 분류 또는 마진을 가지는 초평면을 선택하는 것이다.</li>
+      <li>그래서 우리는 초평면에서 가장 가까운 각 클래스의 데이터 점들 간의 거리를 최대로 하는 초평면을 선택한다.
+        <ul>
+          <li>만약 그런 초평면이 존재할 경우, 그 초평면을 최대 마진 초평면이라 하고 선형 분류기를 최대 마진 분류기라고 한다.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
 </ul>
 
 <h1 id="참조">참조</h1>
@@ -354,6 +379,44 @@ into the {body} of the default.hbs template -->
                                   
                                 
                                   
+                                    
+                                        
+                                        
+                                            <li><a href="/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95">머신러닝학습방법</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95-%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5">머신러닝-지도학습</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95-%EB%B9%84%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5">머신러닝-비지도학습</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
                                 
                                   
                                 
@@ -379,16 +442,12 @@ into the {body} of the default.hbs template -->
                                     
                                         
                                         
-                                            <li><a href="/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%88%98%EC%A7%91">머신러닝 데이터 수집</a></li>
-                                        
                                     
                                   
                                 
                                   
                                     
                                         
-                                        
-                                            <li><a href="/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0">머신러닝 워크플로우</a></li>
                                         
                                     
                                   
@@ -456,7 +515,7 @@ into the {body} of the default.hbs template -->
                         <footer class="read-next-card-footer">
                             <a href="/tag/ai/">
                                 
-                                    See all 2 posts  →
+                                    See all 6 posts  →
                                 
                             </a>
                         </footer>

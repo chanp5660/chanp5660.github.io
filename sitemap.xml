@@ -4,6 +4,22 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc>http://localhost:4000/TIL-%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC.html</loc>
+        
+        <lastmod>2023-02-13T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
         <loc>http://localhost:4000/%EC%9C%A0%ED%81%B4%EB%A6%AC%EB%93%9C%EA%B3%B5%EA%B0%84.html</loc>
         
         <lastmod>2023-02-12T00:00:00+09:00</lastmod>
@@ -21,6 +37,70 @@
     
     <url>
         <loc>http://localhost:4000/%EB%82%B4%EC%A0%81%EC%97%B0%EC%82%B0.html</loc>
+        
+        <lastmod>2023-02-12T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95.html</loc>
+        
+        <lastmod>2023-02-12T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95-%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5.html</loc>
+        
+        <lastmod>2023-02-12T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95-%EB%B9%84%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5.html</loc>
+        
+        <lastmod>2023-02-12T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95-%EA%B0%95%ED%99%94%ED%95%99%EC%8A%B5.html</loc>
         
         <lastmod>2023-02-12T00:00:00+09:00</lastmod>
         
@@ -55,6 +135,22 @@
         <loc>http://localhost:4000/TIL-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EC%9E%90%EA%B2%A9%EC%9A%94%EA%B1%B4.html</loc>
         
         <lastmod>2023-02-11T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/TIL-%EC%9D%B4%EB%85%B8%EB%A3%B0%EC%8A%A4.html</loc>
+        
+        <lastmod>2023-02-10T00:00:00+09:00</lastmod>
         
 
         

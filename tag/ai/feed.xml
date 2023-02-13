@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/ai/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-02-12T01:43:34+09:00</updated>
+  <updated>2023-02-13T10:22:46+09:00</updated>
   <id>http://localhost:4000/tag/ai/feed.xml</id>
 
   
@@ -30,6 +30,169 @@
   
   
 
+  
+    <entry>
+      <title type="html">머신러닝-지도학습</title>
+      <link href="http://localhost:4000/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95-%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5" rel="alternate" type="text/html" title="머신러닝-지도학습" />
+      <published>2023-02-12T00:00:00+09:00</published>
+      <updated>2023-02-12T00:00:00+09:00</updated>
+      <id>http://localhost:4000/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95-%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5</id>
+      <content type="html" xml:base="http://localhost:4000/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95-%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5">&lt;h1 id=&quot;머신러닝-학습방법---지도학습&quot;&gt;머신러닝 학습방법 - 지도학습&lt;/h1&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="ai" />
+      
+
+      
+        <summary type="html">머신러닝 학습방법 - 지도학습</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">머신러닝-비지도학습</title>
+      <link href="http://localhost:4000/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95-%EB%B9%84%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5" rel="alternate" type="text/html" title="머신러닝-비지도학습" />
+      <published>2023-02-12T00:00:00+09:00</published>
+      <updated>2023-02-12T00:00:00+09:00</updated>
+      <id>http://localhost:4000/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95-%EB%B9%84%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5</id>
+      <content type="html" xml:base="http://localhost:4000/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95-%EB%B9%84%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5">&lt;h1 id=&quot;머신러닝-학습방법-비지도학습&quot;&gt;머신러닝 학습방법 비지도학습&lt;/h1&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="ai" />
+      
+
+      
+        <summary type="html">머신러닝 학습방법 비지도학습</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">머신러닝-강화학습</title>
+      <link href="http://localhost:4000/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95-%EA%B0%95%ED%99%94%ED%95%99%EC%8A%B5" rel="alternate" type="text/html" title="머신러닝-강화학습" />
+      <published>2023-02-12T00:00:00+09:00</published>
+      <updated>2023-02-12T00:00:00+09:00</updated>
+      <id>http://localhost:4000/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95-%EA%B0%95%ED%99%94%ED%95%99%EC%8A%B5</id>
+      <content type="html" xml:base="http://localhost:4000/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95-%EA%B0%95%ED%99%94%ED%95%99%EC%8A%B5">&lt;h1 id=&quot;머신러닝-학습방법---강화학습&quot;&gt;머신러닝 학습방법 - 강화학습&lt;/h1&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="ai" />
+      
+
+      
+        <summary type="html">머신러닝 학습방법 - 강화학습</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">머신러닝학습방법</title>
+      <link href="http://localhost:4000/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95" rel="alternate" type="text/html" title="머신러닝학습방법" />
+      <published>2023-02-12T00:00:00+09:00</published>
+      <updated>2023-02-12T00:00:00+09:00</updated>
+      <id>http://localhost:4000/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95</id>
+      <content type="html" xml:base="http://localhost:4000/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95">&lt;h1 id=&quot;머신러닝-학습방법&quot;&gt;머신러닝 학습방법&lt;/h1&gt;
+
+&lt;h2 id=&quot;지도-학습&quot;&gt;지도 학습&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;데이터에서 반복적으로 학습하는 알고리즘을 사용하여 컴퓨터가 어디를 찾아봐야 하는 지를 명시적으로 프로그래밍하지 않고도 숨겨진 통찰력을 찾을 수 있도록 하는 데이터 분석 방법&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;비지도-학습&quot;&gt;비지도 학습&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;지도 학습과는 달리 정답 라벨이 없는 데이터를 비슷한 특징끼리 군집화 하여 새로운 데이터에 대한 결과를 예측하는 방법&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;강화-학습&quot;&gt;강화 학습&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;행동 심리학에서 나온 이론으로 분류할 수 있는 데이터가 존재하는 것도 아니고 데이터가 있어도 정답이 따로 정해져 있지 않으며 자신이 한 행동에 대해 보상(reward)를 받으며 학습하는 것&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="ai" />
+      
+
+      
+        <summary type="html">머신러닝 학습방법</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">서포트벡터머신(svm)</title>
@@ -69,9 +232,34 @@
 &lt;h1 id=&quot;정의&quot;&gt;정의&lt;/h1&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;SVM은 분류 또는 회귀 분석에 사용 가능한 초평면* 또는 초평면들의 집합으로 구성되어 있다.&lt;/li&gt;
-  &lt;li&gt;&lt;/li&gt;
-  &lt;li&gt;초평면 : 3차원의 공간 속의 평면을 가리킴&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;SVM은 분류 또는 회귀 분석에 사용 가능한 초평면* 또는 초평면들의 집합으로 구성되어 있다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;초평면 : 3차원의 공간 속의 평면을 가리킴&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;목표-및-아이디어&quot;&gt;목표 및 아이디어&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;데이터를 분류하는 것은 기계학습에 있어서 일반적인 작업이다.&lt;/li&gt;
+  &lt;li&gt;주어진 데이터 점들이 두 개의 클래스 안에 각각 속해 있다고 가정했을 때, 새로운 데ㅣ터 점이 두 클래스 중 어느 곳에 속하는지 결정하는 것이 목표이다.&lt;/li&gt;
+  &lt;li&gt;선형 분류
+    &lt;ul&gt;
+      &lt;li&gt;데이터 점이 P-차원 벡터 (p개의 숫자 리스트)로 주어졌을 때, 이러한 데이터 점을 (p-1)-차원의 초평면으로 분류할 수 있는지를 확인하고 싶은 것이다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;데이터를 분류하는 초평면은 여러 경우가 나올 수 있다.
+    &lt;ul&gt;
+      &lt;li&gt;초평면을 선택하는 타당한 방법 중 하나는 두 클래스 사이에서 가장 큰 분류 또는 마진을 가지는 초평면을 선택하는 것이다.&lt;/li&gt;
+      &lt;li&gt;그래서 우리는 초평면에서 가장 가까운 각 클래스의 데이터 점들 간의 거리를 최대로 하는 초평면을 선택한다.
+        &lt;ul&gt;
+          &lt;li&gt;만약 그런 초평면이 존재할 경우, 그 초평면을 최대 마진 초평면이라 하고 선형 분류기를 최대 마진 분류기라고 한다.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;참조&quot;&gt;참조&lt;/h1&gt;

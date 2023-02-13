@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/math/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-02-12T01:43:34+09:00</updated>
+  <updated>2023-02-13T10:22:46+09:00</updated>
   <id>http://localhost:4000/tag/math/feed.xml</id>
 
   
@@ -116,11 +116,11 @@
 &lt;h1 id=&quot;정의&quot;&gt;정의&lt;/h1&gt;
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;음이 아닌 정수 $n=0,1,2,\dots$ 에 대하여 n차원 유클리드 공간 $\mathbb {R} ^n$은 집합으로서 실수 집합 $\mathbb {R}$의 n번 곱집합이다.&lt;/p&gt;
+    &lt;p&gt;음이 아닌 정수 n=0,1,2,\dots  에 대하여 n차원 유클리드 공간 \mathbb {R} ^{n}은 집합으로서 실수 집합 \mathbb {R}의 n번 곱집합이다.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;이 위에 내적 $\langle u,v\rangle =\sum &lt;em&gt;^{n}u&lt;/em&gt;{i}v_{i}$ 을 정의하면, $
-\mathbb {R} ^{n}$은 실수 &lt;a href=&quot;https://ko.wikipedia.org/wiki/힐베르트_공간&quot;&gt;힐베르트 공간&lt;/a&gt;을 이룬다. 이에 따라서 유클리드 공간은 내적 공간, 바나흐 공간, 노름 공간, 벡터 공간, 완비 거리 공간, 위상 공간을 이룬다.&lt;/p&gt;
+    &lt;p&gt;이 위에 내적 \langle u,v\rangle =\sum &lt;em&gt;^{n}u&lt;/em&gt;{i}v_{i} 을 정의하면,&lt;br /&gt;
+\mathbb {R} ^{n}은 실수 &lt;a href=&quot;https://ko.wikipedia.org/wiki/힐베르트_공간&quot;&gt;힐베르트 공간&lt;/a&gt;을 이룬다. 이에 따라서 유클리드 공간은 내적 공간, 바나흐 공간, 노름 공간, 벡터 공간, 완비 거리 공간, 위상 공간을 이룬다.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;</content>
 
