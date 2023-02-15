@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/til/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-02-15T20:54:50+09:00</updated>
+  <updated>2023-02-15T21:12:30+09:00</updated>
   <id>http://localhost:4000/tag/til/feed.xml</id>
 
   
@@ -353,11 +353,11 @@
   
     <entry>
       <title type="html">TIL-인사이저</title>
-      <link href="http://localhost:4000/TIL-%EC%95%A0%ED%81%AC%EB%AF%B8%EB%9E%A9-Copy1" rel="alternate" type="text/html" title="TIL-인사이저" />
+      <link href="http://localhost:4000/TIL-%EC%9D%B8%EC%82%AC%EC%9D%B4%EC%A0%80" rel="alternate" type="text/html" title="TIL-인사이저" />
       <published>2023-02-13T00:00:00+09:00</published>
       <updated>2023-02-13T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-%EC%95%A0%ED%81%AC%EB%AF%B8%EB%9E%A9-Copy1</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-%EC%95%A0%ED%81%AC%EB%AF%B8%EB%9E%A9-Copy1">&lt;h1 id=&quot;인사이저&quot;&gt;인사이저&lt;/h1&gt;
+      <id>http://localhost:4000/TIL-%EC%9D%B8%EC%82%AC%EC%9D%B4%EC%A0%80</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-%EC%9D%B8%EC%82%AC%EC%9D%B4%EC%A0%80">&lt;h1 id=&quot;인사이저&quot;&gt;인사이저&lt;/h1&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;생각보다 기록이 없어서 알아보기 힘들다.&lt;/p&gt;
