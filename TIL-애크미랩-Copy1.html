@@ -389,6 +389,15 @@ into the {body} of the default.hbs template -->
                                 
                                   
                                     
+                                        
+                                        
+                                            <li><a href="/TIL-%EC%95%84%ED%81%AC%EB%A6%B4">TIL-아크릴</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
                                   
                                 
                                   
@@ -428,8 +437,6 @@ into the {body} of the default.hbs template -->
                                   
                                     
                                         
-                                        
-                                            <li><a href="/TIL-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EC%9E%90%EA%B2%A9%EC%9A%94%EA%B1%B4">TIL-머신러닝 엔지니어 자격요건</a></li>
                                         
                                     
                                   
@@ -616,7 +623,7 @@ into the {body} of the default.hbs template -->
                         <footer class="read-next-card-footer">
                             <a href="/tag/exitem/">
                                 
-                                    See all 22 posts  →
+                                    See all 23 posts  →
                                 
                             </a>
                         </footer>
@@ -625,6 +632,61 @@ into the {body} of the default.hbs template -->
             
 
             <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+
+    <article class="post-card post-template">
+        
+            <a class="post-card-image-link" href="/TIL-%EC%95%84%ED%81%AC%EB%A6%B4">
+                <div class="post-card-image" style="background-image: url(/assets/built/images/아크릴.png)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/TIL-%EC%95%84%ED%81%AC%EB%A6%B4">
+                <header class="post-card-header">
+                    
+                        
+                            
+                               <span class="post-card-tags">Exitem</span>
+                            
+                        
+                            
+                                <span class="post-card-tags">Til</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">TIL-아크릴</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p>아크릴
+
+</p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/built/images/favicon.jpg" alt="chanp5660" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/chanp5660/">chanp5660</a>
+                        </span>
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      3 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
             
 
             <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
@@ -878,4 +940,22 @@ $(document).ready(function () {
         }
 
         progressBar.setAttribute('max', progressMax);
-        progr
+        progressBar.setAttribute('value', lastScrollY);
+
+        ticking = false;
+    }
+
+    window.addEventListener('scroll', onScroll, {passive: true});
+    window.addEventListener('resize', onResize, false);
+
+    update();
+});
+</script>
+
+    
+
+    <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
+    <!-- ghost_foot -->
+
+</body>
+</html>
