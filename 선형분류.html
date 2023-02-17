@@ -11,7 +11,7 @@
 
 
 
-    <title>TIL-데이터비</title>
+    <title>선형분류</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
@@ -49,30 +49,30 @@
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="박찬" />
     <link rel="shortcut icon" href="http://localhost:4000/assets/built/images/favicon.jpg" type="image/png" />
-    <link rel="canonical" href="http://localhost:4000/TIL-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B9%84" />
+    <link rel="canonical" href="http://localhost:4000/%EC%84%A0%ED%98%95%EB%B6%84%EB%A5%98" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="Engineer Chanp5660" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="TIL-데이터비" />
-    <meta property="og:description" content="데이터비 걱정이 되는 회사 설립된지 5년차가 되고 있는 회사로서 지금은 사원수가 적기도하고 아직 커가는 회사인 듯하다. 나도 아직 영어가 능숙하지 않아서 (물론,,, 국어도 뭐.. 잘하는 건 아니지만) 번역기만 쓰다가 실수한 적이 많은데 그 부분에 있어 잘 쓰일 것 같다. 하지만 파파고와 구글번역등 데이터 자체를 크게 다루어 밀어붙이는 대형회사들이 있다. 물론" />
-    <meta property="og:url" content="http://localhost:4000/TIL-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B9%84" />
-    <meta property="og:image" content="http://localhost:4000/assets/built/images/데이터비.png" />
+    <meta property="og:title" content="선형분류" />
+    <meta property="og:description" content="선형분류 Linear Classification 일차원 혹은 다차원 데이터들을 선형 모델(Linear Model)을 이용하여 클래스들로 분류(Classification)하는 것 선형함수는 Y = WX+b 형태를 갖춘다. Y : 종속변수, 반응변수 W : 가중치, B, 계수 X : 독립변수, 설명변수 b : 편향 벡터, 노이즈 학습 데이터는 W와 b를 학습시키기 위해 사용됨. 즉, 모델의 W와 b를 구하는" />
+    <meta property="og:url" content="http://localhost:4000/%EC%84%A0%ED%98%95%EB%B6%84%EB%A5%98" />
+    <meta property="og:image" content="http://localhost:4000/assets/built/images/선형분류.png" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
     <meta property="article:author" content="https://www.facebook.com/" />
-    <meta property="article:published_time" content="2023-02-10T00:00:00+09:00" />
-    <meta property="article:modified_time" content="2023-02-10T00:00:00+09:00" />
-    <meta property="article:tag" content="Exitem" />
+    <meta property="article:published_time" content="2023-02-17T00:00:00+09:00" />
+    <meta property="article:modified_time" content="2023-02-17T00:00:00+09:00" />
+    <meta property="article:tag" content="Ai" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="TIL-데이터비" />
-    <meta name="twitter:description" content="데이터비 걱정이 되는 회사 설립된지 5년차가 되고 있는 회사로서 지금은 사원수가 적기도하고 아직 커가는 회사인 듯하다. 나도 아직 영어가 능숙하지 않아서 (물론,,, 국어도 뭐.. 잘하는 건 아니지만) 번역기만 쓰다가 실수한 적이 많은데 그 부분에 있어 잘 쓰일 것 같다. 하지만 파파고와 구글번역등 데이터 자체를 크게 다루어 밀어붙이는 대형회사들이 있다. 물론" />
+    <meta name="twitter:title" content="선형분류" />
+    <meta name="twitter:description" content="선형분류 Linear Classification 일차원 혹은 다차원 데이터들을 선형 모델(Linear Model)을 이용하여 클래스들로 분류(Classification)하는 것 선형함수는 Y = WX+b 형태를 갖춘다. Y : 종속변수, 반응변수 W : 가중치, B, 계수 X : 독립변수, 설명변수 b : 편향 벡터, 노이즈 학습 데이터는 W와 b를 학습시키기 위해 사용됨. 즉, 모델의 W와 b를 구하는" />
     <meta name="twitter:url" content="http://localhost:4000/" />
-    <meta name="twitter:image" content="http://localhost:4000/assets/built/images/데이터비.png" />
+    <meta name="twitter:image" content="http://localhost:4000/assets/built/images/선형분류.png" />
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="Engineer Chanp5660" />
     <meta name="twitter:label2" content="Filed under" />
-    <meta name="twitter:data2" content="Exitem" />
+    <meta name="twitter:data2" content="Ai" />
     <meta name="twitter:site" content="@" />
     <meta name="twitter:creator" content="@" />
     <meta property="og:image:width" content="1400" />
@@ -87,18 +87,18 @@
         "name": "Engineer Chanp5660",
         "logo": "http://localhost:4000/"
     },
-    "url": "http://localhost:4000/TIL-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B9%84",
+    "url": "http://localhost:4000/%EC%84%A0%ED%98%95%EB%B6%84%EB%A5%98",
     "image": {
         "@type": "ImageObject",
-        "url": "http://localhost:4000/assets/built/images/데이터비.png",
+        "url": "http://localhost:4000/assets/built/images/선형분류.png",
         "width": 2000,
         "height": 666
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "http://localhost:4000/TIL-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B9%84"
+        "@id": "http://localhost:4000/%EC%84%A0%ED%98%95%EB%B6%84%EB%A5%98"
     },
-    "description": "데이터비 걱정이 되는 회사 설립된지 5년차가 되고 있는 회사로서 지금은 사원수가 적기도하고 아직 커가는 회사인 듯하다. 나도 아직 영어가 능숙하지 않아서 (물론,,, 국어도 뭐.. 잘하는 건 아니지만) 번역기만 쓰다가 실수한 적이 많은데 그 부분에 있어 잘 쓰일 것 같다. 하지만 파파고와 구글번역등 데이터 자체를 크게 다루어 밀어붙이는 대형회사들이 있다. 물론"
+    "description": "선형분류 Linear Classification 일차원 혹은 다차원 데이터들을 선형 모델(Linear Model)을 이용하여 클래스들로 분류(Classification)하는 것 선형함수는 Y = WX+b 형태를 갖춘다. Y : 종속변수, 반응변수 W : 가중치, B, 계수 X : 독립변수, 설명변수 b : 편향 벡터, 노이즈 학습 데이터는 W와 b를 학습시키기 위해 사용됨. 즉, 모델의 W와 b를 구하는"
 }
     </script>
 
@@ -111,7 +111,7 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="TIL-데이터비" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="선형분류" href="/feed.xml" />
 
 
 </head>
@@ -169,88 +169,56 @@ into the {body} of the default.hbs template -->
 <main id="site-main" class="site-main outer" role="main">
     <div class="inner">
 
-        <article class="post-full  tag-exitem tag-til post tag-python ">
+        <article class="post-full  tag-ai post tag-python ">
 
             <header class="post-full-header">
                 <section class="post-full-meta">
-                    <time class="post-full-meta-date" datetime="10 February 2023">10 February 2023</time>
+                    <time class="post-full-meta-date" datetime="17 February 2023">17 February 2023</time>
                     
                         <span class="date-divider">/</span>
                         
                             
-                               <a href='/tag/exitem/'>EXITEM</a>,
-                            
-                        
-                            
-                               <a href='/tag/til/'>TIL</a>
+                               <a href='/tag/ai/'>AI</a>
                             
                         
                     
                 </section>
-                <h1 class="post-full-title">TIL-데이터비</h1>
+                <h1 class="post-full-title">선형분류</h1>
             </header>
             
             <!--
             
-            <figure class="post-full-image" style="background-image: url(/assets/built/images/데이터비.png)">
+            <figure class="post-full-image" style="background-image: url(/assets/built/images/선형분류.png)">
             </figure>
             
             -->
 
             <section class="post-full-content">
                 <div class="kg-card-markdown">
-                    <h1 id="데이터비">데이터비</h1>
-
-<blockquote>
-  <p>걱정이 되는 회사</p>
-</blockquote>
-
-<blockquote>
-  <p>설립된지 5년차가 되고 있는 회사로서 지금은 사원수가 적기도하고 아직 커가는 회사인 듯하다. 나도 아직 영어가 능숙하지 않아서 (물론,,, 국어도 뭐.. 잘하는 건 아니지만) 번역기만 쓰다가 실수한 적이 많은데 그 부분에 있어 잘 쓰일 것 같다. 하지만 파파고와 구글번역등 데이터 자체를 크게 다루어 밀어붙이는 대형회사들이 있다. 물론 영문 교정이랑 번역이랑은 차이가 있다면 있지만 번역의 성능이 좋으면 충분히 대체될 가능성이 있을 것 같아 걱정이 되긴 한다. 내가 잘라서 걱정이 되는게 아니라 내 회사라고 가정해보고 걱정이 되는 것이다.</p>
-</blockquote>
-
-<h1 id="데이터비-기본-정보">데이터비 기본 정보</h1>
-<p><a href="https://www.engram.us/ko/about-us">공식 데이터비 사이트 참조</a></p>
+                    <h1 id="선형분류-linear-classification">선형분류 Linear Classification</h1>
 
 <ul>
-  <li>비원어민들이 영어를 사용하는데 느끼는 불편함을 해결하기 위해 AI 기반 자동 영문 교정 서비스 <span style="color:red">Engram</span>을 개발하였습니다.</li>
-  <li>2023년 1월, Engram으로 새롭게 태어났습니다.</li>
-  <li>주소 : 04147 서울특별시 마포구 백범로31길 21, 서울창업허브 본관 607호</li>
-  <li>사원수 : 5명
-    <h1 id="역사">역사</h1>
-  </li>
-  <li>2018년 8월 (주)데이터비 설립</li>
-  <li>2021년 6월 하나벤처스 주최 스타트업 경진대회 우수상</li>
-  <li>2021년 10월 AI 기반 자동 영문 교정 서비스 Pcanpi 출시</li>
-  <li>2022년 9월 TryEverything 2022 코리아챌린지 장려상 수상</li>
-  <li>2023년 1월 “Pcanpi”에서 “Engram”으로 서비스명을 변경
+  <li>일차원 혹은 다차원 데이터들을 선형 모델(Linear Model)을 이용하여 클래스들로 분류(Classification)하는 것</li>
+  <li>선형함수는 Y = WX+b 형태를 갖춘다.
     <ul>
-      <li>“pcanpi”는 달콤한 디저트 피칸파이를 연상하면서 붙인 이름</li>
-      <li>영문 교정 서비스라는 회사의 본질을 설명해주지 못해 변경</li>
-      <li>En : 국가별 코드, gram : 문법 및 가벼운 무게</li>
-      <li>뜻 : 손쉽게 하는 영어</li>
+      <li>Y : 종속변수, 반응변수</li>
+      <li>W : 가중치, B, 계수</li>
+      <li>X : 독립변수, 설명변수</li>
+      <li>b : 편향 벡터, 노이즈</li>
+    </ul>
+  </li>
+  <li>학습 데이터는 W와 b를 학습시키기 위해 사용됨. 즉, 모델의 W와 b를 구하는 것이 학습의 목표</li>
+  <li>예측
+    <ul>
+      <li>양수 : 원하는 클래스라고 예측 되는 것</li>
+      <li>음수 : 그 외의 클래스라고 예측 되는 것</li>
     </ul>
   </li>
 </ul>
 
-<h1 id="실제-사용-후기">실제 사용 후기</h1>
-
-<ul>
-  <li>
-    <p>본 블로그 가장 위에 적힌 <a href="#데이터비">부분</a>을 파파고로 번역한 후 교정해보겠습니다.</p>
-  </li>
-  <li>파파고 번역
-    <blockquote>
-      <p>As a company that has been established for five years, it seems to have a small number of employees and is still growing. I am not good at English yet. I’m not good at it, but I’ve made a lot of mistakes using only a translator, and I think it’ll be used well in that part. However, there are large companies such as Papago and Google Translation that are pushing ahead with the data itself. Of course, there is a difference between English correction and translation, but I am worried that if the performance of translation is good, it may be replaced sufficiently. I’m not worried because I cut it, I’m worried because I assume it’s my company.</p>
-    </blockquote>
-  </li>
-  <li>
-    <p>영어 교정
-<img alt="Engram" src="https://user-images.githubusercontent.com/46266247/218095812-50f01cf8-23df-40b4-9d61-f5cae3f40e93.png" /></p>
-  </li>
-  <li>어색한 문장이 없을 정도로 파파고 번역이 잘 되어 있어서 큰 문제가 없었다.</li>
-  <li>물론 다양한 상황이 존재하겠지만 어느정도의 성능차이를 보여주지 않는다면 소비가 늘어날지 의문이 생기긴 하다.</li>
-</ul>
+<h1 id="참조">참조</h1>
+<p><a href="https://minicokr.com/8">https://minicokr.com/8</a><br />
+<a href="https://heekangpark.github.io/Stanford_cs231n/03-linear-classification">https://heekangpark.github.io/Stanford_cs231n/03-linear-classification</a></p>
 
                 </div>
             </section>
@@ -336,7 +304,7 @@ into the {body} of the default.hbs template -->
                         <header class="read-next-card-header">
                             <small class="read-next-card-header-sitetitle">&mdash; Engineer Chanp5660 &mdash;</small>
                             
-                                <h3 class="read-next-card-header-title"><a href="/tag/exitem/">Exitem</a></h3>
+                                <h3 class="read-next-card-header-title"><a href="/tag/ai/">Ai</a></h3>
                             
                         </header>
                         <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
@@ -346,10 +314,25 @@ into the {body} of the default.hbs template -->
                                 
                                 
                                   
+                                
+                                  
                                     
                                         
                                         
-                                            <li><a href="/TIL-%EB%85%B8%EB%A6%AC%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4">TIL-노리스페이스</a></li>
+                                            <li><a href="/%EC%86%90%EC%8B%A4%ED%95%A8%EC%88%98">손실함수</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/%EA%B2%B0%EC%A0%95%EA%B2%BD%EA%B3%84">결정경계</a></li>
                                         
                                     
                                   
@@ -364,83 +347,9 @@ into the {body} of the default.hbs template -->
                                     
                                         
                                         
-                                            <li><a href="/TIL-%EC%95%84%ED%81%AC%EB%A6%B4">TIL-아크릴</a></li>
+                                            <li><a href="/ML%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94">용어정리필요</a></li>
                                         
                                     
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                            <li><a href="/TIL-%EC%9D%B8%EC%82%AC%EC%9D%B4%EC%A0%80">TIL-인사이저</a></li>
-                                        
-                                    
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                    
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                    
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                    
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                    
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                    
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                    
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                    
-                                  
-                                
-                                  
-                                    
-                                  
-                                
                                   
                                 
                                   
@@ -476,21 +385,6 @@ into the {body} of the default.hbs template -->
                                   
                                 
                                   
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                    
-                                  
-                                
-                                  
-                                
-                                  
                                     
                                         
                                         
@@ -502,38 +396,7 @@ into the {body} of the default.hbs template -->
                                   
                                 
                                   
-                                    
-                                        
-                                        
-                                    
-                                  
                                 
-                                  
-                                    
-                                        
-                                        
-                                    
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                    
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                    
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                    
                                   
                                 
                                   
@@ -563,32 +426,57 @@ into the {body} of the default.hbs template -->
                                   
                                 
                                   
-                                    
-                                        
-                                        
-                                    
+                                
                                   
                                 
                                   
-                                    
-                                        
-                                        
-                                    
+                                
                                   
                                 
                                   
-                                    
-                                        
-                                        
-                                    
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
                                   
                                 
                             </ul>
                         </div>
                         <footer class="read-next-card-footer">
-                            <a href="/tag/exitem/">
+                            <a href="/tag/ai/">
                                 
-                                    See all 24 posts  →
+                                    See all 8 posts  →
                                 
                             </a>
                         </footer>
@@ -602,30 +490,26 @@ into the {body} of the default.hbs template -->
 
     <article class="post-card post-template">
         
-            <a class="post-card-image-link" href="/TIL-%EC%95%A0%ED%81%AC%EB%AF%B8%EB%9E%A9">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/애크미랩.png)"></div>
+            <a class="post-card-image-link" href="/%EC%86%90%EC%8B%A4%ED%95%A8%EC%88%98">
+                <div class="post-card-image" style="background-image: url(/assets/built/images/손실함수.png)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/TIL-%EC%95%A0%ED%81%AC%EB%AF%B8%EB%9E%A9">
+            <a class="post-card-content-link" href="/%EC%86%90%EC%8B%A4%ED%95%A8%EC%88%98">
                 <header class="post-card-header">
                     
                         
                             
-                               <span class="post-card-tags">Exitem</span>
-                            
-                        
-                            
-                                <span class="post-card-tags">Til</span>
+                                <span class="post-card-tags">Ai</span>
                             
                         
                     
 
-                    <h2 class="post-card-title">TIL-애크미랩</h2>
+                    <h2 class="post-card-title">손실함수</h2>
                 </header>
                 <section class="post-card-excerpt">
                     
-                        <p>애크미랩
+                        <p>손실함수 Loss Function
 
 </p>
                     
@@ -645,7 +529,7 @@ into the {body} of the default.hbs template -->
                 <span class="reading-time">
                     
                     
-                      3 min read
+                      1 min read
                     
                 </span>
             </footer>
@@ -660,12 +544,12 @@ into the {body} of the default.hbs template -->
 
     <article class="post-card post-template">
         
-            <a class="post-card-image-link" href="/%EC%84%9C%ED%8F%AC%ED%8A%B8%EB%B2%A1%ED%84%B0%EB%A8%B8%EC%8B%A0(SVM)">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/svm.png)"></div>
+            <a class="post-card-image-link" href="/%EA%B2%B0%EC%A0%95%EA%B2%BD%EA%B3%84">
+                <div class="post-card-image" style="background-image: url(/assets/built/images/결정경계.png)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/%EC%84%9C%ED%8F%AC%ED%8A%B8%EB%B2%A1%ED%84%B0%EB%A8%B8%EC%8B%A0(SVM)">
+            <a class="post-card-content-link" href="/%EA%B2%B0%EC%A0%95%EA%B2%BD%EA%B3%84">
                 <header class="post-card-header">
                     
                         
@@ -675,11 +559,11 @@ into the {body} of the default.hbs template -->
                         
                     
 
-                    <h2 class="post-card-title">서포트 벡터 머신</h2>
+                    <h2 class="post-card-title">결정경계</h2>
                 </header>
                 <section class="post-card-excerpt">
                     
-                        <p>서포트 벡터 머신
+                        <p>결정경계 Decision Boundaries
 
 </p>
                     
@@ -721,18 +605,18 @@ into the {body} of the default.hbs template -->
         </a>
     </div>
     <span class="floating-header-divider">&mdash;</span>
-    <div class="floating-header-title">TIL-데이터비</div>
+    <div class="floating-header-title">선형분류</div>
     <div class="floating-header-share">
         <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
     <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
 </svg>
 </div>
-        <a class="floating-header-share-tw" href="https://twitter.com/share?text=TIL-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B9%84&amp;url=https://chanp5660.github.io/TIL-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B9%84"
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=%EC%84%A0%ED%98%95%EB%B6%84%EB%A5%98&amp;url=https://chanp5660.github.io/%EC%84%A0%ED%98%95%EB%B6%84%EB%A5%98"
             onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
 
         </a>
-        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://chanp5660.github.io/TIL-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B9%84"
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://chanp5660.github.io/%EC%84%A0%ED%98%95%EB%B6%84%EB%A5%98"
             onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
 

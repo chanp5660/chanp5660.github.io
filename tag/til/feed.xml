@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/til/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-02-15T23:11:20+09:00</updated>
+  <updated>2023-02-17T20:00:24+09:00</updated>
   <id>http://localhost:4000/tag/til/feed.xml</id>
 
   
@@ -30,6 +30,192 @@
   
   
 
+  
+    <entry>
+      <title type="html">TIL-노리스페이스</title>
+      <link href="http://localhost:4000/TIL-%EB%85%B8%EB%A6%AC%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4" rel="alternate" type="text/html" title="TIL-노리스페이스" />
+      <published>2023-02-17T00:00:00+09:00</published>
+      <updated>2023-02-17T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-%EB%85%B8%EB%A6%AC%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-%EB%85%B8%EB%A6%AC%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4">&lt;h1 id=&quot;노리스페이스&quot;&gt;노리스페이스&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;내가 처음에 생각했던 인공지능의 역할을 비전으로 가지고 있다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;사무업무를 자동화 하는 일에 인공지능이 필요하다는 것은 어릴적 부모님을 도와 회계업무, 보고서 작성 등을 하면서 꼭 필요하다고 생각했고 컴퓨터를 배우면서 점점 할 수 있다는 생각이 들었다. 그 일을 하고 있는 것이 노리스페이스라고 생각한다. 하지만 아직 초창기 스타트업인만큼 안정화 되어 있다고 느껴지지는 않는다. 입사자 수와 퇴사가 수가 거의 일치하는 느낌이라 배울 수 있는 것, 이끌 수 있는 것이 많을 수 있지만 그만큼 분야를 가리지 않고 다방면으로 노력해야 할 것 같다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;노리스페이스-norispace-기본-정보&quot;&gt;노리스페이스 NoriSpace 기본 정보&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.saramin.co.kr/zf_user/company-info/view/csn/c3N4KzVYN3dMODBHRXh3czVJb25Pdz09/company_nm/(주)노리스페이스&quot;&gt;사람인 참조&lt;/a&gt;, &lt;a href=&quot;https://www.norispace.com/&quot;&gt;공식사이트 참조&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2021년 11월 5일 설립 (업력 3년차)&lt;/li&gt;
+  &lt;li&gt;기업 형태 : 중소기업&lt;/li&gt;
+  &lt;li&gt;핵심 가치와 비전
+    &lt;ul&gt;
+      &lt;li&gt;핵심 가치와 비전은 전문지식 데이터 연구/분석을 기반으로 사무업무 자동화를 실현하는 것&lt;/li&gt;
+      &lt;li&gt;인공지능 기술로 단순 반복 업무 자동화 뿐만 아니라 데이터 예측분석 서비스를 제공하여 자동화 가능 업무를 분석하고 제안하는 새로운 가치 창출을 이루어내고자 함&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;“NoriS 지능형 보험업무 자동화 엔진” 을 연구 및 개발하여 보험산업 내 인공지능 기술의 활용 범위를 확대하고 있습니다.
+    &lt;ul&gt;
+      &lt;li&gt;이 엔진을 통하여 보험사의 손해사정업문에서 발생하는 노동집약적인 업무환경을 개선하고 있습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;주소 : 서울 노원구 동일로174길 27, 1층&lt;/li&gt;
+  &lt;li&gt;사원수 : 11명(2022년12월 기준)
+    &lt;ul&gt;
+      &lt;li&gt;&lt;span sytle=&quot;color:blue&quot;&gt;아직 초창기 스타트업인만큼 안정화 되어 있다고 느껴지지는 않는다. 입사자, 퇴사자 수가 거의 비슷하다.&lt;/span&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;서비스
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;table&gt;
+          &lt;tbody&gt;
+            &lt;tr&gt;
+              &lt;td&gt;사무업무자동화(업무자동화&lt;/td&gt;
+              &lt;td&gt;KEY-VALUE 추출&lt;/td&gt;
+              &lt;td&gt;업무데이터 예측분석)&lt;/td&gt;
+            &lt;/tr&gt;
+          &lt;/tbody&gt;
+        &lt;/table&gt;
+        &lt;ul&gt;
+          &lt;li&gt;NoriS Engine, Noris Workflow Analysis Tool 개발을 통해 단순업무 자동화&lt;/li&gt;
+          &lt;li&gt;업무 데이터 예측.분석까지 영역을 확장하여 자동화가 가능한 사무업무 영역을 분석하고 제안까지 가능하게 합니다.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;table&gt;
+          &lt;tbody&gt;
+            &lt;tr&gt;
+              &lt;td&gt;데이터 컨설팅(데이터 사이언스&lt;/td&gt;
+              &lt;td&gt;데이터 아키텍처&lt;/td&gt;
+              &lt;td&gt;데이터 표준화)&lt;/td&gt;
+            &lt;/tr&gt;
+          &lt;/tbody&gt;
+        &lt;/table&gt;
+        &lt;ul&gt;
+          &lt;li&gt;비즈니스에서 생성된 데이터의 품질을 관리하고 구축하기 위한 컨설팅 제공&lt;/li&gt;
+          &lt;li&gt;축적된 데이터 분석 및 표준화&lt;/li&gt;
+          &lt;li&gt;가치 향상을 위한 최적의 솔루션 설계&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;연혁&quot;&gt;연혁&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Award-winning&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;2021
+        &lt;ul&gt;
+          &lt;li&gt;산학협력 EXPO 기술창업트랙 데모데이 사회부총리겸 교육부장관상 대상 수상&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;2020
+        &lt;ul&gt;
+          &lt;li&gt;광주과학기술원 IR역량강화프로그램 IR피칭대회 은상 수상&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;2019
+        &lt;ul&gt;
+          &lt;li&gt;고려대학교 캠퍼스타운 창업경진대회 은상 수상 및 입주기업 선정&lt;/li&gt;
+          &lt;li&gt;신한 디지털라이프스쿨 수상 신한 두드림스페이스 디지털라이프스쿨  최우수상 수상&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Accelerating Program&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;2021
+        &lt;ul&gt;
+          &lt;li&gt;대한무역투자진흥공사 KOTRA Yspace Program 캐나다 엑셀러레이팅 프로그램 선정&lt;/li&gt;
+          &lt;li&gt;신용보증기금 Startup NEST 9기 선정 엑셀러레이팅 프로그램 선정&lt;/li&gt;
+          &lt;li&gt;서울창업디딤터 PRE-BI 선정 은상 수상 및 입주기업 선정&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Grant Program&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;2022
+        &lt;ul&gt;
+          &lt;li&gt;교보생명 MOU 협약 지급프로세스 고도화를 위한 MOU 협약 체결&lt;/li&gt;
+          &lt;li&gt;SBA 핀테크 R&amp;amp;D 과제 선정 서울산업진흥원 기술연구개발 과제 선정&lt;/li&gt;
+          &lt;li&gt;교보 이노스테이지 ‘ON’ 선정 교보생명 오픈이노베이션 프로그램 선정&lt;/li&gt;
+          &lt;li&gt;디딤돌 R&amp;amp;D 과제 선정 중소벤처기업부 R&amp;amp;D 창업성장기술개발 디딤돌 과제 선정&lt;/li&gt;
+          &lt;li&gt;AI 양재 허브 멤버십 프로그램 선정 서울시 소속의 인공지능 기술 스타트업 멤버 연장&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;2021
+        &lt;ul&gt;
+          &lt;li&gt;AI 바우처 지원사업 공급기업 선정&lt;/li&gt;
+          &lt;li&gt;서울혁신챌린지 예선 통과&lt;/li&gt;
+          &lt;li&gt;학생 창업유망팀 300 선정 창업경진대회 학생창업 유망팀 300 선발&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;2020
+        &lt;ul&gt;
+          &lt;li&gt;AI 양재 허브 멤버십 프로그램 선정 서울시 소속의 인공지능 기술 스타트업 멤버 등록&lt;/li&gt;
+          &lt;li&gt;송파 청년창업도전프로젝트 선정 인공지능 기술개발 인프라 지원&lt;/li&gt;
+          &lt;li&gt;예비창업패키지 특화분야 AI 부문 선정 사업화 및 인공지능 기술 개발 인프라 지원&lt;/li&gt;
+          &lt;li&gt;서울대학교 창업지원단 입주기업 선정 서울대학교 창업지원단 참여기업 선정&lt;/li&gt;
+          &lt;li&gt;AI 양재 허브 AI Startup Seed Camp2 선정 인공지능 적용 기술 개발 후속지원 사업 선정&lt;/li&gt;
+          &lt;li&gt;신한 인큐베이션센터 프로그램 선정 시설 및 사업화 인프라 지원 / 사업 인큐베이팅 프로그램 지원&lt;/li&gt;
+          &lt;li&gt;모두의 연구소 협력 체결 Alliance 교류 협력 체결 기술, 인력교류 및 기술개발 인프라 지원&lt;/li&gt;
+          &lt;li&gt;AI 양재 허브 ‘AiCON2019’ ‘여권정보자동문서화 ‘ 적용 기술 발표&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;2019
+        &lt;ul&gt;
+          &lt;li&gt;AI 양재 허브 ‘AiCON 2019’ ‘여권정보 자동 문서화’ 적용 기술 발표&lt;/li&gt;
+          &lt;li&gt;린스타트업 더인벤션랩 BM 특화 교육과정 수료&lt;/li&gt;
+          &lt;li&gt;AI 양재허브 AI Startup Seed Camp B인공지능 적용 기술 개발 지원 사업 선정&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">노리스페이스</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">TIL-아크릴</title>
@@ -1884,93 +2070,6 @@
 
       
         <summary type="html">애크미랩</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">TIL-데이터비</title>
-      <link href="http://localhost:4000/TIL-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B9%84" rel="alternate" type="text/html" title="TIL-데이터비" />
-      <published>2023-02-10T00:00:00+09:00</published>
-      <updated>2023-02-10T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B9%84</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B9%84">&lt;h1 id=&quot;데이터비&quot;&gt;데이터비&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;걱정이 되는 회사&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;설립된지 5년차가 되고 있는 회사로서 지금은 사원수가 적기도하고 아직 커가는 회사인 듯하다. 나도 아직 영어가 능숙하지 않아서 (물론,,, 국어도 뭐.. 잘하는 건 아니지만) 번역기만 쓰다가 실수한 적이 많은데 그 부분에 있어 잘 쓰일 것 같다. 하지만 파파고와 구글번역등 데이터 자체를 크게 다루어 밀어붙이는 대형회사들이 있다. 물론 영문 교정이랑 번역이랑은 차이가 있다면 있지만 번역의 성능이 좋으면 충분히 대체될 가능성이 있을 것 같아 걱정이 되긴 한다. 내가 잘라서 걱정이 되는게 아니라 내 회사라고 가정해보고 걱정이 되는 것이다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;데이터비-기본-정보&quot;&gt;데이터비 기본 정보&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.engram.us/ko/about-us&quot;&gt;공식 데이터비 사이트 참조&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;비원어민들이 영어를 사용하는데 느끼는 불편함을 해결하기 위해 AI 기반 자동 영문 교정 서비스 &lt;span style=&quot;color:red&quot;&gt;Engram&lt;/span&gt;을 개발하였습니다.&lt;/li&gt;
-  &lt;li&gt;2023년 1월, Engram으로 새롭게 태어났습니다.&lt;/li&gt;
-  &lt;li&gt;주소 : 04147 서울특별시 마포구 백범로31길 21, 서울창업허브 본관 607호&lt;/li&gt;
-  &lt;li&gt;사원수 : 5명
-    &lt;h1 id=&quot;역사&quot;&gt;역사&lt;/h1&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2018년 8월 (주)데이터비 설립&lt;/li&gt;
-  &lt;li&gt;2021년 6월 하나벤처스 주최 스타트업 경진대회 우수상&lt;/li&gt;
-  &lt;li&gt;2021년 10월 AI 기반 자동 영문 교정 서비스 Pcanpi 출시&lt;/li&gt;
-  &lt;li&gt;2022년 9월 TryEverything 2022 코리아챌린지 장려상 수상&lt;/li&gt;
-  &lt;li&gt;2023년 1월 “Pcanpi”에서 “Engram”으로 서비스명을 변경
-    &lt;ul&gt;
-      &lt;li&gt;“pcanpi”는 달콤한 디저트 피칸파이를 연상하면서 붙인 이름&lt;/li&gt;
-      &lt;li&gt;영문 교정 서비스라는 회사의 본질을 설명해주지 못해 변경&lt;/li&gt;
-      &lt;li&gt;En : 국가별 코드, gram : 문법 및 가벼운 무게&lt;/li&gt;
-      &lt;li&gt;뜻 : 손쉽게 하는 영어&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;실제-사용-후기&quot;&gt;실제 사용 후기&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;본 블로그 가장 위에 적힌 &lt;a href=&quot;#데이터비&quot;&gt;부분&lt;/a&gt;을 파파고로 번역한 후 교정해보겠습니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;파파고 번역
-    &lt;blockquote&gt;
-      &lt;p&gt;As a company that has been established for five years, it seems to have a small number of employees and is still growing. I am not good at English yet. I’m not good at it, but I’ve made a lot of mistakes using only a translator, and I think it’ll be used well in that part. However, there are large companies such as Papago and Google Translation that are pushing ahead with the data itself. Of course, there is a difference between English correction and translation, but I am worried that if the performance of translation is good, it may be replaced sufficiently. I’m not worried because I cut it, I’m worried because I assume it’s my company.&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;영어 교정
-&lt;img alt=&quot;Engram&quot; src=&quot;https://user-images.githubusercontent.com/46266247/218095812-50f01cf8-23df-40b4-9d61-f5cae3f40e93.png&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;어색한 문장이 없을 정도로 파파고 번역이 잘 되어 있어서 큰 문제가 없었다.&lt;/li&gt;
-  &lt;li&gt;물론 다양한 상황이 존재하겠지만 어느정도의 성능차이를 보여주지 않는다면 소비가 늘어날지 의문이 생기긴 하다.&lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">데이터비</summary>
       
 
       

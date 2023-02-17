@@ -8,6 +8,66 @@
     
       
       <item>
+        <title>TIL-노리스페이스</title>
+        
+          <description>&lt;h1 id=&quot;노리스페이스&quot;&gt;노리스페이스&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Fri, 17 Feb 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/TIL-%EB%85%B8%EB%A6%AC%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4</link>
+        <guid isPermaLink="true">http://localhost:4000/TIL-%EB%85%B8%EB%A6%AC%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>손실함수</title>
+        
+          <description>&lt;h1 id=&quot;손실함수-loss-function&quot;&gt;손실함수 Loss Function&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Fri, 17 Feb 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/%EC%86%90%EC%8B%A4%ED%95%A8%EC%88%98</link>
+        <guid isPermaLink="true">http://localhost:4000/%EC%86%90%EC%8B%A4%ED%95%A8%EC%88%98</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>선형분류</title>
+        
+          <description>&lt;h1 id=&quot;선형분류-linear-classification&quot;&gt;선형분류 Linear Classification&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Fri, 17 Feb 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/%EC%84%A0%ED%98%95%EB%B6%84%EB%A5%98</link>
+        <guid isPermaLink="true">http://localhost:4000/%EC%84%A0%ED%98%95%EB%B6%84%EB%A5%98</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>결정경계</title>
+        
+          <description>&lt;h1 id=&quot;결정경계-decision-boundaries&quot;&gt;결정경계 Decision Boundaries&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Fri, 17 Feb 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/%EA%B2%B0%EC%A0%95%EA%B2%BD%EA%B3%84</link>
+        <guid isPermaLink="true">http://localhost:4000/%EA%B2%B0%EC%A0%95%EA%B2%BD%EA%B3%84</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>TIL-아크릴</title>
         
           <description>&lt;h1 id=&quot;아크릴&quot;&gt;아크릴&lt;/h1&gt;
@@ -53,21 +113,6 @@
     
       
       <item>
-        <title>로지스틱회귀</title>
-        
-          <description>&lt;h1 id=&quot;로지스틱-회귀&quot;&gt;로지스틱 회귀&lt;/h1&gt;
-
-</description>
-        
-        <pubDate>Mon, 13 Feb 2023 00:00:00 +0900</pubDate>
-        <link>
-        http://localhost:4000/%EB%A1%9C%EC%A7%80%EC%8A%A4%ED%8B%B1%ED%9A%8C%EA%B7%80</link>
-        <guid isPermaLink="true">http://localhost:4000/%EB%A1%9C%EC%A7%80%EC%8A%A4%ED%8B%B1%ED%9A%8C%EA%B7%80</guid>
-      </item>
-      
-    
-      
-      <item>
         <title>용어정리필요</title>
         
           <description>&lt;h1 id=&quot;용어정리&quot;&gt;용어정리&lt;/h1&gt;
@@ -78,6 +123,21 @@
         <link>
         http://localhost:4000/ML%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94</link>
         <guid isPermaLink="true">http://localhost:4000/ML%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>로지스틱회귀</title>
+        
+          <description>&lt;h1 id=&quot;로지스틱-회귀&quot;&gt;로지스틱 회귀&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Mon, 13 Feb 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/%EB%A1%9C%EC%A7%80%EC%8A%A4%ED%8B%B1%ED%9A%8C%EA%B7%80</link>
+        <guid isPermaLink="true">http://localhost:4000/%EB%A1%9C%EC%A7%80%EC%8A%A4%ED%8B%B1%ED%9A%8C%EA%B7%80</guid>
       </item>
       
     
@@ -123,51 +183,6 @@
         <link>
         http://localhost:4000/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95</link>
         <guid isPermaLink="true">http://localhost:4000/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>머신러닝-지도학습</title>
-        
-          <description>&lt;h1 id=&quot;머신러닝-학습방법---지도학습&quot;&gt;머신러닝 학습방법 - 지도학습&lt;/h1&gt;
-
-</description>
-        
-        <pubDate>Sun, 12 Feb 2023 00:00:00 +0900</pubDate>
-        <link>
-        http://localhost:4000/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95-%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5</link>
-        <guid isPermaLink="true">http://localhost:4000/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95-%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>머신러닝-비지도학습</title>
-        
-          <description>&lt;h1 id=&quot;머신러닝-학습방법-비지도학습&quot;&gt;머신러닝 학습방법 비지도학습&lt;/h1&gt;
-
-</description>
-        
-        <pubDate>Sun, 12 Feb 2023 00:00:00 +0900</pubDate>
-        <link>
-        http://localhost:4000/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95-%EB%B9%84%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5</link>
-        <guid isPermaLink="true">http://localhost:4000/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95-%EB%B9%84%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>머신러닝-강화학습</title>
-        
-          <description>&lt;h1 id=&quot;머신러닝-학습방법---강화학습&quot;&gt;머신러닝 학습방법 - 강화학습&lt;/h1&gt;
-
-</description>
-        
-        <pubDate>Sun, 12 Feb 2023 00:00:00 +0900</pubDate>
-        <link>
-        http://localhost:4000/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95-%EA%B0%95%ED%99%94%ED%95%99%EC%8A%B5</link>
-        <guid isPermaLink="true">http://localhost:4000/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95-%EA%B0%95%ED%99%94%ED%95%99%EC%8A%B5</guid>
       </item>
       
     
