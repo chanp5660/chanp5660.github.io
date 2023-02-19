@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/til/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-02-17T20:00:24+09:00</updated>
+  <updated>2023-02-19T17:35:21+09:00</updated>
   <id>http://localhost:4000/tag/til/feed.xml</id>
 
   
@@ -30,6 +30,203 @@
   
   
 
+  
+    <entry>
+      <title type="html">TIL-마키나락스</title>
+      <link href="http://localhost:4000/TIL-%EB%A7%88%ED%82%A4%EB%82%98%EB%9D%BD%EC%8A%A4" rel="alternate" type="text/html" title="TIL-마키나락스" />
+      <published>2023-02-19T00:00:00+09:00</published>
+      <updated>2023-02-19T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-%EB%A7%88%ED%82%A4%EB%82%98%EB%9D%BD%EC%8A%A4</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-%EB%A7%88%ED%82%A4%EB%82%98%EB%9D%BD%EC%8A%A4">&lt;h1 id=&quot;마키나락스&quot;&gt;마키나락스&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;산업용 AI 적용, 확실한 비전&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;회사의 목표가 확실해 보이고 소비자 입장에서도 확실하게 원하는 바를 말할 수 있도록 사이트가 정리가 잘 되어 있고 심플하다. 사원수도 안정적으로 늘고 있다. AI 엔지니어를 기본적으로 많이 뽑고 있다. 최근 뉴스에서 보아도 AI를 기반으로 산업용으로 바로 적용하여 발전가능성이 높아 앞으로도 쭉 성장할 것으로 보인다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;마키나락스-makinarocks-기본-정보&quot;&gt;마키나락스 MakinaRocks 기본 정보&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.wanted.co.kr/wd/142631&quot;&gt;원티드&lt;/a&gt;, &lt;a href=&quot;https://www.makinarocks.ai/&quot;&gt;공식사이트 참조&lt;/a&gt;, &lt;a href=&quot;https://www.saramin.co.kr/zf_user/company-info/view/csn/M25lOC9pVDhWY0lSVHV3VUpZNDF1Zz09/company_nm/(주)마키나락스&quot;&gt;사람인&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2017년12월12일 설립( 업력 7년차 )&lt;/li&gt;
+  &lt;li&gt;산업용 AI 솔루션과 플랫폼을 개발, 제공하는 AI 스타트업 마키나락스&lt;/li&gt;
+  &lt;li&gt;상품
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.makinarocks.ai/product/link/&quot;&gt;Link&lt;/a&gt;
+        &lt;ul&gt;
+          &lt;li&gt;데이터 사이언티스트가 친숙하게 사용하는 주피터랩(jupyterlab)의 확장 프로그램으로, 가독성 있는 파이프라인을 만들어 쉽게 공유할 수 있는 AI/ML 모델 개발 도구입니다.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.makinarocks.ai/product/runway/&quot;&gt;Runway&lt;/a&gt;
+        &lt;ul&gt;
+          &lt;li&gt;모델 개발, 배포, 모니터링을 하나의 플랫폼으로 통합하여 지속적인 개발과 안정적 운영이 가능한 MLOps 플랫폼입니다.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;ML/DL, 강화학습 기술을 기반으로 한 Core ML 역량과 Enterpise MLOps 제품을 기반으로, 제조 및 산업 분야에서 다수의 AI 적용 사례를 만들어가고 있습니다.&lt;/li&gt;
+  &lt;li&gt;사원수 : 83 (2022.12 기준)
+    &lt;ul&gt;
+      &lt;li&gt;&lt;span style=&quot;color:blue&quot;&gt;입사자 수는 꾸준하고 퇴사자 수는 적은편으로 안정적으로 성장하는 것으로 보인다.&lt;/span&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;가장 최근 관련 &lt;a href=&quot;http://jmagazine.joins.com/forbes/view/337339&quot;&gt;뉴스&lt;/a&gt;
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  최근 마이크로소프트가 인공지능 연구소 ‘오픈AI’에 최대 100억 달러(한화 12조4800억원) 규모의 투자를 고려하고 있다는 소식에 업계가 술렁였다. IT업계에 대한 국내외 투자가 예전 같지 않은 상황에서 AI 분야만큼은 가능성을 봤기 때문이다. 한국에도 기술력으로 이미 세계시장에 눈도장을 찍은 AI 기업이 있다. 산업 현장에 맞춤형 AI 기술을 도입해 제조 혁신을 이루겠다는 ‘마키나락스’다.
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;연혁&quot;&gt;연혁&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2022
+    &lt;ul&gt;
+      &lt;li&gt;NOV
+        &lt;ul&gt;
+          &lt;li&gt;엔터프라이즈 ML옵스 플랫폼 마키나락스 런웨이(Runway™) 공개&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;OCT
+        &lt;ul&gt;
+          &lt;li&gt;‘Korea AI Startup 100’ 2년 연속 선정&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;JUL
+        &lt;ul&gt;
+          &lt;li&gt;CB인사이트 ‘세계 50대 첨단 제조 스타트업’ 선정&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;MAY
+        &lt;ul&gt;
+          &lt;li&gt;마키나락스 링크(Link™) 커뮤니티 버전 출시&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;MAR
+        &lt;ul&gt;
+          &lt;li&gt;마키나락스 링크(Link™) 베타 서비스 시작&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2021
+    &lt;ul&gt;
+      &lt;li&gt;OCT
+        &lt;ul&gt;
+          &lt;li&gt;Korea AI Startup 100 선정&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;SEP
+        &lt;ul&gt;
+          &lt;li&gt;Kubernetes Certified Service Provider 선정&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;JUN
+        &lt;ul&gt;
+          &lt;li&gt;세계경제포럼(World Economic Forum) 기술선도기업 선정&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2020
+    &lt;ul&gt;
+      &lt;li&gt;DEC
+        &lt;ul&gt;
+          &lt;li&gt;과학기술정보통신부 주관 대한민국 4차 산업혁명대상 ‘창업진흥원장상’ 수상&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;NOV
+        &lt;ul&gt;
+          &lt;li&gt;지능정보산업협회-PWC 주관 ‘2021 Emerging AIX Top100’ 선정&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;NOV
+        &lt;ul&gt;
+          &lt;li&gt;신용보증기금 혁신 아이콘 4기 선정&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;SEP
+        &lt;ul&gt;
+          &lt;li&gt;NVIDIA Inception Program 멤버 선정&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;JUL
+        &lt;ul&gt;
+          &lt;li&gt;120억 원 규모 Series A 투자 유치 (LG테크놀로지벤처스, 현대자동차, 어플라이드 벤처스, 산업은행)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2019
+    &lt;ul&gt;
+      &lt;li&gt;MAY
+        &lt;ul&gt;
+          &lt;li&gt;네이버 D2 Startup Factory (D2SF) 데모데이 참가&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;JAN
+        &lt;ul&gt;
+          &lt;li&gt;마키나락스 첫 특허 등록 (ANOMALY DETECTION, 10-1940029)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2018
+    &lt;ul&gt;
+      &lt;li&gt;MAY
+        &lt;ul&gt;
+          &lt;li&gt;Seed Round 투자 유치 (SK텔레콤, 현대자동차, 네이버 D2 스타트업 팩토리)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;MAR
+        &lt;ul&gt;
+          &lt;li&gt;마키나락스 미국 법인 설립 (Silicon Valley)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2017
+    &lt;ul&gt;
+      &lt;li&gt;DEC
+        &lt;ul&gt;
+          &lt;li&gt;마카니락스 한국 법인 설립 (Seoul)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">마키나락스</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">TIL-노리스페이스</title>
@@ -643,86 +840,6 @@
 
       
         <summary type="html">인사이저</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">TIL-머신러닝 엔지니어 자격요건</title>
-      <link href="http://localhost:4000/TIL-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EC%9E%90%EA%B2%A9%EC%9A%94%EA%B1%B4" rel="alternate" type="text/html" title="TIL-머신러닝 엔지니어 자격요건" />
-      <published>2023-02-11T00:00:00+09:00</published>
-      <updated>2023-02-11T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EC%9E%90%EA%B2%A9%EC%9A%94%EA%B1%B4</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EC%9E%90%EA%B2%A9%EC%9A%94%EA%B1%B4">&lt;h1 id=&quot;머신러닝-엔지니어-자격요건&quot;&gt;머신러닝 엔지니어 자격요건&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;최신 채용공고를 보면서 어떤 자격을 요하는지 정리하며 채우는 기록을 하기 위해 작성&lt;br /&gt;
-회사마다 다르지만 그래도 공통적인 것부터 채워가는 느낌으로 해보는 것으로 진행한다.&lt;br /&gt;
-급하게 하지 말고 한걸음부터 하자&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;지원-자격&quot;&gt;지원 자격&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;프로그래밍 언어
-    &lt;ul&gt;
-      &lt;li&gt;python&lt;/li&gt;
-      &lt;li&gt;C, C++&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;개발 환경
-    &lt;ul&gt;
-      &lt;li&gt;Linux&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;머신러닝/딥러닝 관련 지식 보유자&lt;/li&gt;
-  &lt;li&gt;딥러닝 프레임워트 활용 가능자
-    &lt;ul&gt;
-      &lt;li&gt;Tensorflow, keras&lt;/li&gt;
-      &lt;li&gt;Pytorch&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;석사 졸업 이상 혹은 인공지능 응용 연구 경력 2년 이상&lt;/li&gt;
-  &lt;li&gt;타 개발팀과의 협업 및 의사소통이 원활한 분&lt;/li&gt;
-  &lt;li&gt;최신 연구들을 따라가면서 구현하고 공부하고 공유하는 것을 좋아하시는 분&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;우대-조건&quot;&gt;우대 조건&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;인공지능 분야 논문 저자&lt;/li&gt;
-  &lt;li&gt;Git 등의 협업 툴에 능숙한 분&lt;/li&gt;
-  &lt;li&gt;리눅스 기반 운영체제에 능숙한 분&lt;/li&gt;
-  &lt;li&gt;최신 인공지능 논문을 읽고 구현할 수 있는 분&lt;/li&gt;
-  &lt;li&gt;인공지능 관련 Data Challenge 순위권 이내 입상 이력이 있으신 분&lt;/li&gt;
-  &lt;li&gt;인공지능 관련(산업공학, 컴퓨터공학, 데이터사이언스, 통계학 등) 전공(전공 석사 졸업 이상이신 분)&lt;/li&gt;
-  &lt;li&gt;시계열 데이터에 대한 전문적인 지식을 보유하신 분&lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">머신러닝 엔지니어 자격요건</summary>
       
 
       
@@ -1556,120 +1673,55 @@
     </entry>
   
     <entry>
-      <title type="html">TIL-한국해양기상기술</title>
-      <link href="http://localhost:4000/TIL-%ED%95%9C%EA%B5%AD%ED%95%B4%EC%96%91%EA%B8%B0%EC%83%81%EA%B8%B0%EC%88%A0" rel="alternate" type="text/html" title="TIL-한국해양기상기술" />
-      <published>2023-02-10T00:00:00+09:00</published>
-      <updated>2023-02-10T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-%ED%95%9C%EA%B5%AD%ED%95%B4%EC%96%91%EA%B8%B0%EC%83%81%EA%B8%B0%EC%88%A0</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-%ED%95%9C%EA%B5%AD%ED%95%B4%EC%96%91%EA%B8%B0%EC%83%81%EA%B8%B0%EC%88%A0">&lt;h1 id=&quot;한국해양기상기술&quot;&gt;한국해양기상기술&lt;/h1&gt;
+      <title type="html">TIL-머신러닝 엔지니어 자격요건</title>
+      <link href="http://localhost:4000/TIL-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EC%9E%90%EA%B2%A9%EC%9A%94%EA%B1%B4" rel="alternate" type="text/html" title="TIL-머신러닝 엔지니어 자격요건" />
+      <published>2023-02-11T00:00:00+09:00</published>
+      <updated>2023-02-11T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EC%9E%90%EA%B2%A9%EC%9A%94%EA%B1%B4</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EC%9E%90%EA%B2%A9%EC%9A%94%EA%B1%B4">&lt;h1 id=&quot;머신러닝-엔지니어-자격요건&quot;&gt;머신러닝 엔지니어 자격요건&lt;/h1&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;업력부터 굉장히 안정적이다.&lt;/p&gt;
+  &lt;p&gt;최신 채용공고를 보면서 어떤 자격을 요하는지 정리하며 채우는 기록을 하기 위해 작성&lt;br /&gt;
+회사마다 다르지만 그래도 공통적인 것부터 채워가는 느낌으로 해보는 것으로 진행한다.&lt;br /&gt;
+급하게 하지 말고 한걸음부터 하자&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;안정적인게 장점이고 그만큼 단조로운 생활을 할 가능성이 있다. 데이터를 주로 다루는 것만 보면 다양한 도메인을 다루는 것 같다. 그만큼 일차원적인 일을 많이 할 것으로 추측된다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;한국해양기상기술-기본-정보&quot;&gt;한국해양기상기술 기본 정보&lt;/h1&gt;
-&lt;p&gt;사이트 및 &lt;a href=&quot;https://www.saramin.co.kr/zf_user/company-info/view/csn/UGIzQmh5aFBJb1JYT3g2cnNHUjFqdz09/company_nm/(주)한국해양기상기술&quot;&gt;사람인 참조&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;지원-자격&quot;&gt;지원 자격&lt;/h1&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;사이트 : &lt;a href=&quot;http://koast.net/wp&quot;&gt;http://koast.net/wp&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2010년 12월 22일 설립 (업력 14년차)&lt;/li&gt;
-  &lt;li&gt;기업 형태 : 중소기업&lt;/li&gt;
-  &lt;li&gt;사원수  : 31명
+  &lt;li&gt;프로그래밍 언어
     &lt;ul&gt;
-      &lt;li&gt;&lt;span style=&quot;color:blue&quot;&gt; 입사자 수는 꾸준히 있는데에 비해 퇴사자 수는 적은 것을 보면 꽤 안정적이다, 업력만 봐도 그럴 것 같았고 안정적으로 일을 할 수 있는 곳 같다. &lt;/span&gt;&lt;/li&gt;
+      &lt;li&gt;python&lt;/li&gt;
+      &lt;li&gt;C, C++&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;업종 : 시스템 소프트웨어 개발 및 공급업&lt;/li&gt;
-  &lt;li&gt;사업 내용 : 소프트웨어 자문 개발, 공급&lt;/li&gt;
-  &lt;li&gt;기업 비전
+  &lt;li&gt;개발 환경
     &lt;ul&gt;
-      &lt;li&gt;㈜한국해양기상기술은 UM모델의 분석 및 사용자 관리시스템인 KUMUI를 구축한 핵심 인력을 바탕&lt;/li&gt;
-      &lt;li&gt;해양•기상 사업 컨설팅, 예측에 대한 과학적 자료제공&lt;/li&gt;
-      &lt;li&gt;응용소프트웨어 개발 및 DB구축, 하드웨어 개발을 통한 통합솔루션을 제공&lt;/li&gt;
-      &lt;li&gt;관측 및 수치모델정보의 3차원 가시화를 위한 솔루션과 다년간의 경험을 보유&lt;/li&gt;
+      &lt;li&gt;Linux&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;연혁
+  &lt;li&gt;머신러닝/딥러닝 관련 지식 보유자&lt;/li&gt;
+  &lt;li&gt;딥러닝 프레임워트 활용 가능자
     &lt;ul&gt;
-      &lt;li&gt;2022 06 녹색기술인증 등록(제 GT-22-01448호)&lt;/li&gt;
-      &lt;li&gt;2022 03 항공기상청장표창(제2022-5호)&lt;/li&gt;
-      &lt;li&gt;2022 01 해양조사정보업등록(제 1-26호)&lt;/li&gt;
-      &lt;li&gt;2020 12 수도권기상청표창(제 170호)&lt;/li&gt;
-      &lt;li&gt;2019 09 공간정보사업자 취득(2019-00002-01)&lt;/li&gt;
-      &lt;li&gt;2018 01 신기술(형광관측영상 분석방법을 이용한 활성 식물플랑크톤 개체수 측정)인증 획득&lt;/li&gt;
-      &lt;li&gt;2017 11 벤처기업인증 (제20170114221호)&lt;/li&gt;
-      &lt;li&gt;2017 06 기상청장 표창&lt;/li&gt;
-      &lt;li&gt;2017 06 기상사업자(기상예보업)등록(기상청 제201139-03호)&lt;/li&gt;
-      &lt;li&gt;2016 12 인재육성형중소기업지정(중소기업청 제 2016-0208호)&lt;/li&gt;
-      &lt;li&gt;2016 03 환경부장관 표창&lt;/li&gt;
-      &lt;li&gt;2015 04 ISO9001:2008 인증&lt;/li&gt;
-      &lt;li&gt;2015 03 정보통신공사업 등록&lt;/li&gt;
-      &lt;li&gt;2014 10 한국해양과학기술진흥원장 표창&lt;/li&gt;
-      &lt;li&gt;2014 03 연구개발서비스업 신고(신고번호 제20141600호)&lt;/li&gt;
-      &lt;li&gt;2014 03 기술혁신형 중소기업(INNO-Biz)&lt;/li&gt;
-      &lt;li&gt;2012 07 기상청장 표창장 수상(JCOMM 총회관련)&lt;/li&gt;
-      &lt;li&gt;2012 03 (해양부문)엔지니어링사업자 등록(E-13-55호)&lt;/li&gt;
-      &lt;li&gt;2012 01 기업부설연구소 등록(제2012110046호)&lt;/li&gt;
-      &lt;li&gt;2011 04 기상사업자 등록(제 201169-01호)&lt;/li&gt;
-      &lt;li&gt;2011 03 전산업무 개발 직접생산확인&lt;/li&gt;
-      &lt;li&gt;2011 01 기술사사무소 등록(등록번호 제 2011-048)&lt;/li&gt;
-      &lt;li&gt;2011 01 소프트웨어사업자 등록(신고번호 B11038430)&lt;/li&gt;
-      &lt;li&gt;2010 12 (주)한국해양기상기술 설립&lt;/li&gt;
+      &lt;li&gt;Tensorflow, keras&lt;/li&gt;
+      &lt;li&gt;Pytorch&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
+  &lt;li&gt;석사 졸업 이상 혹은 인공지능 응용 연구 경력 2년 이상&lt;/li&gt;
+  &lt;li&gt;타 개발팀과의 협업 및 의사소통이 원활한 분&lt;/li&gt;
+  &lt;li&gt;최신 연구들을 따라가면서 구현하고 공부하고 공유하는 것을 좋아하시는 분&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&quot;포지션-및-자격요건&quot;&gt;포지션 및 자격요건&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.jobkorea.co.kr/Recruit/GI_Read/40325640?Oem_Code=C1&quot;&gt;사이트&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;우대-조건&quot;&gt;우대 조건&lt;/h1&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;풀스택 개발자(1명)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;담당업무
-    &lt;ul&gt;
-      &lt;li&gt;기상청 프로젝트 개발 및 운영 업무&lt;/li&gt;
-      &lt;li&gt;기상, 해양, 공간 정보 관련 R &amp;amp; D&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;자격요건
-    &lt;ul&gt;
-      &lt;li&gt;학력 : 대졸이상&lt;/li&gt;
-      &lt;li&gt;경력 : 신입&lt;/li&gt;
-      &lt;li&gt;Python 기본적인 문법을 알고 있는 분&lt;/li&gt;
-      &lt;li&gt;리눅스, SQL, javascript 기본 지식이 있으신 분&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;우대사항
-    &lt;ul&gt;
-      &lt;li&gt;평소 소프트웨어 개발에 관심있고 다양한 경험을 도전하신 분&lt;/li&gt;
-      &lt;li&gt;컴퓨터 공학 및 관련 학과 전공자&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;업무환경
-    &lt;ul&gt;
-      &lt;li&gt;공공기관 클라이언트를 상대로 과학자료의 가공 및 표출을 주 업무로 합니다.&lt;/li&gt;
-      &lt;li&gt;회사 정책으로 파견근무를 지양하고 본사 근무를 원칙으로 합니다.(단, 일반적인 수준의 외근과 출장은 있습니다.)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;기술사항
-    &lt;ul&gt;
-      &lt;li&gt;취급분야가 다양하지만 각각의 난이도는 낮은 편 입니다.&lt;/li&gt;
-      &lt;li&gt;리눅스쉡 활용 능력은 필수적입니다.&lt;/li&gt;
-      &lt;li&gt;수학적인 기능 구현 시 대부분 규격이 제시되기 때문에 관련 능력은 중요하지 않습니다.&lt;/li&gt;
-      &lt;li&gt;openlayers, cesium 같은 GIS 플랫폼을 활용하는 경우도 있습니다.&lt;/li&gt;
-      &lt;li&gt;python 으로 ascii는 물론 netcdf, grid 등 다양한 포맷 데이터를 취급합니다.&lt;/li&gt;
-      &lt;li&gt;ascii 파싱으로 가능하다면 쉽게 적응 할 수 있는 수준입니다.&lt;/li&gt;
-      &lt;li&gt;DB는 기초적인 CRUD 쿼리 작성이 가능하면 됩니다.&lt;/li&gt;
-      &lt;li&gt;정해진 서버 환경으로 인해 웹 서버사이드에 php를 자주 적용하지만 그 외에는 제약이 적어서 원하는 기술을 적용하는 자기 계발적 업무가 가능합니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
+  &lt;li&gt;인공지능 분야 논문 저자&lt;/li&gt;
+  &lt;li&gt;Git 등의 협업 툴에 능숙한 분&lt;/li&gt;
+  &lt;li&gt;리눅스 기반 운영체제에 능숙한 분&lt;/li&gt;
+  &lt;li&gt;최신 인공지능 논문을 읽고 구현할 수 있는 분&lt;/li&gt;
+  &lt;li&gt;인공지능 관련 Data Challenge 순위권 이내 입상 이력이 있으신 분&lt;/li&gt;
+  &lt;li&gt;인공지능 관련(산업공학, 컴퓨터공학, 데이터사이언스, 통계학 등) 전공(전공 석사 졸업 이상이신 분)&lt;/li&gt;
+  &lt;li&gt;시계열 데이터에 대한 전문적인 지식을 보유하신 분&lt;/li&gt;
 &lt;/ul&gt;</content>
 
       
@@ -1693,7 +1745,7 @@
       
 
       
-        <summary type="html">한국해양기상기술</summary>
+        <summary type="html">머신러닝 엔지니어 자격요건</summary>
       
 
       
