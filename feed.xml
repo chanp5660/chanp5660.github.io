@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-20T21:22:05+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">TIL-액션파워</title><link href="http://localhost:4000/TIL-%EC%95%A1%EC%85%98%ED%8C%8C%EC%9B%8C" rel="alternate" type="text/html" title="TIL-액션파워" /><published>2023-02-20T00:00:00+09:00</published><updated>2023-02-20T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%EC%95%A1%EC%85%98%ED%8C%8C%EC%9B%8C</id><content type="html" xml:base="http://localhost:4000/TIL-%EC%95%A1%EC%85%98%ED%8C%8C%EC%9B%8C">&lt;h1 id=&quot;액션파워&quot;&gt;액션파워&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-21T00:01:41+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">TIL-액션파워</title><link href="http://localhost:4000/TIL-%EC%95%A1%EC%85%98%ED%8C%8C%EC%9B%8C" rel="alternate" type="text/html" title="TIL-액션파워" /><published>2023-02-20T00:00:00+09:00</published><updated>2023-02-20T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%EC%95%A1%EC%85%98%ED%8C%8C%EC%9B%8C</id><content type="html" xml:base="http://localhost:4000/TIL-%EC%95%A1%EC%85%98%ED%8C%8C%EC%9B%8C">&lt;h1 id=&quot;액션파워&quot;&gt;액션파워&lt;/h1&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;국내 최초 음성 인식 기술 활용 인공지능 받아쓰기 타이틀&lt;/p&gt;
@@ -120,7 +120,28 @@ AI 솔루션 기업 ‘강세’
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">액션파워</summary></entry><entry><title type="html">TIL-마키나락스</title><link href="http://localhost:4000/TIL-%EB%A7%88%ED%82%A4%EB%82%98%EB%9D%BD%EC%8A%A4" rel="alternate" type="text/html" title="TIL-마키나락스" /><published>2023-02-19T00:00:00+09:00</published><updated>2023-02-19T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%EB%A7%88%ED%82%A4%EB%82%98%EB%9D%BD%EC%8A%A4</id><content type="html" xml:base="http://localhost:4000/TIL-%EB%A7%88%ED%82%A4%EB%82%98%EB%9D%BD%EC%8A%A4">&lt;h1 id=&quot;마키나락스&quot;&gt;마키나락스&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">액션파워</summary></entry><entry><title type="html">Math List</title><link href="http://localhost:4000/Math-%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94" rel="alternate" type="text/html" title="Math List" /><published>2023-02-20T00:00:00+09:00</published><updated>2023-02-20T00:00:00+09:00</updated><id>http://localhost:4000/Math%20%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94</id><content type="html" xml:base="http://localhost:4000/Math-%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94">&lt;h1 id=&quot;math-용어정리&quot;&gt;Math 용어정리&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;필요한 정도까지만 포스팅(시간이 오래걸림)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;포스팅-됨&quot;&gt;포스팅 됨&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/유클리드공간&quot;&gt;유클리드공간&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/내적연산&quot;&gt;내적연산&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;포스팀-안됨&quot;&gt;포스팀 안됨&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;이동하면서 볼 수 있도록 공부할만한 사이트 링크 걸어둔다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://juggernaut.tistory.com/entry/%EC%BB%A4%EB%84%90-%ED%95%A8%EC%88%98%EC%99%80-%EC%A7%80%EC%A7%80-%EB%B2%A1%ED%84%B0-%EB%A8%B8%EC%8B%A0SVM&quot;&gt;커널함수&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="math" /><summary type="html">Math 용어정리</summary></entry><entry><title type="html">TIL-마키나락스</title><link href="http://localhost:4000/TIL-%EB%A7%88%ED%82%A4%EB%82%98%EB%9D%BD%EC%8A%A4" rel="alternate" type="text/html" title="TIL-마키나락스" /><published>2023-02-19T00:00:00+09:00</published><updated>2023-02-19T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%EB%A7%88%ED%82%A4%EB%82%98%EB%9D%BD%EC%8A%A4</id><content type="html" xml:base="http://localhost:4000/TIL-%EB%A7%88%ED%82%A4%EB%82%98%EB%9D%BD%EC%8A%A4">&lt;h1 id=&quot;마키나락스&quot;&gt;마키나락스&lt;/h1&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;산업용 AI 적용, 확실한 비전&lt;/p&gt;
@@ -827,50 +848,4 @@ AI 솔루션 기업 ‘강세’
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">인사이저</summary></entry><entry><title type="html">TIL-비즈데이터</title><link href="http://localhost:4000/TIL-%EB%B9%84%EC%A6%88%EB%8D%B0%EC%9D%B4%ED%84%B0" rel="alternate" type="text/html" title="TIL-비즈데이터" /><published>2023-02-13T00:00:00+09:00</published><updated>2023-02-13T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%EB%B9%84%EC%A6%88%EB%8D%B0%EC%9D%B4%ED%84%B0</id><content type="html" xml:base="http://localhost:4000/TIL-%EB%B9%84%EC%A6%88%EB%8D%B0%EC%9D%B4%ED%84%B0">&lt;h1 id=&quot;비즈데이터&quot;&gt;비즈데이터&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;시스템이 체계적으로 잘 되어 있어 굉장히 안정적이다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;사이트에 정리해놓은 연혁, 조직도, 프로젝트, 기술 등을 보고 들어가서 단지 빈자리를 매꾸는 것이 아닌 하나의 기술직을 맡아 일을 하는 것 같아 나와 회사 모두의 발전이 보이는 것 같다. 그리고 많은 협력사가 존재하고 이 회사를 믿고 맡기고 있는지 느껴지고 공기업도 있는 것 같아 믿음이 간다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;비즈데이터-기본-정보&quot;&gt;비즈데이터 기본 정보&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.saramin.co.kr/zf_user/company-info/view/csn/VTF3ZWw0ZHV4MDJ4b1BJdkE4b0NHUT09/company_nm/(주)비즈데이터&quot;&gt;사람인 참조&lt;/a&gt; 와 &lt;a href=&quot;http://bizdata.kr/&quot;&gt;공식 사이트 참조&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2014년 5월 26일 설립 ( 10년차 )&lt;/li&gt;
-  &lt;li&gt;기업형태 : 중소기업&lt;/li&gt;
-  &lt;li&gt;사원수: 71명(2022.12월 기준)
-    &lt;ul&gt;
-      &lt;li&gt;&lt;span style=&quot;color:blue&quot;&gt;입사자 수에 비해 퇴사자 수가 적은 것은 꽤 안정적으로 크고 있는 것 같다.&lt;/span&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;솔루션을 기반으로 환경, 비즈니스 인텔리전스, 스마트공장, 컨설팅 분야에서 서비스를 제공하고 있습니다.&lt;/li&gt;
-  &lt;li&gt;GI(Green Intelligence) : 비즈데이터의 자율운영 플랫폼을 기반으로 상수, 하수 등의 환경분야에서 AI기반의 자율운영 서비스를 제공합니다.&lt;/li&gt;
-  &lt;li&gt;BI(Businuess Intelligence) : 최신 데이터에 기반한 기업경영활동이 이루어질 수 있도록 통합 빅데이터 플랫폼을 기반으로 비즈니스 분석 서비스를 제공합니다.&lt;/li&gt;
-  &lt;li&gt;스마트 팩토리 : 생산관련 데이터를 실시간으로 수집 분석하여 데이터 기반으로 공장경여관리를 디지털화 할 수 있도록 스마트 공장을 구축합니다.&lt;/li&gt;
-  &lt;li&gt;컨설팅 : 데이터에 기반하여 기업이 성장할 수 있도록 산업전문가, 공공협력채널, 경영분석 전문가들이 협업하여 컨설팅 서비스를 제공합니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;연혁&quot;&gt;연혁&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://bizdata.kr/40&quot;&gt;공식 사이트&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;프로젝트&quot;&gt;프로젝트&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://bizdata.kr/41&quot;&gt;공식 사이트&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;span style=&quot;color:blue&quot;&gt; 자연, 주변 등의 다양한 도메인을 다루는게 느껴진다.&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;조직도&quot;&gt;조직도&lt;/h1&gt;
-
-&lt;p&gt;&lt;img alt=&quot;회사조직도&quot; src=&quot;https://user-images.githubusercontent.com/46266247/218439814-ee61f971-6b0a-40a8-aa75-61626958c951.png&quot; width=&quot;100%&quot; height=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;span style=&quot;color:blue&quot;&gt;기술 수준의 비율을 맞추려고 노력하는 모습으로 보이며 앞으로의 기술직의 부족은 없다고 생각된다. 굉장히 안정적이다.&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">비즈데이터</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">인사이저</summary></entry></feed>

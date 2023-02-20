@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/ai/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-02-20T21:22:05+09:00</updated>
+  <updated>2023-02-21T00:01:41+09:00</updated>
   <id>http://localhost:4000/tag/ai/feed.xml</id>
 
   
@@ -207,69 +207,6 @@
     </entry>
   
     <entry>
-      <title type="html">용어정리필요</title>
-      <link href="http://localhost:4000/ML%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94" rel="alternate" type="text/html" title="용어정리필요" />
-      <published>2023-02-13T00:00:00+09:00</published>
-      <updated>2023-02-13T00:00:00+09:00</updated>
-      <id>http://localhost:4000/ML%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94</id>
-      <content type="html" xml:base="http://localhost:4000/ML%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94">&lt;h1 id=&quot;용어정리&quot;&gt;용어정리&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;필요한 용어 정리는 한번 하자&lt;br /&gt;
-필요한 정보까지만 포스팅하자 ( 깊게 하려니 너무 오래 걸린다. )
-차근차근 하자&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;포스팅-됨&quot;&gt;포스팅 됨&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/서포트벡터머신(SVM)&quot;&gt;SVM&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/로지스틱회귀&quot;&gt;로지스틱 회귀분석&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/결정경계&quot;&gt;결정경계&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/손실함수&quot;&gt;손실함수&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/선형분류&quot;&gt;선형분류&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;포스팀-안됨&quot;&gt;포스팀 안됨&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;이동하면서 볼 수 있도록 공부할만한 사이트 링크 걸어둔다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://velog.io/@hyunicecream/GridSearchCV란-어떻게-사용할까&quot;&gt;GridSearch&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://076923.github.io/posts/Python-pytorch-12/&quot;&gt;이진분류&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://076923.github.io/posts/Python-pytorch-13/&quot;&gt;다중분류&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://syj9700.tistory.com/38&quot;&gt;소프트맥스 함수&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="ai" />
-      
-
-      
-        <summary type="html">용어정리</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
       <title type="html">로지스틱회귀</title>
       <link href="http://localhost:4000/%EB%A1%9C%EC%A7%80%EC%8A%A4%ED%8B%B1%ED%9A%8C%EA%B7%80" rel="alternate" type="text/html" title="로지스틱회귀" />
       <published>2023-02-13T00:00:00+09:00</published>
@@ -340,6 +277,72 @@
 
       
         <summary type="html">로지스틱 회귀</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">AI List</title>
+      <link href="http://localhost:4000/AI%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94" rel="alternate" type="text/html" title="AI List" />
+      <published>2023-02-13T00:00:00+09:00</published>
+      <updated>2023-02-13T00:00:00+09:00</updated>
+      <id>http://localhost:4000/AI%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94</id>
+      <content type="html" xml:base="http://localhost:4000/AI%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94">&lt;h1 id=&quot;ai-용어정리&quot;&gt;AI 용어정리&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;필요한 용어 정리는 한번 하자&lt;br /&gt;
+필요한 정보까지만 포스팅하자 ( 깊게 하려니 너무 오래 걸린다. )
+차근차근 하자&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;포스팅-됨&quot;&gt;포스팅 됨&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/서포트벡터머신(SVM)&quot;&gt;서포트벡터머신(SVM)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/로지스틱회귀&quot;&gt;로지스틱 회귀분석&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/결정경계&quot;&gt;결정경계&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/손실함수&quot;&gt;손실함수&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/선형분류&quot;&gt;선형분류&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;포스팀-안됨&quot;&gt;포스팀 안됨&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;이동하면서 볼 수 있도록 공부할만한 사이트 링크 걸어둔다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://velog.io/@hyunicecream/GridSearchCV란-어떻게-사용할까&quot;&gt;GridSearch&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://076923.github.io/posts/Python-pytorch-12/&quot;&gt;이진분류&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://076923.github.io/posts/Python-pytorch-13/&quot;&gt;다중분류&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://syj9700.tistory.com/38&quot;&gt;소프트맥스 함수&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;&quot;&gt;ML-데이터수집&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="ai" />
+      
+
+      
+        <summary type="html">AI 용어정리</summary>
       
 
       
@@ -434,14 +437,6 @@
   &lt;li&gt;기계 학습의 분야 중 하나로 패턴 인식&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&quot;사용&quot;&gt;사용&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;자료 분석을 위한 지도 학습 모델&lt;/li&gt;
-  &lt;li&gt;분류&lt;/li&gt;
-  &lt;li&gt;회귀분석&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;h1 id=&quot;키워드&quot;&gt;키워드&lt;/h1&gt;
 
 &lt;ul&gt;
@@ -470,8 +465,12 @@
 &lt;h1 id=&quot;목표-및-아이디어&quot;&gt;목표 및 아이디어&lt;/h1&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;데이터를 분류하는 것은 기계학습에 있어서 일반적인 작업이다.&lt;/li&gt;
-  &lt;li&gt;주어진 데이터 점들이 두 개의 클래스 안에 각각 속해 있다고 가정했을 때, 새로운 데ㅣ터 점이 두 클래스 중 어느 곳에 속하는지 결정하는 것이 목표이다.&lt;/li&gt;
+  &lt;li&gt;목표
+    &lt;ul&gt;
+      &lt;li&gt;데이터 간의 마진을 최대화 하는 것을 목표&lt;/li&gt;
+      &lt;li&gt;주어진 데이터 점들이 두 개의 클래스 안에 각각 속해 있다고 가정했을 때, 새로운 데이터 점이 두 클래스 중 어느 곳에 속하는지 결정하는 것이 목표&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
   &lt;li&gt;선형 분류
     &lt;ul&gt;
       &lt;li&gt;데이터 점이 P-차원 벡터 (p개의 숫자 리스트)로 주어졌을 때, 이러한 데이터 점을 (p-1)-차원의 초평면으로 분류할 수 있는지를 확인하고 싶은 것이다.&lt;/li&gt;
@@ -487,11 +486,67 @@
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
+  &lt;li&gt;작동 방법
+    &lt;ol&gt;
+      &lt;li&gt;여러 초평면을 중 분류되는 초평면을 찾는다.&lt;/li&gt;
+      &lt;li&gt;가장 가까운 데이터 사이의 여백이 최대인 공간을 가지는 초평면을 선택&lt;/li&gt;
+      &lt;li&gt;이상값이 있는 경우는 무시하고 진행&lt;/li&gt;
+      &lt;li&gt;비선형일 경우에는 커널트릭을 사용
+        &lt;ul&gt;
+          &lt;li&gt;커널트릭 : 새로운 차원을 추가하여 분리가 가능한 창으로 변형&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;응용 예시
+    &lt;ul&gt;
+      &lt;li&gt;분류
+        &lt;ul&gt;
+          &lt;li&gt;뉴스 기사 분류&lt;/li&gt;
+          &lt;li&gt;이미지 인식 : 얼굴 인식, 픽셀 이용&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;회귀분석&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;서포트-벡터란&quot;&gt;서포트 벡터란?&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;초평면을 최적화 하는데 도움이 되는 데이터 포인트&lt;/li&gt;
+  &lt;li&gt;초평면에 가장 가깝고 분류하기가 가장 어려움&lt;/li&gt;
+  &lt;li&gt;결정 초평면의 위치는 서포트 벡터에 따라 달라짐&lt;/li&gt;
+  &lt;li&gt;서포트 벡터를 제거하면 초평면의 위치도 달라짐
+    &lt;ul&gt;
+      &lt;li&gt;결정경계에 가까운 값(서포트 벡터)들로 인해 경계가 경정이 되는데 그게(서포트벡터) 바뀌면 경계도 변하게 된다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;초평면 주변 공간을 최대화 함&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;서포트-벡터와-신경망은-입력-출력이-유사&quot;&gt;서포트 벡터와 신경망은 입력, 출력이 유사&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;입력 : X1, X2, X3 … XN&lt;/li&gt;
+  &lt;li&gt;출력 : 목표 출력 t   (0, 1 등)&lt;/li&gt;
+  &lt;li&gt;가중치 : 신경망 가중치 W1, W2, W3,…,WN 선형 조합이 출력 y를 예측하는 각 입력과 연관&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;차이점은&quot;&gt;차이점은?&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;신경망 시냅스 가중치는 네트워크의 출력t를 계산하기 위해 제거&lt;/li&gt;
+  &lt;li&gt;SVM에서는 최적의 결정 경계를 계산하기 위해 0이 아닌 가중치를 줄이거나 제거&lt;/li&gt;
+  &lt;li&gt;가중치를 제거하면 분리 가능한 초평면을 결정하는데 도움이 되는 몇가지 중요한 입력 기능으로 입력 데이터 세트가 줄어듭니다.
+    &lt;ul&gt;
+      &lt;li&gt;제거된 가중치랑 연결된 특정 입력값이 제거&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;참조&quot;&gt;참조&lt;/h1&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/서포트_벡터_머신&quot;&gt;위키피디아&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ko.myservername.com/what-is-support-vector-machine-machine-learning&quot;&gt;myservername.com&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
 
       
@@ -514,55 +569,6 @@
 
       
         <summary type="html">서포트 벡터 머신</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">머신러닝 데이터 수집</title>
-      <link href="http://localhost:4000/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%88%98%EC%A7%91" rel="alternate" type="text/html" title="머신러닝 데이터 수집" />
-      <published>2023-02-06T17:00:31+09:00</published>
-      <updated>2023-02-06T17:00:31+09:00</updated>
-      <id>http://localhost:4000/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%88%98%EC%A7%91</id>
-      <content type="html" xml:base="http://localhost:4000/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%88%98%EC%A7%91">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;AI(머신러닝, 딥러닝)&lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./깃허브-연습(파이썬-2)&quot;&gt;Python 강좌(1) - 목차만들기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./파이썬-하이라이트-확인&quot;&gt;Python 강좌(2) - Python 하이라이트 확인&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h1 id=&quot;참조-사이트-및-책&quot;&gt;참조 사이트 및 책&lt;/h1&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;a href=&quot;https://wikidocs.net/book/2155&quot;&gt;&lt;strong&gt;딥 러닝을 이용한 자연어 처리 입문&lt;/strong&gt;&lt;/a&gt; 책을 보고 복습할 겸 작성한 글로 깊고 자세한 공부는 해당 링크를 통해 공부하는 것을 추천드립니다.&lt;/p&gt;
-&lt;/blockquote&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="ai" />
-      
-
-      
-        <summary type="html">AI(머신러닝, 딥러닝) Python 강좌(1) - 목차만들기 Python 강좌(2) - Python 하이라이트 확인</summary>
       
 
       

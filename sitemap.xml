@@ -4,6 +4,22 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc>http://localhost:4000/Math-%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94.html</loc>
+        
+        <lastmod>2023-02-20T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
         <loc>http://localhost:4000/TIL-%EC%95%A1%EC%85%98%ED%8C%8C%EC%9B%8C.html</loc>
         
         <lastmod>2023-02-20T00:00:00+09:00</lastmod>
@@ -148,7 +164,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/ML%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94.html</loc>
+        <loc>http://localhost:4000/AI%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94.html</loc>
         
         <lastmod>2023-02-13T00:00:00+09:00</lastmod>
         
@@ -407,22 +423,6 @@
         <loc>http://localhost:4000/jekyll-%EB%AA%A9%EC%B0%A8%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0.html</loc>
         
         <lastmod>2023-02-07T14:00:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%88%98%EC%A7%91.html</loc>
-        
-        <lastmod>2023-02-06T17:00:31+09:00</lastmod>
         
 
         
