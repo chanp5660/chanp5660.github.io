@@ -1,4 +1,126 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-19T17:35:21+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">TIL-마키나락스</title><link href="http://localhost:4000/TIL-%EB%A7%88%ED%82%A4%EB%82%98%EB%9D%BD%EC%8A%A4" rel="alternate" type="text/html" title="TIL-마키나락스" /><published>2023-02-19T00:00:00+09:00</published><updated>2023-02-19T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%EB%A7%88%ED%82%A4%EB%82%98%EB%9D%BD%EC%8A%A4</id><content type="html" xml:base="http://localhost:4000/TIL-%EB%A7%88%ED%82%A4%EB%82%98%EB%9D%BD%EC%8A%A4">&lt;h1 id=&quot;마키나락스&quot;&gt;마키나락스&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-20T21:22:05+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">TIL-액션파워</title><link href="http://localhost:4000/TIL-%EC%95%A1%EC%85%98%ED%8C%8C%EC%9B%8C" rel="alternate" type="text/html" title="TIL-액션파워" /><published>2023-02-20T00:00:00+09:00</published><updated>2023-02-20T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%EC%95%A1%EC%85%98%ED%8C%8C%EC%9B%8C</id><content type="html" xml:base="http://localhost:4000/TIL-%EC%95%A1%EC%85%98%ED%8C%8C%EC%9B%8C">&lt;h1 id=&quot;액션파워&quot;&gt;액션파워&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;국내 최초 음성 인식 기술 활용 인공지능 받아쓰기 타이틀&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;간단한 알람 설정, 메모, 네비게이션 등 음성인식을 자주 쓰는데 이 분야에서 경쟁사 중에서도 최초 최고인 것은 큰 장점으로 생각되고 충분히 성장 가능성 있는 아이템이다. 내 전공과도 비슷한 경향이 있으며 음성으로 받고 그것을 분석하는 것으로 하면 회사에 도움이 될 것 같다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;액션파워-1&quot;&gt;액션파워&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://actionpower.kr/&quot;&gt;공식 사이트&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2016년 설립&lt;/li&gt;
+  &lt;li&gt;서비스 앱 &lt;strong&gt;다글로&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;2019년 4월 출시, 2017년 국내 최초로 음성 인식 기술을 활용하여 만든 인공지능 받아쓰기 서비스&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;사원수 : 47명(2023.1 기준)
+    &lt;ul&gt;
+      &lt;li&gt;&lt;span style=&quot;color:blue&quot;&gt;인원수가 빠르게 늘고 있는 것 같으며 퇴사자는 적은것으로 보다 체계가 잘 잡혀 있는 것 같다.&lt;/span&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;가장 최근 &lt;a href=&quot;https://actionpower.kr/article/13&quot;&gt;뉴스&lt;/a&gt;
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;올해 AI 스타트업 100 명단
+AI 솔루션 기업 ‘강세’
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;연혁&quot;&gt;연혁&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2021
+    &lt;ul&gt;
+      &lt;li&gt;11
+        &lt;ul&gt;
+          &lt;li&gt;시리즈 A 133억 원 투자 유치&lt;/li&gt;
+          &lt;li&gt;삼성금융 Open Collaboration 우수상 수상&lt;/li&gt;
+          &lt;li&gt;대한민국 ICT대상 과학기술정보통신부 장관상 수상&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2020
+    &lt;ul&gt;
+      &lt;li&gt;08
+        &lt;ul&gt;
+          &lt;li&gt;NH Digital Challenge+ 4기 선정&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;06
+        &lt;ul&gt;
+          &lt;li&gt;하나은행 1Q Agile Lab 10기 선정&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;04
+        &lt;ul&gt;
+          &lt;li&gt;산업자원통상부 조선해양산업핵심기술개발사업 산업기술혁신사업 과제 선정&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2019
+    &lt;ul&gt;
+      &lt;li&gt;11
+        &lt;ul&gt;
+          &lt;li&gt;대한민국 모바일어워드 우수상 수상&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;10
+        &lt;ul&gt;
+          &lt;li&gt;하나벤처스 Pre-A 투자유치&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;04
+        &lt;ul&gt;
+          &lt;li&gt;다글로(분야별 특화 음성인식 받아쓰기) 출시&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2018
+    &lt;ul&gt;
+      &lt;li&gt;12
+        &lt;ul&gt;
+          &lt;li&gt;TIPS 프로그램 선정&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;06
+        &lt;ul&gt;
+          &lt;li&gt;스프링캠프 Seed 투자유치&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;04
+        &lt;ul&gt;
+          &lt;li&gt;AWS AI Startup Challenge 수상&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2017
+    &lt;ul&gt;
+      &lt;li&gt;12
+        &lt;ul&gt;
+          &lt;li&gt;리뷰와이저(음성인식 받아쓰기) 출시&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2016
+    &lt;ul&gt;
+      &lt;li&gt;01
+        &lt;ul&gt;
+          &lt;li&gt;액션파워 설립&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">액션파워</summary></entry><entry><title type="html">TIL-마키나락스</title><link href="http://localhost:4000/TIL-%EB%A7%88%ED%82%A4%EB%82%98%EB%9D%BD%EC%8A%A4" rel="alternate" type="text/html" title="TIL-마키나락스" /><published>2023-02-19T00:00:00+09:00</published><updated>2023-02-19T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%EB%A7%88%ED%82%A4%EB%82%98%EB%9D%BD%EC%8A%A4</id><content type="html" xml:base="http://localhost:4000/TIL-%EB%A7%88%ED%82%A4%EB%82%98%EB%9D%BD%EC%8A%A4">&lt;h1 id=&quot;마키나락스&quot;&gt;마키나락스&lt;/h1&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;산업용 AI 적용, 확실한 비전&lt;/p&gt;
@@ -10,11 +132,13 @@
 
 &lt;h1 id=&quot;마키나락스-makinarocks-기본-정보&quot;&gt;마키나락스 MakinaRocks 기본 정보&lt;/h1&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.wanted.co.kr/wd/142631&quot;&gt;원티드&lt;/a&gt;, &lt;a href=&quot;https://www.makinarocks.ai/&quot;&gt;공식사이트 참조&lt;/a&gt;, &lt;a href=&quot;https://www.saramin.co.kr/zf_user/company-info/view/csn/M25lOC9pVDhWY0lSVHV3VUpZNDF1Zz09/company_nm/(주)마키나락스&quot;&gt;사람인&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.wanted.co.kr/wd/142631&quot;&gt;원티드&lt;/a&gt;, &lt;a href=&quot;https://www.saramin.co.kr/zf_user/company-info/view/csn/M25lOC9pVDhWY0lSVHV3VUpZNDF1Zz09/company_nm/(%EC%A3%BC)%EB%A7%88%ED%82%A4%EB%82%98%EB%9D%BD%EC%8A%A4&quot;&gt;사람인&lt;/a&gt;, &lt;a href=&quot;https://www.makinarocks.ai/&quot;&gt;공식사이트 참조&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;2017년12월12일 설립( 업력 7년차 )&lt;/li&gt;
-  &lt;li&gt;산업용 AI 솔루션과 플랫폼을 개발, 제공하는 AI 스타트업 마키나락스&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;산업용 AI 솔루션과 플랫폼을 개발, 제공하는 AI 스타트업 마키나락스&lt;/p&gt;
+  &lt;/li&gt;
   &lt;li&gt;상품
     &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;https://www.makinarocks.ai/product/link/&quot;&gt;Link&lt;/a&gt;
@@ -36,9 +160,9 @@
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;가장 최근 관련 &lt;a href=&quot;http://jmagazine.joins.com/forbes/view/337339&quot;&gt;뉴스&lt;/a&gt;
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  최근 마이크로소프트가 인공지능 연구소 ‘오픈AI’에 최대 100억 달러(한화 12조4800억원) 규모의 투자를 고려하고 있다는 소식에 업계가 술렁였다. IT업계에 대한 국내외 투자가 예전 같지 않은 상황에서 AI 분야만큼은 가능성을 봤기 때문이다. 한국에도 기술력으로 이미 세계시장에 눈도장을 찍은 AI 기업이 있다. 산업 현장에 맞춤형 AI 기술을 도입해 제조 혁신을 이루겠다는 ‘마키나락스’다.
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;최근 마이크로소프트가 인공지능 연구소 ‘오픈AI’에 최대 100억 달러(한화 12조4800억원) 규모의 투자를 고려하고 있다는 소식에 업계가 술렁였다. IT업계에 대한 국내외 투자가 예전 같지 않은 상황에서 AI 분야만큼은 가능성을 봤기 때문이다. 한국에도 기술력으로 이미 세계시장에 눈도장을 찍은 AI 기업이 있다. 산업 현장에 맞춤형 AI 기술을 도입해 제조 혁신을 이루겠다는 ‘마키나락스’다.&lt;/p&gt;
+    &lt;/blockquote&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -159,22 +283,7 @@
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">마키나락스</summary></entry><entry><title type="html">결정경계</title><link href="http://localhost:4000/%EA%B2%B0%EC%A0%95%EA%B2%BD%EA%B3%84" rel="alternate" type="text/html" title="결정경계" /><published>2023-02-17T00:00:00+09:00</published><updated>2023-02-17T00:00:00+09:00</updated><id>http://localhost:4000/%EA%B2%B0%EC%A0%95%EA%B2%BD%EA%B3%84</id><content type="html" xml:base="http://localhost:4000/%EA%B2%B0%EC%A0%95%EA%B2%BD%EA%B3%84">&lt;h1 id=&quot;결정경계-decision-boundaries&quot;&gt;결정경계 Decision Boundaries&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;뜻 풀이 그대로 분류를 &lt;strong&gt;결정&lt;/strong&gt;하기 위한 &lt;strong&gt;경계&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;종류
-    &lt;ul&gt;
-      &lt;li&gt;선형 결정경계
-        &lt;ul&gt;
-          &lt;li&gt;SVM&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;비선형 결정경계&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.oreilly.com/library/view/data-analysis-with/9781788393720/7ef9ff0a-000c-44e1-ad6a-d352e0744c74.xhtml&quot;&gt;이미지 참조&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="ai" /><summary type="html">결정경계 Decision Boundaries</summary></entry><entry><title type="html">TIL-노리스페이스</title><link href="http://localhost:4000/TIL-%EB%85%B8%EB%A6%AC%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4" rel="alternate" type="text/html" title="TIL-노리스페이스" /><published>2023-02-17T00:00:00+09:00</published><updated>2023-02-17T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%EB%85%B8%EB%A6%AC%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4</id><content type="html" xml:base="http://localhost:4000/TIL-%EB%85%B8%EB%A6%AC%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4">&lt;h1 id=&quot;노리스페이스&quot;&gt;노리스페이스&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">마키나락스</summary></entry><entry><title type="html">TIL-노리스페이스</title><link href="http://localhost:4000/TIL-%EB%85%B8%EB%A6%AC%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4" rel="alternate" type="text/html" title="TIL-노리스페이스" /><published>2023-02-17T00:00:00+09:00</published><updated>2023-02-17T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%EB%85%B8%EB%A6%AC%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4</id><content type="html" xml:base="http://localhost:4000/TIL-%EB%85%B8%EB%A6%AC%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4">&lt;h1 id=&quot;노리스페이스&quot;&gt;노리스페이스&lt;/h1&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;내가 처음에 생각했던 인공지능의 역할을 비전으로 가지고 있다.&lt;/p&gt;
@@ -382,7 +491,22 @@
 
 &lt;h1 id=&quot;참조&quot;&gt;참조&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&quot;https://minicokr.com/8&quot;&gt;https://minicokr.com/8&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://heekangpark.github.io/Stanford_cs231n/03-linear-classification&quot;&gt;https://heekangpark.github.io/Stanford_cs231n/03-linear-classification&lt;/a&gt;&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="ai" /><summary type="html">선형분류 Linear Classification</summary></entry><entry><title type="html">TIL-아크릴</title><link href="http://localhost:4000/TIL-%EC%95%84%ED%81%AC%EB%A6%B4" rel="alternate" type="text/html" title="TIL-아크릴" /><published>2023-02-15T00:00:00+09:00</published><updated>2023-02-15T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%EC%95%84%ED%81%AC%EB%A6%B4</id><content type="html" xml:base="http://localhost:4000/TIL-%EC%95%84%ED%81%AC%EB%A6%B4">&lt;h1 id=&quot;아크릴&quot;&gt;아크릴&lt;/h1&gt;
+&lt;a href=&quot;https://heekangpark.github.io/Stanford_cs231n/03-linear-classification&quot;&gt;https://heekangpark.github.io/Stanford_cs231n/03-linear-classification&lt;/a&gt;&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="ai" /><summary type="html">선형분류 Linear Classification</summary></entry><entry><title type="html">결정경계</title><link href="http://localhost:4000/%EA%B2%B0%EC%A0%95%EA%B2%BD%EA%B3%84" rel="alternate" type="text/html" title="결정경계" /><published>2023-02-17T00:00:00+09:00</published><updated>2023-02-17T00:00:00+09:00</updated><id>http://localhost:4000/%EA%B2%B0%EC%A0%95%EA%B2%BD%EA%B3%84</id><content type="html" xml:base="http://localhost:4000/%EA%B2%B0%EC%A0%95%EA%B2%BD%EA%B3%84">&lt;h1 id=&quot;결정경계-decision-boundaries&quot;&gt;결정경계 Decision Boundaries&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;뜻 풀이 그대로 분류를 &lt;strong&gt;결정&lt;/strong&gt;하기 위한 &lt;strong&gt;경계&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;종류
+    &lt;ul&gt;
+      &lt;li&gt;선형 결정경계
+        &lt;ul&gt;
+          &lt;li&gt;SVM&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;비선형 결정경계&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.oreilly.com/library/view/data-analysis-with/9781788393720/7ef9ff0a-000c-44e1-ad6a-d352e0744c74.xhtml&quot;&gt;이미지 참조&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="ai" /><summary type="html">결정경계 Decision Boundaries</summary></entry><entry><title type="html">TIL-아크릴</title><link href="http://localhost:4000/TIL-%EC%95%84%ED%81%AC%EB%A6%B4" rel="alternate" type="text/html" title="TIL-아크릴" /><published>2023-02-15T00:00:00+09:00</published><updated>2023-02-15T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%EC%95%84%ED%81%AC%EB%A6%B4</id><content type="html" xml:base="http://localhost:4000/TIL-%EC%95%84%ED%81%AC%EB%A6%B4">&lt;h1 id=&quot;아크릴&quot;&gt;아크릴&lt;/h1&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;연혁의 기록은 2021년에 멈춰있지만 소식 부분에 최근까지의 행적들이 적혀있다. 꾸준히 활동했으며 입사자가 꾸준히 있고 퇴사자도 꾸준히 있는 것으로 보아 인원수로 안정적이기는 하나 꾸준히 퇴사하는 이유가 있을 것 같다. 실력 상승을 위한 이직일지 알 수 없으나 고려해봐야한다.&lt;/p&gt;
@@ -584,7 +708,50 @@
   (주)아크릴 설립&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">아크릴</summary></entry><entry><title type="html">TIL-인사이저</title><link href="http://localhost:4000/TIL-%EC%9D%B8%EC%82%AC%EC%9D%B4%EC%A0%80" rel="alternate" type="text/html" title="TIL-인사이저" /><published>2023-02-13T00:00:00+09:00</published><updated>2023-02-13T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%EC%9D%B8%EC%82%AC%EC%9D%B4%EC%A0%80</id><content type="html" xml:base="http://localhost:4000/TIL-%EC%9D%B8%EC%82%AC%EC%9D%B4%EC%A0%80">&lt;h1 id=&quot;인사이저&quot;&gt;인사이저&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">아크릴</summary></entry><entry><title type="html">로지스틱회귀</title><link href="http://localhost:4000/%EB%A1%9C%EC%A7%80%EC%8A%A4%ED%8B%B1%ED%9A%8C%EA%B7%80" rel="alternate" type="text/html" title="로지스틱회귀" /><published>2023-02-13T00:00:00+09:00</published><updated>2023-02-13T00:00:00+09:00</updated><id>http://localhost:4000/%EB%A1%9C%EC%A7%80%EC%8A%A4%ED%8B%B1%ED%9A%8C%EA%B7%80</id><content type="html" xml:base="http://localhost:4000/%EB%A1%9C%EC%A7%80%EC%8A%A4%ED%8B%B1%ED%9A%8C%EA%B7%80">&lt;h1 id=&quot;로지스틱-회귀&quot;&gt;로지스틱 회귀&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;이벤트가 발생할 확률을 결정&lt;/strong&gt;하는데 사용되는 통계 모델&lt;/li&gt;
+  &lt;li&gt;특성 간의 관계를 보여주고 특정 결과의 확률을 계산합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;사용&quot;&gt;사용&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;머신러닝에서 정확한 예측을 생성하는데 사용&lt;/li&gt;
+  &lt;li&gt;선형 회귀와 유사하며 대상 변수가 이진입니다. (0,1)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;측정-가능한-항목&quot;&gt;측정 가능한 항목&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;B, 설명 변수, 특성(측정 대상 항목)&lt;/li&gt;
+  &lt;li&gt;Y, 응답 변수, 목표 이진 변수&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;예시&quot;&gt;예시&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;학생이 시험에 합격될지 불합격될지 예측할 때&lt;/li&gt;
+  &lt;li&gt;B, 설명 변수, 특성(측정 대상 항목) : &lt;strong&gt;공부한 시간&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Y, 응답 변수, 목표 이진 변수 : &lt;strong&gt;합격,불합격&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;종류&quot;&gt;종류&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;이진 로지스틱 회귀&lt;/strong&gt; : 0,1 처럼 2가지의 결과&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;다항 로지스틱 회귀&lt;/strong&gt; : 응답 변수에 순서가 업는 3개 이상의 변수가 포함&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;순서 로지스틱 회귀&lt;/strong&gt; : 3개 이상의 변수가 포함될 수 있음, 대신 측정에는 순서가 있음, 예를 들어 1~5점으로 평가를 하는 경우&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;이미지&quot;&gt;이미지&lt;/h1&gt;
+
+&lt;p&gt;&lt;img alt=&quot;로지스틱회귀 위키피디아&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Logistic-curve.svg/480px-Logistic-curve.svg.png&quot; width=&quot;60%&quot; height=&quot;60%&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;참조&quot;&gt;참조&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.tibco.com/ko/reference-center/what-is-logistic-regression&quot;&gt;블로그&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://ko.wikipedia.org/wiki/로지스틱_회귀&quot;&gt;위키피디아&lt;/a&gt;&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="ai" /><summary type="html">로지스틱 회귀</summary></entry><entry><title type="html">TIL-인사이저</title><link href="http://localhost:4000/TIL-%EC%9D%B8%EC%82%AC%EC%9D%B4%EC%A0%80" rel="alternate" type="text/html" title="TIL-인사이저" /><published>2023-02-13T00:00:00+09:00</published><updated>2023-02-13T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%EC%9D%B8%EC%82%AC%EC%9D%B4%EC%A0%80</id><content type="html" xml:base="http://localhost:4000/TIL-%EC%9D%B8%EC%82%AC%EC%9D%B4%EC%A0%80">&lt;h1 id=&quot;인사이저&quot;&gt;인사이저&lt;/h1&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;생각보다 기록이 없어서 알아보기 힘들다.&lt;/p&gt;
@@ -706,76 +873,4 @@
 
 &lt;ul&gt;
   &lt;li&gt;&lt;span style=&quot;color:blue&quot;&gt;기술 수준의 비율을 맞추려고 노력하는 모습으로 보이며 앞으로의 기술직의 부족은 없다고 생각된다. 굉장히 안정적이다.&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">비즈데이터</summary></entry><entry><title type="html">용어정리필요</title><link href="http://localhost:4000/ML%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94" rel="alternate" type="text/html" title="용어정리필요" /><published>2023-02-13T00:00:00+09:00</published><updated>2023-02-13T00:00:00+09:00</updated><id>http://localhost:4000/ML%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94</id><content type="html" xml:base="http://localhost:4000/ML%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94">&lt;h1 id=&quot;용어정리&quot;&gt;용어정리&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;필요한 용어 정리는 한번 하자&lt;br /&gt;
-필요한 정보까지만 포스팅하자 ( 깊게 하려니 너무 오래 걸린다. )
-차근차근 하자&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;포스팅-됨&quot;&gt;포스팅 됨&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/서포트벡터머신(SVM)&quot;&gt;SVM&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/로지스틱회귀&quot;&gt;로지스틱 회귀분석&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/결정경계&quot;&gt;결정경계&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/손실함수&quot;&gt;손실함수&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/선형분류&quot;&gt;선형분류&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;포스팀-안됨&quot;&gt;포스팀 안됨&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;이동하면서 볼 수 있도록 공부할만한 사이트 링크 걸어둔다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://velog.io/@hyunicecream/GridSearchCV란-어떻게-사용할까&quot;&gt;GridSearch&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://076923.github.io/posts/Python-pytorch-12/&quot;&gt;이진분류&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://076923.github.io/posts/Python-pytorch-13/&quot;&gt;다중분류&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://syj9700.tistory.com/38&quot;&gt;소프트맥스 함수&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="ai" /><summary type="html">용어정리</summary></entry><entry><title type="html">로지스틱회귀</title><link href="http://localhost:4000/%EB%A1%9C%EC%A7%80%EC%8A%A4%ED%8B%B1%ED%9A%8C%EA%B7%80" rel="alternate" type="text/html" title="로지스틱회귀" /><published>2023-02-13T00:00:00+09:00</published><updated>2023-02-13T00:00:00+09:00</updated><id>http://localhost:4000/%EB%A1%9C%EC%A7%80%EC%8A%A4%ED%8B%B1%ED%9A%8C%EA%B7%80</id><content type="html" xml:base="http://localhost:4000/%EB%A1%9C%EC%A7%80%EC%8A%A4%ED%8B%B1%ED%9A%8C%EA%B7%80">&lt;h1 id=&quot;로지스틱-회귀&quot;&gt;로지스틱 회귀&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;이벤트가 발생할 확률을 결정&lt;/strong&gt;하는데 사용되는 통계 모델&lt;/li&gt;
-  &lt;li&gt;특성 간의 관계를 보여주고 특정 결과의 확률을 계산합니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;사용&quot;&gt;사용&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;머신러닝에서 정확한 예측을 생성하는데 사용&lt;/li&gt;
-  &lt;li&gt;선형 회귀와 유사하며 대상 변수가 이진입니다. (0,1)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;측정-가능한-항목&quot;&gt;측정 가능한 항목&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;B, 설명 변수, 특성(측정 대상 항목)&lt;/li&gt;
-  &lt;li&gt;Y, 응답 변수, 목표 이진 변수&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;예시&quot;&gt;예시&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;학생이 시험에 합격될지 불합격될지 예측할 때&lt;/li&gt;
-  &lt;li&gt;B, 설명 변수, 특성(측정 대상 항목) : &lt;strong&gt;공부한 시간&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Y, 응답 변수, 목표 이진 변수 : &lt;strong&gt;합격,불합격&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;종류&quot;&gt;종류&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;이진 로지스틱 회귀&lt;/strong&gt; : 0,1 처럼 2가지의 결과&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;다항 로지스틱 회귀&lt;/strong&gt; : 응답 변수에 순서가 업는 3개 이상의 변수가 포함&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;순서 로지스틱 회귀&lt;/strong&gt; : 3개 이상의 변수가 포함될 수 있음, 대신 측정에는 순서가 있음, 예를 들어 1~5점으로 평가를 하는 경우&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;이미지&quot;&gt;이미지&lt;/h1&gt;
-
-&lt;p&gt;&lt;img alt=&quot;로지스틱회귀 위키피디아&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Logistic-curve.svg/480px-Logistic-curve.svg.png&quot; width=&quot;60%&quot; height=&quot;60%&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;참조&quot;&gt;참조&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.tibco.com/ko/reference-center/what-is-logistic-regression&quot;&gt;블로그&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://ko.wikipedia.org/wiki/로지스틱_회귀&quot;&gt;위키피디아&lt;/a&gt;&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="ai" /><summary type="html">로지스틱 회귀</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">비즈데이터</summary></entry></feed>

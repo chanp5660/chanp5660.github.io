@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/til/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-02-19T17:35:21+09:00</updated>
+  <updated>2023-02-20T21:22:05+09:00</updated>
   <id>http://localhost:4000/tag/til/feed.xml</id>
 
   
@@ -32,6 +32,164 @@
 
   
     <entry>
+      <title type="html">TIL-액션파워</title>
+      <link href="http://localhost:4000/TIL-%EC%95%A1%EC%85%98%ED%8C%8C%EC%9B%8C" rel="alternate" type="text/html" title="TIL-액션파워" />
+      <published>2023-02-20T00:00:00+09:00</published>
+      <updated>2023-02-20T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-%EC%95%A1%EC%85%98%ED%8C%8C%EC%9B%8C</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-%EC%95%A1%EC%85%98%ED%8C%8C%EC%9B%8C">&lt;h1 id=&quot;액션파워&quot;&gt;액션파워&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;국내 최초 음성 인식 기술 활용 인공지능 받아쓰기 타이틀&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;간단한 알람 설정, 메모, 네비게이션 등 음성인식을 자주 쓰는데 이 분야에서 경쟁사 중에서도 최초 최고인 것은 큰 장점으로 생각되고 충분히 성장 가능성 있는 아이템이다. 내 전공과도 비슷한 경향이 있으며 음성으로 받고 그것을 분석하는 것으로 하면 회사에 도움이 될 것 같다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;액션파워-1&quot;&gt;액션파워&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://actionpower.kr/&quot;&gt;공식 사이트&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2016년 설립&lt;/li&gt;
+  &lt;li&gt;서비스 앱 &lt;strong&gt;다글로&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;2019년 4월 출시, 2017년 국내 최초로 음성 인식 기술을 활용하여 만든 인공지능 받아쓰기 서비스&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;사원수 : 47명(2023.1 기준)
+    &lt;ul&gt;
+      &lt;li&gt;&lt;span style=&quot;color:blue&quot;&gt;인원수가 빠르게 늘고 있는 것 같으며 퇴사자는 적은것으로 보다 체계가 잘 잡혀 있는 것 같다.&lt;/span&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;가장 최근 &lt;a href=&quot;https://actionpower.kr/article/13&quot;&gt;뉴스&lt;/a&gt;
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;올해 AI 스타트업 100 명단
+AI 솔루션 기업 ‘강세’
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;연혁&quot;&gt;연혁&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2021
+    &lt;ul&gt;
+      &lt;li&gt;11
+        &lt;ul&gt;
+          &lt;li&gt;시리즈 A 133억 원 투자 유치&lt;/li&gt;
+          &lt;li&gt;삼성금융 Open Collaboration 우수상 수상&lt;/li&gt;
+          &lt;li&gt;대한민국 ICT대상 과학기술정보통신부 장관상 수상&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2020
+    &lt;ul&gt;
+      &lt;li&gt;08
+        &lt;ul&gt;
+          &lt;li&gt;NH Digital Challenge+ 4기 선정&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;06
+        &lt;ul&gt;
+          &lt;li&gt;하나은행 1Q Agile Lab 10기 선정&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;04
+        &lt;ul&gt;
+          &lt;li&gt;산업자원통상부 조선해양산업핵심기술개발사업 산업기술혁신사업 과제 선정&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2019
+    &lt;ul&gt;
+      &lt;li&gt;11
+        &lt;ul&gt;
+          &lt;li&gt;대한민국 모바일어워드 우수상 수상&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;10
+        &lt;ul&gt;
+          &lt;li&gt;하나벤처스 Pre-A 투자유치&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;04
+        &lt;ul&gt;
+          &lt;li&gt;다글로(분야별 특화 음성인식 받아쓰기) 출시&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2018
+    &lt;ul&gt;
+      &lt;li&gt;12
+        &lt;ul&gt;
+          &lt;li&gt;TIPS 프로그램 선정&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;06
+        &lt;ul&gt;
+          &lt;li&gt;스프링캠프 Seed 투자유치&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;04
+        &lt;ul&gt;
+          &lt;li&gt;AWS AI Startup Challenge 수상&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2017
+    &lt;ul&gt;
+      &lt;li&gt;12
+        &lt;ul&gt;
+          &lt;li&gt;리뷰와이저(음성인식 받아쓰기) 출시&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2016
+    &lt;ul&gt;
+      &lt;li&gt;01
+        &lt;ul&gt;
+          &lt;li&gt;액션파워 설립&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">액션파워</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">TIL-마키나락스</title>
       <link href="http://localhost:4000/TIL-%EB%A7%88%ED%82%A4%EB%82%98%EB%9D%BD%EC%8A%A4" rel="alternate" type="text/html" title="TIL-마키나락스" />
       <published>2023-02-19T00:00:00+09:00</published>
@@ -49,11 +207,13 @@
 
 &lt;h1 id=&quot;마키나락스-makinarocks-기본-정보&quot;&gt;마키나락스 MakinaRocks 기본 정보&lt;/h1&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.wanted.co.kr/wd/142631&quot;&gt;원티드&lt;/a&gt;, &lt;a href=&quot;https://www.makinarocks.ai/&quot;&gt;공식사이트 참조&lt;/a&gt;, &lt;a href=&quot;https://www.saramin.co.kr/zf_user/company-info/view/csn/M25lOC9pVDhWY0lSVHV3VUpZNDF1Zz09/company_nm/(주)마키나락스&quot;&gt;사람인&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.wanted.co.kr/wd/142631&quot;&gt;원티드&lt;/a&gt;, &lt;a href=&quot;https://www.saramin.co.kr/zf_user/company-info/view/csn/M25lOC9pVDhWY0lSVHV3VUpZNDF1Zz09/company_nm/(%EC%A3%BC)%EB%A7%88%ED%82%A4%EB%82%98%EB%9D%BD%EC%8A%A4&quot;&gt;사람인&lt;/a&gt;, &lt;a href=&quot;https://www.makinarocks.ai/&quot;&gt;공식사이트 참조&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;2017년12월12일 설립( 업력 7년차 )&lt;/li&gt;
-  &lt;li&gt;산업용 AI 솔루션과 플랫폼을 개발, 제공하는 AI 스타트업 마키나락스&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;산업용 AI 솔루션과 플랫폼을 개발, 제공하는 AI 스타트업 마키나락스&lt;/p&gt;
+  &lt;/li&gt;
   &lt;li&gt;상품
     &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;https://www.makinarocks.ai/product/link/&quot;&gt;Link&lt;/a&gt;
@@ -75,9 +235,9 @@
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;가장 최근 관련 &lt;a href=&quot;http://jmagazine.joins.com/forbes/view/337339&quot;&gt;뉴스&lt;/a&gt;
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  최근 마이크로소프트가 인공지능 연구소 ‘오픈AI’에 최대 100억 달러(한화 12조4800억원) 규모의 투자를 고려하고 있다는 소식에 업계가 술렁였다. IT업계에 대한 국내외 투자가 예전 같지 않은 상황에서 AI 분야만큼은 가능성을 봤기 때문이다. 한국에도 기술력으로 이미 세계시장에 눈도장을 찍은 AI 기업이 있다. 산업 현장에 맞춤형 AI 기술을 도입해 제조 혁신을 이루겠다는 ‘마키나락스’다.
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;최근 마이크로소프트가 인공지능 연구소 ‘오픈AI’에 최대 100억 달러(한화 12조4800억원) 규모의 투자를 고려하고 있다는 소식에 업계가 술렁였다. IT업계에 대한 국내외 투자가 예전 같지 않은 상황에서 AI 분야만큼은 가능성을 봤기 때문이다. 한국에도 기술력으로 이미 세계시장에 눈도장을 찍은 AI 기업이 있다. 산업 현장에 맞춤형 AI 기술을 도입해 제조 혁신을 이루겠다는 ‘마키나락스’다.&lt;/p&gt;
+    &lt;/blockquote&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -1970,158 +2130,6 @@
 
       
         <summary type="html">에이아이스페라</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">TIL-애크미랩</title>
-      <link href="http://localhost:4000/TIL-%EC%95%A0%ED%81%AC%EB%AF%B8%EB%9E%A9" rel="alternate" type="text/html" title="TIL-애크미랩" />
-      <published>2023-02-10T00:00:00+09:00</published>
-      <updated>2023-02-10T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-%EC%95%A0%ED%81%AC%EB%AF%B8%EB%9E%A9</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-%EC%95%A0%ED%81%AC%EB%AF%B8%EB%9E%A9">&lt;h1 id=&quot;애크미랩&quot;&gt;애크미랩&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;여러 방면으로 경험이 있으신 경력자가 뽑혀야 할 것 같다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;이제 3년차가 되는 스타트업으로 사원수가 8명인 정도에 벤처 기업으로 투자를 받아 회사가 운영되는 것은 일반적인 루트인 것 같다. 아직 정보가 적지만 찾아본 내용으로만 생각해보면 여러 트랜드를 알 수록 회사에 도움이 될 것 같고 파이썬 프로그램 개발자가 다방면(백엔드, 프론트)으로 활동을 해야할 것 같은 느낌이다. 아직 체계가 잡히지 않아 당연하지만 신입으로서는 능력자 사수가 있지 않은 이상 꽤 어려운 길일 것 같다는 생각이 들었다. 물론 내가 만들어가는 것도 좋지만 나의 도전들이 누군가에게 피해를 줄 수 있다면 좋은 방법이 아니라고 본다. 경력자로서 여러 방면으로 활동해보신 분들이 새롭게 자신의 길을 이끌어 가기에는 투자도 있고 좋은 기회라고 생각한다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;애크미랩-기본-정보&quot;&gt;애크미랩 기본 정보&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.saramin.co.kr/zf_user/company-info/view/csn/QVVpcDJBU3k0VmZYaDlCa2cwMUV2UT09/company_nm/(%EC%A3%BC)%EC%95%A0%ED%81%AC%EB%AF%B8%EB%9E%A9&quot;&gt;사람인 참조&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2021년 1월 6일 설립(업력 3년차)&lt;/li&gt;
-  &lt;li&gt;기업형태(중소기업, 벤처기업 선정되어 투자를 받음)&lt;/li&gt;
-  &lt;li&gt;업종 : 화장품 제조업&lt;/li&gt;
-  &lt;li&gt;사이트 : &lt;a href=&quot;https://www.acmelab.co.kr/&quot;&gt;https://www.acmelab.co.kr/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;기업 주소 : 서울 강남구 역삼로 169, 5층&lt;/li&gt;
-  &lt;li&gt;사원수 : 8명
-    &lt;ul&gt;
-      &lt;li&gt;&lt;span style=&quot;color:blue&quot;&gt; 입사자와 퇴사자 수 가 일정하지 않는 것을 보니 아직은 각 분야에 대해 체계가 잡히지 않아 인원을 계속 뽑아야 하는 시기인 것 같다.&lt;/span&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Next Generation commerce를 지향하는 기업(출혈경쟁하에 성장을 꾀하는 기존의 이커머스가 아닌 새로운 가치를 창출), 그 가치를 기반으로 성장하는 것을 목표로 하는 이커머스 기업&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Next generation commerce의 구현을 위해 애크미랩
-  1) AI/ML 알고리즘을 활용한 가격 최적화 플랫폼을 보유
-  2) 자사 브랜드와 브랜드 파트너의 성장을 위한 브랜드 풀필먼트를 추진
-  3) MZ세대에 친숙한 커머스 방식인 라이브커머스를 적극적으로 활용하는 미디어커머스를 서비스로 제공&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;파이썬-개발자-구인-내용&quot;&gt;파이썬 개발자 구인 내용&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.acmelab.co.kr/3a5e869e-6d0f-487e-970b-15edb90de574&quot;&gt;해당 사이트&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;주요업무
-    &lt;ul&gt;
-      &lt;li&gt;파이썬을 활용해서 텍스트 마이닝, RPA, AI/ML 알고리즘을 활용한 예측 모델링 및 학습모델 구현&lt;/li&gt;
-      &lt;li&gt;파이썬을 활용해서 데이터 분석을 위한 데이터 핸들링(전처리) 및 분석 수행&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;자격 및 우대사항
-    &lt;ul&gt;
-      &lt;li&gt;파이썬을 활용한 개발 프로젝트 경험자&lt;/li&gt;
-      &lt;li&gt;데이터 분석(Pandas), 데이터 시각화(matplotlib), 텍스트마이닝, 머신러닝 등을 수행하기 위한 라이브러리 사용경험&lt;/li&gt;
-      &lt;li&gt;데이터 분석에 필요한 SQL, 웹프로그래밍을 위한 CSS, 자바스크립트 등에 대한 이해가 높으신 분&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;근무조건
-    &lt;ul&gt;
-      &lt;li&gt;근무시간: 주 5일제, 10 to 7 (오전 8시~10시 사이 자율출근)&lt;/li&gt;
-      &lt;li&gt;급여수준: 면접 후 상호협의 (4대보험 포함)&lt;/li&gt;
-      &lt;li&gt;근무형태: 정규직/인턴&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;채용절차
-    &lt;ul&gt;
-      &lt;li&gt;서류 전형 &amp;gt; 면접 &amp;gt; 처우 협의 &amp;gt; 입사&lt;/li&gt;
-      &lt;li&gt;지원서류: 필수 이력서, 자기소개서(경력기술서), 포트폴리오&lt;/li&gt;
-      &lt;li&gt;지원방법: 지원서류 첨부 후, recruit@acmelab.kr으로 제출&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;구체적인-사전-테스트&quot;&gt;구체적인 사전 테스트&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.acmelab.co.kr/783dd19e-f629-4c87-8a73-244bdb2268d7&quot;&gt;해당 사이트&lt;/a&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;텍스트 마이닝을 활용한 뉴스레터&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;배경 및 니즈
-        &lt;ul&gt;
-          &lt;li&gt;회사에는 컨텐츠 제작자, 마케터, 엠디 등 다양한 직군이 있고, 당사가 취급하는 자사 제품(화장품) 뿐만 아니라 브랜드 파트너(건강식품, 농산물 등)도 가지고 있으며, 이를 라이브 커머스 뿐만 아니라 이커머스 플랫폼을 활용해서 판매 활동을 진행함.&lt;/li&gt;
-          &lt;li&gt;즉, 다양한 직군의 사람들이 다양한 영역에 대해서 관심를 가지고 있으며, 각 트랜드를 명확하게 파악하고 실행하는 것이 개인의 성과에 직접적인 영향을 준다고 볼 수 있음.&lt;/li&gt;
-          &lt;li&gt;이를 위한 뉴스레터를 텍스트 마이닝을 활용해서 주기적(매일) 회사 구성원들과 파트너에게 공급하고 싶습니다.&lt;/li&gt;
-          &lt;li&gt;이를 위한 파이썬 프로그램을 해주세요.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;제약조건
-        &lt;ul&gt;
-          &lt;li&gt;주요 키워드는 회사의 구성원들이 넣을 수 있어야 함.&lt;/li&gt;
-          &lt;li&gt;회사 구성원들을 포함한 구독자들의 구독율이 해당 정보에 대한 피드백으로 인지되었으면 하고, 이를 반영해서 구독율이 높은 영역의 뉴스가 더 많이, 더 깊게 다뤄졌으면 하며, 그렇지 않은 주제는 많이 다뤄질 필요는 없어 보임.&lt;/li&gt;
-          &lt;li&gt;한국어의 특성에 따라 해당 키워드가 있는 뉴스를 클리핑 해온다는게 무의미한 경우가 있음. 이를 해결할 수 있는 방안이 필요함.&lt;/li&gt;
-          &lt;li&gt;뉴스레터를 읽기 편한 모델로 만들어서 배포 해주었으면 함.&lt;/li&gt;
-          &lt;li&gt;퍼블리싱은 노션을 통한 퍼블리싱이었으면 함. 그외 이메일 및 슬랙 notification이 되었으면 함.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;인스타그램기반의 가상 인격체(vitual identity)를 성장시킬 수 있는 프로그램 개발&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;배경
-        &lt;ul&gt;
-          &lt;li&gt;인스타그램을 통해서 자사가 관리해야하는 자사 공식 페이지 뿐만 아니라 파트너 페이지가 존재함.&lt;/li&gt;
-          &lt;li&gt;또한 자사는 몇개의 가상의 아이디를 가지고 있음. 이 아이디를 활용해서 자사가 관리하는 자사 및 파트너 인스타그램을 활성화 시키고자 함.
-            &lt;ul&gt;
-              &lt;li&gt;활성화의 정의 : 해당 인스타그램의 좋아요 증가, 댓글 및 공유 증가, 게시물 증가&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;각 아이디는 봇이라는 이미지를 주지 않겠금 하기 위한 다양한 노력이 필요함. 이 노력의 결과로 각 아이디는 특정 아이덴터티를 부여하고 그에 맞는 인스타그램 활동을 진행했으면 함.&lt;/li&gt;
-          &lt;li&gt;이를 진행할 수 있는 파이썬 프로그래밍을 해주세요&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;제약조건
-        &lt;ul&gt;
-          &lt;li&gt;자동로그인 및 대상 페이지에 좋아요를 하는 것은 기본이나, 각 아이디마다의 적절한 인스타그램 활동(게시, 타 페이지의 좋아요, 댓글, 공유 활동)을 하지 않으면 봇으로 간주되어 우리가 키우려고 하는 버츄얼 아이덴터티와는 거리감이 있음&lt;/li&gt;
-          &lt;li&gt;사람이 만들어놓은 게시물을 게시하는 것보다는 기본 이미지, 동영상 repository를 활용해서 게시물을 자동 편집, 게시 할 수 있어야함.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">애크미랩</summary>
       
 
       
