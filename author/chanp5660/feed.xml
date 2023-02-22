@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/author/chanp5660/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-02-21T00:01:41+09:00</updated>
+  <updated>2023-02-22T17:06:57+09:00</updated>
   <id>http://localhost:4000/author/chanp5660/feed.xml</id>
 
   
@@ -30,6 +30,60 @@
   
   
 
+  
+    <entry>
+      <title type="html">Python List</title>
+      <link href="http://localhost:4000/python%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94" rel="alternate" type="text/html" title="Python List" />
+      <published>2023-02-22T00:00:00+09:00</published>
+      <updated>2023-02-22T00:00:00+09:00</updated>
+      <id>http://localhost:4000/python%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94</id>
+      <content type="html" xml:base="http://localhost:4000/python%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94">&lt;h1 id=&quot;python-용어정리&quot;&gt;Python 용어정리&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;필요한 정도까지만 포스팅(시간이 오래걸림)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;포스팅-됨&quot;&gt;포스팅 됨&lt;/h2&gt;
+
+&lt;h2 id=&quot;포스팀-안됨&quot;&gt;포스팀 안됨&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;이동하면서 볼 수 있도록 공부할만한 사이트 링크 걸어둔다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://velog.io/@hyunicecream/GridSearchCV란-어떻게-사용할까&quot;&gt;GridSearchCV&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://inuplace.tistory.com/516&quot;&gt;SDGClassifier&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wikidocs.net/43332&quot;&gt;train_test_split&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="programing" />
+      
+        <category term="python" />
+      
+
+      
+        <summary type="html">Python 용어정리</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">TIL-액션파워</title>
@@ -1118,72 +1172,6 @@ AI 솔루션 기업 ‘강세’
 
       
         <summary type="html">비즈데이터</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">AI List</title>
-      <link href="http://localhost:4000/AI%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94" rel="alternate" type="text/html" title="AI List" />
-      <published>2023-02-13T00:00:00+09:00</published>
-      <updated>2023-02-13T00:00:00+09:00</updated>
-      <id>http://localhost:4000/AI%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94</id>
-      <content type="html" xml:base="http://localhost:4000/AI%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94">&lt;h1 id=&quot;ai-용어정리&quot;&gt;AI 용어정리&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;필요한 용어 정리는 한번 하자&lt;br /&gt;
-필요한 정보까지만 포스팅하자 ( 깊게 하려니 너무 오래 걸린다. )
-차근차근 하자&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;포스팅-됨&quot;&gt;포스팅 됨&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/서포트벡터머신(SVM)&quot;&gt;서포트벡터머신(SVM)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/로지스틱회귀&quot;&gt;로지스틱 회귀분석&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/결정경계&quot;&gt;결정경계&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/손실함수&quot;&gt;손실함수&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/선형분류&quot;&gt;선형분류&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;포스팀-안됨&quot;&gt;포스팀 안됨&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;이동하면서 볼 수 있도록 공부할만한 사이트 링크 걸어둔다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://velog.io/@hyunicecream/GridSearchCV란-어떻게-사용할까&quot;&gt;GridSearch&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://076923.github.io/posts/Python-pytorch-12/&quot;&gt;이진분류&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://076923.github.io/posts/Python-pytorch-13/&quot;&gt;다중분류&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://syj9700.tistory.com/38&quot;&gt;소프트맥스 함수&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;&quot;&gt;ML-데이터수집&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="ai" />
-      
-
-      
-        <summary type="html">AI 용어정리</summary>
       
 
       

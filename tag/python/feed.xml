@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
+  <link href="http://localhost:4000/tag/python/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2023-02-22T17:06:57+09:00</updated>
+  <id>http://localhost:4000/tag/python/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">Engineer Chanp5660 | </title>
+  
+
+  
+    <subtitle>박찬</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Python List</title>
+      <link href="http://localhost:4000/python%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94" rel="alternate" type="text/html" title="Python List" />
+      <published>2023-02-22T00:00:00+09:00</published>
+      <updated>2023-02-22T00:00:00+09:00</updated>
+      <id>http://localhost:4000/python%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94</id>
+      <content type="html" xml:base="http://localhost:4000/python%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94">&lt;h1 id=&quot;python-용어정리&quot;&gt;Python 용어정리&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;필요한 정도까지만 포스팅(시간이 오래걸림)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;포스팅-됨&quot;&gt;포스팅 됨&lt;/h2&gt;
+
+&lt;h2 id=&quot;포스팀-안됨&quot;&gt;포스팀 안됨&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;이동하면서 볼 수 있도록 공부할만한 사이트 링크 걸어둔다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://velog.io/@hyunicecream/GridSearchCV란-어떻게-사용할까&quot;&gt;GridSearchCV&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://inuplace.tistory.com/516&quot;&gt;SDGClassifier&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wikidocs.net/43332&quot;&gt;train_test_split&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="programing" />
+      
+        <category term="python" />
+      
+
+      
+        <summary type="html">Python 용어정리</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
