@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/exitem/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-02-22T17:06:57+09:00</updated>
+  <updated>2023-02-23T22:16:48+09:00</updated>
   <id>http://localhost:4000/tag/exitem/feed.xml</id>
 
   
@@ -30,6 +30,210 @@
   
   
 
+  
+    <entry>
+      <title type="html">TIL-엔텔스</title>
+      <link href="http://localhost:4000/TIL-%EC%97%94%ED%85%94%EC%8A%A4" rel="alternate" type="text/html" title="TIL-엔텔스" />
+      <published>2023-02-23T00:00:00+09:00</published>
+      <updated>2023-02-23T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-%EC%97%94%ED%85%94%EC%8A%A4</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-%EC%97%94%ED%85%94%EC%8A%A4">&lt;h1 id=&quot;엔텔스&quot;&gt;엔텔스&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;확장되고 있는 회사&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;에너지를 관리 하는 느낌으로 아이디어를 가지고 있지만 실제로 서비스의 종류는 굉장히 많다.(통신, IoT 및 에너지 / 제조 산업분야) 우선 기초 데이터 관리까지는 다 통일 되겠지만 어떻게 분석 및 서비스 하는지에 따라 굉장히 분야가 다양하다. 아마 사원수가 많아서 관리가 되는 듯 하다. 이미 잡혀있어 각자의 분야가 잡혀있어 하나의 전문일을 할 수 있을 듯하지만 SI(시스템 통합)인원으로 책정되어 있어 확인할 수 없다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;엔텔스-1&quot;&gt;엔텔스&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.ntels.com/ir/&quot;&gt;공식 사이트 참조&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2000년 7월 19일 설립(업력24년차)&lt;/li&gt;
+  &lt;li&gt;사원수 : 209명(2022.12 기준)
+    &lt;ul&gt;
+      &lt;li&gt;입사자의 수보다 퇴사자의 수가 늘고 있음&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;엔텔스는 Creative Convergence라는 비전을 통해 IoT, Cloud, Bigdata, Industry 4.0등 컨버전스가 만들어내는 기회를 고객이 사업화로 연결하도록 도와주는 토털 컨버전스 솔루션을 제공합니다.
+    &lt;ul&gt;
+      &lt;li&gt;통신 분야 솔루션 리더로 성장&lt;/li&gt;
+      &lt;li&gt;다양한 분야로의 도전, 컨버전스 사업 확장&lt;/li&gt;
+      &lt;li&gt;IoT 및 에너지 / 제조 산업분야의 컨버전스 사업 확장&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://comp.fnguide.com/SVO2/ASP/SVD_Finance.asp?pGB=1&amp;amp;gicode=A069410&amp;amp;cID=&amp;amp;MenuYn=Y&amp;amp;ReportGB=&amp;amp;NewMenuID=103&amp;amp;stkGb=701&quot;&gt;재무제표&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;span style=&quot;color:blue&quot;&gt;매출은 조금씩 성장하는 것에 비해 순이익은 전년 대비 매우 감소했다. 유동 자산이 많고 비유동자산이 적어 임금의 문제는 적을 것으로 예상되지만 그에 비해 부채가 적어 회사의 돈이 제대로 굴러가고 있는지 확인 할 수 없다. 부채의 비율은 계속 줄어든다. 투자가 줄어드는 시기이긴하다. 그래서 현금흐름표에서 투자활동으로 인한 유입이 적지 않은 것으로 판단된다. 물론… 유출액도 적지 않다.&lt;/span&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;크게-4개의-서비스-제공&quot;&gt;크게 4개의 서비스 제공&lt;/h1&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- ENERGY
+    - 에너지 경영을 위한 관리
+    - 전력 사업에 특화된 BSS
+    - 에너지 데이터 분석
+    - **IoT Platform, EMS Power BSS, Energy Data Algorithm**을 기반으로 에너지 관리와 에너지 거래를 위한 비지니스 솔루션을 제공하고 있습니다.
+- Smart City
+    - 안전 및 방재 관리
+    - 도시 환경 최적화
+    - 지속 가능성 제고
+    - 도시 에너지 서비스
+    - 도시 환경 관리 및 교통 서비스
+    - 범죄 예방 / 안전
+- Telecommunications
+    - 국제 표준 규격 준수
+    - 최적화된 네트워크
+    - 시장 변화에 대한 민첩성
+    - 5G &amp;amp; LTE
+    - 가상화 &amp;amp; 클라우드
+    - 운영 지원(OSS)
+- Manufacturing
+    - 지능형 인명 및 자산 안전 관리
+    - 공장 운영 최적화 자산 관리
+    - 에너지 데이터 분석
+    - 산업 안전 관리
+    - 설비 및 장비 관리
+    - 에너지 관리
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;연혁&quot;&gt;연혁&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2012
+    &lt;ul&gt;
+      &lt;li&gt;12년 선도벤처연계 창업지원사업 (선도기업선정)&lt;br /&gt;
+  선도벤처 보육기업 3팀 “더누보, 모코플렉스, 바인트리”&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2013
+    &lt;ul&gt;
+      &lt;li&gt;13년 선도벤처연계 창업지원사업 (선도기업선정)&lt;br /&gt;
+  선도벤처 보육기업 2팀 “두나무, 제트플러스”, 계속사업 보육 기업 2팀 “모코틀렉스, 바인트리”&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2014
+    &lt;ul&gt;
+      &lt;li&gt;14년 선도벤처연계 창업지원사업 (선도기업선정)&lt;br /&gt;
+  선도벤처 보육기업 2팀 “라임코어, 헥사우스”&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2015
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;팁스프로그램 3기 운영사 선정&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;15년 팁스프로그램&lt;br /&gt;
+  창업팀 팁스프로그램 선정 3기업 “티앤알바이오팹, 퍼릭스, 브랜디”&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;15년 선도벤처연계 창업지원사업 (선도기업선정)&lt;br /&gt;
+  선도벤처 보육기업 1팀 “다르마”&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;15년 투자연계형기업성장R&amp;amp;D지원사업 (주관기관선정)&lt;br /&gt;
+  창업팀 6기업 선정 “펀다, 임플릿, 선의의경쟁, 데이코어, 크레딧데이터, 이피플래닛”&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2016
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;TECHSEED 플랫폼 창단 (1기) 운영&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;16년 팁스프로그램&lt;br /&gt;
+  창업팀 팁스프로그램 선정 3기업 “데이코어, 실리콘사피엔스, 마이쿤”
+  엔텔스 Startup Value-up 1호 개인투자조합 결성 (한국모태펀드)&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;16년 투자연계형기업성장R&amp;amp;D지원사업 (주관기관선정)
+  창업팀 2기업 선정 “인텔리퀀트, 나무”&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;16년 엑셀러레이터 연계지원사업 (주관기관선정)- 서울, 인천창조경제혁신센터
+  보육기업 4팀 선정 “스마프, 태주산업, 피트”&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;16년 선도벤처연계 창업지원사업 (선도기업선정)
+  선도벤처 계속 사업 보육 1팀 “노바테크”&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2017
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;TECHSEED 2기 운영&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;17년 팁스프로그램
+  창업팀 팁스프로그램 6기업 선정 “해빗팩토리, 칸필터, 하프스, 엠티이지, 딥브레인, 네이처코스텍”&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;-17년 엑셀러레이터 연계지원사업 (참여기관선정)- 대전, 인천창조경제혁신센터
+  보육기업 4팀 선정 “인프로, 칸필터, 네이처코스텍, 마이모바일”&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;17년 투자연계형기업성장R&amp;amp;D지원사업 (주관기관선정)
+  창업팀 1팀 “실리콘사피엔스” 선정&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;17년 선도벤처연계 창업지원사업 (선도기업선정)
+  선도벤처 보육기업 2팀 “유엑스팩토리, 알루머”&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2018
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;TECHSEED 3기 운영&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;18년 팁스프로그램
+  창업팀 팁스프로그램 선정 “인더코어비즈니스플랫폼”
+  창업팀 팁스프로그램 선정 “오르비스에이아이”
+  창업팀 팁스프로그램 선정 “이엔셀”
+  9월까지 총 33개의 창업팀에 투자, 5개의 기업 Exited&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">엔텔스</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">TIL-액션파워</title>
@@ -2047,89 +2251,6 @@ AI 솔루션 기업 ‘강세’
 
       
         <summary type="html">한국해양기상기술</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">TIL-에이아이스페라</title>
-      <link href="http://localhost:4000/TIL-aispera" rel="alternate" type="text/html" title="TIL-에이아이스페라" />
-      <published>2023-02-10T00:00:00+09:00</published>
-      <updated>2023-02-10T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-aispera</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-aispera">&lt;h1 id=&quot;에이아이스페라&quot;&gt;에이아이스페라&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;섬세함하고 분위기가 좋은 느낌&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;사원들 사이의 분위기가 좋을 것 같다는 생각이 든다. 특히 모든 업무는 서면으로 한다는 것이 서로의 오해를 줄이려는 고민으로 보여 섬세함이 보이는 부분이었다. 멘토멘티가 어떻게 작용하는지 모르겠지만 본인의 업무를 발전 시킬 수 있는 기회도 보이는 것 같아 섬세함이 감동인 느낌이다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;에이아이스페라ai-spera-기본-정보&quot;&gt;에이아이스페라(AI Spera) 기본 정보&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.aispera.com/company?page=ceo&quot;&gt;공식 사이트 참조&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;연혁&quot;&gt;연혁&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.aispera.com/company?page=ceo&quot;&gt;사이트&lt;/a&gt; (엄청 길다. 궁금하면 차근차근 읽어보는 것도 대단하다고 느껴짐. 미국, 일본까지 진출한 기업, 다수의 국내 주식회사와의 파트너)&lt;/p&gt;
-
-&lt;h2 id=&quot;사이트-주요-상품&quot;&gt;사이트 주요 상품&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;머신러닝, 부정탐지 기술이 집약된 사이버 위협 인텔리전스 제품들로 사용중인 플랫폼과 비즈니스에 적용하거나, 니즈에 맞게 커스터마이징하여 손쉽게 사용할 수 있습니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.aispera.com/products?product=cip&quot;&gt;Criminal IP&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;전세계 IP 주소에 대한 사이버 위협 인텔리전스(Cyver Threat Intelligence, CTI) 정보를 제공하는 검색엔진 서비스&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.aispera.com/products?product=asm&quot;&gt;Criminal IP ASM&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;사이버 위협 인텔리전스 기반의 IT 위협 탐지 기업 공격표면관리 자동화 솔루션&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.aispera.com/products?product=mis&quot;&gt;The Minsim&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;자연어 분석 기술을 통한 커뮤니티 분석으로 비즈니스 동향을 모니터링하는 서비스&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.aispera.com/products?product=fa&quot;&gt;Fraud Account&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;자연어처리를 통한 커뮤니티 사기 글 수집으로 금융거래사기 및 이상거래를 탐지하는 서비스&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.aispera.com/products?product=pit&quot;&gt;Pitection&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;인공지능 자동 모니터링으로 전 세계 불법서버, 저작권 위반 서버 및 불법프로그램 유포 사이트를 탐지하는 저작권 침해 탐지 서비스&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">에이아이스페라</summary>
       
 
       

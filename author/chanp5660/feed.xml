@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/author/chanp5660/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-02-22T17:06:57+09:00</updated>
+  <updated>2023-02-23T22:16:48+09:00</updated>
   <id>http://localhost:4000/author/chanp5660/feed.xml</id>
 
   
@@ -32,6 +32,210 @@
 
   
     <entry>
+      <title type="html">TIL-엔텔스</title>
+      <link href="http://localhost:4000/TIL-%EC%97%94%ED%85%94%EC%8A%A4" rel="alternate" type="text/html" title="TIL-엔텔스" />
+      <published>2023-02-23T00:00:00+09:00</published>
+      <updated>2023-02-23T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-%EC%97%94%ED%85%94%EC%8A%A4</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-%EC%97%94%ED%85%94%EC%8A%A4">&lt;h1 id=&quot;엔텔스&quot;&gt;엔텔스&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;확장되고 있는 회사&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;에너지를 관리 하는 느낌으로 아이디어를 가지고 있지만 실제로 서비스의 종류는 굉장히 많다.(통신, IoT 및 에너지 / 제조 산업분야) 우선 기초 데이터 관리까지는 다 통일 되겠지만 어떻게 분석 및 서비스 하는지에 따라 굉장히 분야가 다양하다. 아마 사원수가 많아서 관리가 되는 듯 하다. 이미 잡혀있어 각자의 분야가 잡혀있어 하나의 전문일을 할 수 있을 듯하지만 SI(시스템 통합)인원으로 책정되어 있어 확인할 수 없다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;엔텔스-1&quot;&gt;엔텔스&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.ntels.com/ir/&quot;&gt;공식 사이트 참조&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2000년 7월 19일 설립(업력24년차)&lt;/li&gt;
+  &lt;li&gt;사원수 : 209명(2022.12 기준)
+    &lt;ul&gt;
+      &lt;li&gt;입사자의 수보다 퇴사자의 수가 늘고 있음&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;엔텔스는 Creative Convergence라는 비전을 통해 IoT, Cloud, Bigdata, Industry 4.0등 컨버전스가 만들어내는 기회를 고객이 사업화로 연결하도록 도와주는 토털 컨버전스 솔루션을 제공합니다.
+    &lt;ul&gt;
+      &lt;li&gt;통신 분야 솔루션 리더로 성장&lt;/li&gt;
+      &lt;li&gt;다양한 분야로의 도전, 컨버전스 사업 확장&lt;/li&gt;
+      &lt;li&gt;IoT 및 에너지 / 제조 산업분야의 컨버전스 사업 확장&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://comp.fnguide.com/SVO2/ASP/SVD_Finance.asp?pGB=1&amp;amp;gicode=A069410&amp;amp;cID=&amp;amp;MenuYn=Y&amp;amp;ReportGB=&amp;amp;NewMenuID=103&amp;amp;stkGb=701&quot;&gt;재무제표&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;span style=&quot;color:blue&quot;&gt;매출은 조금씩 성장하는 것에 비해 순이익은 전년 대비 매우 감소했다. 유동 자산이 많고 비유동자산이 적어 임금의 문제는 적을 것으로 예상되지만 그에 비해 부채가 적어 회사의 돈이 제대로 굴러가고 있는지 확인 할 수 없다. 부채의 비율은 계속 줄어든다. 투자가 줄어드는 시기이긴하다. 그래서 현금흐름표에서 투자활동으로 인한 유입이 적지 않은 것으로 판단된다. 물론… 유출액도 적지 않다.&lt;/span&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;크게-4개의-서비스-제공&quot;&gt;크게 4개의 서비스 제공&lt;/h1&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- ENERGY
+    - 에너지 경영을 위한 관리
+    - 전력 사업에 특화된 BSS
+    - 에너지 데이터 분석
+    - **IoT Platform, EMS Power BSS, Energy Data Algorithm**을 기반으로 에너지 관리와 에너지 거래를 위한 비지니스 솔루션을 제공하고 있습니다.
+- Smart City
+    - 안전 및 방재 관리
+    - 도시 환경 최적화
+    - 지속 가능성 제고
+    - 도시 에너지 서비스
+    - 도시 환경 관리 및 교통 서비스
+    - 범죄 예방 / 안전
+- Telecommunications
+    - 국제 표준 규격 준수
+    - 최적화된 네트워크
+    - 시장 변화에 대한 민첩성
+    - 5G &amp;amp; LTE
+    - 가상화 &amp;amp; 클라우드
+    - 운영 지원(OSS)
+- Manufacturing
+    - 지능형 인명 및 자산 안전 관리
+    - 공장 운영 최적화 자산 관리
+    - 에너지 데이터 분석
+    - 산업 안전 관리
+    - 설비 및 장비 관리
+    - 에너지 관리
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;연혁&quot;&gt;연혁&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2012
+    &lt;ul&gt;
+      &lt;li&gt;12년 선도벤처연계 창업지원사업 (선도기업선정)&lt;br /&gt;
+  선도벤처 보육기업 3팀 “더누보, 모코플렉스, 바인트리”&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2013
+    &lt;ul&gt;
+      &lt;li&gt;13년 선도벤처연계 창업지원사업 (선도기업선정)&lt;br /&gt;
+  선도벤처 보육기업 2팀 “두나무, 제트플러스”, 계속사업 보육 기업 2팀 “모코틀렉스, 바인트리”&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2014
+    &lt;ul&gt;
+      &lt;li&gt;14년 선도벤처연계 창업지원사업 (선도기업선정)&lt;br /&gt;
+  선도벤처 보육기업 2팀 “라임코어, 헥사우스”&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2015
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;팁스프로그램 3기 운영사 선정&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;15년 팁스프로그램&lt;br /&gt;
+  창업팀 팁스프로그램 선정 3기업 “티앤알바이오팹, 퍼릭스, 브랜디”&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;15년 선도벤처연계 창업지원사업 (선도기업선정)&lt;br /&gt;
+  선도벤처 보육기업 1팀 “다르마”&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;15년 투자연계형기업성장R&amp;amp;D지원사업 (주관기관선정)&lt;br /&gt;
+  창업팀 6기업 선정 “펀다, 임플릿, 선의의경쟁, 데이코어, 크레딧데이터, 이피플래닛”&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2016
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;TECHSEED 플랫폼 창단 (1기) 운영&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;16년 팁스프로그램&lt;br /&gt;
+  창업팀 팁스프로그램 선정 3기업 “데이코어, 실리콘사피엔스, 마이쿤”
+  엔텔스 Startup Value-up 1호 개인투자조합 결성 (한국모태펀드)&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;16년 투자연계형기업성장R&amp;amp;D지원사업 (주관기관선정)
+  창업팀 2기업 선정 “인텔리퀀트, 나무”&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;16년 엑셀러레이터 연계지원사업 (주관기관선정)- 서울, 인천창조경제혁신센터
+  보육기업 4팀 선정 “스마프, 태주산업, 피트”&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;16년 선도벤처연계 창업지원사업 (선도기업선정)
+  선도벤처 계속 사업 보육 1팀 “노바테크”&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2017
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;TECHSEED 2기 운영&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;17년 팁스프로그램
+  창업팀 팁스프로그램 6기업 선정 “해빗팩토리, 칸필터, 하프스, 엠티이지, 딥브레인, 네이처코스텍”&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;-17년 엑셀러레이터 연계지원사업 (참여기관선정)- 대전, 인천창조경제혁신센터
+  보육기업 4팀 선정 “인프로, 칸필터, 네이처코스텍, 마이모바일”&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;17년 투자연계형기업성장R&amp;amp;D지원사업 (주관기관선정)
+  창업팀 1팀 “실리콘사피엔스” 선정&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;17년 선도벤처연계 창업지원사업 (선도기업선정)
+  선도벤처 보육기업 2팀 “유엑스팩토리, 알루머”&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2018
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;TECHSEED 3기 운영&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;18년 팁스프로그램
+  창업팀 팁스프로그램 선정 “인더코어비즈니스플랫폼”
+  창업팀 팁스프로그램 선정 “오르비스에이아이”
+  창업팀 팁스프로그램 선정 “이엔셀”
+  9월까지 총 33개의 창업팀에 투자, 5개의 기업 Exited&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">엔텔스</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">Python List</title>
       <link href="http://localhost:4000/python%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94" rel="alternate" type="text/html" title="Python List" />
       <published>2023-02-22T00:00:00+09:00</published>
@@ -52,6 +256,7 @@
 &lt;/blockquote&gt;
 
 &lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://velog.io/@gayeon/데이터-분석-초보자를-위한-Logistic-Regression-with-Scikit-Learn&quot;&gt;LogisticRegression&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://velog.io/@hyunicecream/GridSearchCV란-어떻게-사용할까&quot;&gt;GridSearchCV&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://inuplace.tistory.com/516&quot;&gt;SDGClassifier&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://wikidocs.net/43332&quot;&gt;train_test_split&lt;/a&gt;&lt;/li&gt;
@@ -1090,88 +1295,6 @@ AI 솔루션 기업 ‘강세’
 
       
         <summary type="html">아크릴</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">TIL-비즈데이터</title>
-      <link href="http://localhost:4000/TIL-%EB%B9%84%EC%A6%88%EB%8D%B0%EC%9D%B4%ED%84%B0" rel="alternate" type="text/html" title="TIL-비즈데이터" />
-      <published>2023-02-13T00:00:00+09:00</published>
-      <updated>2023-02-13T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-%EB%B9%84%EC%A6%88%EB%8D%B0%EC%9D%B4%ED%84%B0</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-%EB%B9%84%EC%A6%88%EB%8D%B0%EC%9D%B4%ED%84%B0">&lt;h1 id=&quot;비즈데이터&quot;&gt;비즈데이터&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;시스템이 체계적으로 잘 되어 있어 굉장히 안정적이다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;사이트에 정리해놓은 연혁, 조직도, 프로젝트, 기술 등을 보고 들어가서 단지 빈자리를 매꾸는 것이 아닌 하나의 기술직을 맡아 일을 하는 것 같아 나와 회사 모두의 발전이 보이는 것 같다. 그리고 많은 협력사가 존재하고 이 회사를 믿고 맡기고 있는지 느껴지고 공기업도 있는 것 같아 믿음이 간다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;비즈데이터-기본-정보&quot;&gt;비즈데이터 기본 정보&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.saramin.co.kr/zf_user/company-info/view/csn/VTF3ZWw0ZHV4MDJ4b1BJdkE4b0NHUT09/company_nm/(주)비즈데이터&quot;&gt;사람인 참조&lt;/a&gt; 와 &lt;a href=&quot;http://bizdata.kr/&quot;&gt;공식 사이트 참조&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2014년 5월 26일 설립 ( 10년차 )&lt;/li&gt;
-  &lt;li&gt;기업형태 : 중소기업&lt;/li&gt;
-  &lt;li&gt;사원수: 71명(2022.12월 기준)
-    &lt;ul&gt;
-      &lt;li&gt;&lt;span style=&quot;color:blue&quot;&gt;입사자 수에 비해 퇴사자 수가 적은 것은 꽤 안정적으로 크고 있는 것 같다.&lt;/span&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;솔루션을 기반으로 환경, 비즈니스 인텔리전스, 스마트공장, 컨설팅 분야에서 서비스를 제공하고 있습니다.&lt;/li&gt;
-  &lt;li&gt;GI(Green Intelligence) : 비즈데이터의 자율운영 플랫폼을 기반으로 상수, 하수 등의 환경분야에서 AI기반의 자율운영 서비스를 제공합니다.&lt;/li&gt;
-  &lt;li&gt;BI(Businuess Intelligence) : 최신 데이터에 기반한 기업경영활동이 이루어질 수 있도록 통합 빅데이터 플랫폼을 기반으로 비즈니스 분석 서비스를 제공합니다.&lt;/li&gt;
-  &lt;li&gt;스마트 팩토리 : 생산관련 데이터를 실시간으로 수집 분석하여 데이터 기반으로 공장경여관리를 디지털화 할 수 있도록 스마트 공장을 구축합니다.&lt;/li&gt;
-  &lt;li&gt;컨설팅 : 데이터에 기반하여 기업이 성장할 수 있도록 산업전문가, 공공협력채널, 경영분석 전문가들이 협업하여 컨설팅 서비스를 제공합니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;연혁&quot;&gt;연혁&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://bizdata.kr/40&quot;&gt;공식 사이트&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;프로젝트&quot;&gt;프로젝트&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://bizdata.kr/41&quot;&gt;공식 사이트&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;span style=&quot;color:blue&quot;&gt; 자연, 주변 등의 다양한 도메인을 다루는게 느껴진다.&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;조직도&quot;&gt;조직도&lt;/h1&gt;
-
-&lt;p&gt;&lt;img alt=&quot;회사조직도&quot; src=&quot;https://user-images.githubusercontent.com/46266247/218439814-ee61f971-6b0a-40a8-aa75-61626958c951.png&quot; width=&quot;100%&quot; height=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;span style=&quot;color:blue&quot;&gt;기술 수준의 비율을 맞추려고 노력하는 모습으로 보이며 앞으로의 기술직의 부족은 없다고 생각된다. 굉장히 안정적이다.&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">비즈데이터</summary>
       
 
       
