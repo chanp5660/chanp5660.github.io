@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/ai/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-02-25T11:54:12+09:00</updated>
+  <updated>2023-02-25T21:21:25+09:00</updated>
   <id>http://localhost:4000/tag/ai/feed.xml</id>
 
   
@@ -326,7 +326,12 @@
   &lt;li&gt;&lt;a href=&quot;https://m.blog.naver.com/muzzincys/220201299384&quot;&gt;bagging;bootstrap aggregating&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;[boosting]&lt;/li&gt;
   &lt;li&gt;[out-of-bag]&lt;/li&gt;
-  &lt;li&gt;[앙상블;ensemble]&lt;/li&gt;
+  &lt;li&gt;[앙상블;ensemble]
+    &lt;ul&gt;
+      &lt;li&gt;[adaboosting]&lt;/li&gt;
+      &lt;li&gt;[Gradient Boosting]&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
   &lt;li&gt;[ROC AUC]&lt;/li&gt;
 &lt;/ul&gt;</content>
 
