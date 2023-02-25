@@ -8,6 +8,36 @@
     
       
       <item>
+        <title>지도학습</title>
+        
+          <description>&lt;h1 id=&quot;지도학습-supervised-learning&quot;&gt;지도학습 (Supervised Learning)&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Sat, 25 Feb 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5</link>
+        <guid isPermaLink="true">http://localhost:4000/%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Machine Learning</title>
+        
+          <description>&lt;h1 id=&quot;머신러닝machine-learning&quot;&gt;머신러닝(Machine Learning)&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Sat, 25 Feb 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/Machine-Learning</link>
+        <guid isPermaLink="true">http://localhost:4000/Machine-Learning</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>TIL-웨인힐스벤처스</title>
         
           <description>&lt;h1 id=&quot;웨인힐스벤처스&quot;&gt;웨인힐스벤처스&lt;/h1&gt;
@@ -205,7 +235,7 @@
       <item>
         <title>AI List</title>
         
-          <description>&lt;h1 id=&quot;ai-용어정리&quot;&gt;AI 용어정리&lt;/h1&gt;
+          <description>&lt;h1 id=&quot;ai-용어-리스트&quot;&gt;AI 용어 리스트&lt;/h1&gt;
 
 </description>
         
@@ -258,21 +288,6 @@
         <link>
         http://localhost:4000/%EB%82%B4%EC%A0%81%EC%97%B0%EC%82%B0</link>
         <guid isPermaLink="true">http://localhost:4000/%EB%82%B4%EC%A0%81%EC%97%B0%EC%82%B0</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>머신러닝학습방법</title>
-        
-          <description>&lt;h1 id=&quot;머신러닝-학습방법&quot;&gt;머신러닝 학습방법&lt;/h1&gt;
-
-</description>
-        
-        <pubDate>Sun, 12 Feb 2023 00:00:00 +0900</pubDate>
-        <link>
-        http://localhost:4000/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95</link>
-        <guid isPermaLink="true">http://localhost:4000/ML%ED%95%99%EC%8A%B5%EB%B0%A9%EB%B2%95</guid>
       </item>
       
     
