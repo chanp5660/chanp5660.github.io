@@ -4,9 +4,9 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
-        <loc>http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EC%B2%98%EB%A6%AC.html</loc>
+        <loc>http://localhost:4000/%EB%B6%84%EC%88%98%EC%9D%98%EB%8D%A7%EC%85%88.html</loc>
         
-        <lastmod>2023-02-27T00:00:00+09:00</lastmod>
+        <lastmod>2023-02-28T00:00:00+09:00</lastmod>
         
 
         
@@ -20,7 +20,87 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EC%95%95%EC%B6%95.html</loc>
+        <loc>http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%ED%9A%8C%EC%A0%84.html</loc>
+        
+        <lastmod>2023-02-28T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/math-gcd.html</loc>
+        
+        <lastmod>2023-02-28T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/fractions-Fraction.html</loc>
+        
+        <lastmod>2023-02-28T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/%EA%B3%84%ED%9A%8D%EC%A7%84%ED%96%89%EB%82%B4%EC%9A%A9.html</loc>
+        
+        <lastmod>2023-02-28T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/TIL-%EB%AA%A8%EB%93%88-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC.html</loc>
+        
+        <lastmod>2023-02-28T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EC%B2%98%EB%A6%AC.html</loc>
         
         <lastmod>2023-02-27T00:00:00+09:00</lastmod>
         
@@ -69,6 +149,22 @@
     
     <url>
         <loc>http://localhost:4000/CodingTestList.html</loc>
+        
+        <lastmod>2023-02-27T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EC%95%95%EC%B6%95.html</loc>
         
         <lastmod>2023-02-27T00:00:00+09:00</lastmod>
         
@@ -180,7 +276,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/python%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94.html</loc>
+        <loc>http://localhost:4000/Python-List.html</loc>
         
         <lastmod>2023-02-22T00:00:00+09:00</lastmod>
         
@@ -356,7 +452,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/AI%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94.html</loc>
+        <loc>http://localhost:4000/AI-List.html</loc>
         
         <lastmod>2023-02-13T00:00:00+09:00</lastmod>
         
@@ -565,22 +661,6 @@
     
     <url>
         <loc>http://localhost:4000/%ED%86%A0%ED%94%BD%EB%B6%84%EB%A5%98(%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%B9%B4%EC%9D%B8%EC%A6%88_%ED%8A%B8%EC%9C%84%ED%84%B0).html</loc>
-        
-        <lastmod>2023-02-07T14:00:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/programing_test.html</loc>
         
         <lastmod>2023-02-07T14:00:00+09:00</lastmod>
         

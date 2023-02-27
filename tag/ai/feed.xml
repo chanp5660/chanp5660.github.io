@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/ai/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-02-27T23:54:25+09:00</updated>
+  <updated>2023-02-28T02:52:14+09:00</updated>
   <id>http://localhost:4000/tag/ai/feed.xml</id>
 
   
@@ -793,11 +793,11 @@
   
     <entry>
       <title type="html">AI List</title>
-      <link href="http://localhost:4000/AI%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94" rel="alternate" type="text/html" title="AI List" />
+      <link href="http://localhost:4000/AI-List" rel="alternate" type="text/html" title="AI List" />
       <published>2023-02-13T00:00:00+09:00</published>
       <updated>2023-02-13T00:00:00+09:00</updated>
-      <id>http://localhost:4000/AI%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94</id>
-      <content type="html" xml:base="http://localhost:4000/AI%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94">&lt;h1 id=&quot;ai-목차&quot;&gt;AI 목차&lt;/h1&gt;
+      <id>http://localhost:4000/AI%20List</id>
+      <content type="html" xml:base="http://localhost:4000/AI-List">&lt;h1 id=&quot;ai-목차&quot;&gt;AI 목차&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/지도학습&quot;&gt;지도 학습 (Supervised Learning)&lt;/a&gt;
