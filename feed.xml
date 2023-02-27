@@ -1,4 +1,96 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-25T23:55:42+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">Machine Learning</title><link href="http://localhost:4000/Machine-Learning" rel="alternate" type="text/html" title="Machine Learning" /><published>2023-02-25T00:00:00+09:00</published><updated>2023-02-25T00:00:00+09:00</updated><id>http://localhost:4000/Machine%20Learning</id><content type="html" xml:base="http://localhost:4000/Machine-Learning">&lt;h1 id=&quot;머신러닝machine-learning&quot;&gt;머신러닝(Machine Learning)&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-27T09:14:22+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">의사결정트리</title><link href="http://localhost:4000/%EC%9D%98%EC%82%AC%EA%B2%B0%EC%A0%95%ED%8A%B8%EB%A6%AC" rel="alternate" type="text/html" title="의사결정트리" /><published>2023-02-26T00:00:00+09:00</published><updated>2023-02-26T00:00:00+09:00</updated><id>http://localhost:4000/%EC%9D%98%EC%82%AC%EA%B2%B0%EC%A0%95%ED%8A%B8%EB%A6%AC</id><content type="html" xml:base="http://localhost:4000/%EC%9D%98%EC%82%AC%EA%B2%B0%EC%A0%95%ED%8A%B8%EB%A6%AC">&lt;h1 id=&quot;의사결정트리-decision-tree&quot;&gt;의사결정트리 (Decision Tree)&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것이며, 하나씩 해결해나가는 느낌으로 ML을 복습 및 검토한다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;의사결정트리-정의&quot;&gt;의사결정트리 정의&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;분류&lt;/strong&gt;(Classification)와 &lt;strong&gt;회귀&lt;/strong&gt;(Regression) 모두에 사용되는 &lt;strong&gt;&lt;a href=&quot;https://chanp5660.github.io/지도학습&quot;&gt;지도학습&lt;/a&gt;&lt;/strong&gt;(Supervised Learning) 알고리즘 중 하나로, 주어진 데이터를 바탕으로 각 데이터의 속성값들을 &lt;strong&gt;특정 규칙&lt;/strong&gt;에 따라 &lt;strong&gt;분류&lt;/strong&gt;하거나 &lt;strong&gt;예측&lt;/strong&gt;하는 모델입니다.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;분류(Classification)&lt;/strong&gt; 문제에서 주로 사용
+    &lt;ul&gt;
+      &lt;li&gt;예를 들어
+        &lt;ul&gt;
+          &lt;li&gt;스팸 메일 필터링에서 “스팸” 또는 “스팸이 아님”으로 분류&lt;/li&gt;
+          &lt;li&gt;환자의 건강 상태를 “양성” 또는 “음성”으로 분류하는 등의 문제에 적용&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;데이터를 여러 조건으로 분류하고, 이를 통해 최종 결과를 도출&lt;/li&gt;
+  &lt;li&gt;분류 과정에서 &lt;strong&gt;각 조건&lt;/strong&gt;의 &lt;strong&gt;가중치&lt;/strong&gt;나 &lt;strong&gt;중요도&lt;/strong&gt;를 계산하여
+    &lt;ul&gt;
+      &lt;li&gt;각 조건의 &lt;strong&gt;중요도&lt;/strong&gt;를 파악&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;모델의 &lt;strong&gt;설명력이 높다&lt;/strong&gt;는 장점
+    &lt;ul&gt;
+      &lt;li&gt;모델의 결과를 해석하기 쉽고&lt;/li&gt;
+      &lt;li&gt;입력 변수의 중요도를 알 수 있어서&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;과적합(Overfitting)의 문제&lt;/strong&gt;가 발생
+    &lt;ul&gt;
+      &lt;li&gt;방지하기 위해 &lt;strong&gt;가지치기(Pruning)&lt;/strong&gt; 등의 방법을 사용&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;의사결정트리-알고리즘-동작-순서&quot;&gt;의사결정트리 알고리즘 동작 순서&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;데이터셋 분할
+    &lt;ul&gt;
+      &lt;li&gt;입력 데이터를 &lt;strong&gt;속성값에 따라&lt;/strong&gt; 여러 개의 &lt;strong&gt;부분 집합&lt;/strong&gt;으로 나눕니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;속성 선택&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;분할된 부분 집합들 중에서 &lt;strong&gt;정보 이득&lt;/strong&gt;(information gain)이 &lt;strong&gt;가장 큰 속성&lt;/strong&gt;을 선택합니다.&lt;/li&gt;
+      &lt;li&gt;정보 이득은 분할 전과 후의 엔트로피 차이를 나타내는 지표입니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;의사결정노드 생성
+    &lt;ul&gt;
+      &lt;li&gt;선택된 속성을 기준으로 &lt;strong&gt;의사결정 노드(decision node)&lt;/strong&gt; 를 생성합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;하위 트리 생성
+    &lt;ul&gt;
+      &lt;li&gt;선택된 &lt;strong&gt;속성값에 따라&lt;/strong&gt; 의사결정 노드 아래에 &lt;strong&gt;하위 트리를 생성&lt;/strong&gt;합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;재귀적으로 반복&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;생성된 하위 트리에 대해서도 위 과정을 반복합니다.&lt;/li&gt;
+      &lt;li&gt;트리의 최상위 루트 노드에서부터 가장 하위 노드까지 도달할 때까지 위 과정을 반복합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;분류-의사결정트리&quot;&gt;분류 의사결정트리&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;데이터의 특징을 기반으로 하나의 규칙 세트를 만들어내는 것&lt;br /&gt;
+즉, 특정 특징들을 분석하여 특정 규칙을 찾아내고 그 규칙에 따라 데이터를 분류&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;데이터셋에서 가장 중요한 특징을 선택합니다. 이를 &lt;strong&gt;기준 특징&lt;/strong&gt;이라고 부릅니다.&lt;/li&gt;
+  &lt;li&gt;기준 특징을 기반으로 하위 데이터셋으로 데이터를 분할합니다.&lt;/li&gt;
+  &lt;li&gt;분할된 하위 데이터셋에서 가장 중요한 특징을 선택합니다. 이를 기준 특징으로 새로운 가지(branch)를 생성합니다.&lt;/li&gt;
+  &lt;li&gt;이러한 분할과 가지 생성을 재귀적으로 반복합니다. 즉, 하위 데이터셋에서 더 이상 분할할 수 없을 때까지 분할을 수행합니다.&lt;/li&gt;
+  &lt;li&gt;분할된 데이터셋의 각 영역은 하나의 클래스에 할당됩니다.&lt;/li&gt;
+  &lt;li&gt;마지막으로, 새로운 데이터가 들어올 때, 분류하기 위해 의사결정트리를 따라가며 최종적으로 해당 데이터가 속한 클래스를 결정합니다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;의사결정트리 분류 알고리즘은 분할하기 위한 최상의 특징을 선택&lt;/li&gt;
+  &lt;li&gt;각 분할에서 최상의 특징을 다시 선택&lt;/li&gt;
+  &lt;li&gt;데이터가 특정 클래스에 속할 확률을 계산하는 방식으로 작동&lt;/li&gt;
+  &lt;li&gt;이를 통해 모델은 분류하기 위해 데이터의 특징을 잘 파악하여, 클래스를 예측하기 위한 최상의 규칙을 생성합니다.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="ai" /><summary type="html">의사결정트리 (Decision Tree)</summary></entry><entry><title type="html">Machine Learning</title><link href="http://localhost:4000/Machine-Learning" rel="alternate" type="text/html" title="Machine Learning" /><published>2023-02-25T00:00:00+09:00</published><updated>2023-02-25T00:00:00+09:00</updated><id>http://localhost:4000/Machine%20Learning</id><content type="html" xml:base="http://localhost:4000/Machine-Learning">&lt;h1 id=&quot;머신러닝machine-learning&quot;&gt;머신러닝(Machine Learning)&lt;/h1&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것이며, 하나씩 해결해나가는 느낌으로 ML을 복습 및 검토한다.&lt;/p&gt;
@@ -31,7 +123,7 @@
   분류(Classification)와 회귀(Regression) 문제가 있습니다.&lt;/p&gt;
     &lt;/blockquote&gt;
   &lt;/li&gt;
-  &lt;li&gt;비지도 학습 (Unsupervised Learning)
+  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/비지도학습&quot;&gt;비지도 학습 (Unsupervised Learning)&lt;/a&gt;
     &lt;blockquote&gt;
       &lt;p&gt;레이블이 없는 데이터를 활용하여 학습하는 방식으로, &lt;br /&gt;
   군집화(Clustering), 차원 축소(Dimensionality Reduction), 밀도 추정(Density Estimation) 등의 문제가 있습니다.&lt;/p&gt;
@@ -156,7 +248,7 @@
       &lt;li&gt;입력 변수의 각각의 feature에 대한 가중치와 상수항을 찾아내어 예측값을 계산함&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;의사결정트리 (Decision Tree)
+  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/의사결정트리&quot;&gt;의사결정트리 (Decision Tree)&lt;/a&gt;
     &lt;ul&gt;
       &lt;li&gt;입력 변수들을 기반으로 하나의 결정트리를 구성하고 이를 통해 예측값을 계산하는 알고리즘&lt;/li&gt;
       &lt;li&gt;각각의 노드에서는 하나의 feature를 선택하고 이를 기준으로 자식 노드들을 구성함&lt;/li&gt;
@@ -225,7 +317,60 @@
       &lt;li&gt;대량의 데이터에서 성능이 우수하나, 학습에 많은 시간이 소요될 수 있음&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="ai" /><summary type="html">지도학습 (Supervised Learning)</summary></entry><entry><title type="html">TIL-웨인힐스벤처스</title><link href="http://localhost:4000/TIL-%EC%9B%A8%EC%9D%B8%ED%9E%90%EC%8A%A4%EB%B2%A4%EC%B2%98%EC%8A%A4" rel="alternate" type="text/html" title="TIL-웨인힐스벤처스" /><published>2023-02-24T00:00:00+09:00</published><updated>2023-02-24T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%EC%9B%A8%EC%9D%B8%ED%9E%90%EC%8A%A4%EB%B2%A4%EC%B2%98%EC%8A%A4</id><content type="html" xml:base="http://localhost:4000/TIL-%EC%9B%A8%EC%9D%B8%ED%9E%90%EC%8A%A4%EB%B2%A4%EC%B2%98%EC%8A%A4">&lt;h1 id=&quot;웨인힐스벤처스&quot;&gt;웨인힐스벤처스&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="ai" /><summary type="html">지도학습 (Supervised Learning)</summary></entry><entry><title type="html">비지도학습</title><link href="http://localhost:4000/%EB%B9%84%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5" rel="alternate" type="text/html" title="비지도학습" /><published>2023-02-25T00:00:00+09:00</published><updated>2023-02-25T00:00:00+09:00</updated><id>http://localhost:4000/%EB%B9%84%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5</id><content type="html" xml:base="http://localhost:4000/%EB%B9%84%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5">&lt;h1 id=&quot;비지도학습-unsupervised-learning&quot;&gt;비지도학습 (Unsupervised Learning)&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것이며, 하나씩 해결해나가는 느낌으로 ML을 복습 및 검토한다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;비지도학습-정의&quot;&gt;비지도학습 정의&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;레이블(정답)&lt;/strong&gt; 된 데이터 &lt;strong&gt;없이&lt;/strong&gt; &lt;strong&gt;입력 데이터만&lt;/strong&gt;으로 &lt;strong&gt;패턴을 학습&lt;/strong&gt;하는 머신러닝의 한 분야입니다.&lt;/li&gt;
+  &lt;li&gt;데이터의 구조나 패턴을 찾아내기 위해 데이터를 &lt;strong&gt;자동&lt;/strong&gt;으로 &lt;strong&gt;클러스터링&lt;/strong&gt;하거나, &lt;strong&gt;차원 축소&lt;/strong&gt;, &lt;strong&gt;밀도 추정&lt;/strong&gt;, &lt;strong&gt;이상치 탐색&lt;/strong&gt; 등 다양한 방법이 사용될 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;사용&lt;/strong&gt; : 데이터 분석, 데이터 전처리, 데이터 시각화, 추천 시스템, 이미지/음성/텍스트 처리, 생성 모델링 등&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;해결-알고리즘-종류&quot;&gt;해결 알고리즘 종류&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;군집화(Clustering)
+    &lt;blockquote&gt;
+      &lt;p&gt;데이터들을 서로 유사한 특징을 가진 그룹으로 나누는 알고리즘 &lt;br /&gt;
+  K-Means, Hierarchical Clustering 등&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;차원 축소(Dimensionality Reduction)
+    &lt;blockquote&gt;
+      &lt;p&gt;고차원 데이터를 저차원 데이터로 변환하는 알고리즘 &lt;br /&gt;
+  PCA, t-SNE, LLE 등이 있습니다.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;이상치 탐지(Outlier Detection)
+    &lt;blockquote&gt;
+      &lt;p&gt;데이터셋에서 이상치를 탐지하는 알고리즘 &lt;br /&gt;
+  Isolation Forest, One-Class SVM 등&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;연관 규칙 학습(Association Rule Learning)
+    &lt;blockquote&gt;
+      &lt;p&gt;데이터에서 자주 발생하는 규칙을 찾아내는 알고리즘 &lt;br /&gt;
+  Apriori, FP-Growth 등&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;생성 모델(Generative Model)
+    &lt;blockquote&gt;
+      &lt;p&gt;데이터셋을 생성하는 확률 모델을 학습하는 알고리즘 &lt;br /&gt;
+  GAN, VAE 등&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;클러스터링(Curver Clustering)
+    &lt;blockquote&gt;
+      &lt;p&gt;곡선으로 이루어진 클러스터링 방법으로 이전의 클러스터링 방법들과는 차별화된 특성 &lt;br /&gt;
+  OPTICS, DBSCAN 등&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="ai" /><summary type="html">비지도학습 (Unsupervised Learning)</summary></entry><entry><title type="html">TIL-웨인힐스벤처스</title><link href="http://localhost:4000/TIL-%EC%9B%A8%EC%9D%B8%ED%9E%90%EC%8A%A4%EB%B2%A4%EC%B2%98%EC%8A%A4" rel="alternate" type="text/html" title="TIL-웨인힐스벤처스" /><published>2023-02-24T00:00:00+09:00</published><updated>2023-02-24T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%EC%9B%A8%EC%9D%B8%ED%9E%90%EC%8A%A4%EB%B2%A4%EC%B2%98%EC%8A%A4</id><content type="html" xml:base="http://localhost:4000/TIL-%EC%9B%A8%EC%9D%B8%ED%9E%90%EC%8A%A4%EB%B2%A4%EC%B2%98%EC%8A%A4">&lt;h1 id=&quot;웨인힐스벤처스&quot;&gt;웨인힐스벤처스&lt;/h1&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;내가 상상만 했던 것이 현실로 진행한 회사&lt;/p&gt;
@@ -910,28 +1055,7 @@ Acquired Wayne Hills  AA rating from Korea Exchange technology evaluation agency
   &lt;li&gt;&lt;a href=&quot;https://velog.io/@hyunicecream/GridSearchCV란-어떻게-사용할까&quot;&gt;GridSearchCV&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://inuplace.tistory.com/516&quot;&gt;SDGClassifier&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://wikidocs.net/43332&quot;&gt;train_test_split&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="programing" /><category term="python" /><summary type="html">Python 용어정리</summary></entry><entry><title type="html">Math List</title><link href="http://localhost:4000/Math-%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94" rel="alternate" type="text/html" title="Math List" /><published>2023-02-20T00:00:00+09:00</published><updated>2023-02-20T00:00:00+09:00</updated><id>http://localhost:4000/Math%20%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94</id><content type="html" xml:base="http://localhost:4000/Math-%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94">&lt;h1 id=&quot;math-용어정리&quot;&gt;Math 용어정리&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;필요한 정도까지만 포스팅(시간이 오래걸림)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;포스팅-됨&quot;&gt;포스팅 됨&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/유클리드공간&quot;&gt;유클리드공간&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/내적연산&quot;&gt;내적연산&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;포스팀-안됨&quot;&gt;포스팀 안됨&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;이동하면서 볼 수 있도록 공부할만한 사이트 링크 걸어둔다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://juggernaut.tistory.com/entry/%EC%BB%A4%EB%84%90-%ED%95%A8%EC%88%98%EC%99%80-%EC%A7%80%EC%A7%80-%EB%B2%A1%ED%84%B0-%EB%A8%B8%EC%8B%A0SVM&quot;&gt;커널함수&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="math" /><summary type="html">Math 용어정리</summary></entry><entry><title type="html">TIL-액션파워</title><link href="http://localhost:4000/TIL-%EC%95%A1%EC%85%98%ED%8C%8C%EC%9B%8C" rel="alternate" type="text/html" title="TIL-액션파워" /><published>2023-02-20T00:00:00+09:00</published><updated>2023-02-20T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%EC%95%A1%EC%85%98%ED%8C%8C%EC%9B%8C</id><content type="html" xml:base="http://localhost:4000/TIL-%EC%95%A1%EC%85%98%ED%8C%8C%EC%9B%8C">&lt;h1 id=&quot;액션파워&quot;&gt;액션파워&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="programing" /><category term="python" /><summary type="html">Python 용어정리</summary></entry><entry><title type="html">TIL-액션파워</title><link href="http://localhost:4000/TIL-%EC%95%A1%EC%85%98%ED%8C%8C%EC%9B%8C" rel="alternate" type="text/html" title="TIL-액션파워" /><published>2023-02-20T00:00:00+09:00</published><updated>2023-02-20T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%EC%95%A1%EC%85%98%ED%8C%8C%EC%9B%8C</id><content type="html" xml:base="http://localhost:4000/TIL-%EC%95%A1%EC%85%98%ED%8C%8C%EC%9B%8C">&lt;h1 id=&quot;액션파워&quot;&gt;액션파워&lt;/h1&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;국내 최초 음성 인식 기술 활용 인공지능 받아쓰기 타이틀&lt;/p&gt;
@@ -1053,7 +1177,28 @@ AI 솔루션 기업 ‘강세’
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">액션파워</summary></entry><entry><title type="html">TIL-마키나락스</title><link href="http://localhost:4000/TIL-%EB%A7%88%ED%82%A4%EB%82%98%EB%9D%BD%EC%8A%A4" rel="alternate" type="text/html" title="TIL-마키나락스" /><published>2023-02-19T00:00:00+09:00</published><updated>2023-02-19T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%EB%A7%88%ED%82%A4%EB%82%98%EB%9D%BD%EC%8A%A4</id><content type="html" xml:base="http://localhost:4000/TIL-%EB%A7%88%ED%82%A4%EB%82%98%EB%9D%BD%EC%8A%A4">&lt;h1 id=&quot;마키나락스&quot;&gt;마키나락스&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">액션파워</summary></entry><entry><title type="html">Math List</title><link href="http://localhost:4000/Math-%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94" rel="alternate" type="text/html" title="Math List" /><published>2023-02-20T00:00:00+09:00</published><updated>2023-02-20T00:00:00+09:00</updated><id>http://localhost:4000/Math%20%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94</id><content type="html" xml:base="http://localhost:4000/Math-%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94">&lt;h1 id=&quot;math-용어정리&quot;&gt;Math 용어정리&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;필요한 정도까지만 포스팅(시간이 오래걸림)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;포스팅-됨&quot;&gt;포스팅 됨&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/유클리드공간&quot;&gt;유클리드공간&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/내적연산&quot;&gt;내적연산&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;포스팀-안됨&quot;&gt;포스팀 안됨&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;이동하면서 볼 수 있도록 공부할만한 사이트 링크 걸어둔다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://juggernaut.tistory.com/entry/%EC%BB%A4%EB%84%90-%ED%95%A8%EC%88%98%EC%99%80-%EC%A7%80%EC%A7%80-%EB%B2%A1%ED%84%B0-%EB%A8%B8%EC%8B%A0SVM&quot;&gt;커널함수&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="math" /><summary type="html">Math 용어정리</summary></entry><entry><title type="html">TIL-마키나락스</title><link href="http://localhost:4000/TIL-%EB%A7%88%ED%82%A4%EB%82%98%EB%9D%BD%EC%8A%A4" rel="alternate" type="text/html" title="TIL-마키나락스" /><published>2023-02-19T00:00:00+09:00</published><updated>2023-02-19T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%EB%A7%88%ED%82%A4%EB%82%98%EB%9D%BD%EC%8A%A4</id><content type="html" xml:base="http://localhost:4000/TIL-%EB%A7%88%ED%82%A4%EB%82%98%EB%9D%BD%EC%8A%A4">&lt;h1 id=&quot;마키나락스&quot;&gt;마키나락스&lt;/h1&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;산업용 AI 적용, 확실한 비전&lt;/p&gt;
@@ -1216,169 +1361,4 @@ AI 솔루션 기업 ‘강세’
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">마키나락스</summary></entry><entry><title type="html">결정경계</title><link href="http://localhost:4000/%EA%B2%B0%EC%A0%95%EA%B2%BD%EA%B3%84" rel="alternate" type="text/html" title="결정경계" /><published>2023-02-17T00:00:00+09:00</published><updated>2023-02-17T00:00:00+09:00</updated><id>http://localhost:4000/%EA%B2%B0%EC%A0%95%EA%B2%BD%EA%B3%84</id><content type="html" xml:base="http://localhost:4000/%EA%B2%B0%EC%A0%95%EA%B2%BD%EA%B3%84">&lt;h1 id=&quot;결정경계-decision-boundaries&quot;&gt;결정경계 Decision Boundaries&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;뜻 풀이 그대로 분류를 &lt;strong&gt;결정&lt;/strong&gt;하기 위한 &lt;strong&gt;경계&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;종류
-    &lt;ul&gt;
-      &lt;li&gt;선형 결정경계
-        &lt;ul&gt;
-          &lt;li&gt;SVM&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;비선형 결정경계&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.oreilly.com/library/view/data-analysis-with/9781788393720/7ef9ff0a-000c-44e1-ad6a-d352e0744c74.xhtml&quot;&gt;이미지 참조&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="ai" /><summary type="html">결정경계 Decision Boundaries</summary></entry><entry><title type="html">TIL-노리스페이스</title><link href="http://localhost:4000/TIL-%EB%85%B8%EB%A6%AC%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4" rel="alternate" type="text/html" title="TIL-노리스페이스" /><published>2023-02-17T00:00:00+09:00</published><updated>2023-02-17T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%EB%85%B8%EB%A6%AC%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4</id><content type="html" xml:base="http://localhost:4000/TIL-%EB%85%B8%EB%A6%AC%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4">&lt;h1 id=&quot;노리스페이스&quot;&gt;노리스페이스&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;내가 처음에 생각했던 인공지능의 역할을 비전으로 가지고 있다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;사무업무를 자동화 하는 일에 인공지능이 필요하다는 것은 어릴적 부모님을 도와 회계업무, 보고서 작성 등을 하면서 꼭 필요하다고 생각했고 컴퓨터를 배우면서 점점 할 수 있다는 생각이 들었다. 그 일을 하고 있는 것이 노리스페이스라고 생각한다. 하지만 아직 초창기 스타트업인만큼 안정화 되어 있다고 느껴지지는 않는다. 입사자 수와 퇴사가 수가 거의 일치하는 느낌이라 배울 수 있는 것, 이끌 수 있는 것이 많을 수 있지만 그만큼 분야를 가리지 않고 다방면으로 노력해야 할 것 같다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;노리스페이스-norispace-기본-정보&quot;&gt;노리스페이스 NoriSpace 기본 정보&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.saramin.co.kr/zf_user/company-info/view/csn/c3N4KzVYN3dMODBHRXh3czVJb25Pdz09/company_nm/(주)노리스페이스&quot;&gt;사람인 참조&lt;/a&gt;, &lt;a href=&quot;https://www.norispace.com/&quot;&gt;공식사이트 참조&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2021년 11월 5일 설립 (업력 3년차)&lt;/li&gt;
-  &lt;li&gt;기업 형태 : 중소기업&lt;/li&gt;
-  &lt;li&gt;핵심 가치와 비전
-    &lt;ul&gt;
-      &lt;li&gt;핵심 가치와 비전은 전문지식 데이터 연구/분석을 기반으로 사무업무 자동화를 실현하는 것&lt;/li&gt;
-      &lt;li&gt;인공지능 기술로 단순 반복 업무 자동화 뿐만 아니라 데이터 예측분석 서비스를 제공하여 자동화 가능 업무를 분석하고 제안하는 새로운 가치 창출을 이루어내고자 함&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;“NoriS 지능형 보험업무 자동화 엔진” 을 연구 및 개발하여 보험산업 내 인공지능 기술의 활용 범위를 확대하고 있습니다.
-    &lt;ul&gt;
-      &lt;li&gt;이 엔진을 통하여 보험사의 손해사정업문에서 발생하는 노동집약적인 업무환경을 개선하고 있습니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;주소 : 서울 노원구 동일로174길 27, 1층&lt;/li&gt;
-  &lt;li&gt;사원수 : 11명(2022년12월 기준)
-    &lt;ul&gt;
-      &lt;li&gt;&lt;span sytle=&quot;color:blue&quot;&gt;아직 초창기 스타트업인만큼 안정화 되어 있다고 느껴지지는 않는다. 입사자, 퇴사자 수가 거의 비슷하다.&lt;/span&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;서비스
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;table&gt;
-          &lt;tbody&gt;
-            &lt;tr&gt;
-              &lt;td&gt;사무업무자동화(업무자동화&lt;/td&gt;
-              &lt;td&gt;KEY-VALUE 추출&lt;/td&gt;
-              &lt;td&gt;업무데이터 예측분석)&lt;/td&gt;
-            &lt;/tr&gt;
-          &lt;/tbody&gt;
-        &lt;/table&gt;
-        &lt;ul&gt;
-          &lt;li&gt;NoriS Engine, Noris Workflow Analysis Tool 개발을 통해 단순업무 자동화&lt;/li&gt;
-          &lt;li&gt;업무 데이터 예측.분석까지 영역을 확장하여 자동화가 가능한 사무업무 영역을 분석하고 제안까지 가능하게 합니다.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;table&gt;
-          &lt;tbody&gt;
-            &lt;tr&gt;
-              &lt;td&gt;데이터 컨설팅(데이터 사이언스&lt;/td&gt;
-              &lt;td&gt;데이터 아키텍처&lt;/td&gt;
-              &lt;td&gt;데이터 표준화)&lt;/td&gt;
-            &lt;/tr&gt;
-          &lt;/tbody&gt;
-        &lt;/table&gt;
-        &lt;ul&gt;
-          &lt;li&gt;비즈니스에서 생성된 데이터의 품질을 관리하고 구축하기 위한 컨설팅 제공&lt;/li&gt;
-          &lt;li&gt;축적된 데이터 분석 및 표준화&lt;/li&gt;
-          &lt;li&gt;가치 향상을 위한 최적의 솔루션 설계&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;연혁&quot;&gt;연혁&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Award-winning&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;2021
-        &lt;ul&gt;
-          &lt;li&gt;산학협력 EXPO 기술창업트랙 데모데이 사회부총리겸 교육부장관상 대상 수상&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;2020
-        &lt;ul&gt;
-          &lt;li&gt;광주과학기술원 IR역량강화프로그램 IR피칭대회 은상 수상&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;2019
-        &lt;ul&gt;
-          &lt;li&gt;고려대학교 캠퍼스타운 창업경진대회 은상 수상 및 입주기업 선정&lt;/li&gt;
-          &lt;li&gt;신한 디지털라이프스쿨 수상 신한 두드림스페이스 디지털라이프스쿨  최우수상 수상&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Accelerating Program&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;2021
-        &lt;ul&gt;
-          &lt;li&gt;대한무역투자진흥공사 KOTRA Yspace Program 캐나다 엑셀러레이팅 프로그램 선정&lt;/li&gt;
-          &lt;li&gt;신용보증기금 Startup NEST 9기 선정 엑셀러레이팅 프로그램 선정&lt;/li&gt;
-          &lt;li&gt;서울창업디딤터 PRE-BI 선정 은상 수상 및 입주기업 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Grant Program&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;2022
-        &lt;ul&gt;
-          &lt;li&gt;교보생명 MOU 협약 지급프로세스 고도화를 위한 MOU 협약 체결&lt;/li&gt;
-          &lt;li&gt;SBA 핀테크 R&amp;amp;D 과제 선정 서울산업진흥원 기술연구개발 과제 선정&lt;/li&gt;
-          &lt;li&gt;교보 이노스테이지 ‘ON’ 선정 교보생명 오픈이노베이션 프로그램 선정&lt;/li&gt;
-          &lt;li&gt;디딤돌 R&amp;amp;D 과제 선정 중소벤처기업부 R&amp;amp;D 창업성장기술개발 디딤돌 과제 선정&lt;/li&gt;
-          &lt;li&gt;AI 양재 허브 멤버십 프로그램 선정 서울시 소속의 인공지능 기술 스타트업 멤버 연장&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;2021
-        &lt;ul&gt;
-          &lt;li&gt;AI 바우처 지원사업 공급기업 선정&lt;/li&gt;
-          &lt;li&gt;서울혁신챌린지 예선 통과&lt;/li&gt;
-          &lt;li&gt;학생 창업유망팀 300 선정 창업경진대회 학생창업 유망팀 300 선발&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;2020
-        &lt;ul&gt;
-          &lt;li&gt;AI 양재 허브 멤버십 프로그램 선정 서울시 소속의 인공지능 기술 스타트업 멤버 등록&lt;/li&gt;
-          &lt;li&gt;송파 청년창업도전프로젝트 선정 인공지능 기술개발 인프라 지원&lt;/li&gt;
-          &lt;li&gt;예비창업패키지 특화분야 AI 부문 선정 사업화 및 인공지능 기술 개발 인프라 지원&lt;/li&gt;
-          &lt;li&gt;서울대학교 창업지원단 입주기업 선정 서울대학교 창업지원단 참여기업 선정&lt;/li&gt;
-          &lt;li&gt;AI 양재 허브 AI Startup Seed Camp2 선정 인공지능 적용 기술 개발 후속지원 사업 선정&lt;/li&gt;
-          &lt;li&gt;신한 인큐베이션센터 프로그램 선정 시설 및 사업화 인프라 지원 / 사업 인큐베이팅 프로그램 지원&lt;/li&gt;
-          &lt;li&gt;모두의 연구소 협력 체결 Alliance 교류 협력 체결 기술, 인력교류 및 기술개발 인프라 지원&lt;/li&gt;
-          &lt;li&gt;AI 양재 허브 ‘AiCON2019’ ‘여권정보자동문서화 ‘ 적용 기술 발표&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;2019
-        &lt;ul&gt;
-          &lt;li&gt;AI 양재 허브 ‘AiCON 2019’ ‘여권정보 자동 문서화’ 적용 기술 발표&lt;/li&gt;
-          &lt;li&gt;린스타트업 더인벤션랩 BM 특화 교육과정 수료&lt;/li&gt;
-          &lt;li&gt;AI 양재허브 AI Startup Seed Camp B인공지능 적용 기술 개발 지원 사업 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">노리스페이스</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">마키나락스</summary></entry></feed>

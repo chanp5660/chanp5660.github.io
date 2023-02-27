@@ -11,7 +11,7 @@
 
 
 
-    <title>나라장터-수집(2)-Selenium</title>
+    <title>의사결정트리</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
@@ -49,30 +49,30 @@
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="박찬" />
     <link rel="shortcut icon" href="http://localhost:4000/assets/built/images/favicon.jpg" type="image/png" />
-    <link rel="canonical" href="http://localhost:4000/%EB%82%98%EB%9D%BC%EC%9E%A5%ED%84%B0-%EC%88%98%EC%A7%91(2)-Selenium" />
+    <link rel="canonical" href="http://localhost:4000/%EC%9D%98%EC%82%AC%EA%B2%B0%EC%A0%95%ED%8A%B8%EB%A6%AC" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="Engineer Chanp5660" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="나라장터-수집(2)-Selenium" />
-    <meta property="og:description" content="나라장터 낙찰가를 예측하고 자동으로 입찰내용 메일 보내기 나라장터-수집(1)-OPENAPI 나라장터-수집(2)-Selenium 나라장터-메일자동보내기 나라장터-수집(2)-Selenium 나라장터에의 낙찰하는 분석을 하게 되는 상황이 생겼는데 통계, 컴공으로서 근거 없는 찍는 것을 믿지 못하고 찍신이 아닌 나 자신을 믿을 수가 없었다. 따라서 이때다 싶어 나라장터 분석 및 예측을 해보기로 했다. 수집 openapi 이용 공공데이터포털 이용 (https://www.data.go.kr/index.do) 낙찰 원리" />
-    <meta property="og:url" content="http://localhost:4000/%EB%82%98%EB%9D%BC%EC%9E%A5%ED%84%B0-%EC%88%98%EC%A7%91(2)-Selenium" />
-    <meta property="og:image" content="http://localhost:4000/assets/built/images/python-logo.png" />
+    <meta property="og:title" content="의사결정트리" />
+    <meta property="og:description" content="의사결정트리 (Decision Tree) 기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것이며, 하나씩 해결해나가는 느낌으로 ML을 복습 및 검토한다. 의사결정트리 정의 분류(Classification)와 회귀(Regression) 모두에 사용되는 지도학습(Supervised Learning) 알고리즘 중 하나로, 주어진 데이터를 바탕으로 각 데이터의 속성값들을 특정 규칙에 따라 분류하거나 예측하는 모델입니다. 분류(Classification) 문제에서 주로 사용 예를 들어 스팸 메일 필터링에서 “스팸”" />
+    <meta property="og:url" content="http://localhost:4000/%EC%9D%98%EC%82%AC%EA%B2%B0%EC%A0%95%ED%8A%B8%EB%A6%AC" />
+    <meta property="og:image" content="http://localhost:4000/assets/built/images/의사결정트리.png" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
     <meta property="article:author" content="https://www.facebook.com/" />
-    <meta property="article:published_time" content="2022-07-25T23:41:00+09:00" />
-    <meta property="article:modified_time" content="2022-07-25T23:41:00+09:00" />
-    <meta property="article:tag" content="Project" />
+    <meta property="article:published_time" content="2023-02-26T00:00:00+09:00" />
+    <meta property="article:modified_time" content="2023-02-26T00:00:00+09:00" />
+    <meta property="article:tag" content="Ai" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="나라장터-수집(2)-Selenium" />
-    <meta name="twitter:description" content="나라장터 낙찰가를 예측하고 자동으로 입찰내용 메일 보내기 나라장터-수집(1)-OPENAPI 나라장터-수집(2)-Selenium 나라장터-메일자동보내기 나라장터-수집(2)-Selenium 나라장터에의 낙찰하는 분석을 하게 되는 상황이 생겼는데 통계, 컴공으로서 근거 없는 찍는 것을 믿지 못하고 찍신이 아닌 나 자신을 믿을 수가 없었다. 따라서 이때다 싶어 나라장터 분석 및 예측을 해보기로 했다. 수집 openapi 이용 공공데이터포털 이용 (https://www.data.go.kr/index.do) 낙찰 원리" />
+    <meta name="twitter:title" content="의사결정트리" />
+    <meta name="twitter:description" content="의사결정트리 (Decision Tree) 기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것이며, 하나씩 해결해나가는 느낌으로 ML을 복습 및 검토한다. 의사결정트리 정의 분류(Classification)와 회귀(Regression) 모두에 사용되는 지도학습(Supervised Learning) 알고리즘 중 하나로, 주어진 데이터를 바탕으로 각 데이터의 속성값들을 특정 규칙에 따라 분류하거나 예측하는 모델입니다. 분류(Classification) 문제에서 주로 사용 예를 들어 스팸 메일 필터링에서 “스팸”" />
     <meta name="twitter:url" content="http://localhost:4000/" />
-    <meta name="twitter:image" content="http://localhost:4000/assets/built/images/python-logo.png" />
+    <meta name="twitter:image" content="http://localhost:4000/assets/built/images/의사결정트리.png" />
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="Engineer Chanp5660" />
     <meta name="twitter:label2" content="Filed under" />
-    <meta name="twitter:data2" content="Project" />
+    <meta name="twitter:data2" content="Ai" />
     <meta name="twitter:site" content="@" />
     <meta name="twitter:creator" content="@" />
     <meta property="og:image:width" content="1400" />
@@ -87,18 +87,18 @@
         "name": "Engineer Chanp5660",
         "logo": "http://localhost:4000/"
     },
-    "url": "http://localhost:4000/%EB%82%98%EB%9D%BC%EC%9E%A5%ED%84%B0-%EC%88%98%EC%A7%91(2)-Selenium",
+    "url": "http://localhost:4000/%EC%9D%98%EC%82%AC%EA%B2%B0%EC%A0%95%ED%8A%B8%EB%A6%AC",
     "image": {
         "@type": "ImageObject",
-        "url": "http://localhost:4000/assets/built/images/python-logo.png",
+        "url": "http://localhost:4000/assets/built/images/의사결정트리.png",
         "width": 2000,
         "height": 666
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "http://localhost:4000/%EB%82%98%EB%9D%BC%EC%9E%A5%ED%84%B0-%EC%88%98%EC%A7%91(2)-Selenium"
+        "@id": "http://localhost:4000/%EC%9D%98%EC%82%AC%EA%B2%B0%EC%A0%95%ED%8A%B8%EB%A6%AC"
     },
-    "description": "나라장터 낙찰가를 예측하고 자동으로 입찰내용 메일 보내기 나라장터-수집(1)-OPENAPI 나라장터-수집(2)-Selenium 나라장터-메일자동보내기 나라장터-수집(2)-Selenium 나라장터에의 낙찰하는 분석을 하게 되는 상황이 생겼는데 통계, 컴공으로서 근거 없는 찍는 것을 믿지 못하고 찍신이 아닌 나 자신을 믿을 수가 없었다. 따라서 이때다 싶어 나라장터 분석 및 예측을 해보기로 했다. 수집 openapi 이용 공공데이터포털 이용 (https://www.data.go.kr/index.do) 낙찰 원리"
+    "description": "의사결정트리 (Decision Tree) 기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것이며, 하나씩 해결해나가는 느낌으로 ML을 복습 및 검토한다. 의사결정트리 정의 분류(Classification)와 회귀(Regression) 모두에 사용되는 지도학습(Supervised Learning) 알고리즘 중 하나로, 주어진 데이터를 바탕으로 각 데이터의 속성값들을 특정 규칙에 따라 분류하거나 예측하는 모델입니다. 분류(Classification) 문제에서 주로 사용 예를 들어 스팸 메일 필터링에서 “스팸”"
 }
     </script>
 
@@ -111,7 +111,7 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="나라장터-수집(2)-Selenium" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="의사결정트리" href="/feed.xml" />
 
 
 </head>
@@ -169,62 +169,125 @@ into the {body} of the default.hbs template -->
 <main id="site-main" class="site-main outer" role="main">
     <div class="inner">
 
-        <article class="post-full  tag-project post tag-python ">
+        <article class="post-full  tag-ai post tag-python ">
 
             <header class="post-full-header">
                 <section class="post-full-meta">
-                    <time class="post-full-meta-date" datetime="25 July 2022">25 July 2022</time>
+                    <time class="post-full-meta-date" datetime="26 February 2023">26 February 2023</time>
                     
                         <span class="date-divider">/</span>
                         
                             
-                               <a href='/tag/project/'>PROJECT</a>
+                               <a href='/tag/ai/'>AI</a>
                             
                         
                     
                 </section>
-                <h1 class="post-full-title">나라장터-수집(2)-Selenium</h1>
+                <h1 class="post-full-title">의사결정트리</h1>
             </header>
             
             <!--
             
-            <figure class="post-full-image" style="background-image: url(/assets/built/images/python-logo.png)">
+            <figure class="post-full-image" style="background-image: url(/assets/built/images/의사결정트리.png)">
             </figure>
             
             -->
 
             <section class="post-full-content">
                 <div class="kg-card-markdown">
-                    <p><span class="table-of-contents-list">나라장터 낙찰가를 예측하고 자동으로 입찰내용 메일 보내기</span></p>
-<ul class="table-of-contents-list">
-    <li><a href="./나라장터-수집(1)-OPENAPI">나라장터-수집(1)-OPENAPI </a></li>
-    <li><a href="./나라장터-수집(2)-Selenium">나라장터-수집(2)-Selenium </a></li>
-    <li><a href="./나라장터-메일자동보내기">나라장터-메일자동보내기 </a></li>
-</ul>
-
-<h1 id="나라장터-수집2-selenium">나라장터-수집(2)-Selenium</h1>
+                    <h1 id="의사결정트리-decision-tree">의사결정트리 (Decision Tree)</h1>
 
 <blockquote>
-  <p>나라장터에의 낙찰하는 분석을 하게 되는 상황이 생겼는데 통계, 컴공으로서 근거 없는 찍는 것을 믿지 못하고 찍신이 아닌 나 자신을 믿을 수가 없었다. 따라서 이때다 싶어 나라장터 분석 및 예측을 해보기로 했다.</p>
+  <p>기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것이며, 하나씩 해결해나가는 느낌으로 ML을 복습 및 검토한다.</p>
 </blockquote>
 
+<h2 id="의사결정트리-정의">의사결정트리 정의</h2>
+
 <ul>
-  <li>수집
+  <li><strong>분류</strong>(Classification)와 <strong>회귀</strong>(Regression) 모두에 사용되는 <strong><a href="https://chanp5660.github.io/지도학습">지도학습</a></strong>(Supervised Learning) 알고리즘 중 하나로, 주어진 데이터를 바탕으로 각 데이터의 속성값들을 <strong>특정 규칙</strong>에 따라 <strong>분류</strong>하거나 <strong>예측</strong>하는 모델입니다.</li>
+  <li><strong>분류(Classification)</strong> 문제에서 주로 사용
     <ul>
-      <li>openapi 이용</li>
-      <li>공공데이터포털 이용 (https://www.data.go.kr/index.do)</li>
+      <li>예를 들어
+        <ul>
+          <li>스팸 메일 필터링에서 “스팸” 또는 “스팸이 아님”으로 분류</li>
+          <li>환자의 건강 상태를 “양성” 또는 “음성”으로 분류하는 등의 문제에 적용</li>
+        </ul>
+      </li>
     </ul>
   </li>
-  <li>낙찰
+  <li>데이터를 여러 조건으로 분류하고, 이를 통해 최종 결과를 도출</li>
+  <li>분류 과정에서 <strong>각 조건</strong>의 <strong>가중치</strong>나 <strong>중요도</strong>를 계산하여
     <ul>
-      <li>원리</li>
-      <li>예측</li>
+      <li>각 조건의 <strong>중요도</strong>를 파악</li>
+    </ul>
+  </li>
+  <li>모델의 <strong>설명력이 높다</strong>는 장점
+    <ul>
+      <li>모델의 결과를 해석하기 쉽고</li>
+      <li>입력 변수의 중요도를 알 수 있어서</li>
+    </ul>
+  </li>
+  <li><strong>과적합(Overfitting)의 문제</strong>가 발생
+    <ul>
+      <li>방지하기 위해 <strong>가지치기(Pruning)</strong> 등의 방법을 사용</li>
     </ul>
   </li>
 </ul>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-</code></pre></div></div>
+<h2 id="의사결정트리-알고리즘-동작-순서">의사결정트리 알고리즘 동작 순서</h2>
+
+<ol>
+  <li>데이터셋 분할
+    <ul>
+      <li>입력 데이터를 <strong>속성값에 따라</strong> 여러 개의 <strong>부분 집합</strong>으로 나눕니다.</li>
+    </ul>
+  </li>
+  <li><strong>속성 선택</strong>
+    <ul>
+      <li>분할된 부분 집합들 중에서 <strong>정보 이득</strong>(information gain)이 <strong>가장 큰 속성</strong>을 선택합니다.</li>
+      <li>정보 이득은 분할 전과 후의 엔트로피 차이를 나타내는 지표입니다.</li>
+    </ul>
+  </li>
+  <li>의사결정노드 생성
+    <ul>
+      <li>선택된 속성을 기준으로 <strong>의사결정 노드(decision node)</strong> 를 생성합니다.</li>
+    </ul>
+  </li>
+  <li>하위 트리 생성
+    <ul>
+      <li>선택된 <strong>속성값에 따라</strong> 의사결정 노드 아래에 <strong>하위 트리를 생성</strong>합니다.</li>
+    </ul>
+  </li>
+  <li><strong>재귀적으로 반복</strong>
+    <ul>
+      <li>생성된 하위 트리에 대해서도 위 과정을 반복합니다.</li>
+      <li>트리의 최상위 루트 노드에서부터 가장 하위 노드까지 도달할 때까지 위 과정을 반복합니다.</li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="분류-의사결정트리">분류 의사결정트리</h2>
+
+<blockquote>
+  <p>데이터의 특징을 기반으로 하나의 규칙 세트를 만들어내는 것<br />
+즉, 특정 특징들을 분석하여 특정 규칙을 찾아내고 그 규칙에 따라 데이터를 분류</p>
+</blockquote>
+
+<ol>
+  <li>데이터셋에서 가장 중요한 특징을 선택합니다. 이를 <strong>기준 특징</strong>이라고 부릅니다.</li>
+  <li>기준 특징을 기반으로 하위 데이터셋으로 데이터를 분할합니다.</li>
+  <li>분할된 하위 데이터셋에서 가장 중요한 특징을 선택합니다. 이를 기준 특징으로 새로운 가지(branch)를 생성합니다.</li>
+  <li>이러한 분할과 가지 생성을 재귀적으로 반복합니다. 즉, 하위 데이터셋에서 더 이상 분할할 수 없을 때까지 분할을 수행합니다.</li>
+  <li>분할된 데이터셋의 각 영역은 하나의 클래스에 할당됩니다.</li>
+  <li>마지막으로, 새로운 데이터가 들어올 때, 분류하기 위해 의사결정트리를 따라가며 최종적으로 해당 데이터가 속한 클래스를 결정합니다.</li>
+</ol>
+
+<ul>
+  <li>의사결정트리 분류 알고리즘은 분할하기 위한 최상의 특징을 선택</li>
+  <li>각 분할에서 최상의 특징을 다시 선택</li>
+  <li>데이터가 특정 클래스에 속할 확률을 계산하는 방식으로 작동</li>
+  <li>이를 통해 모델은 분류하기 위해 데이터의 특징을 잘 파악하여, 클래스를 예측하기 위한 최상의 규칙을 생성합니다.</li>
+</ul>
 
                 </div>
             </section>
@@ -310,7 +373,7 @@ into the {body} of the default.hbs template -->
                         <header class="read-next-card-header">
                             <small class="read-next-card-header-sitetitle">&mdash; Engineer Chanp5660 &mdash;</small>
                             
-                                <h3 class="read-next-card-header-title"><a href="/tag/project/">Project</a></h3>
+                                <h3 class="read-next-card-header-title"><a href="/tag/ai/">Ai</a></h3>
                             
                         </header>
                         <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
@@ -320,7 +383,34 @@ into the {body} of the default.hbs template -->
                                 
                                 
                                   
+                                    
+                                  
                                 
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5">지도학습</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/%EB%B9%84%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5">비지도학습</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/Machine-Learning">Machine Learning</a></li>
+                                        
+                                    
                                   
                                 
                                   
@@ -338,7 +428,24 @@ into the {body} of the default.hbs template -->
                                   
                                 
                                   
+                                    
+                                        
+                                        
+                                    
+                                  
                                 
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
                                   
                                 
                                   
@@ -348,17 +455,17 @@ into the {body} of the default.hbs template -->
                                   
                                 
                                   
-                                
+                                    
+                                        
+                                        
+                                    
                                   
                                 
                                   
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
+                                    
+                                        
+                                        
+                                    
                                   
                                 
                                   
@@ -383,44 +490,6 @@ into the {body} of the default.hbs template -->
                                     
                                         
                                         
-                                            <li><a href="/%ED%86%A0%ED%94%BD%EB%B6%84%EB%A5%98(%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%B9%B4%EC%9D%B8%EC%A6%88_%ED%8A%B8%EC%9C%84%ED%84%B0)">토픽분류(빅데이터카인즈,트위터)</a></li>
-                                        
-                                    
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                            <li><a href="/%EB%82%98%EB%9D%BC%EC%9E%A5%ED%84%B0-%EB%84%A4%EC%9D%B4%EB%B2%84%EB%A9%94%EC%9D%BC%EC%9E%90%EB%8F%99%EB%B3%B4%EB%82%B4%EA%B8%B0">나라장터-네이버메일자동보내기</a></li>
-                                        
-                                    
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                            <li><a href="/%EB%82%98%EB%9D%BC%EC%9E%A5%ED%84%B0-%EC%88%98%EC%A7%91(1)-OPENAPI">나라장터-수집(1)-OPENAPI</a></li>
-                                        
-                                    
-                                  
-                                
-                                  
                                     
                                   
                                 
@@ -437,6 +506,30 @@ into the {body} of the default.hbs template -->
                                         
                                         
                                     
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
                                   
                                 
                                   
@@ -476,9 +569,9 @@ into the {body} of the default.hbs template -->
                             </ul>
                         </div>
                         <footer class="read-next-card-footer">
-                            <a href="/tag/project/">
+                            <a href="/tag/ai/">
                                 
-                                    See all 4 posts  →
+                                    See all 10 posts  →
                                 
                             </a>
                         </footer>
@@ -488,62 +581,6 @@ into the {body} of the default.hbs template -->
 
             <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
             
-                
-
-    <article class="post-card post-template">
-        
-            <a class="post-card-image-link" href="/%EB%82%98%EB%9D%BC%EC%9E%A5%ED%84%B0-%EC%88%98%EC%A7%91(1)-OPENAPI">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/python-logo.png)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/%EB%82%98%EB%9D%BC%EC%9E%A5%ED%84%B0-%EC%88%98%EC%A7%91(1)-OPENAPI">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Project</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">나라장터-수집(1)-OPENAPI</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>나라장터 낙찰가를 예측하고 자동으로 입찰내용 메일 보내기
-
-    나라장터-수집(1)-OPENAPI 
-    나라장터-수집(2)-Selenium 
-    나라장터-메일자동보내기 
-
-
-</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/built/images/favicon.jpg" alt="chanp5660" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/chanp5660/">chanp5660</a>
-                        </span>
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      4 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-            
 
             <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
             
@@ -551,27 +588,26 @@ into the {body} of the default.hbs template -->
 
     <article class="post-card post-template">
         
-            <a class="post-card-image-link" href="/%EB%B0%B1%EC%A4%80_%EA%B8%B0%EB%B3%B8-%EC%88%98%ED%95%99-2%EB%8B%A8%EA%B3%84">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/baekjoon-logo.png)"></div>
+            <a class="post-card-image-link" href="/%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5">
+                <div class="post-card-image" style="background-image: url(/assets/built/images/지도학습.png)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/%EB%B0%B1%EC%A4%80_%EA%B8%B0%EB%B3%B8-%EC%88%98%ED%95%99-2%EB%8B%A8%EA%B3%84">
+            <a class="post-card-content-link" href="/%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5">
                 <header class="post-card-header">
                     
                         
                             
-                                <span class="post-card-tags">Programing</span>
+                                <span class="post-card-tags">Ai</span>
                             
                         
                     
 
-                    <h2 class="post-card-title">백준-단계별-기본 수학 2단계</h2>
+                    <h2 class="post-card-title">지도학습</h2>
                 </header>
                 <section class="post-card-excerpt">
                     
-                        <p>백준-단계별-기본 수학 2단계
-https://www.acmicpc.net/step/10
+                        <p>지도학습 (Supervised Learning)
 
 </p>
                     
@@ -591,7 +627,7 @@ https://www.acmicpc.net/step/10
                 <span class="reading-time">
                     
                     
-                      10 min read
+                      1 min read
                     
                 </span>
             </footer>
@@ -613,18 +649,18 @@ https://www.acmicpc.net/step/10
         </a>
     </div>
     <span class="floating-header-divider">&mdash;</span>
-    <div class="floating-header-title">나라장터-수집(2)-Selenium</div>
+    <div class="floating-header-title">의사결정트리</div>
     <div class="floating-header-share">
         <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
     <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
 </svg>
 </div>
-        <a class="floating-header-share-tw" href="https://twitter.com/share?text=%EB%82%98%EB%9D%BC%EC%9E%A5%ED%84%B0-%EC%88%98%EC%A7%91%282%29-Selenium&amp;url=https://chanp5660.github.io/%EB%82%98%EB%9D%BC%EC%9E%A5%ED%84%B0-%EC%88%98%EC%A7%91(2)-Selenium"
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=%EC%9D%98%EC%82%AC%EA%B2%B0%EC%A0%95%ED%8A%B8%EB%A6%AC&amp;url=https://chanp5660.github.io/%EC%9D%98%EC%82%AC%EA%B2%B0%EC%A0%95%ED%8A%B8%EB%A6%AC"
             onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
 
         </a>
-        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://chanp5660.github.io/%EB%82%98%EB%9D%BC%EC%9E%A5%ED%84%B0-%EC%88%98%EC%A7%91(2)-Selenium"
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://chanp5660.github.io/%EC%9D%98%EC%82%AC%EA%B2%B0%EC%A0%95%ED%8A%B8%EB%A6%AC"
             onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
 

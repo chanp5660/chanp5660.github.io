@@ -8,6 +8,21 @@
     
       
       <item>
+        <title>의사결정트리</title>
+        
+          <description>&lt;h1 id=&quot;의사결정트리-decision-tree&quot;&gt;의사결정트리 (Decision Tree)&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Sun, 26 Feb 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/%EC%9D%98%EC%82%AC%EA%B2%B0%EC%A0%95%ED%8A%B8%EB%A6%AC</link>
+        <guid isPermaLink="true">http://localhost:4000/%EC%9D%98%EC%82%AC%EA%B2%B0%EC%A0%95%ED%8A%B8%EB%A6%AC</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>지도학습</title>
         
           <description>&lt;h1 id=&quot;지도학습-supervised-learning&quot;&gt;지도학습 (Supervised Learning)&lt;/h1&gt;
@@ -18,6 +33,21 @@
         <link>
         http://localhost:4000/%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5</link>
         <guid isPermaLink="true">http://localhost:4000/%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>비지도학습</title>
+        
+          <description>&lt;h1 id=&quot;비지도학습-unsupervised-learning&quot;&gt;비지도학습 (Unsupervised Learning)&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Sat, 25 Feb 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/%EB%B9%84%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5</link>
+        <guid isPermaLink="true">http://localhost:4000/%EB%B9%84%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5</guid>
       </item>
       
     
@@ -235,7 +265,7 @@
       <item>
         <title>AI List</title>
         
-          <description>&lt;h1 id=&quot;ai-용어-리스트&quot;&gt;AI 용어 리스트&lt;/h1&gt;
+          <description>&lt;h1 id=&quot;ai-목차&quot;&gt;AI 목차&lt;/h1&gt;
 
 </description>
         
