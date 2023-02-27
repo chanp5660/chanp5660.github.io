@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/author/chanp5660/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-02-27T09:14:22+09:00</updated>
+  <updated>2023-02-27T23:54:25+09:00</updated>
   <id>http://localhost:4000/author/chanp5660/feed.xml</id>
 
   
@@ -30,6 +30,443 @@
   
   
 
+  
+    <entry>
+      <title type="html">문자열압축</title>
+      <link href="http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EC%95%95%EC%B6%95" rel="alternate" type="text/html" title="문자열압축" />
+      <published>2023-02-27T00:00:00+09:00</published>
+      <updated>2023-02-27T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EC%95%95%EC%B6%95</id>
+      <content type="html" xml:base="http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EC%95%95%EC%B6%95">&lt;h1 id=&quot;문자열압축&quot;&gt;문자열압축&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;문자열을 압축하는 문제로, 같은 문자가 반복되는 경우 &lt;br /&gt;
+그 반복되는 문자의 개수를 숫자로 표현하여 압축된 문자열을 출력해야 합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;문자열압축-1&quot;&gt;문자열압축 1&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;문자열에서 같은 문자가 반복되는 경우 &lt;br /&gt;
+그 반복되는 문자의 개수를 숫자로 표현하여 &lt;br /&gt;
+압축한 문자열을 출력하는 함수 compress_string을 작성하세요.&lt;br /&gt;
+예시: “aaabbcccc” → “a3b2c4”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;compress_string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+    
+    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;
+        
+&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;aaabbcccc&quot;&lt;/span&gt;   
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;compress_string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;a3b2c4
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;문자열압축-2&quot;&gt;문자열압축 2&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;문자열을 입력받아서 &lt;strong&gt;연속된 중복 문자열&lt;/strong&gt;을 제거하고, &lt;br /&gt;
+제거한 결과를 반환하는 remove_duplicates 함수를 작성하세요.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;예를 들어, 문자열 “aabbccddeeff”를 입력받으면 “abcdef”를 반환해야 합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;제한 사항:&lt;br /&gt;
+입력 문자열의 길이는 1000 이하입니다.&lt;br /&gt;
+문자열은 알파벳 소문자로만 이루어져 있습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;remove_duplicates&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;
+        
+    &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;
+    
+    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# 마지막 문자 추가
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+    
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;aabbccddeeff&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;remove_duplicates&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;abcdef
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;문자열을 처음부터 순회하면서, 현재 문자와 이전 문자가 같은지 확인합니다.&lt;/li&gt;
+  &lt;li&gt;같은 경우 중복 문자열에 추가하지 않고, 다른 경우 중복 문자열에 추가합니다.&lt;/li&gt;
+  &lt;li&gt;마지막 중복문자는 추가되지 않으므로 추가해준다.&lt;/li&gt;
+  &lt;li&gt;중복 문자열이 모두 추가되면 최종 결과 문자열에 이어붙입니다.&lt;/li&gt;
+&lt;/ol&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="programing" />
+      
+        <category term="python" />
+      
+
+      
+        <summary type="html">문자열압축</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">문자열순열확인</title>
+      <link href="http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EC%88%9C%EC%97%B4%ED%99%95%EC%9D%B8" rel="alternate" type="text/html" title="문자열순열확인" />
+      <published>2023-02-27T00:00:00+09:00</published>
+      <updated>2023-02-27T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EC%88%9C%EC%97%B4%ED%99%95%EC%9D%B8</id>
+      <content type="html" xml:base="http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EC%88%9C%EC%97%B4%ED%99%95%EC%9D%B8">&lt;h1 id=&quot;문자열순열확인&quot;&gt;문자열순열확인&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;두 문자열이 서로 순열인지 확인하는 알고리즘&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;is_permutation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    
+    &lt;span class=&quot;c1&quot;&gt;# s1이 s2의 순열인지 확인한다.
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
+    
+    &lt;span class=&quot;c1&quot;&gt;# s2이 s1의 순열인지 확인한다.
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
+    
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+    
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;is_permutation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;abc&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;cba&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;is_permutation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;abcd&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;abdc&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;is_permutation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;aaa&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;aab&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;is_permutation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;hello&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;world&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;True
+True
+False
+False
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;is_permutation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;abcd&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;abdcc&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;False
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;is_permutation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;str2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# If the two strings have different lengths, they cannot be permutations of each other
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;# Create dictionaries to store the frequency of each character in both strings
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;freq1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;freq2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;# Update the frequencies for each character in both strings
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)):&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# Update the frequency count for the character in str1
+&lt;/span&gt;        &lt;span class=&quot;n&quot;&gt;freq1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;freq1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+        
+        &lt;span class=&quot;c1&quot;&gt;# Update the frequency count for the character in str2
+&lt;/span&gt;        &lt;span class=&quot;n&quot;&gt;freq2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;freq2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;# Check if the two dictionaries are equal
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;freq1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;freq2&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;is_permutation 함수는 str1 및 str2의 두 문자열을 사용합니다. , 입력으로 str1이 str2의 순열이면 True를 반환하고 그렇지 않으면 False를 반환합니다.&lt;/p&gt;
+
+&lt;p&gt;알고리즘은 먼저 두 문자열이 동일한지 확인합니다. 길이가 같지 않으면 서로 순열이 될 수 없으므로 함수는 False를 반환합니다.&lt;/p&gt;
+
+&lt;p&gt;다음으로 알고리즘은 freq1 및 &amp;lt; code&amp;gt;freq2, 두 문자열에 각 문자의 빈도를 저장합니다. 사전의 get 메서드는 주어진 키에 대한 값을 가져오는 데 사용되며 키가 존재하지 않으면 기본값(이 경우 0)을 반환합니다.&lt;/p&gt;
+
+&lt;p&gt;알고리즘은 문자열의 각 문자를 반복하여 두 문자열의 각 문자에 대한 빈도를 업데이트합니다. str1의 각 문자에 대한 빈도 수는 사전 freq1에 저장되고 str2의 각 문자에 대한 빈도 수는 사전에 저장됩니다. freq2.&lt;/p&gt;
+
+&lt;p&gt;마지막으로 알고리즘은 == 연산자를 사용하여 두 사전이 동일한지 확인합니다. 두 사전의 키와 값이 같으면 두 문자열이 서로 순열이므로 함수는 True를 반환합니다. 두 사전이 같지 않으면 두 문자열이 서로 순열이 아니므로 함수는 False를 반환합니다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="programing" />
+      
+        <category term="python" />
+      
+
+      
+        <summary type="html">문자열순열확인</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">문자열뒤집기</title>
+      <link href="http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EB%92%A4%EC%A7%91%EA%B8%B0" rel="alternate" type="text/html" title="문자열뒤집기" />
+      <published>2023-02-27T00:00:00+09:00</published>
+      <updated>2023-02-27T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EB%92%A4%EC%A7%91%EA%B8%B0</id>
+      <content type="html" xml:base="http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EB%92%A4%EC%A7%91%EA%B8%B0">&lt;h1 id=&quot;문자열뒤집기&quot;&gt;문자열뒤집기&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;문자열을 뒤집는 문제로, 입력으로 주어진 문자열을 뒤집어 출력해야 합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;문자열-뒤집기-1&quot;&gt;문자열 뒤집기 1&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;주어진 문자열을 뒤집어 출력하라&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;reverse_string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[::&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# Example
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;hello&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reverse_string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Output: &quot;olleh&quot;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;olleh
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;위 코드에서 s[::-1]은 문자열 슬라이싱을 이용하여 문자열을 뒤집습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;문자열-뒤집기-2&quot;&gt;문자열 뒤집기 2&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;주어진 문자열에서 공백을 제거하고, 단어의 순서를 뒤집어 출력하는 함수 reverse_words를 작성하세요. &lt;br /&gt;
+단, 공백은 하나만 남겨두어야 합니다.&lt;br /&gt;
+예시: “ hello world “ → “world hello”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;reverse_words&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# 공백을 기준으로 문자열을 나눈다. (공백 제거)
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;words&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+    
+    &lt;span class=&quot;c1&quot;&gt;# 단어의 순서를 뒤집는다. 
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;words&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;words&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[::&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+    
+    &lt;span class=&quot;c1&quot;&gt;# 단어사이에 공백을 하나 추가한다.
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;words&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos; &apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;words&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;words&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;   Hello   World   &quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reverse_words&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;World Hello
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="programing" />
+      
+        <category term="python" />
+      
+
+      
+        <summary type="html">문자열뒤집기</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Coding Test List</title>
+      <link href="http://localhost:4000/CodingTestList" rel="alternate" type="text/html" title="Coding Test List" />
+      <published>2023-02-27T00:00:00+09:00</published>
+      <updated>2023-02-27T00:00:00+09:00</updated>
+      <id>http://localhost:4000/CodingTestList</id>
+      <content type="html" xml:base="http://localhost:4000/CodingTestList">&lt;h1 id=&quot;코딩-테스트&quot;&gt;코딩 테스트&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;기업에-자주-나오는-python-알고리즘-코딩-테스트&quot;&gt;기업에 자주 나오는 python 알고리즘 코딩 테스트&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/문자열처리&quot;&gt;문자열 처리&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;배열/리스트 처리&lt;/li&gt;
+  &lt;li&gt;그래프 이론&lt;/li&gt;
+  &lt;li&gt;동적 계획법&lt;/li&gt;
+  &lt;li&gt;브루트 포스/완전 탐색&lt;/li&gt;
+  &lt;li&gt;트리 구조&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="programing" />
+      
+        <category term="python" />
+      
+
+      
+        <summary type="html">코딩 테스트</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">문자열처리</title>
+      <link href="http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EC%B2%98%EB%A6%AC" rel="alternate" type="text/html" title="문자열처리" />
+      <published>2023-02-27T00:00:00+09:00</published>
+      <updated>2023-02-27T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EC%B2%98%EB%A6%AC</id>
+      <content type="html" xml:base="http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EC%B2%98%EB%A6%AC">&lt;h1 id=&quot;문자열처리&quot;&gt;문자열처리&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;문자열 처리 문제는 문자열을 다루는 방법에 대한 이해가 필요합니다. &lt;br /&gt;
+대부분 &lt;strong&gt;문자열의 길이&lt;/strong&gt;와 &lt;strong&gt;문자열에서 찾을 문자열의 길이&lt;/strong&gt; 등에 따라 &lt;br /&gt;
+&lt;strong&gt;시간 복잡도&lt;/strong&gt;가 크게 차이나기 때문에, 문자열 처리 알고리즘에 대한 &lt;br /&gt;
+이해와 효율적인 알고리즘을 개발할 수 있는 능력이 필요합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/문자열뒤집기&quot;&gt;문자열 뒤집기&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/문자열압축&quot;&gt;문자열 압축&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;문자열 회전&lt;/li&gt;
+  &lt;li&gt;문자열 비교&lt;/li&gt;
+  &lt;li&gt;문자열에서 숫자 추출&lt;/li&gt;
+  &lt;li&gt;문자열 매칭&lt;/li&gt;
+  &lt;li&gt;문자열 편집&lt;/li&gt;
+  &lt;li&gt;문자열 분할&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/문자열순열확인&quot;&gt;문자열 순열 확인&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;문자열 뒤집기: 문자열을 뒤집는 문제로, 입력으로 주어진 문자열을 뒤집어 출력해야 합니다. 예를 들어, “hello”가 입력으로 주어졌을 때 “olleh”로 출력합니다.&lt;/p&gt;
+
+&lt;p&gt;문자열 압축: 문자열을 압축하는 문제로, 같은 문자가 반복되는 경우 그 반복되는 문자의 개수를 숫자로 표현하여 압축된 문자열을 출력해야 합니다. 예를 들어, “aaabbcccc”가 입력으로 주어졌을 때 “a3b2c4”로 출력합니다.&lt;/p&gt;
+
+&lt;p&gt;문자열 회전: 문자열을 회전시키는 문제로, 입력으로 주어진 문자열을 왼쪽으로 회전시키고 회전시킨 문자열을 출력해야 합니다. 예를 들어, “hello”가 입력으로 주어졌을 때 “elloh”로 출력합니다.&lt;/p&gt;
+
+&lt;p&gt;문자열 비교: 두 개의 문자열을 비교하는 문제로, 두 개의 문자열이 같은지 판별하고 같다면 True를, 다르다면 False를 출력해야 합니다. 예를 들어, “hello”와 “world”가 입력으로 주어졌을 때 False를 출력합니다.&lt;/p&gt;
+
+&lt;p&gt;문자열에서 숫자 추출: 문자열에서 숫자만 추출하는 문제로, 문자열에서 숫자만 추출하여 출력해야 합니다. 예를 들어, “abc123def456”이 입력으로 주어졌을 때 “123456”으로 출력합니다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="programing" />
+      
+        <category term="python" />
+      
+
+      
+        <summary type="html">문자열처리</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">의사결정트리</title>
@@ -151,93 +588,6 @@
 
       
         <summary type="html">의사결정트리 (Decision Tree)</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">비지도학습</title>
-      <link href="http://localhost:4000/%EB%B9%84%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5" rel="alternate" type="text/html" title="비지도학습" />
-      <published>2023-02-25T00:00:00+09:00</published>
-      <updated>2023-02-25T00:00:00+09:00</updated>
-      <id>http://localhost:4000/%EB%B9%84%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5</id>
-      <content type="html" xml:base="http://localhost:4000/%EB%B9%84%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5">&lt;h1 id=&quot;비지도학습-unsupervised-learning&quot;&gt;비지도학습 (Unsupervised Learning)&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것이며, 하나씩 해결해나가는 느낌으로 ML을 복습 및 검토한다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;비지도학습-정의&quot;&gt;비지도학습 정의&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;레이블(정답)&lt;/strong&gt; 된 데이터 &lt;strong&gt;없이&lt;/strong&gt; &lt;strong&gt;입력 데이터만&lt;/strong&gt;으로 &lt;strong&gt;패턴을 학습&lt;/strong&gt;하는 머신러닝의 한 분야입니다.&lt;/li&gt;
-  &lt;li&gt;데이터의 구조나 패턴을 찾아내기 위해 데이터를 &lt;strong&gt;자동&lt;/strong&gt;으로 &lt;strong&gt;클러스터링&lt;/strong&gt;하거나, &lt;strong&gt;차원 축소&lt;/strong&gt;, &lt;strong&gt;밀도 추정&lt;/strong&gt;, &lt;strong&gt;이상치 탐색&lt;/strong&gt; 등 다양한 방법이 사용될 수 있습니다.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;사용&lt;/strong&gt; : 데이터 분석, 데이터 전처리, 데이터 시각화, 추천 시스템, 이미지/음성/텍스트 처리, 생성 모델링 등&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;해결-알고리즘-종류&quot;&gt;해결 알고리즘 종류&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;군집화(Clustering)
-    &lt;blockquote&gt;
-      &lt;p&gt;데이터들을 서로 유사한 특징을 가진 그룹으로 나누는 알고리즘 &lt;br /&gt;
-  K-Means, Hierarchical Clustering 등&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;차원 축소(Dimensionality Reduction)
-    &lt;blockquote&gt;
-      &lt;p&gt;고차원 데이터를 저차원 데이터로 변환하는 알고리즘 &lt;br /&gt;
-  PCA, t-SNE, LLE 등이 있습니다.&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;이상치 탐지(Outlier Detection)
-    &lt;blockquote&gt;
-      &lt;p&gt;데이터셋에서 이상치를 탐지하는 알고리즘 &lt;br /&gt;
-  Isolation Forest, One-Class SVM 등&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;연관 규칙 학습(Association Rule Learning)
-    &lt;blockquote&gt;
-      &lt;p&gt;데이터에서 자주 발생하는 규칙을 찾아내는 알고리즘 &lt;br /&gt;
-  Apriori, FP-Growth 등&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;생성 모델(Generative Model)
-    &lt;blockquote&gt;
-      &lt;p&gt;데이터셋을 생성하는 확률 모델을 학습하는 알고리즘 &lt;br /&gt;
-  GAN, VAE 등&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;클러스터링(Curver Clustering)
-    &lt;blockquote&gt;
-      &lt;p&gt;곡선으로 이루어진 클러스터링 방법으로 이전의 클러스터링 방법들과는 차별화된 특성 &lt;br /&gt;
-  OPTICS, DBSCAN 등&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="ai" />
-      
-
-      
-        <summary type="html">비지도학습 (Unsupervised Learning)</summary>
       
 
       
@@ -533,6 +883,93 @@
 
       
         <summary type="html">지도학습 (Supervised Learning)</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">비지도학습</title>
+      <link href="http://localhost:4000/%EB%B9%84%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5" rel="alternate" type="text/html" title="비지도학습" />
+      <published>2023-02-25T00:00:00+09:00</published>
+      <updated>2023-02-25T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%EB%B9%84%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5</id>
+      <content type="html" xml:base="http://localhost:4000/%EB%B9%84%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5">&lt;h1 id=&quot;비지도학습-unsupervised-learning&quot;&gt;비지도학습 (Unsupervised Learning)&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것이며, 하나씩 해결해나가는 느낌으로 ML을 복습 및 검토한다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;비지도학습-정의&quot;&gt;비지도학습 정의&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;레이블(정답)&lt;/strong&gt; 된 데이터 &lt;strong&gt;없이&lt;/strong&gt; &lt;strong&gt;입력 데이터만&lt;/strong&gt;으로 &lt;strong&gt;패턴을 학습&lt;/strong&gt;하는 머신러닝의 한 분야입니다.&lt;/li&gt;
+  &lt;li&gt;데이터의 구조나 패턴을 찾아내기 위해 데이터를 &lt;strong&gt;자동&lt;/strong&gt;으로 &lt;strong&gt;클러스터링&lt;/strong&gt;하거나, &lt;strong&gt;차원 축소&lt;/strong&gt;, &lt;strong&gt;밀도 추정&lt;/strong&gt;, &lt;strong&gt;이상치 탐색&lt;/strong&gt; 등 다양한 방법이 사용될 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;사용&lt;/strong&gt; : 데이터 분석, 데이터 전처리, 데이터 시각화, 추천 시스템, 이미지/음성/텍스트 처리, 생성 모델링 등&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;해결-알고리즘-종류&quot;&gt;해결 알고리즘 종류&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;군집화(Clustering)
+    &lt;blockquote&gt;
+      &lt;p&gt;데이터들을 서로 유사한 특징을 가진 그룹으로 나누는 알고리즘 &lt;br /&gt;
+  K-Means, Hierarchical Clustering 등&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;차원 축소(Dimensionality Reduction)
+    &lt;blockquote&gt;
+      &lt;p&gt;고차원 데이터를 저차원 데이터로 변환하는 알고리즘 &lt;br /&gt;
+  PCA, t-SNE, LLE 등이 있습니다.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;이상치 탐지(Outlier Detection)
+    &lt;blockquote&gt;
+      &lt;p&gt;데이터셋에서 이상치를 탐지하는 알고리즘 &lt;br /&gt;
+  Isolation Forest, One-Class SVM 등&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;연관 규칙 학습(Association Rule Learning)
+    &lt;blockquote&gt;
+      &lt;p&gt;데이터에서 자주 발생하는 규칙을 찾아내는 알고리즘 &lt;br /&gt;
+  Apriori, FP-Growth 등&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;생성 모델(Generative Model)
+    &lt;blockquote&gt;
+      &lt;p&gt;데이터셋을 생성하는 확률 모델을 학습하는 알고리즘 &lt;br /&gt;
+  GAN, VAE 등&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;클러스터링(Curver Clustering)
+    &lt;blockquote&gt;
+      &lt;p&gt;곡선으로 이루어진 클러스터링 방법으로 이전의 클러스터링 방법들과는 차별화된 특성 &lt;br /&gt;
+  OPTICS, DBSCAN 등&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="ai" />
+      
+
+      
+        <summary type="html">비지도학습 (Unsupervised Learning)</summary>
       
 
       
@@ -1067,677 +1504,6 @@ Acquired Wayne Hills  AA rating from Korea Exchange technology evaluation agency
 
       
         <summary type="html">웨인힐스벤처스</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">TIL-엔텔스</title>
-      <link href="http://localhost:4000/TIL-%EC%97%94%ED%85%94%EC%8A%A4" rel="alternate" type="text/html" title="TIL-엔텔스" />
-      <published>2023-02-23T00:00:00+09:00</published>
-      <updated>2023-02-23T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-%EC%97%94%ED%85%94%EC%8A%A4</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-%EC%97%94%ED%85%94%EC%8A%A4">&lt;h1 id=&quot;엔텔스&quot;&gt;엔텔스&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;확장되고 있는 회사&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;에너지를 관리 하는 느낌으로 아이디어를 가지고 있지만 실제로 서비스의 종류는 굉장히 많다.(통신, IoT 및 에너지 / 제조 산업분야) 우선 기초 데이터 관리까지는 다 통일 되겠지만 어떻게 분석 및 서비스 하는지에 따라 굉장히 분야가 다양하다. 아마 사원수가 많아서 관리가 되는 듯 하다. 이미 잡혀있어 각자의 분야가 잡혀있어 하나의 전문일을 할 수 있을 듯하지만 SI(시스템 통합)인원으로 책정되어 있어 확인할 수 없다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;엔텔스-1&quot;&gt;엔텔스&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.ntels.com/ir/&quot;&gt;공식 사이트 참조&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2000년 7월 19일 설립(업력24년차)&lt;/li&gt;
-  &lt;li&gt;사원수 : 209명(2022.12 기준)
-    &lt;ul&gt;
-      &lt;li&gt;입사자의 수보다 퇴사자의 수가 늘고 있음&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;엔텔스는 Creative Convergence라는 비전을 통해 IoT, Cloud, Bigdata, Industry 4.0등 컨버전스가 만들어내는 기회를 고객이 사업화로 연결하도록 도와주는 토털 컨버전스 솔루션을 제공합니다.
-    &lt;ul&gt;
-      &lt;li&gt;통신 분야 솔루션 리더로 성장&lt;/li&gt;
-      &lt;li&gt;다양한 분야로의 도전, 컨버전스 사업 확장&lt;/li&gt;
-      &lt;li&gt;IoT 및 에너지 / 제조 산업분야의 컨버전스 사업 확장&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://comp.fnguide.com/SVO2/ASP/SVD_Finance.asp?pGB=1&amp;amp;gicode=A069410&amp;amp;cID=&amp;amp;MenuYn=Y&amp;amp;ReportGB=&amp;amp;NewMenuID=103&amp;amp;stkGb=701&quot;&gt;재무제표&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;span style=&quot;color:blue&quot;&gt;매출은 조금씩 성장하는 것에 비해 순이익은 전년 대비 매우 감소했다. 유동 자산이 많고 비유동자산이 적어 임금의 문제는 적을 것으로 예상되지만 그에 비해 부채가 적어 회사의 돈이 제대로 굴러가고 있는지 확인 할 수 없다. 부채의 비율은 계속 줄어든다. 투자가 줄어드는 시기이긴하다. 그래서 현금흐름표에서 투자활동으로 인한 유입이 적지 않은 것으로 판단된다. 물론… 유출액도 적지 않다.&lt;/span&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;크게-4개의-서비스-제공&quot;&gt;크게 4개의 서비스 제공&lt;/h1&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- ENERGY
-    - 에너지 경영을 위한 관리
-    - 전력 사업에 특화된 BSS
-    - 에너지 데이터 분석
-    - **IoT Platform, EMS Power BSS, Energy Data Algorithm**을 기반으로 에너지 관리와 에너지 거래를 위한 비지니스 솔루션을 제공하고 있습니다.
-- Smart City
-    - 안전 및 방재 관리
-    - 도시 환경 최적화
-    - 지속 가능성 제고
-    - 도시 에너지 서비스
-    - 도시 환경 관리 및 교통 서비스
-    - 범죄 예방 / 안전
-- Telecommunications
-    - 국제 표준 규격 준수
-    - 최적화된 네트워크
-    - 시장 변화에 대한 민첩성
-    - 5G &amp;amp; LTE
-    - 가상화 &amp;amp; 클라우드
-    - 운영 지원(OSS)
-- Manufacturing
-    - 지능형 인명 및 자산 안전 관리
-    - 공장 운영 최적화 자산 관리
-    - 에너지 데이터 분석
-    - 산업 안전 관리
-    - 설비 및 장비 관리
-    - 에너지 관리
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h1 id=&quot;연혁&quot;&gt;연혁&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2012
-    &lt;ul&gt;
-      &lt;li&gt;12년 선도벤처연계 창업지원사업 (선도기업선정)&lt;br /&gt;
-  선도벤처 보육기업 3팀 “더누보, 모코플렉스, 바인트리”&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2013
-    &lt;ul&gt;
-      &lt;li&gt;13년 선도벤처연계 창업지원사업 (선도기업선정)&lt;br /&gt;
-  선도벤처 보육기업 2팀 “두나무, 제트플러스”, 계속사업 보육 기업 2팀 “모코틀렉스, 바인트리”&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2014
-    &lt;ul&gt;
-      &lt;li&gt;14년 선도벤처연계 창업지원사업 (선도기업선정)&lt;br /&gt;
-  선도벤처 보육기업 2팀 “라임코어, 헥사우스”&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2015
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;팁스프로그램 3기 운영사 선정&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;15년 팁스프로그램&lt;br /&gt;
-  창업팀 팁스프로그램 선정 3기업 “티앤알바이오팹, 퍼릭스, 브랜디”&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;15년 선도벤처연계 창업지원사업 (선도기업선정)&lt;br /&gt;
-  선도벤처 보육기업 1팀 “다르마”&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;15년 투자연계형기업성장R&amp;amp;D지원사업 (주관기관선정)&lt;br /&gt;
-  창업팀 6기업 선정 “펀다, 임플릿, 선의의경쟁, 데이코어, 크레딧데이터, 이피플래닛”&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2016
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;TECHSEED 플랫폼 창단 (1기) 운영&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;16년 팁스프로그램&lt;br /&gt;
-  창업팀 팁스프로그램 선정 3기업 “데이코어, 실리콘사피엔스, 마이쿤”
-  엔텔스 Startup Value-up 1호 개인투자조합 결성 (한국모태펀드)&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;16년 투자연계형기업성장R&amp;amp;D지원사업 (주관기관선정)
-  창업팀 2기업 선정 “인텔리퀀트, 나무”&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;16년 엑셀러레이터 연계지원사업 (주관기관선정)- 서울, 인천창조경제혁신센터
-  보육기업 4팀 선정 “스마프, 태주산업, 피트”&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;16년 선도벤처연계 창업지원사업 (선도기업선정)
-  선도벤처 계속 사업 보육 1팀 “노바테크”&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2017
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;TECHSEED 2기 운영&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;17년 팁스프로그램
-  창업팀 팁스프로그램 6기업 선정 “해빗팩토리, 칸필터, 하프스, 엠티이지, 딥브레인, 네이처코스텍”&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;p&gt;-17년 엑셀러레이터 연계지원사업 (참여기관선정)- 대전, 인천창조경제혁신센터
-  보육기업 4팀 선정 “인프로, 칸필터, 네이처코스텍, 마이모바일”&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;17년 투자연계형기업성장R&amp;amp;D지원사업 (주관기관선정)
-  창업팀 1팀 “실리콘사피엔스” 선정&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;17년 선도벤처연계 창업지원사업 (선도기업선정)
-  선도벤처 보육기업 2팀 “유엑스팩토리, 알루머”&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2018
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;TECHSEED 3기 운영&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;18년 팁스프로그램
-  창업팀 팁스프로그램 선정 “인더코어비즈니스플랫폼”
-  창업팀 팁스프로그램 선정 “오르비스에이아이”
-  창업팀 팁스프로그램 선정 “이엔셀”
-  9월까지 총 33개의 창업팀에 투자, 5개의 기업 Exited&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">엔텔스</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Python List</title>
-      <link href="http://localhost:4000/python%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94" rel="alternate" type="text/html" title="Python List" />
-      <published>2023-02-22T00:00:00+09:00</published>
-      <updated>2023-02-22T00:00:00+09:00</updated>
-      <id>http://localhost:4000/python%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94</id>
-      <content type="html" xml:base="http://localhost:4000/python%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94">&lt;h1 id=&quot;python-용어정리&quot;&gt;Python 용어정리&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;필요한 정도까지만 포스팅(시간이 오래걸림)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;포스팅-됨&quot;&gt;포스팅 됨&lt;/h2&gt;
-
-&lt;h2 id=&quot;포스팀-안됨&quot;&gt;포스팀 안됨&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;이동하면서 볼 수 있도록 공부할만한 사이트 링크 걸어둔다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://velog.io/@gayeon/데이터-분석-초보자를-위한-Logistic-Regression-with-Scikit-Learn&quot;&gt;LogisticRegression&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://velog.io/@hyunicecream/GridSearchCV란-어떻게-사용할까&quot;&gt;GridSearchCV&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://inuplace.tistory.com/516&quot;&gt;SDGClassifier&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://wikidocs.net/43332&quot;&gt;train_test_split&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="programing" />
-      
-        <category term="python" />
-      
-
-      
-        <summary type="html">Python 용어정리</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Math List</title>
-      <link href="http://localhost:4000/Math-%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94" rel="alternate" type="text/html" title="Math List" />
-      <published>2023-02-20T00:00:00+09:00</published>
-      <updated>2023-02-20T00:00:00+09:00</updated>
-      <id>http://localhost:4000/Math%20%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94</id>
-      <content type="html" xml:base="http://localhost:4000/Math-%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC%ED%95%84%EC%9A%94">&lt;h1 id=&quot;math-용어정리&quot;&gt;Math 용어정리&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;필요한 정도까지만 포스팅(시간이 오래걸림)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;포스팅-됨&quot;&gt;포스팅 됨&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/유클리드공간&quot;&gt;유클리드공간&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/내적연산&quot;&gt;내적연산&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;포스팀-안됨&quot;&gt;포스팀 안됨&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;이동하면서 볼 수 있도록 공부할만한 사이트 링크 걸어둔다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://juggernaut.tistory.com/entry/%EC%BB%A4%EB%84%90-%ED%95%A8%EC%88%98%EC%99%80-%EC%A7%80%EC%A7%80-%EB%B2%A1%ED%84%B0-%EB%A8%B8%EC%8B%A0SVM&quot;&gt;커널함수&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="math" />
-      
-
-      
-        <summary type="html">Math 용어정리</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">TIL-액션파워</title>
-      <link href="http://localhost:4000/TIL-%EC%95%A1%EC%85%98%ED%8C%8C%EC%9B%8C" rel="alternate" type="text/html" title="TIL-액션파워" />
-      <published>2023-02-20T00:00:00+09:00</published>
-      <updated>2023-02-20T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-%EC%95%A1%EC%85%98%ED%8C%8C%EC%9B%8C</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-%EC%95%A1%EC%85%98%ED%8C%8C%EC%9B%8C">&lt;h1 id=&quot;액션파워&quot;&gt;액션파워&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;국내 최초 음성 인식 기술 활용 인공지능 받아쓰기 타이틀&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;간단한 알람 설정, 메모, 네비게이션 등 음성인식을 자주 쓰는데 이 분야에서 경쟁사 중에서도 최초 최고인 것은 큰 장점으로 생각되고 충분히 성장 가능성 있는 아이템이다. 내 전공과도 비슷한 경향이 있으며 음성으로 받고 그것을 분석하는 것으로 하면 회사에 도움이 될 것 같다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;액션파워-1&quot;&gt;액션파워&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://actionpower.kr/&quot;&gt;공식 사이트&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2016년 설립&lt;/li&gt;
-  &lt;li&gt;서비스 앱 &lt;strong&gt;다글로&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;2019년 4월 출시, 2017년 국내 최초로 음성 인식 기술을 활용하여 만든 인공지능 받아쓰기 서비스&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;사원수 : 47명(2023.1 기준)
-    &lt;ul&gt;
-      &lt;li&gt;&lt;span style=&quot;color:blue&quot;&gt;인원수가 빠르게 늘고 있는 것 같으며 퇴사자는 적은것으로 보다 체계가 잘 잡혀 있는 것 같다.&lt;/span&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;가장 최근 &lt;a href=&quot;https://actionpower.kr/article/13&quot;&gt;뉴스&lt;/a&gt;
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;올해 AI 스타트업 100 명단
-AI 솔루션 기업 ‘강세’
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;연혁&quot;&gt;연혁&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2021
-    &lt;ul&gt;
-      &lt;li&gt;11
-        &lt;ul&gt;
-          &lt;li&gt;시리즈 A 133억 원 투자 유치&lt;/li&gt;
-          &lt;li&gt;삼성금융 Open Collaboration 우수상 수상&lt;/li&gt;
-          &lt;li&gt;대한민국 ICT대상 과학기술정보통신부 장관상 수상&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2020
-    &lt;ul&gt;
-      &lt;li&gt;08
-        &lt;ul&gt;
-          &lt;li&gt;NH Digital Challenge+ 4기 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;06
-        &lt;ul&gt;
-          &lt;li&gt;하나은행 1Q Agile Lab 10기 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;04
-        &lt;ul&gt;
-          &lt;li&gt;산업자원통상부 조선해양산업핵심기술개발사업 산업기술혁신사업 과제 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2019
-    &lt;ul&gt;
-      &lt;li&gt;11
-        &lt;ul&gt;
-          &lt;li&gt;대한민국 모바일어워드 우수상 수상&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;10
-        &lt;ul&gt;
-          &lt;li&gt;하나벤처스 Pre-A 투자유치&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;04
-        &lt;ul&gt;
-          &lt;li&gt;다글로(분야별 특화 음성인식 받아쓰기) 출시&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2018
-    &lt;ul&gt;
-      &lt;li&gt;12
-        &lt;ul&gt;
-          &lt;li&gt;TIPS 프로그램 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;06
-        &lt;ul&gt;
-          &lt;li&gt;스프링캠프 Seed 투자유치&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;04
-        &lt;ul&gt;
-          &lt;li&gt;AWS AI Startup Challenge 수상&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2017
-    &lt;ul&gt;
-      &lt;li&gt;12
-        &lt;ul&gt;
-          &lt;li&gt;리뷰와이저(음성인식 받아쓰기) 출시&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2016
-    &lt;ul&gt;
-      &lt;li&gt;01
-        &lt;ul&gt;
-          &lt;li&gt;액션파워 설립&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">액션파워</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">TIL-마키나락스</title>
-      <link href="http://localhost:4000/TIL-%EB%A7%88%ED%82%A4%EB%82%98%EB%9D%BD%EC%8A%A4" rel="alternate" type="text/html" title="TIL-마키나락스" />
-      <published>2023-02-19T00:00:00+09:00</published>
-      <updated>2023-02-19T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-%EB%A7%88%ED%82%A4%EB%82%98%EB%9D%BD%EC%8A%A4</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-%EB%A7%88%ED%82%A4%EB%82%98%EB%9D%BD%EC%8A%A4">&lt;h1 id=&quot;마키나락스&quot;&gt;마키나락스&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;산업용 AI 적용, 확실한 비전&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;회사의 목표가 확실해 보이고 소비자 입장에서도 확실하게 원하는 바를 말할 수 있도록 사이트가 정리가 잘 되어 있고 심플하다. 사원수도 안정적으로 늘고 있다. AI 엔지니어를 기본적으로 많이 뽑고 있다. 최근 뉴스에서 보아도 AI를 기반으로 산업용으로 바로 적용하여 발전가능성이 높아 앞으로도 쭉 성장할 것으로 보인다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;마키나락스-makinarocks-기본-정보&quot;&gt;마키나락스 MakinaRocks 기본 정보&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.wanted.co.kr/wd/142631&quot;&gt;원티드&lt;/a&gt;, &lt;a href=&quot;https://www.saramin.co.kr/zf_user/company-info/view/csn/M25lOC9pVDhWY0lSVHV3VUpZNDF1Zz09/company_nm/(%EC%A3%BC)%EB%A7%88%ED%82%A4%EB%82%98%EB%9D%BD%EC%8A%A4&quot;&gt;사람인&lt;/a&gt;, &lt;a href=&quot;https://www.makinarocks.ai/&quot;&gt;공식사이트 참조&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2017년12월12일 설립( 업력 7년차 )&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;산업용 AI 솔루션과 플랫폼을 개발, 제공하는 AI 스타트업 마키나락스&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;상품
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.makinarocks.ai/product/link/&quot;&gt;Link&lt;/a&gt;
-        &lt;ul&gt;
-          &lt;li&gt;데이터 사이언티스트가 친숙하게 사용하는 주피터랩(jupyterlab)의 확장 프로그램으로, 가독성 있는 파이프라인을 만들어 쉽게 공유할 수 있는 AI/ML 모델 개발 도구입니다.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.makinarocks.ai/product/runway/&quot;&gt;Runway&lt;/a&gt;
-        &lt;ul&gt;
-          &lt;li&gt;모델 개발, 배포, 모니터링을 하나의 플랫폼으로 통합하여 지속적인 개발과 안정적 운영이 가능한 MLOps 플랫폼입니다.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;ML/DL, 강화학습 기술을 기반으로 한 Core ML 역량과 Enterpise MLOps 제품을 기반으로, 제조 및 산업 분야에서 다수의 AI 적용 사례를 만들어가고 있습니다.&lt;/li&gt;
-  &lt;li&gt;사원수 : 83 (2022.12 기준)
-    &lt;ul&gt;
-      &lt;li&gt;&lt;span style=&quot;color:blue&quot;&gt;입사자 수는 꾸준하고 퇴사자 수는 적은편으로 안정적으로 성장하는 것으로 보인다.&lt;/span&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;가장 최근 관련 &lt;a href=&quot;http://jmagazine.joins.com/forbes/view/337339&quot;&gt;뉴스&lt;/a&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;최근 마이크로소프트가 인공지능 연구소 ‘오픈AI’에 최대 100억 달러(한화 12조4800억원) 규모의 투자를 고려하고 있다는 소식에 업계가 술렁였다. IT업계에 대한 국내외 투자가 예전 같지 않은 상황에서 AI 분야만큼은 가능성을 봤기 때문이다. 한국에도 기술력으로 이미 세계시장에 눈도장을 찍은 AI 기업이 있다. 산업 현장에 맞춤형 AI 기술을 도입해 제조 혁신을 이루겠다는 ‘마키나락스’다.&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;연혁&quot;&gt;연혁&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2022
-    &lt;ul&gt;
-      &lt;li&gt;NOV
-        &lt;ul&gt;
-          &lt;li&gt;엔터프라이즈 ML옵스 플랫폼 마키나락스 런웨이(Runway™) 공개&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;OCT
-        &lt;ul&gt;
-          &lt;li&gt;‘Korea AI Startup 100’ 2년 연속 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;JUL
-        &lt;ul&gt;
-          &lt;li&gt;CB인사이트 ‘세계 50대 첨단 제조 스타트업’ 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;MAY
-        &lt;ul&gt;
-          &lt;li&gt;마키나락스 링크(Link™) 커뮤니티 버전 출시&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;MAR
-        &lt;ul&gt;
-          &lt;li&gt;마키나락스 링크(Link™) 베타 서비스 시작&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2021
-    &lt;ul&gt;
-      &lt;li&gt;OCT
-        &lt;ul&gt;
-          &lt;li&gt;Korea AI Startup 100 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;SEP
-        &lt;ul&gt;
-          &lt;li&gt;Kubernetes Certified Service Provider 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;JUN
-        &lt;ul&gt;
-          &lt;li&gt;세계경제포럼(World Economic Forum) 기술선도기업 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2020
-    &lt;ul&gt;
-      &lt;li&gt;DEC
-        &lt;ul&gt;
-          &lt;li&gt;과학기술정보통신부 주관 대한민국 4차 산업혁명대상 ‘창업진흥원장상’ 수상&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;NOV
-        &lt;ul&gt;
-          &lt;li&gt;지능정보산업협회-PWC 주관 ‘2021 Emerging AIX Top100’ 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;NOV
-        &lt;ul&gt;
-          &lt;li&gt;신용보증기금 혁신 아이콘 4기 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;SEP
-        &lt;ul&gt;
-          &lt;li&gt;NVIDIA Inception Program 멤버 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;JUL
-        &lt;ul&gt;
-          &lt;li&gt;120억 원 규모 Series A 투자 유치 (LG테크놀로지벤처스, 현대자동차, 어플라이드 벤처스, 산업은행)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2019
-    &lt;ul&gt;
-      &lt;li&gt;MAY
-        &lt;ul&gt;
-          &lt;li&gt;네이버 D2 Startup Factory (D2SF) 데모데이 참가&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;JAN
-        &lt;ul&gt;
-          &lt;li&gt;마키나락스 첫 특허 등록 (ANOMALY DETECTION, 10-1940029)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2018
-    &lt;ul&gt;
-      &lt;li&gt;MAY
-        &lt;ul&gt;
-          &lt;li&gt;Seed Round 투자 유치 (SK텔레콤, 현대자동차, 네이버 D2 스타트업 팩토리)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;MAR
-        &lt;ul&gt;
-          &lt;li&gt;마키나락스 미국 법인 설립 (Silicon Valley)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2017
-    &lt;ul&gt;
-      &lt;li&gt;DEC
-        &lt;ul&gt;
-          &lt;li&gt;마카니락스 한국 법인 설립 (Seoul)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">마키나락스</summary>
       
 
       
