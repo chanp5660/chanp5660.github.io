@@ -11,7 +11,7 @@
 
 
 
-    <title>문자열순열확인</title>
+    <title>문자열매칭</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
@@ -49,26 +49,26 @@
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="박찬" />
     <link rel="shortcut icon" href="http://localhost:4000/assets/built/images/favicon.jpg" type="image/png" />
-    <link rel="canonical" href="http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EC%88%9C%EC%97%B4%ED%99%95%EC%9D%B8" />
+    <link rel="canonical" href="http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EB%A7%A4%EC%B9%AD" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="Engineer Chanp5660" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="문자열순열확인" />
-    <meta property="og:description" content="문자열순열확인 기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것 두 문자열이 서로 순열인지 확인하는 알고리즘 해석 : 각 문자가 중복 없이 모두 서로에게 존재 하는 것 def is_premutation(str1, str2): # 두 문자열의 길이가 같지 않으면 순열이 아니다. if len(str1) != len(str2): return False # 각 문자열에서 문자의 개수를 셀 수 있도록" />
-    <meta property="og:url" content="http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EC%88%9C%EC%97%B4%ED%99%95%EC%9D%B8" />
-    <meta property="og:image" content="http://localhost:4000/assets/built/images/문자열순열확인.png" />
+    <meta property="og:title" content="문자열매칭" />
+    <meta property="og:description" content="문자열매칭 기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것 문자열매칭 1 (KMP 알고리즘; Knuth-Morris-Pratt) 문자열에 다른 문자열이 어디에 있는지 인덱스를 출력한다. def kmp(text, pattern): n, m = len(text), len(pattern) # 접두사와 접미사가 일치하는 위치를 계산합니다 lps = compute_lps(pattern) # 패턴 문자열과 텍스트 문자열을 비교합니다 i, j = 0, 0 while i" />
+    <meta property="og:url" content="http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EB%A7%A4%EC%B9%AD" />
+    <meta property="og:image" content="http://localhost:4000/assets/built/images/문자열매칭.png" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
     <meta property="article:author" content="https://www.facebook.com/" />
-    <meta property="article:published_time" content="2023-02-27T00:00:00+09:00" />
-    <meta property="article:modified_time" content="2023-02-27T00:00:00+09:00" />
+    <meta property="article:published_time" content="2023-02-28T00:00:00+09:00" />
+    <meta property="article:modified_time" content="2023-02-28T00:00:00+09:00" />
     <meta property="article:tag" content="Programing" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="문자열순열확인" />
-    <meta name="twitter:description" content="문자열순열확인 기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것 두 문자열이 서로 순열인지 확인하는 알고리즘 해석 : 각 문자가 중복 없이 모두 서로에게 존재 하는 것 def is_premutation(str1, str2): # 두 문자열의 길이가 같지 않으면 순열이 아니다. if len(str1) != len(str2): return False # 각 문자열에서 문자의 개수를 셀 수 있도록" />
+    <meta name="twitter:title" content="문자열매칭" />
+    <meta name="twitter:description" content="문자열매칭 기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것 문자열매칭 1 (KMP 알고리즘; Knuth-Morris-Pratt) 문자열에 다른 문자열이 어디에 있는지 인덱스를 출력한다. def kmp(text, pattern): n, m = len(text), len(pattern) # 접두사와 접미사가 일치하는 위치를 계산합니다 lps = compute_lps(pattern) # 패턴 문자열과 텍스트 문자열을 비교합니다 i, j = 0, 0 while i" />
     <meta name="twitter:url" content="http://localhost:4000/" />
-    <meta name="twitter:image" content="http://localhost:4000/assets/built/images/문자열순열확인.png" />
+    <meta name="twitter:image" content="http://localhost:4000/assets/built/images/문자열매칭.png" />
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="Engineer Chanp5660" />
     <meta name="twitter:label2" content="Filed under" />
@@ -87,18 +87,18 @@
         "name": "Engineer Chanp5660",
         "logo": "http://localhost:4000/"
     },
-    "url": "http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EC%88%9C%EC%97%B4%ED%99%95%EC%9D%B8",
+    "url": "http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EB%A7%A4%EC%B9%AD",
     "image": {
         "@type": "ImageObject",
-        "url": "http://localhost:4000/assets/built/images/문자열순열확인.png",
+        "url": "http://localhost:4000/assets/built/images/문자열매칭.png",
         "width": 2000,
         "height": 666
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EC%88%9C%EC%97%B4%ED%99%95%EC%9D%B8"
+        "@id": "http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EB%A7%A4%EC%B9%AD"
     },
-    "description": "문자열순열확인 기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것 두 문자열이 서로 순열인지 확인하는 알고리즘 해석 : 각 문자가 중복 없이 모두 서로에게 존재 하는 것 def is_premutation(str1, str2): # 두 문자열의 길이가 같지 않으면 순열이 아니다. if len(str1) != len(str2): return False # 각 문자열에서 문자의 개수를 셀 수 있도록"
+    "description": "문자열매칭 기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것 문자열매칭 1 (KMP 알고리즘; Knuth-Morris-Pratt) 문자열에 다른 문자열이 어디에 있는지 인덱스를 출력한다. def kmp(text, pattern): n, m = len(text), len(pattern) # 접두사와 접미사가 일치하는 위치를 계산합니다 lps = compute_lps(pattern) # 패턴 문자열과 텍스트 문자열을 비교합니다 i, j = 0, 0 while i"
 }
     </script>
 
@@ -111,7 +111,7 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="문자열순열확인" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="문자열매칭" href="/feed.xml" />
 
 
 </head>
@@ -173,7 +173,7 @@ into the {body} of the default.hbs template -->
 
             <header class="post-full-header">
                 <section class="post-full-meta">
-                    <time class="post-full-meta-date" datetime="27 February 2023">27 February 2023</time>
+                    <time class="post-full-meta-date" datetime="28 February 2023">28 February 2023</time>
                     
                         <span class="date-divider">/</span>
                         
@@ -187,78 +187,93 @@ into the {body} of the default.hbs template -->
                         
                     
                 </section>
-                <h1 class="post-full-title">문자열순열확인</h1>
+                <h1 class="post-full-title">문자열매칭</h1>
             </header>
             
             <!--
             
-            <figure class="post-full-image" style="background-image: url(/assets/built/images/문자열순열확인.png)">
+            <figure class="post-full-image" style="background-image: url(/assets/built/images/문자열매칭.png)">
             </figure>
             
             -->
 
             <section class="post-full-content">
                 <div class="kg-card-markdown">
-                    <h1 id="문자열순열확인">문자열순열확인</h1>
+                    <h1 id="문자열매칭">문자열매칭</h1>
 
 <blockquote>
   <p>기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것</p>
 </blockquote>
 
+<h2 id="문자열매칭-1-kmp-알고리즘-knuth-morris-pratt">문자열매칭 1 (KMP 알고리즘; Knuth-Morris-Pratt)</h2>
+
 <blockquote>
-  <p>두 문자열이 서로 순열인지 확인하는 알고리즘<br />
-해석 : 각 문자가 중복 없이 모두 서로에게 존재 하는 것</p>
+  <p>문자열에 다른 문자열이 어디에 있는지 인덱스를 출력한다.</p>
 </blockquote>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">is_premutation</span><span class="p">(</span><span class="n">str1</span><span class="p">,</span> <span class="n">str2</span><span class="p">):</span>
-    <span class="c1"># 두 문자열의 길이가 같지 않으면 순열이 아니다.
-</span>    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">str1</span><span class="p">)</span> <span class="o">!=</span> <span class="nb">len</span><span class="p">(</span><span class="n">str2</span><span class="p">):</span>
-        <span class="k">return</span> <span class="bp">False</span>
-    
-    <span class="c1"># 각 문자열에서 문자의 개수를 셀 수 있도록 딕셔너리를 생성해준다.
-</span>    <span class="n">freq1</span> <span class="o">=</span> <span class="p">{}</span>
-    <span class="n">freq2</span> <span class="o">=</span> <span class="p">{}</span>
-    
-    <span class="c1"># 각 문자에 대한 빈도를 세어준다.
-</span>    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">str1</span><span class="p">)):</span>
-        <span class="c1"># str1에 대한 빈도 추가
-</span>        <span class="n">freq1</span><span class="p">[</span><span class="n">str1</span><span class="p">[</span><span class="n">i</span><span class="p">]]</span> <span class="o">=</span> <span class="n">freq1</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="n">str1</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="mi">0</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span>
-        <span class="c1"># str2에 대한 빈도 추가
-</span>        <span class="n">freq2</span><span class="p">[</span><span class="n">str2</span><span class="p">[</span><span class="n">i</span><span class="p">]]</span> <span class="o">=</span> <span class="n">freq2</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="n">str2</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="mi">0</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span>
-        
-    <span class="c1"># 두 딕셔너리가 같은지 확인
-</span>    <span class="k">return</span> <span class="n">freq1</span> <span class="o">==</span> <span class="n">freq2</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">kmp</span><span class="p">(</span><span class="n">text</span><span class="p">,</span> <span class="n">pattern</span><span class="p">):</span>
+    <span class="n">n</span><span class="p">,</span> <span class="n">m</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">text</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">pattern</span><span class="p">)</span>
+    <span class="c1"># 접두사와 접미사가 일치하는 위치를 계산합니다
+</span>    <span class="n">lps</span> <span class="o">=</span> <span class="n">compute_lps</span><span class="p">(</span><span class="n">pattern</span><span class="p">)</span>
+    <span class="c1"># 패턴 문자열과 텍스트 문자열을 비교합니다
+</span>    <span class="n">i</span><span class="p">,</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span>
+    <span class="k">while</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">:</span>
+        <span class="c1"># 겹치면 둘다 진행
+</span>        <span class="k">if</span> <span class="n">pattern</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="o">==</span> <span class="n">text</span><span class="p">[</span><span class="n">i</span><span class="p">]:</span>
+            <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="n">j</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="c1"># 겹치는 부분이 패턴의 길이와 같다면 해당 인덱스를 출력한다.
+</span>        <span class="k">if</span> <span class="n">j</span> <span class="o">==</span> <span class="n">m</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">i</span> <span class="o">-</span> <span class="n">j</span>
+        <span class="c1"># 겹치는 부분이 끝났을 때 lps에 계산된 정도만 이동한다.
+</span>        <span class="k">elif</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">n</span> <span class="ow">and</span> <span class="n">pattern</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="o">!=</span> <span class="n">text</span><span class="p">[</span><span class="n">i</span><span class="p">]:</span>
+            <span class="k">if</span> <span class="n">j</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span>
+                <span class="n">j</span> <span class="o">=</span> <span class="n">lps</span><span class="p">[</span><span class="n">j</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="k">return</span> <span class="o">-</span><span class="mi">1</span>
 
-<span class="k">print</span><span class="p">(</span><span class="n">is_permutation</span><span class="p">(</span><span class="s">"abc"</span><span class="p">,</span> <span class="s">"cba"</span><span class="p">))</span>
-<span class="k">print</span><span class="p">(</span><span class="n">is_permutation</span><span class="p">(</span><span class="s">"abcd"</span><span class="p">,</span> <span class="s">"abdc"</span><span class="p">))</span>
-<span class="k">print</span><span class="p">(</span><span class="n">is_permutation</span><span class="p">(</span><span class="s">"aaa"</span><span class="p">,</span> <span class="s">"aab"</span><span class="p">))</span>
-<span class="k">print</span><span class="p">(</span><span class="n">is_permutation</span><span class="p">(</span><span class="s">"hello"</span><span class="p">,</span> <span class="s">"world"</span><span class="p">))</span>
-</code></pre></div></div>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>True
-True
-False
-False
+<span class="k">def</span> <span class="nf">compute_lps</span><span class="p">(</span><span class="n">pattern</span><span class="p">):</span>
+    <span class="n">m</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">pattern</span><span class="p">)</span>
+    <span class="c1"># 접두사와 접미사가 일치하는 위치를 저장할 리스트를 초기화합니다
+</span>    <span class="n">lps</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="n">m</span>
+    <span class="n">len_lps</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">i</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="k">while</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">m</span><span class="p">:</span>
+        <span class="c1"># 겹치면 다음 문자도 같이 확인
+</span>        <span class="k">if</span> <span class="n">pattern</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="n">pattern</span><span class="p">[</span><span class="n">len_lps</span><span class="p">]:</span>
+            <span class="n">len_lps</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="n">lps</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">len_lps</span>
+            <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="c1"># 겹치는게 끝나면 겹치기 시작했던 바로 그 전값으로 시작 001123에서 끝났으면 123 전의 1에서 시작
+</span>        <span class="c1"># 이때, i는 변하지 않고 
+</span>        <span class="k">elif</span> <span class="n">len_lps</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="n">len_lps</span> <span class="o">=</span> <span class="n">lps</span><span class="p">[</span><span class="n">len_lps</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+        <span class="k">else</span><span class="p">:</span>
+        <span class="c1"># 겹치지 않고 len_lps도 0이라면 처음부터 일치하는 문자열을 또 찾아야한다.
+</span>            <span class="n">lps</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span>
+            <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="k">return</span> <span class="n">lps</span>
 </code></pre></div></div>
 
 <ul>
-  <li>함수
-    <ol>
-      <li>is_permutation 함수는 str1 및 str2의 두 문자열을 사용합니다.</li>
-      <li>입력으로 str1이 str2의 순열이면 True를 반환하고 그렇지 않으면 False를 반환합니다.</li>
-    </ol>
-  </li>
   <li>알고리즘
     <ol>
-      <li>두 문자열이 동일한지 확인합니다. <br />
-  길이가 같지 않으면 서로 순열이 될 수 없으므로 함수는 False를 반환합니다.</li>
-      <li>freq1 및 &lt; code&gt;freq2, 두 문자열에 각 문자의 빈도를 저장합니다. <br />
-  사전의 get 메서드는 주어진 키에 대한 값을 가져오는 데 사용되며 키가 존재하지 않으면 기본값(이 경우 0)을 반환합니다.</li>
-      <li>문자열의 각 문자를 반복하여 두 문자열의 각 문자에 대한 빈도를 업데이트합니다.<br />
-  str1의 각 문자에 대한 빈도 수는 사전 freq1에 저장되고 str2의 각 문자에 대한 빈도 수는 사전에 저장됩니다. freq2.</li>
-      <li>== 연산자를 사용하여 두 사전이 동일한지 확인합니다. <br />
-  두 사전의 키와 값이 같으면 두 문자열이 서로 순열이므로 함수는 True를 반환합니다. <br />
-  두 사전이 같지 않으면 두 문자열이 서로 순열이 아니므로 함수는 False를 반환합니다.</li>
+      <li>접미사와 접두사가 일치하는 위치를 계산한다. ( compute_lps )
+        <ul>
+          <li>접두사와 접미사가 일치하는 위치를 저장할 리스트를 초기화합니다.</li>
+          <li>겹치면 다음 문자도 같이 확인합니다.</li>
+          <li>겹치는게 끝나면 겹치기 시작했던 바로 그 전 값으로 시작, 001123에서 끝났으면 123 전의 1에서 시작</li>
+          <li>이때, i는 변하지 않는다. (기존 문자열을 가리키는 값)</li>
+          <li>겹치지 않고 len_lps도 0이라면 처음부터 일치하는 문자열을 또 찾아야한다.</li>
+        </ul>
+      </li>
+      <li>패턴 텍스트 문자열을 비교한다.
+        <ul>
+          <li>겹치는 부분이 패턴의 길이와 같다면 해당 인덱스를 출력한다.</li>
+          <li>겹치는 부분이 끝났을 때 lps에 계산된 정도만 이동한다.</li>
+        </ul>
+      </li>
     </ol>
   </li>
 </ul>
@@ -378,7 +393,46 @@ False
                                     
                                         
                                         
-                                            <li><a href="/math-gcd">math gcd</a></li>
+                                            <li><a href="/%EB%AC%B8%EC%9E%90%EC%97%B4%EC%97%90%EC%84%9C%EC%88%AB%EC%9E%90%EC%B6%94%EC%B6%9C">문자열에서 숫자 추출</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
                                         
                                     
                                   
@@ -398,10 +452,6 @@ False
                                     
                                         
                                         
-                                    
-                                  
-                                
-                                  
                                     
                                   
                                 
@@ -615,7 +665,7 @@ False
                         <footer class="read-next-card-footer">
                             <a href="/tag/programing/">
                                 
-                                    See all 20 posts  →
+                                    See all 25 posts  →
                                 
                             </a>
                         </footer>
@@ -629,12 +679,12 @@ False
 
     <article class="post-card post-template">
         
-            <a class="post-card-image-link" href="/%EB%AC%B8%EC%9E%90%EC%97%B4%EC%B2%98%EB%A6%AC">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/문자열처리.png)"></div>
+            <a class="post-card-image-link" href="/%EB%AC%B8%EC%9E%90%EC%97%B4%EB%B9%84%EA%B5%90">
+                <div class="post-card-image" style="background-image: url(/assets/built/images/문자열비교.png)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/%EB%AC%B8%EC%9E%90%EC%97%B4%EC%B2%98%EB%A6%AC">
+            <a class="post-card-content-link" href="/%EB%AC%B8%EC%9E%90%EC%97%B4%EB%B9%84%EA%B5%90">
                 <header class="post-card-header">
                     
                         
@@ -648,11 +698,11 @@ False
                         
                     
 
-                    <h2 class="post-card-title">문자열처리</h2>
+                    <h2 class="post-card-title">문자열비교</h2>
                 </header>
                 <section class="post-card-excerpt">
                     
-                        <p>문자열처리
+                        <p>문자열비교
 
 </p>
                     
@@ -687,12 +737,12 @@ False
 
     <article class="post-card post-template">
         
-            <a class="post-card-image-link" href="/%EB%AC%B8%EC%9E%90%EC%97%B4%EB%92%A4%EC%A7%91%EA%B8%B0">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/문자열뒤집기.png)"></div>
+            <a class="post-card-image-link" href="/%EB%84%88%EB%B9%84%EC%9A%B0%EC%84%A0%ED%83%90%EC%83%89">
+                <div class="post-card-image" style="background-image: url(/assets/built/images/너비우선탐색.png)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/%EB%AC%B8%EC%9E%90%EC%97%B4%EB%92%A4%EC%A7%91%EA%B8%B0">
+            <a class="post-card-content-link" href="/%EB%84%88%EB%B9%84%EC%9A%B0%EC%84%A0%ED%83%90%EC%83%89">
                 <header class="post-card-header">
                     
                         
@@ -706,11 +756,11 @@ False
                         
                     
 
-                    <h2 class="post-card-title">문자열뒤집기</h2>
+                    <h2 class="post-card-title">너비우선탐색</h2>
                 </header>
                 <section class="post-card-excerpt">
                     
-                        <p>문자열뒤집기
+                        <p>너비 우선 탐색 BFS ; Breadth First Search
 
 </p>
                     
@@ -752,18 +802,18 @@ False
         </a>
     </div>
     <span class="floating-header-divider">&mdash;</span>
-    <div class="floating-header-title">문자열순열확인</div>
+    <div class="floating-header-title">문자열매칭</div>
     <div class="floating-header-share">
         <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
     <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
 </svg>
 </div>
-        <a class="floating-header-share-tw" href="https://twitter.com/share?text=%EB%AC%B8%EC%9E%90%EC%97%B4%EC%88%9C%EC%97%B4%ED%99%95%EC%9D%B8&amp;url=https://chanp5660.github.io/%EB%AC%B8%EC%9E%90%EC%97%B4%EC%88%9C%EC%97%B4%ED%99%95%EC%9D%B8"
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=%EB%AC%B8%EC%9E%90%EC%97%B4%EB%A7%A4%EC%B9%AD&amp;url=https://chanp5660.github.io/%EB%AC%B8%EC%9E%90%EC%97%B4%EB%A7%A4%EC%B9%AD"
             onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
 
         </a>
-        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://chanp5660.github.io/%EB%AC%B8%EC%9E%90%EC%97%B4%EC%88%9C%EC%97%B4%ED%99%95%EC%9D%B8"
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://chanp5660.github.io/%EB%AC%B8%EC%9E%90%EC%97%B4%EB%A7%A4%EC%B9%AD"
             onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
 

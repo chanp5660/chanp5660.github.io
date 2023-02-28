@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/author/chanp5660/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-02-28T02:52:14+09:00</updated>
+  <updated>2023-02-28T18:31:17+09:00</updated>
   <id>http://localhost:4000/author/chanp5660/feed.xml</id>
 
   
@@ -32,6 +32,104 @@
 
   
     <entry>
+      <title type="html">분수의덧셈</title>
+      <link href="http://localhost:4000/%EB%B6%84%EC%88%98%EC%9D%98%EB%8D%A7%EC%85%88" rel="alternate" type="text/html" title="분수의덧셈" />
+      <published>2023-02-28T00:00:00+09:00</published>
+      <updated>2023-02-28T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%EB%B6%84%EC%88%98%EC%9D%98%EB%8D%A7%EC%85%88</id>
+      <content type="html" xml:base="http://localhost:4000/%EB%B6%84%EC%88%98%EC%9D%98%EB%8D%A7%EC%85%88">&lt;h1 id=&quot;분수의-덧셈&quot;&gt;분수의 덧셈&lt;/h1&gt;
+
+&lt;p&gt;https://school.programmers.co.kr/learn/courses/30/lessons/120808&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;분자, 분모가 다른 2개의 분수를 덧셈하고 기약분수 만드는 문제&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# 내 코드
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;solution&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;numer1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;denom1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;numer2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;denom2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# 분모 둘의 곱하고 그에 따라 반대 분모와 분자에 곱해 더 해준다.
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;answer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;numer1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;denom2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;numer2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;denom1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;denom1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;denom2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+    
+    &lt;span class=&quot;c1&quot;&gt;# 기약 분수 
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# 기약 분수가 될 때까지 반복한다.
+&lt;/span&gt;        &lt;span class=&quot;n&quot;&gt;check&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; 
+        &lt;span class=&quot;c1&quot;&gt;# 분모, 분자의 최소공약수를 찾아서 각각 최소공약수로 나누어준다.
+&lt;/span&gt;        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;min&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;answer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;answer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;answer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;answer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;answer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;check&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+                &lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# 최소공약수가 발견되지 않으면 정지
+&lt;/span&gt;        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;check&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;break&lt;/span&gt; 
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;answer&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;solution&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[13, 4]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;함수
+    &lt;ul&gt;
+      &lt;li&gt;3/4 + 5/2 = 3/4 + 10/4 = 13/4 (기약분수)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;알고리즘
+    &lt;ol&gt;
+      &lt;li&gt;분모 둘의 곱하고 그에 따라 반대 분모와 분자에 곱해 더 해준다.&lt;/li&gt;
+      &lt;li&gt;기약 분수가 될 때까지 아래 과정을 반복한다.&lt;/li&gt;
+      &lt;li&gt;분모, 분자의 최소공약수를 찾아서 각각 최소공약수로 나누어준다.&lt;/li&gt;
+      &lt;li&gt;최소공약수가 발견되지 않으면 정지&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;추가 방법
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/math-gcd&quot;&gt;math의 gcd를 사용&lt;/a&gt;
+        &lt;pre&gt;&lt;code class=&quot;language-{python}&quot;&gt;  import math
+  math.gcd(10, 15) # return 5 
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/fractions-Fraction&quot;&gt;fractions의 Fraction을 사용&lt;/a&gt;
+        &lt;pre&gt;&lt;code class=&quot;language-{python}&quot;&gt;  from fractions import Fraction
+  Fraction(1, 5) # 1/5
+  Fraction(&quot;1/5&quot;) # 1/5
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="programing" />
+      
+        <category term="python" />
+      
+
+      
+        <summary type="html">분수의 덧셈</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">문자열회전</title>
       <link href="http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%ED%9A%8C%EC%A0%84" rel="alternate" type="text/html" title="문자열회전" />
       <published>2023-02-28T00:00:00+09:00</published>
@@ -44,56 +142,51 @@
 &lt;/blockquote&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;두 문자열이 서로 순열인지 확인하는 알고리즘&lt;br /&gt;
-해석 : 각 문자가 중복 없이 모두 서로에게 존재 하는 것&lt;/p&gt;
+  &lt;p&gt;문자열을 회전시키는 문제 &lt;br /&gt;
+입력으로 주어진 문자열을 왼쪽으로 회전시키고 &lt;br /&gt;
+회전시킨 문자열을 출력해야 합니다.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;solution&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;numer1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;denom1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;numer2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;denom2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;answer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;numer1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;denom1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;numer2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;denom2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;denom1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;denom2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;문자열회전-1&quot;&gt;문자열회전 1&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;주어진 두 개의 문자열이 서로 회전 관계에 있는지 확인하는 알고리즘 작성&lt;br /&gt;
+예) “waterbottle”과 “erbottlewat”은 서로 회전 관계&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;is_rotation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;str2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# 두 문자열의 길이가 같지 않으면 회전관계가 성립되지 않는다.
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
     
-    &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;check&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; 
-        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;min&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;answer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;answer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;answer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;answer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;answer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-                &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;answer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;check&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
-                &lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;check&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# str1 문자열을 이어붙여 반복되는 새로운 문자열을 만든다.
+&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# str2의 문자열을 새로운 문자열에 포함되는 문자열인지 확인한다.
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;new_str&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;str1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str1&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;str2&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;new_str&lt;/span&gt;
 
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;answer&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;is_rotation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;abc&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;bca&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;is_rotation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;waterbottle&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;erbottlewat&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;solution&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;True
+True
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[4, 2]
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;numer1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;denom1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;numer2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;denom2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;answer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;numer1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;denom1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;numer2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;denom2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;denom1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;denom2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;answer&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[14, 8]
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;min&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;answer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;answer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;answer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;answer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;answer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;answer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[4, 2] 3
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+&lt;ul&gt;
+  &lt;li&gt;함수
+    &lt;ul&gt;
+      &lt;li&gt;문자열 더하기나 곱하기를 사용하여 반복된 문자를 생성한다.&lt;/li&gt;
+      &lt;li&gt;문자나 문자열이 다른 문자열에 속해 있는지 in 함수로 확인한다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;알고리즘
+    &lt;ul&gt;
+      &lt;li&gt;두 문자열의 길이가 같지 않으면 회전조건을 만족시킬 수 없다.&lt;/li&gt;
+      &lt;li&gt;문자열 하나를 반복하여 새로운 문자열을 만든다.&lt;/li&gt;
+      &lt;li&gt;새로운 문자열에 남은 문자열이 속해 있는지 확인한다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content>
 
       
       
@@ -117,6 +210,616 @@
 
       
         <summary type="html">문자열회전</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">문자열에서 숫자 추출</title>
+      <link href="http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EC%97%90%EC%84%9C%EC%88%AB%EC%9E%90%EC%B6%94%EC%B6%9C" rel="alternate" type="text/html" title="문자열에서 숫자 추출" />
+      <published>2023-02-28T00:00:00+09:00</published>
+      <updated>2023-02-28T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EC%97%90%EC%84%9C%EC%88%AB%EC%9E%90%EC%B6%94%EC%B6%9C</id>
+      <content type="html" xml:base="http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EC%97%90%EC%84%9C%EC%88%AB%EC%9E%90%EC%B6%94%EC%B6%9C">&lt;h1 id=&quot;문자열에서-숫자-추출&quot;&gt;문자열에서 숫자 추출&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;문자열에서 숫자만 추출하는 문제&lt;br /&gt;
+문자열에서 숫자만 추출하여 출력&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;문자열에서-숫자-추출-1&quot;&gt;문자열에서 숫자 추출 1&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;문자열에서 숫자만 출력하세요. (정규표현식 사용)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;re&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;extract_numbers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# 숫자가 하나라도 들어가는 연속된 문자를 찾는다.
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;numbers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;re&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;findall&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;[0-9]+&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# 각 원소는 문자열로 되어 있어 정수형으로 변환해준다.
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;numbers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;extract_numbers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;12hahahah2222hey&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[12, 2222]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;함수
+    &lt;ul&gt;
+      &lt;li&gt;re 라이브러리의 findall 함수를 사용해서 특정 패턴을 정규표현식으로 찾아 해당 되는 문자들을 리스트로 저장&lt;/li&gt;
+      &lt;li&gt;리스트 내 for문을 이용하여 int 형으로 각 문자를 숫자로 변경해준다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;알고리즘
+    &lt;ol&gt;
+      &lt;li&gt;숫자가 하나라도 들어가는 연속된 문자를 찾는다.&lt;/li&gt;
+      &lt;li&gt;각 원소는 문자열로 되어 있어 정수형으로 변환해준다.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;추가 함수
+    &lt;ul&gt;
+      &lt;li&gt;isdigit를 사용
+        &lt;pre&gt;&lt;code class=&quot;language-{python}&quot;&gt;  if c.isdigit() # 모든 문자가 숫자형인지 확인
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="programing" />
+      
+        <category term="python" />
+      
+
+      
+        <summary type="html">문자열에서 숫자 추출</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">문자열비교</title>
+      <link href="http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EB%B9%84%EA%B5%90" rel="alternate" type="text/html" title="문자열비교" />
+      <published>2023-02-28T00:00:00+09:00</published>
+      <updated>2023-02-28T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EB%B9%84%EA%B5%90</id>
+      <content type="html" xml:base="http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EB%B9%84%EA%B5%90">&lt;h1 id=&quot;문자열비교&quot;&gt;문자열비교&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;두 개의 문자열을 비교하는 문제&lt;br /&gt;
+두 개의 문자열이 같은지 판별하고 같다면 True&lt;br /&gt;
+다르다면 False를 출력&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;문자열비교-1-문자열순열확인&quot;&gt;문자열비교 1 (문자열순열확인)&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;두 문자열이 서로 순열인지 확인하는 알고리즘&lt;br /&gt;
+해석 : 각 문자가 중복 없이 모두 서로에게 존재 하는 것&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;is_premutation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;str2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# 두 문자열의 길이가 같지 않으면 순열이 아니다.
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
+    
+    &lt;span class=&quot;c1&quot;&gt;# 각 문자열에서 문자의 개수를 셀 수 있도록 딕셔너리를 생성해준다.
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;freq1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;freq2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
+    
+    &lt;span class=&quot;c1&quot;&gt;# 각 문자에 대한 빈도를 세어준다.
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)):&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# str1에 대한 빈도 추가
+&lt;/span&gt;        &lt;span class=&quot;n&quot;&gt;freq1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;freq1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# str2에 대한 빈도 추가
+&lt;/span&gt;        &lt;span class=&quot;n&quot;&gt;freq2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;freq2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+        
+    &lt;span class=&quot;c1&quot;&gt;# 두 딕셔너리가 같은지 확인
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;freq1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;freq2&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;is_permutation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;abc&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;cba&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;is_permutation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;abcd&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;abdc&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;is_permutation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;aaa&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;aab&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;is_permutation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;hello&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;world&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;True
+True
+False
+False
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;함수
+    &lt;ol&gt;
+      &lt;li&gt;is_permutation 함수는 str1 및 str2의 두 문자열을 사용합니다.&lt;/li&gt;
+      &lt;li&gt;입력으로 str1이 str2의 순열이면 True를 반환하고 그렇지 않으면 False를 반환합니다.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;알고리즘
+    &lt;ol&gt;
+      &lt;li&gt;두 문자열이 동일한지 확인합니다. &lt;br /&gt;
+  길이가 같지 않으면 서로 순열이 될 수 없으므로 함수는 False를 반환합니다.&lt;/li&gt;
+      &lt;li&gt;freq1 및 &amp;lt; code&amp;gt;freq2, 두 문자열에 각 문자의 빈도를 저장합니다. &lt;br /&gt;
+  사전의 get 메서드는 주어진 키에 대한 값을 가져오는 데 사용되며 키가 존재하지 않으면 기본값(이 경우 0)을 반환합니다.&lt;/li&gt;
+      &lt;li&gt;문자열의 각 문자를 반복하여 두 문자열의 각 문자에 대한 빈도를 업데이트합니다.&lt;br /&gt;
+  str1의 각 문자에 대한 빈도 수는 사전 freq1에 저장되고 str2의 각 문자에 대한 빈도 수는 사전에 저장됩니다. freq2.&lt;/li&gt;
+      &lt;li&gt;== 연산자를 사용하여 두 사전이 동일한지 확인합니다. &lt;br /&gt;
+  두 사전의 키와 값이 같으면 두 문자열이 서로 순열이므로 함수는 True를 반환합니다. &lt;br /&gt;
+  두 사전이 같지 않으면 두 문자열이 서로 순열이 아니므로 함수는 False를 반환합니다.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;추가방법
+    &lt;ul&gt;
+      &lt;li&gt;sorted 사용
+        &lt;pre&gt;&lt;code class=&quot;language-{python}&quot;&gt; # 문자열을 정렬하여 비교
+ sorted(str1) == sorted(str2)
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="programing" />
+      
+        <category term="python" />
+      
+
+      
+        <summary type="html">문자열비교</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">문자열매칭</title>
+      <link href="http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EB%A7%A4%EC%B9%AD" rel="alternate" type="text/html" title="문자열매칭" />
+      <published>2023-02-28T00:00:00+09:00</published>
+      <updated>2023-02-28T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EB%A7%A4%EC%B9%AD</id>
+      <content type="html" xml:base="http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EB%A7%A4%EC%B9%AD">&lt;h1 id=&quot;문자열매칭&quot;&gt;문자열매칭&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;문자열매칭-1-kmp-알고리즘-knuth-morris-pratt&quot;&gt;문자열매칭 1 (KMP 알고리즘; Knuth-Morris-Pratt)&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;문자열에 다른 문자열이 어디에 있는지 인덱스를 출력한다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;kmp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pattern&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;m&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pattern&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# 접두사와 접미사가 일치하는 위치를 계산합니다
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;lps&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;compute_lps&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pattern&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# 패턴 문자열과 텍스트 문자열을 비교합니다
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# 겹치면 둘다 진행
+&lt;/span&gt;        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pattern&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# 겹치는 부분이 패턴의 길이와 같다면 해당 인덱스를 출력한다.
+&lt;/span&gt;        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# 겹치는 부분이 끝났을 때 lps에 계산된 정도만 이동한다.
+&lt;/span&gt;        &lt;span class=&quot;k&quot;&gt;elif&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pattern&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lps&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;compute_lps&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pattern&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;m&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pattern&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# 접두사와 접미사가 일치하는 위치를 저장할 리스트를 초기화합니다
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;lps&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;m&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;len_lps&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# 겹치면 다음 문자도 같이 확인
+&lt;/span&gt;        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pattern&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pattern&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;len_lps&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;len_lps&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;lps&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;len_lps&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# 겹치는게 끝나면 겹치기 시작했던 바로 그 전값으로 시작 001123에서 끝났으면 123 전의 1에서 시작
+&lt;/span&gt;        &lt;span class=&quot;c1&quot;&gt;# 이때, i는 변하지 않고 
+&lt;/span&gt;        &lt;span class=&quot;k&quot;&gt;elif&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;len_lps&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;len_lps&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lps&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;len_lps&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# 겹치지 않고 len_lps도 0이라면 처음부터 일치하는 문자열을 또 찾아야한다.
+&lt;/span&gt;            &lt;span class=&quot;n&quot;&gt;lps&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lps&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;알고리즘
+    &lt;ol&gt;
+      &lt;li&gt;접미사와 접두사가 일치하는 위치를 계산한다. ( compute_lps )
+        &lt;ul&gt;
+          &lt;li&gt;접두사와 접미사가 일치하는 위치를 저장할 리스트를 초기화합니다.&lt;/li&gt;
+          &lt;li&gt;겹치면 다음 문자도 같이 확인합니다.&lt;/li&gt;
+          &lt;li&gt;겹치는게 끝나면 겹치기 시작했던 바로 그 전 값으로 시작, 001123에서 끝났으면 123 전의 1에서 시작&lt;/li&gt;
+          &lt;li&gt;이때, i는 변하지 않는다. (기존 문자열을 가리키는 값)&lt;/li&gt;
+          &lt;li&gt;겹치지 않고 len_lps도 0이라면 처음부터 일치하는 문자열을 또 찾아야한다.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;패턴 텍스트 문자열을 비교한다.
+        &lt;ul&gt;
+          &lt;li&gt;겹치는 부분이 패턴의 길이와 같다면 해당 인덱스를 출력한다.&lt;/li&gt;
+          &lt;li&gt;겹치는 부분이 끝났을 때 lps에 계산된 정도만 이동한다.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="programing" />
+      
+        <category term="python" />
+      
+
+      
+        <summary type="html">문자열매칭</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">너비우선탐색</title>
+      <link href="http://localhost:4000/%EB%84%88%EB%B9%84%EC%9A%B0%EC%84%A0%ED%83%90%EC%83%89" rel="alternate" type="text/html" title="너비우선탐색" />
+      <published>2023-02-28T00:00:00+09:00</published>
+      <updated>2023-02-28T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%EB%84%88%EB%B9%84%EC%9A%B0%EC%84%A0%ED%83%90%EC%83%89</id>
+      <content type="html" xml:base="http://localhost:4000/%EB%84%88%EB%B9%84%EC%9A%B0%EC%84%A0%ED%83%90%EC%83%89">&lt;h1 id=&quot;너비-우선-탐색-bfs--breadth-first-search&quot;&gt;너비 우선 탐색 BFS ; Breadth First Search&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;너비 우선 탐색&lt;br /&gt;
+맹목적 탐색방법의 하나로 시작 정점을 방문한 후 시작 정점에 인접한 모든 정점들을 우선 방문하는 방법   &lt;br /&gt;
+더 이상 방문하지 않은 정점이 없을 때까지 방문하지 않은 모든 정점들에 대해서도 너비 우선 검색을 적용&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;너비우선탐색-1&quot;&gt;너비우선탐색 1&lt;/h2&gt;
+
+&lt;p&gt;질문: bfs(graph, start) 무방향 그래프와 시작 정점 start를 나타내는 사전 그래프를 가져와서 방문한 정점 목록을 너비 우선 순서로 반환합니다.&lt;/p&gt;
+
+&lt;p&gt;그래프의 꼭짓점에 0에서 N-1까지의 정수 레이블이 지정되어 있다고 가정합니다. 여기서 N은 꼭짓점의 총 개수입니다. graph 사전은 리스트의 리스트로 표현되며, 여기서 graph[i]는 정점 i에 인접한 정점의 리스트입니다.&lt;/p&gt;
+
+&lt;p&gt;For 예를 들어 정점이 0, 1, 2, 3이고 가장자리가 (0, 1), (0, 2), (1, 2), (2, 3)인 그래프는 [[ 1, 2], [0, 2], [0, 1, 3], [2]].&lt;/p&gt;
+
+&lt;p&gt;그래프가 연결되어 있고 정점에 번호가 매겨져 있다고 가정할 수 있습니다. 0부터 순차적으로 시작합니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;bfs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;graph&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# 방문 배열 생성 및 초기화
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;visited&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;graph&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# queue 배열 생성 및 방문할 노드 추가 start 추가
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;queue&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# 첫 방문
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;visited&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# 방문한 리스트 작성, 순서 중요
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
+    
+    &lt;span class=&quot;c1&quot;&gt;# 이제 방문할 노드가 없으면 그만 둔다.
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;queue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# 가장 먼저 들어간 노드 방문
+&lt;/span&gt;        &lt;span class=&quot;n&quot;&gt;vertex&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;queue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# 방문한 리스트에 방문한 노드 추가
+&lt;/span&gt;        &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;vertex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        
+        &lt;span class=&quot;c1&quot;&gt;# 방문한 노드에서 bfs 반복할 수 있도록 queue에 추가
+&lt;/span&gt;        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;neighbor&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;graph&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;vertex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
+            
+            &lt;span class=&quot;c1&quot;&gt;# 방문하게 될 때 한번 방문 했던 곳은 또 방문하지 않는다.
+&lt;/span&gt;            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;visited&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;neighbor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
+                &lt;span class=&quot;c1&quot;&gt;# 방문한 노드에 True 
+&lt;/span&gt;                &lt;span class=&quot;n&quot;&gt;visited&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;neighbor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+                &lt;span class=&quot;c1&quot;&gt;# 다음에 방문한 정점을 queue에 추가한다.
+&lt;/span&gt;                &lt;span class=&quot;n&quot;&gt;queue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;neighbor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; 
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;graph&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;start&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bfs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;graph&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# Output: [0, 1, 2, 3]
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[0, 1, 2, 3]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;알고리즘
+    &lt;ol&gt;
+      &lt;li&gt;지금까지 방문한 정점을 추적하기 위해 방문한 목록을 초기화하는 것으로 시작 visited&lt;/li&gt;
+      &lt;li&gt;여전히 방문해야 하는 정점을 추적하기 위한 목록 대기열.  queue&lt;/li&gt;
+      &lt;li&gt;또한 빈 목록 result를 초기화하여 방문한 정점을 순서대로 저장&lt;/li&gt;
+      &lt;li&gt;먼저 시작 정점 start를 방문하여 대기열에 추가하여 방문한 것으로 표시&lt;/li&gt;
+      &lt;li&gt;대기열에 정점이 있는 한 계속되는 루프에 들어감&lt;/li&gt;
+      &lt;li&gt;반복할 때마다 큐에서 다음 정점을 빼서 result 목록에 추가하고 이웃을 탐색&lt;/li&gt;
+      &lt;li&gt;방문하지 않은 각 이웃에 대해 방문한 것으로 표시하고 대기열에 추가한 다음 계속&lt;/li&gt;
+      &lt;li&gt;그래프에서 도달 가능한 모든 정점을 방문하면 방문한 정점 목록을 너비 우선 순서로 반환&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="programing" />
+      
+        <category term="python" />
+      
+
+      
+        <summary type="html">너비 우선 탐색 BFS ; Breadth First Search</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">깊이우선탐색</title>
+      <link href="http://localhost:4000/%EA%B9%8A%EC%9D%B4%EC%9A%B0%EC%84%A0%ED%83%90%EC%83%89" rel="alternate" type="text/html" title="깊이우선탐색" />
+      <published>2023-02-28T00:00:00+09:00</published>
+      <updated>2023-02-28T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%EA%B9%8A%EC%9D%B4%EC%9A%B0%EC%84%A0%ED%83%90%EC%83%89</id>
+      <content type="html" xml:base="http://localhost:4000/%EA%B9%8A%EC%9D%B4%EC%9A%B0%EC%84%A0%ED%83%90%EC%83%89">&lt;h1 id=&quot;깊이-우선-탐색-dfs--depth-first-search&quot;&gt;깊이 우선 탐색 DFS ; Depth First Search&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;깊이 우선 탐색&lt;br /&gt;
+맹목적 탐색방법의 하나로 탐색트리의 최근에 첨가된 노드를 선택&lt;br /&gt;
+이 노드에 적용 가능한 동작자 중 하나를 적용하여 트리에 다음 수준의 한 개의 자식노드를 첨가&lt;br /&gt;
+첨가된 자식 노드가 목표노드일 때까지 앞의 자식 노드의 첨가 과정을 반복해 가는 방식&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;깊이-우선-탐색&quot;&gt;깊이 우선 탐색&lt;/h2&gt;
+&lt;p&gt;문제: dfs(graph, start) 함수를 작성하세요. 이 함수는 무방향 그래프를 나타내는 딕셔너리 graph와 시작 정점 start를 인자로 받습니다. 함수는 깊이 우선 순서대로 방문한 정점들의 리스트를 반환합니다.&lt;/p&gt;
+
+&lt;p&gt;그래프의 정점들은 0부터 N-1까지의 정수 라벨링을 가지며, graph 딕셔너리는 리스트의 리스트로 표현됩니다. graph[i]는 정점 i에 인접한 정점들의 리스트입니다.&lt;/p&gt;
+
+&lt;p&gt;예를 들어, 정점 라벨이 0, 1, 2, 3이고 간선이 (0, 1), (0, 2), (1, 2), (2, 3)인 그래프는 [[1, 2], [0, 2], [0, 1, 3], [2]]로 표현됩니다.&lt;/p&gt;
+
+&lt;p&gt;그래프가 연결되어 있으며, 정점이 0부터 시작하여 순차적으로 라벨링됩니다.&lt;/p&gt;
+
+&lt;p&gt;질문: dfs(graph, start) 함수 작성 )는 무방향 그래프와 시작 정점 start를 나타내는 사전 그래프를 가져옵니다. 함수는 깊이 우선 검색 알고리즘을 사용하여 방문 순서대로 방문한 정점 목록을 반환해야 합니다.&lt;/p&gt;
+
+&lt;p&gt;그래프의 정점은 0에서 N-1까지 레이블이 지정되고 그래프 사전은 목록의 목록으로 표현됩니다. graph[i]는 정점 i에 인접한 정점 목록입니다.&lt;/p&gt;
+
+&lt;p&gt;예를 들어 정점 레이블이 0, 1, 2, 3이고 가장자리가 (0, 1)인 그래프 , (0, 2), (1, 2), (2, 3)은 &lt;코드&gt;[[1, 2], [0, 2], [0, 1, 3], [2]]로 나타낼 수 있다. .&lt;/코드&gt;&lt;/p&gt;
+
+&lt;p&gt;그래프가 연결되고 꼭지점에 0부터 순차적으로 레이블이 지정됩니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;dfs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;graph&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;visited&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;graph&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
+    
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;explore&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;vertex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;visited&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;vertex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;vertex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        
+        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;neighbor&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;graph&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;vertex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;visited&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;neighbor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;explore&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;neighbor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    
+    &lt;span class=&quot;n&quot;&gt;explore&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;graph&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;start&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dfs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;graph&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# Output: [0, 1, 2, 3]
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;In this solution, we initialize a visited list to keep track of the visited vertices, and a result list to store the vertices in the order they are visited using DFS.&lt;/p&gt;
+
+&lt;p&gt;To start the search, we define an inner function explore that takes a vertex as an argument and visits it. The explore function marks the vertex as visited in the visited list, appends it to the result list, and then recursively calls itself for each unvisited neighbor of the vertex.&lt;/p&gt;
+
+&lt;p&gt;Finally, we call the explore function on the starting vertex start and return the result list.&lt;/p&gt;
+
+&lt;p&gt;So, the dfs function returns the list of visited vertices in the order of their visit using DFS.&lt;/p&gt;
+
+&lt;p&gt;이 솔루션에서는 방문한 목록을 초기화하여 방문한 정점을 추적하고 결과&amp;lt; /code&amp;gt; DFS를 사용하여 방문한 순서대로 꼭짓점을 저장하는 목록.&lt;/p&gt;
+
+&lt;p&gt;검색을 시작하려면 꼭짓점을 인수로 사용하는 내부 함수 explore를 정의하고 방문합니다. explore 함수는 정점을 visited 목록에서 방문한 것으로 표시하고 result 목록에 추가한 다음 방문하지 않은 각 이웃에 대해 재귀적으로 자신을 호출합니다.&lt;/p&gt;
+
+&lt;p&gt;마지막으로 시작 정점 start에서 explore 함수를 호출하고 result 목록을 반환합니다.&lt;/p&gt;
+
+&lt;p&gt;따라서 dfs 함수는 DFS를 사용하여 방문 순서대로 방문한 정점 목록을 반환합니다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="programing" />
+      
+        <category term="python" />
+      
+
+      
+        <summary type="html">깊이 우선 탐색 DFS ; Depth First Search</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">그래프이론</title>
+      <link href="http://localhost:4000/%EA%B7%B8%EB%9E%98%ED%94%84%EC%9D%B4%EB%A1%A0" rel="alternate" type="text/html" title="그래프이론" />
+      <published>2023-02-28T00:00:00+09:00</published>
+      <updated>2023-02-28T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%EA%B7%B8%EB%9E%98%ED%94%84%EC%9D%B4%EB%A1%A0</id>
+      <content type="html" xml:base="http://localhost:4000/%EA%B7%B8%EB%9E%98%ED%94%84%EC%9D%B4%EB%A1%A0">&lt;h1 id=&quot;그래프이론&quot;&gt;그래프이론&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/너비우선탐색&quot;&gt;BFS,너비우선탐색&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/깊이우선탐색&quot;&gt;DFS,깊이우선탐색&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;최단 경로&lt;/li&gt;
+  &lt;li&gt;최소 스패닝 트리&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/연결된구성요소&quot;&gt;연결된 구성요소&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;토폴로지 정렬&lt;/li&gt;
+  &lt;li&gt;최대 흐름&lt;/li&gt;
+  &lt;li&gt;Eulerian Path/Circuit&lt;/li&gt;
+  &lt;li&gt;이분 그래프&lt;/li&gt;
+  &lt;li&gt;Hamiltonian Path/Circuit&lt;/li&gt;
+  &lt;li&gt;그래프 색상 지정&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;여행하는 세일즈맨 문제&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;최단 경로: 가중 간선이 있는 그래프에서 두 정점 사이의 최단 경로를 찾습니다. 이에 대한 일반적인 알고리즘에는 Dijkstra의 알고리즘과 Bellman-Ford 알고리즘이 포함됩니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;최소 스패닝 트리: 가중 에지가 있는 그래프가 주어지면 다음의 하위 집합인 최소 스패닝 트리를 찾습니다. 모든 정점을 최소 총 가중치로 연결하는 모서리. 이에 대한 일반적인 알고리즘에는 Kruskal의 알고리즘과 Prim의 알고리즘이 포함됩니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;연결된 구성요소: 그래프가 주어졌을 때 모든 정점이 서로 연결되어 있는 하위 그래프인 모든 연결된 구성요소를 찾습니다. . 이것은 깊이 우선 또는 너비 우선 검색으로 해결할 수 있습니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;토폴로지 정렬: 방향성 비순환 그래프가 주어지면 정점의 방향을 유지하는 방식으로 정점을 정렬합니다. 가장자리. 이는 Kahn의 알고리즘이나 깊이 우선 검색을 사용하여 수행할 수 있습니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;최대 흐름: 가장자리에 용량이 있는 그래프가 주어지면 보낼 수 있는 최대 흐름량을 찾습니다. 소스 정점에서 싱크 정점으로. 이는 Ford-Fulkerson 알고리즘 또는 Edmonds-Karp 알고리즘을 사용하여 해결할 수 있습니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Eulerian Path/Circuit: 주어진 그래프에서 모든 에지를 정확히 가로지르는 경로 또는 회로를 찾습니다. 한 번. 그래프에 차수가 홀수인 정점이 정확히 두 개 있으면 오일러 경로가 존재하고, 모든 정점의 차수가 짝수이면 오일러 회로가 존재합니다. 이는 Fleury의 알고리즘 또는 Hierholzer의 알고리즘을 사용하여 해결할 수 있습니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;이분 그래프: 무방향 그래프가 있을 때, 이분인지 확인합니다. 즉, 동일한 세트의 두 정점이 모서리로 연결되지 않도록 해당 정점을 두 세트로 나눌 수 있음을 의미합니다. 이는 깊이 우선 검색 또는 너비 우선 검색을 사용하여 해결할 수 있습니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Hamiltonian Path/Circuit: 주어진 그래프에서 모든 정점을 정확히 방문하는 경로 또는 회로를 찾습니다. 한 번. 이것은 잘 알려진 NP-완전 문제이므로 일반적으로 이를 해결할 수 있는 효율적인 알고리즘은 알려져 있지 않습니다. 그러나 대략적인 솔루션을 찾는 데 사용할 수 있는 휴리스틱 알고리즘이 있습니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;그래프 색상 지정: 무방향 그래프가 주어졌을 때 인접한 두 꼭지점이 서로 겹치지 않도록 꼭지점에 색상을 할당합니다. 가능한 최소한의 색상을 사용하여 동일한 색상. 이것은 잘 알려진 NP-완전 문제이기도 하지만 근사해를 찾는 데 사용할 수 있는 휴리스틱 알고리즘이 몇 가지 있습니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;여행하는 세일즈맨 문제: 가중 에지, 모든 꼭짓점을 정확히 한 번 방문하는 가장 짧은 해밀턴 회로를 찾습니다. 이것은 잘 알려진 또 다른 NP-완전 문제이지만 이를 해결하는 데 사용할 수 있는 몇 가지 정확하고 근사한 알고리즘이 있습니다.&lt;/li&gt;
+&lt;/ol&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="programing" />
+      
+        <category term="python" />
+      
+
+      
+        <summary type="html">그래프이론</summary>
       
 
       
@@ -227,645 +930,6 @@ Fraction(numerator=0, denominator=1)&lt;/p&gt;
 
       
         <summary type="html">분수표현 fractions Fraction</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">계획진행내용</title>
-      <link href="http://localhost:4000/%EA%B3%84%ED%9A%8D%EC%A7%84%ED%96%89%EB%82%B4%EC%9A%A9" rel="alternate" type="text/html" title="계획진행내용" />
-      <published>2023-02-28T00:00:00+09:00</published>
-      <updated>2023-02-28T00:00:00+09:00</updated>
-      <id>http://localhost:4000/%EA%B3%84%ED%9A%8D%EC%A7%84%ED%96%89%EB%82%B4%EC%9A%A9</id>
-      <content type="html" xml:base="http://localhost:4000/%EA%B3%84%ED%9A%8D%EC%A7%84%ED%96%89%EB%82%B4%EC%9A%A9">&lt;h2 id=&quot;계획-진행-내용&quot;&gt;계획 진행 내용&lt;/h2&gt;
-
-&lt;h3 id=&quot;논문&quot;&gt;논문&lt;/h3&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;아직 안함&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;논문 이해를 위한 수학 지식
-    &lt;blockquote&gt;
-      &lt;p&gt;아직 안함&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;구현을 위한 코딩 능력
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/CodingTestList&quot;&gt;코딩테스트&lt;/a&gt;
-        &lt;blockquote&gt;
-          &lt;p&gt;기업에 자주 출제되는 문제로 작성
-      - 문자열순열회전 작성중&lt;/p&gt;
-        &lt;/blockquote&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/Python-List&quot;&gt;python&lt;/a&gt;
-        &lt;blockquote&gt;
-          &lt;p&gt;아직 안함&lt;/p&gt;
-          &lt;h3 id=&quot;인공지능머신러닝-딥러닝-이론-지식&quot;&gt;인공지능(머신러닝, 딥러닝) 이론 지식&lt;/h3&gt;
-        &lt;/blockquote&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/AI-List&quot;&gt;인공지능&lt;/a&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;지도학습 - 의사결정트리 작성 중&lt;/p&gt;
-      &lt;h3 id=&quot;개발적-역량docker-linux-git&quot;&gt;개발적 역량(Docker, Linux, git)&lt;/h3&gt;
-      &lt;p&gt;아직 안함&lt;/p&gt;
-      &lt;h3 id=&quot;도메인-관련-지식&quot;&gt;도메인 관련 지식&lt;/h3&gt;
-      &lt;p&gt;경험이 필요함&lt;/p&gt;
-      &lt;h3 id=&quot;프로젝트&quot;&gt;프로젝트&lt;/h3&gt;
-      &lt;p&gt;Kaggle에서 시작해보려고 함&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-
-      
-        <summary type="html">계획 진행 내용</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">모듈_라이브러리_프레임워크</title>
-      <link href="http://localhost:4000/TIL-%EB%AA%A8%EB%93%88-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC" rel="alternate" type="text/html" title="모듈_라이브러리_프레임워크" />
-      <published>2023-02-28T00:00:00+09:00</published>
-      <updated>2023-02-28T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-%EB%AA%A8%EB%93%88%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC%20%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-%EB%AA%A8%EB%93%88-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC">&lt;h1 id=&quot;모듈-라이브러리-프레임워크-비교&quot;&gt;모듈 라이브러리 프레임워크 비교&lt;/h1&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;공통점&quot;&gt;공통점&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;모듈, 라이브러리, 프레임워크는 모두 프로그래밍에서 코드를 구성하고, 개발을 쉽게 해주는 도구들입니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;차이점&quot;&gt;차이점&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;모듈
-    &lt;ul&gt;
-      &lt;li&gt;함수, 클래스, 변수 등을 포함하고 있는 파일&lt;/li&gt;
-      &lt;li&gt;일반적으로 특정 작업에 대한 함수와 관련 변수들을 묶어서 제공&lt;/li&gt;
-      &lt;li&gt;다른 모듈에서 이 모듈을 가져와서 사용하면 코드를 다시 작성하지 않고도 이전에 작성된 함수나 변수를 활용&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;라이브러리는 (모듈과 비슷하지만, 여러 모듈을 포함)
-    &lt;ul&gt;
-      &lt;li&gt;프로그램 개발을 쉽게 해주고, 코드의 재사용성을 높여줌&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;프레임워크
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;애플리케이션 개발&lt;/strong&gt;을 위한 &lt;strong&gt;기본 구조&lt;/strong&gt;와 &lt;strong&gt;규칙을 제공&lt;/strong&gt;하는 것&lt;/li&gt;
-      &lt;li&gt;보안, 성능, 유지보수 등 다양한 측면에서 안정적이고 일관된 애플리케이션 개발 가능하게 함&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;따라서
-    &lt;ul&gt;
-      &lt;li&gt;모듈은 기능 단위로 코드를 모으고&lt;/li&gt;
-      &lt;li&gt;라이브러리는 모듈들의 집합&lt;/li&gt;
-      &lt;li&gt;프레임워크는 전체 애플리케이션의 구조와 흐름 결정
-        &lt;ul&gt;
-          &lt;li&gt;또한, 모듈과 라이브러리는 개발자가 코드를 직접 작성하여 사용할 수 있지만&lt;/li&gt;
-          &lt;li&gt;개발자가 프레임워크가 제공하는 구조와 규칙에 따라 개발을 진행&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;모듈module&quot;&gt;모듈(Module)&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;프로그래밍에서 여러 함수, 클래스, 변수 등을 모아놓은 파일입니다. &lt;br /&gt;
-모듈은 코드를 구조화하고, 재사용 가능한 코드를 만들 수 있도록 도와줍니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;일반적으로 특정 작업에 대한 함수와 관련 변수들을 묶어서 제공합니다. &lt;br /&gt;
-다른 모듈에서 이 모듈을 가져와서 사용하면 코드를 다시 작성하지 않고도 이전에 작성된 함수나 변수를 활용할 수 있습니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;예를 들어, 수학 함수를 모아놓은 math 모듈을 사용할 수 있습니다. &lt;br /&gt;
-이 모듈을 사용하면, sin(), cos(), tan()과 같은 수학 함수를 쉽게 사용할 수 있습니다. &lt;br /&gt;
-이와 같이 모듈은 프로그래밍에서 코드를 구조화하고, 코드의 재사용성을 높여주는 중요한 개념 중 하나입니다.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;라이브러리library&quot;&gt;라이브러리(Library)&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;프로그래밍에서 자주 사용되는 코드의 모음입니다. &lt;br /&gt;
-라이브러리는 &lt;strong&gt;모듈(Module)&lt;/strong&gt; 과 비슷하지만, &lt;br /&gt;
-모듈은 파일 하나에 포함된 코드의 모음이라면, &lt;br /&gt;
-라이브러리는 여러 모듈을 포함하고 있습니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;프로그램 개발을 쉽게 해주고, 코드의 재사용성을 높여줍니다. &lt;br /&gt;
-라이브러리를 사용하면, 새로운 코드를 작성할 필요 없이 이미 작성된 코드를 활용할 수 있으므로, &lt;br /&gt;
-프로그램 개발 시간과 비용을 절약할 수 있습니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;일반적으로 다른 개발자가 만들어 놓은 외부 라이브러리와, &lt;br /&gt;
-프로그래머가 직접 만든 내부 라이브러리로 나눌 수 있습니다. &lt;br /&gt;
-외부 라이브러리는 자주 사용되는 기능을 제공하며, &lt;br /&gt;
-내부 라이브러리는 특정 프로젝트에서만 사용되는 기능을 제공합니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;프로그래밍 언어에 따라 구현 방식이 다를 수 있으며, &lt;br /&gt;
-대부분의 언어에서 라이브러리를 사용할 수 있습니다.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;프레임워크framework&quot;&gt;프레임워크(Framework)&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;프로그래밍에서 어떤 문제를 해결하기 위한 구조를 제공하는 것입니다. &lt;br /&gt;
-즉, 프레임워크는 애플리케이션 개발을 위한 기본 구조와 규칙을 제공하며, &lt;br /&gt;
-개발자는 이 구조를 활용하여 애플리케이션을 개발합니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;자주 사용되는 기능과 구조를 미리 구현해놓았기 때문에, &lt;br /&gt;
-개발자는 이를 활용하여 애플리케이션을 개발하는 데 집중할 수 있습니다. &lt;br /&gt;
-또한, 프레임워크는 보안, 성능, 유지보수 등 다양한 측면에서 안정적이고 일관된 애플리케이션 개발을 가능케 합니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;일반적으로 다양한 &lt;strong&gt;모듈&lt;/strong&gt;과 &lt;strong&gt;라이브러리&lt;/strong&gt;로 구성되어 있습니다. &lt;br /&gt;
-이러한 모듈과 라이브러리는 프레임워크의 기능을 확장하거나 변경할 수 있습니다. &lt;br /&gt;
-또한, 프레임워크는 보통 특정 프로그래밍 언어나 운영체제에 맞게 제작되므로, &lt;br /&gt;
-해당 환경에서 애플리케이션을 개발할 때 가장 적합한 프레임워크를 선택하여 사용해야 합니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;대표적인 프레임워크로는 웹 개발을 위한 Django, Ruby on Rails, Spring 등이 있습니다.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-
-      
-        <summary type="html">모듈 라이브러리 프레임워크 비교 기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">분수의덧셈</title>
-      <link href="http://localhost:4000/%EB%B6%84%EC%88%98%EC%9D%98%EB%8D%A7%EC%85%88" rel="alternate" type="text/html" title="분수의덧셈" />
-      <published>2023-02-28T00:00:00+09:00</published>
-      <updated>2023-02-28T00:00:00+09:00</updated>
-      <id>http://localhost:4000/%EB%B6%84%EC%88%98%EC%9D%98%EB%8D%A7%EC%85%88</id>
-      <content type="html" xml:base="http://localhost:4000/%EB%B6%84%EC%88%98%EC%9D%98%EB%8D%A7%EC%85%88">&lt;h1 id=&quot;분수의-덧셈&quot;&gt;분수의 덧셈&lt;/h1&gt;
-
-&lt;p&gt;https://school.programmers.co.kr/learn/courses/30/lessons/120808&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;분자, 분모가 다른 2개의 분수를 덧셈하고 기약분수 만드는 문제&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# 내 코드
-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;solution&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;numer1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;denom1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;numer2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;denom2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;# 분모 둘의 곱하고 그에 따라 반대 분모와 분자에 곱해 더 해준다.
-&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;answer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;numer1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;denom2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;numer2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;denom1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;denom1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;denom2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-    
-    &lt;span class=&quot;c1&quot;&gt;# 기약 분수 
-&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;c1&quot;&gt;# 기약 분수가 될 때까지 반복한다.
-&lt;/span&gt;        &lt;span class=&quot;n&quot;&gt;check&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; 
-        &lt;span class=&quot;c1&quot;&gt;# 분모, 분자의 최소공약수를 찾아서 각각 최소공약수로 나누어준다.
-&lt;/span&gt;        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;min&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;answer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;answer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;answer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;answer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;answer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;check&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
-                &lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;
-        &lt;span class=&quot;c1&quot;&gt;# 최소공약수가 발견되지 않으면 정지
-&lt;/span&gt;        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;check&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;break&lt;/span&gt; 
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;answer&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;solution&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[13, 4]
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;함수
-    &lt;ul&gt;
-      &lt;li&gt;3/4 + 5/2 = 3/4 + 10/4 = 13/4 (기약분수)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;알고리즘
-    &lt;ol&gt;
-      &lt;li&gt;분모 둘의 곱하고 그에 따라 반대 분모와 분자에 곱해 더 해준다.&lt;/li&gt;
-      &lt;li&gt;기약 분수가 될 때까지 아래 과정을 반복한다.&lt;/li&gt;
-      &lt;li&gt;분모, 분자의 최소공약수를 찾아서 각각 최소공약수로 나누어준다.&lt;/li&gt;
-      &lt;li&gt;최소공약수가 발견되지 않으면 정지&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;추가 방법
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/math-gcd&quot;&gt;math의 gcd를 사용&lt;/a&gt;
-        &lt;pre&gt;&lt;code class=&quot;language-{python}&quot;&gt;  import math
-  math.gcd(10, 15) # return 5 
-&lt;/code&gt;&lt;/pre&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/fractions-Fraction&quot;&gt;fractions의 Fraction을 사용&lt;/a&gt;
-        &lt;pre&gt;&lt;code class=&quot;language-{python}&quot;&gt;  from fractions import Fraction
-  Fraction(1, 5) # 1/5
-  Fraction(&quot;1/5&quot;) # 1/5
-&lt;/code&gt;&lt;/pre&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="programing" />
-      
-        <category term="python" />
-      
-
-      
-        <summary type="html">분수의 덧셈</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">문자열처리</title>
-      <link href="http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EC%B2%98%EB%A6%AC" rel="alternate" type="text/html" title="문자열처리" />
-      <published>2023-02-27T00:00:00+09:00</published>
-      <updated>2023-02-27T00:00:00+09:00</updated>
-      <id>http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EC%B2%98%EB%A6%AC</id>
-      <content type="html" xml:base="http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EC%B2%98%EB%A6%AC">&lt;h1 id=&quot;문자열처리&quot;&gt;문자열처리&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;문자열 처리 문제는 문자열을 다루는 방법에 대한 이해가 필요합니다. &lt;br /&gt;
-대부분 &lt;strong&gt;문자열의 길이&lt;/strong&gt;와 &lt;strong&gt;문자열에서 찾을 문자열의 길이&lt;/strong&gt; 등에 따라 &lt;br /&gt;
-&lt;strong&gt;시간 복잡도&lt;/strong&gt;가 크게 차이나기 때문에, 문자열 처리 알고리즘에 대한 &lt;br /&gt;
-이해와 효율적인 알고리즘을 개발할 수 있는 능력이 필요합니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/문자열뒤집기&quot;&gt;문자열 뒤집기&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/문자열압축&quot;&gt;문자열 압축&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;문자열 회전&lt;/li&gt;
-  &lt;li&gt;문자열 비교&lt;/li&gt;
-  &lt;li&gt;문자열에서 숫자 추출&lt;/li&gt;
-  &lt;li&gt;문자열 매칭&lt;/li&gt;
-  &lt;li&gt;문자열 편집&lt;/li&gt;
-  &lt;li&gt;문자열 분할&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/문자열순열확인&quot;&gt;문자열 순열 확인&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;문자열 회전: 문자열을 회전시키는 문제로, 입력으로 주어진 문자열을 왼쪽으로 회전시키고 회전시킨 문자열을 출력해야 합니다. 예를 들어, “hello”가 입력으로 주어졌을 때 “elloh”로 출력합니다.&lt;/p&gt;
-
-&lt;p&gt;문자열 비교: 두 개의 문자열을 비교하는 문제로, 두 개의 문자열이 같은지 판별하고 같다면 True를, 다르다면 False를 출력해야 합니다. 예를 들어, “hello”와 “world”가 입력으로 주어졌을 때 False를 출력합니다.&lt;/p&gt;
-
-&lt;p&gt;문자열에서 숫자 추출: 문자열에서 숫자만 추출하는 문제로, 문자열에서 숫자만 추출하여 출력해야 합니다. 예를 들어, “abc123def456”이 입력으로 주어졌을 때 “123456”으로 출력합니다.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="programing" />
-      
-        <category term="python" />
-      
-
-      
-        <summary type="html">문자열처리</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">문자열순열확인</title>
-      <link href="http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EC%88%9C%EC%97%B4%ED%99%95%EC%9D%B8" rel="alternate" type="text/html" title="문자열순열확인" />
-      <published>2023-02-27T00:00:00+09:00</published>
-      <updated>2023-02-27T00:00:00+09:00</updated>
-      <id>http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EC%88%9C%EC%97%B4%ED%99%95%EC%9D%B8</id>
-      <content type="html" xml:base="http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EC%88%9C%EC%97%B4%ED%99%95%EC%9D%B8">&lt;h1 id=&quot;문자열순열확인&quot;&gt;문자열순열확인&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;두 문자열이 서로 순열인지 확인하는 알고리즘&lt;br /&gt;
-해석 : 각 문자가 중복 없이 모두 서로에게 존재 하는 것&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;is_premutation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;str2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;# 두 문자열의 길이가 같지 않으면 순열이 아니다.
-&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
-    
-    &lt;span class=&quot;c1&quot;&gt;# 각 문자열에서 문자의 개수를 셀 수 있도록 딕셔너리를 생성해준다.
-&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;freq1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;freq2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
-    
-    &lt;span class=&quot;c1&quot;&gt;# 각 문자에 대한 빈도를 세어준다.
-&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)):&lt;/span&gt;
-        &lt;span class=&quot;c1&quot;&gt;# str1에 대한 빈도 추가
-&lt;/span&gt;        &lt;span class=&quot;n&quot;&gt;freq1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;freq1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-        &lt;span class=&quot;c1&quot;&gt;# str2에 대한 빈도 추가
-&lt;/span&gt;        &lt;span class=&quot;n&quot;&gt;freq2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;freq2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-        
-    &lt;span class=&quot;c1&quot;&gt;# 두 딕셔너리가 같은지 확인
-&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;freq1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;freq2&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;is_permutation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;abc&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;cba&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;is_permutation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;abcd&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;abdc&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;is_permutation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;aaa&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;aab&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;is_permutation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;hello&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;world&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;True
-True
-False
-False
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;함수
-    &lt;ol&gt;
-      &lt;li&gt;is_permutation 함수는 str1 및 str2의 두 문자열을 사용합니다.&lt;/li&gt;
-      &lt;li&gt;입력으로 str1이 str2의 순열이면 True를 반환하고 그렇지 않으면 False를 반환합니다.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;알고리즘
-    &lt;ol&gt;
-      &lt;li&gt;두 문자열이 동일한지 확인합니다. &lt;br /&gt;
-  길이가 같지 않으면 서로 순열이 될 수 없으므로 함수는 False를 반환합니다.&lt;/li&gt;
-      &lt;li&gt;freq1 및 &amp;lt; code&amp;gt;freq2, 두 문자열에 각 문자의 빈도를 저장합니다. &lt;br /&gt;
-  사전의 get 메서드는 주어진 키에 대한 값을 가져오는 데 사용되며 키가 존재하지 않으면 기본값(이 경우 0)을 반환합니다.&lt;/li&gt;
-      &lt;li&gt;문자열의 각 문자를 반복하여 두 문자열의 각 문자에 대한 빈도를 업데이트합니다.&lt;br /&gt;
-  str1의 각 문자에 대한 빈도 수는 사전 freq1에 저장되고 str2의 각 문자에 대한 빈도 수는 사전에 저장됩니다. freq2.&lt;/li&gt;
-      &lt;li&gt;== 연산자를 사용하여 두 사전이 동일한지 확인합니다. &lt;br /&gt;
-  두 사전의 키와 값이 같으면 두 문자열이 서로 순열이므로 함수는 True를 반환합니다. &lt;br /&gt;
-  두 사전이 같지 않으면 두 문자열이 서로 순열이 아니므로 함수는 False를 반환합니다.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="programing" />
-      
-        <category term="python" />
-      
-
-      
-        <summary type="html">문자열순열확인</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">문자열뒤집기</title>
-      <link href="http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EB%92%A4%EC%A7%91%EA%B8%B0" rel="alternate" type="text/html" title="문자열뒤집기" />
-      <published>2023-02-27T00:00:00+09:00</published>
-      <updated>2023-02-27T00:00:00+09:00</updated>
-      <id>http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EB%92%A4%EC%A7%91%EA%B8%B0</id>
-      <content type="html" xml:base="http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EB%92%A4%EC%A7%91%EA%B8%B0">&lt;h1 id=&quot;문자열뒤집기&quot;&gt;문자열뒤집기&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;문자열을 뒤집는 문제로, 입력으로 주어진 문자열을 뒤집어 출력해야 합니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-&lt;h2 id=&quot;문자열-뒤집기-1&quot;&gt;문자열 뒤집기 1&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;주어진 문자열을 뒤집어 출력하라&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;reverse_string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[::&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;# Example
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;hello&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reverse_string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Output: &quot;olleh&quot;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;olleh
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;위 코드에서 s[::-1]은 문자열 슬라이싱을 이용하여 문자열을 뒤집습니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-&lt;h2 id=&quot;문자열-뒤집기-2&quot;&gt;문자열 뒤집기 2&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;주어진 문자열에서 공백을 제거하고, 단어의 순서를 뒤집어 출력하는 함수 reverse_words를 작성하세요. &lt;br /&gt;
-단, 공백은 하나만 남겨두어야 합니다.&lt;br /&gt;
-예시: “ hello world “ → “world hello”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;reverse_words&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;# 공백을 기준으로 문자열을 나눈다. (공백 제거)
-&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;words&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-    
-    &lt;span class=&quot;c1&quot;&gt;# 단어의 순서를 뒤집는다. 
-&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;words&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;words&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[::&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-    
-    &lt;span class=&quot;c1&quot;&gt;# 단어사이에 공백을 하나 추가한다.
-&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;words&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos; &apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;words&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;words&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;   Hello   World   &quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reverse_words&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;World Hello
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;알고리즘
-    &lt;ol&gt;
-      &lt;li&gt;주어진 문자열의 공백을 제거하고 단어들로 구분하기 위해 split 함수를 사용&lt;/li&gt;
-      &lt;li&gt;리스트의 순서를 역순으로 저장한다.&lt;/li&gt;
-      &lt;li&gt;단어 사이에 공백을 넣어 리스트를 하나의 문자열로 만들어준다.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="programing" />
-      
-        <category term="python" />
-      
-
-      
-        <summary type="html">문자열뒤집기</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Coding Test List</title>
-      <link href="http://localhost:4000/CodingTestList" rel="alternate" type="text/html" title="Coding Test List" />
-      <published>2023-02-27T00:00:00+09:00</published>
-      <updated>2023-02-27T00:00:00+09:00</updated>
-      <id>http://localhost:4000/CodingTestList</id>
-      <content type="html" xml:base="http://localhost:4000/CodingTestList">&lt;h1 id=&quot;코딩-테스트&quot;&gt;코딩 테스트&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;기업에-자주-나오는-python-알고리즘-코딩-테스트&quot;&gt;기업에 자주 나오는 python 알고리즘 코딩 테스트&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/문자열처리&quot;&gt;문자열 처리&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;배열/리스트 처리&lt;/li&gt;
-  &lt;li&gt;그래프 이론&lt;/li&gt;
-  &lt;li&gt;동적 계획법&lt;/li&gt;
-  &lt;li&gt;브루트 포스/완전 탐색&lt;/li&gt;
-  &lt;li&gt;트리 구조&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;프로그래머스-코딩테스트-입문&quot;&gt;프로그래머스 코딩테스트 입문&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;&quot;&gt;분수의덧셈&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="programing" />
-      
-        <category term="python" />
-      
-
-      
-        <summary type="html">코딩 테스트</summary>
       
 
       

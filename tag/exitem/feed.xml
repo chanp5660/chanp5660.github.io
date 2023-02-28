@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/exitem/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-02-28T02:52:14+09:00</updated>
+  <updated>2023-02-28T18:31:17+09:00</updated>
   <id>http://localhost:4000/tag/exitem/feed.xml</id>
 
   
@@ -200,29 +200,41 @@
       &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/CodingTestList&quot;&gt;코딩테스트&lt;/a&gt;
         &lt;blockquote&gt;
           &lt;p&gt;기업에 자주 출제되는 문제로 작성
-      - 문자열순열회전 작성중&lt;/p&gt;
+      - 문자열처리 - 문자열순열회전 작성중&lt;/p&gt;
         &lt;/blockquote&gt;
       &lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/Python-List&quot;&gt;python&lt;/a&gt;
         &lt;blockquote&gt;
           &lt;p&gt;아직 안함&lt;/p&gt;
-          &lt;h3 id=&quot;인공지능머신러닝-딥러닝-이론-지식&quot;&gt;인공지능(머신러닝, 딥러닝) 이론 지식&lt;/h3&gt;
         &lt;/blockquote&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;인공지능머신러닝-딥러닝-이론-지식&quot;&gt;인공지능(머신러닝, 딥러닝) 이론 지식&lt;/h3&gt;
+&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/AI-List&quot;&gt;인공지능&lt;/a&gt;
     &lt;blockquote&gt;
       &lt;p&gt;지도학습 - 의사결정트리 작성 중&lt;/p&gt;
-      &lt;h3 id=&quot;개발적-역량docker-linux-git&quot;&gt;개발적 역량(Docker, Linux, git)&lt;/h3&gt;
-      &lt;p&gt;아직 안함&lt;/p&gt;
-      &lt;h3 id=&quot;도메인-관련-지식&quot;&gt;도메인 관련 지식&lt;/h3&gt;
-      &lt;p&gt;경험이 필요함&lt;/p&gt;
-      &lt;h3 id=&quot;프로젝트&quot;&gt;프로젝트&lt;/h3&gt;
-      &lt;p&gt;Kaggle에서 시작해보려고 함&lt;/p&gt;
     &lt;/blockquote&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;개발적-역량docker-linux-git&quot;&gt;개발적 역량(Docker, Linux, git)&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;아직 안함&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;도메인-관련-지식&quot;&gt;도메인 관련 지식&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;경험이 필요함&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;프로젝트&quot;&gt;프로젝트&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Kaggle에서 시작해보려고 함&lt;/p&gt;
+&lt;/blockquote&gt;</content>
 
       
       

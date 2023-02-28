@@ -56,7 +56,7 @@
     <meta property="og:site_name" content="Engineer Chanp5660" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="문자열회전" />
-    <meta property="og:description" content="문자열회전 기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것 두 문자열이 서로 순열인지 확인하는 알고리즘 해석 : 각 문자가 중복 없이 모두 서로에게 존재 하는 것 def solution(numer1, denom1, numer2, denom2): answer = [numer1*denom1+numer2*denom2, denom1*denom2] while True: check = 1 for i in range(2,min(answer)+1): if answer[0] % i and answer[1] %" />
+    <meta property="og:description" content="문자열회전 기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것 문자열을 회전시키는 문제 입력으로 주어진 문자열을 왼쪽으로 회전시키고 회전시킨 문자열을 출력해야 합니다. 문자열회전 1 주어진 두 개의 문자열이 서로 회전 관계에 있는지 확인하는 알고리즘 작성 예) “waterbottle”과 “erbottlewat”은 서로 회전 관계 def is_rotation(str1, str2): # 두 문자열의 길이가 같지 않으면 회전관계가 성립되지" />
     <meta property="og:url" content="http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%ED%9A%8C%EC%A0%84" />
     <meta property="og:image" content="http://localhost:4000/assets/built/images/문자열회전.png" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
@@ -66,7 +66,7 @@
     <meta property="article:tag" content="Programing" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="문자열회전" />
-    <meta name="twitter:description" content="문자열회전 기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것 두 문자열이 서로 순열인지 확인하는 알고리즘 해석 : 각 문자가 중복 없이 모두 서로에게 존재 하는 것 def solution(numer1, denom1, numer2, denom2): answer = [numer1*denom1+numer2*denom2, denom1*denom2] while True: check = 1 for i in range(2,min(answer)+1): if answer[0] % i and answer[1] %" />
+    <meta name="twitter:description" content="문자열회전 기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것 문자열을 회전시키는 문제 입력으로 주어진 문자열을 왼쪽으로 회전시키고 회전시킨 문자열을 출력해야 합니다. 문자열회전 1 주어진 두 개의 문자열이 서로 회전 관계에 있는지 확인하는 알고리즘 작성 예) “waterbottle”과 “erbottlewat”은 서로 회전 관계 def is_rotation(str1, str2): # 두 문자열의 길이가 같지 않으면 회전관계가 성립되지" />
     <meta name="twitter:url" content="http://localhost:4000/" />
     <meta name="twitter:image" content="http://localhost:4000/assets/built/images/문자열회전.png" />
     <meta name="twitter:label1" content="Written by" />
@@ -98,7 +98,7 @@
         "@type": "WebPage",
         "@id": "http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%ED%9A%8C%EC%A0%84"
     },
-    "description": "문자열회전 기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것 두 문자열이 서로 순열인지 확인하는 알고리즘 해석 : 각 문자가 중복 없이 모두 서로에게 존재 하는 것 def solution(numer1, denom1, numer2, denom2): answer = [numer1*denom1+numer2*denom2, denom1*denom2] while True: check = 1 for i in range(2,min(answer)+1): if answer[0] % i and answer[1] %"
+    "description": "문자열회전 기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것 문자열을 회전시키는 문제 입력으로 주어진 문자열을 왼쪽으로 회전시키고 회전시킨 문자열을 출력해야 합니다. 문자열회전 1 주어진 두 개의 문자열이 서로 회전 관계에 있는지 확인하는 알고리즘 작성 예) “waterbottle”과 “erbottlewat”은 서로 회전 관계 def is_rotation(str1, str2): # 두 문자열의 길이가 같지 않으면 회전관계가 성립되지"
 }
     </script>
 
@@ -206,56 +206,51 @@ into the {body} of the default.hbs template -->
 </blockquote>
 
 <blockquote>
-  <p>두 문자열이 서로 순열인지 확인하는 알고리즘<br />
-해석 : 각 문자가 중복 없이 모두 서로에게 존재 하는 것</p>
+  <p>문자열을 회전시키는 문제 <br />
+입력으로 주어진 문자열을 왼쪽으로 회전시키고 <br />
+회전시킨 문자열을 출력해야 합니다.</p>
 </blockquote>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">solution</span><span class="p">(</span><span class="n">numer1</span><span class="p">,</span> <span class="n">denom1</span><span class="p">,</span> <span class="n">numer2</span><span class="p">,</span> <span class="n">denom2</span><span class="p">):</span>
-    <span class="n">answer</span> <span class="o">=</span> <span class="p">[</span><span class="n">numer1</span><span class="o">*</span><span class="n">denom1</span><span class="o">+</span><span class="n">numer2</span><span class="o">*</span><span class="n">denom2</span><span class="p">,</span> <span class="n">denom1</span><span class="o">*</span><span class="n">denom2</span><span class="p">]</span>
+<hr />
+<h2 id="문자열회전-1">문자열회전 1</h2>
+
+<blockquote>
+  <p>주어진 두 개의 문자열이 서로 회전 관계에 있는지 확인하는 알고리즘 작성<br />
+예) “waterbottle”과 “erbottlewat”은 서로 회전 관계</p>
+</blockquote>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">is_rotation</span><span class="p">(</span><span class="n">str1</span><span class="p">,</span> <span class="n">str2</span><span class="p">):</span>
+    <span class="c1"># 두 문자열의 길이가 같지 않으면 회전관계가 성립되지 않는다.
+</span>    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">str1</span><span class="p">)</span> <span class="o">!=</span> <span class="nb">len</span><span class="p">(</span><span class="n">str1</span><span class="p">)</span> <span class="p">:</span> <span class="k">return</span> <span class="bp">False</span>
     
-    <span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
-        <span class="n">check</span> <span class="o">=</span> <span class="mi">1</span> 
-        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="nb">min</span><span class="p">(</span><span class="n">answer</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
-            <span class="k">if</span> <span class="n">answer</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">%</span> <span class="n">i</span> <span class="ow">and</span> <span class="n">answer</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">%</span> <span class="n">i</span><span class="p">:</span>
-                <span class="n">answer</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="o">//</span><span class="n">i</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">answer</span><span class="p">]</span>
-                <span class="k">print</span><span class="p">(</span><span class="n">answer</span><span class="p">)</span>
-                <span class="n">check</span> <span class="o">=</span> <span class="mi">0</span>
-                <span class="k">break</span>
-        <span class="k">if</span> <span class="n">check</span> <span class="p">:</span> <span class="k">break</span>
+    <span class="c1"># str1 문자열을 이어붙여 반복되는 새로운 문자열을 만든다.
+</span>    <span class="c1"># str2의 문자열을 새로운 문자열에 포함되는 문자열인지 확인한다.
+</span>    <span class="n">new_str</span> <span class="o">=</span> <span class="n">str1</span><span class="o">+</span><span class="n">str1</span>
+    <span class="k">return</span> <span class="n">str2</span> <span class="ow">in</span> <span class="n">new_str</span>
 
-    <span class="k">return</span> <span class="n">answer</span>
+<span class="k">print</span><span class="p">(</span><span class="n">is_rotation</span><span class="p">(</span><span class="s">"abc"</span><span class="p">,</span><span class="s">"bca"</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="n">is_rotation</span><span class="p">(</span><span class="s">"waterbottle"</span><span class="p">,</span><span class="s">"erbottlewat"</span><span class="p">))</span>
 </code></pre></div></div>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">solution</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>True
+True
 </code></pre></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[4, 2]
-</code></pre></div></div>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="n">numer1</span><span class="p">,</span> <span class="n">denom1</span><span class="p">,</span> <span class="n">numer2</span><span class="p">,</span> <span class="n">denom2</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">]</span>
-</code></pre></div></div>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">answer</span> <span class="o">=</span> <span class="p">[</span><span class="n">numer1</span><span class="o">*</span><span class="n">denom1</span><span class="o">+</span><span class="n">numer2</span><span class="o">*</span><span class="n">denom2</span><span class="p">,</span> <span class="n">denom1</span><span class="o">*</span><span class="n">denom2</span><span class="p">]</span>
-</code></pre></div></div>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">answer</span>
-</code></pre></div></div>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[14, 8]
-</code></pre></div></div>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="nb">min</span><span class="p">(</span><span class="n">answer</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
-    <span class="k">if</span> <span class="n">answer</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">%</span> <span class="n">i</span> <span class="ow">and</span> <span class="n">answer</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">%</span> <span class="n">i</span><span class="p">:</span>
-        <span class="n">answer</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="o">//</span><span class="n">i</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">answer</span><span class="p">]</span>
-        <span class="k">print</span><span class="p">(</span><span class="n">answer</span><span class="p">,</span><span class="n">i</span> <span class="p">)</span>
-        <span class="k">break</span>
-</code></pre></div></div>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[4, 2] 3
-</code></pre></div></div>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-</code></pre></div></div>
+<ul>
+  <li>함수
+    <ul>
+      <li>문자열 더하기나 곱하기를 사용하여 반복된 문자를 생성한다.</li>
+      <li>문자나 문자열이 다른 문자열에 속해 있는지 in 함수로 확인한다.</li>
+    </ul>
+  </li>
+  <li>알고리즘
+    <ul>
+      <li>두 문자열의 길이가 같지 않으면 회전조건을 만족시킬 수 없다.</li>
+      <li>문자열 하나를 반복하여 새로운 문자열을 만든다.</li>
+      <li>새로운 문자열에 남은 문자열이 속해 있는지 확인한다.</li>
+    </ul>
+  </li>
+</ul>
 
                 </div>
             </section>
@@ -367,7 +362,7 @@ into the {body} of the default.hbs template -->
                                     
                                         
                                         
-                                            <li><a href="/math-gcd">math gcd</a></li>
+                                            <li><a href="/%EB%AC%B8%EC%9E%90%EC%97%B4%EC%97%90%EC%84%9C%EC%88%AB%EC%9E%90%EC%B6%94%EC%B6%9C">문자열에서 숫자 추출</a></li>
                                         
                                     
                                   
@@ -376,13 +371,9 @@ into the {body} of the default.hbs template -->
                                     
                                         
                                         
-                                            <li><a href="/fractions-Fraction">fractions Fraction</a></li>
+                                            <li><a href="/%EB%AC%B8%EC%9E%90%EC%97%B4%EB%B9%84%EA%B5%90">문자열비교</a></li>
                                         
                                     
-                                  
-                                
-                                  
-                                
                                   
                                 
                                   
@@ -390,6 +381,45 @@ into the {body} of the default.hbs template -->
                                         
                                         
                                     
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
                                   
                                 
                                   
@@ -609,7 +639,7 @@ into the {body} of the default.hbs template -->
                         <footer class="read-next-card-footer">
                             <a href="/tag/programing/">
                                 
-                                    See all 20 posts  →
+                                    See all 25 posts  →
                                 
                             </a>
                         </footer>
@@ -681,12 +711,12 @@ into the {body} of the default.hbs template -->
 
     <article class="post-card post-template">
         
-            <a class="post-card-image-link" href="/math-gcd">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/math_gcd.png)"></div>
+            <a class="post-card-image-link" href="/%EB%AC%B8%EC%9E%90%EC%97%B4%EC%97%90%EC%84%9C%EC%88%AB%EC%9E%90%EC%B6%94%EC%B6%9C">
+                <div class="post-card-image" style="background-image: url(/assets/built/images/문자열에서숫자추출.png)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/math-gcd">
+            <a class="post-card-content-link" href="/%EB%AC%B8%EC%9E%90%EC%97%B4%EC%97%90%EC%84%9C%EC%88%AB%EC%9E%90%EC%B6%94%EC%B6%9C">
                 <header class="post-card-header">
                     
                         
@@ -700,11 +730,11 @@ into the {body} of the default.hbs template -->
                         
                     
 
-                    <h2 class="post-card-title">math gcd</h2>
+                    <h2 class="post-card-title">문자열에서 숫자 추출</h2>
                 </header>
                 <section class="post-card-excerpt">
                     
-                        <p>최소공배수 math gcd
+                        <p>문자열에서 숫자 추출
 
 </p>
                     
