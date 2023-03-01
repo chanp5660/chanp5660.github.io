@@ -8,6 +8,51 @@
     
       
       <item>
+        <title>선형회귀</title>
+        
+          <description>&lt;h1 id=&quot;선형회귀&quot;&gt;선형회귀&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Thu, 02 Mar 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/%EC%84%A0%ED%98%95%ED%9A%8C%EA%B7%80</link>
+        <guid isPermaLink="true">http://localhost:4000/%EC%84%A0%ED%98%95%ED%9A%8C%EA%B7%80</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>병합정렬</title>
+        
+          <description>&lt;h1 id=&quot;병합정렬-merge-sorting&quot;&gt;병합정렬 Merge Sorting&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Thu, 02 Mar 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/%EB%B3%91%ED%95%A9%EC%A0%95%EB%A0%AC</link>
+        <guid isPermaLink="true">http://localhost:4000/%EB%B3%91%ED%95%A9%EC%A0%95%EB%A0%AC</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>삽입정렬</title>
+        
+          <description>&lt;h1 id=&quot;삽입정렬-insertion-sorting&quot;&gt;삽입정렬 Insertion Sorting&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Wed, 01 Mar 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/%EC%82%BD%EC%9E%85%EC%A0%95%EB%A0%AC</link>
+        <guid isPermaLink="true">http://localhost:4000/%EC%82%BD%EC%9E%85%EC%A0%95%EB%A0%AC</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Hash</title>
         
           <description>&lt;h1 id=&quot;해시-hash&quot;&gt;해시 Hash&lt;/h1&gt;
@@ -78,6 +123,36 @@
         <link>
         http://localhost:4000/%EC%A0%95%EB%A0%AC</link>
         <guid isPermaLink="true">http://localhost:4000/%EC%A0%95%EB%A0%AC</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>선택정렬</title>
+        
+          <description>&lt;h1 id=&quot;선택정렬-selection-sorting&quot;&gt;선택정렬 selection Sorting&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Wed, 01 Mar 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/%EC%84%A0%ED%83%9D%EC%A0%95%EB%A0%AC</link>
+        <guid isPermaLink="true">http://localhost:4000/%EC%84%A0%ED%83%9D%EC%A0%95%EB%A0%AC</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>버블정렬</title>
+        
+          <description>&lt;h1 id=&quot;버블정렬-bubble-sorting&quot;&gt;버블정렬 bubble Sorting&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Wed, 01 Mar 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/%EB%B2%84%EB%B8%94%EC%A0%95%EB%A0%AC</link>
+        <guid isPermaLink="true">http://localhost:4000/%EB%B2%84%EB%B8%94%EC%A0%95%EB%A0%AC</guid>
       </item>
       
     
