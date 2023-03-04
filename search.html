@@ -186,7 +186,7 @@ into the {body} of the default.hbs template -->
         "title": "ChatGPT",
             "author": "chanp5660",
             "category": "",
-            "content": "ChatGPT with Python  python에서 chatGPT 이용하기      기본 라이브러리 설치는 github ChatGPT 링크에서 설치    개인 api_key 링크 는 해당 링크에서 얻으면 됨    model_engine은 여러가지 모델이 있으므로 목적에 따라 원하는 모델로 선택  import openaiopenai.api_key = \"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\" # 개인의 api key를 입력하면 된다.#model_engine = \"gpt-3.5-turbo\" model_engine = \"text-davinci-002\" # 적절한 모델을 선택하세요chatgpt = openai.api.Completion.create(    engine=model_engine,    prompt=\"Hello, how are you today?\",    max_tokens=20)---------------------------------------------------------------------------AttributeError                            Traceback (most recent call last)C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\ipykernel_4264\\3576830158.py in &lt;module&gt;      4       5 model_engine = \"text-davinci-002\" # 적절한 모델을 선택하세요----&gt; 6 chatgpt = openai.api.Completion.create(      7     engine=model_engine,      8     prompt=\"Hello, how are you today?\",AttributeError: module 'openai' has no attribute 'api'import openai_secret_managerimport openai# API 키 가져오기assert \"openai\" in openai_secret_manager.get_services()secrets = openai_secret_manager.get_secret(\"openai\")# OpenAI API 인증openai.api_key = secrets[\"api_key\"]# 모델 엔진 지정model_engine = \"text-davinci-002\"# 모델 엔진으로 OpenAI API 초기화model = openai.Model(engine=model_engine)# 챗봇 대화 시작print(\"AI: 안녕하세요! 대화를 시작하세요.\")while True:    prompt = input(\"사용자: \")    if prompt.lower() in [\"종료\", \"그만\", \"끝\"]:        break    response = model.generate(prompt=prompt, max_tokens=1024)    message = response.choices[0].text.strip()    print(\"AI: \" + message)---------------------------------------------------------------------------ModuleNotFoundError                       Traceback (most recent call last)C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\ipykernel_4264\\1748544679.py in &lt;module&gt;----&gt; 1 import openai_secret_manager      2 import openai      3       4 # API 키 가져오기      5 assert \"openai\" in openai_secret_manager.get_services()ModuleNotFoundError: No module named 'openai_secret_manager'import openaiimport os# OpenAI API 인증 정보 설정openai.api_key = \"\"# GPT-3 모델 IDmodel_engine = \"text-davinci-002\"# 생성할 텍스트 입력prompt = \"Tell me detail\"# 생성할 텍스트 길이length = 2000# GPT-3 API로 텍스트 생성 요청response = openai.Completion.create(  engine=model_engine,  prompt=prompt,  max_tokens=length)# 생성된 텍스트 출력print(response.choices[0].text) about youI was born in Hawaii and grew up on the island of Maui. I am of Chinese, Japanese, and Caucasian descent. I attended Maui High School, where I was active in theatre and dance. After graduation, I moved to Los Angeles to pursue a career in entertainment. I currently work as an actress and model. In my spare time, I enjoy hiking, yoga, and spending time with my family and friends.response.choices[0]&lt;OpenAIObject at 0x1f75bca6228&gt; JSON: {  \"finish_reason\": \"length\",  \"index\": 0,  \"logprobs\": null,  \"text\": \"  \\n\\ud504\\ub808\\uc784 \\uc6cc\\ud06c\\ub3c4 \"}model_engine 종류  davinci(무료) : 다양한 태스크를 위한 가장 최신 및 가장 고성능의 모델. 자연어 처리를 위한 놀라운 결과를 제공하고 이 모델은 주로 일반적인 자연어 처리 태스크에 사용  curie(무료) : GPT-2 모델을 기반으로 대화형 생성 모델과 언어 모델링에서 뛰어난 결과를 제공  babbage(무료) : GPT-2 모델의 더 작은 버전으로, 훈련에 사용된 데이터셋의 크기가 더 작고 자연어 처리 태스크의 작은 규모에 적합  ada : GPT-2 모델을 기반으로 하며, 감성 분석 및 텍스트 분류와 같은 자연어 처리 태스크에 특화됩니다.  text-davinci-002 : OpenAI에서 사용 가능한 최신 모델 중 가장 강력한 모델로 대화형 생성 모델 및 자연어 이해 작업에 적합  translation : 번역작업에 사용되는 모델  davinci-codex : 요약작업에 사용되는 모델  davinci-instruct-beta : 대화형 지침 생성을 위한 모델. 특정 작업에 대한 자세한 지침을 만드는 데 사용  davinci-codex : 고급 코드 생성을 위한 모델. 이 모델은 코드 작성, 코드 자동 완성 및 코드 이해 작업에 적합  davinci-medical-2 : 의학 분야의 자연어 처리에 특화된 모델. 이 모델은 진단, 치료 및 의료 데이터 처리와 같은 작업에 사용  content-filter-alpha : 불순물을 제거하여 적절하지 않은 콘텐츠를 필터링하는 데 사용됩니다.  text-davinci-002-001 : 다양한 자연어 처리 태스크에 적합한 모델. 이 모델은 text-davinci-002 모델보다 약간 작은 모델.  davinci-junior : OpenAI API에서 사용 가능한 모델 중 가장 작은 모델 중 하나. 이 모델은 davinci 모델보다 작고 강력한 성능을 제공하지는 않음. 작은 규모의 자연어 처리 작업에 적합",
+            "content": "ChatGPT with Python  python에서 chatGPT 이용하기      기본 라이브러리 설치는 github ChatGPT 링크에서 설치    개인 api_key 링크 는 해당 링크에서 얻으면 됨    model_engine은 여러가지 모델이 있으므로 목적에 따라 원하는 모델로 선택  import openaiopenai.api_key = \"\" # 개인의 api key를 입력하면 된다.#model_engine = \"gpt-3.5-turbo\" model_engine = \"text-davinci-002\" # 적절한 모델을 선택하세요chatgpt = openai.api.Completion.create(    engine=model_engine,    prompt=\"Hello, how are you today?\",    max_tokens=20)---------------------------------------------------------------------------AttributeError                            Traceback (most recent call last)C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\ipykernel_4264\\3576830158.py in &lt;module&gt;      4       5 model_engine = \"text-davinci-002\" # 적절한 모델을 선택하세요----&gt; 6 chatgpt = openai.api.Completion.create(      7     engine=model_engine,      8     prompt=\"Hello, how are you today?\",AttributeError: module 'openai' has no attribute 'api'import openai_secret_managerimport openai# API 키 가져오기assert \"openai\" in openai_secret_manager.get_services()secrets = openai_secret_manager.get_secret(\"openai\")# OpenAI API 인증openai.api_key = secrets[\"api_key\"]# 모델 엔진 지정model_engine = \"text-davinci-002\"# 모델 엔진으로 OpenAI API 초기화model = openai.Model(engine=model_engine)# 챗봇 대화 시작print(\"AI: 안녕하세요! 대화를 시작하세요.\")while True:    prompt = input(\"사용자: \")    if prompt.lower() in [\"종료\", \"그만\", \"끝\"]:        break    response = model.generate(prompt=prompt, max_tokens=1024)    message = response.choices[0].text.strip()    print(\"AI: \" + message)---------------------------------------------------------------------------ModuleNotFoundError                       Traceback (most recent call last)C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\ipykernel_4264\\1748544679.py in &lt;module&gt;----&gt; 1 import openai_secret_manager      2 import openai      3       4 # API 키 가져오기      5 assert \"openai\" in openai_secret_manager.get_services()ModuleNotFoundError: No module named 'openai_secret_manager'import openaiimport os# OpenAI API 인증 정보 설정openai.api_key = \"\"# GPT-3 모델 IDmodel_engine = \"text-davinci-002\"# 생성할 텍스트 입력prompt = \"Tell me detail\"# 생성할 텍스트 길이length = 2000# GPT-3 API로 텍스트 생성 요청response = openai.Completion.create(  engine=model_engine,  prompt=prompt,  max_tokens=length)# 생성된 텍스트 출력print(response.choices[0].text) about youI was born in Hawaii and grew up on the island of Maui. I am of Chinese, Japanese, and Caucasian descent. I attended Maui High School, where I was active in theatre and dance. After graduation, I moved to Los Angeles to pursue a career in entertainment. I currently work as an actress and model. In my spare time, I enjoy hiking, yoga, and spending time with my family and friends.response.choices[0]&lt;OpenAIObject at 0x1f75bca6228&gt; JSON: {  \"finish_reason\": \"length\",  \"index\": 0,  \"logprobs\": null,  \"text\": \"  \\n\\ud504\\ub808\\uc784 \\uc6cc\\ud06c\\ub3c4 \"}model_engine 종류  davinci(무료) : 다양한 태스크를 위한 가장 최신 및 가장 고성능의 모델. 자연어 처리를 위한 놀라운 결과를 제공하고 이 모델은 주로 일반적인 자연어 처리 태스크에 사용  curie(무료) : GPT-2 모델을 기반으로 대화형 생성 모델과 언어 모델링에서 뛰어난 결과를 제공  babbage(무료) : GPT-2 모델의 더 작은 버전으로, 훈련에 사용된 데이터셋의 크기가 더 작고 자연어 처리 태스크의 작은 규모에 적합  ada : GPT-2 모델을 기반으로 하며, 감성 분석 및 텍스트 분류와 같은 자연어 처리 태스크에 특화됩니다.  text-davinci-002 : OpenAI에서 사용 가능한 최신 모델 중 가장 강력한 모델로 대화형 생성 모델 및 자연어 이해 작업에 적합  translation : 번역작업에 사용되는 모델  davinci-codex : 요약작업에 사용되는 모델  davinci-instruct-beta : 대화형 지침 생성을 위한 모델. 특정 작업에 대한 자세한 지침을 만드는 데 사용  davinci-codex : 고급 코드 생성을 위한 모델. 이 모델은 코드 작성, 코드 자동 완성 및 코드 이해 작업에 적합  davinci-medical-2 : 의학 분야의 자연어 처리에 특화된 모델. 이 모델은 진단, 치료 및 의료 데이터 처리와 같은 작업에 사용  content-filter-alpha : 불순물을 제거하여 적절하지 않은 콘텐츠를 필터링하는 데 사용됩니다.  text-davinci-002-001 : 다양한 자연어 처리 태스크에 적합한 모델. 이 모델은 text-davinci-002 모델보다 약간 작은 모델.  davinci-junior : OpenAI API에서 사용 가능한 모델 중 가장 작은 모델 중 하나. 이 모델은 davinci 모델보다 작고 강력한 성능을 제공하지는 않음. 작은 규모의 자연어 처리 작업에 적합",
         "url": "/ChatGPT"
     }
     ,
@@ -987,4 +987,141 @@ into the {body} of the default.hbs template -->
         "title": "R언어-RSelenium_tutorial",
             "author": "chanp5660",
             "category": "",
-            "content": "R언어-RSelenium_tutorial  설치방법 : 파일다운로드(chromedriver, geckodriver, selenium-server-standalone) -&gt; 같은 폴더에 둔다. -&gt; cmd를 실행 -&gt; 설치파일들이 들어있는 폴더의 디렉토리를 A라 할 때 -&gt; cd A -&gt; 작성 후 -&gt; java -Dwebdriver.gecko.driver=”geckodriver.exe” -jar selenium-server-standalone-3.141.59.jar -port 4445 -&gt; 실행 -&gt; 켜둔 상태에서 진행RSelenium 기초 문법 참조 사이트(http://joshuamccrain.com/tutorials/web_scraping_R_selenium.html)library(RSelenium)remDr &lt;- remoteDriver(remoteServerAddr = \"localhost\"                      , port = 4445L                      , browserName = \"chrome\")remDr$open() # 크롬열기remDr$getStatus() # 상태#--------------- Navigating using RSelenium Basic Navigation ------------------#remDr$navigate(\"http://www.google.com\") # 사이트 연결remDr$navigate(\"http://www.bbc.co.uk\") # 사이트 연결remDr$getCurrentUrl() # 현재 URLremDr$goBack() # 뒤로 가기remDr$getCurrentUrl() # 현재 URLremDr$goForward() # 앞으로 가기remDr$getCurrentUrl() # 현재 URLremDr$refresh() # 새로고침#------------------ Accessing elements in the DOM(Document Object Model) -------------------------#remDr$navigate(\"http://www.google.com\") # 구글 열기# id로 노드 찾기webElem &lt;- remDr$findElement(using = 'id', value = \"gsr\") # id가 gsr인 것webElem$getElementAttribute(\"id\") # \"gsr\"webElem$getElementAttribute(\"class\") # \"hp vasq\"# class 이름으로 노드 찾기webElem &lt;- remDr$findElement(using = 'class name', value = \"hp\") # class name이 hp관련된 것.webElem$getElementAttribute(\"class\") # \"hp vasq\"webElem$getElementAttribute(\"type\") # list()# css-selectors 사용해서 노드 찾기webElem &lt;- remDr$findElement(using = 'css selector', \"input.gLFyf\") # 입력창 input tag의 gLFyf 클래스 설정 webElem &lt;- remDr$findElement(using = 'css selector', \"input#gLFyf\")# 이름으로 노드 찾기 webElem &lt;- remDr$findElement(using = 'name', \"q\") # name이 q인 노드 찾기webElem$getElementAttribute(\"name\") # \"gLFyf gsfi\"webElem$getElementAttribute(\"id\") # \"\"# xpath 사용해서 노드 찾기 webElem &lt;- remDr$findElement(using = 'xpath', \"//*/body[@id = 'gsr']\")  # tag가 \"body\"이고 id가 \"gsr\"인 노드webElem &lt;- remDr$findElement(using = 'xpath', \"//*/body[@class = 'hp vasq']\") # tag가 \"body\"이고 class가 \"hp vasq\"인 노드 # -----------------------Sending events to elements----------------------## 문자 작성remDr$navigate(\"http://www.google.com/ncr
+            "content": "R언어-RSelenium_tutorial  설치방법 : 파일다운로드(chromedriver, geckodriver, selenium-server-standalone) -&gt; 같은 폴더에 둔다. -&gt; cmd를 실행 -&gt; 설치파일들이 들어있는 폴더의 디렉토리를 A라 할 때 -&gt; cd A -&gt; 작성 후 -&gt; java -Dwebdriver.gecko.driver=”geckodriver.exe” -jar selenium-server-standalone-3.141.59.jar -port 4445 -&gt; 실행 -&gt; 켜둔 상태에서 진행RSelenium 기초 문법 참조 사이트(http://joshuamccrain.com/tutorials/web_scraping_R_selenium.html)library(RSelenium)remDr &lt;- remoteDriver(remoteServerAddr = \"localhost\"                      , port = 4445L                      , browserName = \"chrome\")remDr$open() # 크롬열기remDr$getStatus() # 상태#--------------- Navigating using RSelenium Basic Navigation ------------------#remDr$navigate(\"http://www.google.com\") # 사이트 연결remDr$navigate(\"http://www.bbc.co.uk\") # 사이트 연결remDr$getCurrentUrl() # 현재 URLremDr$goBack() # 뒤로 가기remDr$getCurrentUrl() # 현재 URLremDr$goForward() # 앞으로 가기remDr$getCurrentUrl() # 현재 URLremDr$refresh() # 새로고침#------------------ Accessing elements in the DOM(Document Object Model) -------------------------#remDr$navigate(\"http://www.google.com\") # 구글 열기# id로 노드 찾기webElem &lt;- remDr$findElement(using = 'id', value = \"gsr\") # id가 gsr인 것webElem$getElementAttribute(\"id\") # \"gsr\"webElem$getElementAttribute(\"class\") # \"hp vasq\"# class 이름으로 노드 찾기webElem &lt;- remDr$findElement(using = 'class name', value = \"hp\") # class name이 hp관련된 것.webElem$getElementAttribute(\"class\") # \"hp vasq\"webElem$getElementAttribute(\"type\") # list()# css-selectors 사용해서 노드 찾기webElem &lt;- remDr$findElement(using = 'css selector', \"input.gLFyf\") # 입력창 input tag의 gLFyf 클래스 설정 webElem &lt;- remDr$findElement(using = 'css selector', \"input#gLFyf\")# 이름으로 노드 찾기 webElem &lt;- remDr$findElement(using = 'name', \"q\") # name이 q인 노드 찾기webElem$getElementAttribute(\"name\") # \"gLFyf gsfi\"webElem$getElementAttribute(\"id\") # \"\"# xpath 사용해서 노드 찾기 webElem &lt;- remDr$findElement(using = 'xpath', \"//*/body[@id = 'gsr']\")  # tag가 \"body\"이고 id가 \"gsr\"인 노드webElem &lt;- remDr$findElement(using = 'xpath', \"//*/body[@class = 'hp vasq']\") # tag가 \"body\"이고 class가 \"hp vasq\"인 노드 # -----------------------Sending events to elements----------------------## 문자 작성remDr$navigate(\"http://www.google.com/ncr\")webElem &lt;- remDr$findElement(using = \"xpath\", '//input[@class=\"gLFyf gsfi\"]')webElem$sendKeysToElement(list(\"R Cran\"))# 키 실행 version_1remDr$navigate(\"http://www.google.com/ncr\")webElem &lt;- remDr$findElement(using = \"xpath\", '//input[@class=\"gLFyf gsfi\"]')webElem$sendKeysToElement(list(\"R Cran\",\"\\uE007\"))# 키 실행 version_2remDr$navigate(\"http://www.google.com/ncr\")webElem &lt;- remDr$findElement(using = \"xpath\", '//input[@class=\"gLFyf gsfi\"]')webElem$sendKeysToElement(list(\"R Cran\", key = \"enter\"))# 마우스 실행 remDr$navigate(\"http://www.google.com/ncr\")webElem &lt;- remDr$findElement(using = \"xpath\", '//input[@class=\"gLFyf gsfi\"]')webElem$sendKeysToElement(list(\"R Cran\"))webElem &lt;- remDr$findElement(using = \"xpath\", '//div[@class=\"sbl1\"]')webElem$clickElement()",
+        "url": "/R%EC%96%B8%EC%96%B4-RSelenium_tutorial"
+    }
+    
+    
+    };
+</script>
+<script src="assets/js/lunr.js"></script>
+<script src="assets/js/search.js"></script>
+            </section>
+
+        </article>
+
+    </div>
+</main>
+
+<!-- /post -->
+
+<!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs -->
+<script>
+$(function() {
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+});
+</script>
+
+
+
+        <!-- Previous/next page links - displayed on every page -->
+        
+
+        <!-- The footer at the very bottom of the screen -->
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="http://localhost:4000/">Engineer Chanp5660</a> &copy; 2023</section>
+                <section class="poweredby"><a href="https://github.com/chanp5660">Github Pages chanp5660</a></section>
+                <nav class="site-footer-nav">
+                    <a href="/">Latest Posts</a>
+                    
+                    
+                    <a href="mailto:chanp5660@naver.com" target="_blank" rel="noopener">chanp5660@naver.com</a>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- The big email subscribe modal content -->
+    
+        <div id="subscribe" class="subscribe-overlay">
+            <a class="subscribe-overlay-close" href="#"></a>
+            <div class="subscribe-overlay-content">
+                
+                <h1 class="subscribe-overlay-title">Search Engineer Chanp5660</h1>
+                <p class="subscribe-overlay-description">
+                lunr.js를 이용한 posts 검색 </p>
+                <span id="searchform" method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  />
+    <input class="location" type="hidden" name="location"  />
+    <input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" onkeyup="myFunc()" 
+               id="searchtext" type="text" name="searchtext"  
+               placeholder="Search..." />
+    </div>
+    <script type="text/javascript">
+        function myFunc() {
+            if(event.keyCode == 13) {
+                var url = encodeURIComponent($("#searchtext").val());
+                location.href = "/search.html?query=" + url;
+            }
+        }
+    </script>
+</span>
+            </div>
+        </div>
+    
+
+    <!-- highlight.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
+    <script>$(document).ready(function() {
+      $('pre code').each(function(i, block) {
+        hljs.highlightBlock(block);
+      });
+    });</script>
+
+    <!-- jQuery + Fitvids, which makes all video embeds responsive -->
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="https://demo.ghost.io/assets/js/jquery.fitvids.js?v=724281a32e"></script>
+
+
+    <!-- Paginator increased to "infinit" in _config.yml -->
+    <!-- if paginator.posts  -->
+    <!-- <script>
+        var maxPages = parseInt('');
+    </script>
+    <script src="/assets/js/infinitescroll.js"></script> -->
+    <!-- /endif -->
+
+    
+
+
+    <!-- Add Google Analytics  -->
+    <!-- Google Analytics Tracking code -->
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-32300574-2', 'auto');
+  ga('send', 'pageview');
+
+ </script>
+
+
+    <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
+    
+        <script>
+$(function() {
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+});
+</script>
+
+    
+
+    <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
+    <!-- ghost_foot -->
+
+</body>
+</html>
