@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/til/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-03-05T01:12:47+09:00</updated>
+  <updated>2023-03-05T03:35:23+09:00</updated>
   <id>http://localhost:4000/tag/til/feed.xml</id>
 
   
@@ -30,6 +30,273 @@
   
   
 
+  
+    <entry>
+      <title type="html">TIL-추천시스템필터링</title>
+      <link href="http://localhost:4000/TIL-%EC%B6%94%EC%B2%9C%EC%8B%9C%EC%8A%A4%ED%85%9C%ED%95%84%ED%84%B0%EB%A7%81" rel="alternate" type="text/html" title="TIL-추천시스템필터링" />
+      <published>2023-03-05T00:00:00+09:00</published>
+      <updated>2023-03-05T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-%EC%B6%94%EC%B2%9C%EC%8B%9C%EC%8A%A4%ED%85%9C%ED%95%84%ED%84%B0%EB%A7%81</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-%EC%B6%94%EC%B2%9C%EC%8B%9C%EC%8A%A4%ED%85%9C%ED%95%84%ED%84%B0%EB%A7%81">&lt;h1 id=&quot;추천시스템-필터링&quot;&gt;추천시스템 필터링&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것이며, 하나씩 해결해나가는 느낌으로 ML을 복습 및 검토한다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;크게 협업 필터링과 콘텐츠 기반 필터링으로 나뉜다. 두가지 방법을 같이 사용하는 하이브리드 방식이 가장 많이 사용된다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;협업-필터링&quot;&gt;협업 필터링&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;사용자들의 과거 행동 데이터를 분석하여, 유사한 취향과 관심사를 가진 사용자들을 찾아내어 추천을 제공하는 방식&lt;/li&gt;
+  &lt;li&gt;목적에 따라 2가지로 나뉨
+    &lt;ul&gt;
+      &lt;li&gt;사용자 기반 협업 필터링(User-Based Collaborative Filtering)&lt;/li&gt;
+      &lt;li&gt;상품 기반 협업 필터링(Item-Based Collaborative Filtering)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;콘텐츠-기반-필터링&quot;&gt;콘텐츠 기반 필터링&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;사용자가 이전에 선호한 콘텐츠의 특성을 분석하여 유사한 특성의 다른 콘텐츠를 추천하는 방식&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;하이브리드-방식hybrid-recommender-systems&quot;&gt;하이브리드 방식(Hybrid Recommender Systems)&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;최근에는 위 두 가지 방식을 결합한 방법이 많이 사용&lt;/li&gt;
+  &lt;li&gt;협업 필터링과 콘텐츠 기반 필터링을 조합하여 추천 정확도를 높이는 방식&lt;/li&gt;
+  &lt;li&gt;추천 시스템에서는 사용자의 행동 데이터(구매 이력, 검색 기록 등)를 분석하여&lt;br /&gt;
+새로운 아이템을 추천하는 방법으로 콜드 스타트(cold start) 문제를 해결할 수 있는 방법&lt;/li&gt;
+  &lt;li&gt;이 방법은 새로운 사용자나 새로운 아이템에 대한 추천을 제공하기 위해 사용&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">추천시스템 필터링</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">TIL-공공데이터</title>
+      <link href="http://localhost:4000/TIL-%EA%B3%B5%EA%B3%B5%EB%8D%B0%EC%9D%B4%ED%84%B0" rel="alternate" type="text/html" title="TIL-공공데이터" />
+      <published>2023-03-05T00:00:00+09:00</published>
+      <updated>2023-03-05T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-%EA%B3%B5%EA%B3%B5%EB%8D%B0%EC%9D%B4%ED%84%B0</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-%EA%B3%B5%EA%B3%B5%EB%8D%B0%EC%9D%B4%ED%84%B0">&lt;h1 id=&quot;공공데이터-모음&quot;&gt;공공데이터 모음&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;기본적으로 무료로 얻을 수 있는 빅데이터 사이트를 기억하기 위해 기록&lt;br /&gt;
+데이터를 자세히 봐야겠지만 대략적인 요약과 가능할만한 간단한 아이디어를 추가 작성&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;공공데이터-포털&quot;&gt;공공데이터 포털&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.data.go.kr/index.do&quot;&gt;https://www.data.go.kr/index.do&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;공공데이터포털은 공공기관이 생성 또는 취득하여 관리하고 있는 공공데이터를 한 곳에서 제공하는 통합 창구&lt;/li&gt;
+  &lt;li&gt;포털에서는 국민이 쉽고편리하게 공공데이터를 이용할 수 있도록 파일데이터, 오픈API, 시각화 등 다양한 방식으로 제공하고 있으며, 누구라도 쉽고 편리한 검색을통해 원하는 공공데이터를 빠르고 정확하게 찾을 수 있음&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;한국문화관광연구원-문화관광-데이터&quot;&gt;한국문화관광연구원 문화관광 데이터&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.data.go.kr/data/15052709/fileData.do&quot;&gt;https://www.data.go.kr/data/15052709/fileData.do&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;한국의 여행지, 문화유산, 축제, 먹거리 등의 정보를 제공&lt;/li&gt;
+  &lt;li&gt;콘텐츠 기반 필터링 방식으로 추천 시스템을 만드는데 활용 가능&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;한국도로공사-도로교통공단-교통사고-분석-시스템-데이터&quot;&gt;한국도로공사 도로교통공단 교통사고 분석 시스템 데이터&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://taas.koroad.or.kr/api/&quot;&gt;https://taas.koroad.or.kr/api/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;교통사고 발생 정보를 제공&lt;/li&gt;
+  &lt;li&gt;협업 필터링 방식으로 추천 시스템을 만드는데 활용 가능&lt;/li&gt;
+  &lt;li&gt;교통사고가 발생했을 때 같은 조건의 관련 정보 제공&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;서울시-열린데이터광장&quot;&gt;서울시 열린데이터광장&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://data.seoul.go.kr/together/guide/useGuide.do#sample-code-4&quot;&gt;https://data.seoul.go.kr/together/guide/useGuide.do#sample-code-4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;서울시에서 제공하는 다양한 데이터를 포함&lt;/li&gt;
+  &lt;li&gt;서울시민을 대상으로 한 추천 시스템을 만드는데 활용 가능&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;국가-통계-포털-kosis&quot;&gt;국가 통계 포털 KOSIS&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kosis.kr/index/index.do&quot;&gt;https://kosis.kr/index/index.do&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;대한민국의 다양한 통계 자료를 제공&lt;/li&gt;
+  &lt;li&gt;콘텐츠 기반 필터링 방식으로 추천 시스템을 만드는데 활용 가능&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;한국부동산원-경매물건-데이터&quot;&gt;한국부동산원 경매물건 데이터&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reb.or.kr/reb/cm/cntnts/cntntsView.do?mi=9626&amp;amp;cntntsId=1114&quot;&gt;https://www.reb.or.kr/reb/cm/cntnts/cntntsView.do?mi=9626&amp;amp;cntntsId=1114&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;오피스텔 가격동향, 매입자 연령대별 부동산거래, 실거래가격지수 등을 제공&lt;/li&gt;
+  &lt;li&gt;부동산 거래하기 위한 가격을 추천해주는 시스템을 만드는게 활용 가능&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;한국환경공단-에어코리아-대기오염정보&quot;&gt;한국환경공단 에어코리아 대기오염정보&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.data.go.kr/tcs/dss/selectApiDataDetailView.do?publicDataPk=15073861&quot;&gt;https://www.data.go.kr/tcs/dss/selectApiDataDetailView.do?publicDataPk=15073861&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;대기오염 측정 정보를 제공&lt;/li&gt;
+  &lt;li&gt;지리정보(측정소별) 기반 추천 시스템을 만드는데 활용 가능&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;한국교통안전공단---자동차-결함-정보&quot;&gt;한국교통안전공단 - 자동차 결함 정보&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kotsa.or.kr/portal/contents.do?menuCode=03030200&quot;&gt;https://www.kotsa.or.kr/portal/contents.do?menuCode=03030200&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;자동차 결함 정보를 제공&lt;/li&gt;
+  &lt;li&gt;협업 필터링 방식으로 추천 시스템을 만드는데 활용 가능&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">공공데이터 모음</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">TIL-토이프로젝트</title>
+      <link href="http://localhost:4000/TIL-%ED%86%A0%EC%9D%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8" rel="alternate" type="text/html" title="TIL-토이프로젝트" />
+      <published>2023-03-05T00:00:00+09:00</published>
+      <updated>2023-03-05T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-%ED%86%A0%EC%9D%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-%ED%86%A0%EC%9D%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8">&lt;h1 id=&quot;토이프로젝트&quot;&gt;토이프로젝트&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것이며, 하나씩 해결해나가는 느낌으로 ML을 복습 및 검토한다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;새로운 아이디어나 기술 등을 실험하거나 개발자 스스로의 학습 및 연습 목적으로 진행하는 작은 규모의 프로젝트&lt;/li&gt;
+  &lt;li&gt;주로 개인 또는 소규모 개발자들이 진행하며, 실제 상용화나 비즈니스에 사용되는 것이 아니라 단순히 새로운 기술이나 아이디어를 구현하거나 개인적인 목적으로 만들어지는 것&lt;/li&gt;
+  &lt;li&gt;이러한 토이 프로젝트는 개발자들의 역량 향상과 취미로서의 즐거움을 위해 많이 진행&lt;/li&gt;
+  &lt;li&gt;예를 들면, 간단한 웹 어플리케이션 개발, 게임 제작, 자동화 스크립트 작성 등&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;머신러닝-엔지니어-토이프로젝트-로드맵&quot;&gt;머신러닝 엔지니어 토이프로젝트 로드맵&lt;/h1&gt;
+
+&lt;h3 id=&quot;1-문제-정의&quot;&gt;1. 문제 정의&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;프로젝트의 목적과 해결하고자 하는 문제를 명확하게 이해하고 정의&lt;/li&gt;
+  &lt;li&gt;예를 들어, 스팸 필터링, 이미지 분류, 추천 시스템 등과 같은 목적&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;2-데이터-수집&quot;&gt;2. 데이터 수집&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;모델을 학습시키기 위해서는 충분한 양의 데이터가 필요&lt;/li&gt;
+  &lt;li&gt;데이터를 수집할 때는 충분히 다양한 데이터를 수집&lt;/li&gt;
+  &lt;li&gt;데이터의 품질과 라벨링이 정확하게 이루어져야 함&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;3-데이터-전처리&quot;&gt;3. 데이터 전처리&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;수집한 데이터를 분석하기 위해서는 데이터를 전처리&lt;/li&gt;
+  &lt;li&gt;결측치 처리, 이상치 제거, 데이터 정규화 등과 같은 작업을 수행&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;4-모델-선택&quot;&gt;4. 모델 선택&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;문제 정의와 데이터를 기반으로 적합한 모델을 선택&lt;/li&gt;
+  &lt;li&gt;예를 들어, 회귀 모델, 분류 모델, 클러스터링 모델 등을 선택&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;5-모델-학습&quot;&gt;5. 모델 학습&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;선택한 모델을 학습&lt;/li&gt;
+  &lt;li&gt;이를 위해 데이터를 훈련 데이터와 검증 데이터로 나누고, 학습 알고리즘을 적용&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;6-모델-평가&quot;&gt;6. 모델 평가&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;학습된 모델을 평가하여 성능을 확인&lt;/li&gt;
+  &lt;li&gt;이를 위해 검증 데이터를 사용하여 모델의 정확도, 정밀도, 재현율, F1-score 등을 계산&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;7-모델-적용&quot;&gt;7. 모델 적용&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;최종 모델을 적용하여 예측&lt;/li&gt;
+  &lt;li&gt;이를 위해 실시간 예측, 배치 처리 등과 같은 방법을 사용&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;8-모델-개선&quot;&gt;8. 모델 개선&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;모델의 성능을 높이기 위해 다양한 방법을 적용&lt;/li&gt;
+  &lt;li&gt;예를 들어, 하이퍼파라미터 튜닝, 앙상블 학습 등과 같은 방법을 사용&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">토이프로젝트</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">TIL-ChatGPT</title>
@@ -1626,280 +1893,6 @@ AI 솔루션 기업 ‘강세’
 
       
         <summary type="html">아크릴</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">TIL-인사이저</title>
-      <link href="http://localhost:4000/TIL-%EC%9D%B8%EC%82%AC%EC%9D%B4%EC%A0%80" rel="alternate" type="text/html" title="TIL-인사이저" />
-      <published>2023-02-13T00:00:00+09:00</published>
-      <updated>2023-02-13T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-%EC%9D%B8%EC%82%AC%EC%9D%B4%EC%A0%80</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-%EC%9D%B8%EC%82%AC%EC%9D%B4%EC%A0%80">&lt;h1 id=&quot;인사이저&quot;&gt;인사이저&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;생각보다 기록이 없어서 알아보기 힘들다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;내가 판단할 수 있는 정보가 없었고 복지에 관련된 내용이 없어서 회사 분위기조차 파악이 되지 않았다. 부딪혀보자는 생각으로는 들어가서 배우는 느낌으로는 좋을 것 같다. 하지만 이것도 추측으로 아무것도 알수가 없다. 그리고 기록이 2020년 11월에 멈춰 있는 것으로 보아 지금은 안정?위험? 둘 중에 하나이므로 추가 정보가 있지 않는 이상 시도하기 어려울 것 같다. 직무는 내게 맞았던 것 같은데 아쉽다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;인사이저-기본-정보&quot;&gt;인사이저 기본 정보&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.incizor.com/&quot;&gt;공식 사이트 참조&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;크게 두가지 제품(Text Analytics, OCR)을 가지고 있다.&lt;/li&gt;
-  &lt;li&gt;Text Analytics(텍스트분석)
-    &lt;ul&gt;
-      &lt;li&gt;문서더미에서 가치 창출, 인사이저에 맡기세요! 단순 키워드 기반 문서 분류부터 내용의 유사도를 통한 문서 클러스팅까지, 인사이저 고유의 기술력으로 문서를 분류해 드립니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;OCR(아날로그 정보를 디지털 정보로 변환하는 기술)
-    &lt;ul&gt;
-      &lt;li&gt;아날로그 정보를 빠르고 정확하게 디지털 정보로 변환함으로써 데이터 활용성 향상 및 업무의 효율성 향상을 가져다 드립니다. 세계 최고 수준의 인사이저 AI OCR을 경험하세요.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2018년 4월 20일 설립 (업력 6년차)&lt;/li&gt;
-  &lt;li&gt;주소 : 서울 영등포구 은행로 29, 2층 13호&lt;/li&gt;
-  &lt;li&gt;사업 내용 : 소프트웨어 개발,공급,정보처리 구축,컨설팅/기술,경영 자문/소프트웨어 임대&lt;/li&gt;
-  &lt;li&gt;사원수 : 6명
-    &lt;ul&gt;
-      &lt;li&gt;&lt;span style=&quot;color:blue&quot;&gt;최근 입사자가 한명씩 늘고 있는데 퇴사자는 한명인 소규모 그룹이라 뭐라 판단하기가 어렵다.&lt;/span&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;연혁&quot;&gt;연혁&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2020
-    &lt;ul&gt;
-      &lt;li&gt;11
-        &lt;ul&gt;
-          &lt;li&gt;팁스(TIPS) 프로그램 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2020
-    &lt;ul&gt;
-      &lt;li&gt;07
-        &lt;ul&gt;
-          &lt;li&gt;기관투자유치&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;04
-        &lt;ul&gt;
-          &lt;li&gt;네이버 클라우드 OCR 컴피턴시 파트너 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;02
-        &lt;ul&gt;
-          &lt;li&gt;벤처인증&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2018
-    &lt;ul&gt;
-      &lt;li&gt;04
-        &lt;ul&gt;
-          &lt;li&gt;(주)인사이저 설립&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">인사이저</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">TIL-비즈데이터</title>
-      <link href="http://localhost:4000/TIL-%EB%B9%84%EC%A6%88%EB%8D%B0%EC%9D%B4%ED%84%B0" rel="alternate" type="text/html" title="TIL-비즈데이터" />
-      <published>2023-02-13T00:00:00+09:00</published>
-      <updated>2023-02-13T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-%EB%B9%84%EC%A6%88%EB%8D%B0%EC%9D%B4%ED%84%B0</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-%EB%B9%84%EC%A6%88%EB%8D%B0%EC%9D%B4%ED%84%B0">&lt;h1 id=&quot;비즈데이터&quot;&gt;비즈데이터&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;시스템이 체계적으로 잘 되어 있어 굉장히 안정적이다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;사이트에 정리해놓은 연혁, 조직도, 프로젝트, 기술 등을 보고 들어가서 단지 빈자리를 매꾸는 것이 아닌 하나의 기술직을 맡아 일을 하는 것 같아 나와 회사 모두의 발전이 보이는 것 같다. 그리고 많은 협력사가 존재하고 이 회사를 믿고 맡기고 있는지 느껴지고 공기업도 있는 것 같아 믿음이 간다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;비즈데이터-기본-정보&quot;&gt;비즈데이터 기본 정보&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.saramin.co.kr/zf_user/company-info/view/csn/VTF3ZWw0ZHV4MDJ4b1BJdkE4b0NHUT09/company_nm/(주)비즈데이터&quot;&gt;사람인 참조&lt;/a&gt; 와 &lt;a href=&quot;http://bizdata.kr/&quot;&gt;공식 사이트 참조&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2014년 5월 26일 설립 ( 10년차 )&lt;/li&gt;
-  &lt;li&gt;기업형태 : 중소기업&lt;/li&gt;
-  &lt;li&gt;사원수: 71명(2022.12월 기준)
-    &lt;ul&gt;
-      &lt;li&gt;&lt;span style=&quot;color:blue&quot;&gt;입사자 수에 비해 퇴사자 수가 적은 것은 꽤 안정적으로 크고 있는 것 같다.&lt;/span&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;솔루션을 기반으로 환경, 비즈니스 인텔리전스, 스마트공장, 컨설팅 분야에서 서비스를 제공하고 있습니다.&lt;/li&gt;
-  &lt;li&gt;GI(Green Intelligence) : 비즈데이터의 자율운영 플랫폼을 기반으로 상수, 하수 등의 환경분야에서 AI기반의 자율운영 서비스를 제공합니다.&lt;/li&gt;
-  &lt;li&gt;BI(Businuess Intelligence) : 최신 데이터에 기반한 기업경영활동이 이루어질 수 있도록 통합 빅데이터 플랫폼을 기반으로 비즈니스 분석 서비스를 제공합니다.&lt;/li&gt;
-  &lt;li&gt;스마트 팩토리 : 생산관련 데이터를 실시간으로 수집 분석하여 데이터 기반으로 공장경여관리를 디지털화 할 수 있도록 스마트 공장을 구축합니다.&lt;/li&gt;
-  &lt;li&gt;컨설팅 : 데이터에 기반하여 기업이 성장할 수 있도록 산업전문가, 공공협력채널, 경영분석 전문가들이 협업하여 컨설팅 서비스를 제공합니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;연혁&quot;&gt;연혁&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://bizdata.kr/40&quot;&gt;공식 사이트&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;프로젝트&quot;&gt;프로젝트&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://bizdata.kr/41&quot;&gt;공식 사이트&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;span style=&quot;color:blue&quot;&gt; 자연, 주변 등의 다양한 도메인을 다루는게 느껴진다.&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;조직도&quot;&gt;조직도&lt;/h1&gt;
-
-&lt;p&gt;&lt;img alt=&quot;회사조직도&quot; src=&quot;https://user-images.githubusercontent.com/46266247/218439814-ee61f971-6b0a-40a8-aa75-61626958c951.png&quot; width=&quot;100%&quot; height=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;span style=&quot;color:blue&quot;&gt;기술 수준의 비율을 맞추려고 노력하는 모습으로 보이며 앞으로의 기술직의 부족은 없다고 생각된다. 굉장히 안정적이다.&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">비즈데이터</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">TIL-머신러닝 엔지니어 자격요건</title>
-      <link href="http://localhost:4000/TIL-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EC%9E%90%EA%B2%A9%EC%9A%94%EA%B1%B4" rel="alternate" type="text/html" title="TIL-머신러닝 엔지니어 자격요건" />
-      <published>2023-02-11T00:00:00+09:00</published>
-      <updated>2023-02-11T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EC%9E%90%EA%B2%A9%EC%9A%94%EA%B1%B4</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EC%9E%90%EA%B2%A9%EC%9A%94%EA%B1%B4">&lt;h1 id=&quot;머신러닝-엔지니어-자격요건&quot;&gt;머신러닝 엔지니어 자격요건&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;최신 채용공고를 보면서 어떤 자격을 요하는지 정리하며 채우는 기록을 하기 위해 작성&lt;br /&gt;
-회사마다 다르지만 그래도 공통적인 것부터 채워가는 느낌으로 해보는 것으로 진행한다.&lt;br /&gt;
-급하게 하지 말고 한걸음부터 하자&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;지원-자격&quot;&gt;지원 자격&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;프로그래밍 언어
-    &lt;ul&gt;
-      &lt;li&gt;python&lt;/li&gt;
-      &lt;li&gt;C, C++&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;개발 환경
-    &lt;ul&gt;
-      &lt;li&gt;Linux&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;머신러닝/딥러닝 관련 지식 보유자&lt;/li&gt;
-  &lt;li&gt;딥러닝 프레임워트 활용 가능자
-    &lt;ul&gt;
-      &lt;li&gt;Tensorflow, keras&lt;/li&gt;
-      &lt;li&gt;Pytorch&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;석사 졸업 이상 혹은 인공지능 응용 연구 경력 2년 이상&lt;/li&gt;
-  &lt;li&gt;타 개발팀과의 협업 및 의사소통이 원활한 분&lt;/li&gt;
-  &lt;li&gt;최신 연구들을 따라가면서 구현하고 공부하고 공유하는 것을 좋아하시는 분&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;우대-조건&quot;&gt;우대 조건&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;인공지능 분야 논문 저자&lt;/li&gt;
-  &lt;li&gt;Git 등의 협업 툴에 능숙한 분&lt;/li&gt;
-  &lt;li&gt;리눅스 기반 운영체제에 능숙한 분&lt;/li&gt;
-  &lt;li&gt;최신 인공지능 논문을 읽고 구현할 수 있는 분&lt;/li&gt;
-  &lt;li&gt;인공지능 관련 Data Challenge 순위권 이내 입상 이력이 있으신 분&lt;/li&gt;
-  &lt;li&gt;인공지능 관련(산업공학, 컴퓨터공학, 데이터사이언스, 통계학 등) 전공(전공 석사 졸업 이상이신 분)&lt;/li&gt;
-  &lt;li&gt;시계열 데이터에 대한 전문적인 지식을 보유하신 분&lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">머신러닝 엔지니어 자격요건</summary>
       
 
       

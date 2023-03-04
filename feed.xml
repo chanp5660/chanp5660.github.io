@@ -1,4 +1,163 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-05T01:12:47+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">TIL-ChatGPT</title><link href="http://localhost:4000/TIL-chatGPT" rel="alternate" type="text/html" title="TIL-ChatGPT" /><published>2023-03-04T00:00:00+09:00</published><updated>2023-03-04T00:00:00+09:00</updated><id>http://localhost:4000/TIL-chatGPT</id><content type="html" xml:base="http://localhost:4000/TIL-chatGPT">&lt;h1 id=&quot;chatgpt&quot;&gt;ChatGPT&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-05T03:35:23+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">TIL-공공데이터</title><link href="http://localhost:4000/TIL-%EA%B3%B5%EA%B3%B5%EB%8D%B0%EC%9D%B4%ED%84%B0" rel="alternate" type="text/html" title="TIL-공공데이터" /><published>2023-03-05T00:00:00+09:00</published><updated>2023-03-05T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%EA%B3%B5%EA%B3%B5%EB%8D%B0%EC%9D%B4%ED%84%B0</id><content type="html" xml:base="http://localhost:4000/TIL-%EA%B3%B5%EA%B3%B5%EB%8D%B0%EC%9D%B4%ED%84%B0">&lt;h1 id=&quot;공공데이터-모음&quot;&gt;공공데이터 모음&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;기본적으로 무료로 얻을 수 있는 빅데이터 사이트를 기억하기 위해 기록&lt;br /&gt;
+데이터를 자세히 봐야겠지만 대략적인 요약과 가능할만한 간단한 아이디어를 추가 작성&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;공공데이터-포털&quot;&gt;공공데이터 포털&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.data.go.kr/index.do&quot;&gt;https://www.data.go.kr/index.do&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;공공데이터포털은 공공기관이 생성 또는 취득하여 관리하고 있는 공공데이터를 한 곳에서 제공하는 통합 창구&lt;/li&gt;
+  &lt;li&gt;포털에서는 국민이 쉽고편리하게 공공데이터를 이용할 수 있도록 파일데이터, 오픈API, 시각화 등 다양한 방식으로 제공하고 있으며, 누구라도 쉽고 편리한 검색을통해 원하는 공공데이터를 빠르고 정확하게 찾을 수 있음&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;한국문화관광연구원-문화관광-데이터&quot;&gt;한국문화관광연구원 문화관광 데이터&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.data.go.kr/data/15052709/fileData.do&quot;&gt;https://www.data.go.kr/data/15052709/fileData.do&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;한국의 여행지, 문화유산, 축제, 먹거리 등의 정보를 제공&lt;/li&gt;
+  &lt;li&gt;콘텐츠 기반 필터링 방식으로 추천 시스템을 만드는데 활용 가능&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;한국도로공사-도로교통공단-교통사고-분석-시스템-데이터&quot;&gt;한국도로공사 도로교통공단 교통사고 분석 시스템 데이터&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://taas.koroad.or.kr/api/&quot;&gt;https://taas.koroad.or.kr/api/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;교통사고 발생 정보를 제공&lt;/li&gt;
+  &lt;li&gt;협업 필터링 방식으로 추천 시스템을 만드는데 활용 가능&lt;/li&gt;
+  &lt;li&gt;교통사고가 발생했을 때 같은 조건의 관련 정보 제공&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;서울시-열린데이터광장&quot;&gt;서울시 열린데이터광장&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://data.seoul.go.kr/together/guide/useGuide.do#sample-code-4&quot;&gt;https://data.seoul.go.kr/together/guide/useGuide.do#sample-code-4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;서울시에서 제공하는 다양한 데이터를 포함&lt;/li&gt;
+  &lt;li&gt;서울시민을 대상으로 한 추천 시스템을 만드는데 활용 가능&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;국가-통계-포털-kosis&quot;&gt;국가 통계 포털 KOSIS&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kosis.kr/index/index.do&quot;&gt;https://kosis.kr/index/index.do&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;대한민국의 다양한 통계 자료를 제공&lt;/li&gt;
+  &lt;li&gt;콘텐츠 기반 필터링 방식으로 추천 시스템을 만드는데 활용 가능&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;한국부동산원-경매물건-데이터&quot;&gt;한국부동산원 경매물건 데이터&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reb.or.kr/reb/cm/cntnts/cntntsView.do?mi=9626&amp;amp;cntntsId=1114&quot;&gt;https://www.reb.or.kr/reb/cm/cntnts/cntntsView.do?mi=9626&amp;amp;cntntsId=1114&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;오피스텔 가격동향, 매입자 연령대별 부동산거래, 실거래가격지수 등을 제공&lt;/li&gt;
+  &lt;li&gt;부동산 거래하기 위한 가격을 추천해주는 시스템을 만드는게 활용 가능&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;한국환경공단-에어코리아-대기오염정보&quot;&gt;한국환경공단 에어코리아 대기오염정보&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.data.go.kr/tcs/dss/selectApiDataDetailView.do?publicDataPk=15073861&quot;&gt;https://www.data.go.kr/tcs/dss/selectApiDataDetailView.do?publicDataPk=15073861&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;대기오염 측정 정보를 제공&lt;/li&gt;
+  &lt;li&gt;지리정보(측정소별) 기반 추천 시스템을 만드는데 활용 가능&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;한국교통안전공단---자동차-결함-정보&quot;&gt;한국교통안전공단 - 자동차 결함 정보&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kotsa.or.kr/portal/contents.do?menuCode=03030200&quot;&gt;https://www.kotsa.or.kr/portal/contents.do?menuCode=03030200&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;자동차 결함 정보를 제공&lt;/li&gt;
+  &lt;li&gt;협업 필터링 방식으로 추천 시스템을 만드는데 활용 가능&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">공공데이터 모음</summary></entry><entry><title type="html">TIL-토이프로젝트</title><link href="http://localhost:4000/TIL-%ED%86%A0%EC%9D%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8" rel="alternate" type="text/html" title="TIL-토이프로젝트" /><published>2023-03-05T00:00:00+09:00</published><updated>2023-03-05T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%ED%86%A0%EC%9D%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8</id><content type="html" xml:base="http://localhost:4000/TIL-%ED%86%A0%EC%9D%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8">&lt;h1 id=&quot;토이프로젝트&quot;&gt;토이프로젝트&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것이며, 하나씩 해결해나가는 느낌으로 ML을 복습 및 검토한다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;새로운 아이디어나 기술 등을 실험하거나 개발자 스스로의 학습 및 연습 목적으로 진행하는 작은 규모의 프로젝트&lt;/li&gt;
+  &lt;li&gt;주로 개인 또는 소규모 개발자들이 진행하며, 실제 상용화나 비즈니스에 사용되는 것이 아니라 단순히 새로운 기술이나 아이디어를 구현하거나 개인적인 목적으로 만들어지는 것&lt;/li&gt;
+  &lt;li&gt;이러한 토이 프로젝트는 개발자들의 역량 향상과 취미로서의 즐거움을 위해 많이 진행&lt;/li&gt;
+  &lt;li&gt;예를 들면, 간단한 웹 어플리케이션 개발, 게임 제작, 자동화 스크립트 작성 등&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;머신러닝-엔지니어-토이프로젝트-로드맵&quot;&gt;머신러닝 엔지니어 토이프로젝트 로드맵&lt;/h1&gt;
+
+&lt;h3 id=&quot;1-문제-정의&quot;&gt;1. 문제 정의&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;프로젝트의 목적과 해결하고자 하는 문제를 명확하게 이해하고 정의&lt;/li&gt;
+  &lt;li&gt;예를 들어, 스팸 필터링, 이미지 분류, 추천 시스템 등과 같은 목적&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;2-데이터-수집&quot;&gt;2. 데이터 수집&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;모델을 학습시키기 위해서는 충분한 양의 데이터가 필요&lt;/li&gt;
+  &lt;li&gt;데이터를 수집할 때는 충분히 다양한 데이터를 수집&lt;/li&gt;
+  &lt;li&gt;데이터의 품질과 라벨링이 정확하게 이루어져야 함&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;3-데이터-전처리&quot;&gt;3. 데이터 전처리&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;수집한 데이터를 분석하기 위해서는 데이터를 전처리&lt;/li&gt;
+  &lt;li&gt;결측치 처리, 이상치 제거, 데이터 정규화 등과 같은 작업을 수행&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;4-모델-선택&quot;&gt;4. 모델 선택&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;문제 정의와 데이터를 기반으로 적합한 모델을 선택&lt;/li&gt;
+  &lt;li&gt;예를 들어, 회귀 모델, 분류 모델, 클러스터링 모델 등을 선택&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;5-모델-학습&quot;&gt;5. 모델 학습&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;선택한 모델을 학습&lt;/li&gt;
+  &lt;li&gt;이를 위해 데이터를 훈련 데이터와 검증 데이터로 나누고, 학습 알고리즘을 적용&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;6-모델-평가&quot;&gt;6. 모델 평가&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;학습된 모델을 평가하여 성능을 확인&lt;/li&gt;
+  &lt;li&gt;이를 위해 검증 데이터를 사용하여 모델의 정확도, 정밀도, 재현율, F1-score 등을 계산&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;7-모델-적용&quot;&gt;7. 모델 적용&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;최종 모델을 적용하여 예측&lt;/li&gt;
+  &lt;li&gt;이를 위해 실시간 예측, 배치 처리 등과 같은 방법을 사용&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;8-모델-개선&quot;&gt;8. 모델 개선&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;모델의 성능을 높이기 위해 다양한 방법을 적용&lt;/li&gt;
+  &lt;li&gt;예를 들어, 하이퍼파라미터 튜닝, 앙상블 학습 등과 같은 방법을 사용&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">토이프로젝트</summary></entry><entry><title type="html">TIL-추천시스템필터링</title><link href="http://localhost:4000/TIL-%EC%B6%94%EC%B2%9C%EC%8B%9C%EC%8A%A4%ED%85%9C%ED%95%84%ED%84%B0%EB%A7%81" rel="alternate" type="text/html" title="TIL-추천시스템필터링" /><published>2023-03-05T00:00:00+09:00</published><updated>2023-03-05T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%EC%B6%94%EC%B2%9C%EC%8B%9C%EC%8A%A4%ED%85%9C%ED%95%84%ED%84%B0%EB%A7%81</id><content type="html" xml:base="http://localhost:4000/TIL-%EC%B6%94%EC%B2%9C%EC%8B%9C%EC%8A%A4%ED%85%9C%ED%95%84%ED%84%B0%EB%A7%81">&lt;h1 id=&quot;추천시스템-필터링&quot;&gt;추천시스템 필터링&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것이며, 하나씩 해결해나가는 느낌으로 ML을 복습 및 검토한다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;크게 협업 필터링과 콘텐츠 기반 필터링으로 나뉜다. 두가지 방법을 같이 사용하는 하이브리드 방식이 가장 많이 사용된다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;협업-필터링&quot;&gt;협업 필터링&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;사용자들의 과거 행동 데이터를 분석하여, 유사한 취향과 관심사를 가진 사용자들을 찾아내어 추천을 제공하는 방식&lt;/li&gt;
+  &lt;li&gt;목적에 따라 2가지로 나뉨
+    &lt;ul&gt;
+      &lt;li&gt;사용자 기반 협업 필터링(User-Based Collaborative Filtering)&lt;/li&gt;
+      &lt;li&gt;상품 기반 협업 필터링(Item-Based Collaborative Filtering)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;콘텐츠-기반-필터링&quot;&gt;콘텐츠 기반 필터링&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;사용자가 이전에 선호한 콘텐츠의 특성을 분석하여 유사한 특성의 다른 콘텐츠를 추천하는 방식&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;하이브리드-방식hybrid-recommender-systems&quot;&gt;하이브리드 방식(Hybrid Recommender Systems)&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;최근에는 위 두 가지 방식을 결합한 방법이 많이 사용&lt;/li&gt;
+  &lt;li&gt;협업 필터링과 콘텐츠 기반 필터링을 조합하여 추천 정확도를 높이는 방식&lt;/li&gt;
+  &lt;li&gt;추천 시스템에서는 사용자의 행동 데이터(구매 이력, 검색 기록 등)를 분석하여&lt;br /&gt;
+새로운 아이템을 추천하는 방법으로 콜드 스타트(cold start) 문제를 해결할 수 있는 방법&lt;/li&gt;
+  &lt;li&gt;이 방법은 새로운 사용자나 새로운 아이템에 대한 추천을 제공하기 위해 사용&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">추천시스템 필터링</summary></entry><entry><title type="html">TIL-ChatGPT</title><link href="http://localhost:4000/TIL-chatGPT" rel="alternate" type="text/html" title="TIL-ChatGPT" /><published>2023-03-04T00:00:00+09:00</published><updated>2023-03-04T00:00:00+09:00</updated><id>http://localhost:4000/TIL-chatGPT</id><content type="html" xml:base="http://localhost:4000/TIL-chatGPT">&lt;h1 id=&quot;chatgpt&quot;&gt;ChatGPT&lt;/h1&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것이며, 하나씩 해결해나가는 느낌으로 ML을 복습 및 검토한다.&lt;/p&gt;
@@ -535,166 +694,4 @@ grape 검색 : None
 apple 삭제
 
 apple 검색 : None
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="programing" /><category term="python" /><summary type="html">해시 Hash 예시 2</summary></entry><entry><title type="html">Hash example 1</title><link href="http://localhost:4000/%ED%95%B4%EC%8B%9C-%EC%98%88%EC%8B%9C1" rel="alternate" type="text/html" title="Hash example 1" /><published>2023-03-01T00:00:00+09:00</published><updated>2023-03-01T00:00:00+09:00</updated><id>http://localhost:4000/%ED%95%B4%EC%8B%9C%20%EC%98%88%EC%8B%9C1</id><content type="html" xml:base="http://localhost:4000/%ED%95%B4%EC%8B%9C-%EC%98%88%EC%8B%9C1">&lt;h1 id=&quot;해시-hash-예시-1&quot;&gt;해시 Hash 예시 1&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;함수&quot;&gt;함수&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;해시 테이블 생성
-    &lt;ul&gt;
-      &lt;li&gt;크기가 100인 배열 초기화 &lt;strong&gt;__init__&lt;/strong&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;해시 코드 생성 &lt;strong&gt;hash_function&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;각 문자의 아스키 코드 값을 합산&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;삽입 함수
-    &lt;ul&gt;
-      &lt;li&gt;해시테이블의 주어진 해시 코드값을 인덱스로 &lt;strong&gt;연결리스트&lt;/strong&gt;를 이용하여 삽입&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;검색 함수
-    &lt;ul&gt;
-      &lt;li&gt;해시테이블에서 주어진 해시 코드값으로 인덱스로 연결리스트를 타고 주어진 키 값을 비교하면서 검색&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# 해시 테이블 구현
-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HashTable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;# 크기가 100인 해시테이블 초기화되는 함수
-&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;size&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 해시 테이블 크기
-&lt;/span&gt;        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;table&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;size&lt;/span&gt;  
-    
-    &lt;span class=&quot;c1&quot;&gt;# key 값이 들어오면 해시코드를 알려주는 함수
-&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;hash_function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;c1&quot;&gt;# 각 문자의 아스키 코드 값을 합산하여 해시 코드 생성
-&lt;/span&gt;        &lt;span class=&quot;n&quot;&gt;hash_code&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;char&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hash_code&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;size&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 크기로 나눈 나머지를 해시 코드로 사용
-&lt;/span&gt;    
-    &lt;span class=&quot;c1&quot;&gt;# key값에 해당되는 코드로 해시 테이블에 연결리스트로 (key, value)값을 넣어준다.(없으면 연결리스트 생성하고 넣어줌)
-&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;insert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;hash_code&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hash_function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hash_code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
-            &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hash_code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 연결 리스트 생성
-&lt;/span&gt;        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hash_code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 연결 리스트에 데이터 삽입
-&lt;/span&gt;        
-    &lt;span class=&quot;c1&quot;&gt;# 주어진 key값에 해당하는 값을 찾는 함수
-&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# 해당 key의 해시코드로 해시테이블에서 값을 찾는다. (있을 때만 없으면 None 출력)
-&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;search&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;hash_code&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hash_function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hash_code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;v&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hash_code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
-                &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;k&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-                    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;v&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 데이터를 찾을 수 없는 경우 None 반환
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# 예시
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hash_table&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;HashTable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;hash_table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;apple&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;hash_table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;banana&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;hash_table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;orange&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hash_table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;search&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;apple&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 10
-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hash_table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;search&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;grape&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# None
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;10
-None
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="programing" /><category term="python" /><summary type="html">해시 Hash 예시 1</summary></entry><entry><title type="html">최빈값구하기</title><link href="http://localhost:4000/%EC%B5%9C%EB%B9%88%EA%B0%92%EA%B5%AC%ED%95%98%EA%B8%B0" rel="alternate" type="text/html" title="최빈값구하기" /><published>2023-03-01T00:00:00+09:00</published><updated>2023-03-01T00:00:00+09:00</updated><id>http://localhost:4000/%EC%B5%9C%EB%B9%88%EA%B0%92%EA%B5%AC%ED%95%98%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/%EC%B5%9C%EB%B9%88%EA%B0%92%EA%B5%AC%ED%95%98%EA%B8%B0">&lt;h1 id=&quot;최빈값-구하기&quot;&gt;최빈값 구하기&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://school.programmers.co.kr/learn/courses/30/lessons/120812&quot;&gt;프로그래머스-최빈값구하기&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;주어진 배열에서 빈도수가 가장 많은 원소를 출력, 최빈값이 2개 이상일 경우는 -1 출력&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;solution&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;# 딕셔너리를 사용해서 각 원소마다 빈도수를 구해준다.
-&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# set을 사용하여 나타낼수도 있지만 효율적으로는 O(N)만 사용하는게 가장 좋을 것 같았다.
-&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;tmp_dict&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;tmp_dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tmp_dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-    
-    &lt;span class=&quot;c1&quot;&gt;# 원소와 빈도수를 각각의 리스트에 저장해준다.
-&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;keys_list&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tmp_dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;keys&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;values_list&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tmp_dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;values&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
-    
-    &lt;span class=&quot;c1&quot;&gt;# 최빈값이 여러개인지 확인 후 출력
-&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;values_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;values_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;keys_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;values_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;values_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))]&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;solution&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;solution&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;2
--1
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;알고리즘
-    &lt;ul&gt;
-      &lt;li&gt;리스트를 딕셔너리형태로 변형하여 각 원소마다 빈도수를 구한다.
-        &lt;ul&gt;
-          &lt;li&gt;dict get을 사용하여 초기화 및 빈도 증가&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;최대 빈도수가 겹치는 숫자가 있는지 확인하고 출력한다.
-        &lt;ul&gt;
-          &lt;li&gt;count와 max를 사용해서 최대빈도수의 개수를 확인&lt;/li&gt;
-          &lt;li&gt;index를 사용하여 최대빈도수의 원소를 확인&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;추가 정보
-    &lt;blockquote&gt;
-      &lt;p&gt;풀이 추천 1등의 풀이에서는 내장함수 set을 사용하여 원소값의 중복을 제거하고 해당 원소를 하나씩 없애보면서 최빈값만 남을 때까지 반복한다. 최빈값의 중복이 있다면 마지막에 같이 없어져 array의 길이가 0이 되므로 -1을 출력해준다.&lt;/p&gt;
-      &lt;pre&gt;&lt;code class=&quot;language-{python}&quot;&gt;def solution(array):
-  while len(array) != 0:
-      for i, a in enumerate(set(array)):
-          array.remove(a)
-      if i == 0: return a
-  return -1
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="programing" /><category term="python" /><summary type="html">최빈값 구하기</summary></entry><entry><title type="html">정렬</title><link href="http://localhost:4000/%EC%A0%95%EB%A0%AC" rel="alternate" type="text/html" title="정렬" /><published>2023-03-01T00:00:00+09:00</published><updated>2023-03-01T00:00:00+09:00</updated><id>http://localhost:4000/%EC%A0%95%EB%A0%AC</id><content type="html" xml:base="http://localhost:4000/%EC%A0%95%EB%A0%AC">&lt;h1 id=&quot;정렬-sorting&quot;&gt;정렬 Sorting&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;컴퓨터 분야에서 중요시되는 문제 가운데 하나로 어떤 데이터들이 주어졌을 때 이를 &lt;strong&gt;정해진 순서&lt;/strong&gt;대로 &lt;strong&gt;나열&lt;/strong&gt;하는 문제로 &lt;br /&gt;
-실제 컴퓨터 분야에서 사용하는 데이터의 경우 &lt;strong&gt;숫자의 순서나 어휘&lt;/strong&gt;의 &lt;strong&gt;순서대로 정렬&lt;/strong&gt;한 다음 사용해야 되는 경우가 거의 항상 발생하는데 이걸 얼마나 &lt;strong&gt;효과적으로 해결&lt;/strong&gt;할 수 있느냐가 &lt;strong&gt;정렬 문제의 핵심&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;개념-이해하기-좋은-영상&quot;&gt;개념 이해하기 좋은 영상&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Bor_CRWEIXo&quot;&gt;어? 재밌네? 정렬 알고리즘, 한방에 이해하기!&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;python-예제&quot;&gt;python 예제&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/선택정렬&quot;&gt;선택정렬&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/삽입정렬&quot;&gt;삽입정렬&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/버블정렬&quot;&gt;버블정렬&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;병합정렬&lt;/li&gt;
-  &lt;li&gt;힙정렬&lt;/li&gt;
-  &lt;li&gt;퀵정렬&lt;/li&gt;
-  &lt;li&gt;기수정렬&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="programing" /><category term="python" /><summary type="html">정렬 Sorting</summary></entry></feed>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="programing" /><category term="python" /><summary type="html">해시 Hash 예시 2</summary></entry></feed>
