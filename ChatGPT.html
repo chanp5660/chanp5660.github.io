@@ -56,7 +56,7 @@
     <meta property="og:site_name" content="Engineer Chanp5660" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="ChatGPT" />
-    <meta property="og:description" content="ChatGPT with Python python에서 chatGPT 이용하기 기본 라이브러리 설치는 github ChatGPT 링크에서 설치 개인 api_key 링크 는 해당 링크에서 얻으면 됨 model_engine은 여러가지 모델이 있으므로 목적에 따라 원하는 모델로 선택 import openai openai.api_key = "" # 개인의 api key를 입력하면 된다. #model_engine = "gpt-3.5-turbo" model_engine = "text-davinci-002" # 적절한 모델을" />
+    <meta property="og:description" content="ChatGPT with Python python에서 chatGPT 이용하기 기본 라이브러리 설치는 github ChatGPT 링크에서 설치 개인 api_key 링크 는 해당 링크에서 얻으면 됨 model_engine은 여러가지 모델이 있으므로 목적에 따라 원하는 모델로 선택 import openai import os # OpenAI API 인증 정보 설정 openai.api_key = "" # GPT-3 모델 ID model_engine = "text-davinci-002"" />
     <meta property="og:url" content="http://localhost:4000/ChatGPT" />
     <meta property="og:image" content="http://localhost:4000/assets/built/images/ChatGPT.png" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
@@ -66,7 +66,7 @@
     <meta property="article:tag" content="Programing" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="ChatGPT" />
-    <meta name="twitter:description" content="ChatGPT with Python python에서 chatGPT 이용하기 기본 라이브러리 설치는 github ChatGPT 링크에서 설치 개인 api_key 링크 는 해당 링크에서 얻으면 됨 model_engine은 여러가지 모델이 있으므로 목적에 따라 원하는 모델로 선택 import openai openai.api_key = "" # 개인의 api key를 입력하면 된다. #model_engine = "gpt-3.5-turbo" model_engine = "text-davinci-002" # 적절한 모델을" />
+    <meta name="twitter:description" content="ChatGPT with Python python에서 chatGPT 이용하기 기본 라이브러리 설치는 github ChatGPT 링크에서 설치 개인 api_key 링크 는 해당 링크에서 얻으면 됨 model_engine은 여러가지 모델이 있으므로 목적에 따라 원하는 모델로 선택 import openai import os # OpenAI API 인증 정보 설정 openai.api_key = "" # GPT-3 모델 ID model_engine = "text-davinci-002"" />
     <meta name="twitter:url" content="http://localhost:4000/" />
     <meta name="twitter:image" content="http://localhost:4000/assets/built/images/ChatGPT.png" />
     <meta name="twitter:label1" content="Written by" />
@@ -98,7 +98,7 @@
         "@type": "WebPage",
         "@id": "http://localhost:4000/ChatGPT"
     },
-    "description": "ChatGPT with Python python에서 chatGPT 이용하기 기본 라이브러리 설치는 github ChatGPT 링크에서 설치 개인 api_key 링크 는 해당 링크에서 얻으면 됨 model_engine은 여러가지 모델이 있으므로 목적에 따라 원하는 모델로 선택 import openai openai.api_key = "" # 개인의 api key를 입력하면 된다. #model_engine = "gpt-3.5-turbo" model_engine = "text-davinci-002" # 적절한 모델을"
+    "description": "ChatGPT with Python python에서 chatGPT 이용하기 기본 라이브러리 설치는 github ChatGPT 링크에서 설치 개인 api_key 링크 는 해당 링크에서 얻으면 됨 model_engine은 여러가지 모델이 있으므로 목적에 따라 원하는 모델로 선택 import openai import os # OpenAI API 인증 정보 설정 openai.api_key = "" # GPT-3 모델 ID model_engine = "text-davinci-002""
 }
     </script>
 
@@ -210,75 +210,6 @@ into the {body} of the default.hbs template -->
 </blockquote>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">openai</span>
-<span class="n">openai</span><span class="p">.</span><span class="n">api_key</span> <span class="o">=</span> <span class="s">""</span> <span class="c1"># 개인의 api key를 입력하면 된다.
-#model_engine = "gpt-3.5-turbo" 
-</span>
-<span class="n">model_engine</span> <span class="o">=</span> <span class="s">"text-davinci-002"</span> <span class="c1"># 적절한 모델을 선택하세요
-</span><span class="n">chatgpt</span> <span class="o">=</span> <span class="n">openai</span><span class="p">.</span><span class="n">api</span><span class="p">.</span><span class="n">Completion</span><span class="p">.</span><span class="n">create</span><span class="p">(</span>
-    <span class="n">engine</span><span class="o">=</span><span class="n">model_engine</span><span class="p">,</span>
-    <span class="n">prompt</span><span class="o">=</span><span class="s">"Hello, how are you today?"</span><span class="p">,</span>
-    <span class="n">max_tokens</span><span class="o">=</span><span class="mi">20</span>
-<span class="p">)</span>
-</code></pre></div></div>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---------------------------------------------------------------------------
-
-AttributeError                            Traceback (most recent call last)
-
-C:\Users\Public\Documents\ESTsoft\CreatorTemp\ipykernel_4264\3576830158.py in &lt;module&gt;
-      4 
-      5 model_engine = "text-davinci-002" # 적절한 모델을 선택하세요
-----&gt; 6 chatgpt = openai.api.Completion.create(
-      7     engine=model_engine,
-      8     prompt="Hello, how are you today?",
-
-
-AttributeError: module 'openai' has no attribute 'api'
-</code></pre></div></div>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">openai_secret_manager</span>
-<span class="kn">import</span> <span class="nn">openai</span>
-
-<span class="c1"># API 키 가져오기
-</span><span class="k">assert</span> <span class="s">"openai"</span> <span class="ow">in</span> <span class="n">openai_secret_manager</span><span class="p">.</span><span class="n">get_services</span><span class="p">()</span>
-<span class="n">secrets</span> <span class="o">=</span> <span class="n">openai_secret_manager</span><span class="p">.</span><span class="n">get_secret</span><span class="p">(</span><span class="s">"openai"</span><span class="p">)</span>
-
-<span class="c1"># OpenAI API 인증
-</span><span class="n">openai</span><span class="p">.</span><span class="n">api_key</span> <span class="o">=</span> <span class="n">secrets</span><span class="p">[</span><span class="s">"api_key"</span><span class="p">]</span>
-
-<span class="c1"># 모델 엔진 지정
-</span><span class="n">model_engine</span> <span class="o">=</span> <span class="s">"text-davinci-002"</span>
-
-<span class="c1"># 모델 엔진으로 OpenAI API 초기화
-</span><span class="n">model</span> <span class="o">=</span> <span class="n">openai</span><span class="p">.</span><span class="n">Model</span><span class="p">(</span><span class="n">engine</span><span class="o">=</span><span class="n">model_engine</span><span class="p">)</span>
-
-<span class="c1"># 챗봇 대화 시작
-</span><span class="k">print</span><span class="p">(</span><span class="s">"AI: 안녕하세요! 대화를 시작하세요."</span><span class="p">)</span>
-<span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
-    <span class="n">prompt</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"사용자: "</span><span class="p">)</span>
-    <span class="k">if</span> <span class="n">prompt</span><span class="p">.</span><span class="n">lower</span><span class="p">()</span> <span class="ow">in</span> <span class="p">[</span><span class="s">"종료"</span><span class="p">,</span> <span class="s">"그만"</span><span class="p">,</span> <span class="s">"끝"</span><span class="p">]:</span>
-        <span class="k">break</span>
-    <span class="n">response</span> <span class="o">=</span> <span class="n">model</span><span class="p">.</span><span class="n">generate</span><span class="p">(</span><span class="n">prompt</span><span class="o">=</span><span class="n">prompt</span><span class="p">,</span> <span class="n">max_tokens</span><span class="o">=</span><span class="mi">1024</span><span class="p">)</span>
-    <span class="n">message</span> <span class="o">=</span> <span class="n">response</span><span class="p">.</span><span class="n">choices</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="n">text</span><span class="p">.</span><span class="n">strip</span><span class="p">()</span>
-    <span class="k">print</span><span class="p">(</span><span class="s">"AI: "</span> <span class="o">+</span> <span class="n">message</span><span class="p">)</span>
-</code></pre></div></div>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---------------------------------------------------------------------------
-
-ModuleNotFoundError                       Traceback (most recent call last)
-
-C:\Users\Public\Documents\ESTsoft\CreatorTemp\ipykernel_4264\1748544679.py in &lt;module&gt;
-----&gt; 1 import openai_secret_manager
-      2 import openai
-      3 
-      4 # API 키 가져오기
-      5 assert "openai" in openai_secret_manager.get_services()
-
-
-ModuleNotFoundError: No module named 'openai_secret_manager'
-</code></pre></div></div>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">openai</span>
 <span class="kn">import</span> <span class="nn">os</span>
 
 <span class="c1"># OpenAI API 인증 정보 설정
@@ -288,10 +219,10 @@ ModuleNotFoundError: No module named 'openai_secret_manager'
 </span><span class="n">model_engine</span> <span class="o">=</span> <span class="s">"text-davinci-002"</span>
 
 <span class="c1"># 생성할 텍스트 입력
-</span><span class="n">prompt</span> <span class="o">=</span> <span class="s">"Tell me detail"</span>
+</span><span class="n">prompt</span> <span class="o">=</span> <span class="s">"ChatGPT가 뭐야?"</span>
 
 <span class="c1"># 생성할 텍스트 길이
-</span><span class="n">length</span> <span class="o">=</span> <span class="mi">2000</span>
+</span><span class="n">length</span> <span class="o">=</span> <span class="mi">2048</span>
 
 <span class="c1"># GPT-3 API로 텍스트 생성 요청
 </span><span class="n">response</span> <span class="o">=</span> <span class="n">openai</span><span class="p">.</span><span class="n">Completion</span><span class="p">.</span><span class="n">create</span><span class="p">(</span>
@@ -304,21 +235,53 @@ ModuleNotFoundError: No module named 'openai_secret_manager'
 </span><span class="k">print</span><span class="p">(</span><span class="n">response</span><span class="p">.</span><span class="n">choices</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="n">text</span><span class="p">)</span>
 </code></pre></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> about you
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* 그리드 분할(grid partitioning) 방식으로 동작하는 Python 번역(translation) 라이브러리 (자연어 처리를 위한 머신 러닝, 딥 러닝, 컴퓨터 비전 기법을 통해 다국어를 제공합니다).
 
-I was born in Hawaii and grew up on the island of Maui. I am of Chinese, Japanese, and Caucasian descent. I attended Maui High School, where I was active in theatre and dance. After graduation, I moved to Los Angeles to pursue a career in entertainment. I currently work as an actress and model. In my spare time, I enjoy hiking, yoga, and spending time with my family and friends.
+## Grid Partitioning?
+2차원 평면에서 점들이 떨어져 있는 경우 이들을 균등하게 분할하는 것을 Grid Partitioning(그리드 분할)이라 한다.
+그리드 분할은 경우에 따라 레벨 트리와 일치하기도 한다. 레벨 트리는 흔히 이야기하는 트리 구조이며, 알려진 구조를 따르지 않고 해당 데이터들이 어떻게 분할되는지를 정의한다.
+
+## VTM 연구개발자
+1. 권요한(?)
+2. SARC Ref.
+* SARC: Symmetric Association Rule Compression ,mechanism to use for reducing size of rules without loss of precision
+3. 마틴 파울러 (Martin Fowler)
+* 각종 소프트웨어ꡀ들에 대한 오픈소스 라이브러리 저작자.
+* 그리고도 고객사 기술 저작자로도 활동
+* 영국에서는 종류에 상관없이 소프트웨어 개발자 역격을 많이 공유하고 활동
+* 기술과 동시에 기술 값양조 증가를 이끈 지식이라고 말한다.
+* 마틴은 The Pragmatic Programmer이라는 독자적인 프로그래머들을 목표로 한 경험, 조언에 대한 책을 발표했고, 프로그래밍 언어 개발 역사와 동시에 소프트웨어 프로젝트의 관리 구조의 안정적이고 개발하기 쉽게끔 만들고자 했다고 하는 경험을 과시한다.
+* 많은 소프트웨어의 성공은 프로젝트의 조직과 구조에 있다고 하는 학술적인 것이 아니다.
+
+##### Books:
+
+Programmatic Components: Reusable Software In The Microsoft .Net Framework.
+
+Agile Foundations: Principles, Patterns, And Practices C# Edition
+
+UML Distilled Third Edition.
+
+Consulting
+
+자신이 하는 일을 기반으로하고 있는 저작자는 이렇게 위장하고 논하고자 한다는 것을 서술하고 있다.
+
+
+## FPT 카카오메이커 초대 발표준비
+카카오메이커는 카카오 블루오션으로 발간된 메일마그일용 책을 말한다.
+
+카카오매일 제공 기사에는 과학제목으로 안내장을 명한 것 이외에도 독자들이 업무에 필요하거나 관심이있는, 또는 독해하고 본질적인 내용이 작성된 직접해석문이 포함되어 있다는 것을 준비과정에서 알 수 있었다.
+
+전라도과학기술원 인공지능연구소 김문준 교수님을 초대하여
+Crowd Sourcing이라는 기술의 기초적인 이론, 즉 공동작업의 중요성과 소통과정과
 </code></pre></div></div>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">response</span><span class="p">.</span><span class="n">choices</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-</code></pre></div></div>
+<hr />
+<h2 id="후기">후기</h2>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;OpenAIObject at 0x1f75bca6228&gt; JSON: {
-  "finish_reason": "length",
-  "index": 0,
-  "logprobs": null,
-  "text": "  \n\ud504\ub808\uc784 \uc6cc\ud06c\ub3c4 "
-}
-</code></pre></div></div>
+<blockquote>
+  <p>한국어로는 제대로 이해하지 못하는 것 같고 영어로 질문하면 굉장히 단답형으로 대답해준다. 그리고 가장 큰 단점으로는 했던 질문에 이어서 질문을 할 수 없다는 것이다. 가장 큰 장점이 없는 챗봇은 기존에 나와있는 것도 많았기에 대화형 인공지능의 의미가 없는 것 같다.<br />
+그리고 아래 model_engine의 종류를 적었는데 무료라고 나와있는것은 옆에다가 적어놓아지만 다른 것도 실행은 가능한 것 같으니 직접 확인은 해보는게 좋을 것 같다.</p>
+</blockquote>
 
 <h3 id="model_engine-종류">model_engine 종류</h3>
 
