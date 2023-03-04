@@ -182,6 +182,24 @@ into the {body} of the default.hbs template -->
 <script>
     window.store = {
     
+    "chatgpt": {
+        "title": "ChatGPT",
+            "author": "chanp5660",
+            "category": "",
+            "content": "ChatGPT with Python  python에서 chatGPT 이용하기      기본 라이브러리 설치는 github ChatGPT 링크에서 설치    개인 api_key 링크 는 해당 링크에서 얻으면 됨    model_engine은 여러가지 모델이 있으므로 목적에 따라 원하는 모델로 선택  import openaiopenai.api_key = \"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\" # 개인의 api key를 입력하면 된다.#model_engine = \"gpt-3.5-turbo\" model_engine = \"text-davinci-002\" # 적절한 모델을 선택하세요chatgpt = openai.api.Completion.create(    engine=model_engine,    prompt=\"Hello, how are you today?\",    max_tokens=20)---------------------------------------------------------------------------AttributeError                            Traceback (most recent call last)C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\ipykernel_4264\\3576830158.py in &lt;module&gt;      4       5 model_engine = \"text-davinci-002\" # 적절한 모델을 선택하세요----&gt; 6 chatgpt = openai.api.Completion.create(      7     engine=model_engine,      8     prompt=\"Hello, how are you today?\",AttributeError: module 'openai' has no attribute 'api'import openai_secret_managerimport openai# API 키 가져오기assert \"openai\" in openai_secret_manager.get_services()secrets = openai_secret_manager.get_secret(\"openai\")# OpenAI API 인증openai.api_key = secrets[\"api_key\"]# 모델 엔진 지정model_engine = \"text-davinci-002\"# 모델 엔진으로 OpenAI API 초기화model = openai.Model(engine=model_engine)# 챗봇 대화 시작print(\"AI: 안녕하세요! 대화를 시작하세요.\")while True:    prompt = input(\"사용자: \")    if prompt.lower() in [\"종료\", \"그만\", \"끝\"]:        break    response = model.generate(prompt=prompt, max_tokens=1024)    message = response.choices[0].text.strip()    print(\"AI: \" + message)---------------------------------------------------------------------------ModuleNotFoundError                       Traceback (most recent call last)C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\ipykernel_4264\\1748544679.py in &lt;module&gt;----&gt; 1 import openai_secret_manager      2 import openai      3       4 # API 키 가져오기      5 assert \"openai\" in openai_secret_manager.get_services()ModuleNotFoundError: No module named 'openai_secret_manager'import openaiimport os# OpenAI API 인증 정보 설정openai.api_key = \"\"# GPT-3 모델 IDmodel_engine = \"text-davinci-002\"# 생성할 텍스트 입력prompt = \"Tell me detail\"# 생성할 텍스트 길이length = 2000# GPT-3 API로 텍스트 생성 요청response = openai.Completion.create(  engine=model_engine,  prompt=prompt,  max_tokens=length)# 생성된 텍스트 출력print(response.choices[0].text) about youI was born in Hawaii and grew up on the island of Maui. I am of Chinese, Japanese, and Caucasian descent. I attended Maui High School, where I was active in theatre and dance. After graduation, I moved to Los Angeles to pursue a career in entertainment. I currently work as an actress and model. In my spare time, I enjoy hiking, yoga, and spending time with my family and friends.response.choices[0]&lt;OpenAIObject at 0x1f75bca6228&gt; JSON: {  \"finish_reason\": \"length\",  \"index\": 0,  \"logprobs\": null,  \"text\": \"  \\n\\ud504\\ub808\\uc784 \\uc6cc\\ud06c\\ub3c4 \"}model_engine 종류  davinci(무료) : 다양한 태스크를 위한 가장 최신 및 가장 고성능의 모델. 자연어 처리를 위한 놀라운 결과를 제공하고 이 모델은 주로 일반적인 자연어 처리 태스크에 사용  curie(무료) : GPT-2 모델을 기반으로 대화형 생성 모델과 언어 모델링에서 뛰어난 결과를 제공  babbage(무료) : GPT-2 모델의 더 작은 버전으로, 훈련에 사용된 데이터셋의 크기가 더 작고 자연어 처리 태스크의 작은 규모에 적합  ada : GPT-2 모델을 기반으로 하며, 감성 분석 및 텍스트 분류와 같은 자연어 처리 태스크에 특화됩니다.  text-davinci-002 : OpenAI에서 사용 가능한 최신 모델 중 가장 강력한 모델로 대화형 생성 모델 및 자연어 이해 작업에 적합  translation : 번역작업에 사용되는 모델  davinci-codex : 요약작업에 사용되는 모델  davinci-instruct-beta : 대화형 지침 생성을 위한 모델. 특정 작업에 대한 자세한 지침을 만드는 데 사용  davinci-codex : 고급 코드 생성을 위한 모델. 이 모델은 코드 작성, 코드 자동 완성 및 코드 이해 작업에 적합  davinci-medical-2 : 의학 분야의 자연어 처리에 특화된 모델. 이 모델은 진단, 치료 및 의료 데이터 처리와 같은 작업에 사용  content-filter-alpha : 불순물을 제거하여 적절하지 않은 콘텐츠를 필터링하는 데 사용됩니다.  text-davinci-002-001 : 다양한 자연어 처리 태스크에 적합한 모델. 이 모델은 text-davinci-002 모델보다 약간 작은 모델.  davinci-junior : OpenAI API에서 사용 가능한 모델 중 가장 작은 모델 중 하나. 이 모델은 davinci 모델보다 작고 강력한 성능을 제공하지는 않음. 작은 규모의 자연어 처리 작업에 적합",
+        "url": "/ChatGPT"
+    }
+    ,
+    
+    "til-chatgpt": {
+        "title": "TIL-ChatGPT",
+            "author": "chanp5660",
+            "category": "",
+            "content": "ChatGPT  기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것이며, 하나씩 해결해나가는 느낌으로 ML을 복습 및 검토한다.정의  인공 지능 대화 모델          OpenAI에서 훈련된 대규모 언어 모델로, 자연어 처리와 이해를 기반으로 인간과 대화를 나눌 수 있음        ChatGPT는 텍스트 기반 대화를 지원합니다.          사용자가 제시한 질문이나 입력에 대해 적절한 답변을 제공      대화를 이어나가면서 자연스럽고 효과적인 대화를 지원      이를 위해 큰 데이터셋으로 학습된 다양한 언어 모델을 기반으로 하여, 사용자의 입력을 이해하고 응답을 생성      여러 분야에서의 활용 예  기본적으로 자동 응답 시스템을 다룬다.  고객 서비스  인터넷 커뮤니티  교육  상담  심리치료단점 및 한계점  학습 데이터에 기반한 응답을 생성하기 때문에, 가끔 예측할 수 없거나 잘못된 답변을 제공할 수 있음  ChatGPT는 언어 처리 능력에 기반하기 때문에, 시각이나 청각 등 다른 감각 분야에서는 지원하지 있음대처 및 발전  ChatGPT는 빠르게 발전하고 있으며, 더욱 정교한 기능과 능력을 갖춤  앞으로도 ChatGPT와 같은 인공 지능 기술은 다양한 분야에서 발전하며 인간과 함께 발전Python에서 ChatGPT 이용",
+        "url": "/TIL-chatGPT"
+    }
+    ,
+    
     "ec-84-a0-ed-98-95-ed-9a-8c-ea-b7-80": {
         "title": "선형회귀",
             "author": "chanp5660",
@@ -425,21 +443,21 @@ into the {body} of the default.hbs template -->
     }
     ,
     
-    "machine-learning": {
-        "title": "Machine Learning",
-            "author": "chanp5660",
-            "category": "",
-            "content": "머신러닝(Machine Learning)  기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것이며, 하나씩 해결해나가는 느낌으로 ML을 복습 및 검토한다.머신러닝의 정의      인공지능(artificial intelligence) 의 한 분야로, 컴퓨터가 데이터를 분석하고 패턴을 학습하여 일련의 작업을 수행하도록 하는 기술을 의미합니다.        데이터와 통계적 모델링 기술, 최적화 알고리즘 등을 활용하여 패턴을 인식          이를 통해 미지의 데이터에 대한 예측이나 판단을 수행하는 컴퓨터 시스템을 만들어 내는 기술입니다.                  예를 들어, 스팸 메일 필터링, 음성 인식, 이미지 인식, 자연어 처리, 추천 시스템 등에 적용될 수 있습니다.                    학습 종류  지도 학습 (Supervised Learning)          레이블이 있는 데이터를 활용하여 학습하는 방식으로,   분류(Classification)와 회귀(Regression) 문제가 있습니다.        비지도 학습 (Unsupervised Learning)          레이블이 없는 데이터를 활용하여 학습하는 방식으로,   군집화(Clustering), 차원 축소(Dimensionality Reduction), 밀도 추정(Density Estimation) 등의 문제가 있습니다.        강화 학습 (Reinforcement Learning)          에이전트가 환경과 상호작용하며 보상을 최대화하기 위한 방식으로,   게임, 로봇 제어, 자율 주행 등의 분야에서 활용됩니다.        준지도 학습 (Semi-supervised Learning)          레이블이 일부만 있는 데이터를 활용하여 학습하는 방식으로,   지도학습과 비지도학습의 중간 형태입니다.        전이 학습 (Transfer Learning)          학습된 모델을 다른 문제에 재활용하는 방식으로,   학습 데이터가 적은 경우에도 활용됩니다.        생성 모델 (Generative Models)          데이터를 생성하는 모델로, GAN, VAE 등이 있습니다.        딥 러닝 (Deep Learning)          여러 층으로 이루어진 인공 신경망을 활용하여 학습하는 방식으로,   이미지, 음성, 자연어 등의 분야에서 활용됩니다.      일반적인 머신러닝 단계  문제 정의          머신러닝을 적용할 문제를 정의합니다. 이 단계에서는 어떤 데이터를 사용하고,  어떤 문제를 해결하려는지 결정합니다.        데이터 수집          문제를 해결하기 위해 필요한 데이터를 수집합니다.  이 단계에서는 데이터의 형태, 양, 품질 등을 고려해야 합니다.        데이터 전처리          수집한 데이터를 분석에 적합한 형태로 가공합니다.  이 단계에서는 결측치 처리, 이상치 제거, 스케일링, 인코딩 등의 작업을 수행합니다.        모델 선택          문제의 종류와 데이터의 특성에 맞는 적절한 머신러닝 모델을 선택합니다.  이 단계에서는 각 모델의 특징, 장단점, 하이퍼파라미터 등을 고려합니다.        학습          선택한 모델을 학습시킵니다.  이 단계에서는 데이터를 학습용 데이터와 검증용 데이터로 나누어 학습을 수행하고, 모델의 성능을 평가합니다.        모델 튜닝          학습한 모델의 성능을 더욱 개선하기 위해 하이퍼파라미터를 조정하거나 모델 아키텍처를 변경합니다.        예측          학습된 모델을 사용하여 새로운 데이터에 대한 예측을 수행합니다.        평가          모델의 예측 성능을 평가합니다.  이 단계에서는 정확도, 정밀도, 재현율, F1 스코어 등의 지표를 사용합니다.        배포          최종 모델을 배포하고 사용자가 모델을 사용할 수 있도록 합니다.  이 단계에서는 모델의 성능과 안정성을 고려해야 합니다.      ",
-        "url": "/Machine-Learning"
-    }
-    ,
-    
     "ec-a7-80-eb-8f-84-ed-95-99-ec-8a-b5": {
         "title": "지도학습",
             "author": "chanp5660",
             "category": "",
             "content": "지도학습 (Supervised Learning)  기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것이며, 하나씩 해결해나가는 느낌으로 ML을 복습 및 검토한다.지도학습 정의  입력 데이터와 그에 상응하는 정답(라벨 또는 타겟)을 이용하여 모델을 학습하는 방법입니다.  지도학습의 목표는 입력 데이터로부터 정답을 예측하는 것입니다.  예를 들어, 스팸 메일 분류기를 만들 때          입력 데이터 : 이메일의 특성(제목, 본문, 보내는 사람, 받는 사람 등)      정답 데이터 : 스팸 메일인지 일반 메일인지에 대한 실제 정답      학습된 모델로 새로운 데이터의 정답(스팸인지 아닌지)을 예측합니다.      해결 알고리즘 종류회귀 문제  선형 회귀 (Linear Regression)          입력 변수와 출력 변수 사이의 선형 관계를 모델링하는 알고리즘      일반적으로 최소제곱법을 이용하여 파라미터를 학습함      입력 변수의 각각의 feature에 대한 가중치와 상수항을 찾아내어 예측값을 계산함        의사결정트리 (Decision Tree)          입력 변수들을 기반으로 하나의 결정트리를 구성하고 이를 통해 예측값을 계산하는 알고리즘      각각의 노드에서는 하나의 feature를 선택하고 이를 기준으로 자식 노드들을 구성함      일반적으로 정보 이득이나 지니계수 등의 기준을 이용하여 feature를 선택함        랜덤 포레스트 (Random Forest)          여러 개의 의사결정트리를 조합한 알고리즘      각각의 의사결정트리는 bootstrap 샘플링으로 선택된 데이터를 이용하여 학습함      각각의 의사결정트리에서 예측된 값들을 평균내어 최종 예측값을 계산함        서포트 벡터 머신 (Support Vector Machine, SVM)          입력 변수와 출력 변수 사이의 비선형적인 관계를 모델링할 수 있는 알고리즘      기본적으로 선형 SVM은 선형 분리 가능한 경우, 비선형 SVM은 선형 분리 불가능한 경우에 사용됨      커널 함수를 이용하여 입력 변수를 고차원 특징 공간으로 매핑하고 이를 기반으로 결정 경계를 찾아냄        신경망 (Neural Network)          입력 변수와 출력 변수 사이의 비선형적인 관계를 모델링할 수 있는 알고리즘      인공 신경망의 각 층에는 여러 개의 뉴런이 존재하며, 입력 변수와 출력 변수를 연결하는 다양한 가중치를 학습함      다층 퍼셉트론 (Multilayer Perceptron, MLP)과 같은 알고리즘을 이용하여 회귀문제를 해결할 수 있음      분류 문제  로지스틱 회귀(Logistic Regression)          이진 분류를 위한 지도학습 알고리즘      선형 결정 경계를 이용해 데이터를 분류        의사결정 나무(Decision Tree)          특징들을 이용해 트리 형태의 결정 규칙을 생성해 데이터를 분류      새로운 데이터에 대해 예측하기 쉽고, 설명력이 높음        k-최근접 이웃(K-Nearest Neighbor)          새로운 데이터와 가장 가까운 k개의 데이터를 찾아 다수결 원칙을 이용해 데이터를 분류      k값에 따라 결과가 달라질 수 있으며, 대량의 데이터에서는 계산 비용이 많이 들어갈 수 있음        나이브 베이즈(Naive Bayes)          베이즈 정리를 이용해 데이터를 분류      특징 간의 독립성을 가정하기 때문에 계산이 빠르고, 작은 데이터셋에서도 성능이 좋음        서포트 벡터 머신(Support Vector Machine)          선형 결정 경계를 이용해 데이터를 분류      분류를 위한 결정 경계가 여러 개일 때 성능이 좋음        인공신경망(Artificial Neural Network)          다양한 형태의 신경망 구조를 가지며, 복잡한 문제를 해결할 수 있음      대량의 데이터에서 성능이 우수하나, 학습에 많은 시간이 소요될 수 있음      ",
         "url": "/%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5"
+    }
+    ,
+    
+    "machine-learning": {
+        "title": "Machine Learning",
+            "author": "chanp5660",
+            "category": "",
+            "content": "머신러닝(Machine Learning)  기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것이며, 하나씩 해결해나가는 느낌으로 ML을 복습 및 검토한다.머신러닝의 정의      인공지능(artificial intelligence) 의 한 분야로, 컴퓨터가 데이터를 분석하고 패턴을 학습하여 일련의 작업을 수행하도록 하는 기술을 의미합니다.        데이터와 통계적 모델링 기술, 최적화 알고리즘 등을 활용하여 패턴을 인식          이를 통해 미지의 데이터에 대한 예측이나 판단을 수행하는 컴퓨터 시스템을 만들어 내는 기술입니다.                  예를 들어, 스팸 메일 필터링, 음성 인식, 이미지 인식, 자연어 처리, 추천 시스템 등에 적용될 수 있습니다.                    학습 종류  지도 학습 (Supervised Learning)          레이블이 있는 데이터를 활용하여 학습하는 방식으로,   분류(Classification)와 회귀(Regression) 문제가 있습니다.        비지도 학습 (Unsupervised Learning)          레이블이 없는 데이터를 활용하여 학습하는 방식으로,   군집화(Clustering), 차원 축소(Dimensionality Reduction), 밀도 추정(Density Estimation) 등의 문제가 있습니다.        강화 학습 (Reinforcement Learning)          에이전트가 환경과 상호작용하며 보상을 최대화하기 위한 방식으로,   게임, 로봇 제어, 자율 주행 등의 분야에서 활용됩니다.        준지도 학습 (Semi-supervised Learning)          레이블이 일부만 있는 데이터를 활용하여 학습하는 방식으로,   지도학습과 비지도학습의 중간 형태입니다.        전이 학습 (Transfer Learning)          학습된 모델을 다른 문제에 재활용하는 방식으로,   학습 데이터가 적은 경우에도 활용됩니다.        생성 모델 (Generative Models)          데이터를 생성하는 모델로, GAN, VAE 등이 있습니다.        딥 러닝 (Deep Learning)          여러 층으로 이루어진 인공 신경망을 활용하여 학습하는 방식으로,   이미지, 음성, 자연어 등의 분야에서 활용됩니다.      일반적인 머신러닝 단계  문제 정의          머신러닝을 적용할 문제를 정의합니다. 이 단계에서는 어떤 데이터를 사용하고,  어떤 문제를 해결하려는지 결정합니다.        데이터 수집          문제를 해결하기 위해 필요한 데이터를 수집합니다.  이 단계에서는 데이터의 형태, 양, 품질 등을 고려해야 합니다.        데이터 전처리          수집한 데이터를 분석에 적합한 형태로 가공합니다.  이 단계에서는 결측치 처리, 이상치 제거, 스케일링, 인코딩 등의 작업을 수행합니다.        모델 선택          문제의 종류와 데이터의 특성에 맞는 적절한 머신러닝 모델을 선택합니다.  이 단계에서는 각 모델의 특징, 장단점, 하이퍼파라미터 등을 고려합니다.        학습          선택한 모델을 학습시킵니다.  이 단계에서는 데이터를 학습용 데이터와 검증용 데이터로 나누어 학습을 수행하고, 모델의 성능을 평가합니다.        모델 튜닝          학습한 모델의 성능을 더욱 개선하기 위해 하이퍼파라미터를 조정하거나 모델 아키텍처를 변경합니다.        예측          학습된 모델을 사용하여 새로운 데이터에 대한 예측을 수행합니다.        평가          모델의 예측 성능을 평가합니다.  이 단계에서는 정확도, 정밀도, 재현율, F1 스코어 등의 지표를 사용합니다.        배포          최종 모델을 배포하고 사용자가 모델을 사용할 수 있도록 합니다.  이 단계에서는 모델의 성능과 안정성을 고려해야 합니다.      ",
+        "url": "/Machine-Learning"
     }
     ,
     
@@ -569,21 +587,21 @@ into the {body} of the default.hbs template -->
     }
     ,
     
-    "ai-list": {
-        "title": "AI List",
-            "author": "chanp5660",
-            "category": "",
-            "content": "AI 목차  지도 학습 (Supervised Learning)          회귀 문제                  선형 회귀 (Linear Regression)          의사결정트리 (Decision Tree)          랜덤 포레스트 (Random Forest)          서포트 벡터 머신 (Support Vector Machine, SVM)          신경망 (Neural Network)                    분류 문제                  로지스틱 회귀(Logistic Regression)          의사결정 나무(Decision Tree)          k-최근접 이웃(K-Nearest Neighbor)          나이브 베이즈(Naive Bayes)          서포트 벡터 머신(Support Vector Machine)          인공신경망(Artificial Neural Network)                      비지도 학습 (Unsupervised Learning)  강화 학습 (Reinforcement Learning)  준지도 학습 (Semi-supervised Learning)  전이 학습 (Transfer Learning)  생성 모델 (Generative Models)  딥 러닝 (Deep Learning)• Gradient Descent란?• Loss Surface란?• Attention이란?• Transformer란?• Collaborative filtering이란?• Few-Shot Learning이란?• Federated Learning이란?• SVD란?• 중심극한정리란?포스팅 됨  서포트벡터머신(SVM)  로지스틱 회귀분석  결정경계  손실함수  선형분류포스팀 안됨  이동하면서 볼 수 있도록 공부할만한 사이트 링크 걸어둔다.  GridSearch  이진분류  다중분류  소프트맥스 함수  확률적경사하강법  ML-데이터수집  Log Loss  의사결정트리          동영상1      동영상2        엔트로피  gini index  bias and variance trade-off  bagging;bootstrap aggregating  [boosting]  [out-of-bag]  [앙상블;ensemble]          부스팅                  [adaboosting]          [Gradient Boosting]                      [ROC AUC]자주 쓰이는 용어 적어봄  우선 적어놓고 겹치는 것을 제거해 나가고 추가적인 포스팅이 필요하면 위로 올린다.  데이터셋 (Dataset): 머신러닝 모델의 학습을 위해 사용되는 데이터의 집합입니다.  특성 (Feature): 머신러닝 모델의 입력값으로 사용되는 데이터의 특징을 나타내는 변수입니다.  레이블 (Label): 지도학습에서 모델이 예측해야 하는 정답값입니다.  모델 (Model): 머신러닝 알고리즘이 학습하여 만들어지는 예측 모형입니다.  학습 (Training): 머신러닝 모델이 데이터를 이용하여 예측을 하기 위해 데이터에 적합한 가중치와 파라미터를 조정하는 과정입니다.  평가 (Evaluation): 모델이 학습된 후에 모델의 예측 능력을 평가하기 위한 과정입니다.  예측 (Prediction): 모델이 학습한 내용을 바탕으로 새로운 입력값에 대해 출력값을 예측하는 과정입니다.  분류 (Classification): 지도학습에서 레이블이 범주형인 경우, 입력값을 범주형으로 분류하는 문제입니다.  회귀 (Regression): 지도학습에서 레이블이 수치형인 경우, 입력값과 수치형 출력값 사이의 관계를 예측하는 문제입니다.  군집화 (Clustering): 비지도학습에서 데이터를 유사한 그룹으로 나누는 문제입니다.  차원 축소 (Dimensionality Reduction): 데이터의 특성을 유지하면서 데이터의 차원을 줄이는 방법입니다.  과적합 (Overfitting): 학습 데이터에 과도하게 적합하게 모델이 학습되어 새로운 데이터에 대한 예측 능력이 떨어지는 상황입니다.  일반화 (Generalization): 학습 데이터를 바탕으로 일반적인 규칙을 학습하여, 새로운 데이터에 대해서도 정확한 예측을 할 수 있는 능력입니다.  하이퍼파라미터 (Hyperparameter): 모델의 학습과정을 제어하는 변수로, 학습 전에 설정되며, 학습과정에서는 수정되지 않는 파라미터입니다. 예를 들면 학습률, 배치 크기, 에포크 등이 있습니다.  최적화 (Optimization): 모델의 성능을 향상시키기 위해 가중치나 하이퍼파라미터를 조정하는 과정  Loss function: 모델의 예측값과 실제 값의 차이를 나타내는 함수로, 모델의 성능을 측정하는 데 사용됩니다. 모델을 훈련시키는 데 사용됩니다.  Regularization: 모델이 과적합(overfitting)되지 않도록 제한하는 방법으로, L1 정규화(L1 regularization)와 L2 정규화(L2 regularization)가 있습니다.  Gradient descent: Loss function을 최소화하기 위한 최적화 알고리즘으로, 기울기를 계산하여 경사를 따라 최적값을 찾아가는 방법입니다.  Hyperparameters: 모델을 구성하는 파라미터가 아니라 모델의 학습에 사용되는 파라미터로, 예를 들어 학습률(learning rate)과 같은 하이퍼파라미터가 있습니다.  Ensemble learning: 여러 개의 모델을 조합하여 더 강력한 모델을 만드는 방법으로, 예를 들어 랜덤 포레스트(Random Forest)와 부스팅(Boosting)이 있습니다.  Transfer learning: 미리 학습된 모델을 가져와 새로운 문제에 대해 재사용하는 방법입니다.  Overfitting: 모델이 훈련 데이터에 너무 맞추어져서 새로운 데이터에 대해 일반화하기 어려워지는 현상입니다.  Underfitting: 모델이 너무 간단해서 데이터의 복잡성을 충분히 반영하지 못하는 현상입니다.  Validation set: 모델의 학습에 사용되는 데이터를 훈련 데이터와 검증 데이터로 나누는데, 검증 데이터를 validation set이라고 부릅니다. 모델의 학습에 사용되지 않고 검증에만 사용됩니다.  Cross-validation: 데이터를 여러 개의 폴드로 나누어 각 폴드를 검증 데이터로 사용하여 모델의 일반화 성능을 검증하는 방법입니다.  Early stopping: 모델이 과적합되는 것을 방지하기 위해 일정 epoch 이상 성능이 개선되지 않으면 학습을 중단하는 방법입니다.  One-hot encoding: 범주형 데이터를 수치형 데이터로 변환하는 방법 중 하나로, 각 범주를 나타내는 하나의 열(column)을 추가하여 0 또는 1의 값을 가지도록 합니다.  Bagging (Bootstrap Aggregating): 부트스트랩 샘플링을 통해 여러 개의 모델을 만들고, 이들의 예측값을 평균 또는 다수결 투표를 통해 결합하는 앙상블 방법입니다. 랜덤 포레스트(Random Forest)가 대표적인 예입니다.  Boosting: 약한 학습기를 여러 개 결합하여 강한 학습기를 만드는 앙상블 방법입니다. 이전 학습기가 잘못 예측한 샘플에 가중치를 높여 새로운 학습기에 보내는 방식입니다. 대표적인 예는 그래디언트 부스팅(Gradient Boosting)과 XGBoost(Extreme Gradient Boosting)가 있습니다.  Regularization: 과적합(Overfitting)을 방지하기 위한 기법입니다. L1, L2 규제와 같은 방법으로 모델의 가중치를 조정하거나, 드롭아웃(Dropout)처럼 무작위로 일부 노드를 제거하여 학습하는 방법 등이 있습니다.  Hyperparameter: 모델을 학습할 때 사전에 정해진 값으로써, 최적의 값이 모델의 성능에 큰 영향을 미칩니다. 예를 들어 의사결정트리에서는 최대 깊이(max depth)와 최소 분리 노드 수(min_samples_split) 등이 하이퍼파라미터입니다.      Cross-validation: 데이터를 학습용(train)과 검증용(validation)으로 나누어 학습을 진행하는 방식입니다. K-fold cross-validation은 데이터를 K개로 나누어 각각을 검증 데이터로 사용하며, 각 경우마다 모델을 다르게 학습시켜 평균값을 구하는 방식입니다.    정보이득(IG)  엔트로피",
-        "url": "/AI-List"
-    }
-    ,
-    
     "eb-a1-9c-ec-a7-80-ec-8a-a4-ed-8b-b1-ed-9a-8c-ea-b7-80": {
         "title": "로지스틱회귀",
             "author": "chanp5660",
             "category": "",
             "content": "로지스틱 회귀  이벤트가 발생할 확률을 결정하는데 사용되는 통계 모델  특성 간의 관계를 보여주고 특정 결과의 확률을 계산합니다.사용  머신러닝에서 정확한 예측을 생성하는데 사용  선형 회귀와 유사하며 대상 변수가 이진입니다. (0,1)측정 가능한 항목  B, 설명 변수, 특성(측정 대상 항목)  Y, 응답 변수, 목표 이진 변수예시  학생이 시험에 합격될지 불합격될지 예측할 때  B, 설명 변수, 특성(측정 대상 항목) : 공부한 시간  Y, 응답 변수, 목표 이진 변수 : 합격,불합격종류  이진 로지스틱 회귀 : 0,1 처럼 2가지의 결과  다항 로지스틱 회귀 : 응답 변수에 순서가 업는 3개 이상의 변수가 포함  순서 로지스틱 회귀 : 3개 이상의 변수가 포함될 수 있음, 대신 측정에는 순서가 있음, 예를 들어 1~5점으로 평가를 하는 경우이미지참조블로그위키피디아",
         "url": "/%EB%A1%9C%EC%A7%80%EC%8A%A4%ED%8B%B1%ED%9A%8C%EA%B7%80"
+    }
+    ,
+    
+    "ai-list": {
+        "title": "AI List",
+            "author": "chanp5660",
+            "category": "",
+            "content": "AI 목차  지도 학습 (Supervised Learning)          회귀 문제                  선형 회귀 (Linear Regression)          의사결정트리 (Decision Tree)          랜덤 포레스트 (Random Forest)          서포트 벡터 머신 (Support Vector Machine, SVM)          신경망 (Neural Network)                    분류 문제                  로지스틱 회귀(Logistic Regression)          의사결정 나무(Decision Tree)          k-최근접 이웃(K-Nearest Neighbor)          나이브 베이즈(Naive Bayes)          서포트 벡터 머신(Support Vector Machine)          인공신경망(Artificial Neural Network)                      비지도 학습 (Unsupervised Learning)  강화 학습 (Reinforcement Learning)  준지도 학습 (Semi-supervised Learning)  전이 학습 (Transfer Learning)  생성 모델 (Generative Models)  딥 러닝 (Deep Learning)  Gradient Descent란?  Loss Surface란?  Attention이란?  Transformer란?  Collaborative filtering이란?  Few-Shot Learning이란?  Federated Learning이란?  SVD란?  중심극한정리란?포스팅 됨  서포트벡터머신(SVM)  로지스틱 회귀분석  결정경계  손실함수  선형분류포스팀 안됨  이동하면서 볼 수 있도록 공부할만한 사이트 링크 걸어둔다.  GridSearch  이진분류  다중분류  소프트맥스 함수  확률적경사하강법  ML-데이터수집  Log Loss  의사결정트리          동영상1      동영상2        엔트로피  gini index  bias and variance trade-off  bagging;bootstrap aggregating  [boosting]  [out-of-bag]  [앙상블;ensemble]          부스팅                  [adaboosting]          [Gradient Boosting]                      [ROC AUC]자주 쓰이는 용어 적어봄  우선 적어놓고 겹치는 것을 제거해 나가고 추가적인 포스팅이 필요하면 위로 올린다.  데이터셋 (Dataset): 머신러닝 모델의 학습을 위해 사용되는 데이터의 집합입니다.  특성 (Feature): 머신러닝 모델의 입력값으로 사용되는 데이터의 특징을 나타내는 변수입니다.  레이블 (Label): 지도학습에서 모델이 예측해야 하는 정답값입니다.  모델 (Model): 머신러닝 알고리즘이 학습하여 만들어지는 예측 모형입니다.  학습 (Training): 머신러닝 모델이 데이터를 이용하여 예측을 하기 위해 데이터에 적합한 가중치와 파라미터를 조정하는 과정입니다.  평가 (Evaluation): 모델이 학습된 후에 모델의 예측 능력을 평가하기 위한 과정입니다.  예측 (Prediction): 모델이 학습한 내용을 바탕으로 새로운 입력값에 대해 출력값을 예측하는 과정입니다.  분류 (Classification): 지도학습에서 레이블이 범주형인 경우, 입력값을 범주형으로 분류하는 문제입니다.  회귀 (Regression): 지도학습에서 레이블이 수치형인 경우, 입력값과 수치형 출력값 사이의 관계를 예측하는 문제입니다.  군집화 (Clustering): 비지도학습에서 데이터를 유사한 그룹으로 나누는 문제입니다.  차원 축소 (Dimensionality Reduction): 데이터의 특성을 유지하면서 데이터의 차원을 줄이는 방법입니다.  과적합 (Overfitting): 학습 데이터에 과도하게 적합하게 모델이 학습되어 새로운 데이터에 대한 예측 능력이 떨어지는 상황입니다.  일반화 (Generalization): 학습 데이터를 바탕으로 일반적인 규칙을 학습하여, 새로운 데이터에 대해서도 정확한 예측을 할 수 있는 능력입니다.  하이퍼파라미터 (Hyperparameter): 모델의 학습과정을 제어하는 변수로, 학습 전에 설정되며, 학습과정에서는 수정되지 않는 파라미터입니다. 예를 들면 학습률, 배치 크기, 에포크 등이 있습니다.  최적화 (Optimization): 모델의 성능을 향상시키기 위해 가중치나 하이퍼파라미터를 조정하는 과정  Loss function: 모델의 예측값과 실제 값의 차이를 나타내는 함수로, 모델의 성능을 측정하는 데 사용됩니다. 모델을 훈련시키는 데 사용됩니다.  Regularization: 모델이 과적합(overfitting)되지 않도록 제한하는 방법으로, L1 정규화(L1 regularization)와 L2 정규화(L2 regularization)가 있습니다.  Gradient descent: Loss function을 최소화하기 위한 최적화 알고리즘으로, 기울기를 계산하여 경사를 따라 최적값을 찾아가는 방법입니다.  Hyperparameters: 모델을 구성하는 파라미터가 아니라 모델의 학습에 사용되는 파라미터로, 예를 들어 학습률(learning rate)과 같은 하이퍼파라미터가 있습니다.  Ensemble learning: 여러 개의 모델을 조합하여 더 강력한 모델을 만드는 방법으로, 예를 들어 랜덤 포레스트(Random Forest)와 부스팅(Boosting)이 있습니다.  Transfer learning: 미리 학습된 모델을 가져와 새로운 문제에 대해 재사용하는 방법입니다.  Overfitting: 모델이 훈련 데이터에 너무 맞추어져서 새로운 데이터에 대해 일반화하기 어려워지는 현상입니다.  Underfitting: 모델이 너무 간단해서 데이터의 복잡성을 충분히 반영하지 못하는 현상입니다.  Validation set: 모델의 학습에 사용되는 데이터를 훈련 데이터와 검증 데이터로 나누는데, 검증 데이터를 validation set이라고 부릅니다. 모델의 학습에 사용되지 않고 검증에만 사용됩니다.  Cross-validation: 데이터를 여러 개의 폴드로 나누어 각 폴드를 검증 데이터로 사용하여 모델의 일반화 성능을 검증하는 방법입니다.  Early stopping: 모델이 과적합되는 것을 방지하기 위해 일정 epoch 이상 성능이 개선되지 않으면 학습을 중단하는 방법입니다.  One-hot encoding: 범주형 데이터를 수치형 데이터로 변환하는 방법 중 하나로, 각 범주를 나타내는 하나의 열(column)을 추가하여 0 또는 1의 값을 가지도록 합니다.  Bagging (Bootstrap Aggregating): 부트스트랩 샘플링을 통해 여러 개의 모델을 만들고, 이들의 예측값을 평균 또는 다수결 투표를 통해 결합하는 앙상블 방법입니다. 랜덤 포레스트(Random Forest)가 대표적인 예입니다.  Boosting: 약한 학습기를 여러 개 결합하여 강한 학습기를 만드는 앙상블 방법입니다. 이전 학습기가 잘못 예측한 샘플에 가중치를 높여 새로운 학습기에 보내는 방식입니다. 대표적인 예는 그래디언트 부스팅(Gradient Boosting)과 XGBoost(Extreme Gradient Boosting)가 있습니다.  Regularization: 과적합(Overfitting)을 방지하기 위한 기법입니다. L1, L2 규제와 같은 방법으로 모델의 가중치를 조정하거나, 드롭아웃(Dropout)처럼 무작위로 일부 노드를 제거하여 학습하는 방법 등이 있습니다.  Hyperparameter: 모델을 학습할 때 사전에 정해진 값으로써, 최적의 값이 모델의 성능에 큰 영향을 미칩니다. 예를 들어 의사결정트리에서는 최대 깊이(max depth)와 최소 분리 노드 수(min_samples_split) 등이 하이퍼파라미터입니다.      Cross-validation: 데이터를 학습용(train)과 검증용(validation)으로 나누어 학습을 진행하는 방식입니다. K-fold cross-validation은 데이터를 K개로 나누어 각각을 검증 데이터로 사용하며, 각 경우마다 모델을 다르게 학습시켜 평균값을 구하는 방식입니다.    정보이득(IG)  엔트로피",
+        "url": "/AI-List"
     }
     ,
     
@@ -969,141 +987,4 @@ into the {body} of the default.hbs template -->
         "title": "R언어-RSelenium_tutorial",
             "author": "chanp5660",
             "category": "",
-            "content": "R언어-RSelenium_tutorial  설치방법 : 파일다운로드(chromedriver, geckodriver, selenium-server-standalone) -&gt; 같은 폴더에 둔다. -&gt; cmd를 실행 -&gt; 설치파일들이 들어있는 폴더의 디렉토리를 A라 할 때 -&gt; cd A -&gt; 작성 후 -&gt; java -Dwebdriver.gecko.driver=”geckodriver.exe” -jar selenium-server-standalone-3.141.59.jar -port 4445 -&gt; 실행 -&gt; 켜둔 상태에서 진행RSelenium 기초 문법 참조 사이트(http://joshuamccrain.com/tutorials/web_scraping_R_selenium.html)library(RSelenium)remDr &lt;- remoteDriver(remoteServerAddr = \"localhost\"                      , port = 4445L                      , browserName = \"chrome\")remDr$open() # 크롬열기remDr$getStatus() # 상태#--------------- Navigating using RSelenium Basic Navigation ------------------#remDr$navigate(\"http://www.google.com\") # 사이트 연결remDr$navigate(\"http://www.bbc.co.uk\") # 사이트 연결remDr$getCurrentUrl() # 현재 URLremDr$goBack() # 뒤로 가기remDr$getCurrentUrl() # 현재 URLremDr$goForward() # 앞으로 가기remDr$getCurrentUrl() # 현재 URLremDr$refresh() # 새로고침#------------------ Accessing elements in the DOM(Document Object Model) -------------------------#remDr$navigate(\"http://www.google.com\") # 구글 열기# id로 노드 찾기webElem &lt;- remDr$findElement(using = 'id', value = \"gsr\") # id가 gsr인 것webElem$getElementAttribute(\"id\") # \"gsr\"webElem$getElementAttribute(\"class\") # \"hp vasq\"# class 이름으로 노드 찾기webElem &lt;- remDr$findElement(using = 'class name', value = \"hp\") # class name이 hp관련된 것.webElem$getElementAttribute(\"class\") # \"hp vasq\"webElem$getElementAttribute(\"type\") # list()# css-selectors 사용해서 노드 찾기webElem &lt;- remDr$findElement(using = 'css selector', \"input.gLFyf\") # 입력창 input tag의 gLFyf 클래스 설정 webElem &lt;- remDr$findElement(using = 'css selector', \"input#gLFyf\")# 이름으로 노드 찾기 webElem &lt;- remDr$findElement(using = 'name', \"q\") # name이 q인 노드 찾기webElem$getElementAttribute(\"name\") # \"gLFyf gsfi\"webElem$getElementAttribute(\"id\") # \"\"# xpath 사용해서 노드 찾기 webElem &lt;- remDr$findElement(using = 'xpath', \"//*/body[@id = 'gsr']\")  # tag가 \"body\"이고 id가 \"gsr\"인 노드webElem &lt;- remDr$findElement(using = 'xpath', \"//*/body[@class = 'hp vasq']\") # tag가 \"body\"이고 class가 \"hp vasq\"인 노드 # -----------------------Sending events to elements----------------------## 문자 작성remDr$navigate(\"http://www.google.com/ncr\")webElem &lt;- remDr$findElement(using = \"xpath\", '//input[@class=\"gLFyf gsfi\"]')webElem$sendKeysToElement(list(\"R Cran\"))# 키 실행 version_1remDr$navigate(\"http://www.google.com/ncr\")webElem &lt;- remDr$findElement(using = \"xpath\", '//input[@class=\"gLFyf gsfi\"]')webElem$sendKeysToElement(list(\"R Cran\",\"\\uE007\"))# 키 실행 version_2remDr$navigate(\"http://www.google.com/ncr\")webElem &lt;- remDr$findElement(using = \"xpath\", '//input[@class=\"gLFyf gsfi\"]')webElem$sendKeysToElement(list(\"R Cran\", key = \"enter\"))# 마우스 실행 remDr$navigate(\"http://www.google.com/ncr\")webElem &lt;- remDr$findElement(using = \"xpath\", '//input[@class=\"gLFyf gsfi\"]')webElem$sendKeysToElement(list(\"R Cran\"))webElem &lt;- remDr$findElement(using = \"xpath\", '//div[@class=\"sbl1\"]')webElem$clickElement()",
-        "url": "/R%EC%96%B8%EC%96%B4-RSelenium_tutorial"
-    }
-    
-    
-    };
-</script>
-<script src="assets/js/lunr.js"></script>
-<script src="assets/js/search.js"></script>
-            </section>
-
-        </article>
-
-    </div>
-</main>
-
-<!-- /post -->
-
-<!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs -->
-<script>
-$(function() {
-    var $postContent = $(".post-full-content");
-    $postContent.fitVids();
-});
-</script>
-
-
-
-        <!-- Previous/next page links - displayed on every page -->
-        
-
-        <!-- The footer at the very bottom of the screen -->
-        <footer class="site-footer outer">
-            <div class="site-footer-content inner">
-                <section class="copyright"><a href="http://localhost:4000/">Engineer Chanp5660</a> &copy; 2023</section>
-                <section class="poweredby"><a href="https://github.com/chanp5660">Github Pages chanp5660</a></section>
-                <nav class="site-footer-nav">
-                    <a href="/">Latest Posts</a>
-                    
-                    
-                    <a href="mailto:chanp5660@naver.com" target="_blank" rel="noopener">chanp5660@naver.com</a>
-                </nav>
-            </div>
-        </footer>
-
-    </div>
-
-    <!-- The big email subscribe modal content -->
-    
-        <div id="subscribe" class="subscribe-overlay">
-            <a class="subscribe-overlay-close" href="#"></a>
-            <div class="subscribe-overlay-content">
-                
-                <h1 class="subscribe-overlay-title">Search Engineer Chanp5660</h1>
-                <p class="subscribe-overlay-description">
-                lunr.js를 이용한 posts 검색 </p>
-                <span id="searchform" method="post" action="/subscribe/" class="">
-    <input class="confirm" type="hidden" name="confirm"  />
-    <input class="location" type="hidden" name="location"  />
-    <input class="referrer" type="hidden" name="referrer"  />
-
-    <div class="form-group">
-        <input class="subscribe-email" onkeyup="myFunc()" 
-               id="searchtext" type="text" name="searchtext"  
-               placeholder="Search..." />
-    </div>
-    <script type="text/javascript">
-        function myFunc() {
-            if(event.keyCode == 13) {
-                var url = encodeURIComponent($("#searchtext").val());
-                location.href = "/search.html?query=" + url;
-            }
-        }
-    </script>
-</span>
-            </div>
-        </div>
-    
-
-    <!-- highlight.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
-    <script>$(document).ready(function() {
-      $('pre code').each(function(i, block) {
-        hljs.highlightBlock(block);
-      });
-    });</script>
-
-    <!-- jQuery + Fitvids, which makes all video embeds responsive -->
-    <script
-        src="https://code.jquery.com/jquery-3.2.1.min.js"
-        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-        crossorigin="anonymous">
-    </script>
-    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
-    <script type="text/javascript" src="https://demo.ghost.io/assets/js/jquery.fitvids.js?v=724281a32e"></script>
-
-
-    <!-- Paginator increased to "infinit" in _config.yml -->
-    <!-- if paginator.posts  -->
-    <!-- <script>
-        var maxPages = parseInt('');
-    </script>
-    <script src="/assets/js/infinitescroll.js"></script> -->
-    <!-- /endif -->
-
-    
-
-
-    <!-- Add Google Analytics  -->
-    <!-- Google Analytics Tracking code -->
- <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-32300574-2', 'auto');
-  ga('send', 'pageview');
-
- </script>
-
-
-    <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
-    
-        <script>
-$(function() {
-    var $postContent = $(".post-full-content");
-    $postContent.fitVids();
-});
-</script>
-
-    
-
-    <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
-    <!-- ghost_foot -->
-
-</body>
-</html>
+            "content": "R언어-RSelenium_tutorial  설치방법 : 파일다운로드(chromedriver, geckodriver, selenium-server-standalone) -&gt; 같은 폴더에 둔다. -&gt; cmd를 실행 -&gt; 설치파일들이 들어있는 폴더의 디렉토리를 A라 할 때 -&gt; cd A -&gt; 작성 후 -&gt; java -Dwebdriver.gecko.driver=”geckodriver.exe” -jar selenium-server-standalone-3.141.59.jar -port 4445 -&gt; 실행 -&gt; 켜둔 상태에서 진행RSelenium 기초 문법 참조 사이트(http://joshuamccrain.com/tutorials/web_scraping_R_selenium.html)library(RSelenium)remDr &lt;- remoteDriver(remoteServerAddr = \"localhost\"                      , port = 4445L                      , browserName = \"chrome\")remDr$open() # 크롬열기remDr$getStatus() # 상태#--------------- Navigating using RSelenium Basic Navigation ------------------#remDr$navigate(\"http://www.google.com\") # 사이트 연결remDr$navigate(\"http://www.bbc.co.uk\") # 사이트 연결remDr$getCurrentUrl() # 현재 URLremDr$goBack() # 뒤로 가기remDr$getCurrentUrl() # 현재 URLremDr$goForward() # 앞으로 가기remDr$getCurrentUrl() # 현재 URLremDr$refresh() # 새로고침#------------------ Accessing elements in the DOM(Document Object Model) -------------------------#remDr$navigate(\"http://www.google.com\") # 구글 열기# id로 노드 찾기webElem &lt;- remDr$findElement(using = 'id', value = \"gsr\") # id가 gsr인 것webElem$getElementAttribute(\"id\") # \"gsr\"webElem$getElementAttribute(\"class\") # \"hp vasq\"# class 이름으로 노드 찾기webElem &lt;- remDr$findElement(using = 'class name', value = \"hp\") # class name이 hp관련된 것.webElem$getElementAttribute(\"class\") # \"hp vasq\"webElem$getElementAttribute(\"type\") # list()# css-selectors 사용해서 노드 찾기webElem &lt;- remDr$findElement(using = 'css selector', \"input.gLFyf\") # 입력창 input tag의 gLFyf 클래스 설정 webElem &lt;- remDr$findElement(using = 'css selector', \"input#gLFyf\")# 이름으로 노드 찾기 webElem &lt;- remDr$findElement(using = 'name', \"q\") # name이 q인 노드 찾기webElem$getElementAttribute(\"name\") # \"gLFyf gsfi\"webElem$getElementAttribute(\"id\") # \"\"# xpath 사용해서 노드 찾기 webElem &lt;- remDr$findElement(using = 'xpath', \"//*/body[@id = 'gsr']\")  # tag가 \"body\"이고 id가 \"gsr\"인 노드webElem &lt;- remDr$findElement(using = 'xpath', \"//*/body[@class = 'hp vasq']\") # tag가 \"body\"이고 class가 \"hp vasq\"인 노드 # -----------------------Sending events to elements----------------------## 문자 작성remDr$navigate(\"http://www.google.com/ncr

@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/exitem/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-03-02T23:54:20+09:00</updated>
+  <updated>2023-03-04T23:22:19+09:00</updated>
   <id>http://localhost:4000/tag/exitem/feed.xml</id>
 
   
@@ -30,6 +30,88 @@
   
   
 
+  
+    <entry>
+      <title type="html">TIL-ChatGPT</title>
+      <link href="http://localhost:4000/TIL-chatGPT" rel="alternate" type="text/html" title="TIL-ChatGPT" />
+      <published>2023-03-04T00:00:00+09:00</published>
+      <updated>2023-03-04T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-chatGPT</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-chatGPT">&lt;h1 id=&quot;chatgpt&quot;&gt;ChatGPT&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것이며, 하나씩 해결해나가는 느낌으로 ML을 복습 및 검토한다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;정의&quot;&gt;정의&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;인공 지능 대화 모델
+    &lt;ul&gt;
+      &lt;li&gt;OpenAI에서 훈련된 대규모 언어 모델로, 자연어 처리와 이해를 기반으로 인간과 대화를 나눌 수 있음&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;ChatGPT는 텍스트 기반 대화를 지원합니다.
+    &lt;ul&gt;
+      &lt;li&gt;사용자가 제시한 질문이나 입력에 대해 적절한 답변을 제공&lt;/li&gt;
+      &lt;li&gt;대화를 이어나가면서 자연스럽고 효과적인 대화를 지원&lt;/li&gt;
+      &lt;li&gt;이를 위해 큰 데이터셋으로 학습된 다양한 언어 모델을 기반으로 하여, 사용자의 입력을 이해하고 응답을 생성&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;여러-분야에서의-활용-예&quot;&gt;여러 분야에서의 활용 예&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;기본적으로 자동 응답 시스템을 다룬다.&lt;/li&gt;
+  &lt;li&gt;고객 서비스&lt;/li&gt;
+  &lt;li&gt;인터넷 커뮤니티&lt;/li&gt;
+  &lt;li&gt;교육&lt;/li&gt;
+  &lt;li&gt;상담&lt;/li&gt;
+  &lt;li&gt;심리치료&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;단점-및-한계점&quot;&gt;단점 및 한계점&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;학습 데이터에 기반한 응답을 생성하기 때문에, 가끔 예측할 수 없거나 잘못된 답변을 제공할 수 있음&lt;/li&gt;
+  &lt;li&gt;ChatGPT는 언어 처리 능력에 기반하기 때문에, 시각이나 청각 등 다른 감각 분야에서는 지원하지 있음&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;대처-및-발전&quot;&gt;대처 및 발전&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;ChatGPT는 빠르게 발전하고 있으며, 더욱 정교한 기능과 능력을 갖춤&lt;/li&gt;
+  &lt;li&gt;앞으로도 ChatGPT와 같은 인공 지능 기술은 다양한 분야에서 발전하며 인간과 함께 발전&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;python에서-chatgpt-이용&quot;&gt;&lt;a href=&quot;https://chanp5660.github.io/ChatGPT&quot;&gt;Python에서 ChatGPT 이용&lt;/a&gt;&lt;/h2&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">ChatGPT</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">계획진행내용</title>
@@ -1862,118 +1944,6 @@ AI 솔루션 기업 ‘강세’
 
       
         <summary type="html">비즈데이터</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">TIL-인사이저</title>
-      <link href="http://localhost:4000/TIL-%EC%9D%B8%EC%82%AC%EC%9D%B4%EC%A0%80" rel="alternate" type="text/html" title="TIL-인사이저" />
-      <published>2023-02-13T00:00:00+09:00</published>
-      <updated>2023-02-13T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-%EC%9D%B8%EC%82%AC%EC%9D%B4%EC%A0%80</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-%EC%9D%B8%EC%82%AC%EC%9D%B4%EC%A0%80">&lt;h1 id=&quot;인사이저&quot;&gt;인사이저&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;생각보다 기록이 없어서 알아보기 힘들다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;내가 판단할 수 있는 정보가 없었고 복지에 관련된 내용이 없어서 회사 분위기조차 파악이 되지 않았다. 부딪혀보자는 생각으로는 들어가서 배우는 느낌으로는 좋을 것 같다. 하지만 이것도 추측으로 아무것도 알수가 없다. 그리고 기록이 2020년 11월에 멈춰 있는 것으로 보아 지금은 안정?위험? 둘 중에 하나이므로 추가 정보가 있지 않는 이상 시도하기 어려울 것 같다. 직무는 내게 맞았던 것 같은데 아쉽다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;인사이저-기본-정보&quot;&gt;인사이저 기본 정보&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.incizor.com/&quot;&gt;공식 사이트 참조&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;크게 두가지 제품(Text Analytics, OCR)을 가지고 있다.&lt;/li&gt;
-  &lt;li&gt;Text Analytics(텍스트분석)
-    &lt;ul&gt;
-      &lt;li&gt;문서더미에서 가치 창출, 인사이저에 맡기세요! 단순 키워드 기반 문서 분류부터 내용의 유사도를 통한 문서 클러스팅까지, 인사이저 고유의 기술력으로 문서를 분류해 드립니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;OCR(아날로그 정보를 디지털 정보로 변환하는 기술)
-    &lt;ul&gt;
-      &lt;li&gt;아날로그 정보를 빠르고 정확하게 디지털 정보로 변환함으로써 데이터 활용성 향상 및 업무의 효율성 향상을 가져다 드립니다. 세계 최고 수준의 인사이저 AI OCR을 경험하세요.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2018년 4월 20일 설립 (업력 6년차)&lt;/li&gt;
-  &lt;li&gt;주소 : 서울 영등포구 은행로 29, 2층 13호&lt;/li&gt;
-  &lt;li&gt;사업 내용 : 소프트웨어 개발,공급,정보처리 구축,컨설팅/기술,경영 자문/소프트웨어 임대&lt;/li&gt;
-  &lt;li&gt;사원수 : 6명
-    &lt;ul&gt;
-      &lt;li&gt;&lt;span style=&quot;color:blue&quot;&gt;최근 입사자가 한명씩 늘고 있는데 퇴사자는 한명인 소규모 그룹이라 뭐라 판단하기가 어렵다.&lt;/span&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;연혁&quot;&gt;연혁&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2020
-    &lt;ul&gt;
-      &lt;li&gt;11
-        &lt;ul&gt;
-          &lt;li&gt;팁스(TIPS) 프로그램 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2020
-    &lt;ul&gt;
-      &lt;li&gt;07
-        &lt;ul&gt;
-          &lt;li&gt;기관투자유치&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;04
-        &lt;ul&gt;
-          &lt;li&gt;네이버 클라우드 OCR 컴피턴시 파트너 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;02
-        &lt;ul&gt;
-          &lt;li&gt;벤처인증&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2018
-    &lt;ul&gt;
-      &lt;li&gt;04
-        &lt;ul&gt;
-          &lt;li&gt;(주)인사이저 설립&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">인사이저</summary>
       
 
       

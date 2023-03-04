@@ -8,6 +8,44 @@
     
       
       <item>
+        <title>ChatGPT</title>
+        
+          <description>&lt;h1 id=&quot;chatgpt-with-python&quot;&gt;ChatGPT with Python&lt;/h1&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;python에서 chatGPT 이용하기&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;기본 라이브러리 설치는 &lt;a href=&quot;https://github.com/openai/openai-python&quot;&gt;github ChatGPT 링크&lt;/a&gt;에서 설치&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://platform.openai.com/account/api-keys&quot;&gt;개인 api_key 링크&lt;/a&gt; 는 해당 링크에서 얻으면 됨&lt;/li&gt;
+    &lt;li&gt;model_engine은 여러가지 모델이 있으므로 목적에 따라 원하는 모델로 선택&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+</description>
+        
+        <pubDate>Sat, 04 Mar 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/ChatGPT</link>
+        <guid isPermaLink="true">http://localhost:4000/ChatGPT</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>TIL-ChatGPT</title>
+        
+          <description>&lt;h1 id=&quot;chatgpt&quot;&gt;ChatGPT&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Sat, 04 Mar 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/TIL-chatGPT</link>
+        <guid isPermaLink="true">http://localhost:4000/TIL-chatGPT</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>선형회귀</title>
         
           <description>&lt;h1 id=&quot;선형회귀&quot;&gt;선형회귀&lt;/h1&gt;
@@ -416,21 +454,6 @@
     
       
       <item>
-        <title>Machine Learning</title>
-        
-          <description>&lt;h1 id=&quot;머신러닝machine-learning&quot;&gt;머신러닝(Machine Learning)&lt;/h1&gt;
-
-</description>
-        
-        <pubDate>Sat, 25 Feb 2023 00:00:00 +0900</pubDate>
-        <link>
-        http://localhost:4000/Machine-Learning</link>
-        <guid isPermaLink="true">http://localhost:4000/Machine-Learning</guid>
-      </item>
-      
-    
-      
-      <item>
         <title>지도학습</title>
         
           <description>&lt;h1 id=&quot;지도학습-supervised-learning&quot;&gt;지도학습 (Supervised Learning)&lt;/h1&gt;
@@ -441,6 +464,21 @@
         <link>
         http://localhost:4000/%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5</link>
         <guid isPermaLink="true">http://localhost:4000/%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Machine Learning</title>
+        
+          <description>&lt;h1 id=&quot;머신러닝machine-learning&quot;&gt;머신러닝(Machine Learning)&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Sat, 25 Feb 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/Machine-Learning</link>
+        <guid isPermaLink="true">http://localhost:4000/Machine-Learning</guid>
       </item>
       
     
@@ -656,21 +694,6 @@
     
       
       <item>
-        <title>AI List</title>
-        
-          <description>&lt;h1 id=&quot;ai-목차&quot;&gt;AI 목차&lt;/h1&gt;
-
-</description>
-        
-        <pubDate>Mon, 13 Feb 2023 00:00:00 +0900</pubDate>
-        <link>
-        http://localhost:4000/AI-List</link>
-        <guid isPermaLink="true">http://localhost:4000/AI-List</guid>
-      </item>
-      
-    
-      
-      <item>
         <title>로지스틱회귀</title>
         
           <description>&lt;h1 id=&quot;로지스틱-회귀&quot;&gt;로지스틱 회귀&lt;/h1&gt;
@@ -681,6 +704,21 @@
         <link>
         http://localhost:4000/%EB%A1%9C%EC%A7%80%EC%8A%A4%ED%8B%B1%ED%9A%8C%EA%B7%80</link>
         <guid isPermaLink="true">http://localhost:4000/%EB%A1%9C%EC%A7%80%EC%8A%A4%ED%8B%B1%ED%9A%8C%EA%B7%80</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>AI List</title>
+        
+          <description>&lt;h1 id=&quot;ai-목차&quot;&gt;AI 목차&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Mon, 13 Feb 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/AI-List</link>
+        <guid isPermaLink="true">http://localhost:4000/AI-List</guid>
       </item>
       
     
@@ -1376,31 +1414,4 @@
       <item>
         <title>Octoparse 를 사용한 크롤링</title>
         
-          <description>&lt;h1 id=&quot;octoparse-를-사용한-크롤링&quot;&gt;Octoparse 를 사용한 크롤링&lt;/h1&gt;
-
-</description>
-        
-        <pubDate>Fri, 10 May 2019 00:30:00 +0900</pubDate>
-        <link>
-        http://localhost:4000/Octoparse%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%9C-%ED%81%AC%EB%A1%A4%EB%A7%81</link>
-        <guid isPermaLink="true">http://localhost:4000/Octoparse%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%9C-%ED%81%AC%EB%A1%A4%EB%A7%81</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>R언어-RSelenium_tutorial</title>
-        
-          <description>&lt;h1 id=&quot;r언어-rselenium_tutorial&quot;&gt;R언어-RSelenium_tutorial&lt;/h1&gt;
-
-</description>
-        
-        <pubDate>Fri, 10 May 2019 00:19:00 +0900</pubDate>
-        <link>
-        http://localhost:4000/R%EC%96%B8%EC%96%B4-RSelenium_tutorial</link>
-        <guid isPermaLink="true">http://localhost:4000/R%EC%96%B8%EC%96%B4-RSelenium_tutorial</guid>
-      </item>
-      
-    
-  </channel>
-</rss>
+          <description>&lt;h1 id=&quot;

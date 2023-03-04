@@ -1,4 +1,187 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-02T23:54:20+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">병합정렬</title><link href="http://localhost:4000/%EB%B3%91%ED%95%A9%EC%A0%95%EB%A0%AC" rel="alternate" type="text/html" title="병합정렬" /><published>2023-03-02T00:00:00+09:00</published><updated>2023-03-02T00:00:00+09:00</updated><id>http://localhost:4000/%EB%B3%91%ED%95%A9%EC%A0%95%EB%A0%AC</id><content type="html" xml:base="http://localhost:4000/%EB%B3%91%ED%95%A9%EC%A0%95%EB%A0%AC">&lt;h1 id=&quot;병합정렬-merge-sorting&quot;&gt;병합정렬 Merge Sorting&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-04T23:22:19+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">TIL-ChatGPT</title><link href="http://localhost:4000/TIL-chatGPT" rel="alternate" type="text/html" title="TIL-ChatGPT" /><published>2023-03-04T00:00:00+09:00</published><updated>2023-03-04T00:00:00+09:00</updated><id>http://localhost:4000/TIL-chatGPT</id><content type="html" xml:base="http://localhost:4000/TIL-chatGPT">&lt;h1 id=&quot;chatgpt&quot;&gt;ChatGPT&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것이며, 하나씩 해결해나가는 느낌으로 ML을 복습 및 검토한다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;정의&quot;&gt;정의&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;인공 지능 대화 모델
+    &lt;ul&gt;
+      &lt;li&gt;OpenAI에서 훈련된 대규모 언어 모델로, 자연어 처리와 이해를 기반으로 인간과 대화를 나눌 수 있음&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;ChatGPT는 텍스트 기반 대화를 지원합니다.
+    &lt;ul&gt;
+      &lt;li&gt;사용자가 제시한 질문이나 입력에 대해 적절한 답변을 제공&lt;/li&gt;
+      &lt;li&gt;대화를 이어나가면서 자연스럽고 효과적인 대화를 지원&lt;/li&gt;
+      &lt;li&gt;이를 위해 큰 데이터셋으로 학습된 다양한 언어 모델을 기반으로 하여, 사용자의 입력을 이해하고 응답을 생성&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;여러-분야에서의-활용-예&quot;&gt;여러 분야에서의 활용 예&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;기본적으로 자동 응답 시스템을 다룬다.&lt;/li&gt;
+  &lt;li&gt;고객 서비스&lt;/li&gt;
+  &lt;li&gt;인터넷 커뮤니티&lt;/li&gt;
+  &lt;li&gt;교육&lt;/li&gt;
+  &lt;li&gt;상담&lt;/li&gt;
+  &lt;li&gt;심리치료&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;단점-및-한계점&quot;&gt;단점 및 한계점&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;학습 데이터에 기반한 응답을 생성하기 때문에, 가끔 예측할 수 없거나 잘못된 답변을 제공할 수 있음&lt;/li&gt;
+  &lt;li&gt;ChatGPT는 언어 처리 능력에 기반하기 때문에, 시각이나 청각 등 다른 감각 분야에서는 지원하지 있음&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;대처-및-발전&quot;&gt;대처 및 발전&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;ChatGPT는 빠르게 발전하고 있으며, 더욱 정교한 기능과 능력을 갖춤&lt;/li&gt;
+  &lt;li&gt;앞으로도 ChatGPT와 같은 인공 지능 기술은 다양한 분야에서 발전하며 인간과 함께 발전&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;python에서-chatgpt-이용&quot;&gt;&lt;a href=&quot;https://chanp5660.github.io/ChatGPT&quot;&gt;Python에서 ChatGPT 이용&lt;/a&gt;&lt;/h2&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">ChatGPT</summary></entry><entry><title type="html">ChatGPT</title><link href="http://localhost:4000/ChatGPT" rel="alternate" type="text/html" title="ChatGPT" /><published>2023-03-04T00:00:00+09:00</published><updated>2023-03-04T00:00:00+09:00</updated><id>http://localhost:4000/ChatGPT</id><content type="html" xml:base="http://localhost:4000/ChatGPT">&lt;h1 id=&quot;chatgpt-with-python&quot;&gt;ChatGPT with Python&lt;/h1&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;python에서 chatGPT 이용하기&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;기본 라이브러리 설치는 &lt;a href=&quot;https://github.com/openai/openai-python&quot;&gt;github ChatGPT 링크&lt;/a&gt;에서 설치&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://platform.openai.com/account/api-keys&quot;&gt;개인 api_key 링크&lt;/a&gt; 는 해당 링크에서 얻으면 됨&lt;/li&gt;
+    &lt;li&gt;model_engine은 여러가지 모델이 있으므로 목적에 따라 원하는 모델로 선택&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;openai&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;openai&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;api_key&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;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&quot;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 개인의 api key를 입력하면 된다.
+#model_engine = &quot;gpt-3.5-turbo&quot; 
+&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;model_engine&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;text-davinci-002&quot;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 적절한 모델을 선택하세요
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;chatgpt&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;openai&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;api&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Completion&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;create&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;engine&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;model_engine&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;prompt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello, how are you today?&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;max_tokens&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---------------------------------------------------------------------------
+
+AttributeError                            Traceback (most recent call last)
+
+C:\Users\Public\Documents\ESTsoft\CreatorTemp\ipykernel_4264\3576830158.py in &amp;lt;module&amp;gt;
+      4 
+      5 model_engine = &quot;text-davinci-002&quot; # 적절한 모델을 선택하세요
+----&amp;gt; 6 chatgpt = openai.api.Completion.create(
+      7     engine=model_engine,
+      8     prompt=&quot;Hello, how are you today?&quot;,
+
+
+AttributeError: module &apos;openai&apos; has no attribute &apos;api&apos;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;openai_secret_manager&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;openai&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# API 키 가져오기
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;assert&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;openai&quot;&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;openai_secret_manager&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get_services&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;secrets&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;openai_secret_manager&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get_secret&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;openai&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# OpenAI API 인증
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;openai&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;api_key&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;secrets&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;api_key&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# 모델 엔진 지정
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;model_engine&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;text-davinci-002&quot;&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# 모델 엔진으로 OpenAI API 초기화
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;model&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;openai&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;engine&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;model_engine&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# 챗봇 대화 시작
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;AI: 안녕하세요! 대화를 시작하세요.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;prompt&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;사용자: &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;prompt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lower&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;종료&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;그만&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;끝&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;generate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;prompt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;prompt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;max_tokens&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1024&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;message&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;choices&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;AI: &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;message&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---------------------------------------------------------------------------
+
+ModuleNotFoundError                       Traceback (most recent call last)
+
+C:\Users\Public\Documents\ESTsoft\CreatorTemp\ipykernel_4264\1748544679.py in &amp;lt;module&amp;gt;
+----&amp;gt; 1 import openai_secret_manager
+      2 import openai
+      3 
+      4 # API 키 가져오기
+      5 assert &quot;openai&quot; in openai_secret_manager.get_services()
+
+
+ModuleNotFoundError: No module named &apos;openai_secret_manager&apos;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;openai&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;os&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# OpenAI API 인증 정보 설정
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;openai&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;api_key&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# GPT-3 모델 ID
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;model_engine&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;text-davinci-002&quot;&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# 생성할 텍스트 입력
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;prompt&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Tell me detail&quot;&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# 생성할 텍스트 길이
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;length&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2000&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# GPT-3 API로 텍스트 생성 요청
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;response&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;openai&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Completion&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;create&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;engine&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;model_engine&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;prompt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;prompt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;max_tokens&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;length&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# 생성된 텍스트 출력
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;choices&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; about you
+
+I was born in Hawaii and grew up on the island of Maui. I am of Chinese, Japanese, and Caucasian descent. I attended Maui High School, where I was active in theatre and dance. After graduation, I moved to Los Angeles to pursue a career in entertainment. I currently work as an actress and model. In my spare time, I enjoy hiking, yoga, and spending time with my family and friends.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;choices&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;OpenAIObject at 0x1f75bca6228&amp;gt; JSON: {
+  &quot;finish_reason&quot;: &quot;length&quot;,
+  &quot;index&quot;: 0,
+  &quot;logprobs&quot;: null,
+  &quot;text&quot;: &quot;  \n\ud504\ub808\uc784 \uc6cc\ud06c\ub3c4 &quot;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;model_engine-종류&quot;&gt;model_engine 종류&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;davinci(무료) : 다양한 태스크를 위한 가장 &lt;strong&gt;최신&lt;/strong&gt; 및 가장 &lt;strong&gt;고성능&lt;/strong&gt;의 모델. 자연어 처리를 위한 놀라운 결과를 제공하고 이 모델은 주로 일반적인 자연어 처리 태스크에 사용&lt;/li&gt;
+  &lt;li&gt;curie(무료) : &lt;strong&gt;GPT-2&lt;/strong&gt; 모델을 기반으로 &lt;strong&gt;대화형 생성 모델&lt;/strong&gt;과 &lt;strong&gt;언어 모델링&lt;/strong&gt;에서 뛰어난 결과를 제공&lt;/li&gt;
+  &lt;li&gt;babbage(무료) : &lt;strong&gt;GPT-2 모델의 더 작은 버전&lt;/strong&gt;으로, 훈련에 사용된 &lt;strong&gt;데이터셋의 크기가 더 작고&lt;/strong&gt; 자연어 처리 태스크의 작은 규모에 적합&lt;/li&gt;
+  &lt;li&gt;ada : &lt;strong&gt;GPT-2 모델을 기반&lt;/strong&gt;으로 하며, &lt;strong&gt;감성 분석&lt;/strong&gt; 및 &lt;strong&gt;텍스트 분류&lt;/strong&gt;와 같은 자연어 처리 태스크에 특화됩니다.&lt;/li&gt;
+  &lt;li&gt;text-davinci-002 : &lt;strong&gt;OpenAI&lt;/strong&gt;에서 사용 가능한 최신 모델 중 가장 &lt;strong&gt;강력한 모델&lt;/strong&gt;로 &lt;strong&gt;대화형 생성 모델&lt;/strong&gt; 및 &lt;strong&gt;자연어 이해&lt;/strong&gt; 작업에 적합&lt;/li&gt;
+  &lt;li&gt;translation : &lt;strong&gt;번역&lt;/strong&gt;작업에 사용되는 모델&lt;/li&gt;
+  &lt;li&gt;davinci-codex : &lt;strong&gt;요약&lt;/strong&gt;작업에 사용되는 모델&lt;/li&gt;
+  &lt;li&gt;davinci-instruct-beta : 대화형 &lt;strong&gt;지침 생성&lt;/strong&gt;을 위한 모델. 특정 작업에 대한 자세한 지침을 만드는 데 사용&lt;/li&gt;
+  &lt;li&gt;davinci-codex : &lt;strong&gt;고급 코드 생성&lt;/strong&gt;을 위한 모델. 이 모델은 코드 작성, 코드 자동 완성 및 코드 이해 작업에 적합&lt;/li&gt;
+  &lt;li&gt;davinci-medical-2 : &lt;strong&gt;의학 분야&lt;/strong&gt;의 자연어 처리에 특화된 모델. 이 모델은 진단, 치료 및 의료 데이터 처리와 같은 작업에 사용&lt;/li&gt;
+  &lt;li&gt;content-filter-alpha : &lt;strong&gt;불순물을 제거&lt;/strong&gt;하여 적절하지 않은 콘텐츠를 &lt;strong&gt;필터링&lt;/strong&gt;하는 데 사용됩니다.&lt;/li&gt;
+  &lt;li&gt;text-davinci-002-001 : 다양한 자연어 처리 태스크에 적합한 모델. 이 모델은 text-davinci-002 모델보다 약간 작은 모델.&lt;/li&gt;
+  &lt;li&gt;davinci-junior : OpenAI API에서 사용 가능한 모델 중 가장 작은 모델 중 하나. 이 모델은 davinci 모델보다 작고 강력한 성능을 제공하지는 않음. 작은 규모의 자연어 처리 작업에 적합&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="programing" /><category term="python" /><summary type="html">ChatGPT with Python python에서 chatGPT 이용하기 기본 라이브러리 설치는 github ChatGPT 링크에서 설치 개인 api_key 링크 는 해당 링크에서 얻으면 됨 model_engine은 여러가지 모델이 있으므로 목적에 따라 원하는 모델로 선택</summary></entry><entry><title type="html">병합정렬</title><link href="http://localhost:4000/%EB%B3%91%ED%95%A9%EC%A0%95%EB%A0%AC" rel="alternate" type="text/html" title="병합정렬" /><published>2023-03-02T00:00:00+09:00</published><updated>2023-03-02T00:00:00+09:00</updated><id>http://localhost:4000/%EB%B3%91%ED%95%A9%EC%A0%95%EB%A0%AC</id><content type="html" xml:base="http://localhost:4000/%EB%B3%91%ED%95%A9%EC%A0%95%EB%A0%AC">&lt;h1 id=&quot;병합정렬-merge-sorting&quot;&gt;병합정렬 Merge Sorting&lt;/h1&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것&lt;/p&gt;
@@ -464,212 +647,4 @@ apple 검색 : None
 None
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="programing" /><category term="python" /><summary type="html">해시 Hash 예시 1</summary></entry><entry><title type="html">최빈값구하기</title><link href="http://localhost:4000/%EC%B5%9C%EB%B9%88%EA%B0%92%EA%B5%AC%ED%95%98%EA%B8%B0" rel="alternate" type="text/html" title="최빈값구하기" /><published>2023-03-01T00:00:00+09:00</published><updated>2023-03-01T00:00:00+09:00</updated><id>http://localhost:4000/%EC%B5%9C%EB%B9%88%EA%B0%92%EA%B5%AC%ED%95%98%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/%EC%B5%9C%EB%B9%88%EA%B0%92%EA%B5%AC%ED%95%98%EA%B8%B0">&lt;h1 id=&quot;최빈값-구하기&quot;&gt;최빈값 구하기&lt;/h1&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://school.programmers.co.kr/learn/courses/30/lessons/120812&quot;&gt;프로그래머스-최빈값구하기&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;주어진 배열에서 빈도수가 가장 많은 원소를 출력, 최빈값이 2개 이상일 경우는 -1 출력&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;solution&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;# 딕셔너리를 사용해서 각 원소마다 빈도수를 구해준다.
-&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# set을 사용하여 나타낼수도 있지만 효율적으로는 O(N)만 사용하는게 가장 좋을 것 같았다.
-&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;tmp_dict&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;tmp_dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tmp_dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-    
-    &lt;span class=&quot;c1&quot;&gt;# 원소와 빈도수를 각각의 리스트에 저장해준다.
-&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;keys_list&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tmp_dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;keys&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;values_list&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tmp_dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;values&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
-    
-    &lt;span class=&quot;c1&quot;&gt;# 최빈값이 여러개인지 확인 후 출력
-&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;values_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;values_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;keys_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;values_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;values_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))]&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;solution&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;solution&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;2
--1
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;알고리즘
-    &lt;ul&gt;
-      &lt;li&gt;리스트를 딕셔너리형태로 변형하여 각 원소마다 빈도수를 구한다.
-        &lt;ul&gt;
-          &lt;li&gt;dict get을 사용하여 초기화 및 빈도 증가&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;최대 빈도수가 겹치는 숫자가 있는지 확인하고 출력한다.
-        &lt;ul&gt;
-          &lt;li&gt;count와 max를 사용해서 최대빈도수의 개수를 확인&lt;/li&gt;
-          &lt;li&gt;index를 사용하여 최대빈도수의 원소를 확인&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;추가 정보
-    &lt;blockquote&gt;
-      &lt;p&gt;풀이 추천 1등의 풀이에서는 내장함수 set을 사용하여 원소값의 중복을 제거하고 해당 원소를 하나씩 없애보면서 최빈값만 남을 때까지 반복한다. 최빈값의 중복이 있다면 마지막에 같이 없어져 array의 길이가 0이 되므로 -1을 출력해준다.&lt;/p&gt;
-      &lt;pre&gt;&lt;code class=&quot;language-{python}&quot;&gt;def solution(array):
-  while len(array) != 0:
-      for i, a in enumerate(set(array)):
-          array.remove(a)
-      if i == 0: return a
-  return -1
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="programing" /><category term="python" /><summary type="html">최빈값 구하기</summary></entry><entry><title type="html">정렬</title><link href="http://localhost:4000/%EC%A0%95%EB%A0%AC" rel="alternate" type="text/html" title="정렬" /><published>2023-03-01T00:00:00+09:00</published><updated>2023-03-01T00:00:00+09:00</updated><id>http://localhost:4000/%EC%A0%95%EB%A0%AC</id><content type="html" xml:base="http://localhost:4000/%EC%A0%95%EB%A0%AC">&lt;h1 id=&quot;정렬-sorting&quot;&gt;정렬 Sorting&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;컴퓨터 분야에서 중요시되는 문제 가운데 하나로 어떤 데이터들이 주어졌을 때 이를 &lt;strong&gt;정해진 순서&lt;/strong&gt;대로 &lt;strong&gt;나열&lt;/strong&gt;하는 문제로 &lt;br /&gt;
-실제 컴퓨터 분야에서 사용하는 데이터의 경우 &lt;strong&gt;숫자의 순서나 어휘&lt;/strong&gt;의 &lt;strong&gt;순서대로 정렬&lt;/strong&gt;한 다음 사용해야 되는 경우가 거의 항상 발생하는데 이걸 얼마나 &lt;strong&gt;효과적으로 해결&lt;/strong&gt;할 수 있느냐가 &lt;strong&gt;정렬 문제의 핵심&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;개념-이해하기-좋은-영상&quot;&gt;개념 이해하기 좋은 영상&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Bor_CRWEIXo&quot;&gt;어? 재밌네? 정렬 알고리즘, 한방에 이해하기!&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;python-예제&quot;&gt;python 예제&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/선택정렬&quot;&gt;선택정렬&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/삽입정렬&quot;&gt;삽입정렬&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/버블정렬&quot;&gt;버블정렬&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;병합정렬&lt;/li&gt;
-  &lt;li&gt;힙정렬&lt;/li&gt;
-  &lt;li&gt;퀵정렬&lt;/li&gt;
-  &lt;li&gt;기수정렬&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="programing" /><category term="python" /><summary type="html">정렬 Sorting</summary></entry><entry><title type="html">선택정렬</title><link href="http://localhost:4000/%EC%84%A0%ED%83%9D%EC%A0%95%EB%A0%AC" rel="alternate" type="text/html" title="선택정렬" /><published>2023-03-01T00:00:00+09:00</published><updated>2023-03-01T00:00:00+09:00</updated><id>http://localhost:4000/%EC%84%A0%ED%83%9D%EC%A0%95%EB%A0%AC</id><content type="html" xml:base="http://localhost:4000/%EC%84%A0%ED%83%9D%EC%A0%95%EB%A0%AC">&lt;h1 id=&quot;선택정렬-selection-sorting&quot;&gt;선택정렬 selection Sorting&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;주어진 리스트에서 최소값을 찾아 맨 앞에 위치한 원소와 자리를 바꾸고, 그 다음으로 작은 값을 찾아 그 다음 위치에 위치시키는 과정을 반복하여 정렬하는 알고리즘&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;선택정렬-1&quot;&gt;선택정렬 1&lt;/h2&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;selection_sort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;# 배열의 모든 요소를 순회
-&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;c1&quot;&gt;# 최소값의 인덱스를 찾음
-&lt;/span&gt;        &lt;span class=&quot;n&quot;&gt;min_idx&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;min_idx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;min_idx&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;
-        &lt;span class=&quot;c1&quot;&gt;# 현재 인덱스와 최소값의 인덱스를 swap
-&lt;/span&gt;        &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;min_idx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;min_idx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;64&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;25&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;22&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;11&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;selection_sort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[11, 12, 22, 25, 64]
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;알고리즘
-    &lt;ul&gt;
-      &lt;li&gt;첫번째 반복문
-        &lt;ul&gt;
-          &lt;li&gt;모든 요소를 비교하기 위해 n-1번 비교한다.&lt;/li&gt;
-          &lt;li&gt;n번째는 n-1에서 정해지기 때문에 할 필요가 없다.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;두번째 반복문
-        &lt;ul&gt;
-          &lt;li&gt;i 이상의 인덱스에서 최소값을 가진 인덱스(min_idx)를 구한다.&lt;/li&gt;
-          &lt;li&gt;범위는 i ~ n까지의 원소 중에 비교하면 된다.
-            &lt;ul&gt;
-              &lt;li&gt;두번째 반복문 시작전 min_idx = 1 는 범위의 첫번째 인자를 최소값으로 초기화 시키고 시작한다는 의미이다.&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Swap
-        &lt;ul&gt;
-          &lt;li&gt;두번째 반복문이 끝나면 범위 안에 최소값인 인덱스를 알 수 있다.&lt;/li&gt;
-          &lt;li&gt;범위의 첫번째 인자 i와 최소값의 인덱스 min_index를 서로 교체한다.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;시간복잡도
-    &lt;ul&gt;
-      &lt;li&gt;O(n^2)&lt;/li&gt;
-      &lt;li&gt;버블정렬보다는 빠르다. ( 교환이 많이 일어나야하는 자료에 유리 )&lt;/li&gt;
-      &lt;li&gt;리스트가 길수록 오래걸린다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="programing" /><category term="python" /><summary type="html">선택정렬 selection Sorting</summary></entry><entry><title type="html">버블정렬</title><link href="http://localhost:4000/%EB%B2%84%EB%B8%94%EC%A0%95%EB%A0%AC" rel="alternate" type="text/html" title="버블정렬" /><published>2023-03-01T00:00:00+09:00</published><updated>2023-03-01T00:00:00+09:00</updated><id>http://localhost:4000/%EB%B2%84%EB%B8%94%EC%A0%95%EB%A0%AC</id><content type="html" xml:base="http://localhost:4000/%EB%B2%84%EB%B8%94%EC%A0%95%EB%A0%AC">&lt;h1 id=&quot;버블정렬-bubble-sorting&quot;&gt;버블정렬 bubble Sorting&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;인접한 두 개의 원소를 비교하여 큰 수를 오른쪽으로, 작은 수를 왼쪽으로 이동시키는 정렬 알고리즘&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;버블정렬-1&quot;&gt;버블정렬 1&lt;/h2&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;bubble_sort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;# 반복문을 돌면서 배열의 모든 요소를 비교
-&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;c1&quot;&gt;# 각 반복에서 오른쪽 끝에서부터 i번째까지 비교하면서 swap
-&lt;/span&gt;        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 한번에 swap 이 가능하다
-&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;64&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;34&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;25&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;22&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;11&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;90&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;bubble_sort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[11, 12, 22, 25, 34, 64, 90]
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;알고리즘
-    &lt;ul&gt;
-      &lt;li&gt;첫번째 반복문
-        &lt;ul&gt;
-          &lt;li&gt;모든 요소를 비교하기 위해 n-1번 비교한다.&lt;/li&gt;
-          &lt;li&gt;n번째는 n-1에서 정해지기 때문에 할 필요가 없다.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;두번째 반복문
-        &lt;ul&gt;
-          &lt;li&gt;오른쪽 끝에서부터 i번째부터 비교하면서 swap한다.&lt;/li&gt;
-          &lt;li&gt;0 ~ (n-i-1) 까지만 비교해서 가장 큰수가 두번째 반복문이 끝날 때마다 고정된다.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;시간 복잡도
-    &lt;ul&gt;
-      &lt;li&gt;최선의 경우 &lt;strong&gt;O(n)&lt;/strong&gt;&lt;/li&gt;
-      &lt;li&gt;평균과 최악의 경우 &lt;strong&gt;O(n^2)&lt;/strong&gt;&lt;/li&gt;
-      &lt;li&gt;이는 정렬할 리스트의 크기가 커질수록 정렬 시간이 길어진다는 것을 의미&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="programing" /><category term="python" /><summary type="html">버블정렬 bubble Sorting</summary></entry></feed>
+&lt;p&gt;&lt;a href=&quot
