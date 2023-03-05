@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/exitem/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-03-05T03:48:02+09:00</updated>
+  <updated>2023-03-06T00:47:45+09:00</updated>
   <id>http://localhost:4000/tag/exitem/feed.xml</id>
 
   
@@ -40,7 +40,7 @@
       <content type="html" xml:base="http://localhost:4000/TIL-%EC%B6%94%EC%B2%9C%EC%8B%9C%EC%8A%A4%ED%85%9C%ED%95%84%ED%84%B0%EB%A7%81">&lt;h1 id=&quot;추천시스템-필터링&quot;&gt;추천시스템 필터링&lt;/h1&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것이며, 하나씩 해결해나가는 느낌으로 ML을 복습 및 검토한다.&lt;/p&gt;
+  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;blockquote&gt;
@@ -201,6 +201,118 @@
     </entry>
   
     <entry>
+      <title type="html">TIL-Notion</title>
+      <link href="http://localhost:4000/TIL-Slack" rel="alternate" type="text/html" title="TIL-Notion" />
+      <published>2023-03-05T00:00:00+09:00</published>
+      <updated>2023-03-05T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-Slack</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-Slack">&lt;h1 id=&quot;slack&quot;&gt;Slack&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;ChapGPT 기반으로 작성됨&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://slack.com/intl/ko-kr/&quot;&gt;https://slack.com/intl/ko-kr/&lt;/a&gt; 해당 링크에서 가입 후 사용&lt;/li&gt;
+  &lt;li&gt;데스크탑, 모바일 앱도 있음&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;간단하게 말하면 회사내 카카오톡&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;팀 커뮤니케이션 및 협업 도구&lt;/li&gt;
+  &lt;li&gt;팀이나 조직 내에서 대화, 파일 공유, 프로젝트 관리 및 협업을 돕는 데 사용&lt;/li&gt;
+  &lt;li&gt;간단한 인터페이스와 사용하기 쉬운 기능을 제공하여 즉각적인 메시지 전송과 파일 공유를 가능하게 함&lt;/li&gt;
+  &lt;li&gt;다양한 채널을 사용하여 대화를 구성할 수 있으며, 사용자는 특정 토픽이나 관심사에 따라 다른 채널에 참여&lt;/li&gt;
+  &lt;li&gt;다른 앱과의 통합을 지원하여 팀이 다른 도구나 서비스를 사용하면서도 팀 내에서 통신할 수 있음&lt;/li&gt;
+  &lt;li&gt;예를 들어, Google Drive, Trello, GitHub 등과 Slack을 연동하여 팀이 Slack에서 작업을 보거나 공유&lt;/li&gt;
+  &lt;li&gt;Slack은 무료 버전과 유료 버전이 있으며, 유료 버전은 추가 기능과 보안 기능을 제공&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">Slack</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">TIL-Notion</title>
+      <link href="http://localhost:4000/TIL-Notion" rel="alternate" type="text/html" title="TIL-Notion" />
+      <published>2023-03-05T00:00:00+09:00</published>
+      <updated>2023-03-05T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-Notion</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-Notion">&lt;h1 id=&quot;notion&quot;&gt;Notion&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Notion AI를 기반으로 작성&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.notion.so/&quot;&gt;https://www.notion.so/&lt;/a&gt; 에서 구글로 로그인 하면 된다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;notion에-대해&quot;&gt;Notion에 대해&lt;/h2&gt;
+
+&lt;p&gt;Notion은 작업을 할 때 필요한 문서, 테이블, 체크리스트, 일정 등을 한 곳에서 모아 관리할 수 있는 작업 도구입니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;notion의-주요-기능&quot;&gt;Notion의 주요 기능&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;문서, 테이블, 체크리스트, 일정 등의 통합&lt;/li&gt;
+  &lt;li&gt;협업 기능&lt;/li&gt;
+  &lt;li&gt;파일 첨부 기능&lt;/li&gt;
+  &lt;li&gt;체크리스트 기능&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">Notion</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">TIL-토이프로젝트</title>
       <link href="http://localhost:4000/TIL-%ED%86%A0%EC%9D%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8" rel="alternate" type="text/html" title="TIL-토이프로젝트" />
       <published>2023-03-05T00:00:00+09:00</published>
@@ -209,7 +321,7 @@
       <content type="html" xml:base="http://localhost:4000/TIL-%ED%86%A0%EC%9D%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8">&lt;h1 id=&quot;토이프로젝트&quot;&gt;토이프로젝트&lt;/h1&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것이며, 하나씩 해결해나가는 느낌으로 ML을 복습 및 검토한다.&lt;/p&gt;
+  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;ul&gt;
@@ -300,14 +412,14 @@
   
     <entry>
       <title type="html">TIL-ChatGPT</title>
-      <link href="http://localhost:4000/TIL-chatGPT" rel="alternate" type="text/html" title="TIL-ChatGPT" />
+      <link href="http://localhost:4000/TIL-ChatGPT" rel="alternate" type="text/html" title="TIL-ChatGPT" />
       <published>2023-03-04T00:00:00+09:00</published>
       <updated>2023-03-04T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-chatGPT</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-chatGPT">&lt;h1 id=&quot;chatgpt&quot;&gt;ChatGPT&lt;/h1&gt;
+      <id>http://localhost:4000/TIL-ChatGPT</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-ChatGPT">&lt;h1 id=&quot;chatgpt&quot;&gt;ChatGPT&lt;/h1&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것이며, 하나씩 해결해나가는 느낌으로 ML을 복습 및 검토한다.&lt;/p&gt;
+  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h2 id=&quot;정의&quot;&gt;정의&lt;/h2&gt;
@@ -386,7 +498,7 @@
       <published>2023-02-28T00:00:00+09:00</published>
       <updated>2023-02-28T00:00:00+09:00</updated>
       <id>http://localhost:4000/%EA%B3%84%ED%9A%8D%EC%A7%84%ED%96%89%EB%82%B4%EC%9A%A9</id>
-      <content type="html" xml:base="http://localhost:4000/%EA%B3%84%ED%9A%8D%EC%A7%84%ED%96%89%EB%82%B4%EC%9A%A9">&lt;h2 id=&quot;계획-진행-내용&quot;&gt;계획 진행 내용&lt;/h2&gt;
+      <content type="html" xml:base="http://localhost:4000/%EA%B3%84%ED%9A%8D%EC%A7%84%ED%96%89%EB%82%B4%EC%9A%A9">&lt;h2 id=&quot;필요한-기술&quot;&gt;필요한 기술&lt;/h2&gt;
 
 &lt;h3 id=&quot;논문&quot;&gt;논문&lt;/h3&gt;
 &lt;blockquote&gt;
@@ -464,7 +576,7 @@
       
 
       
-        <summary type="html">계획 진행 내용</summary>
+        <summary type="html">필요한 기술</summary>
       
 
       
@@ -1348,363 +1460,6 @@ Acquired Wayne Hills  AA rating from Korea Exchange technology evaluation agency
 
       
         <summary type="html">엔텔스</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">TIL-액션파워</title>
-      <link href="http://localhost:4000/TIL-%EC%95%A1%EC%85%98%ED%8C%8C%EC%9B%8C" rel="alternate" type="text/html" title="TIL-액션파워" />
-      <published>2023-02-20T00:00:00+09:00</published>
-      <updated>2023-02-20T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-%EC%95%A1%EC%85%98%ED%8C%8C%EC%9B%8C</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-%EC%95%A1%EC%85%98%ED%8C%8C%EC%9B%8C">&lt;h1 id=&quot;액션파워&quot;&gt;액션파워&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;국내 최초 음성 인식 기술 활용 인공지능 받아쓰기 타이틀&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;간단한 알람 설정, 메모, 네비게이션 등 음성인식을 자주 쓰는데 이 분야에서 경쟁사 중에서도 최초 최고인 것은 큰 장점으로 생각되고 충분히 성장 가능성 있는 아이템이다. 내 전공과도 비슷한 경향이 있으며 음성으로 받고 그것을 분석하는 것으로 하면 회사에 도움이 될 것 같다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;액션파워-1&quot;&gt;액션파워&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://actionpower.kr/&quot;&gt;공식 사이트&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2016년 설립&lt;/li&gt;
-  &lt;li&gt;서비스 앱 &lt;strong&gt;다글로&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;2019년 4월 출시, 2017년 국내 최초로 음성 인식 기술을 활용하여 만든 인공지능 받아쓰기 서비스&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;사원수 : 47명(2023.1 기준)
-    &lt;ul&gt;
-      &lt;li&gt;&lt;span style=&quot;color:blue&quot;&gt;인원수가 빠르게 늘고 있는 것 같으며 퇴사자는 적은것으로 보다 체계가 잘 잡혀 있는 것 같다.&lt;/span&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;가장 최근 &lt;a href=&quot;https://actionpower.kr/article/13&quot;&gt;뉴스&lt;/a&gt;
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;올해 AI 스타트업 100 명단
-AI 솔루션 기업 ‘강세’
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;연혁&quot;&gt;연혁&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2021
-    &lt;ul&gt;
-      &lt;li&gt;11
-        &lt;ul&gt;
-          &lt;li&gt;시리즈 A 133억 원 투자 유치&lt;/li&gt;
-          &lt;li&gt;삼성금융 Open Collaboration 우수상 수상&lt;/li&gt;
-          &lt;li&gt;대한민국 ICT대상 과학기술정보통신부 장관상 수상&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2020
-    &lt;ul&gt;
-      &lt;li&gt;08
-        &lt;ul&gt;
-          &lt;li&gt;NH Digital Challenge+ 4기 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;06
-        &lt;ul&gt;
-          &lt;li&gt;하나은행 1Q Agile Lab 10기 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;04
-        &lt;ul&gt;
-          &lt;li&gt;산업자원통상부 조선해양산업핵심기술개발사업 산업기술혁신사업 과제 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2019
-    &lt;ul&gt;
-      &lt;li&gt;11
-        &lt;ul&gt;
-          &lt;li&gt;대한민국 모바일어워드 우수상 수상&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;10
-        &lt;ul&gt;
-          &lt;li&gt;하나벤처스 Pre-A 투자유치&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;04
-        &lt;ul&gt;
-          &lt;li&gt;다글로(분야별 특화 음성인식 받아쓰기) 출시&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2018
-    &lt;ul&gt;
-      &lt;li&gt;12
-        &lt;ul&gt;
-          &lt;li&gt;TIPS 프로그램 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;06
-        &lt;ul&gt;
-          &lt;li&gt;스프링캠프 Seed 투자유치&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;04
-        &lt;ul&gt;
-          &lt;li&gt;AWS AI Startup Challenge 수상&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2017
-    &lt;ul&gt;
-      &lt;li&gt;12
-        &lt;ul&gt;
-          &lt;li&gt;리뷰와이저(음성인식 받아쓰기) 출시&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2016
-    &lt;ul&gt;
-      &lt;li&gt;01
-        &lt;ul&gt;
-          &lt;li&gt;액션파워 설립&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">액션파워</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">TIL-마키나락스</title>
-      <link href="http://localhost:4000/TIL-%EB%A7%88%ED%82%A4%EB%82%98%EB%9D%BD%EC%8A%A4" rel="alternate" type="text/html" title="TIL-마키나락스" />
-      <published>2023-02-19T00:00:00+09:00</published>
-      <updated>2023-02-19T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-%EB%A7%88%ED%82%A4%EB%82%98%EB%9D%BD%EC%8A%A4</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-%EB%A7%88%ED%82%A4%EB%82%98%EB%9D%BD%EC%8A%A4">&lt;h1 id=&quot;마키나락스&quot;&gt;마키나락스&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;산업용 AI 적용, 확실한 비전&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;회사의 목표가 확실해 보이고 소비자 입장에서도 확실하게 원하는 바를 말할 수 있도록 사이트가 정리가 잘 되어 있고 심플하다. 사원수도 안정적으로 늘고 있다. AI 엔지니어를 기본적으로 많이 뽑고 있다. 최근 뉴스에서 보아도 AI를 기반으로 산업용으로 바로 적용하여 발전가능성이 높아 앞으로도 쭉 성장할 것으로 보인다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;마키나락스-makinarocks-기본-정보&quot;&gt;마키나락스 MakinaRocks 기본 정보&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.wanted.co.kr/wd/142631&quot;&gt;원티드&lt;/a&gt;, &lt;a href=&quot;https://www.saramin.co.kr/zf_user/company-info/view/csn/M25lOC9pVDhWY0lSVHV3VUpZNDF1Zz09/company_nm/(%EC%A3%BC)%EB%A7%88%ED%82%A4%EB%82%98%EB%9D%BD%EC%8A%A4&quot;&gt;사람인&lt;/a&gt;, &lt;a href=&quot;https://www.makinarocks.ai/&quot;&gt;공식사이트 참조&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2017년12월12일 설립( 업력 7년차 )&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;산업용 AI 솔루션과 플랫폼을 개발, 제공하는 AI 스타트업 마키나락스&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;상품
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.makinarocks.ai/product/link/&quot;&gt;Link&lt;/a&gt;
-        &lt;ul&gt;
-          &lt;li&gt;데이터 사이언티스트가 친숙하게 사용하는 주피터랩(jupyterlab)의 확장 프로그램으로, 가독성 있는 파이프라인을 만들어 쉽게 공유할 수 있는 AI/ML 모델 개발 도구입니다.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.makinarocks.ai/product/runway/&quot;&gt;Runway&lt;/a&gt;
-        &lt;ul&gt;
-          &lt;li&gt;모델 개발, 배포, 모니터링을 하나의 플랫폼으로 통합하여 지속적인 개발과 안정적 운영이 가능한 MLOps 플랫폼입니다.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;ML/DL, 강화학습 기술을 기반으로 한 Core ML 역량과 Enterpise MLOps 제품을 기반으로, 제조 및 산업 분야에서 다수의 AI 적용 사례를 만들어가고 있습니다.&lt;/li&gt;
-  &lt;li&gt;사원수 : 83 (2022.12 기준)
-    &lt;ul&gt;
-      &lt;li&gt;&lt;span style=&quot;color:blue&quot;&gt;입사자 수는 꾸준하고 퇴사자 수는 적은편으로 안정적으로 성장하는 것으로 보인다.&lt;/span&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;가장 최근 관련 &lt;a href=&quot;http://jmagazine.joins.com/forbes/view/337339&quot;&gt;뉴스&lt;/a&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;최근 마이크로소프트가 인공지능 연구소 ‘오픈AI’에 최대 100억 달러(한화 12조4800억원) 규모의 투자를 고려하고 있다는 소식에 업계가 술렁였다. IT업계에 대한 국내외 투자가 예전 같지 않은 상황에서 AI 분야만큼은 가능성을 봤기 때문이다. 한국에도 기술력으로 이미 세계시장에 눈도장을 찍은 AI 기업이 있다. 산업 현장에 맞춤형 AI 기술을 도입해 제조 혁신을 이루겠다는 ‘마키나락스’다.&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;연혁&quot;&gt;연혁&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2022
-    &lt;ul&gt;
-      &lt;li&gt;NOV
-        &lt;ul&gt;
-          &lt;li&gt;엔터프라이즈 ML옵스 플랫폼 마키나락스 런웨이(Runway™) 공개&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;OCT
-        &lt;ul&gt;
-          &lt;li&gt;‘Korea AI Startup 100’ 2년 연속 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;JUL
-        &lt;ul&gt;
-          &lt;li&gt;CB인사이트 ‘세계 50대 첨단 제조 스타트업’ 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;MAY
-        &lt;ul&gt;
-          &lt;li&gt;마키나락스 링크(Link™) 커뮤니티 버전 출시&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;MAR
-        &lt;ul&gt;
-          &lt;li&gt;마키나락스 링크(Link™) 베타 서비스 시작&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2021
-    &lt;ul&gt;
-      &lt;li&gt;OCT
-        &lt;ul&gt;
-          &lt;li&gt;Korea AI Startup 100 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;SEP
-        &lt;ul&gt;
-          &lt;li&gt;Kubernetes Certified Service Provider 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;JUN
-        &lt;ul&gt;
-          &lt;li&gt;세계경제포럼(World Economic Forum) 기술선도기업 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2020
-    &lt;ul&gt;
-      &lt;li&gt;DEC
-        &lt;ul&gt;
-          &lt;li&gt;과학기술정보통신부 주관 대한민국 4차 산업혁명대상 ‘창업진흥원장상’ 수상&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;NOV
-        &lt;ul&gt;
-          &lt;li&gt;지능정보산업협회-PWC 주관 ‘2021 Emerging AIX Top100’ 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;NOV
-        &lt;ul&gt;
-          &lt;li&gt;신용보증기금 혁신 아이콘 4기 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;SEP
-        &lt;ul&gt;
-          &lt;li&gt;NVIDIA Inception Program 멤버 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;JUL
-        &lt;ul&gt;
-          &lt;li&gt;120억 원 규모 Series A 투자 유치 (LG테크놀로지벤처스, 현대자동차, 어플라이드 벤처스, 산업은행)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2019
-    &lt;ul&gt;
-      &lt;li&gt;MAY
-        &lt;ul&gt;
-          &lt;li&gt;네이버 D2 Startup Factory (D2SF) 데모데이 참가&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;JAN
-        &lt;ul&gt;
-          &lt;li&gt;마키나락스 첫 특허 등록 (ANOMALY DETECTION, 10-1940029)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2018
-    &lt;ul&gt;
-      &lt;li&gt;MAY
-        &lt;ul&gt;
-          &lt;li&gt;Seed Round 투자 유치 (SK텔레콤, 현대자동차, 네이버 D2 스타트업 팩토리)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;MAR
-        &lt;ul&gt;
-          &lt;li&gt;마키나락스 미국 법인 설립 (Silicon Valley)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2017
-    &lt;ul&gt;
-      &lt;li&gt;DEC
-        &lt;ul&gt;
-          &lt;li&gt;마카니락스 한국 법인 설립 (Seoul)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">마키나락스</summary>
       
 
       

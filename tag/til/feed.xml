@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/til/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-03-05T03:48:02+09:00</updated>
+  <updated>2023-03-06T00:47:45+09:00</updated>
   <id>http://localhost:4000/tag/til/feed.xml</id>
 
   
@@ -40,7 +40,7 @@
       <content type="html" xml:base="http://localhost:4000/TIL-%EC%B6%94%EC%B2%9C%EC%8B%9C%EC%8A%A4%ED%85%9C%ED%95%84%ED%84%B0%EB%A7%81">&lt;h1 id=&quot;추천시스템-필터링&quot;&gt;추천시스템 필터링&lt;/h1&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것이며, 하나씩 해결해나가는 느낌으로 ML을 복습 및 검토한다.&lt;/p&gt;
+  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;blockquote&gt;
@@ -201,6 +201,118 @@
     </entry>
   
     <entry>
+      <title type="html">TIL-Notion</title>
+      <link href="http://localhost:4000/TIL-Slack" rel="alternate" type="text/html" title="TIL-Notion" />
+      <published>2023-03-05T00:00:00+09:00</published>
+      <updated>2023-03-05T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-Slack</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-Slack">&lt;h1 id=&quot;slack&quot;&gt;Slack&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;ChapGPT 기반으로 작성됨&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://slack.com/intl/ko-kr/&quot;&gt;https://slack.com/intl/ko-kr/&lt;/a&gt; 해당 링크에서 가입 후 사용&lt;/li&gt;
+  &lt;li&gt;데스크탑, 모바일 앱도 있음&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;간단하게 말하면 회사내 카카오톡&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;팀 커뮤니케이션 및 협업 도구&lt;/li&gt;
+  &lt;li&gt;팀이나 조직 내에서 대화, 파일 공유, 프로젝트 관리 및 협업을 돕는 데 사용&lt;/li&gt;
+  &lt;li&gt;간단한 인터페이스와 사용하기 쉬운 기능을 제공하여 즉각적인 메시지 전송과 파일 공유를 가능하게 함&lt;/li&gt;
+  &lt;li&gt;다양한 채널을 사용하여 대화를 구성할 수 있으며, 사용자는 특정 토픽이나 관심사에 따라 다른 채널에 참여&lt;/li&gt;
+  &lt;li&gt;다른 앱과의 통합을 지원하여 팀이 다른 도구나 서비스를 사용하면서도 팀 내에서 통신할 수 있음&lt;/li&gt;
+  &lt;li&gt;예를 들어, Google Drive, Trello, GitHub 등과 Slack을 연동하여 팀이 Slack에서 작업을 보거나 공유&lt;/li&gt;
+  &lt;li&gt;Slack은 무료 버전과 유료 버전이 있으며, 유료 버전은 추가 기능과 보안 기능을 제공&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">Slack</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">TIL-Notion</title>
+      <link href="http://localhost:4000/TIL-Notion" rel="alternate" type="text/html" title="TIL-Notion" />
+      <published>2023-03-05T00:00:00+09:00</published>
+      <updated>2023-03-05T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-Notion</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-Notion">&lt;h1 id=&quot;notion&quot;&gt;Notion&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Notion AI를 기반으로 작성&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.notion.so/&quot;&gt;https://www.notion.so/&lt;/a&gt; 에서 구글로 로그인 하면 된다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;notion에-대해&quot;&gt;Notion에 대해&lt;/h2&gt;
+
+&lt;p&gt;Notion은 작업을 할 때 필요한 문서, 테이블, 체크리스트, 일정 등을 한 곳에서 모아 관리할 수 있는 작업 도구입니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;notion의-주요-기능&quot;&gt;Notion의 주요 기능&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;문서, 테이블, 체크리스트, 일정 등의 통합&lt;/li&gt;
+  &lt;li&gt;협업 기능&lt;/li&gt;
+  &lt;li&gt;파일 첨부 기능&lt;/li&gt;
+  &lt;li&gt;체크리스트 기능&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">Notion</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">TIL-토이프로젝트</title>
       <link href="http://localhost:4000/TIL-%ED%86%A0%EC%9D%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8" rel="alternate" type="text/html" title="TIL-토이프로젝트" />
       <published>2023-03-05T00:00:00+09:00</published>
@@ -209,7 +321,7 @@
       <content type="html" xml:base="http://localhost:4000/TIL-%ED%86%A0%EC%9D%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8">&lt;h1 id=&quot;토이프로젝트&quot;&gt;토이프로젝트&lt;/h1&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것이며, 하나씩 해결해나가는 느낌으로 ML을 복습 및 검토한다.&lt;/p&gt;
+  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;ul&gt;
@@ -300,14 +412,14 @@
   
     <entry>
       <title type="html">TIL-ChatGPT</title>
-      <link href="http://localhost:4000/TIL-chatGPT" rel="alternate" type="text/html" title="TIL-ChatGPT" />
+      <link href="http://localhost:4000/TIL-ChatGPT" rel="alternate" type="text/html" title="TIL-ChatGPT" />
       <published>2023-03-04T00:00:00+09:00</published>
       <updated>2023-03-04T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-chatGPT</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-chatGPT">&lt;h1 id=&quot;chatgpt&quot;&gt;ChatGPT&lt;/h1&gt;
+      <id>http://localhost:4000/TIL-ChatGPT</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-ChatGPT">&lt;h1 id=&quot;chatgpt&quot;&gt;ChatGPT&lt;/h1&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것이며, 하나씩 해결해나가는 느낌으로 ML을 복습 및 검토한다.&lt;/p&gt;
+  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h2 id=&quot;정의&quot;&gt;정의&lt;/h2&gt;
@@ -1469,430 +1581,6 @@ AI 솔루션 기업 ‘강세’
 
       
         <summary type="html">마키나락스</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">TIL-노리스페이스</title>
-      <link href="http://localhost:4000/TIL-%EB%85%B8%EB%A6%AC%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4" rel="alternate" type="text/html" title="TIL-노리스페이스" />
-      <published>2023-02-17T00:00:00+09:00</published>
-      <updated>2023-02-17T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-%EB%85%B8%EB%A6%AC%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-%EB%85%B8%EB%A6%AC%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4">&lt;h1 id=&quot;노리스페이스&quot;&gt;노리스페이스&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;내가 처음에 생각했던 인공지능의 역할을 비전으로 가지고 있다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;사무업무를 자동화 하는 일에 인공지능이 필요하다는 것은 어릴적 부모님을 도와 회계업무, 보고서 작성 등을 하면서 꼭 필요하다고 생각했고 컴퓨터를 배우면서 점점 할 수 있다는 생각이 들었다. 그 일을 하고 있는 것이 노리스페이스라고 생각한다. 하지만 아직 초창기 스타트업인만큼 안정화 되어 있다고 느껴지지는 않는다. 입사자 수와 퇴사가 수가 거의 일치하는 느낌이라 배울 수 있는 것, 이끌 수 있는 것이 많을 수 있지만 그만큼 분야를 가리지 않고 다방면으로 노력해야 할 것 같다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;노리스페이스-norispace-기본-정보&quot;&gt;노리스페이스 NoriSpace 기본 정보&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.saramin.co.kr/zf_user/company-info/view/csn/c3N4KzVYN3dMODBHRXh3czVJb25Pdz09/company_nm/(주)노리스페이스&quot;&gt;사람인 참조&lt;/a&gt;, &lt;a href=&quot;https://www.norispace.com/&quot;&gt;공식사이트 참조&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2021년 11월 5일 설립 (업력 3년차)&lt;/li&gt;
-  &lt;li&gt;기업 형태 : 중소기업&lt;/li&gt;
-  &lt;li&gt;핵심 가치와 비전
-    &lt;ul&gt;
-      &lt;li&gt;핵심 가치와 비전은 전문지식 데이터 연구/분석을 기반으로 사무업무 자동화를 실현하는 것&lt;/li&gt;
-      &lt;li&gt;인공지능 기술로 단순 반복 업무 자동화 뿐만 아니라 데이터 예측분석 서비스를 제공하여 자동화 가능 업무를 분석하고 제안하는 새로운 가치 창출을 이루어내고자 함&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;“NoriS 지능형 보험업무 자동화 엔진” 을 연구 및 개발하여 보험산업 내 인공지능 기술의 활용 범위를 확대하고 있습니다.
-    &lt;ul&gt;
-      &lt;li&gt;이 엔진을 통하여 보험사의 손해사정업문에서 발생하는 노동집약적인 업무환경을 개선하고 있습니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;주소 : 서울 노원구 동일로174길 27, 1층&lt;/li&gt;
-  &lt;li&gt;사원수 : 11명(2022년12월 기준)
-    &lt;ul&gt;
-      &lt;li&gt;&lt;span sytle=&quot;color:blue&quot;&gt;아직 초창기 스타트업인만큼 안정화 되어 있다고 느껴지지는 않는다. 입사자, 퇴사자 수가 거의 비슷하다.&lt;/span&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;서비스
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;table&gt;
-          &lt;tbody&gt;
-            &lt;tr&gt;
-              &lt;td&gt;사무업무자동화(업무자동화&lt;/td&gt;
-              &lt;td&gt;KEY-VALUE 추출&lt;/td&gt;
-              &lt;td&gt;업무데이터 예측분석)&lt;/td&gt;
-            &lt;/tr&gt;
-          &lt;/tbody&gt;
-        &lt;/table&gt;
-        &lt;ul&gt;
-          &lt;li&gt;NoriS Engine, Noris Workflow Analysis Tool 개발을 통해 단순업무 자동화&lt;/li&gt;
-          &lt;li&gt;업무 데이터 예측.분석까지 영역을 확장하여 자동화가 가능한 사무업무 영역을 분석하고 제안까지 가능하게 합니다.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;table&gt;
-          &lt;tbody&gt;
-            &lt;tr&gt;
-              &lt;td&gt;데이터 컨설팅(데이터 사이언스&lt;/td&gt;
-              &lt;td&gt;데이터 아키텍처&lt;/td&gt;
-              &lt;td&gt;데이터 표준화)&lt;/td&gt;
-            &lt;/tr&gt;
-          &lt;/tbody&gt;
-        &lt;/table&gt;
-        &lt;ul&gt;
-          &lt;li&gt;비즈니스에서 생성된 데이터의 품질을 관리하고 구축하기 위한 컨설팅 제공&lt;/li&gt;
-          &lt;li&gt;축적된 데이터 분석 및 표준화&lt;/li&gt;
-          &lt;li&gt;가치 향상을 위한 최적의 솔루션 설계&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;연혁&quot;&gt;연혁&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Award-winning&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;2021
-        &lt;ul&gt;
-          &lt;li&gt;산학협력 EXPO 기술창업트랙 데모데이 사회부총리겸 교육부장관상 대상 수상&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;2020
-        &lt;ul&gt;
-          &lt;li&gt;광주과학기술원 IR역량강화프로그램 IR피칭대회 은상 수상&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;2019
-        &lt;ul&gt;
-          &lt;li&gt;고려대학교 캠퍼스타운 창업경진대회 은상 수상 및 입주기업 선정&lt;/li&gt;
-          &lt;li&gt;신한 디지털라이프스쿨 수상 신한 두드림스페이스 디지털라이프스쿨  최우수상 수상&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Accelerating Program&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;2021
-        &lt;ul&gt;
-          &lt;li&gt;대한무역투자진흥공사 KOTRA Yspace Program 캐나다 엑셀러레이팅 프로그램 선정&lt;/li&gt;
-          &lt;li&gt;신용보증기금 Startup NEST 9기 선정 엑셀러레이팅 프로그램 선정&lt;/li&gt;
-          &lt;li&gt;서울창업디딤터 PRE-BI 선정 은상 수상 및 입주기업 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Grant Program&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;2022
-        &lt;ul&gt;
-          &lt;li&gt;교보생명 MOU 협약 지급프로세스 고도화를 위한 MOU 협약 체결&lt;/li&gt;
-          &lt;li&gt;SBA 핀테크 R&amp;amp;D 과제 선정 서울산업진흥원 기술연구개발 과제 선정&lt;/li&gt;
-          &lt;li&gt;교보 이노스테이지 ‘ON’ 선정 교보생명 오픈이노베이션 프로그램 선정&lt;/li&gt;
-          &lt;li&gt;디딤돌 R&amp;amp;D 과제 선정 중소벤처기업부 R&amp;amp;D 창업성장기술개발 디딤돌 과제 선정&lt;/li&gt;
-          &lt;li&gt;AI 양재 허브 멤버십 프로그램 선정 서울시 소속의 인공지능 기술 스타트업 멤버 연장&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;2021
-        &lt;ul&gt;
-          &lt;li&gt;AI 바우처 지원사업 공급기업 선정&lt;/li&gt;
-          &lt;li&gt;서울혁신챌린지 예선 통과&lt;/li&gt;
-          &lt;li&gt;학생 창업유망팀 300 선정 창업경진대회 학생창업 유망팀 300 선발&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;2020
-        &lt;ul&gt;
-          &lt;li&gt;AI 양재 허브 멤버십 프로그램 선정 서울시 소속의 인공지능 기술 스타트업 멤버 등록&lt;/li&gt;
-          &lt;li&gt;송파 청년창업도전프로젝트 선정 인공지능 기술개발 인프라 지원&lt;/li&gt;
-          &lt;li&gt;예비창업패키지 특화분야 AI 부문 선정 사업화 및 인공지능 기술 개발 인프라 지원&lt;/li&gt;
-          &lt;li&gt;서울대학교 창업지원단 입주기업 선정 서울대학교 창업지원단 참여기업 선정&lt;/li&gt;
-          &lt;li&gt;AI 양재 허브 AI Startup Seed Camp2 선정 인공지능 적용 기술 개발 후속지원 사업 선정&lt;/li&gt;
-          &lt;li&gt;신한 인큐베이션센터 프로그램 선정 시설 및 사업화 인프라 지원 / 사업 인큐베이팅 프로그램 지원&lt;/li&gt;
-          &lt;li&gt;모두의 연구소 협력 체결 Alliance 교류 협력 체결 기술, 인력교류 및 기술개발 인프라 지원&lt;/li&gt;
-          &lt;li&gt;AI 양재 허브 ‘AiCON2019’ ‘여권정보자동문서화 ‘ 적용 기술 발표&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;2019
-        &lt;ul&gt;
-          &lt;li&gt;AI 양재 허브 ‘AiCON 2019’ ‘여권정보 자동 문서화’ 적용 기술 발표&lt;/li&gt;
-          &lt;li&gt;린스타트업 더인벤션랩 BM 특화 교육과정 수료&lt;/li&gt;
-          &lt;li&gt;AI 양재허브 AI Startup Seed Camp B인공지능 적용 기술 개발 지원 사업 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">노리스페이스</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">TIL-아크릴</title>
-      <link href="http://localhost:4000/TIL-%EC%95%84%ED%81%AC%EB%A6%B4" rel="alternate" type="text/html" title="TIL-아크릴" />
-      <published>2023-02-15T00:00:00+09:00</published>
-      <updated>2023-02-15T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-%EC%95%84%ED%81%AC%EB%A6%B4</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-%EC%95%84%ED%81%AC%EB%A6%B4">&lt;h1 id=&quot;아크릴&quot;&gt;아크릴&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;연혁의 기록은 2021년에 멈춰있지만 소식 부분에 최근까지의 행적들이 적혀있다. 꾸준히 활동했으며 입사자가 꾸준히 있고 퇴사자도 꾸준히 있는 것으로 보아 인원수로 안정적이기는 하나 꾸준히 퇴사하는 이유가 있을 것 같다. 실력 상승을 위한 이직일지 알 수 없으나 고려해봐야한다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;아크릴-기본-정보&quot;&gt;아크릴 기본 정보&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.acryl.ai/&quot;&gt;공식 사이트 참조&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;아크릴은 감성에 집중하고, 사람을 이해하는 감성 인공지능을 목표로 하고 있습니다.&lt;/li&gt;
-  &lt;li&gt;2011년3월 설립&lt;/li&gt;
-  &lt;li&gt;최근 SCI급 학술지 “MDPI Biomolecule” 게재
-    &lt;ul&gt;
-      &lt;li&gt;다중 오믹스 데이터 통합을 이용한 비소세포폐암 예측을 위한 딥러닝 알고리즘 및 그에 수반되는 바이오 마커 식별&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;사원수 : 95명(2022.12월 기준)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;연혁&quot;&gt;연혁&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2021
-    &lt;ul&gt;
-      &lt;li&gt;2021.12
-  제3회 ‘ACRYL NEXT 2021’ 개최&lt;/li&gt;
-      &lt;li&gt;2021.10
-  KT &amp;amp; 한국경제신문 주관, ‘AI 스타트업 100’ 선정&lt;/li&gt;
-      &lt;li&gt;2021.10
-  ‘웰케어 AI플랫폼 구축사업’ 참여 회원사 15곳과 상호협력(MOU) 체결&lt;/li&gt;
-      &lt;li&gt;2021.08
-  한국웰케어컨소시엄(KWC)에서 ‘한국지능웰케어산업협회(KIWI)’로 협회명 변경&lt;/li&gt;
-      &lt;li&gt;2021.07
-  한림대학교강남성심병원과 ㈜파인헬스케어 상호협력 업무 협약서 체결&lt;/li&gt;
-      &lt;li&gt;2021.06
-  (사)한국폭력학대예방협회(KAVA)와 아동/청소년 대상 심리지원AI 사업 협력 계약 체결&lt;/li&gt;
-      &lt;li&gt;2021.05
-  AI정밀의료솔루션(닥터앤서2.0)개발 사업 수주&lt;/li&gt;
-      &lt;li&gt;2021.04
-  웰케어 산업특화 인공지능 기술지원 플랫폼 구축 사업 수주&lt;/li&gt;
-      &lt;li&gt;2021.03
-  광주광역시와 ‘인공지능 거점도시 기반 조성’을 위한 업무협약 체결&lt;/li&gt;
-      &lt;li&gt;2021.01
-  지능정보산업협회 주관, ‘Emerging AI+X Top 100’ 선정&lt;/li&gt;
-      &lt;li&gt;2021.01
-  고용노동부 주관, ‘2021 청년친화강소기업’ 선정&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2020
-    &lt;ul&gt;
-      &lt;li&gt;2020.12
-  제2회 ‘ACRYL NEXT 2020’ 개최&lt;/li&gt;
-      &lt;li&gt;2020.12
-  한국웰케어컨소시엄(KWC) 회장사 선임&lt;/li&gt;
-      &lt;li&gt;2020.12
-  충북과학기술혁신원과 ‘웰케어 AI 융합 인프라 조성’을 위한 업무협약 체결&lt;/li&gt;
-      &lt;li&gt;2020.12
-  통합 서비스형 AI플랫폼 Jonathan® 오픈&lt;/li&gt;
-      &lt;li&gt;2020.12
-  이원다이애그노믹스(EDGC)와 ‘AI 기반 유전체 사업’ 업무협약 체결&lt;/li&gt;
-      &lt;li&gt;2020.12
-  충북 제천 인공지능연구소(부설) 설립&lt;/li&gt;
-      &lt;li&gt;2020.11
-  충북 오창 파트너센터 설립&lt;/li&gt;
-      &lt;li&gt;2020.10
-  한국지능의료산업협회(KIMIA) 부회장사 선임&lt;/li&gt;
-      &lt;li&gt;2020.09
-  중소벤처기업부 주관, ‘이노비즈 기업(AA등급)’ 선정&lt;/li&gt;
-      &lt;li&gt;2020.08
-  스마일게이트와 ‘멀티모달 감성대화 서비스’ 개발을 위한 업무협약 체결&lt;/li&gt;
-      &lt;li&gt;2020.07
-  Jonathan Flightbase™ GS인증 1등급 획득&lt;/li&gt;
-      &lt;li&gt;2020.07
-  대원씨앤씨와 ‘AI 기반 시스템 통합 사업’ 업무협약 체결&lt;/li&gt;
-      &lt;li&gt;2020.05
-  과학기술정보통신부 주관, ‘글로벌 ICT 미래 유니콘 육성 기업 (ICT GROWTH)’ 선정&lt;/li&gt;
-      &lt;li&gt;2020.02
-  광주여자대학교 산학협력단 상호협력운영 협약 체결&lt;/li&gt;
-      &lt;li&gt;2020.01
-  중소벤처기업부 주관 ‘인재육성형 중소기업’ 지정&lt;/li&gt;
-      &lt;li&gt;2020.01
-  서울산업진흥원 주관 ‘하이서울브랜드 기업’ 선정&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2019
-    &lt;ul&gt;
-      &lt;li&gt;2019.12
-  제1회 ‘ACRYL NEXT 2019’ 개최&lt;/li&gt;
-      &lt;li&gt;2019.12
-  통합채팅솔루션 기업 엠비아이솔루션(주)과 MOU 체결&lt;/li&gt;
-      &lt;li&gt;2019.12
-  2019 SW R&amp;amp;D 성과발표회 과기정통부 장관상 수상&lt;/li&gt;
-      &lt;li&gt;2019.11
-  벤처기업협회 주관 ‘행복한 중기경영대상’ 수상&lt;/li&gt;
-      &lt;li&gt;2019.04
-  베스티안 재단과 ‘웰케어 사업’ 업무 협약 체결&lt;/li&gt;
-      &lt;li&gt;2019.04
-  LG전자 옵션 실시에 의한 증자&lt;/li&gt;
-      &lt;li&gt;2019.03
-  아크릴&amp;amp;베스티안재단 주관, ‘바이오 인공지능 융합 컨퍼런스’ 개최&lt;/li&gt;
-      &lt;li&gt;2019.03
-  아크릴 인공지능 연구소 설립&lt;/li&gt;
-      &lt;li&gt;2019.01
-  충북대 약학대학 MOU 체결&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2018
-    &lt;ul&gt;
-      &lt;li&gt;2018.12
-  과학기술정보통신부 산하 지능정보산업협회 부회장사 선임&lt;/li&gt;
-      &lt;li&gt;2018.12
-  대한민국 ICT대상 과기정통부 장관상 수상 (지능정보 부문)&lt;/li&gt;
-      &lt;li&gt;2018.12
-  고용노동부 주관 ‘2019 청년친화강소기업’ 선정&lt;/li&gt;
-      &lt;li&gt;2018.12
-  제13회 대한민국 인터넷대상 특별상 수상&lt;/li&gt;
-      &lt;li&gt;2018.11
-  2018 SW R&amp;amp;D성과발표회 과학기술정보통신부 장관상 수상&lt;/li&gt;
-      &lt;li&gt;2018.08
-  시리즈A 투자 유치(LG전자, SK주식회사)&lt;/li&gt;
-      &lt;li&gt;2018.06
-  대한민국 리딩기업대상 / 기술혁신대상 수상&lt;/li&gt;
-      &lt;li&gt;2018.06
-  벤처기업협회 주관, ‘우수벤처기업(지속성장 부문)’ 선정&lt;/li&gt;
-      &lt;li&gt;2018.02
-  아크릴 본사 이전 (서울 강남구 청담동 소재, 청담벤처프라자 )&lt;/li&gt;
-      &lt;li&gt;2018.02
-  옴니씨앤에스와 ‘감성 분석 인공지능 기반의 심리상담플랫폼 개발’ 업무 협약 체결&lt;/li&gt;
-      &lt;li&gt;2018.02
-  베스티안병원 재단과 인공지능 헬스케어 신사업 MOU체결&lt;/li&gt;
-      &lt;li&gt;2018.01
-  B2C서비스 ‘하와유(Hawayou)’, 2018 IF 디자인 어워드(Social Media 부문’ 수상&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2017
-    &lt;ul&gt;
-      &lt;li&gt;2017.11
-  특허청 주관, 특허경영대상 금상 수상&lt;/li&gt;
-      &lt;li&gt;2017.10
-  중소벤처기업부 주관, ‘이노비즈 기업(AA등급)’ 선정&lt;/li&gt;
-      &lt;li&gt;2017.08
-  여론모니터링 서비스 ‘ZOOOMA Social’ Renewal&lt;/li&gt;
-      &lt;li&gt;2017.06
-  우수 벤처기업 선정 (벤처기업협회)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2016
-    &lt;ul&gt;
-      &lt;li&gt;2016.12
-  통합 인공지능 플랫폼 ‘Jonathan 1.0’ 출시&lt;/li&gt;
-      &lt;li&gt;2016.12
-  SK(주)와 빅데이터 솔루션 Zoooma™의 공동 브랜딩 / 프로모션 MOU 체결&lt;/li&gt;
-      &lt;li&gt;2016.12
-  블루포인트파트너스 투자 유치&lt;/li&gt;
-      &lt;li&gt;2016.11
-  SK(주)와 인공지능 분야의 협력 계약 체결  (SK AIBRIL, IBM Watson)&lt;/li&gt;
-      &lt;li&gt;2016.05
-  메디치인베스트먼트 Series A 투자 유치&lt;/li&gt;
-      &lt;li&gt;2016.05
-  브랜드 리노베이션&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2015
-    &lt;ul&gt;
-      &lt;li&gt;2015.12
-  산자부 ‘사회문제해결형 R&amp;amp;D 사업’3개년정부출연금 확정 (참여기관)&lt;/li&gt;
-      &lt;li&gt;2015.12
-  와이즈멘토와 ‘자기소개서 및 면접 감성분석 서비스’공동기술개발 계약 체결&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2014
-    &lt;ul&gt;
-      &lt;li&gt;2014.10
-  KOTRA / Microsoft 주관 Smart Growth 3기 TOP 5 기업 선정&lt;/li&gt;
-      &lt;li&gt;2014.04
-  한국산업기술진흥협회(KOITA) 기업부설연구소 병역 지정업체 선정&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2013
-    &lt;ul&gt;
-      &lt;li&gt;2013.08
-  감성인식엔진 1.0 AIE 개발&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2012
-    &lt;ul&gt;
-      &lt;li&gt;2012.07
-  중소기업청 ‘디지털 경영혁신 대상’ 최우수상 수상&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2011
-    &lt;ul&gt;
-      &lt;li&gt;2011.12
-  LB 인베스트먼트 투자 유치&lt;/li&gt;
-      &lt;li&gt;2011.09
-  한국산업기술진흥협회(KOITA) 벤처기업 인증&lt;/li&gt;
-      &lt;li&gt;2011.03
-  (주)아크릴 설립&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">아크릴</summary>
       
 
       

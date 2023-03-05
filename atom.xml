@@ -53,6 +53,36 @@
     
       
       <item>
+        <title>TIL-Notion</title>
+        
+          <description>&lt;h1 id=&quot;slack&quot;&gt;Slack&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Sun, 05 Mar 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/TIL-Slack</link>
+        <guid isPermaLink="true">http://localhost:4000/TIL-Slack</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>TIL-Notion</title>
+        
+          <description>&lt;h1 id=&quot;notion&quot;&gt;Notion&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Sun, 05 Mar 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/TIL-Notion</link>
+        <guid isPermaLink="true">http://localhost:4000/TIL-Notion</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>ChatGPT</title>
         
           <description>&lt;h1 id=&quot;chatgpt-with-python&quot;&gt;ChatGPT with Python&lt;/h1&gt;
@@ -84,8 +114,8 @@
         
         <pubDate>Sat, 04 Mar 2023 00:00:00 +0900</pubDate>
         <link>
-        http://localhost:4000/TIL-chatGPT</link>
-        <guid isPermaLink="true">http://localhost:4000/TIL-chatGPT</guid>
+        http://localhost:4000/TIL-ChatGPT</link>
+        <guid isPermaLink="true">http://localhost:4000/TIL-ChatGPT</guid>
       </item>
       
     
@@ -411,7 +441,7 @@
       <item>
         <title>계획진행내용</title>
         
-          <description>&lt;h2 id=&quot;계획-진행-내용&quot;&gt;계획 진행 내용&lt;/h2&gt;
+          <description>&lt;h2 id=&quot;필요한-기술&quot;&gt;필요한 기술&lt;/h2&gt;
 
 </description>
         

@@ -1,69 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-05T03:48:02+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">TIL-공공데이터</title><link href="http://localhost:4000/TIL-%EA%B3%B5%EA%B3%B5%EB%8D%B0%EC%9D%B4%ED%84%B0" rel="alternate" type="text/html" title="TIL-공공데이터" /><published>2023-03-05T00:00:00+09:00</published><updated>2023-03-05T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%EA%B3%B5%EA%B3%B5%EB%8D%B0%EC%9D%B4%ED%84%B0</id><content type="html" xml:base="http://localhost:4000/TIL-%EA%B3%B5%EA%B3%B5%EB%8D%B0%EC%9D%B4%ED%84%B0">&lt;h1 id=&quot;공공데이터-모음&quot;&gt;공공데이터 모음&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-06T00:47:45+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">TIL-Notion</title><link href="http://localhost:4000/TIL-Notion" rel="alternate" type="text/html" title="TIL-Notion" /><published>2023-03-05T00:00:00+09:00</published><updated>2023-03-05T00:00:00+09:00</updated><id>http://localhost:4000/TIL-Notion</id><content type="html" xml:base="http://localhost:4000/TIL-Notion">&lt;h1 id=&quot;notion&quot;&gt;Notion&lt;/h1&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;기본적으로 무료로 얻을 수 있는 빅데이터 사이트를 기억하기 위해 기록&lt;br /&gt;
-데이터를 자세히 봐야겠지만 대략적인 요약과 가능할만한 간단한 아이디어를 추가 작성&lt;/p&gt;
+  &lt;p&gt;Notion AI를 기반으로 작성&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&quot;공공데이터-포털&quot;&gt;공공데이터 포털&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.data.go.kr/index.do&quot;&gt;https://www.data.go.kr/index.do&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;공공데이터포털은 공공기관이 생성 또는 취득하여 관리하고 있는 공공데이터를 한 곳에서 제공하는 통합 창구&lt;/li&gt;
-  &lt;li&gt;포털에서는 국민이 쉽고편리하게 공공데이터를 이용할 수 있도록 파일데이터, 오픈API, 시각화 등 다양한 방식으로 제공하고 있으며, 누구라도 쉽고 편리한 검색을통해 원하는 공공데이터를 빠르고 정확하게 찾을 수 있음&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.notion.so/&quot;&gt;https://www.notion.so/&lt;/a&gt; 에서 구글로 로그인 하면 된다.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;한국문화관광연구원-문화관광-데이터&quot;&gt;한국문화관광연구원 문화관광 데이터&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.data.go.kr/data/15052709/fileData.do&quot;&gt;https://www.data.go.kr/data/15052709/fileData.do&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;한국의 여행지, 문화유산, 축제, 먹거리 등의 정보를 제공&lt;/li&gt;
-  &lt;li&gt;콘텐츠 기반 필터링 방식으로 추천 시스템을 만드는데 활용 가능&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h2 id=&quot;notion에-대해&quot;&gt;Notion에 대해&lt;/h2&gt;
 
-&lt;h2 id=&quot;한국도로공사-도로교통공단-교통사고-분석-시스템-데이터&quot;&gt;한국도로공사 도로교통공단 교통사고 분석 시스템 데이터&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://taas.koroad.or.kr/api/&quot;&gt;https://taas.koroad.or.kr/api/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;교통사고 발생 정보를 제공&lt;/li&gt;
-  &lt;li&gt;협업 필터링 방식으로 추천 시스템을 만드는데 활용 가능&lt;/li&gt;
-  &lt;li&gt;교통사고가 발생했을 때 같은 조건의 관련 정보 제공&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Notion은 작업을 할 때 필요한 문서, 테이블, 체크리스트, 일정 등을 한 곳에서 모아 관리할 수 있는 작업 도구입니다.&lt;/p&gt;
 
-&lt;h2 id=&quot;서울시-열린데이터광장&quot;&gt;서울시 열린데이터광장&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://data.seoul.go.kr/together/guide/useGuide.do#sample-code-4&quot;&gt;https://data.seoul.go.kr/together/guide/useGuide.do#sample-code-4&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;서울시에서 제공하는 다양한 데이터를 포함&lt;/li&gt;
-  &lt;li&gt;서울시민을 대상으로 한 추천 시스템을 만드는데 활용 가능&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h2 id=&quot;notion의-주요-기능&quot;&gt;Notion의 주요 기능&lt;/h2&gt;
 
-&lt;h2 id=&quot;국가-통계-포털-kosis&quot;&gt;국가 통계 포털 KOSIS&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://kosis.kr/index/index.do&quot;&gt;https://kosis.kr/index/index.do&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;대한민국의 다양한 통계 자료를 제공&lt;/li&gt;
-  &lt;li&gt;콘텐츠 기반 필터링 방식으로 추천 시스템을 만드는데 활용 가능&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;한국부동산원-경매물건-데이터&quot;&gt;한국부동산원 경매물건 데이터&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.reb.or.kr/reb/cm/cntnts/cntntsView.do?mi=9626&amp;amp;cntntsId=1114&quot;&gt;https://www.reb.or.kr/reb/cm/cntnts/cntntsView.do?mi=9626&amp;amp;cntntsId=1114&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;오피스텔 가격동향, 매입자 연령대별 부동산거래, 실거래가격지수 등을 제공&lt;/li&gt;
-  &lt;li&gt;부동산 거래하기 위한 가격을 추천해주는 시스템을 만드는게 활용 가능&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;한국환경공단-에어코리아-대기오염정보&quot;&gt;한국환경공단 에어코리아 대기오염정보&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.data.go.kr/tcs/dss/selectApiDataDetailView.do?publicDataPk=15073861&quot;&gt;https://www.data.go.kr/tcs/dss/selectApiDataDetailView.do?publicDataPk=15073861&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;대기오염 측정 정보를 제공&lt;/li&gt;
-  &lt;li&gt;지리정보(측정소별) 기반 추천 시스템을 만드는데 활용 가능&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;한국교통안전공단---자동차-결함-정보&quot;&gt;한국교통안전공단 - 자동차 결함 정보&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.kotsa.or.kr/portal/contents.do?menuCode=03030200&quot;&gt;https://www.kotsa.or.kr/portal/contents.do?menuCode=03030200&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;자동차 결함 정보를 제공&lt;/li&gt;
-  &lt;li&gt;협업 필터링 방식으로 추천 시스템을 만드는데 활용 가능&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">공공데이터 모음</summary></entry><entry><title type="html">TIL-토이프로젝트</title><link href="http://localhost:4000/TIL-%ED%86%A0%EC%9D%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8" rel="alternate" type="text/html" title="TIL-토이프로젝트" /><published>2023-03-05T00:00:00+09:00</published><updated>2023-03-05T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%ED%86%A0%EC%9D%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8</id><content type="html" xml:base="http://localhost:4000/TIL-%ED%86%A0%EC%9D%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8">&lt;h1 id=&quot;토이프로젝트&quot;&gt;토이프로젝트&lt;/h1&gt;
+  &lt;li&gt;문서, 테이블, 체크리스트, 일정 등의 통합&lt;/li&gt;
+  &lt;li&gt;협업 기능&lt;/li&gt;
+  &lt;li&gt;파일 첨부 기능&lt;/li&gt;
+  &lt;li&gt;체크리스트 기능&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">Notion</summary></entry><entry><title type="html">TIL-토이프로젝트</title><link href="http://localhost:4000/TIL-%ED%86%A0%EC%9D%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8" rel="alternate" type="text/html" title="TIL-토이프로젝트" /><published>2023-03-05T00:00:00+09:00</published><updated>2023-03-05T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%ED%86%A0%EC%9D%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8</id><content type="html" xml:base="http://localhost:4000/TIL-%ED%86%A0%EC%9D%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8">&lt;h1 id=&quot;토이프로젝트&quot;&gt;토이프로젝트&lt;/h1&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것이며, 하나씩 해결해나가는 느낌으로 ML을 복습 및 검토한다.&lt;/p&gt;
+  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;ul&gt;
@@ -125,7 +84,7 @@
 &lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">토이프로젝트</summary></entry><entry><title type="html">TIL-추천시스템필터링</title><link href="http://localhost:4000/TIL-%EC%B6%94%EC%B2%9C%EC%8B%9C%EC%8A%A4%ED%85%9C%ED%95%84%ED%84%B0%EB%A7%81" rel="alternate" type="text/html" title="TIL-추천시스템필터링" /><published>2023-03-05T00:00:00+09:00</published><updated>2023-03-05T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%EC%B6%94%EC%B2%9C%EC%8B%9C%EC%8A%A4%ED%85%9C%ED%95%84%ED%84%B0%EB%A7%81</id><content type="html" xml:base="http://localhost:4000/TIL-%EC%B6%94%EC%B2%9C%EC%8B%9C%EC%8A%A4%ED%85%9C%ED%95%84%ED%84%B0%EB%A7%81">&lt;h1 id=&quot;추천시스템-필터링&quot;&gt;추천시스템 필터링&lt;/h1&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것이며, 하나씩 해결해나가는 느낌으로 ML을 복습 및 검토한다.&lt;/p&gt;
+  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;blockquote&gt;
@@ -157,10 +116,91 @@
   &lt;li&gt;추천 시스템에서는 사용자의 행동 데이터(구매 이력, 검색 기록 등)를 분석하여&lt;br /&gt;
 새로운 아이템을 추천하는 방법으로 콜드 스타트(cold start) 문제를 해결할 수 있는 방법&lt;/li&gt;
   &lt;li&gt;이 방법은 새로운 사용자나 새로운 아이템에 대한 추천을 제공하기 위해 사용&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">추천시스템 필터링</summary></entry><entry><title type="html">TIL-ChatGPT</title><link href="http://localhost:4000/TIL-chatGPT" rel="alternate" type="text/html" title="TIL-ChatGPT" /><published>2023-03-04T00:00:00+09:00</published><updated>2023-03-04T00:00:00+09:00</updated><id>http://localhost:4000/TIL-chatGPT</id><content type="html" xml:base="http://localhost:4000/TIL-chatGPT">&lt;h1 id=&quot;chatgpt&quot;&gt;ChatGPT&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">추천시스템 필터링</summary></entry><entry><title type="html">TIL-공공데이터</title><link href="http://localhost:4000/TIL-%EA%B3%B5%EA%B3%B5%EB%8D%B0%EC%9D%B4%ED%84%B0" rel="alternate" type="text/html" title="TIL-공공데이터" /><published>2023-03-05T00:00:00+09:00</published><updated>2023-03-05T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%EA%B3%B5%EA%B3%B5%EB%8D%B0%EC%9D%B4%ED%84%B0</id><content type="html" xml:base="http://localhost:4000/TIL-%EA%B3%B5%EA%B3%B5%EB%8D%B0%EC%9D%B4%ED%84%B0">&lt;h1 id=&quot;공공데이터-모음&quot;&gt;공공데이터 모음&lt;/h1&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것이며, 하나씩 해결해나가는 느낌으로 ML을 복습 및 검토한다.&lt;/p&gt;
+  &lt;p&gt;기본적으로 무료로 얻을 수 있는 빅데이터 사이트를 기억하기 위해 기록&lt;br /&gt;
+데이터를 자세히 봐야겠지만 대략적인 요약과 가능할만한 간단한 아이디어를 추가 작성&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;공공데이터-포털&quot;&gt;공공데이터 포털&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.data.go.kr/index.do&quot;&gt;https://www.data.go.kr/index.do&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;공공데이터포털은 공공기관이 생성 또는 취득하여 관리하고 있는 공공데이터를 한 곳에서 제공하는 통합 창구&lt;/li&gt;
+  &lt;li&gt;포털에서는 국민이 쉽고편리하게 공공데이터를 이용할 수 있도록 파일데이터, 오픈API, 시각화 등 다양한 방식으로 제공하고 있으며, 누구라도 쉽고 편리한 검색을통해 원하는 공공데이터를 빠르고 정확하게 찾을 수 있음&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;한국문화관광연구원-문화관광-데이터&quot;&gt;한국문화관광연구원 문화관광 데이터&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.data.go.kr/data/15052709/fileData.do&quot;&gt;https://www.data.go.kr/data/15052709/fileData.do&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;한국의 여행지, 문화유산, 축제, 먹거리 등의 정보를 제공&lt;/li&gt;
+  &lt;li&gt;콘텐츠 기반 필터링 방식으로 추천 시스템을 만드는데 활용 가능&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;한국도로공사-도로교통공단-교통사고-분석-시스템-데이터&quot;&gt;한국도로공사 도로교통공단 교통사고 분석 시스템 데이터&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://taas.koroad.or.kr/api/&quot;&gt;https://taas.koroad.or.kr/api/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;교통사고 발생 정보를 제공&lt;/li&gt;
+  &lt;li&gt;협업 필터링 방식으로 추천 시스템을 만드는데 활용 가능&lt;/li&gt;
+  &lt;li&gt;교통사고가 발생했을 때 같은 조건의 관련 정보 제공&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;서울시-열린데이터광장&quot;&gt;서울시 열린데이터광장&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://data.seoul.go.kr/together/guide/useGuide.do#sample-code-4&quot;&gt;https://data.seoul.go.kr/together/guide/useGuide.do#sample-code-4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;서울시에서 제공하는 다양한 데이터를 포함&lt;/li&gt;
+  &lt;li&gt;서울시민을 대상으로 한 추천 시스템을 만드는데 활용 가능&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;국가-통계-포털-kosis&quot;&gt;국가 통계 포털 KOSIS&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kosis.kr/index/index.do&quot;&gt;https://kosis.kr/index/index.do&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;대한민국의 다양한 통계 자료를 제공&lt;/li&gt;
+  &lt;li&gt;콘텐츠 기반 필터링 방식으로 추천 시스템을 만드는데 활용 가능&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;한국부동산원-경매물건-데이터&quot;&gt;한국부동산원 경매물건 데이터&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reb.or.kr/reb/cm/cntnts/cntntsView.do?mi=9626&amp;amp;cntntsId=1114&quot;&gt;https://www.reb.or.kr/reb/cm/cntnts/cntntsView.do?mi=9626&amp;amp;cntntsId=1114&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;오피스텔 가격동향, 매입자 연령대별 부동산거래, 실거래가격지수 등을 제공&lt;/li&gt;
+  &lt;li&gt;부동산 거래하기 위한 가격을 추천해주는 시스템을 만드는게 활용 가능&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;한국환경공단-에어코리아-대기오염정보&quot;&gt;한국환경공단 에어코리아 대기오염정보&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.data.go.kr/tcs/dss/selectApiDataDetailView.do?publicDataPk=15073861&quot;&gt;https://www.data.go.kr/tcs/dss/selectApiDataDetailView.do?publicDataPk=15073861&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;대기오염 측정 정보를 제공&lt;/li&gt;
+  &lt;li&gt;지리정보(측정소별) 기반 추천 시스템을 만드는데 활용 가능&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;한국교통안전공단---자동차-결함-정보&quot;&gt;한국교통안전공단 - 자동차 결함 정보&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kotsa.or.kr/portal/contents.do?menuCode=03030200&quot;&gt;https://www.kotsa.or.kr/portal/contents.do?menuCode=03030200&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;자동차 결함 정보를 제공&lt;/li&gt;
+  &lt;li&gt;협업 필터링 방식으로 추천 시스템을 만드는데 활용 가능&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">공공데이터 모음</summary></entry><entry><title type="html">TIL-Notion</title><link href="http://localhost:4000/TIL-Slack" rel="alternate" type="text/html" title="TIL-Notion" /><published>2023-03-05T00:00:00+09:00</published><updated>2023-03-05T00:00:00+09:00</updated><id>http://localhost:4000/TIL-Slack</id><content type="html" xml:base="http://localhost:4000/TIL-Slack">&lt;h1 id=&quot;slack&quot;&gt;Slack&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;ChapGPT 기반으로 작성됨&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://slack.com/intl/ko-kr/&quot;&gt;https://slack.com/intl/ko-kr/&lt;/a&gt; 해당 링크에서 가입 후 사용&lt;/li&gt;
+  &lt;li&gt;데스크탑, 모바일 앱도 있음&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;간단하게 말하면 회사내 카카오톡&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;팀 커뮤니케이션 및 협업 도구&lt;/li&gt;
+  &lt;li&gt;팀이나 조직 내에서 대화, 파일 공유, 프로젝트 관리 및 협업을 돕는 데 사용&lt;/li&gt;
+  &lt;li&gt;간단한 인터페이스와 사용하기 쉬운 기능을 제공하여 즉각적인 메시지 전송과 파일 공유를 가능하게 함&lt;/li&gt;
+  &lt;li&gt;다양한 채널을 사용하여 대화를 구성할 수 있으며, 사용자는 특정 토픽이나 관심사에 따라 다른 채널에 참여&lt;/li&gt;
+  &lt;li&gt;다른 앱과의 통합을 지원하여 팀이 다른 도구나 서비스를 사용하면서도 팀 내에서 통신할 수 있음&lt;/li&gt;
+  &lt;li&gt;예를 들어, Google Drive, Trello, GitHub 등과 Slack을 연동하여 팀이 Slack에서 작업을 보거나 공유&lt;/li&gt;
+  &lt;li&gt;Slack은 무료 버전과 유료 버전이 있으며, 유료 버전은 추가 기능과 보안 기능을 제공&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">Slack</summary></entry><entry><title type="html">TIL-ChatGPT</title><link href="http://localhost:4000/TIL-ChatGPT" rel="alternate" type="text/html" title="TIL-ChatGPT" /><published>2023-03-04T00:00:00+09:00</published><updated>2023-03-04T00:00:00+09:00</updated><id>http://localhost:4000/TIL-ChatGPT</id><content type="html" xml:base="http://localhost:4000/TIL-ChatGPT">&lt;h1 id=&quot;chatgpt&quot;&gt;ChatGPT&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h2 id=&quot;정의&quot;&gt;정의&lt;/h2&gt;
@@ -283,7 +323,9 @@ Crowd Sourcing이라는 기술의 기초적인 이론, 즉 공동작업의 중�
 &lt;h2 id=&quot;후기&quot;&gt;후기&lt;/h2&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;한국어로는 제대로 이해하지 못하는 것 같고 영어로 질문하면 굉장히 단답형으로 대답해준다. 그리고 가장 큰 단점으로는 했던 질문에 이어서 질문을 할 수 없다는 것이다. 가장 큰 장점이 없는 챗봇은 기존에 나와있는 것도 많았기에 대화형 인공지능의 의미가 없는 것 같다.&lt;br /&gt;
+  &lt;p&gt;한국어로는 제대로 이해하지 못하는 것 같고 영어로 질문하면 굉장히 단답형으로 대답해준다. &lt;br /&gt;
+그리고 가장 큰 단점으로는 했던 질문에 이어서 질문을 할 수 없다는 것이다. &lt;br /&gt;
+가장 큰 장점이 없는 챗봇은 기존에 나와있는 것도 많았기에 대화형 인공지능의 의미가 없는 것 같다.&lt;br /&gt;
 그리고 아래 model_engine의 종류를 적었는데 무료라고 나와있는것은 옆에다가 적어놓아지만 다른 것도 실행은 가능한 것 같으니 직접 확인은 해보는게 좋을 것 같다.&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -303,7 +345,83 @@ Crowd Sourcing이라는 기술의 기초적인 이론, 즉 공동작업의 중�
   &lt;li&gt;content-filter-alpha : &lt;strong&gt;불순물을 제거&lt;/strong&gt;하여 적절하지 않은 콘텐츠를 &lt;strong&gt;필터링&lt;/strong&gt;하는 데 사용됩니다.&lt;/li&gt;
   &lt;li&gt;text-davinci-002-001 : 다양한 자연어 처리 태스크에 적합한 모델. 이 모델은 text-davinci-002 모델보다 약간 작은 모델.&lt;/li&gt;
   &lt;li&gt;davinci-junior : OpenAI API에서 사용 가능한 모델 중 가장 작은 모델 중 하나. 이 모델은 davinci 모델보다 작고 강력한 성능을 제공하지는 않음. 작은 규모의 자연어 처리 작업에 적합&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="programing" /><category term="python" /><summary type="html">ChatGPT with Python python에서 chatGPT 이용하기 기본 라이브러리 설치는 github ChatGPT 링크에서 설치 개인 api_key 링크 는 해당 링크에서 얻으면 됨 model_engine은 여러가지 모델이 있으므로 목적에 따라 원하는 모델로 선택</summary></entry><entry><title type="html">병합정렬</title><link href="http://localhost:4000/%EB%B3%91%ED%95%A9%EC%A0%95%EB%A0%AC" rel="alternate" type="text/html" title="병합정렬" /><published>2023-03-02T00:00:00+09:00</published><updated>2023-03-02T00:00:00+09:00</updated><id>http://localhost:4000/%EB%B3%91%ED%95%A9%EC%A0%95%EB%A0%AC</id><content type="html" xml:base="http://localhost:4000/%EB%B3%91%ED%95%A9%EC%A0%95%EB%A0%AC">&lt;h1 id=&quot;병합정렬-merge-sorting&quot;&gt;병합정렬 Merge Sorting&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="programing" /><category term="python" /><summary type="html">ChatGPT with Python python에서 chatGPT 이용하기 기본 라이브러리 설치는 github ChatGPT 링크에서 설치 개인 api_key 링크 는 해당 링크에서 얻으면 됨 model_engine은 여러가지 모델이 있으므로 목적에 따라 원하는 모델로 선택</summary></entry><entry><title type="html">선형회귀</title><link href="http://localhost:4000/%EC%84%A0%ED%98%95%ED%9A%8C%EA%B7%80" rel="alternate" type="text/html" title="선형회귀" /><published>2023-03-02T00:00:00+09:00</published><updated>2023-03-02T00:00:00+09:00</updated><id>http://localhost:4000/%EC%84%A0%ED%98%95%ED%9A%8C%EA%B7%80</id><content type="html" xml:base="http://localhost:4000/%EC%84%A0%ED%98%95%ED%9A%8C%EA%B7%80">&lt;h1 id=&quot;선형회귀&quot;&gt;선형회귀&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;선형회귀-1&quot;&gt;선형회귀 1&lt;/h1&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;주어진 데이터에 대해 선형 회귀 모델을 구현하고, 새로운 입력값에 대해 예측을 수행하는 함수를 작성하시오.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;numpy&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;LinearRegression&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;coefficients&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;fit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# Add a column of 1s to the input X
+&lt;/span&gt;        &lt;span class=&quot;n&quot;&gt;X&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ones&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;shape&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+
+        &lt;span class=&quot;c1&quot;&gt;# Calculate the coefficients using the normal equation
+&lt;/span&gt;        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;coefficients&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;linalg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;inv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;T&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;@&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;@&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;T&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;@&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;predict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# Add a column of 1s to the input X
+&lt;/span&gt;        &lt;span class=&quot;n&quot;&gt;X&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ones&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;shape&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+
+        &lt;span class=&quot;c1&quot;&gt;# Calculate the predicted values using the learned coefficients
+&lt;/span&gt;        &lt;span class=&quot;n&quot;&gt;y_pred&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;X&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;@&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;coefficients&lt;/span&gt;
+
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y_pred&lt;/span&gt;
+    
+
+&lt;span class=&quot;c1&quot;&gt;# 테스트 데이터 생성
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;lr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;LinearRegression&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;lr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# 새로운 값 예측
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x_new&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;11&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]])&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;y_new&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;predict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x_new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y_new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[12.93333333 14.1030303  15.27272727]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;선형회귀-2&quot;&gt;선형회귀 2&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;주어진 데이터에 대해 sklearn 선형회귀 모델을 사용하여 새로운 입력값에 대해 예측을 수행하는 함수를 작성하시오.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;numpy&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sklearn.linear_model&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;LinearRegression&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# 테스트 데이터 생성
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# 선형 회귀 모델 학습
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;model&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;LinearRegression&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reshape&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# 새로운 값 예측
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x_new&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;11&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]])&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;y_new&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;predict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x_new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y_new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[12.93333333 14.1030303  15.27272727]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="programing" /><category term="python" /><summary type="html">선형회귀</summary></entry><entry><title type="html">병합정렬</title><link href="http://localhost:4000/%EB%B3%91%ED%95%A9%EC%A0%95%EB%A0%AC" rel="alternate" type="text/html" title="병합정렬" /><published>2023-03-02T00:00:00+09:00</published><updated>2023-03-02T00:00:00+09:00</updated><id>http://localhost:4000/%EB%B3%91%ED%95%A9%EC%A0%95%EB%A0%AC</id><content type="html" xml:base="http://localhost:4000/%EB%B3%91%ED%95%A9%EC%A0%95%EB%A0%AC">&lt;h1 id=&quot;병합정렬-merge-sorting&quot;&gt;병합정렬 Merge Sorting&lt;/h1&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것&lt;/p&gt;
@@ -396,112 +514,34 @@ Crowd Sourcing이라는 기술의 기초적인 이론, 즉 공동작업의 중�
       &lt;li&gt;정렬되어 있는 데이터라도 삽입순서에 따라 성능차이가 나므로 데이터의 상태가 성능의 주요요인이다.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="programing" /><category term="python" /><summary type="html">병합정렬 Merge Sorting</summary></entry><entry><title type="html">선형회귀</title><link href="http://localhost:4000/%EC%84%A0%ED%98%95%ED%9A%8C%EA%B7%80" rel="alternate" type="text/html" title="선형회귀" /><published>2023-03-02T00:00:00+09:00</published><updated>2023-03-02T00:00:00+09:00</updated><id>http://localhost:4000/%EC%84%A0%ED%98%95%ED%9A%8C%EA%B7%80</id><content type="html" xml:base="http://localhost:4000/%EC%84%A0%ED%98%95%ED%9A%8C%EA%B7%80">&lt;h1 id=&quot;선형회귀&quot;&gt;선형회귀&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;선형회귀-1&quot;&gt;선형회귀 1&lt;/h1&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;주어진 데이터에 대해 선형 회귀 모델을 구현하고, 새로운 입력값에 대해 예측을 수행하는 함수를 작성하시오.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;numpy&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;LinearRegression&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;coefficients&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;
-
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;fit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;c1&quot;&gt;# Add a column of 1s to the input X
-&lt;/span&gt;        &lt;span class=&quot;n&quot;&gt;X&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ones&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;shape&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-
-        &lt;span class=&quot;c1&quot;&gt;# Calculate the coefficients using the normal equation
-&lt;/span&gt;        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;coefficients&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;linalg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;inv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;T&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;@&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;@&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;T&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;@&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;
-
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;predict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;c1&quot;&gt;# Add a column of 1s to the input X
-&lt;/span&gt;        &lt;span class=&quot;n&quot;&gt;X&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ones&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;shape&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-
-        &lt;span class=&quot;c1&quot;&gt;# Calculate the predicted values using the learned coefficients
-&lt;/span&gt;        &lt;span class=&quot;n&quot;&gt;y_pred&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;X&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;@&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;coefficients&lt;/span&gt;
-
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y_pred&lt;/span&gt;
-    
-
-&lt;span class=&quot;c1&quot;&gt;# 테스트 데이터 생성
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;lr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;LinearRegression&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;lr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;# 새로운 값 예측
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x_new&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;11&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]])&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;y_new&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;predict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x_new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y_new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[12.93333333 14.1030303  15.27272727]
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;선형회귀-2&quot;&gt;선형회귀 2&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;주어진 데이터에 대해 sklearn 선형회귀 모델을 사용하여 새로운 입력값에 대해 예측을 수행하는 함수를 작성하시오.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;numpy&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;
-&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sklearn.linear_model&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;LinearRegression&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;# 테스트 데이터 생성
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;# 선형 회귀 모델 학습
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;model&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;LinearRegression&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reshape&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;# 새로운 값 예측
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x_new&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;11&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]])&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;y_new&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;predict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x_new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y_new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[12.93333333 14.1030303  15.27272727]
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="programing" /><category term="python" /><summary type="html">선형회귀</summary></entry><entry><title type="html">삽입정렬</title><link href="http://localhost:4000/%EC%82%BD%EC%9E%85%EC%A0%95%EB%A0%AC" rel="alternate" type="text/html" title="삽입정렬" /><published>2023-03-01T00:00:00+09:00</published><updated>2023-03-01T00:00:00+09:00</updated><id>http://localhost:4000/%EC%82%BD%EC%9E%85%EC%A0%95%EB%A0%AC</id><content type="html" xml:base="http://localhost:4000/%EC%82%BD%EC%9E%85%EC%A0%95%EB%A0%AC">&lt;h1 id=&quot;삽입정렬-insertion-sorting&quot;&gt;삽입정렬 Insertion Sorting&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="programing" /><category term="python" /><summary type="html">병합정렬 Merge Sorting</summary></entry><entry><title type="html">버블정렬</title><link href="http://localhost:4000/%EB%B2%84%EB%B8%94%EC%A0%95%EB%A0%AC" rel="alternate" type="text/html" title="버블정렬" /><published>2023-03-01T00:00:00+09:00</published><updated>2023-03-01T00:00:00+09:00</updated><id>http://localhost:4000/%EB%B2%84%EB%B8%94%EC%A0%95%EB%A0%AC</id><content type="html" xml:base="http://localhost:4000/%EB%B2%84%EB%B8%94%EC%A0%95%EB%A0%AC">&lt;h1 id=&quot;버블정렬-bubble-sorting&quot;&gt;버블정렬 bubble Sorting&lt;/h1&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;정렬되지 않은 원소를 정렬된 부분집합에 삽입하는 방법으로 &lt;strong&gt;이미 정렬된 배열&lt;/strong&gt;에 &lt;strong&gt;새로운 원소&lt;/strong&gt;를 &lt;strong&gt;추가&lt;/strong&gt;할 때 효율적으로 작동하는 알고리즘&lt;/p&gt;
+  &lt;p&gt;인접한 두 개의 원소를 비교하여 큰 수를 오른쪽으로, 작은 수를 왼쪽으로 이동시키는 정렬 알고리즘&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&quot;삽입정렬-1&quot;&gt;삽입정렬 1&lt;/h2&gt;
+&lt;h2 id=&quot;버블정렬-1&quot;&gt;버블정렬 1&lt;/h2&gt;
 
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;insertion_sort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;# 모든 요소를 비교하기 위해 n-2번 반복
-&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)):&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;key&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 삽입할 원소
-&lt;/span&gt;        &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 정렬된 배열의 크기 + 삽입할 원소
-&lt;/span&gt;        &lt;span class=&quot;c1&quot;&gt;# j -&amp;gt; 0 범위로 줄여가면서 key값보다 작을 때까지 또는 j만큼 반복이 끝났을 때 종료
-&lt;/span&gt;        &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;bubble_sort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# 반복문을 돌면서 배열의 모든 요소를 비교
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# 각 반복에서 오른쪽 끝에서부터 i번째까지 비교하면서 swap
+&lt;/span&gt;        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 한번에 swap 이 가능하다
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;insertion_sort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;64&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;34&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;25&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;22&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;11&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;90&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;bubble_sort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[1, 1, 1, 1, 1, 3]
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[11, 12, 22, 25, 34, 64, 90]
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;ul&gt;
@@ -509,189 +549,23 @@ Crowd Sourcing이라는 기술의 기초적인 이론, 즉 공동작업의 중�
     &lt;ul&gt;
       &lt;li&gt;첫번째 반복문
         &lt;ul&gt;
-          &lt;li&gt;모든 요소를 비교하기 위해 1~n 범위로 비교한다.&lt;/li&gt;
+          &lt;li&gt;모든 요소를 비교하기 위해 n-1번 비교한다.&lt;/li&gt;
+          &lt;li&gt;n번째는 n-1에서 정해지기 때문에 할 필요가 없다.&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;두번쨰 반복문
+      &lt;li&gt;두번째 반복문
         &lt;ul&gt;
-          &lt;li&gt;정렬된 배열의 크기 + 삽입할 원소의 크기만큼 반복&lt;/li&gt;
-          &lt;li&gt;j -&amp;gt; 0 범위로 줄여가면서 key값보다 작을 떄까지 또는 j만큼 반복이 끝났을 때 종료&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;마지막 Swap
-        &lt;ul&gt;
-          &lt;li&gt;두번째 반복문이 끝나면 j+1 인덱스의 위치에 값이 들어갈 위치가 된다.&lt;/li&gt;
+          &lt;li&gt;오른쪽 끝에서부터 i번째부터 비교하면서 swap한다.&lt;/li&gt;
+          &lt;li&gt;0 ~ (n-i-1) 까지만 비교해서 가장 큰수가 두번째 반복문이 끝날 때마다 고정된다.&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;시간복잡도
+  &lt;li&gt;시간 복잡도
     &lt;ul&gt;
-      &lt;li&gt;최선의 경우 O(N)으로 굉장히 빠른편에 속한다.&lt;/li&gt;
-      &lt;li&gt;최악의 경우 O(N^2)으로 굉장히 느려 최선의 경우와 차이가 많이 난다.&lt;/li&gt;
-      &lt;li&gt;정렬되어 있는 데이터라도 삽입순서에 따라 성능차이가 나므로 데이터의 상태가 성능의 주요요인이다.&lt;/li&gt;
+      &lt;li&gt;최선의 경우 &lt;strong&gt;O(n)&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;평균과 최악의 경우 &lt;strong&gt;O(n^2)&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;이는 정렬할 리스트의 크기가 커질수록 정렬 시간이 길어진다는 것을 의미&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="programing" /><category term="python" /><summary type="html">삽입정렬 Insertion Sorting</summary></entry><entry><title type="html">Hash</title><link href="http://localhost:4000/%ED%95%B4%EC%8B%9C" rel="alternate" type="text/html" title="Hash" /><published>2023-03-01T00:00:00+09:00</published><updated>2023-03-01T00:00:00+09:00</updated><id>http://localhost:4000/%ED%95%B4%EC%8B%9C</id><content type="html" xml:base="http://localhost:4000/%ED%95%B4%EC%8B%9C">&lt;h1 id=&quot;해시-hash&quot;&gt;해시 Hash&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;해시란&quot;&gt;해시란&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;일반적으로 &lt;strong&gt;빠른 데이터 검색&lt;/strong&gt;을 위해 사용되는 &lt;strong&gt;데이터 구조&lt;/strong&gt;로 많이 사용&lt;/li&gt;
-  &lt;li&gt;해시는 &lt;strong&gt;키-값&lt;/strong&gt; 쌍으로 데이터를 저장
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;각 키에 대해 고유한 해시 코드를 생성&lt;/strong&gt;하여 데이터를 저장하고 검색&lt;/li&gt;
-      &lt;li&gt;이를 통해 매우 빠른 검색 시간을 달성&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;문자열 검색, 문자열 비교, 중복 항목 찾기 및 빈번한 항목 찾기와 같은 일부 문제에 사용&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;해시 테이블&lt;/strong&gt;은 배열과 같은 데이터 구조로 구현
-    &lt;ul&gt;
-      &lt;li&gt;배열의 인덱스를 계산하기 위해 해시 함수가 사용&lt;/li&gt;
-      &lt;li&gt;키를 입력으로 받아 해시 코드를 반환&lt;/li&gt;
-      &lt;li&gt;일반적으로 입력 키의 각 문자의 아스키 코드 값을 합산한 후, 배열의 크기로 나눈 나머지 값을 해시 코드로 사용&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;해시 충돌&lt;/strong&gt;은 서로 다른 두 입력 키에 대해 동일한 해시 코드가 생성되는 경우
-    &lt;ul&gt;
-      &lt;li&gt;해결하기 위해 해시 충돌 해결 기법 중 하나는 &lt;strong&gt;해시 버킷(Bucket)&lt;/strong&gt; 을 사용&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;해시 버킷&lt;/strong&gt;은 각각의 인덱스에 대해 연결 리스트와 같은 구조&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;충돌이 발생한 경우&lt;/strong&gt; 같은 버킷에 연결 리스트를 추가하여 다른 입력 키와의 충돌을 방지&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;암호학적 해시(cryptographic hash)가 사용&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;보안&lt;/strong&gt; 및 &lt;strong&gt;무결성 검사&lt;/strong&gt;를 위해 사용&lt;/li&gt;
-      &lt;li&gt;입력 메시지의 고유한 고정 크기 출력 값을 생성&lt;/li&gt;
-      &lt;li&gt;이러한 함수는 해시 테이블에서 사용되는 &lt;strong&gt;일반적인 해시 함수와는 다름&lt;/strong&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;참조-영상&quot;&gt;참조 영상&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=xls6jEZNA7Y&quot;&gt;해시-해시테이블-해싱 5분만에 이해하기 - Gunny&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;확실히 이미지로 인식하는게 더 좋은 것 같다. 간단하게 다룬 내용으로 개념만 이해하기&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;python-예제&quot;&gt;python 예제&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/해시-예제1&quot;&gt;해시 예제1&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/해시-예제2&quot;&gt;해시 예제2&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="programing" /><category term="python" /><summary type="html">해시 Hash</summary></entry><entry><title type="html">Hash example 2</title><link href="http://localhost:4000/%ED%95%B4%EC%8B%9C-%EC%98%88%EC%8B%9C2" rel="alternate" type="text/html" title="Hash example 2" /><published>2023-03-01T00:00:00+09:00</published><updated>2023-03-01T00:00:00+09:00</updated><id>http://localhost:4000/%ED%95%B4%EC%8B%9C%20%EC%98%88%EC%8B%9C2</id><content type="html" xml:base="http://localhost:4000/%ED%95%B4%EC%8B%9C-%EC%98%88%EC%8B%9C2">&lt;h1 id=&quot;해시-hash-예시-2&quot;&gt;해시 Hash 예시 2&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;함수&quot;&gt;함수&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;해시 테이블 생성
-    &lt;ul&gt;
-      &lt;li&gt;크기가 100인 배열 초기화 &lt;strong&gt;__init__&lt;/strong&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;해시 코드 생성 &lt;strong&gt;hash_function&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;각 문자의 아스키 코드 값을 합산&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;삽입 함수
-    &lt;ul&gt;
-      &lt;li&gt;해시테이블의 주어진 해시 코드값을 인덱스로 &lt;strong&gt;연결리스트&lt;/strong&gt;를 이용하여 삽입&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;검색 함수
-    &lt;ul&gt;
-      &lt;li&gt;해시테이블에서 주어진 해시 코드값으로 인덱스로 연결리스트를 타고 주어진 키 값을 비교하면서 검색&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;삭제 함수
-    &lt;ul&gt;
-      &lt;li&gt;검색함수와 과정은 비슷하나 enumerate를 사용하여 index도 같이 구해서 del 로 편하게 삭제&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HashTable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;# 해시테이블 초기화
-&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;max_size&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;table&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;max_size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;# 해시코드 생성
-&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# 기준 : 아스키코드 합산
-&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;get_hash_key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;hash_key&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;hash_key&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;char&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hash_key&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;max_size&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;# 삽입 함수
-&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# 연결리스트로 해시테블에 해당 인덱스에 추가 
-&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;hash_key&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get_hash_key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;item&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;enumerate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hash_key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]):&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-                &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hash_key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-                &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hash_key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-        
-    &lt;span class=&quot;c1&quot;&gt;# 검색 함수
-&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# 해시테이블에서 키값의 해시코드를 찾아서 출력하거나 없으면 None 출력
-&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;hash_key&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get_hash_key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;item&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hash_key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-                &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;# 삭제 함수
-&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;delete&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;hash_key&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get_hash_key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;item&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;enumerate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hash_key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]):&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-                &lt;span class=&quot;k&quot;&gt;del&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hash_key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-                &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# 예시
-# 해시테이블 생성
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hash_table&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;HashTable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;# 삽입
-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;(apple, 10) 삽입&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;hash_table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;apple&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;(banana, 20) 삽입&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;hash_table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;banana&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;(orange, 30) 삽입&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;hash_table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;orange&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;# 검색
-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;apple 검색 :&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hash_table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;apple&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 10
-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;grape 검색 :&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hash_table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;grape&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# None
-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;# 삭제
-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;apple 삭제&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;hash_table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;delete&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;apple&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# apple 삭제
-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# 검색
-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;apple 검색 :&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hash_table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;apple&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;(apple, 10) 삽입
-(banana, 20) 삽입
-(orange, 30) 삽입
-
-apple 검색 : 10
-grape 검색 : None
-
-apple 삭제
-
-apple 검색 : None
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="programing" /><category term="python" /><summary type="html">해시 Hash 예시 2</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="programing" /><category term="python" /><summary type="html">버블정렬 bubble Sorting</summary></entry></feed>
