@@ -8,16 +8,31 @@
     
       
       <item>
-        <title>항공사 만족도 분류 Modeling</title>
+        <title>TIL-Python Warning무시</title>
         
-          <description>&lt;h1 id=&quot;항공사-만족도-분류-분류-모델-구현&quot;&gt;항공사 만족도 분류 분류 모델 구현&lt;/h1&gt;
+          <description>&lt;h1 id=&quot;python-warning-무시하는-방법&quot;&gt;Python Warning 무시하는 방법&lt;/h1&gt;
 
 </description>
         
-        <pubDate>Mon, 06 Mar 2023 00:00:00 +0900</pubDate>
+        <pubDate>Tue, 07 Mar 2023 00:00:00 +0900</pubDate>
         <link>
-        http://localhost:4000/%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_Modeling</link>
-        <guid isPermaLink="true">http://localhost:4000/%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_Modeling</guid>
+        http://localhost:4000/TIL-python_warning%EB%AC%B4%EC%8B%9C</link>
+        <guid isPermaLink="true">http://localhost:4000/TIL-python_warning%EB%AC%B4%EC%8B%9C</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>TIL-HTML DataFrame 출력 조절</title>
+        
+          <description>&lt;h1 id=&quot;html-dataframe-출력-조절하기&quot;&gt;HTML DataFrame 출력 조절하기&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Tue, 07 Mar 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/TIL-HTML_DataFrame%EC%B6%9C%EB%A0%A5</link>
+        <guid isPermaLink="true">http://localhost:4000/TIL-HTML_DataFrame%EC%B6%9C%EB%A0%A5</guid>
       </item>
       
     
@@ -36,6 +51,52 @@
         <link>
         http://localhost:4000/%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_EDA</link>
         <guid isPermaLink="true">http://localhost:4000/%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_EDA</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>항공사 만족도 분류 Modeling</title>
+        
+          <description>&lt;h1 id=&quot;항공사-만족도-분류-모델-구현&quot;&gt;항공사 만족도 분류 모델 구현&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Mon, 06 Mar 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_Modeling</link>
+        <guid isPermaLink="true">http://localhost:4000/%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_Modeling</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>TIL-HTML 페이지 내 이동</title>
+        
+          <description>&lt;p&gt;&lt;a name=&quot;want&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;html-페이지-내-이동&quot;&gt;HTML 페이지 내 이동&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Mon, 06 Mar 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/TIL-HTML%ED%8E%98%EC%9D%B4%EC%A7%80%EB%82%B4%EC%9D%B4%EB%8F%99</link>
+        <guid isPermaLink="true">http://localhost:4000/TIL-HTML%ED%8E%98%EC%9D%B4%EC%A7%80%EB%82%B4%EC%9D%B4%EB%8F%99</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>TIL-HTML 토글 설정</title>
+        
+          <description>&lt;h1 id=&quot;html-토글-설정-jekyll&quot;&gt;HTML 토글 설정 (jekyll)&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Mon, 06 Mar 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/TIL-HTML%ED%86%A0%EA%B8%80%EC%84%A4%EC%A0%95</link>
+        <guid isPermaLink="true">http://localhost:4000/TIL-HTML%ED%86%A0%EA%B8%80%EC%84%A4%EC%A0%95</guid>
       </item>
       
     

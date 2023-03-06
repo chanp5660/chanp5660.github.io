@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/til/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-03-06T21:55:59+09:00</updated>
+  <updated>2023-03-07T01:32:02+09:00</updated>
   <id>http://localhost:4000/tag/til/feed.xml</id>
 
   
@@ -30,6 +30,711 @@
   
   
 
+  
+    <entry>
+      <title type="html">TIL-HTML DataFrame 출력 조절</title>
+      <link href="http://localhost:4000/TIL-HTML_DataFrame%EC%B6%9C%EB%A0%A5" rel="alternate" type="text/html" title="TIL-HTML DataFrame 출력 조절" />
+      <published>2023-03-07T00:00:00+09:00</published>
+      <updated>2023-03-07T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-HTML_DataFrame%EC%B6%9C%EB%A0%A5</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-HTML_DataFrame%EC%B6%9C%EB%A0%A5">&lt;h1 id=&quot;html-dataframe-출력-조절하기&quot;&gt;HTML DataFrame 출력 조절하기&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;ipynb 을 이용하여 github blog를 다루고 있기 때문에 html에서 dataframe은 매우 크게 나와 가독성에 문제가 생기므로 해결책을 찾습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;테이블-크기-조정&quot;&gt;테이블 크기 조정&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;데이터 프레임을 출력하는 HTML 테이블의 크기를 조정하여 가독성을 높일 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;스크롤바를 추가하는 것보다 더 복잡하지만, 더욱 세밀한 제어가 가능하고 아래는 테이블 크기를 조정하는 예제 코드입니다.&lt;/li&gt;
+  &lt;li&gt;단점으로는 출력하기 위한 python 코드가 table 내에서 주석으로 처리되어 출력됩니다.&lt;/li&gt;
+  &lt;li&gt;그래도 출력 결과물을 보니 가독성이 훨씬 좋아진 것 같습니다.&lt;/li&gt;
+  &lt;li&gt;블로그 만들때 귀찮을 것 같은데 자동으로 md 형태에서 html에 넣을 때 자동으로 고쳐주는 프로그램을 만들어야겠습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{html}&quot;&gt;&amp;lt;table style=&quot;width:50%&quot;&amp;gt;
+  &amp;lt;!-- 데이터 프레임 출력 코드 --&amp;gt;
+&amp;lt;/table&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{html}&quot;&gt;&amp;lt;table style=&quot;width:50%&quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;table style=&quot;width:50%&quot;&gt;
+
+
+```python
+train.head()
+```
+
+
+
+
+&lt;div&gt;
+&lt;style scoped=&quot;&quot;&gt;
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+&lt;/style&gt;
+&lt;table border=&quot;1&quot; class=&quot;dataframe&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr style=&quot;text-align: right;&quot;&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;id&lt;/th&gt;
+      &lt;th&gt;Gender&lt;/th&gt;
+      &lt;th&gt;Customer Type&lt;/th&gt;
+      &lt;th&gt;Age&lt;/th&gt;
+      &lt;th&gt;Type of Travel&lt;/th&gt;
+      &lt;th&gt;Class&lt;/th&gt;
+      &lt;th&gt;Flight Distance&lt;/th&gt;
+      &lt;th&gt;Inflight wifi service&lt;/th&gt;
+      &lt;th&gt;Departure/Arrival time convenient&lt;/th&gt;
+      &lt;th&gt;Ease of Online booking&lt;/th&gt;
+      &lt;th&gt;...&lt;/th&gt;
+      &lt;th&gt;Inflight entertainment&lt;/th&gt;
+      &lt;th&gt;On-board service&lt;/th&gt;
+      &lt;th&gt;Leg room service&lt;/th&gt;
+      &lt;th&gt;Baggage handling&lt;/th&gt;
+      &lt;th&gt;Checkin service&lt;/th&gt;
+      &lt;th&gt;Inflight service&lt;/th&gt;
+      &lt;th&gt;Cleanliness&lt;/th&gt;
+      &lt;th&gt;Departure Delay in Minutes&lt;/th&gt;
+      &lt;th&gt;Arrival Delay in Minutes&lt;/th&gt;
+      &lt;th&gt;satisfaction&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;0&lt;/th&gt;
+      &lt;td&gt;84455&lt;/td&gt;
+      &lt;td&gt;Female&lt;/td&gt;
+      &lt;td&gt;disloyal Customer&lt;/td&gt;
+      &lt;td&gt;23&lt;/td&gt;
+      &lt;td&gt;Business travel&lt;/td&gt;
+      &lt;td&gt;Eco&lt;/td&gt;
+      &lt;td&gt;290&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;1&lt;/th&gt;
+      &lt;td&gt;90180&lt;/td&gt;
+      &lt;td&gt;Male&lt;/td&gt;
+      &lt;td&gt;Loyal Customer&lt;/td&gt;
+      &lt;td&gt;61&lt;/td&gt;
+      &lt;td&gt;Personal Travel&lt;/td&gt;
+      &lt;td&gt;Eco&lt;/td&gt;
+      &lt;td&gt;957&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2&lt;/th&gt;
+      &lt;td&gt;33002&lt;/td&gt;
+      &lt;td&gt;Male&lt;/td&gt;
+      &lt;td&gt;Loyal Customer&lt;/td&gt;
+      &lt;td&gt;43&lt;/td&gt;
+      &lt;td&gt;Personal Travel&lt;/td&gt;
+      &lt;td&gt;Eco&lt;/td&gt;
+      &lt;td&gt;163&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;3&lt;/th&gt;
+      &lt;td&gt;124430&lt;/td&gt;
+      &lt;td&gt;Female&lt;/td&gt;
+      &lt;td&gt;Loyal Customer&lt;/td&gt;
+      &lt;td&gt;28&lt;/td&gt;
+      &lt;td&gt;Personal Travel&lt;/td&gt;
+      &lt;td&gt;Eco&lt;/td&gt;
+      &lt;td&gt;1262&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;4&lt;/th&gt;
+      &lt;td&gt;93970&lt;/td&gt;
+      &lt;td&gt;Female&lt;/td&gt;
+      &lt;td&gt;Loyal Customer&lt;/td&gt;
+      &lt;td&gt;39&lt;/td&gt;
+      &lt;td&gt;Business travel&lt;/td&gt;
+      &lt;td&gt;Business&lt;/td&gt;
+      &lt;td&gt;1218&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;satisfied&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;5 rows × 24 columns&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+&lt;/table&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{html}&quot;&gt;&amp;lt;/table&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{html}&quot;&gt;&amp;lt;table style=&quot;width:50%&quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;table style=&quot;width:50%&quot;&gt;
+
+
+```python
+display(train.head())
+```
+
+
+&lt;div&gt;
+&lt;style scoped=&quot;&quot;&gt;
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+&lt;/style&gt;
+&lt;table border=&quot;1&quot; class=&quot;dataframe&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr style=&quot;text-align: right;&quot;&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;id&lt;/th&gt;
+      &lt;th&gt;Gender&lt;/th&gt;
+      &lt;th&gt;Customer Type&lt;/th&gt;
+      &lt;th&gt;Age&lt;/th&gt;
+      &lt;th&gt;Type of Travel&lt;/th&gt;
+      &lt;th&gt;Class&lt;/th&gt;
+      &lt;th&gt;Flight Distance&lt;/th&gt;
+      &lt;th&gt;Inflight wifi service&lt;/th&gt;
+      &lt;th&gt;Departure/Arrival time convenient&lt;/th&gt;
+      &lt;th&gt;Ease of Online booking&lt;/th&gt;
+      &lt;th&gt;...&lt;/th&gt;
+      &lt;th&gt;Inflight entertainment&lt;/th&gt;
+      &lt;th&gt;On-board service&lt;/th&gt;
+      &lt;th&gt;Leg room service&lt;/th&gt;
+      &lt;th&gt;Baggage handling&lt;/th&gt;
+      &lt;th&gt;Checkin service&lt;/th&gt;
+      &lt;th&gt;Inflight service&lt;/th&gt;
+      &lt;th&gt;Cleanliness&lt;/th&gt;
+      &lt;th&gt;Departure Delay in Minutes&lt;/th&gt;
+      &lt;th&gt;Arrival Delay in Minutes&lt;/th&gt;
+      &lt;th&gt;satisfaction&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;0&lt;/th&gt;
+      &lt;td&gt;84455&lt;/td&gt;
+      &lt;td&gt;Female&lt;/td&gt;
+      &lt;td&gt;disloyal Customer&lt;/td&gt;
+      &lt;td&gt;23&lt;/td&gt;
+      &lt;td&gt;Business travel&lt;/td&gt;
+      &lt;td&gt;Eco&lt;/td&gt;
+      &lt;td&gt;290&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;1&lt;/th&gt;
+      &lt;td&gt;90180&lt;/td&gt;
+      &lt;td&gt;Male&lt;/td&gt;
+      &lt;td&gt;Loyal Customer&lt;/td&gt;
+      &lt;td&gt;61&lt;/td&gt;
+      &lt;td&gt;Personal Travel&lt;/td&gt;
+      &lt;td&gt;Eco&lt;/td&gt;
+      &lt;td&gt;957&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2&lt;/th&gt;
+      &lt;td&gt;33002&lt;/td&gt;
+      &lt;td&gt;Male&lt;/td&gt;
+      &lt;td&gt;Loyal Customer&lt;/td&gt;
+      &lt;td&gt;43&lt;/td&gt;
+      &lt;td&gt;Personal Travel&lt;/td&gt;
+      &lt;td&gt;Eco&lt;/td&gt;
+      &lt;td&gt;163&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;3&lt;/th&gt;
+      &lt;td&gt;124430&lt;/td&gt;
+      &lt;td&gt;Female&lt;/td&gt;
+      &lt;td&gt;Loyal Customer&lt;/td&gt;
+      &lt;td&gt;28&lt;/td&gt;
+      &lt;td&gt;Personal Travel&lt;/td&gt;
+      &lt;td&gt;Eco&lt;/td&gt;
+      &lt;td&gt;1262&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;4&lt;/th&gt;
+      &lt;td&gt;93970&lt;/td&gt;
+      &lt;td&gt;Female&lt;/td&gt;
+      &lt;td&gt;Loyal Customer&lt;/td&gt;
+      &lt;td&gt;39&lt;/td&gt;
+      &lt;td&gt;Business travel&lt;/td&gt;
+      &lt;td&gt;Business&lt;/td&gt;
+      &lt;td&gt;1218&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;satisfied&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;5 rows × 24 columns&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;/table&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{html}&quot;&gt;&amp;lt;/table&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">HTML DataFrame 출력 조절하기</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">TIL-Python Warning무시</title>
+      <link href="http://localhost:4000/TIL-python_warning%EB%AC%B4%EC%8B%9C" rel="alternate" type="text/html" title="TIL-Python Warning무시" />
+      <published>2023-03-07T00:00:00+09:00</published>
+      <updated>2023-03-07T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-python_warning%EB%AC%B4%EC%8B%9C</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-python_warning%EB%AC%B4%EC%8B%9C">&lt;h1 id=&quot;python-warning-무시하는-방법&quot;&gt;Python Warning 무시하는 방법&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;블로그에 ipynb을 올릴 때 머신러닝의 경우 모델 학습할 때 경고가 너무 많이 출력됩니다. 이를 처리하는 방법을 알아봅니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;경고를-아예-무시하는-방법&quot;&gt;경고를 아예 무시하는 방법&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;warnings 모듈을 사용하여 모든 경고 메시지를 무시&lt;/li&gt;
+  &lt;li&gt;코드를 실행하면 프로그램 전체에서 경고 메시지를 무시&lt;/li&gt;
+  &lt;li&gt;이 방법은 경고 메시지가 중요하지 않거나 무시할 수 있는 경우에만 사용하는 것이 좋습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{python}&quot;&gt;import warnings
+warnings.filterwarnings(&quot;ignore&quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;경고를-무시하는-대신-로그에-적는-방법&quot;&gt;경고를 무시하는 대신 로그에 적는 방법&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;코드를 실행하면 모든 경고 메시지가 로그로 저장&lt;/li&gt;
+  &lt;li&gt;경고 메시지를 무시하지 않으면서도 콘솔 출력을 깨끗하게 유지&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{python}&quot;&gt;import logging
+logging.captureWarnings(True)
+&lt;/code&gt;&lt;/pre&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">Python Warning 무시하는 방법</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">TIL-HTML 토글 설정</title>
+      <link href="http://localhost:4000/TIL-HTML%ED%86%A0%EA%B8%80%EC%84%A4%EC%A0%95" rel="alternate" type="text/html" title="TIL-HTML 토글 설정" />
+      <published>2023-03-06T00:00:00+09:00</published>
+      <updated>2023-03-06T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-HTML%ED%86%A0%EA%B8%80%EC%84%A4%EC%A0%95</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-HTML%ED%86%A0%EA%B8%80%EC%84%A4%EC%A0%95">&lt;h1 id=&quot;html-토글-설정-jekyll&quot;&gt;HTML 토글 설정 (jekyll)&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;jekyll을 이용하여 깃허브 블로그를 운영하던 중에 토글을 사용하여 목차를 다루게 된다면 포스팅 상단부 쪽을 활용할 수 있을 것 같다.&lt;/li&gt;
+  &lt;li&gt;상단부가 길어질까봐 추가하지 못했었다.&lt;/li&gt;
+  &lt;li&gt;링크와 체크박스 등 마크다운의 기능을 이용할 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{html}&quot;&gt;&amp;lt;details&amp;gt;
+&amp;lt;summary&amp;gt;python 예제 목차&amp;lt;/summary&amp;gt;
+&amp;lt;div markdown=&quot;1&quot;&amp;gt;
+
+- [ ] [선택정렬](https://chanp5660.github.io/선택정렬)
+- [ ] [삽입정렬](https://chanp5660.github.io/삽입정렬)
+- [ ] [버블정렬](https://chanp5660.github.io/버블정렬)
+- [ ] [병합정렬](https://chanp5660.github.io/병합정렬)
+- [ ] 힙정렬
+- [ ] 퀵정렬
+- [ ] 기수정렬
+
+&amp;lt;/div&amp;gt;
+&amp;lt;/details&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">HTML 토글 설정 (jekyll)</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">TIL-HTML 페이지 내 이동</title>
+      <link href="http://localhost:4000/TIL-HTML%ED%8E%98%EC%9D%B4%EC%A7%80%EB%82%B4%EC%9D%B4%EB%8F%99" rel="alternate" type="text/html" title="TIL-HTML 페이지 내 이동" />
+      <published>2023-03-06T00:00:00+09:00</published>
+      <updated>2023-03-06T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-HTML%ED%8E%98%EC%9D%B4%EC%A7%80%EB%82%B4%EC%9D%B4%EB%8F%99</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-HTML%ED%8E%98%EC%9D%B4%EC%A7%80%EB%82%B4%EC%9D%B4%EB%8F%99">&lt;p&gt;&lt;a name=&quot;want&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;html-페이지-내-이동&quot;&gt;HTML 페이지 내 이동&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;github blog는 jekyll을 이용하기 때문에 결론적으로 HTML을 이용하여 만들어진다.&lt;/li&gt;
+  &lt;li&gt;마크다운 내 이동 링크는 작동하지 않기 때문에 HTML을 사용하여 이동하게 한다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;a-태그를-이용하는-방법&quot;&gt;a 태그를 이용하는 방법&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;a 태그를 이용해서 name 을 정해 원하는 곳으로 이동한다.&lt;/li&gt;
+  &lt;li&gt;기존에 있는 글에 a 태그를 감싸는 것도 좋지만 원하는 빈공간에 작성하는게 헷갈리지 않고 좋다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;예시&quot;&gt;예시&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;코드&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{html}&quot;&gt;&amp;lt;a href=&quot;#want&quot;&amp;gt;제목으로 이동&amp;lt;/a&amp;gt; // 원하는 빈공간에 작성
+
+&amp;lt;a name=&quot;want&quot;&amp;gt;&amp;lt;/a&amp;gt; // 이동할 위치에 작성
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#want&quot;&gt;제목으로 이동&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">HTML 페이지 내 이동</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">TIL-토이프로젝트</title>
+      <link href="http://localhost:4000/TIL-%ED%86%A0%EC%9D%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8" rel="alternate" type="text/html" title="TIL-토이프로젝트" />
+      <published>2023-03-05T00:00:00+09:00</published>
+      <updated>2023-03-05T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-%ED%86%A0%EC%9D%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-%ED%86%A0%EC%9D%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8">&lt;h1 id=&quot;토이프로젝트&quot;&gt;토이프로젝트&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;새로운 아이디어나 기술 등을 실험하거나 개발자 스스로의 학습 및 연습 목적으로 진행하는 작은 규모의 프로젝트&lt;/li&gt;
+  &lt;li&gt;주로 개인 또는 소규모 개발자들이 진행하며, 실제 상용화나 비즈니스에 사용되는 것이 아니라 단순히 새로운 기술이나 아이디어를 구현하거나 개인적인 목적으로 만들어지는 것&lt;/li&gt;
+  &lt;li&gt;이러한 토이 프로젝트는 개발자들의 역량 향상과 취미로서의 즐거움을 위해 많이 진행&lt;/li&gt;
+  &lt;li&gt;예를 들면, 간단한 웹 어플리케이션 개발, 게임 제작, 자동화 스크립트 작성 등&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;머신러닝-엔지니어-토이프로젝트-로드맵&quot;&gt;머신러닝 엔지니어 토이프로젝트 로드맵&lt;/h1&gt;
+
+&lt;h3 id=&quot;1-문제-정의&quot;&gt;1. 문제 정의&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;프로젝트의 목적과 해결하고자 하는 문제를 명확하게 이해하고 정의&lt;/li&gt;
+  &lt;li&gt;예를 들어, 스팸 필터링, 이미지 분류, 추천 시스템 등과 같은 목적&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;2-데이터-수집&quot;&gt;2. 데이터 수집&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;모델을 학습시키기 위해서는 충분한 양의 데이터가 필요&lt;/li&gt;
+  &lt;li&gt;데이터를 수집할 때는 충분히 다양한 데이터를 수집&lt;/li&gt;
+  &lt;li&gt;데이터의 품질과 라벨링이 정확하게 이루어져야 함&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;3-데이터-전처리&quot;&gt;3. 데이터 전처리&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;수집한 데이터를 분석하기 위해서는 데이터를 전처리&lt;/li&gt;
+  &lt;li&gt;결측치 처리, 이상치 제거, 데이터 정규화 등과 같은 작업을 수행&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;4-모델-선택&quot;&gt;4. 모델 선택&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;문제 정의와 데이터를 기반으로 적합한 모델을 선택&lt;/li&gt;
+  &lt;li&gt;예를 들어, 회귀 모델, 분류 모델, 클러스터링 모델 등을 선택&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;5-모델-학습&quot;&gt;5. 모델 학습&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;선택한 모델을 학습&lt;/li&gt;
+  &lt;li&gt;이를 위해 데이터를 훈련 데이터와 검증 데이터로 나누고, 학습 알고리즘을 적용&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;6-모델-평가&quot;&gt;6. 모델 평가&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;학습된 모델을 평가하여 성능을 확인&lt;/li&gt;
+  &lt;li&gt;이를 위해 검증 데이터를 사용하여 모델의 정확도, 정밀도, 재현율, F1-score 등을 계산&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;7-모델-적용&quot;&gt;7. 모델 적용&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;최종 모델을 적용하여 예측&lt;/li&gt;
+  &lt;li&gt;이를 위해 실시간 예측, 배치 처리 등과 같은 방법을 사용&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;8-모델-개선&quot;&gt;8. 모델 개선&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;모델의 성능을 높이기 위해 다양한 방법을 적용&lt;/li&gt;
+  &lt;li&gt;예를 들어, 하이퍼파라미터 튜닝, 앙상블 학습 등과 같은 방법을 사용&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">토이프로젝트</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">TIL-추천시스템필터링</title>
@@ -313,104 +1018,6 @@
     </entry>
   
     <entry>
-      <title type="html">TIL-토이프로젝트</title>
-      <link href="http://localhost:4000/TIL-%ED%86%A0%EC%9D%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8" rel="alternate" type="text/html" title="TIL-토이프로젝트" />
-      <published>2023-03-05T00:00:00+09:00</published>
-      <updated>2023-03-05T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-%ED%86%A0%EC%9D%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-%ED%86%A0%EC%9D%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8">&lt;h1 id=&quot;토이프로젝트&quot;&gt;토이프로젝트&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;새로운 아이디어나 기술 등을 실험하거나 개발자 스스로의 학습 및 연습 목적으로 진행하는 작은 규모의 프로젝트&lt;/li&gt;
-  &lt;li&gt;주로 개인 또는 소규모 개발자들이 진행하며, 실제 상용화나 비즈니스에 사용되는 것이 아니라 단순히 새로운 기술이나 아이디어를 구현하거나 개인적인 목적으로 만들어지는 것&lt;/li&gt;
-  &lt;li&gt;이러한 토이 프로젝트는 개발자들의 역량 향상과 취미로서의 즐거움을 위해 많이 진행&lt;/li&gt;
-  &lt;li&gt;예를 들면, 간단한 웹 어플리케이션 개발, 게임 제작, 자동화 스크립트 작성 등&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;머신러닝-엔지니어-토이프로젝트-로드맵&quot;&gt;머신러닝 엔지니어 토이프로젝트 로드맵&lt;/h1&gt;
-
-&lt;h3 id=&quot;1-문제-정의&quot;&gt;1. 문제 정의&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;프로젝트의 목적과 해결하고자 하는 문제를 명확하게 이해하고 정의&lt;/li&gt;
-  &lt;li&gt;예를 들어, 스팸 필터링, 이미지 분류, 추천 시스템 등과 같은 목적&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;2-데이터-수집&quot;&gt;2. 데이터 수집&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;모델을 학습시키기 위해서는 충분한 양의 데이터가 필요&lt;/li&gt;
-  &lt;li&gt;데이터를 수집할 때는 충분히 다양한 데이터를 수집&lt;/li&gt;
-  &lt;li&gt;데이터의 품질과 라벨링이 정확하게 이루어져야 함&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;3-데이터-전처리&quot;&gt;3. 데이터 전처리&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;수집한 데이터를 분석하기 위해서는 데이터를 전처리&lt;/li&gt;
-  &lt;li&gt;결측치 처리, 이상치 제거, 데이터 정규화 등과 같은 작업을 수행&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;4-모델-선택&quot;&gt;4. 모델 선택&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;문제 정의와 데이터를 기반으로 적합한 모델을 선택&lt;/li&gt;
-  &lt;li&gt;예를 들어, 회귀 모델, 분류 모델, 클러스터링 모델 등을 선택&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;5-모델-학습&quot;&gt;5. 모델 학습&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;선택한 모델을 학습&lt;/li&gt;
-  &lt;li&gt;이를 위해 데이터를 훈련 데이터와 검증 데이터로 나누고, 학습 알고리즘을 적용&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;6-모델-평가&quot;&gt;6. 모델 평가&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;학습된 모델을 평가하여 성능을 확인&lt;/li&gt;
-  &lt;li&gt;이를 위해 검증 데이터를 사용하여 모델의 정확도, 정밀도, 재현율, F1-score 등을 계산&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;7-모델-적용&quot;&gt;7. 모델 적용&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;최종 모델을 적용하여 예측&lt;/li&gt;
-  &lt;li&gt;이를 위해 실시간 예측, 배치 처리 등과 같은 방법을 사용&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;8-모델-개선&quot;&gt;8. 모델 개선&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;모델의 성능을 높이기 위해 다양한 방법을 적용&lt;/li&gt;
-  &lt;li&gt;예를 들어, 하이퍼파라미터 튜닝, 앙상블 학습 등과 같은 방법을 사용&lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">토이프로젝트</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
       <title type="html">TIL-ChatGPT</title>
       <link href="http://localhost:4000/TIL-ChatGPT" rel="alternate" type="text/html" title="TIL-ChatGPT" />
       <published>2023-03-04T00:00:00+09:00</published>
@@ -486,1101 +1093,6 @@
 
       
         <summary type="html">ChatGPT</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">TIL-웨인힐스벤처스</title>
-      <link href="http://localhost:4000/TIL-%EC%9B%A8%EC%9D%B8%ED%9E%90%EC%8A%A4%EB%B2%A4%EC%B2%98%EC%8A%A4" rel="alternate" type="text/html" title="TIL-웨인힐스벤처스" />
-      <published>2023-02-24T00:00:00+09:00</published>
-      <updated>2023-02-24T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-%EC%9B%A8%EC%9D%B8%ED%9E%90%EC%8A%A4%EB%B2%A4%EC%B2%98%EC%8A%A4</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-%EC%9B%A8%EC%9D%B8%ED%9E%90%EC%8A%A4%EB%B2%A4%EC%B2%98%EC%8A%A4">&lt;h1 id=&quot;웨인힐스벤처스&quot;&gt;웨인힐스벤처스&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;내가 상상만 했던 것이 현실로 진행한 회사&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;누구나 책을 읽으면서 간략하게 요약해줬으면 좋겠다라는 생각을 한다. 최근에 chatGPT 가 나오기전에 몰랐던 사람도 많고 속도가 빠르지 않거나 원하는 정도의 수준으로 나오지 않아 실사용 되는 경우가 적었다. 웨인힐스벤처스는 더 나아가 요약한 부분을 영상으로 요약해주는 것까지 생각하여 굉장한 흥미와 실사용에도 사용할정도로 결과가 좋은 것 같다. NLP를 공부해보아서 기술적인 부분이 얼마나 어려운 구성인가를 알기 때문에 더 잘 보이는 것 같다. 유투브 홍보영상을 보았는데 대부분 영어로 말씀을 하시는데 ㅠ 영어공부를 역시 해야겠다는 생각이 든다. 회사에 수준에는 못 미칠 수 있지만 합격한다면 나도 회사도 같이 발전할 수 있을 것 같다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;웨인힐스벤처스-기본-정보&quot;&gt;웨인힐스벤처스 기본 정보&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.waynehills.co/home&quot;&gt;공식사이트&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2017.6월 설립&lt;/li&gt;
-  &lt;li&gt;사원수 : 36명&lt;/li&gt;
-  &lt;li&gt;가장 최근 뉴스로는 2022 CES 단독부스를 맡은 것
-    &lt;ul&gt;
-      &lt;li&gt;&lt;span style=&quot;color:blue&quot;&gt;그만큼 획기적이고 발전가능성이 높다는 것을 알 수 있다. &lt;/span&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;서울시우수기업브랜드 선정&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;서비스&quot;&gt;서비스&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;TTV(Text to Video)
-    &lt;ul&gt;
-      &lt;li&gt;텍스트로 요약본과 영상 클립등을 결과로 받아볼 수 있다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;STV(Speech to Video)
-    &lt;ul&gt;
-      &lt;li&gt;음성으로 요약본과 영상 클립등을 결과로 받아볼 수 있다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;연혁&quot;&gt;연혁&lt;/h1&gt;
-
-&lt;p&gt;2017.06 웨인힐스 A.I 시작
-2017.06 Established Wayne Hills A.I&lt;/p&gt;
-
-&lt;p&gt;​&lt;/p&gt;
-
-&lt;p&gt;2018&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;산업자원통상부(주최) 정보통신산업진흥원 (주관) “지식서비스 글로벌 수출기업  3위 선정”&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Ministry of Commerce, Industry and Energy (sponsored) Information and Communication Industry Promotion Agency (sponsored) “Selected as the 3rd largest exporter of knowledge service”&lt;/p&gt;
-
-&lt;p&gt;​&lt;/p&gt;
-
-&lt;p&gt;2019&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;정보통신산업진흥원 ICT 콤플렉스 SW개발 스타트업 선정.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Selected as a start-up for ICT complex SW development by the Information and Communication Industry Promotion Agency.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;한화 드림플러스 &amp;amp; 예스24 엑셀러레이터 선정.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Selected as Hanwha Dream Plus &amp;amp; Yes24 Accelerator.&lt;/p&gt;
-
-&lt;p&gt;3.(주식회사 법인전환 [자본금 3천만원]&lt;/p&gt;
-
-&lt;p&gt;(Conversion to corporation [Capital 30 million ]&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;디캠프 (스마트 스터디 벤처스) 디데이 스타트업 선정.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;D.camp (Smart Study Ventures) D-Day Startup Selection.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;RISING X 동남아시아 베트남 하노이/호치민 한국 테크스타트업  2위선정.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;RISING X Southeast Asia Vietnam Hanoi/Ho Chi Minh Korea ranked second in tech startups.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;삼성전자 2020 C-Lab 스타트업 선정.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Selected as a 2020 C-Lab startup by Samsung Electronics.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;프리팁스 선정&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Pre-TIPS(Tech Incubator Program for startup) selection&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;정보통신 산업진흥원  K-GLOBAL 스타트업 선정.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Selected as a K-GLOBAL startup by the Information and Communication Industry Promotion Agency&lt;/p&gt;
-
-&lt;p&gt;​&lt;/p&gt;
-
-&lt;p&gt;​&lt;/p&gt;
-
-&lt;p&gt;2020&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;2020  『IBK창공(創工) 혁신 창업기업 스타트업 선정.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;2020  『IBK Changgong(創工) selected as an innovative start-up company.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;2020  신한퓨처스랩 6기 AI (인공지능) 스타트업 선정.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;2020  Shinhan Futures Lab 6th AI (Artificial Intelligence) start-up selection.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;2020  기술보증기금 주관 “2020년 제6기 기보벤처캠프” 혁신창업기업 선정&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;2020  Selected as “2020 6th Notation Venture Camp” by the Technology Guarantee Fund&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;2020  현대중공업 기술공모 120대 1 경쟁 인공지능 기술 스타트업 선정&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;2020  Selected as a 120-to-1 competitive artificial intelligence technology start-up for Hyundai Heavy Industries&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;2020  롯데컬처웍스 인공지능 자동화 콘텐츠 기업 스타트업  선정&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;2020  Selected as a start-up for artificial intelligence automation contents by Lotte Culture Works&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;2020  CJ ENM  인공지능 밸류체인  협력사 선정&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;2020  Selected as a partner company for CJ ENM Artificial Intelligence Value Chain&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;2020  포스코 IMP 파트너사 선정&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;2020  Selected as POSCO IMP Partner&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;2020  제2회 B-스타트업 챌린지 대상 1위선정 (주)웨인힐스벤처스&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;2020  2nd B-Start-up Challenge Grand Prize winner Wayne Hills Ventures Co., Ltd.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;2020  LG 사이언스파크 인공지능 스타트업 선정&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;2020  LG Science Park AI start-up selection&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;과학기술정보통신부 민관협력기반 ICT 스타트업육성사업 선정  R&amp;amp;D 5억원 유치&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Selected as an ICT start-up promotion project based on public-private cooperation by the Ministry of Science and Technology Information and Communication Attracts 500 million KRW in R&amp;amp;D&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;[Born2Global Centre] Boot-X  USA EAST SIDE  테크 스타트업 선정&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;[Born2Global Center] Boot-X USA EAST SIDE tech startup selection&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;솔트룩스 AI 컨퍼런스 ‘SAC 2020’ 인공지능 데카콘 최우수상 선정&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Saltlux AI Conference’SAC 2020’, Artificial Intelligence Decacon Selected as the Grand Prize&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;한국데이타 산업진흥원  AI인공지능 데이터바우처 사업 선정&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Selected for AI AI data voucher project by Korea Data Industry Promotion Agency​&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;마포혁신타운 ‘프론트1’  1기 혁신창업기업 선정&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Mapo Innovation Town “Front 1” Selected as the 1st innovative startup company&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;2021년 미국 라스베이거스 국제가전전시회(CES)동행. 혁신기업 최우수상 선정&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Attend the 2021 Las Vegas International Home Appliances Exhibition (CES).  Selected as the best innovative company&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;코리아 스타트업 포럼 회원사  등록&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Registered as a member of the Korea Startup Forum&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;마곡산업단지 입주기업 도레이첨단소재, S-OIL, LG사이언스파크, 코오롱미래기술원 지정 미래 유망 기술을 보유 스타트업 우수기업 선정&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Designated as a tenant company in Magok Industrial Complex, Toray Advanced Materials, S-OIL, LG Science Park, and Kolon Future Technology Institute / Selected as an excellent startup company with promising future technology&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;솔트룩스 (코스닥 상장사) 전략적 업무협약 체결 (SI &amp;amp; FI)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Saltlux (KOSDAQ listed company) strategic business agreement signed (SI &amp;amp; FI)&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;하나은행 Agile Lab. AI 기반 영상 자동생성 솔루션.금융상품 및 서비스 연구개발 협약.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Hana Bank Agile Lab. AI based video automatic generation solution. Financial product and service R&amp;amp;D agreement.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;중소벤처기업부 .언택트 소상공인 자영업자를 위한 생활혁신형 기술개발사업 선정&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Ministry of SMEs and Startups Selected as a life-innovative technology development project for the self-employed small business owners of Untact&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;제4회 서울혁신챌린지 인공지능 4차산업 관련  WAYNE HILLS AI . 기술분야 선정.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;The 4th Seoul Innovation Challenge WAYNE HILLS AI related to the 4th artificial intelligence industry.  Technical field selection.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;HI PARTNERS(HITECH INVESTMENT) 러시아 대표 투자기업과 MOU.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;HI PARTNERS (HITECH INVESTMENT) MOU with a representative Russian investment company.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;스타트업 : 알려줌(컨텐츠)  / BGM 팩토리(음원) JOINT MOU.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Startup: Inform (contents)  / BGM factory (sound source) JOINT MOU.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;서울창업허브‘우수 스타트업 베트남 진출 프로그램’선정 및 웨인힐스 협약체결&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Seoul Startup Hub “Excellent Startup Program to Enter Vietnam” and Signed Wayne Hills&lt;/p&gt;
-
-&lt;p&gt;Agreement&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;웨인힐스 벤처기업 인증&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Wayne Hills . Venture Business Certification&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;[2020 서울금융위크] IP(지식재산) 컴피티션 서울시장상(대상)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;[2020 Seoul Financial Week] IP (Intellectual Property) Competition Seoul Mayor Award (Grand Prize)&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;서울 캠퍼스타운〈2020 X-TECH 기술창업 대회&amp;gt; 대상&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Seoul Campus Town &amp;lt;2020 X-TECH Technology Startup Competition&amp;gt; Grand Prize&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;2020년도 K-Global@China K-Pitch  과학기술정보통신부 장관상&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;2020 K-Global@China K-Pitch Minister of Science and Technology Information and Communication Award&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;한국무역협회 &amp;amp; 한국능률협회컨설팅 디지털 뉴딜 사업 MOU&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Korea International Trade Association &amp;amp; Korea Management Association Consulting Digital New Deal Business MOU&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;중국 北京金麗羊投資管理有限公司(북경금리양 투자관리공사) 및 北京英括昌盛按資管理有限公司(북경영괄창성안자관리유한공사) 와 투자의향 체결&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Signed the intention to invest in Chinese institutions&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;문화체육관광부 2020 일하기 좋은 여가친화기업 선정&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Selected as a good leisure-friendly company for work by the Ministry of Culture, Sports and Tourism 2020&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;2020 서울시 우수중소기업 “하이 서울기업인증 “&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;2020 Seoul Excellent Small and Medium Enterprise “High Seoul Enterprise Certification”&lt;/p&gt;
-
-&lt;p&gt;​&lt;/p&gt;
-
-&lt;p&gt;2021&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;인공지능 TTV IP 22건 특허출원등록 / STV IP 8건 특허출원등록&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Artificial intelligence TTV IP 22 patent application registration / STV IP 8 patent application registration&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;KB금융, ‘2021 KB스타터스 22개사’ 선정 (웨인힐스벤처스)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Selected as “2021 KB Starters 22 Companies” by KB Finance (Wain Hills Ventures)&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;(주)웨인힐스 자본금증자 7억원&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Wayne Hills  Capital increase of 700 million won&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;코트라 글로벌 300 점프 스타트업 선정&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Wayne Hills  Selected as KOTRA Global 300 Jump Startup&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;스페인 바르셀로나 개최 MWC 한국참가기업 스타트업 선정&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Held in Barcelona, ​​Spain, MWC selected as a Korean startup&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;2021.06 웨인힐스 TIPS ( Tech Incubator Program for Startup) 팁스선정&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;2021.06 Selected as TIPS (Tech Incubator Program for Startup) by Wayne Hills&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;한국 마이크로 소프트  마중프로그램 협업 스타트업 선정&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Selected as a collaboration start-up for Microsoft’s meeting program in Korea&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;「2021 샌프란시스코 전시회 (테크크런치 디스럽트)」 KOTRA 한국관 스타트업 선정&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;2021 San Francisco Exhibition (TechCrunch Disrupt)」 KOTRA Korean Pavilion Startup Selection&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;IPO 코스닥 상장 주관사 신영증권 선정.계약체결&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Selected Shinyoung Securities as the organizer of the IPO KOSDAQ listing and signed a contract&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;벤처기업협회 비상장  2021년 우수벤처기업 웨인힐스 선정&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Selected as an excellent venture company in 2021 by the Venture Business Association, unlisted venture company, Wayne Hills&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;우리금융지주 ‘디노랩(Digital Innovation Lab)’ 인공지능 협력사 선정&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Woori Financial Group’s ‘Dino Lab (Digital Innovation Lab)’ selected as an artificial intelligence partner&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;천재교육 오픈이노베이션 스타트업 선정&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Selected as a genius education open innovation startup&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;교원구몬 오픈이노베이션 스타트업 선정&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Selected as Kyowon Gumon Open Innovation Startup&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;대한민국 AI 혁신 생태계를 이끌어갈 ‘국가대표’ 스타트업 100개사 (KOREA AI START UP 100)’&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;웨인힐스벤처스 선정&lt;/p&gt;
-
-&lt;p&gt;Selected as ‘Korea AI START UP 100’ by 100 ‘National Team’ startups to lead Korea’s AI innovation&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;CES 2022 Innovation Awards 선정 (STV(Speech to Video) &amp;amp; 제품 카테고리: 소프트웨어 및 모바일 앱)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Selected as CES 2022 Innovation Awards&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;2021 대한민국발명특허대전 특허청장 수상&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;2021&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Korea Patent Office Awarded&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;2021 기술창업기업 - 중소기업기술정보진흥원장상’ 최우수상&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;2021&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Technology Startup - Best Small and Medium Business Technology Information Promotion Award’&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;2022&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;캘리포니아 산타클라라 LLC 설립 . Wayne Hillls  IN Silicon Valley LLC&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;한국거래소 기술평가기관  이크레더블 로부터 웨인힐스 AA 등급 획득
-Acquired Wayne Hills  AA rating from Korea Exchange technology evaluation agency Incredible&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;서울시 강서구 마곡기업과의 공동연구개발 및 고도화 추진 사업자 선정&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;창업진흥원 . 글로벌 ICT 미래 유니콘 육성(ICT GROWTH) 선정&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;중소벤처기업부 아기유니콘 200 선정&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;삼성증권 오픈콜라보레이션 인공지능 기업선정&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;KT Bridge LAB 협력사 선정&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;K-BIZ 중소기업중앙회 공로상 수상&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;서울투자청(Invest Seoul) ‘CORE(코어) 100’ 선정&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;(중진공) 서울 4대 미래성장산업 유망선도기업 선정&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;우리은행 기업디지털공급망플랫폼 ‘원비즈플라자’ 서비스 제공&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;중소벤처기업부  기술혁신형기업 ‘이노비즈’인증 ‘&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;네이버 클라우드 전략적 관계 형성을 위한 포괄적 업무제휴 협약&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;이노비즈 협회 . 혁신기업 국무총리표창 수상&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;한국생산성 본부 . 미래유니콘 산업자원통산부 장관표창 수상&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;한국무역협회 수출입 회원사 솔루션 공급&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;KT 프라이빗 5G DX 솔루션 선정&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;세계인공지능대회(WAIC) 기술 트렌드 연사&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;매일경제 미디어그룹 전략적 제휴 계약체결&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;삼성증권 TTV 자동화 영상컨텐츠 계약체결&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;교보생명 이노스테이지 스타트업 선정&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;2023&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;CES 단독부스 참여&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;지능정보산업협회 2023년 Emerging AI+X Top100 선정&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2023 에디슨 어워드 Global Finalist 선정.&lt;/li&gt;
-  &lt;li&gt;TTV.AI 안드로이드 APP 1만7천명 돌파.&lt;/li&gt;
-  &lt;li&gt;삼성 글로벌 인력개발원 파트너사 선정&lt;/li&gt;
-&lt;/ol&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">웨인힐스벤처스</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">TIL-엔텔스</title>
-      <link href="http://localhost:4000/TIL-%EC%97%94%ED%85%94%EC%8A%A4" rel="alternate" type="text/html" title="TIL-엔텔스" />
-      <published>2023-02-23T00:00:00+09:00</published>
-      <updated>2023-02-23T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-%EC%97%94%ED%85%94%EC%8A%A4</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-%EC%97%94%ED%85%94%EC%8A%A4">&lt;h1 id=&quot;엔텔스&quot;&gt;엔텔스&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;확장되고 있는 회사&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;에너지를 관리 하는 느낌으로 아이디어를 가지고 있지만 실제로 서비스의 종류는 굉장히 많다.(통신, IoT 및 에너지 / 제조 산업분야) 우선 기초 데이터 관리까지는 다 통일 되겠지만 어떻게 분석 및 서비스 하는지에 따라 굉장히 분야가 다양하다. 아마 사원수가 많아서 관리가 되는 듯 하다. 이미 잡혀있어 각자의 분야가 잡혀있어 하나의 전문일을 할 수 있을 듯하지만 SI(시스템 통합)인원으로 책정되어 있어 확인할 수 없다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;엔텔스-1&quot;&gt;엔텔스&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.ntels.com/ir/&quot;&gt;공식 사이트 참조&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2000년 7월 19일 설립(업력24년차)&lt;/li&gt;
-  &lt;li&gt;사원수 : 209명(2022.12 기준)
-    &lt;ul&gt;
-      &lt;li&gt;입사자의 수보다 퇴사자의 수가 늘고 있음&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;엔텔스는 Creative Convergence라는 비전을 통해 IoT, Cloud, Bigdata, Industry 4.0등 컨버전스가 만들어내는 기회를 고객이 사업화로 연결하도록 도와주는 토털 컨버전스 솔루션을 제공합니다.
-    &lt;ul&gt;
-      &lt;li&gt;통신 분야 솔루션 리더로 성장&lt;/li&gt;
-      &lt;li&gt;다양한 분야로의 도전, 컨버전스 사업 확장&lt;/li&gt;
-      &lt;li&gt;IoT 및 에너지 / 제조 산업분야의 컨버전스 사업 확장&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://comp.fnguide.com/SVO2/ASP/SVD_Finance.asp?pGB=1&amp;amp;gicode=A069410&amp;amp;cID=&amp;amp;MenuYn=Y&amp;amp;ReportGB=&amp;amp;NewMenuID=103&amp;amp;stkGb=701&quot;&gt;재무제표&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;span style=&quot;color:blue&quot;&gt;매출은 조금씩 성장하는 것에 비해 순이익은 전년 대비 매우 감소했다. 유동 자산이 많고 비유동자산이 적어 임금의 문제는 적을 것으로 예상되지만 그에 비해 부채가 적어 회사의 돈이 제대로 굴러가고 있는지 확인 할 수 없다. 부채의 비율은 계속 줄어든다. 투자가 줄어드는 시기이긴하다. 그래서 현금흐름표에서 투자활동으로 인한 유입이 적지 않은 것으로 판단된다. 물론… 유출액도 적지 않다.&lt;/span&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;크게-4개의-서비스-제공&quot;&gt;크게 4개의 서비스 제공&lt;/h1&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- ENERGY
-    - 에너지 경영을 위한 관리
-    - 전력 사업에 특화된 BSS
-    - 에너지 데이터 분석
-    - **IoT Platform, EMS Power BSS, Energy Data Algorithm**을 기반으로 에너지 관리와 에너지 거래를 위한 비지니스 솔루션을 제공하고 있습니다.
-- Smart City
-    - 안전 및 방재 관리
-    - 도시 환경 최적화
-    - 지속 가능성 제고
-    - 도시 에너지 서비스
-    - 도시 환경 관리 및 교통 서비스
-    - 범죄 예방 / 안전
-- Telecommunications
-    - 국제 표준 규격 준수
-    - 최적화된 네트워크
-    - 시장 변화에 대한 민첩성
-    - 5G &amp;amp; LTE
-    - 가상화 &amp;amp; 클라우드
-    - 운영 지원(OSS)
-- Manufacturing
-    - 지능형 인명 및 자산 안전 관리
-    - 공장 운영 최적화 자산 관리
-    - 에너지 데이터 분석
-    - 산업 안전 관리
-    - 설비 및 장비 관리
-    - 에너지 관리
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h1 id=&quot;연혁&quot;&gt;연혁&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2012
-    &lt;ul&gt;
-      &lt;li&gt;12년 선도벤처연계 창업지원사업 (선도기업선정)&lt;br /&gt;
-  선도벤처 보육기업 3팀 “더누보, 모코플렉스, 바인트리”&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2013
-    &lt;ul&gt;
-      &lt;li&gt;13년 선도벤처연계 창업지원사업 (선도기업선정)&lt;br /&gt;
-  선도벤처 보육기업 2팀 “두나무, 제트플러스”, 계속사업 보육 기업 2팀 “모코틀렉스, 바인트리”&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2014
-    &lt;ul&gt;
-      &lt;li&gt;14년 선도벤처연계 창업지원사업 (선도기업선정)&lt;br /&gt;
-  선도벤처 보육기업 2팀 “라임코어, 헥사우스”&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2015
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;팁스프로그램 3기 운영사 선정&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;15년 팁스프로그램&lt;br /&gt;
-  창업팀 팁스프로그램 선정 3기업 “티앤알바이오팹, 퍼릭스, 브랜디”&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;15년 선도벤처연계 창업지원사업 (선도기업선정)&lt;br /&gt;
-  선도벤처 보육기업 1팀 “다르마”&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;15년 투자연계형기업성장R&amp;amp;D지원사업 (주관기관선정)&lt;br /&gt;
-  창업팀 6기업 선정 “펀다, 임플릿, 선의의경쟁, 데이코어, 크레딧데이터, 이피플래닛”&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2016
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;TECHSEED 플랫폼 창단 (1기) 운영&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;16년 팁스프로그램&lt;br /&gt;
-  창업팀 팁스프로그램 선정 3기업 “데이코어, 실리콘사피엔스, 마이쿤”
-  엔텔스 Startup Value-up 1호 개인투자조합 결성 (한국모태펀드)&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;16년 투자연계형기업성장R&amp;amp;D지원사업 (주관기관선정)
-  창업팀 2기업 선정 “인텔리퀀트, 나무”&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;16년 엑셀러레이터 연계지원사업 (주관기관선정)- 서울, 인천창조경제혁신센터
-  보육기업 4팀 선정 “스마프, 태주산업, 피트”&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;16년 선도벤처연계 창업지원사업 (선도기업선정)
-  선도벤처 계속 사업 보육 1팀 “노바테크”&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2017
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;TECHSEED 2기 운영&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;17년 팁스프로그램
-  창업팀 팁스프로그램 6기업 선정 “해빗팩토리, 칸필터, 하프스, 엠티이지, 딥브레인, 네이처코스텍”&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;p&gt;-17년 엑셀러레이터 연계지원사업 (참여기관선정)- 대전, 인천창조경제혁신센터
-  보육기업 4팀 선정 “인프로, 칸필터, 네이처코스텍, 마이모바일”&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;17년 투자연계형기업성장R&amp;amp;D지원사업 (주관기관선정)
-  창업팀 1팀 “실리콘사피엔스” 선정&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;17년 선도벤처연계 창업지원사업 (선도기업선정)
-  선도벤처 보육기업 2팀 “유엑스팩토리, 알루머”&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2018
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;TECHSEED 3기 운영&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;18년 팁스프로그램
-  창업팀 팁스프로그램 선정 “인더코어비즈니스플랫폼”
-  창업팀 팁스프로그램 선정 “오르비스에이아이”
-  창업팀 팁스프로그램 선정 “이엔셀”
-  9월까지 총 33개의 창업팀에 투자, 5개의 기업 Exited&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">엔텔스</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">TIL-액션파워</title>
-      <link href="http://localhost:4000/TIL-%EC%95%A1%EC%85%98%ED%8C%8C%EC%9B%8C" rel="alternate" type="text/html" title="TIL-액션파워" />
-      <published>2023-02-20T00:00:00+09:00</published>
-      <updated>2023-02-20T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-%EC%95%A1%EC%85%98%ED%8C%8C%EC%9B%8C</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-%EC%95%A1%EC%85%98%ED%8C%8C%EC%9B%8C">&lt;h1 id=&quot;액션파워&quot;&gt;액션파워&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;국내 최초 음성 인식 기술 활용 인공지능 받아쓰기 타이틀&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;간단한 알람 설정, 메모, 네비게이션 등 음성인식을 자주 쓰는데 이 분야에서 경쟁사 중에서도 최초 최고인 것은 큰 장점으로 생각되고 충분히 성장 가능성 있는 아이템이다. 내 전공과도 비슷한 경향이 있으며 음성으로 받고 그것을 분석하는 것으로 하면 회사에 도움이 될 것 같다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;액션파워-1&quot;&gt;액션파워&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://actionpower.kr/&quot;&gt;공식 사이트&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2016년 설립&lt;/li&gt;
-  &lt;li&gt;서비스 앱 &lt;strong&gt;다글로&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;2019년 4월 출시, 2017년 국내 최초로 음성 인식 기술을 활용하여 만든 인공지능 받아쓰기 서비스&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;사원수 : 47명(2023.1 기준)
-    &lt;ul&gt;
-      &lt;li&gt;&lt;span style=&quot;color:blue&quot;&gt;인원수가 빠르게 늘고 있는 것 같으며 퇴사자는 적은것으로 보다 체계가 잘 잡혀 있는 것 같다.&lt;/span&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;가장 최근 &lt;a href=&quot;https://actionpower.kr/article/13&quot;&gt;뉴스&lt;/a&gt;
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;올해 AI 스타트업 100 명단
-AI 솔루션 기업 ‘강세’
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;연혁&quot;&gt;연혁&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2021
-    &lt;ul&gt;
-      &lt;li&gt;11
-        &lt;ul&gt;
-          &lt;li&gt;시리즈 A 133억 원 투자 유치&lt;/li&gt;
-          &lt;li&gt;삼성금융 Open Collaboration 우수상 수상&lt;/li&gt;
-          &lt;li&gt;대한민국 ICT대상 과학기술정보통신부 장관상 수상&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2020
-    &lt;ul&gt;
-      &lt;li&gt;08
-        &lt;ul&gt;
-          &lt;li&gt;NH Digital Challenge+ 4기 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;06
-        &lt;ul&gt;
-          &lt;li&gt;하나은행 1Q Agile Lab 10기 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;04
-        &lt;ul&gt;
-          &lt;li&gt;산업자원통상부 조선해양산업핵심기술개발사업 산업기술혁신사업 과제 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2019
-    &lt;ul&gt;
-      &lt;li&gt;11
-        &lt;ul&gt;
-          &lt;li&gt;대한민국 모바일어워드 우수상 수상&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;10
-        &lt;ul&gt;
-          &lt;li&gt;하나벤처스 Pre-A 투자유치&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;04
-        &lt;ul&gt;
-          &lt;li&gt;다글로(분야별 특화 음성인식 받아쓰기) 출시&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2018
-    &lt;ul&gt;
-      &lt;li&gt;12
-        &lt;ul&gt;
-          &lt;li&gt;TIPS 프로그램 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;06
-        &lt;ul&gt;
-          &lt;li&gt;스프링캠프 Seed 투자유치&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;04
-        &lt;ul&gt;
-          &lt;li&gt;AWS AI Startup Challenge 수상&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2017
-    &lt;ul&gt;
-      &lt;li&gt;12
-        &lt;ul&gt;
-          &lt;li&gt;리뷰와이저(음성인식 받아쓰기) 출시&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2016
-    &lt;ul&gt;
-      &lt;li&gt;01
-        &lt;ul&gt;
-          &lt;li&gt;액션파워 설립&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">액션파워</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">TIL-마키나락스</title>
-      <link href="http://localhost:4000/TIL-%EB%A7%88%ED%82%A4%EB%82%98%EB%9D%BD%EC%8A%A4" rel="alternate" type="text/html" title="TIL-마키나락스" />
-      <published>2023-02-19T00:00:00+09:00</published>
-      <updated>2023-02-19T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-%EB%A7%88%ED%82%A4%EB%82%98%EB%9D%BD%EC%8A%A4</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-%EB%A7%88%ED%82%A4%EB%82%98%EB%9D%BD%EC%8A%A4">&lt;h1 id=&quot;마키나락스&quot;&gt;마키나락스&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;산업용 AI 적용, 확실한 비전&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;회사의 목표가 확실해 보이고 소비자 입장에서도 확실하게 원하는 바를 말할 수 있도록 사이트가 정리가 잘 되어 있고 심플하다. 사원수도 안정적으로 늘고 있다. AI 엔지니어를 기본적으로 많이 뽑고 있다. 최근 뉴스에서 보아도 AI를 기반으로 산업용으로 바로 적용하여 발전가능성이 높아 앞으로도 쭉 성장할 것으로 보인다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;마키나락스-makinarocks-기본-정보&quot;&gt;마키나락스 MakinaRocks 기본 정보&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.wanted.co.kr/wd/142631&quot;&gt;원티드&lt;/a&gt;, &lt;a href=&quot;https://www.saramin.co.kr/zf_user/company-info/view/csn/M25lOC9pVDhWY0lSVHV3VUpZNDF1Zz09/company_nm/(%EC%A3%BC)%EB%A7%88%ED%82%A4%EB%82%98%EB%9D%BD%EC%8A%A4&quot;&gt;사람인&lt;/a&gt;, &lt;a href=&quot;https://www.makinarocks.ai/&quot;&gt;공식사이트 참조&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2017년12월12일 설립( 업력 7년차 )&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;산업용 AI 솔루션과 플랫폼을 개발, 제공하는 AI 스타트업 마키나락스&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;상품
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.makinarocks.ai/product/link/&quot;&gt;Link&lt;/a&gt;
-        &lt;ul&gt;
-          &lt;li&gt;데이터 사이언티스트가 친숙하게 사용하는 주피터랩(jupyterlab)의 확장 프로그램으로, 가독성 있는 파이프라인을 만들어 쉽게 공유할 수 있는 AI/ML 모델 개발 도구입니다.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.makinarocks.ai/product/runway/&quot;&gt;Runway&lt;/a&gt;
-        &lt;ul&gt;
-          &lt;li&gt;모델 개발, 배포, 모니터링을 하나의 플랫폼으로 통합하여 지속적인 개발과 안정적 운영이 가능한 MLOps 플랫폼입니다.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;ML/DL, 강화학습 기술을 기반으로 한 Core ML 역량과 Enterpise MLOps 제품을 기반으로, 제조 및 산업 분야에서 다수의 AI 적용 사례를 만들어가고 있습니다.&lt;/li&gt;
-  &lt;li&gt;사원수 : 83 (2022.12 기준)
-    &lt;ul&gt;
-      &lt;li&gt;&lt;span style=&quot;color:blue&quot;&gt;입사자 수는 꾸준하고 퇴사자 수는 적은편으로 안정적으로 성장하는 것으로 보인다.&lt;/span&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;가장 최근 관련 &lt;a href=&quot;http://jmagazine.joins.com/forbes/view/337339&quot;&gt;뉴스&lt;/a&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;최근 마이크로소프트가 인공지능 연구소 ‘오픈AI’에 최대 100억 달러(한화 12조4800억원) 규모의 투자를 고려하고 있다는 소식에 업계가 술렁였다. IT업계에 대한 국내외 투자가 예전 같지 않은 상황에서 AI 분야만큼은 가능성을 봤기 때문이다. 한국에도 기술력으로 이미 세계시장에 눈도장을 찍은 AI 기업이 있다. 산업 현장에 맞춤형 AI 기술을 도입해 제조 혁신을 이루겠다는 ‘마키나락스’다.&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;연혁&quot;&gt;연혁&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2022
-    &lt;ul&gt;
-      &lt;li&gt;NOV
-        &lt;ul&gt;
-          &lt;li&gt;엔터프라이즈 ML옵스 플랫폼 마키나락스 런웨이(Runway™) 공개&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;OCT
-        &lt;ul&gt;
-          &lt;li&gt;‘Korea AI Startup 100’ 2년 연속 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;JUL
-        &lt;ul&gt;
-          &lt;li&gt;CB인사이트 ‘세계 50대 첨단 제조 스타트업’ 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;MAY
-        &lt;ul&gt;
-          &lt;li&gt;마키나락스 링크(Link™) 커뮤니티 버전 출시&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;MAR
-        &lt;ul&gt;
-          &lt;li&gt;마키나락스 링크(Link™) 베타 서비스 시작&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2021
-    &lt;ul&gt;
-      &lt;li&gt;OCT
-        &lt;ul&gt;
-          &lt;li&gt;Korea AI Startup 100 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;SEP
-        &lt;ul&gt;
-          &lt;li&gt;Kubernetes Certified Service Provider 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;JUN
-        &lt;ul&gt;
-          &lt;li&gt;세계경제포럼(World Economic Forum) 기술선도기업 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2020
-    &lt;ul&gt;
-      &lt;li&gt;DEC
-        &lt;ul&gt;
-          &lt;li&gt;과학기술정보통신부 주관 대한민국 4차 산업혁명대상 ‘창업진흥원장상’ 수상&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;NOV
-        &lt;ul&gt;
-          &lt;li&gt;지능정보산업협회-PWC 주관 ‘2021 Emerging AIX Top100’ 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;NOV
-        &lt;ul&gt;
-          &lt;li&gt;신용보증기금 혁신 아이콘 4기 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;SEP
-        &lt;ul&gt;
-          &lt;li&gt;NVIDIA Inception Program 멤버 선정&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;JUL
-        &lt;ul&gt;
-          &lt;li&gt;120억 원 규모 Series A 투자 유치 (LG테크놀로지벤처스, 현대자동차, 어플라이드 벤처스, 산업은행)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2019
-    &lt;ul&gt;
-      &lt;li&gt;MAY
-        &lt;ul&gt;
-          &lt;li&gt;네이버 D2 Startup Factory (D2SF) 데모데이 참가&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;JAN
-        &lt;ul&gt;
-          &lt;li&gt;마키나락스 첫 특허 등록 (ANOMALY DETECTION, 10-1940029)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2018
-    &lt;ul&gt;
-      &lt;li&gt;MAY
-        &lt;ul&gt;
-          &lt;li&gt;Seed Round 투자 유치 (SK텔레콤, 현대자동차, 네이버 D2 스타트업 팩토리)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;MAR
-        &lt;ul&gt;
-          &lt;li&gt;마키나락스 미국 법인 설립 (Silicon Valley)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2017
-    &lt;ul&gt;
-      &lt;li&gt;DEC
-        &lt;ul&gt;
-          &lt;li&gt;마카니락스 한국 법인 설립 (Seoul)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">마키나락스</summary>
       
 
       

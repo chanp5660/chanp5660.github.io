@@ -56,7 +56,7 @@
     <meta property="og:site_name" content="Engineer Chanp5660" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="항공사 만족도 분류 EDA" />
-    <meta property="og:description" content="항공사 만족도 분류 EDA (Exploratory Data Analysis) 문제 해결을 위한 인사이트(Insight)를 도출하기 위해 데이터에 대해 EDA를 수행합니다. 로드 import pandas as pd import seaborn as sns from matplotlib import pyplot as plt from sklearn.preprocessing import LabelEncoder plt.rcParams["font.family"] = 'HYHeadLine-Medium' plt.rcParams["figure.figsize"] = (14,4) plt.rcParams['lines.linewidth'] = 2 plt.rcParams["axes.grid"] = True plt.rcParams["axes.unicode_minus"] =" />
+    <meta property="og:description" content="항공사 만족도 분류 EDA (Exploratory Data Analysis) 문제 해결을 위한 인사이트(Insight)를 도출하기 위해 데이터에 대해 EDA를 수행합니다. 항공사 만족도 분류 모델 구현 링크 로드 import pandas as pd import seaborn as sns from matplotlib import pyplot as plt from sklearn.preprocessing import LabelEncoder plt.rcParams["font.family"] = 'HYHeadLine-Medium' plt.rcParams["figure.figsize"] = (14,4) plt.rcParams['lines.linewidth'] =" />
     <meta property="og:url" content="http://localhost:4000/%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_EDA" />
     <meta property="og:image" content="http://localhost:4000/assets/built/images/항공사만족도분류.png" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
@@ -66,7 +66,7 @@
     <meta property="article:tag" content="Project" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="항공사 만족도 분류 EDA" />
-    <meta name="twitter:description" content="항공사 만족도 분류 EDA (Exploratory Data Analysis) 문제 해결을 위한 인사이트(Insight)를 도출하기 위해 데이터에 대해 EDA를 수행합니다. 로드 import pandas as pd import seaborn as sns from matplotlib import pyplot as plt from sklearn.preprocessing import LabelEncoder plt.rcParams["font.family"] = 'HYHeadLine-Medium' plt.rcParams["figure.figsize"] = (14,4) plt.rcParams['lines.linewidth'] = 2 plt.rcParams["axes.grid"] = True plt.rcParams["axes.unicode_minus"] =" />
+    <meta name="twitter:description" content="항공사 만족도 분류 EDA (Exploratory Data Analysis) 문제 해결을 위한 인사이트(Insight)를 도출하기 위해 데이터에 대해 EDA를 수행합니다. 항공사 만족도 분류 모델 구현 링크 로드 import pandas as pd import seaborn as sns from matplotlib import pyplot as plt from sklearn.preprocessing import LabelEncoder plt.rcParams["font.family"] = 'HYHeadLine-Medium' plt.rcParams["figure.figsize"] = (14,4) plt.rcParams['lines.linewidth'] =" />
     <meta name="twitter:url" content="http://localhost:4000/" />
     <meta name="twitter:image" content="http://localhost:4000/assets/built/images/항공사만족도분류.png" />
     <meta name="twitter:label1" content="Written by" />
@@ -98,7 +98,7 @@
         "@type": "WebPage",
         "@id": "http://localhost:4000/%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_EDA"
     },
-    "description": "항공사 만족도 분류 EDA (Exploratory Data Analysis) 문제 해결을 위한 인사이트(Insight)를 도출하기 위해 데이터에 대해 EDA를 수행합니다. 로드 import pandas as pd import seaborn as sns from matplotlib import pyplot as plt from sklearn.preprocessing import LabelEncoder plt.rcParams["font.family"] = 'HYHeadLine-Medium' plt.rcParams["figure.figsize"] = (14,4) plt.rcParams['lines.linewidth'] = 2 plt.rcParams["axes.grid"] = True plt.rcParams["axes.unicode_minus"] ="
+    "description": "항공사 만족도 분류 EDA (Exploratory Data Analysis) 문제 해결을 위한 인사이트(Insight)를 도출하기 위해 데이터에 대해 EDA를 수행합니다. 항공사 만족도 분류 모델 구현 링크 로드 import pandas as pd import seaborn as sns from matplotlib import pyplot as plt from sklearn.preprocessing import LabelEncoder plt.rcParams["font.family"] = 'HYHeadLine-Medium' plt.rcParams["figure.figsize"] = (14,4) plt.rcParams['lines.linewidth'] ="
 }
     </script>
 
@@ -200,6 +200,10 @@ into the {body} of the default.hbs template -->
   <p>문제 해결을 위한 인사이트(Insight)를 도출하기 위해 데이터에 대해 EDA를 수행합니다.</p>
 </blockquote>
 
+<ul>
+  <li><a href="https://chanp5660.github.io/항공사_만족도_분류_Modeling">항공사 만족도 분류 모델 구현 링크</a></li>
+</ul>
+
 <h2 id="로드">로드</h2>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="n">pd</span>
@@ -220,6 +224,224 @@ into the {body} of the default.hbs template -->
 <h2 id="학습데이터">학습데이터</h2>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">train</span><span class="p">.</span><span class="n">head</span><span class="p">()</span>
+</code></pre></div></div>
+
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>id</th>
+      <th>Gender</th>
+      <th>Customer Type</th>
+      <th>Age</th>
+      <th>Type of Travel</th>
+      <th>Class</th>
+      <th>Flight Distance</th>
+      <th>Inflight wifi service</th>
+      <th>Departure/Arrival time convenient</th>
+      <th>Ease of Online booking</th>
+      <th>...</th>
+      <th>Inflight entertainment</th>
+      <th>On-board service</th>
+      <th>Leg room service</th>
+      <th>Baggage handling</th>
+      <th>Checkin service</th>
+      <th>Inflight service</th>
+      <th>Cleanliness</th>
+      <th>Departure Delay in Minutes</th>
+      <th>Arrival Delay in Minutes</th>
+      <th>satisfaction</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>84455</td>
+      <td>Female</td>
+      <td>disloyal Customer</td>
+      <td>23</td>
+      <td>Business travel</td>
+      <td>Eco</td>
+      <td>290</td>
+      <td>3</td>
+      <td>4</td>
+      <td>3</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>neutral or dissatisfied</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>90180</td>
+      <td>Male</td>
+      <td>Loyal Customer</td>
+      <td>61</td>
+      <td>Personal Travel</td>
+      <td>Eco</td>
+      <td>957</td>
+      <td>3</td>
+      <td>5</td>
+      <td>3</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>neutral or dissatisfied</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>33002</td>
+      <td>Male</td>
+      <td>Loyal Customer</td>
+      <td>43</td>
+      <td>Personal Travel</td>
+      <td>Eco</td>
+      <td>163</td>
+      <td>4</td>
+      <td>5</td>
+      <td>0</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>neutral or dissatisfied</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>124430</td>
+      <td>Female</td>
+      <td>Loyal Customer</td>
+      <td>28</td>
+      <td>Personal Travel</td>
+      <td>Eco</td>
+      <td>1262</td>
+      <td>2</td>
+      <td>4</td>
+      <td>2</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>neutral or dissatisfied</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>93970</td>
+      <td>Female</td>
+      <td>Loyal Customer</td>
+      <td>39</td>
+      <td>Business travel</td>
+      <td>Business</td>
+      <td>1218</td>
+      <td>4</td>
+      <td>4</td>
+      <td>4</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>satisfied</td>
+    </tr>
+  </tbody>
+</table>
+<p>5 rows × 24 columns</p>
+</div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="n">train</span><span class="p">.</span><span class="n">head</span><span class="p">())</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>       id  Gender      Customer Type  Age   Type of Travel     Class  \
+0   84455  Female  disloyal Customer   23  Business travel       Eco   
+1   90180    Male     Loyal Customer   61  Personal Travel       Eco   
+2   33002    Male     Loyal Customer   43  Personal Travel       Eco   
+3  124430  Female     Loyal Customer   28  Personal Travel       Eco   
+4   93970  Female     Loyal Customer   39  Business travel  Business   
+
+   Flight Distance  Inflight wifi service  Departure/Arrival time convenient  \
+0              290                      3                                  4   
+1              957                      3                                  5   
+2              163                      4                                  5   
+3             1262                      2                                  4   
+4             1218                      4                                  4   
+
+   Ease of Online booking  ...  Inflight entertainment  On-board service  \
+0                       3  ...                     NaN               NaN   
+1                       3  ...                     NaN               NaN   
+2                       0  ...                     NaN               NaN   
+3                       2  ...                     NaN               NaN   
+4                       4  ...                     NaN               NaN   
+
+   Leg room service  Baggage handling  Checkin service  Inflight service  \
+0               NaN               NaN              NaN               NaN   
+1               NaN               NaN              NaN               NaN   
+2               NaN               NaN              NaN               NaN   
+3               NaN               NaN              NaN               NaN   
+4               NaN               NaN              NaN               NaN   
+
+   Cleanliness  Departure Delay in Minutes  Arrival Delay in Minutes  \
+0          NaN                         NaN                       NaN   
+1          NaN                         NaN                       NaN   
+2          NaN                         NaN                       NaN   
+3          NaN                         NaN                       NaN   
+4          NaN                         NaN                       NaN   
+
+              satisfaction  
+0  neutral or dissatisfied  
+1  neutral or dissatisfied  
+2  neutral or dissatisfied  
+3  neutral or dissatisfied  
+4                satisfied  
+
+[5 rows x 24 columns]
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">display</span><span class="p">(</span><span class="n">train</span><span class="p">.</span><span class="n">head</span><span class="p">())</span>
 </code></pre></div></div>
 
 <div>
@@ -645,7 +867,7 @@ memory usage: 937.6+ KB
 <span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
 </code></pre></div></div>
 
-<p><img src="%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_EDA_files/%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_EDA_19_0.png" alt="png" /></p>
+<p><img src="%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_EDA_files/%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_EDA_22_0.png" alt="png" /></p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">n_Flight_Distance</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">train</span><span class="p">[</span><span class="s">"Flight Distance"</span><span class="p">])</span>
 <span class="n">n_Flight_Distance_3500over</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="n">train</span><span class="p">[</span><span class="s">"Flight Distance"</span><span class="p">]</span><span class="o">&gt;</span><span class="mi">2000</span><span class="p">)</span>
@@ -694,9 +916,9 @@ memory usage: 937.6+ KB
 <span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
 </code></pre></div></div>
 
-<p><img src="%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_EDA_files/%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_EDA_23_0.png" alt="png" /></p>
+<p><img src="%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_EDA_files/%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_EDA_26_0.png" alt="png" /></p>
 
-<p><img src="%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_EDA_files/%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_EDA_23_1.png" alt="png" /></p>
+<p><img src="%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_EDA_files/%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_EDA_26_1.png" alt="png" /></p>
 
 <h5 id="범주형-데이터-분포-및-이상범주-확인-요약">범주형 데이터 분포 및 이상범주 확인 요약</h5>
 <ul>
@@ -832,7 +1054,7 @@ memory usage: 937.6+ KB
 <span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
 </code></pre></div></div>
 
-<p><img src="%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_EDA_files/%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_EDA_28_0.png" alt="png" /></p>
+<p><img src="%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_EDA_files/%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_EDA_31_0.png" alt="png" /></p>
 
 <h4 id="변수간의-상관관계-요약">변수간의 상관관계 요약</h4>
 
@@ -1156,6 +1378,14 @@ Name: satisfaction, dtype: object
                                 
                                 
                                   
+                                
+                                  
+                                
+                                  
+                                    
+                                  
+                                
+                                  
                                     
                                         
                                         
@@ -1165,7 +1395,7 @@ Name: satisfaction, dtype: object
                                   
                                 
                                   
-                                    
+                                
                                   
                                 
                                   
@@ -1406,6 +1636,64 @@ Name: satisfaction, dtype: object
 
     <article class="post-card post-template">
         
+            <a class="post-card-image-link" href="/TIL-HTML_DataFrame%EC%B6%9C%EB%A0%A5">
+                <div class="post-card-image" style="background-image: url(/assets/built/images/HTML_DataFrame출력조절.png)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/TIL-HTML_DataFrame%EC%B6%9C%EB%A0%A5">
+                <header class="post-card-header">
+                    
+                        
+                            
+                               <span class="post-card-tags">Exitem</span>
+                            
+                        
+                            
+                                <span class="post-card-tags">Til</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">TIL-HTML DataFrame 출력 조절</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p>HTML DataFrame 출력 조절하기
+
+</p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/built/images/favicon.jpg" alt="chanp5660" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/chanp5660/">chanp5660</a>
+                        </span>
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      2 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+            
+
+            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+
+    <article class="post-card post-template">
+        
             <a class="post-card-image-link" href="/%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_Modeling">
                 <div class="post-card-image" style="background-image: url(/assets/built/images/항공사만족도분류.png)"></div>
             </a>
@@ -1425,7 +1713,7 @@ Name: satisfaction, dtype: object
                 </header>
                 <section class="post-card-excerpt">
                     
-                        <p>항공사 만족도 분류 분류 모델 구현
+                        <p>항공사 만족도 분류 모델 구현
 
 </p>
                     
@@ -1446,64 +1734,6 @@ Name: satisfaction, dtype: object
                     
                     
                       408 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-            
-
-            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
-            
-                
-
-    <article class="post-card post-template">
-        
-            <a class="post-card-image-link" href="/TIL-%ED%86%A0%EC%9D%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/토이프로젝트.png)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/TIL-%ED%86%A0%EC%9D%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8">
-                <header class="post-card-header">
-                    
-                        
-                            
-                               <span class="post-card-tags">Exitem</span>
-                            
-                        
-                            
-                                <span class="post-card-tags">Til</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">TIL-토이프로젝트</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>토이프로젝트
-
-</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/built/images/favicon.jpg" alt="chanp5660" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/chanp5660/">chanp5660</a>
-                        </span>
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
                     
                 </span>
             </footer>

@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/author/chanp5660/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-03-06T21:55:59+09:00</updated>
+  <updated>2023-03-07T01:32:02+09:00</updated>
   <id>http://localhost:4000/author/chanp5660/feed.xml</id>
 
   
@@ -32,6 +32,492 @@
 
   
     <entry>
+      <title type="html">TIL-HTML DataFrame 출력 조절</title>
+      <link href="http://localhost:4000/TIL-HTML_DataFrame%EC%B6%9C%EB%A0%A5" rel="alternate" type="text/html" title="TIL-HTML DataFrame 출력 조절" />
+      <published>2023-03-07T00:00:00+09:00</published>
+      <updated>2023-03-07T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-HTML_DataFrame%EC%B6%9C%EB%A0%A5</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-HTML_DataFrame%EC%B6%9C%EB%A0%A5">&lt;h1 id=&quot;html-dataframe-출력-조절하기&quot;&gt;HTML DataFrame 출력 조절하기&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;ipynb 을 이용하여 github blog를 다루고 있기 때문에 html에서 dataframe은 매우 크게 나와 가독성에 문제가 생기므로 해결책을 찾습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;테이블-크기-조정&quot;&gt;테이블 크기 조정&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;데이터 프레임을 출력하는 HTML 테이블의 크기를 조정하여 가독성을 높일 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;스크롤바를 추가하는 것보다 더 복잡하지만, 더욱 세밀한 제어가 가능하고 아래는 테이블 크기를 조정하는 예제 코드입니다.&lt;/li&gt;
+  &lt;li&gt;단점으로는 출력하기 위한 python 코드가 table 내에서 주석으로 처리되어 출력됩니다.&lt;/li&gt;
+  &lt;li&gt;그래도 출력 결과물을 보니 가독성이 훨씬 좋아진 것 같습니다.&lt;/li&gt;
+  &lt;li&gt;블로그 만들때 귀찮을 것 같은데 자동으로 md 형태에서 html에 넣을 때 자동으로 고쳐주는 프로그램을 만들어야겠습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{html}&quot;&gt;&amp;lt;table style=&quot;width:50%&quot;&amp;gt;
+  &amp;lt;!-- 데이터 프레임 출력 코드 --&amp;gt;
+&amp;lt;/table&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{html}&quot;&gt;&amp;lt;table style=&quot;width:50%&quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;table style=&quot;width:50%&quot;&gt;
+
+
+```python
+train.head()
+```
+
+
+
+
+&lt;div&gt;
+&lt;style scoped=&quot;&quot;&gt;
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+&lt;/style&gt;
+&lt;table border=&quot;1&quot; class=&quot;dataframe&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr style=&quot;text-align: right;&quot;&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;id&lt;/th&gt;
+      &lt;th&gt;Gender&lt;/th&gt;
+      &lt;th&gt;Customer Type&lt;/th&gt;
+      &lt;th&gt;Age&lt;/th&gt;
+      &lt;th&gt;Type of Travel&lt;/th&gt;
+      &lt;th&gt;Class&lt;/th&gt;
+      &lt;th&gt;Flight Distance&lt;/th&gt;
+      &lt;th&gt;Inflight wifi service&lt;/th&gt;
+      &lt;th&gt;Departure/Arrival time convenient&lt;/th&gt;
+      &lt;th&gt;Ease of Online booking&lt;/th&gt;
+      &lt;th&gt;...&lt;/th&gt;
+      &lt;th&gt;Inflight entertainment&lt;/th&gt;
+      &lt;th&gt;On-board service&lt;/th&gt;
+      &lt;th&gt;Leg room service&lt;/th&gt;
+      &lt;th&gt;Baggage handling&lt;/th&gt;
+      &lt;th&gt;Checkin service&lt;/th&gt;
+      &lt;th&gt;Inflight service&lt;/th&gt;
+      &lt;th&gt;Cleanliness&lt;/th&gt;
+      &lt;th&gt;Departure Delay in Minutes&lt;/th&gt;
+      &lt;th&gt;Arrival Delay in Minutes&lt;/th&gt;
+      &lt;th&gt;satisfaction&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;0&lt;/th&gt;
+      &lt;td&gt;84455&lt;/td&gt;
+      &lt;td&gt;Female&lt;/td&gt;
+      &lt;td&gt;disloyal Customer&lt;/td&gt;
+      &lt;td&gt;23&lt;/td&gt;
+      &lt;td&gt;Business travel&lt;/td&gt;
+      &lt;td&gt;Eco&lt;/td&gt;
+      &lt;td&gt;290&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;1&lt;/th&gt;
+      &lt;td&gt;90180&lt;/td&gt;
+      &lt;td&gt;Male&lt;/td&gt;
+      &lt;td&gt;Loyal Customer&lt;/td&gt;
+      &lt;td&gt;61&lt;/td&gt;
+      &lt;td&gt;Personal Travel&lt;/td&gt;
+      &lt;td&gt;Eco&lt;/td&gt;
+      &lt;td&gt;957&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2&lt;/th&gt;
+      &lt;td&gt;33002&lt;/td&gt;
+      &lt;td&gt;Male&lt;/td&gt;
+      &lt;td&gt;Loyal Customer&lt;/td&gt;
+      &lt;td&gt;43&lt;/td&gt;
+      &lt;td&gt;Personal Travel&lt;/td&gt;
+      &lt;td&gt;Eco&lt;/td&gt;
+      &lt;td&gt;163&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;3&lt;/th&gt;
+      &lt;td&gt;124430&lt;/td&gt;
+      &lt;td&gt;Female&lt;/td&gt;
+      &lt;td&gt;Loyal Customer&lt;/td&gt;
+      &lt;td&gt;28&lt;/td&gt;
+      &lt;td&gt;Personal Travel&lt;/td&gt;
+      &lt;td&gt;Eco&lt;/td&gt;
+      &lt;td&gt;1262&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;4&lt;/th&gt;
+      &lt;td&gt;93970&lt;/td&gt;
+      &lt;td&gt;Female&lt;/td&gt;
+      &lt;td&gt;Loyal Customer&lt;/td&gt;
+      &lt;td&gt;39&lt;/td&gt;
+      &lt;td&gt;Business travel&lt;/td&gt;
+      &lt;td&gt;Business&lt;/td&gt;
+      &lt;td&gt;1218&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;satisfied&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;5 rows × 24 columns&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+&lt;/table&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{html}&quot;&gt;&amp;lt;/table&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{html}&quot;&gt;&amp;lt;table style=&quot;width:50%&quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;table style=&quot;width:50%&quot;&gt;
+
+
+```python
+display(train.head())
+```
+
+
+&lt;div&gt;
+&lt;style scoped=&quot;&quot;&gt;
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+&lt;/style&gt;
+&lt;table border=&quot;1&quot; class=&quot;dataframe&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr style=&quot;text-align: right;&quot;&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;id&lt;/th&gt;
+      &lt;th&gt;Gender&lt;/th&gt;
+      &lt;th&gt;Customer Type&lt;/th&gt;
+      &lt;th&gt;Age&lt;/th&gt;
+      &lt;th&gt;Type of Travel&lt;/th&gt;
+      &lt;th&gt;Class&lt;/th&gt;
+      &lt;th&gt;Flight Distance&lt;/th&gt;
+      &lt;th&gt;Inflight wifi service&lt;/th&gt;
+      &lt;th&gt;Departure/Arrival time convenient&lt;/th&gt;
+      &lt;th&gt;Ease of Online booking&lt;/th&gt;
+      &lt;th&gt;...&lt;/th&gt;
+      &lt;th&gt;Inflight entertainment&lt;/th&gt;
+      &lt;th&gt;On-board service&lt;/th&gt;
+      &lt;th&gt;Leg room service&lt;/th&gt;
+      &lt;th&gt;Baggage handling&lt;/th&gt;
+      &lt;th&gt;Checkin service&lt;/th&gt;
+      &lt;th&gt;Inflight service&lt;/th&gt;
+      &lt;th&gt;Cleanliness&lt;/th&gt;
+      &lt;th&gt;Departure Delay in Minutes&lt;/th&gt;
+      &lt;th&gt;Arrival Delay in Minutes&lt;/th&gt;
+      &lt;th&gt;satisfaction&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;0&lt;/th&gt;
+      &lt;td&gt;84455&lt;/td&gt;
+      &lt;td&gt;Female&lt;/td&gt;
+      &lt;td&gt;disloyal Customer&lt;/td&gt;
+      &lt;td&gt;23&lt;/td&gt;
+      &lt;td&gt;Business travel&lt;/td&gt;
+      &lt;td&gt;Eco&lt;/td&gt;
+      &lt;td&gt;290&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;1&lt;/th&gt;
+      &lt;td&gt;90180&lt;/td&gt;
+      &lt;td&gt;Male&lt;/td&gt;
+      &lt;td&gt;Loyal Customer&lt;/td&gt;
+      &lt;td&gt;61&lt;/td&gt;
+      &lt;td&gt;Personal Travel&lt;/td&gt;
+      &lt;td&gt;Eco&lt;/td&gt;
+      &lt;td&gt;957&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2&lt;/th&gt;
+      &lt;td&gt;33002&lt;/td&gt;
+      &lt;td&gt;Male&lt;/td&gt;
+      &lt;td&gt;Loyal Customer&lt;/td&gt;
+      &lt;td&gt;43&lt;/td&gt;
+      &lt;td&gt;Personal Travel&lt;/td&gt;
+      &lt;td&gt;Eco&lt;/td&gt;
+      &lt;td&gt;163&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;3&lt;/th&gt;
+      &lt;td&gt;124430&lt;/td&gt;
+      &lt;td&gt;Female&lt;/td&gt;
+      &lt;td&gt;Loyal Customer&lt;/td&gt;
+      &lt;td&gt;28&lt;/td&gt;
+      &lt;td&gt;Personal Travel&lt;/td&gt;
+      &lt;td&gt;Eco&lt;/td&gt;
+      &lt;td&gt;1262&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;4&lt;/th&gt;
+      &lt;td&gt;93970&lt;/td&gt;
+      &lt;td&gt;Female&lt;/td&gt;
+      &lt;td&gt;Loyal Customer&lt;/td&gt;
+      &lt;td&gt;39&lt;/td&gt;
+      &lt;td&gt;Business travel&lt;/td&gt;
+      &lt;td&gt;Business&lt;/td&gt;
+      &lt;td&gt;1218&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;satisfied&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;5 rows × 24 columns&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;/table&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{html}&quot;&gt;&amp;lt;/table&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">HTML DataFrame 출력 조절하기</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">TIL-Python Warning무시</title>
+      <link href="http://localhost:4000/TIL-python_warning%EB%AC%B4%EC%8B%9C" rel="alternate" type="text/html" title="TIL-Python Warning무시" />
+      <published>2023-03-07T00:00:00+09:00</published>
+      <updated>2023-03-07T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-python_warning%EB%AC%B4%EC%8B%9C</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-python_warning%EB%AC%B4%EC%8B%9C">&lt;h1 id=&quot;python-warning-무시하는-방법&quot;&gt;Python Warning 무시하는 방법&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;블로그에 ipynb을 올릴 때 머신러닝의 경우 모델 학습할 때 경고가 너무 많이 출력됩니다. 이를 처리하는 방법을 알아봅니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;경고를-아예-무시하는-방법&quot;&gt;경고를 아예 무시하는 방법&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;warnings 모듈을 사용하여 모든 경고 메시지를 무시&lt;/li&gt;
+  &lt;li&gt;코드를 실행하면 프로그램 전체에서 경고 메시지를 무시&lt;/li&gt;
+  &lt;li&gt;이 방법은 경고 메시지가 중요하지 않거나 무시할 수 있는 경우에만 사용하는 것이 좋습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{python}&quot;&gt;import warnings
+warnings.filterwarnings(&quot;ignore&quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;경고를-무시하는-대신-로그에-적는-방법&quot;&gt;경고를 무시하는 대신 로그에 적는 방법&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;코드를 실행하면 모든 경고 메시지가 로그로 저장&lt;/li&gt;
+  &lt;li&gt;경고 메시지를 무시하지 않으면서도 콘솔 출력을 깨끗하게 유지&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{python}&quot;&gt;import logging
+logging.captureWarnings(True)
+&lt;/code&gt;&lt;/pre&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">Python Warning 무시하는 방법</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">항공사 만족도 분류 EDA</title>
       <link href="http://localhost:4000/%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_EDA" rel="alternate" type="text/html" title="항공사 만족도 분류 EDA" />
       <published>2023-03-06T00:00:00+09:00</published>
@@ -41,6 +527,10 @@
 &lt;blockquote&gt;
   &lt;p&gt;문제 해결을 위한 인사이트(Insight)를 도출하기 위해 데이터에 대해 EDA를 수행합니다.&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/항공사_만족도_분류_Modeling&quot;&gt;항공사 만족도 분류 모델 구현 링크&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&quot;로드&quot;&gt;로드&lt;/h2&gt;
 
@@ -62,6 +552,224 @@
 &lt;h2 id=&quot;학습데이터&quot;&gt;학습데이터&lt;/h2&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div&gt;
+&lt;style scoped=&quot;&quot;&gt;
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+&lt;/style&gt;
+&lt;table border=&quot;1&quot; class=&quot;dataframe&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr style=&quot;text-align: right;&quot;&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;id&lt;/th&gt;
+      &lt;th&gt;Gender&lt;/th&gt;
+      &lt;th&gt;Customer Type&lt;/th&gt;
+      &lt;th&gt;Age&lt;/th&gt;
+      &lt;th&gt;Type of Travel&lt;/th&gt;
+      &lt;th&gt;Class&lt;/th&gt;
+      &lt;th&gt;Flight Distance&lt;/th&gt;
+      &lt;th&gt;Inflight wifi service&lt;/th&gt;
+      &lt;th&gt;Departure/Arrival time convenient&lt;/th&gt;
+      &lt;th&gt;Ease of Online booking&lt;/th&gt;
+      &lt;th&gt;...&lt;/th&gt;
+      &lt;th&gt;Inflight entertainment&lt;/th&gt;
+      &lt;th&gt;On-board service&lt;/th&gt;
+      &lt;th&gt;Leg room service&lt;/th&gt;
+      &lt;th&gt;Baggage handling&lt;/th&gt;
+      &lt;th&gt;Checkin service&lt;/th&gt;
+      &lt;th&gt;Inflight service&lt;/th&gt;
+      &lt;th&gt;Cleanliness&lt;/th&gt;
+      &lt;th&gt;Departure Delay in Minutes&lt;/th&gt;
+      &lt;th&gt;Arrival Delay in Minutes&lt;/th&gt;
+      &lt;th&gt;satisfaction&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;0&lt;/th&gt;
+      &lt;td&gt;84455&lt;/td&gt;
+      &lt;td&gt;Female&lt;/td&gt;
+      &lt;td&gt;disloyal Customer&lt;/td&gt;
+      &lt;td&gt;23&lt;/td&gt;
+      &lt;td&gt;Business travel&lt;/td&gt;
+      &lt;td&gt;Eco&lt;/td&gt;
+      &lt;td&gt;290&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;1&lt;/th&gt;
+      &lt;td&gt;90180&lt;/td&gt;
+      &lt;td&gt;Male&lt;/td&gt;
+      &lt;td&gt;Loyal Customer&lt;/td&gt;
+      &lt;td&gt;61&lt;/td&gt;
+      &lt;td&gt;Personal Travel&lt;/td&gt;
+      &lt;td&gt;Eco&lt;/td&gt;
+      &lt;td&gt;957&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2&lt;/th&gt;
+      &lt;td&gt;33002&lt;/td&gt;
+      &lt;td&gt;Male&lt;/td&gt;
+      &lt;td&gt;Loyal Customer&lt;/td&gt;
+      &lt;td&gt;43&lt;/td&gt;
+      &lt;td&gt;Personal Travel&lt;/td&gt;
+      &lt;td&gt;Eco&lt;/td&gt;
+      &lt;td&gt;163&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;3&lt;/th&gt;
+      &lt;td&gt;124430&lt;/td&gt;
+      &lt;td&gt;Female&lt;/td&gt;
+      &lt;td&gt;Loyal Customer&lt;/td&gt;
+      &lt;td&gt;28&lt;/td&gt;
+      &lt;td&gt;Personal Travel&lt;/td&gt;
+      &lt;td&gt;Eco&lt;/td&gt;
+      &lt;td&gt;1262&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;4&lt;/th&gt;
+      &lt;td&gt;93970&lt;/td&gt;
+      &lt;td&gt;Female&lt;/td&gt;
+      &lt;td&gt;Loyal Customer&lt;/td&gt;
+      &lt;td&gt;39&lt;/td&gt;
+      &lt;td&gt;Business travel&lt;/td&gt;
+      &lt;td&gt;Business&lt;/td&gt;
+      &lt;td&gt;1218&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;...&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+      &lt;td&gt;satisfied&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;5 rows × 24 columns&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;       id  Gender      Customer Type  Age   Type of Travel     Class  \
+0   84455  Female  disloyal Customer   23  Business travel       Eco   
+1   90180    Male     Loyal Customer   61  Personal Travel       Eco   
+2   33002    Male     Loyal Customer   43  Personal Travel       Eco   
+3  124430  Female     Loyal Customer   28  Personal Travel       Eco   
+4   93970  Female     Loyal Customer   39  Business travel  Business   
+
+   Flight Distance  Inflight wifi service  Departure/Arrival time convenient  \
+0              290                      3                                  4   
+1              957                      3                                  5   
+2              163                      4                                  5   
+3             1262                      2                                  4   
+4             1218                      4                                  4   
+
+   Ease of Online booking  ...  Inflight entertainment  On-board service  \
+0                       3  ...                     NaN               NaN   
+1                       3  ...                     NaN               NaN   
+2                       0  ...                     NaN               NaN   
+3                       2  ...                     NaN               NaN   
+4                       4  ...                     NaN               NaN   
+
+   Leg room service  Baggage handling  Checkin service  Inflight service  \
+0               NaN               NaN              NaN               NaN   
+1               NaN               NaN              NaN               NaN   
+2               NaN               NaN              NaN               NaN   
+3               NaN               NaN              NaN               NaN   
+4               NaN               NaN              NaN               NaN   
+
+   Cleanliness  Departure Delay in Minutes  Arrival Delay in Minutes  \
+0          NaN                         NaN                       NaN   
+1          NaN                         NaN                       NaN   
+2          NaN                         NaN                       NaN   
+3          NaN                         NaN                       NaN   
+4          NaN                         NaN                       NaN   
+
+              satisfaction  
+0  neutral or dissatisfied  
+1  neutral or dissatisfied  
+2  neutral or dissatisfied  
+3  neutral or dissatisfied  
+4                satisfied  
+
+[5 rows x 24 columns]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div&gt;
@@ -487,7 +1195,7 @@ memory usage: 937.6+ KB
 &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_EDA_files/%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_EDA_19_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_EDA_files/%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_EDA_22_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;n_Flight_Distance&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Flight Distance&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;n_Flight_Distance_3500over&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Flight Distance&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
@@ -536,9 +1244,9 @@ memory usage: 937.6+ KB
 &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_EDA_files/%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_EDA_23_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_EDA_files/%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_EDA_26_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_EDA_files/%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_EDA_23_1.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_EDA_files/%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_EDA_26_1.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
 
 &lt;h5 id=&quot;범주형-데이터-분포-및-이상범주-확인-요약&quot;&gt;범주형 데이터 분포 및 이상범주 확인 요약&lt;/h5&gt;
 &lt;ul&gt;
@@ -674,7 +1382,7 @@ memory usage: 937.6+ KB
 &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_EDA_files/%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_EDA_28_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_EDA_files/%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_EDA_31_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;변수간의-상관관계-요약&quot;&gt;변수간의 상관관계 요약&lt;/h4&gt;
 
@@ -935,7 +1643,11 @@ Name: satisfaction, dtype: object
       <published>2023-03-06T00:00:00+09:00</published>
       <updated>2023-03-06T00:00:00+09:00</updated>
       <id>http://localhost:4000/%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_Modeling</id>
-      <content type="html" xml:base="http://localhost:4000/%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_Modeling">&lt;h1 id=&quot;항공사-만족도-분류-분류-모델-구현&quot;&gt;항공사 만족도 분류 분류 모델 구현&lt;/h1&gt;
+      <content type="html" xml:base="http://localhost:4000/%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_Modeling">&lt;h1 id=&quot;항공사-만족도-분류-모델-구현&quot;&gt;항공사 만족도 분류 모델 구현&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/항공사_만족도_분류_EDA&quot;&gt;항공사 만족도 분류 EDA 링크&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;ol&gt;
   &lt;li&gt;train set과 test set을 이용하여 모델링을 하고 평가한다.
@@ -7722,7 +8434,7 @@ Acc:0.987
       
 
       
-        <summary type="html">항공사 만족도 분류 분류 모델 구현</summary>
+        <summary type="html">항공사 만족도 분류 모델 구현</summary>
       
 
       
@@ -7730,73 +8442,38 @@ Acc:0.987
     </entry>
   
     <entry>
-      <title type="html">TIL-토이프로젝트</title>
-      <link href="http://localhost:4000/TIL-%ED%86%A0%EC%9D%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8" rel="alternate" type="text/html" title="TIL-토이프로젝트" />
-      <published>2023-03-05T00:00:00+09:00</published>
-      <updated>2023-03-05T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-%ED%86%A0%EC%9D%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-%ED%86%A0%EC%9D%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8">&lt;h1 id=&quot;토이프로젝트&quot;&gt;토이프로젝트&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것&lt;/p&gt;
-&lt;/blockquote&gt;
+      <title type="html">TIL-HTML 페이지 내 이동</title>
+      <link href="http://localhost:4000/TIL-HTML%ED%8E%98%EC%9D%B4%EC%A7%80%EB%82%B4%EC%9D%B4%EB%8F%99" rel="alternate" type="text/html" title="TIL-HTML 페이지 내 이동" />
+      <published>2023-03-06T00:00:00+09:00</published>
+      <updated>2023-03-06T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-HTML%ED%8E%98%EC%9D%B4%EC%A7%80%EB%82%B4%EC%9D%B4%EB%8F%99</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-HTML%ED%8E%98%EC%9D%B4%EC%A7%80%EB%82%B4%EC%9D%B4%EB%8F%99">&lt;p&gt;&lt;a name=&quot;want&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;html-페이지-내-이동&quot;&gt;HTML 페이지 내 이동&lt;/h1&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;새로운 아이디어나 기술 등을 실험하거나 개발자 스스로의 학습 및 연습 목적으로 진행하는 작은 규모의 프로젝트&lt;/li&gt;
-  &lt;li&gt;주로 개인 또는 소규모 개발자들이 진행하며, 실제 상용화나 비즈니스에 사용되는 것이 아니라 단순히 새로운 기술이나 아이디어를 구현하거나 개인적인 목적으로 만들어지는 것&lt;/li&gt;
-  &lt;li&gt;이러한 토이 프로젝트는 개발자들의 역량 향상과 취미로서의 즐거움을 위해 많이 진행&lt;/li&gt;
-  &lt;li&gt;예를 들면, 간단한 웹 어플리케이션 개발, 게임 제작, 자동화 스크립트 작성 등&lt;/li&gt;
+  &lt;li&gt;github blog는 jekyll을 이용하기 때문에 결론적으로 HTML을 이용하여 만들어진다.&lt;/li&gt;
+  &lt;li&gt;마크다운 내 이동 링크는 작동하지 않기 때문에 HTML을 사용하여 이동하게 한다.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&quot;머신러닝-엔지니어-토이프로젝트-로드맵&quot;&gt;머신러닝 엔지니어 토이프로젝트 로드맵&lt;/h1&gt;
-
-&lt;h3 id=&quot;1-문제-정의&quot;&gt;1. 문제 정의&lt;/h3&gt;
+&lt;h2 id=&quot;a-태그를-이용하는-방법&quot;&gt;a 태그를 이용하는 방법&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;프로젝트의 목적과 해결하고자 하는 문제를 명확하게 이해하고 정의&lt;/li&gt;
-  &lt;li&gt;예를 들어, 스팸 필터링, 이미지 분류, 추천 시스템 등과 같은 목적&lt;/li&gt;
+  &lt;li&gt;a 태그를 이용해서 name 을 정해 원하는 곳으로 이동한다.&lt;/li&gt;
+  &lt;li&gt;기존에 있는 글에 a 태그를 감싸는 것도 좋지만 원하는 빈공간에 작성하는게 헷갈리지 않고 좋다.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;2-데이터-수집&quot;&gt;2. 데이터 수집&lt;/h3&gt;
+&lt;h2 id=&quot;예시&quot;&gt;예시&lt;/h2&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;모델을 학습시키기 위해서는 충분한 양의 데이터가 필요&lt;/li&gt;
-  &lt;li&gt;데이터를 수집할 때는 충분히 다양한 데이터를 수집&lt;/li&gt;
-  &lt;li&gt;데이터의 품질과 라벨링이 정확하게 이루어져야 함&lt;/li&gt;
+  &lt;li&gt;코드&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;3-데이터-전처리&quot;&gt;3. 데이터 전처리&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;수집한 데이터를 분석하기 위해서는 데이터를 전처리&lt;/li&gt;
-  &lt;li&gt;결측치 처리, 이상치 제거, 데이터 정규화 등과 같은 작업을 수행&lt;/li&gt;
-&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&quot;language-{html}&quot;&gt;&amp;lt;a href=&quot;#want&quot;&amp;gt;제목으로 이동&amp;lt;/a&amp;gt; // 원하는 빈공간에 작성
 
-&lt;h3 id=&quot;4-모델-선택&quot;&gt;4. 모델 선택&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;문제 정의와 데이터를 기반으로 적합한 모델을 선택&lt;/li&gt;
-  &lt;li&gt;예를 들어, 회귀 모델, 분류 모델, 클러스터링 모델 등을 선택&lt;/li&gt;
-&lt;/ul&gt;
+&amp;lt;a name=&quot;want&quot;&amp;gt;&amp;lt;/a&amp;gt; // 이동할 위치에 작성
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&quot;5-모델-학습&quot;&gt;5. 모델 학습&lt;/h3&gt;
 &lt;ul&gt;
-  &lt;li&gt;선택한 모델을 학습&lt;/li&gt;
-  &lt;li&gt;이를 위해 데이터를 훈련 데이터와 검증 데이터로 나누고, 학습 알고리즘을 적용&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;6-모델-평가&quot;&gt;6. 모델 평가&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;학습된 모델을 평가하여 성능을 확인&lt;/li&gt;
-  &lt;li&gt;이를 위해 검증 데이터를 사용하여 모델의 정확도, 정밀도, 재현율, F1-score 등을 계산&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;7-모델-적용&quot;&gt;7. 모델 적용&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;최종 모델을 적용하여 예측&lt;/li&gt;
-  &lt;li&gt;이를 위해 실시간 예측, 배치 처리 등과 같은 방법을 사용&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;8-모델-개선&quot;&gt;8. 모델 개선&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;모델의 성능을 높이기 위해 다양한 방법을 적용&lt;/li&gt;
-  &lt;li&gt;예를 들어, 하이퍼파라미터 튜닝, 앙상블 학습 등과 같은 방법을 사용&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#want&quot;&gt;제목으로 이동&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
 
       
@@ -7820,7 +8497,65 @@ Acc:0.987
       
 
       
-        <summary type="html">토이프로젝트</summary>
+        <summary type="html">HTML 페이지 내 이동</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">TIL-HTML 토글 설정</title>
+      <link href="http://localhost:4000/TIL-HTML%ED%86%A0%EA%B8%80%EC%84%A4%EC%A0%95" rel="alternate" type="text/html" title="TIL-HTML 토글 설정" />
+      <published>2023-03-06T00:00:00+09:00</published>
+      <updated>2023-03-06T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-HTML%ED%86%A0%EA%B8%80%EC%84%A4%EC%A0%95</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-HTML%ED%86%A0%EA%B8%80%EC%84%A4%EC%A0%95">&lt;h1 id=&quot;html-토글-설정-jekyll&quot;&gt;HTML 토글 설정 (jekyll)&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;jekyll을 이용하여 깃허브 블로그를 운영하던 중에 토글을 사용하여 목차를 다루게 된다면 포스팅 상단부 쪽을 활용할 수 있을 것 같다.&lt;/li&gt;
+  &lt;li&gt;상단부가 길어질까봐 추가하지 못했었다.&lt;/li&gt;
+  &lt;li&gt;링크와 체크박스 등 마크다운의 기능을 이용할 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{html}&quot;&gt;&amp;lt;details&amp;gt;
+&amp;lt;summary&amp;gt;python 예제 목차&amp;lt;/summary&amp;gt;
+&amp;lt;div markdown=&quot;1&quot;&amp;gt;
+
+- [ ] [선택정렬](https://chanp5660.github.io/선택정렬)
+- [ ] [삽입정렬](https://chanp5660.github.io/삽입정렬)
+- [ ] [버블정렬](https://chanp5660.github.io/버블정렬)
+- [ ] [병합정렬](https://chanp5660.github.io/병합정렬)
+- [ ] 힙정렬
+- [ ] 퀵정렬
+- [ ] 기수정렬
+
+&amp;lt;/div&amp;gt;
+&amp;lt;/details&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">HTML 토글 설정 (jekyll)</summary>
       
 
       
@@ -8102,364 +8837,6 @@ Acc:0.987
 
       
         <summary type="html">Notion</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">TIL-ChatGPT</title>
-      <link href="http://localhost:4000/TIL-ChatGPT" rel="alternate" type="text/html" title="TIL-ChatGPT" />
-      <published>2023-03-04T00:00:00+09:00</published>
-      <updated>2023-03-04T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-ChatGPT</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-ChatGPT">&lt;h1 id=&quot;chatgpt&quot;&gt;ChatGPT&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;정의&quot;&gt;정의&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;인공 지능 대화 모델
-    &lt;ul&gt;
-      &lt;li&gt;OpenAI에서 훈련된 대규모 언어 모델로, 자연어 처리와 이해를 기반으로 인간과 대화를 나눌 수 있음&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;ChatGPT는 텍스트 기반 대화를 지원합니다.
-    &lt;ul&gt;
-      &lt;li&gt;사용자가 제시한 질문이나 입력에 대해 적절한 답변을 제공&lt;/li&gt;
-      &lt;li&gt;대화를 이어나가면서 자연스럽고 효과적인 대화를 지원&lt;/li&gt;
-      &lt;li&gt;이를 위해 큰 데이터셋으로 학습된 다양한 언어 모델을 기반으로 하여, 사용자의 입력을 이해하고 응답을 생성&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;여러-분야에서의-활용-예&quot;&gt;여러 분야에서의 활용 예&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;기본적으로 자동 응답 시스템을 다룬다.&lt;/li&gt;
-  &lt;li&gt;고객 서비스&lt;/li&gt;
-  &lt;li&gt;인터넷 커뮤니티&lt;/li&gt;
-  &lt;li&gt;교육&lt;/li&gt;
-  &lt;li&gt;상담&lt;/li&gt;
-  &lt;li&gt;심리치료&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;단점-및-한계점&quot;&gt;단점 및 한계점&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;학습 데이터에 기반한 응답을 생성하기 때문에, 가끔 예측할 수 없거나 잘못된 답변을 제공할 수 있음&lt;/li&gt;
-  &lt;li&gt;ChatGPT는 언어 처리 능력에 기반하기 때문에, 시각이나 청각 등 다른 감각 분야에서는 지원하지 있음&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;대처-및-발전&quot;&gt;대처 및 발전&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;ChatGPT는 빠르게 발전하고 있으며, 더욱 정교한 기능과 능력을 갖춤&lt;/li&gt;
-  &lt;li&gt;앞으로도 ChatGPT와 같은 인공 지능 기술은 다양한 분야에서 발전하며 인간과 함께 발전&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;python에서-chatgpt-이용&quot;&gt;&lt;a href=&quot;https://chanp5660.github.io/ChatGPT&quot;&gt;Python에서 ChatGPT 이용&lt;/a&gt;&lt;/h2&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">ChatGPT</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">ChatGPT</title>
-      <link href="http://localhost:4000/ChatGPT" rel="alternate" type="text/html" title="ChatGPT" />
-      <published>2023-03-04T00:00:00+09:00</published>
-      <updated>2023-03-04T00:00:00+09:00</updated>
-      <id>http://localhost:4000/ChatGPT</id>
-      <content type="html" xml:base="http://localhost:4000/ChatGPT">&lt;h1 id=&quot;chatgpt-with-python&quot;&gt;ChatGPT with Python&lt;/h1&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;python에서 chatGPT 이용하기&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;기본 라이브러리 설치는 &lt;a href=&quot;https://github.com/openai/openai-python&quot;&gt;github ChatGPT 링크&lt;/a&gt;에서 설치&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;https://platform.openai.com/account/api-keys&quot;&gt;개인 api_key 링크&lt;/a&gt; 는 해당 링크에서 얻으면 됨&lt;/li&gt;
-    &lt;li&gt;model_engine은 여러가지 모델이 있으므로 목적에 따라 원하는 모델로 선택&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;openai&lt;/span&gt;
-&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;os&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;# OpenAI API 인증 정보 설정
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;openai&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;api_key&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;# GPT-3 모델 ID
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;model_engine&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;text-davinci-002&quot;&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;# 생성할 텍스트 입력
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;prompt&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;ChatGPT가 뭐야?&quot;&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;# 생성할 텍스트 길이
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;length&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2048&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;# GPT-3 API로 텍스트 생성 요청
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;response&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;openai&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Completion&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;create&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;engine&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;model_engine&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;prompt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;prompt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;max_tokens&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;length&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;# 생성된 텍스트 출력
-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;choices&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* 그리드 분할(grid partitioning) 방식으로 동작하는 Python 번역(translation) 라이브러리 (자연어 처리를 위한 머신 러닝, 딥 러닝, 컴퓨터 비전 기법을 통해 다국어를 제공합니다).
-
-## Grid Partitioning?
-2차원 평면에서 점들이 떨어져 있는 경우 이들을 균등하게 분할하는 것을 Grid Partitioning(그리드 분할)이라 한다.
-그리드 분할은 경우에 따라 레벨 트리와 일치하기도 한다. 레벨 트리는 흔히 이야기하는 트리 구조이며, 알려진 구조를 따르지 않고 해당 데이터들이 어떻게 분할되는지를 정의한다.
-
-## VTM 연구개발자
-1. 권요한(?)
-2. SARC Ref.
-* SARC: Symmetric Association Rule Compression ,mechanism to use for reducing size of rules without loss of precision
-3. 마틴 파울러 (Martin Fowler)
-* 각종 소프트웨어ꡀ들에 대한 오픈소스 라이브러리 저작자.
-* 그리고도 고객사 기술 저작자로도 활동
-* 영국에서는 종류에 상관없이 소프트웨어 개발자 역격을 많이 공유하고 활동
-* 기술과 동시에 기술 값양조 증가를 이끈 지식이라고 말한다.
-* 마틴은 The Pragmatic Programmer이라는 독자적인 프로그래머들을 목표로 한 경험, 조언에 대한 책을 발표했고, 프로그래밍 언어 개발 역사와 동시에 소프트웨어 프로젝트의 관리 구조의 안정적이고 개발하기 쉽게끔 만들고자 했다고 하는 경험을 과시한다.
-* 많은 소프트웨어의 성공은 프로젝트의 조직과 구조에 있다고 하는 학술적인 것이 아니다.
-
-##### Books:
-
-Programmatic Components: Reusable Software In The Microsoft .Net Framework.
-
-Agile Foundations: Principles, Patterns, And Practices C# Edition
-
-UML Distilled Third Edition.
-
-Consulting
-
-자신이 하는 일을 기반으로하고 있는 저작자는 이렇게 위장하고 논하고자 한다는 것을 서술하고 있다.
-
-
-## FPT 카카오메이커 초대 발표준비
-카카오메이커는 카카오 블루오션으로 발간된 메일마그일용 책을 말한다.
-
-카카오매일 제공 기사에는 과학제목으로 안내장을 명한 것 이외에도 독자들이 업무에 필요하거나 관심이있는, 또는 독해하고 본질적인 내용이 작성된 직접해석문이 포함되어 있다는 것을 준비과정에서 알 수 있었다.
-
-전라도과학기술원 인공지능연구소 김문준 교수님을 초대하여
-Crowd Sourcing이라는 기술의 기초적인 이론, 즉 공동작업의 중요성과 소통과정과
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;h2 id=&quot;후기&quot;&gt;후기&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;한국어로는 제대로 이해하지 못하는 것 같고 영어로 질문하면 굉장히 단답형으로 대답해준다. &lt;br /&gt;
-그리고 가장 큰 단점으로는 했던 질문에 이어서 질문을 할 수 없다는 것이다. &lt;br /&gt;
-가장 큰 장점이 없는 챗봇은 기존에 나와있는 것도 많았기에 대화형 인공지능의 의미가 없는 것 같다.&lt;br /&gt;
-그리고 아래 model_engine의 종류를 적었는데 무료라고 나와있는것은 옆에다가 적어놓아지만 다른 것도 실행은 가능한 것 같으니 직접 확인은 해보는게 좋을 것 같다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;model_engine-종류&quot;&gt;model_engine 종류&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;davinci(무료) : 다양한 태스크를 위한 가장 &lt;strong&gt;최신&lt;/strong&gt; 및 가장 &lt;strong&gt;고성능&lt;/strong&gt;의 모델. 자연어 처리를 위한 놀라운 결과를 제공하고 이 모델은 주로 일반적인 자연어 처리 태스크에 사용&lt;/li&gt;
-  &lt;li&gt;curie(무료) : &lt;strong&gt;GPT-2&lt;/strong&gt; 모델을 기반으로 &lt;strong&gt;대화형 생성 모델&lt;/strong&gt;과 &lt;strong&gt;언어 모델링&lt;/strong&gt;에서 뛰어난 결과를 제공&lt;/li&gt;
-  &lt;li&gt;babbage(무료) : &lt;strong&gt;GPT-2 모델의 더 작은 버전&lt;/strong&gt;으로, 훈련에 사용된 &lt;strong&gt;데이터셋의 크기가 더 작고&lt;/strong&gt; 자연어 처리 태스크의 작은 규모에 적합&lt;/li&gt;
-  &lt;li&gt;ada : &lt;strong&gt;GPT-2 모델을 기반&lt;/strong&gt;으로 하며, &lt;strong&gt;감성 분석&lt;/strong&gt; 및 &lt;strong&gt;텍스트 분류&lt;/strong&gt;와 같은 자연어 처리 태스크에 특화됩니다.&lt;/li&gt;
-  &lt;li&gt;text-davinci-002 : &lt;strong&gt;OpenAI&lt;/strong&gt;에서 사용 가능한 최신 모델 중 가장 &lt;strong&gt;강력한 모델&lt;/strong&gt;로 &lt;strong&gt;대화형 생성 모델&lt;/strong&gt; 및 &lt;strong&gt;자연어 이해&lt;/strong&gt; 작업에 적합&lt;/li&gt;
-  &lt;li&gt;translation : &lt;strong&gt;번역&lt;/strong&gt;작업에 사용되는 모델&lt;/li&gt;
-  &lt;li&gt;davinci-codex : &lt;strong&gt;요약&lt;/strong&gt;작업에 사용되는 모델&lt;/li&gt;
-  &lt;li&gt;davinci-instruct-beta : 대화형 &lt;strong&gt;지침 생성&lt;/strong&gt;을 위한 모델. 특정 작업에 대한 자세한 지침을 만드는 데 사용&lt;/li&gt;
-  &lt;li&gt;davinci-codex : &lt;strong&gt;고급 코드 생성&lt;/strong&gt;을 위한 모델. 이 모델은 코드 작성, 코드 자동 완성 및 코드 이해 작업에 적합&lt;/li&gt;
-  &lt;li&gt;davinci-medical-2 : &lt;strong&gt;의학 분야&lt;/strong&gt;의 자연어 처리에 특화된 모델. 이 모델은 진단, 치료 및 의료 데이터 처리와 같은 작업에 사용&lt;/li&gt;
-  &lt;li&gt;content-filter-alpha : &lt;strong&gt;불순물을 제거&lt;/strong&gt;하여 적절하지 않은 콘텐츠를 &lt;strong&gt;필터링&lt;/strong&gt;하는 데 사용됩니다.&lt;/li&gt;
-  &lt;li&gt;text-davinci-002-001 : 다양한 자연어 처리 태스크에 적합한 모델. 이 모델은 text-davinci-002 모델보다 약간 작은 모델.&lt;/li&gt;
-  &lt;li&gt;davinci-junior : OpenAI API에서 사용 가능한 모델 중 가장 작은 모델 중 하나. 이 모델은 davinci 모델보다 작고 강력한 성능을 제공하지는 않음. 작은 규모의 자연어 처리 작업에 적합&lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="programing" />
-      
-        <category term="python" />
-      
-
-      
-        <summary type="html">ChatGPT with Python python에서 chatGPT 이용하기 기본 라이브러리 설치는 github ChatGPT 링크에서 설치 개인 api_key 링크 는 해당 링크에서 얻으면 됨 model_engine은 여러가지 모델이 있으므로 목적에 따라 원하는 모델로 선택</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">병합정렬</title>
-      <link href="http://localhost:4000/%EB%B3%91%ED%95%A9%EC%A0%95%EB%A0%AC" rel="alternate" type="text/html" title="병합정렬" />
-      <published>2023-03-02T00:00:00+09:00</published>
-      <updated>2023-03-02T00:00:00+09:00</updated>
-      <id>http://localhost:4000/%EB%B3%91%ED%95%A9%EC%A0%95%EB%A0%AC</id>
-      <content type="html" xml:base="http://localhost:4000/%EB%B3%91%ED%95%A9%EC%A0%95%EB%A0%AC">&lt;h1 id=&quot;병합정렬-merge-sorting&quot;&gt;병합정렬 Merge Sorting&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;분할 정복(divide and conquer) 알고리즘의 대표적인 예시로, 배열을 두 부분으로 분할한 뒤, 각각을 재귀적으로 정렬하여, 합쳐서 정렬된 배열을 생성하는 방법&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;병합정렬-1&quot;&gt;병합정렬 1&lt;/h2&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;merge_sort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;# 병합하기 위한 함수로 입력된 배열은 오름차순으로 정렬된다.
-&lt;/span&gt;    
-    &lt;span class=&quot;c1&quot;&gt;# 병합의 최소 조건은 배열의 크기가 2 이상
-&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;
-    
-    &lt;span class=&quot;c1&quot;&gt;# 분할 지점 설정 
-&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;mid&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;left&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mid&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;right&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mid&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:]&lt;/span&gt;
-    
-    &lt;span class=&quot;c1&quot;&gt;# 재귀적으로 분할된 구역을 나눈다.
-&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;left&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;merge_sort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;right&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;merge_sort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;merge&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;right&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;merge&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;# 정렬하기 위한 함수로 입련된 두 개의 배열을 순차적으로 비교해가면 하나의 새로운 오름차순으로 정렬된 배열을 만든다.
-&lt;/span&gt;    
-    &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 정렬된 숫자
-&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# left index
-&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# right index
-&lt;/span&gt;    
-    &lt;span class=&quot;c1&quot;&gt;# 한쪽씩 비교하면서 작은 수를 result에 집어 넣는다.
-&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-    
-    &lt;span class=&quot;c1&quot;&gt;# 남은 것이 있으면 result에 추가 정리
-&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:]&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:]&lt;/span&gt;
-    
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;알고리즘
-    &lt;ul&gt;
-      &lt;li&gt;merge_sort(arr) : 입력된 배열을 오름차순으로 정렬하여 출력하는 함수&lt;/li&gt;
-      &lt;li&gt;merge(left, right) : 입력된 두 개의 배열을 순차적으로 비교해가면 하나의 새로운 배열을 만든다. 기준으로 오름차순으로 만든다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;알고리즘
-    &lt;ul&gt;
-      &lt;li&gt;첫번째 반복문
-        &lt;ul&gt;
-          &lt;li&gt;모든 요소를 비교하기 위해 1~n 범위로 비교한다.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;두번쨰 반복문
-        &lt;ul&gt;
-          &lt;li&gt;정렬된 배열의 크기 + 삽입할 원소의 크기만큼 반복&lt;/li&gt;
-          &lt;li&gt;j -&amp;gt; 0 범위로 줄여가면서 key값보다 작을 떄까지 또는 j만큼 반복이 끝났을 때 종료&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;마지막 Swap
-        &lt;ul&gt;
-          &lt;li&gt;두번째 반복문이 끝나면 j+1 인덱스의 위치에 값이 들어갈 위치가 된다.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;시간복잡도
-    &lt;ul&gt;
-      &lt;li&gt;최선의 경우 O(N)으로 굉장히 빠른편에 속한다.&lt;/li&gt;
-      &lt;li&gt;최악의 경우 O(N^2)으로 굉장히 느려 최선의 경우와 차이가 많이 난다.&lt;/li&gt;
-      &lt;li&gt;정렬되어 있는 데이터라도 삽입순서에 따라 성능차이가 나므로 데이터의 상태가 성능의 주요요인이다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="programing" />
-      
-        <category term="python" />
-      
-
-      
-        <summary type="html">병합정렬 Merge Sorting</summary>
       
 
       
