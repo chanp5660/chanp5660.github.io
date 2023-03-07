@@ -248,23 +248,6 @@ into the {body} of the default.hbs template -->
 #!pip install -U finance-datareader
 </span></code></pre></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Requirement already satisfied: finance-datareader in c:\users\tkd8484\anaconda3\envs\chanp5660\lib\site-packages (0.9.34)
-Requirement already satisfied: pandas&gt;=0.19.2 in c:\users\tkd8484\anaconda3\envs\chanp5660\lib\site-packages (from finance-datareader) (1.4.2)
-Requirement already satisfied: tqdm in c:\users\tkd8484\anaconda3\envs\chanp5660\lib\site-packages (from finance-datareader) (4.64.0)
-Requirement already satisfied: requests-file in c:\users\tkd8484\anaconda3\envs\chanp5660\lib\site-packages (from finance-datareader) (1.5.1)
-Requirement already satisfied: lxml in c:\users\tkd8484\anaconda3\envs\chanp5660\lib\site-packages (from finance-datareader) (4.9.0)
-Requirement already satisfied: requests&gt;=2.3.0 in c:\users\tkd8484\anaconda3\envs\chanp5660\lib\site-packages (from finance-datareader) (2.28.1)
-Requirement already satisfied: pytz&gt;=2020.1 in c:\users\tkd8484\anaconda3\envs\chanp5660\lib\site-packages (from pandas&gt;=0.19.2-&gt;finance-datareader) (2022.1)
-Requirement already satisfied: numpy&gt;=1.21.0 in c:\users\tkd8484\anaconda3\envs\chanp5660\lib\site-packages (from pandas&gt;=0.19.2-&gt;finance-datareader) (1.22.3)
-Requirement already satisfied: python-dateutil&gt;=2.8.1 in c:\users\tkd8484\anaconda3\envs\chanp5660\lib\site-packages (from pandas&gt;=0.19.2-&gt;finance-datareader) (2.8.2)
-Requirement already satisfied: six&gt;=1.5 in c:\users\tkd8484\anaconda3\envs\chanp5660\lib\site-packages (from python-dateutil&gt;=2.8.1-&gt;pandas&gt;=0.19.2-&gt;finance-datareader) (1.16.0)
-Requirement already satisfied: charset-normalizer&lt;3,&gt;=2 in c:\users\tkd8484\anaconda3\envs\chanp5660\lib\site-packages (from requests&gt;=2.3.0-&gt;finance-datareader) (2.1.0)
-Requirement already satisfied: urllib3&lt;1.27,&gt;=1.21.1 in c:\users\tkd8484\anaconda3\envs\chanp5660\lib\site-packages (from requests&gt;=2.3.0-&gt;finance-datareader) (1.26.10)
-Requirement already satisfied: idna&lt;4,&gt;=2.5 in c:\users\tkd8484\anaconda3\envs\chanp5660\lib\site-packages (from requests&gt;=2.3.0-&gt;finance-datareader) (3.3)
-Requirement already satisfied: certifi&gt;=2017.4.17 in c:\users\tkd8484\anaconda3\envs\chanp5660\lib\site-packages (from requests&gt;=2.3.0-&gt;finance-datareader) (2022.6.15)
-Requirement already satisfied: colorama in c:\users\tkd8484\anaconda3\envs\chanp5660\lib\site-packages (from tqdm-&gt;finance-datareader) (0.4.5)
-</code></pre></div></div>
-
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#  차트 설정
 </span><span class="o">%</span><span class="n">matplotlib</span> <span class="n">inline</span>
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
@@ -279,7 +262,7 @@ Requirement already satisfied: colorama in c:\users\tkd8484\anaconda3\envs\chanp
 <span class="n">fdr</span><span class="p">.</span><span class="n">__version__</span>
 </code></pre></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>'0.9.34'
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>'0.9.50'
 </code></pre></div></div>
 
 <h2 id="전체-종목-코드market">전체 종목 코드(market)</h2>
@@ -311,10 +294,12 @@ Requirement already satisfied: colorama in c:\users\tkd8484\anaconda3\envs\chanp
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">df_krx</span> <span class="o">=</span> <span class="n">fdr</span><span class="p">.</span><span class="n">StockListing</span><span class="p">(</span><span class="s">'KRX'</span><span class="p">)</span> 
 <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"한국거래소 상장종목 전체 KRX : </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">df_krx</span><span class="p">)</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
-<span class="n">df_krx</span><span class="p">.</span><span class="n">head</span><span class="p">()</span> 
 </code></pre></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>한국거래소 상장종목 전체 KRX : 7959
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>한국거래소 상장종목 전체 KRX : 2705
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">display</span><span class="p">(</span><span class="n">df_krx</span><span class="p">.</span><span class="n">head</span><span class="p">())</span>
 </code></pre></div></div>
 
 <div>
@@ -335,83 +320,125 @@ Requirement already satisfied: colorama in c:\users\tkd8484\anaconda3\envs\chanp
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>Symbol</th>
-      <th>Market</th>
+      <th>Code</th>
+      <th>ISU_CD</th>
       <th>Name</th>
-      <th>Sector</th>
-      <th>Industry</th>
-      <th>ListingDate</th>
-      <th>SettleMonth</th>
-      <th>Representative</th>
-      <th>HomePage</th>
-      <th>Region</th>
+      <th>Market</th>
+      <th>Dept</th>
+      <th>Close</th>
+      <th>ChangeCode</th>
+      <th>Changes</th>
+      <th>ChagesRatio</th>
+      <th>Open</th>
+      <th>High</th>
+      <th>Low</th>
+      <th>Volume</th>
+      <th>Amount</th>
+      <th>Marcap</th>
+      <th>Stocks</th>
+      <th>MarketId</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th>0</th>
-      <td>060310</td>
-      <td>KOSDAQ</td>
-      <td>3S</td>
-      <td>전자부품 제조업</td>
-      <td>반도체 웨이퍼 캐리어</td>
-      <td>2002-04-23</td>
-      <td>03월</td>
-      <td>김세완</td>
-      <td>http://www.3sref.com</td>
-      <td>서울특별시</td>
+      <td>005930</td>
+      <td>KR7005930003</td>
+      <td>삼성전자</td>
+      <td>KOSPI</td>
+      <td></td>
+      <td>60700</td>
+      <td>2</td>
+      <td>-800</td>
+      <td>-1.30</td>
+      <td>61400</td>
+      <td>61400</td>
+      <td>60700</td>
+      <td>11445731</td>
+      <td>697231172000</td>
+      <td>362962779040000</td>
+      <td>5969782550</td>
+      <td>STK</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>095570</td>
+      <td>373220</td>
+      <td>KR7373220003</td>
+      <td>LG에너지솔루션</td>
       <td>KOSPI</td>
-      <td>AJ네트웍스</td>
-      <td>산업용 기계 및 장비 임대업</td>
-      <td>렌탈(파렛트, OA장비, 건설장비)</td>
-      <td>2015-08-21</td>
-      <td>12월</td>
-      <td>박대현, 손삼달</td>
-      <td>http://www.ajnet.co.kr</td>
-      <td>서울특별시</td>
+      <td></td>
+      <td>566000</td>
+      <td>1</td>
+      <td>19000</td>
+      <td>3.47</td>
+      <td>548000</td>
+      <td>570000</td>
+      <td>543000</td>
+      <td>829918</td>
+      <td>465315655000</td>
+      <td>132444000000000</td>
+      <td>234000000</td>
+      <td>STK</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>006840</td>
+      <td>000660</td>
+      <td>KR7000660001</td>
+      <td>SK하이닉스</td>
       <td>KOSPI</td>
-      <td>AK홀딩스</td>
-      <td>기타 금융업</td>
-      <td>지주사업</td>
-      <td>1999-08-11</td>
-      <td>12월</td>
-      <td>채형석, 이석주(각자 대표이사)</td>
-      <td>http://www.aekyunggroup.co.kr</td>
-      <td>서울특별시</td>
+      <td></td>
+      <td>88900</td>
+      <td>2</td>
+      <td>-800</td>
+      <td>-0.89</td>
+      <td>89700</td>
+      <td>90000</td>
+      <td>88800</td>
+      <td>1605515</td>
+      <td>143506111000</td>
+      <td>64719410248500</td>
+      <td>728002365</td>
+      <td>STK</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>054620</td>
-      <td>KOSDAQ</td>
-      <td>APS홀딩스</td>
-      <td>기타 금융업</td>
-      <td>인터넷 트래픽 솔루션</td>
-      <td>2001-12-04</td>
-      <td>12월</td>
-      <td>정기로</td>
-      <td>http://www.apsholdings.co.kr</td>
-      <td>경기도</td>
+      <td>207940</td>
+      <td>KR7207940008</td>
+      <td>삼성바이오로직스</td>
+      <td>KOSPI</td>
+      <td></td>
+      <td>794000</td>
+      <td>2</td>
+      <td>-7000</td>
+      <td>-0.87</td>
+      <td>801000</td>
+      <td>804000</td>
+      <td>792000</td>
+      <td>50075</td>
+      <td>39926732000</td>
+      <td>56440982000000</td>
+      <td>71174000</td>
+      <td>STK</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>265520</td>
-      <td>KOSDAQ</td>
-      <td>AP시스템</td>
-      <td>특수 목적용 기계 제조업</td>
-      <td>디스플레이 제조 장비</td>
-      <td>2017-04-07</td>
-      <td>12월</td>
-      <td>김영주</td>
-      <td>http://www.apsystems.co.kr</td>
-      <td>경기도</td>
+      <td>006400</td>
+      <td>KR7006400006</td>
+      <td>삼성SDI</td>
+      <td>KOSPI</td>
+      <td></td>
+      <td>793000</td>
+      <td>1</td>
+      <td>12000</td>
+      <td>1.54</td>
+      <td>779000</td>
+      <td>801000</td>
+      <td>768000</td>
+      <td>579283</td>
+      <td>456986290868</td>
+      <td>54461507760000</td>
+      <td>68764530</td>
+      <td>STK</td>
     </tr>
   </tbody>
 </table>
@@ -424,14 +451,12 @@ Requirement already satisfied: colorama in c:\users\tkd8484\anaconda3\envs\chanp
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">df_spx</span> <span class="o">=</span> <span class="n">fdr</span><span class="p">.</span><span class="n">StockListing</span><span class="p">(</span><span class="s">'S&amp;P500'</span><span class="p">)</span>
 
 <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"S&amp;P 500 종목 전체 S&amp;P500 : </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">df_spx</span><span class="p">)</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
-<span class="n">df_spx</span><span class="p">.</span><span class="n">head</span><span class="p">()</span>
 </code></pre></div></div>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>S&amp;P 500 종목 전체 S&amp;P500 : 503
+</code></pre></div></div>
 
-
-C:\Users\tkd8484\anaconda3\envs\chanp5660\lib\site-packages\FinanceDataReader\wikipedia\listing.py:13: FutureWarning: The default value of regex will change from True to False in a future version.
-  df['Symbol'] = df['Symbol'].str.replace('\.', '')
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">display</span><span class="p">(</span><span class="n">df_spx</span><span class="p">.</span><span class="n">head</span><span class="p">())</span>
 </code></pre></div></div>
 
 <div>
@@ -489,10 +514,10 @@ C:\Users\tkd8484\anaconda3\envs\chanp5660\lib\site-packages\FinanceDataReader\wi
     </tr>
     <tr>
       <th>4</th>
-      <td>ABMD</td>
-      <td>Abiomed</td>
-      <td>Health Care</td>
-      <td>Health Care Equipment</td>
+      <td>ACN</td>
+      <td>Accenture</td>
+      <td>Information Technology</td>
+      <td>IT Consulting &amp; Other Services</td>
     </tr>
   </tbody>
 </table>
@@ -505,7 +530,7 @@ C:\Users\tkd8484\anaconda3\envs\chanp5660\lib\site-packages\FinanceDataReader\wi
 </ul>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">df</span> <span class="o">=</span> <span class="n">fdr</span><span class="p">.</span><span class="n">DataReader</span><span class="p">(</span><span class="s">'068270'</span><span class="p">,</span> <span class="s">'2021'</span><span class="p">)</span>
-<span class="n">df</span><span class="p">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">df</span><span class="p">.</span><span class="n">head</span><span class="p">(</span><span class="mi">20</span><span class="p">))</span>
 </code></pre></div></div>
 
 <div>
@@ -546,93 +571,183 @@ C:\Users\tkd8484\anaconda3\envs\chanp5660\lib\site-packages\FinanceDataReader\wi
   <tbody>
     <tr>
       <th>2021-01-04</th>
-      <td>344990</td>
-      <td>347935</td>
-      <td>336648</td>
-      <td>341065</td>
-      <td>2044341</td>
-      <td>-0.032033</td>
+      <td>332320</td>
+      <td>335157</td>
+      <td>324285</td>
+      <td>328540</td>
+      <td>2122278</td>
+      <td>-0.032035</td>
     </tr>
     <tr>
       <th>2021-01-05</th>
-      <td>344990</td>
-      <td>349407</td>
-      <td>338611</td>
-      <td>347935</td>
-      <td>1279470</td>
-      <td>0.020143</td>
+      <td>332320</td>
+      <td>336575</td>
+      <td>326176</td>
+      <td>335158</td>
+      <td>1328247</td>
+      <td>0.020144</td>
     </tr>
     <tr>
       <th>2021-01-06</th>
-      <td>350388</td>
-      <td>352842</td>
-      <td>346953</td>
-      <td>346954</td>
-      <td>995972</td>
-      <td>-0.002819</td>
+      <td>337520</td>
+      <td>339884</td>
+      <td>334211</td>
+      <td>334213</td>
+      <td>1033942</td>
+      <td>-0.002820</td>
     </tr>
     <tr>
       <th>2021-01-07</th>
-      <td>348425</td>
-      <td>352842</td>
-      <td>344500</td>
-      <td>350880</td>
-      <td>974596</td>
+      <td>335629</td>
+      <td>339884</td>
+      <td>331848</td>
+      <td>337995</td>
+      <td>1011751</td>
       <td>0.011316</td>
     </tr>
     <tr>
       <th>2021-01-08</th>
-      <td>352842</td>
-      <td>363148</td>
-      <td>349407</td>
-      <td>360204</td>
-      <td>1752377</td>
-      <td>0.026573</td>
+      <td>339884</td>
+      <td>349812</td>
+      <td>336575</td>
+      <td>346976</td>
+      <td>1819183</td>
+      <td>0.026571</td>
     </tr>
     <tr>
       <th>2021-01-11</th>
-      <td>370018</td>
-      <td>379342</td>
-      <td>360203</td>
-      <td>367074</td>
-      <td>2674305</td>
+      <td>356429</td>
+      <td>365411</td>
+      <td>346975</td>
+      <td>353594</td>
+      <td>2776258</td>
       <td>0.019073</td>
     </tr>
     <tr>
       <th>2021-01-12</th>
-      <td>373453</td>
-      <td>379832</td>
-      <td>363148</td>
-      <td>376889</td>
-      <td>2521867</td>
-      <td>0.026738</td>
+      <td>359738</td>
+      <td>365883</td>
+      <td>349812</td>
+      <td>363048</td>
+      <td>2618009</td>
+      <td>0.026737</td>
     </tr>
     <tr>
       <th>2021-01-13</th>
-      <td>372962</td>
-      <td>382777</td>
-      <td>368055</td>
-      <td>374435</td>
-      <td>2122923</td>
-      <td>-0.006511</td>
+      <td>359265</td>
+      <td>368720</td>
+      <td>354538</td>
+      <td>360685</td>
+      <td>2203856</td>
+      <td>-0.006509</td>
     </tr>
     <tr>
       <th>2021-01-14</th>
-      <td>359222</td>
-      <td>367074</td>
-      <td>344500</td>
-      <td>345972</td>
-      <td>3490188</td>
+      <td>346030</td>
+      <td>353593</td>
+      <td>331848</td>
+      <td>333267</td>
+      <td>3623245</td>
       <td>-0.076016</td>
     </tr>
     <tr>
       <th>2021-01-15</th>
-      <td>342537</td>
-      <td>343027</td>
-      <td>319472</td>
-      <td>322907</td>
-      <td>3462400</td>
+      <td>329957</td>
+      <td>330429</td>
+      <td>307739</td>
+      <td>311049</td>
+      <td>3594398</td>
       <td>-0.066667</td>
+    </tr>
+    <tr>
+      <th>2021-01-18</th>
+      <td>309630</td>
+      <td>327121</td>
+      <td>296867</td>
+      <td>296867</td>
+      <td>2751296</td>
+      <td>-0.045594</td>
+    </tr>
+    <tr>
+      <th>2021-01-19</th>
+      <td>291194</td>
+      <td>299703</td>
+      <td>280322</td>
+      <td>295450</td>
+      <td>3490677</td>
+      <td>-0.004773</td>
+    </tr>
+    <tr>
+      <th>2021-01-20</th>
+      <td>298285</td>
+      <td>306322</td>
+      <td>291194</td>
+      <td>294032</td>
+      <td>1475955</td>
+      <td>-0.004799</td>
+    </tr>
+    <tr>
+      <th>2021-01-21</th>
+      <td>296867</td>
+      <td>300176</td>
+      <td>289776</td>
+      <td>294977</td>
+      <td>1146479</td>
+      <td>0.003214</td>
+    </tr>
+    <tr>
+      <th>2021-01-22</th>
+      <td>295448</td>
+      <td>298285</td>
+      <td>291194</td>
+      <td>293086</td>
+      <td>883444</td>
+      <td>-0.006411</td>
+    </tr>
+    <tr>
+      <th>2021-01-25</th>
+      <td>294503</td>
+      <td>304431</td>
+      <td>294030</td>
+      <td>303486</td>
+      <td>995440</td>
+      <td>0.035484</td>
+    </tr>
+    <tr>
+      <th>2021-01-26</th>
+      <td>309630</td>
+      <td>316721</td>
+      <td>303958</td>
+      <td>304904</td>
+      <td>1328530</td>
+      <td>0.004672</td>
+    </tr>
+    <tr>
+      <th>2021-01-27</th>
+      <td>308212</td>
+      <td>314830</td>
+      <td>300649</td>
+      <td>311049</td>
+      <td>1072477</td>
+      <td>0.020154</td>
+    </tr>
+    <tr>
+      <th>2021-01-28</th>
+      <td>302067</td>
+      <td>319557</td>
+      <td>298758</td>
+      <td>316250</td>
+      <td>1574846</td>
+      <td>0.016721</td>
+    </tr>
+    <tr>
+      <th>2021-01-29</th>
+      <td>316248</td>
+      <td>320503</td>
+      <td>304903</td>
+      <td>306322</td>
+      <td>1139059</td>
+      <td>-0.031393</td>
     </tr>
   </tbody>
 </table>
@@ -650,7 +765,7 @@ C:\Users\tkd8484\anaconda3\envs\chanp5660\lib\site-packages\FinanceDataReader\wi
 </ul>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">df</span> <span class="o">=</span> <span class="n">fdr</span><span class="p">.</span><span class="n">DataReader</span><span class="p">(</span><span class="s">'AAPL'</span><span class="p">,</span> <span class="s">'2018-01-01'</span><span class="p">,</span> <span class="s">'2018-05-30'</span><span class="p">)</span>
-<span class="n">df</span><span class="p">.</span><span class="n">tail</span><span class="p">()</span>
+<span class="n">display</span><span class="p">(</span><span class="n">df</span><span class="p">.</span><span class="n">tail</span><span class="p">())</span>
 </code></pre></div></div>
 
 <div>
@@ -870,6 +985,8 @@ C:\Users\tkd8484\anaconda3\envs\chanp5660\lib\site-packages\FinanceDataReader\wi
                         <div class="read-next-card-content">
                             <ul>
                                 
+                                
+                                  
                                 
                                   
                                 

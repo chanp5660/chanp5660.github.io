@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/project/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-03-07T13:06:57+09:00</updated>
+  <updated>2023-03-07T22:02:42+09:00</updated>
   <id>http://localhost:4000/tag/project/feed.xml</id>
 
   
@@ -926,23 +926,6 @@ if(typeof(LDAvis) !== &quot;undefined&quot;){
 #!pip install -U finance-datareader
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Requirement already satisfied: finance-datareader in c:\users\tkd8484\anaconda3\envs\chanp5660\lib\site-packages (0.9.34)
-Requirement already satisfied: pandas&amp;gt;=0.19.2 in c:\users\tkd8484\anaconda3\envs\chanp5660\lib\site-packages (from finance-datareader) (1.4.2)
-Requirement already satisfied: tqdm in c:\users\tkd8484\anaconda3\envs\chanp5660\lib\site-packages (from finance-datareader) (4.64.0)
-Requirement already satisfied: requests-file in c:\users\tkd8484\anaconda3\envs\chanp5660\lib\site-packages (from finance-datareader) (1.5.1)
-Requirement already satisfied: lxml in c:\users\tkd8484\anaconda3\envs\chanp5660\lib\site-packages (from finance-datareader) (4.9.0)
-Requirement already satisfied: requests&amp;gt;=2.3.0 in c:\users\tkd8484\anaconda3\envs\chanp5660\lib\site-packages (from finance-datareader) (2.28.1)
-Requirement already satisfied: pytz&amp;gt;=2020.1 in c:\users\tkd8484\anaconda3\envs\chanp5660\lib\site-packages (from pandas&amp;gt;=0.19.2-&amp;gt;finance-datareader) (2022.1)
-Requirement already satisfied: numpy&amp;gt;=1.21.0 in c:\users\tkd8484\anaconda3\envs\chanp5660\lib\site-packages (from pandas&amp;gt;=0.19.2-&amp;gt;finance-datareader) (1.22.3)
-Requirement already satisfied: python-dateutil&amp;gt;=2.8.1 in c:\users\tkd8484\anaconda3\envs\chanp5660\lib\site-packages (from pandas&amp;gt;=0.19.2-&amp;gt;finance-datareader) (2.8.2)
-Requirement already satisfied: six&amp;gt;=1.5 in c:\users\tkd8484\anaconda3\envs\chanp5660\lib\site-packages (from python-dateutil&amp;gt;=2.8.1-&amp;gt;pandas&amp;gt;=0.19.2-&amp;gt;finance-datareader) (1.16.0)
-Requirement already satisfied: charset-normalizer&amp;lt;3,&amp;gt;=2 in c:\users\tkd8484\anaconda3\envs\chanp5660\lib\site-packages (from requests&amp;gt;=2.3.0-&amp;gt;finance-datareader) (2.1.0)
-Requirement already satisfied: urllib3&amp;lt;1.27,&amp;gt;=1.21.1 in c:\users\tkd8484\anaconda3\envs\chanp5660\lib\site-packages (from requests&amp;gt;=2.3.0-&amp;gt;finance-datareader) (1.26.10)
-Requirement already satisfied: idna&amp;lt;4,&amp;gt;=2.5 in c:\users\tkd8484\anaconda3\envs\chanp5660\lib\site-packages (from requests&amp;gt;=2.3.0-&amp;gt;finance-datareader) (3.3)
-Requirement already satisfied: certifi&amp;gt;=2017.4.17 in c:\users\tkd8484\anaconda3\envs\chanp5660\lib\site-packages (from requests&amp;gt;=2.3.0-&amp;gt;finance-datareader) (2022.6.15)
-Requirement already satisfied: colorama in c:\users\tkd8484\anaconda3\envs\chanp5660\lib\site-packages (from tqdm-&amp;gt;finance-datareader) (0.4.5)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;#  차트 설정
 &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;matplotlib&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;inline&lt;/span&gt;
 &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;matplotlib.pyplot&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;
@@ -957,7 +940,7 @@ Requirement already satisfied: colorama in c:\users\tkd8484\anaconda3\envs\chanp
 &lt;span class=&quot;n&quot;&gt;fdr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__version__&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&apos;0.9.34&apos;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&apos;0.9.50&apos;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;전체-종목-코드market&quot;&gt;전체 종목 코드(market)&lt;/h2&gt;
@@ -989,10 +972,12 @@ Requirement already satisfied: colorama in c:\users\tkd8484\anaconda3\envs\chanp
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;df_krx&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fdr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;StockListing&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;KRX&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; 
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sa&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;한국거래소 상장종목 전체 KRX : &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df_krx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;df_krx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;한국거래소 상장종목 전체 KRX : 7959
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;한국거래소 상장종목 전체 KRX : 2705
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df_krx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div&gt;
@@ -1013,83 +998,125 @@ Requirement already satisfied: colorama in c:\users\tkd8484\anaconda3\envs\chanp
   &lt;thead&gt;
     &lt;tr style=&quot;text-align: right;&quot;&gt;
       &lt;th&gt;&lt;/th&gt;
-      &lt;th&gt;Symbol&lt;/th&gt;
-      &lt;th&gt;Market&lt;/th&gt;
+      &lt;th&gt;Code&lt;/th&gt;
+      &lt;th&gt;ISU_CD&lt;/th&gt;
       &lt;th&gt;Name&lt;/th&gt;
-      &lt;th&gt;Sector&lt;/th&gt;
-      &lt;th&gt;Industry&lt;/th&gt;
-      &lt;th&gt;ListingDate&lt;/th&gt;
-      &lt;th&gt;SettleMonth&lt;/th&gt;
-      &lt;th&gt;Representative&lt;/th&gt;
-      &lt;th&gt;HomePage&lt;/th&gt;
-      &lt;th&gt;Region&lt;/th&gt;
+      &lt;th&gt;Market&lt;/th&gt;
+      &lt;th&gt;Dept&lt;/th&gt;
+      &lt;th&gt;Close&lt;/th&gt;
+      &lt;th&gt;ChangeCode&lt;/th&gt;
+      &lt;th&gt;Changes&lt;/th&gt;
+      &lt;th&gt;ChagesRatio&lt;/th&gt;
+      &lt;th&gt;Open&lt;/th&gt;
+      &lt;th&gt;High&lt;/th&gt;
+      &lt;th&gt;Low&lt;/th&gt;
+      &lt;th&gt;Volume&lt;/th&gt;
+      &lt;th&gt;Amount&lt;/th&gt;
+      &lt;th&gt;Marcap&lt;/th&gt;
+      &lt;th&gt;Stocks&lt;/th&gt;
+      &lt;th&gt;MarketId&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;th&gt;0&lt;/th&gt;
-      &lt;td&gt;060310&lt;/td&gt;
-      &lt;td&gt;KOSDAQ&lt;/td&gt;
-      &lt;td&gt;3S&lt;/td&gt;
-      &lt;td&gt;전자부품 제조업&lt;/td&gt;
-      &lt;td&gt;반도체 웨이퍼 캐리어&lt;/td&gt;
-      &lt;td&gt;2002-04-23&lt;/td&gt;
-      &lt;td&gt;03월&lt;/td&gt;
-      &lt;td&gt;김세완&lt;/td&gt;
-      &lt;td&gt;http://www.3sref.com&lt;/td&gt;
-      &lt;td&gt;서울특별시&lt;/td&gt;
+      &lt;td&gt;005930&lt;/td&gt;
+      &lt;td&gt;KR7005930003&lt;/td&gt;
+      &lt;td&gt;삼성전자&lt;/td&gt;
+      &lt;td&gt;KOSPI&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;60700&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;-800&lt;/td&gt;
+      &lt;td&gt;-1.30&lt;/td&gt;
+      &lt;td&gt;61400&lt;/td&gt;
+      &lt;td&gt;61400&lt;/td&gt;
+      &lt;td&gt;60700&lt;/td&gt;
+      &lt;td&gt;11445731&lt;/td&gt;
+      &lt;td&gt;697231172000&lt;/td&gt;
+      &lt;td&gt;362962779040000&lt;/td&gt;
+      &lt;td&gt;5969782550&lt;/td&gt;
+      &lt;td&gt;STK&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;th&gt;1&lt;/th&gt;
-      &lt;td&gt;095570&lt;/td&gt;
+      &lt;td&gt;373220&lt;/td&gt;
+      &lt;td&gt;KR7373220003&lt;/td&gt;
+      &lt;td&gt;LG에너지솔루션&lt;/td&gt;
       &lt;td&gt;KOSPI&lt;/td&gt;
-      &lt;td&gt;AJ네트웍스&lt;/td&gt;
-      &lt;td&gt;산업용 기계 및 장비 임대업&lt;/td&gt;
-      &lt;td&gt;렌탈(파렛트, OA장비, 건설장비)&lt;/td&gt;
-      &lt;td&gt;2015-08-21&lt;/td&gt;
-      &lt;td&gt;12월&lt;/td&gt;
-      &lt;td&gt;박대현, 손삼달&lt;/td&gt;
-      &lt;td&gt;http://www.ajnet.co.kr&lt;/td&gt;
-      &lt;td&gt;서울특별시&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;566000&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;19000&lt;/td&gt;
+      &lt;td&gt;3.47&lt;/td&gt;
+      &lt;td&gt;548000&lt;/td&gt;
+      &lt;td&gt;570000&lt;/td&gt;
+      &lt;td&gt;543000&lt;/td&gt;
+      &lt;td&gt;829918&lt;/td&gt;
+      &lt;td&gt;465315655000&lt;/td&gt;
+      &lt;td&gt;132444000000000&lt;/td&gt;
+      &lt;td&gt;234000000&lt;/td&gt;
+      &lt;td&gt;STK&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;th&gt;2&lt;/th&gt;
-      &lt;td&gt;006840&lt;/td&gt;
+      &lt;td&gt;000660&lt;/td&gt;
+      &lt;td&gt;KR7000660001&lt;/td&gt;
+      &lt;td&gt;SK하이닉스&lt;/td&gt;
       &lt;td&gt;KOSPI&lt;/td&gt;
-      &lt;td&gt;AK홀딩스&lt;/td&gt;
-      &lt;td&gt;기타 금융업&lt;/td&gt;
-      &lt;td&gt;지주사업&lt;/td&gt;
-      &lt;td&gt;1999-08-11&lt;/td&gt;
-      &lt;td&gt;12월&lt;/td&gt;
-      &lt;td&gt;채형석, 이석주(각자 대표이사)&lt;/td&gt;
-      &lt;td&gt;http://www.aekyunggroup.co.kr&lt;/td&gt;
-      &lt;td&gt;서울특별시&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;88900&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;-800&lt;/td&gt;
+      &lt;td&gt;-0.89&lt;/td&gt;
+      &lt;td&gt;89700&lt;/td&gt;
+      &lt;td&gt;90000&lt;/td&gt;
+      &lt;td&gt;88800&lt;/td&gt;
+      &lt;td&gt;1605515&lt;/td&gt;
+      &lt;td&gt;143506111000&lt;/td&gt;
+      &lt;td&gt;64719410248500&lt;/td&gt;
+      &lt;td&gt;728002365&lt;/td&gt;
+      &lt;td&gt;STK&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;th&gt;3&lt;/th&gt;
-      &lt;td&gt;054620&lt;/td&gt;
-      &lt;td&gt;KOSDAQ&lt;/td&gt;
-      &lt;td&gt;APS홀딩스&lt;/td&gt;
-      &lt;td&gt;기타 금융업&lt;/td&gt;
-      &lt;td&gt;인터넷 트래픽 솔루션&lt;/td&gt;
-      &lt;td&gt;2001-12-04&lt;/td&gt;
-      &lt;td&gt;12월&lt;/td&gt;
-      &lt;td&gt;정기로&lt;/td&gt;
-      &lt;td&gt;http://www.apsholdings.co.kr&lt;/td&gt;
-      &lt;td&gt;경기도&lt;/td&gt;
+      &lt;td&gt;207940&lt;/td&gt;
+      &lt;td&gt;KR7207940008&lt;/td&gt;
+      &lt;td&gt;삼성바이오로직스&lt;/td&gt;
+      &lt;td&gt;KOSPI&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;794000&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;-7000&lt;/td&gt;
+      &lt;td&gt;-0.87&lt;/td&gt;
+      &lt;td&gt;801000&lt;/td&gt;
+      &lt;td&gt;804000&lt;/td&gt;
+      &lt;td&gt;792000&lt;/td&gt;
+      &lt;td&gt;50075&lt;/td&gt;
+      &lt;td&gt;39926732000&lt;/td&gt;
+      &lt;td&gt;56440982000000&lt;/td&gt;
+      &lt;td&gt;71174000&lt;/td&gt;
+      &lt;td&gt;STK&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;th&gt;4&lt;/th&gt;
-      &lt;td&gt;265520&lt;/td&gt;
-      &lt;td&gt;KOSDAQ&lt;/td&gt;
-      &lt;td&gt;AP시스템&lt;/td&gt;
-      &lt;td&gt;특수 목적용 기계 제조업&lt;/td&gt;
-      &lt;td&gt;디스플레이 제조 장비&lt;/td&gt;
-      &lt;td&gt;2017-04-07&lt;/td&gt;
-      &lt;td&gt;12월&lt;/td&gt;
-      &lt;td&gt;김영주&lt;/td&gt;
-      &lt;td&gt;http://www.apsystems.co.kr&lt;/td&gt;
-      &lt;td&gt;경기도&lt;/td&gt;
+      &lt;td&gt;006400&lt;/td&gt;
+      &lt;td&gt;KR7006400006&lt;/td&gt;
+      &lt;td&gt;삼성SDI&lt;/td&gt;
+      &lt;td&gt;KOSPI&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;793000&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;12000&lt;/td&gt;
+      &lt;td&gt;1.54&lt;/td&gt;
+      &lt;td&gt;779000&lt;/td&gt;
+      &lt;td&gt;801000&lt;/td&gt;
+      &lt;td&gt;768000&lt;/td&gt;
+      &lt;td&gt;579283&lt;/td&gt;
+      &lt;td&gt;456986290868&lt;/td&gt;
+      &lt;td&gt;54461507760000&lt;/td&gt;
+      &lt;td&gt;68764530&lt;/td&gt;
+      &lt;td&gt;STK&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -1102,14 +1129,12 @@ Requirement already satisfied: colorama in c:\users\tkd8484\anaconda3\envs\chanp
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;df_spx&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fdr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;StockListing&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;S&amp;amp;P500&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sa&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;S&amp;amp;P 500 종목 전체 S&amp;amp;P500 : &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df_spx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;df_spx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;S&amp;amp;P 500 종목 전체 S&amp;amp;P500 : 503
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-
-C:\Users\tkd8484\anaconda3\envs\chanp5660\lib\site-packages\FinanceDataReader\wikipedia\listing.py:13: FutureWarning: The default value of regex will change from True to False in a future version.
-  df[&apos;Symbol&apos;] = df[&apos;Symbol&apos;].str.replace(&apos;\.&apos;, &apos;&apos;)
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df_spx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div&gt;
@@ -1167,10 +1192,10 @@ C:\Users\tkd8484\anaconda3\envs\chanp5660\lib\site-packages\FinanceDataReader\wi
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;th&gt;4&lt;/th&gt;
-      &lt;td&gt;ABMD&lt;/td&gt;
-      &lt;td&gt;Abiomed&lt;/td&gt;
-      &lt;td&gt;Health Care&lt;/td&gt;
-      &lt;td&gt;Health Care Equipment&lt;/td&gt;
+      &lt;td&gt;ACN&lt;/td&gt;
+      &lt;td&gt;Accenture&lt;/td&gt;
+      &lt;td&gt;Information Technology&lt;/td&gt;
+      &lt;td&gt;IT Consulting &amp;amp; Other Services&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -1183,7 +1208,7 @@ C:\Users\tkd8484\anaconda3\envs\chanp5660\lib\site-packages\FinanceDataReader\wi
 &lt;/ul&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fdr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DataReader&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;068270&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;2021&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div&gt;
@@ -1224,93 +1249,183 @@ C:\Users\tkd8484\anaconda3\envs\chanp5660\lib\site-packages\FinanceDataReader\wi
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;th&gt;2021-01-04&lt;/th&gt;
-      &lt;td&gt;344990&lt;/td&gt;
-      &lt;td&gt;347935&lt;/td&gt;
-      &lt;td&gt;336648&lt;/td&gt;
-      &lt;td&gt;341065&lt;/td&gt;
-      &lt;td&gt;2044341&lt;/td&gt;
-      &lt;td&gt;-0.032033&lt;/td&gt;
+      &lt;td&gt;332320&lt;/td&gt;
+      &lt;td&gt;335157&lt;/td&gt;
+      &lt;td&gt;324285&lt;/td&gt;
+      &lt;td&gt;328540&lt;/td&gt;
+      &lt;td&gt;2122278&lt;/td&gt;
+      &lt;td&gt;-0.032035&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;th&gt;2021-01-05&lt;/th&gt;
-      &lt;td&gt;344990&lt;/td&gt;
-      &lt;td&gt;349407&lt;/td&gt;
-      &lt;td&gt;338611&lt;/td&gt;
-      &lt;td&gt;347935&lt;/td&gt;
-      &lt;td&gt;1279470&lt;/td&gt;
-      &lt;td&gt;0.020143&lt;/td&gt;
+      &lt;td&gt;332320&lt;/td&gt;
+      &lt;td&gt;336575&lt;/td&gt;
+      &lt;td&gt;326176&lt;/td&gt;
+      &lt;td&gt;335158&lt;/td&gt;
+      &lt;td&gt;1328247&lt;/td&gt;
+      &lt;td&gt;0.020144&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;th&gt;2021-01-06&lt;/th&gt;
-      &lt;td&gt;350388&lt;/td&gt;
-      &lt;td&gt;352842&lt;/td&gt;
-      &lt;td&gt;346953&lt;/td&gt;
-      &lt;td&gt;346954&lt;/td&gt;
-      &lt;td&gt;995972&lt;/td&gt;
-      &lt;td&gt;-0.002819&lt;/td&gt;
+      &lt;td&gt;337520&lt;/td&gt;
+      &lt;td&gt;339884&lt;/td&gt;
+      &lt;td&gt;334211&lt;/td&gt;
+      &lt;td&gt;334213&lt;/td&gt;
+      &lt;td&gt;1033942&lt;/td&gt;
+      &lt;td&gt;-0.002820&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;th&gt;2021-01-07&lt;/th&gt;
-      &lt;td&gt;348425&lt;/td&gt;
-      &lt;td&gt;352842&lt;/td&gt;
-      &lt;td&gt;344500&lt;/td&gt;
-      &lt;td&gt;350880&lt;/td&gt;
-      &lt;td&gt;974596&lt;/td&gt;
+      &lt;td&gt;335629&lt;/td&gt;
+      &lt;td&gt;339884&lt;/td&gt;
+      &lt;td&gt;331848&lt;/td&gt;
+      &lt;td&gt;337995&lt;/td&gt;
+      &lt;td&gt;1011751&lt;/td&gt;
       &lt;td&gt;0.011316&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;th&gt;2021-01-08&lt;/th&gt;
-      &lt;td&gt;352842&lt;/td&gt;
-      &lt;td&gt;363148&lt;/td&gt;
-      &lt;td&gt;349407&lt;/td&gt;
-      &lt;td&gt;360204&lt;/td&gt;
-      &lt;td&gt;1752377&lt;/td&gt;
-      &lt;td&gt;0.026573&lt;/td&gt;
+      &lt;td&gt;339884&lt;/td&gt;
+      &lt;td&gt;349812&lt;/td&gt;
+      &lt;td&gt;336575&lt;/td&gt;
+      &lt;td&gt;346976&lt;/td&gt;
+      &lt;td&gt;1819183&lt;/td&gt;
+      &lt;td&gt;0.026571&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;th&gt;2021-01-11&lt;/th&gt;
-      &lt;td&gt;370018&lt;/td&gt;
-      &lt;td&gt;379342&lt;/td&gt;
-      &lt;td&gt;360203&lt;/td&gt;
-      &lt;td&gt;367074&lt;/td&gt;
-      &lt;td&gt;2674305&lt;/td&gt;
+      &lt;td&gt;356429&lt;/td&gt;
+      &lt;td&gt;365411&lt;/td&gt;
+      &lt;td&gt;346975&lt;/td&gt;
+      &lt;td&gt;353594&lt;/td&gt;
+      &lt;td&gt;2776258&lt;/td&gt;
       &lt;td&gt;0.019073&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;th&gt;2021-01-12&lt;/th&gt;
-      &lt;td&gt;373453&lt;/td&gt;
-      &lt;td&gt;379832&lt;/td&gt;
-      &lt;td&gt;363148&lt;/td&gt;
-      &lt;td&gt;376889&lt;/td&gt;
-      &lt;td&gt;2521867&lt;/td&gt;
-      &lt;td&gt;0.026738&lt;/td&gt;
+      &lt;td&gt;359738&lt;/td&gt;
+      &lt;td&gt;365883&lt;/td&gt;
+      &lt;td&gt;349812&lt;/td&gt;
+      &lt;td&gt;363048&lt;/td&gt;
+      &lt;td&gt;2618009&lt;/td&gt;
+      &lt;td&gt;0.026737&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;th&gt;2021-01-13&lt;/th&gt;
-      &lt;td&gt;372962&lt;/td&gt;
-      &lt;td&gt;382777&lt;/td&gt;
-      &lt;td&gt;368055&lt;/td&gt;
-      &lt;td&gt;374435&lt;/td&gt;
-      &lt;td&gt;2122923&lt;/td&gt;
-      &lt;td&gt;-0.006511&lt;/td&gt;
+      &lt;td&gt;359265&lt;/td&gt;
+      &lt;td&gt;368720&lt;/td&gt;
+      &lt;td&gt;354538&lt;/td&gt;
+      &lt;td&gt;360685&lt;/td&gt;
+      &lt;td&gt;2203856&lt;/td&gt;
+      &lt;td&gt;-0.006509&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;th&gt;2021-01-14&lt;/th&gt;
-      &lt;td&gt;359222&lt;/td&gt;
-      &lt;td&gt;367074&lt;/td&gt;
-      &lt;td&gt;344500&lt;/td&gt;
-      &lt;td&gt;345972&lt;/td&gt;
-      &lt;td&gt;3490188&lt;/td&gt;
+      &lt;td&gt;346030&lt;/td&gt;
+      &lt;td&gt;353593&lt;/td&gt;
+      &lt;td&gt;331848&lt;/td&gt;
+      &lt;td&gt;333267&lt;/td&gt;
+      &lt;td&gt;3623245&lt;/td&gt;
       &lt;td&gt;-0.076016&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;th&gt;2021-01-15&lt;/th&gt;
-      &lt;td&gt;342537&lt;/td&gt;
-      &lt;td&gt;343027&lt;/td&gt;
-      &lt;td&gt;319472&lt;/td&gt;
-      &lt;td&gt;322907&lt;/td&gt;
-      &lt;td&gt;3462400&lt;/td&gt;
+      &lt;td&gt;329957&lt;/td&gt;
+      &lt;td&gt;330429&lt;/td&gt;
+      &lt;td&gt;307739&lt;/td&gt;
+      &lt;td&gt;311049&lt;/td&gt;
+      &lt;td&gt;3594398&lt;/td&gt;
       &lt;td&gt;-0.066667&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-18&lt;/th&gt;
+      &lt;td&gt;309630&lt;/td&gt;
+      &lt;td&gt;327121&lt;/td&gt;
+      &lt;td&gt;296867&lt;/td&gt;
+      &lt;td&gt;296867&lt;/td&gt;
+      &lt;td&gt;2751296&lt;/td&gt;
+      &lt;td&gt;-0.045594&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-19&lt;/th&gt;
+      &lt;td&gt;291194&lt;/td&gt;
+      &lt;td&gt;299703&lt;/td&gt;
+      &lt;td&gt;280322&lt;/td&gt;
+      &lt;td&gt;295450&lt;/td&gt;
+      &lt;td&gt;3490677&lt;/td&gt;
+      &lt;td&gt;-0.004773&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-20&lt;/th&gt;
+      &lt;td&gt;298285&lt;/td&gt;
+      &lt;td&gt;306322&lt;/td&gt;
+      &lt;td&gt;291194&lt;/td&gt;
+      &lt;td&gt;294032&lt;/td&gt;
+      &lt;td&gt;1475955&lt;/td&gt;
+      &lt;td&gt;-0.004799&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-21&lt;/th&gt;
+      &lt;td&gt;296867&lt;/td&gt;
+      &lt;td&gt;300176&lt;/td&gt;
+      &lt;td&gt;289776&lt;/td&gt;
+      &lt;td&gt;294977&lt;/td&gt;
+      &lt;td&gt;1146479&lt;/td&gt;
+      &lt;td&gt;0.003214&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-22&lt;/th&gt;
+      &lt;td&gt;295448&lt;/td&gt;
+      &lt;td&gt;298285&lt;/td&gt;
+      &lt;td&gt;291194&lt;/td&gt;
+      &lt;td&gt;293086&lt;/td&gt;
+      &lt;td&gt;883444&lt;/td&gt;
+      &lt;td&gt;-0.006411&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-25&lt;/th&gt;
+      &lt;td&gt;294503&lt;/td&gt;
+      &lt;td&gt;304431&lt;/td&gt;
+      &lt;td&gt;294030&lt;/td&gt;
+      &lt;td&gt;303486&lt;/td&gt;
+      &lt;td&gt;995440&lt;/td&gt;
+      &lt;td&gt;0.035484&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-26&lt;/th&gt;
+      &lt;td&gt;309630&lt;/td&gt;
+      &lt;td&gt;316721&lt;/td&gt;
+      &lt;td&gt;303958&lt;/td&gt;
+      &lt;td&gt;304904&lt;/td&gt;
+      &lt;td&gt;1328530&lt;/td&gt;
+      &lt;td&gt;0.004672&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-27&lt;/th&gt;
+      &lt;td&gt;308212&lt;/td&gt;
+      &lt;td&gt;314830&lt;/td&gt;
+      &lt;td&gt;300649&lt;/td&gt;
+      &lt;td&gt;311049&lt;/td&gt;
+      &lt;td&gt;1072477&lt;/td&gt;
+      &lt;td&gt;0.020154&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-28&lt;/th&gt;
+      &lt;td&gt;302067&lt;/td&gt;
+      &lt;td&gt;319557&lt;/td&gt;
+      &lt;td&gt;298758&lt;/td&gt;
+      &lt;td&gt;316250&lt;/td&gt;
+      &lt;td&gt;1574846&lt;/td&gt;
+      &lt;td&gt;0.016721&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-29&lt;/th&gt;
+      &lt;td&gt;316248&lt;/td&gt;
+      &lt;td&gt;320503&lt;/td&gt;
+      &lt;td&gt;304903&lt;/td&gt;
+      &lt;td&gt;306322&lt;/td&gt;
+      &lt;td&gt;1139059&lt;/td&gt;
+      &lt;td&gt;-0.031393&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -1328,7 +1443,7 @@ C:\Users\tkd8484\anaconda3\envs\chanp5660\lib\site-packages\FinanceDataReader\wi
 &lt;/ul&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fdr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DataReader&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;AAPL&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;2018-01-01&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;2018-05-30&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tail&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tail&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div&gt;
