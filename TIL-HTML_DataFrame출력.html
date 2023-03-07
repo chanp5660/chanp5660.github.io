@@ -590,6 +590,179 @@ display(train.head())
 <pre><code class="language-{html}">&lt;/table&gt;
 </code></pre>
 
+<h1 id="자동화-시키기-위한-특징-찾기">자동화 시키기 위한 특징 찾기</h1>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">display</span><span class="p">(</span><span class="n">train</span><span class="p">.</span><span class="n">head</span><span class="p">())</span>
+</code></pre></div></div>
+
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>id</th>
+      <th>Gender</th>
+      <th>Customer Type</th>
+      <th>Age</th>
+      <th>Type of Travel</th>
+      <th>Class</th>
+      <th>Flight Distance</th>
+      <th>Inflight wifi service</th>
+      <th>Departure/Arrival time convenient</th>
+      <th>Ease of Online booking</th>
+      <th>...</th>
+      <th>Inflight entertainment</th>
+      <th>On-board service</th>
+      <th>Leg room service</th>
+      <th>Baggage handling</th>
+      <th>Checkin service</th>
+      <th>Inflight service</th>
+      <th>Cleanliness</th>
+      <th>Departure Delay in Minutes</th>
+      <th>Arrival Delay in Minutes</th>
+      <th>satisfaction</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>84455</td>
+      <td>Female</td>
+      <td>disloyal Customer</td>
+      <td>23</td>
+      <td>Business travel</td>
+      <td>Eco</td>
+      <td>290</td>
+      <td>3</td>
+      <td>4</td>
+      <td>3</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>neutral or dissatisfied</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>90180</td>
+      <td>Male</td>
+      <td>Loyal Customer</td>
+      <td>61</td>
+      <td>Personal Travel</td>
+      <td>Eco</td>
+      <td>957</td>
+      <td>3</td>
+      <td>5</td>
+      <td>3</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>neutral or dissatisfied</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>33002</td>
+      <td>Male</td>
+      <td>Loyal Customer</td>
+      <td>43</td>
+      <td>Personal Travel</td>
+      <td>Eco</td>
+      <td>163</td>
+      <td>4</td>
+      <td>5</td>
+      <td>0</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>neutral or dissatisfied</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>124430</td>
+      <td>Female</td>
+      <td>Loyal Customer</td>
+      <td>28</td>
+      <td>Personal Travel</td>
+      <td>Eco</td>
+      <td>1262</td>
+      <td>2</td>
+      <td>4</td>
+      <td>2</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>neutral or dissatisfied</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>93970</td>
+      <td>Female</td>
+      <td>Loyal Customer</td>
+      <td>39</td>
+      <td>Business travel</td>
+      <td>Business</td>
+      <td>1218</td>
+      <td>4</td>
+      <td>4</td>
+      <td>4</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>satisfied</td>
+    </tr>
+  </tbody>
+</table>
+<p>5 rows × 24 columns</p>
+</div>
+
+
                 </div>
             </section>
 
@@ -687,6 +860,15 @@ display(train.head())
                                     
                                         
                                         
+                                            <li><a href="/TIL-%ED%8C%8C%EC%9D%BC%EA%B2%BD%EB%A1%9C%EC%B0%BE%EA%B8%B0">TIL-파일경로찾기</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
                                             <li><a href="/TIL-python_warning%EB%AC%B4%EC%8B%9C">TIL-Python Warning무시</a></li>
                                         
                                     
@@ -694,10 +876,6 @@ display(train.head())
                                 
                                   
                                     
-                                  
-                                
-                                  
-                                
                                   
                                 
                                   
@@ -712,8 +890,6 @@ display(train.head())
                                   
                                     
                                         
-                                        
-                                            <li><a href="/TIL-HTML%ED%86%A0%EA%B8%80%EC%84%A4%EC%A0%95">TIL-HTML 토글 설정</a></li>
                                         
                                     
                                   
@@ -1073,7 +1249,7 @@ display(train.head())
                         <footer class="read-next-card-footer">
                             <a href="/tag/exitem/">
                                 
-                                    See all 35 posts  →
+                                    See all 36 posts  →
                                 
                             </a>
                         </footer>
@@ -1088,7 +1264,7 @@ display(train.head())
     <article class="post-card post-template">
         
             <a class="post-card-image-link" href="/TIL-python_warning%EB%AC%B4%EC%8B%9C">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/Python_Warning무시.png)"></div>
+                <div class="post-card-image" style="background-image: url(/assets/built/images/Python_Warning.png)"></div>
             </a>
         
         <div class="post-card-content">
@@ -1145,29 +1321,31 @@ display(train.head())
 
     <article class="post-card post-template">
         
-            <a class="post-card-image-link" href="/%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_EDA">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/항공사만족도분류.png)"></div>
+            <a class="post-card-image-link" href="/TIL-HTML%ED%8E%98%EC%9D%B4%EC%A7%80%EB%82%B4%EC%9D%B4%EB%8F%99">
+                <div class="post-card-image" style="background-image: url(/assets/built/images/HTML페이지내이동.png)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_EDA">
+            <a class="post-card-content-link" href="/TIL-HTML%ED%8E%98%EC%9D%B4%EC%A7%80%EB%82%B4%EC%9D%B4%EB%8F%99">
                 <header class="post-card-header">
                     
                         
                             
-                                <span class="post-card-tags">Project</span>
+                               <span class="post-card-tags">Exitem</span>
+                            
+                        
+                            
+                                <span class="post-card-tags">Til</span>
                             
                         
                     
 
-                    <h2 class="post-card-title">항공사 만족도 분류 EDA</h2>
+                    <h2 class="post-card-title">TIL-HTML 페이지 내 이동</h2>
                 </header>
                 <section class="post-card-excerpt">
                     
-                        <p>항공사 만족도 분류 EDA (Exploratory Data Analysis)
-
-  문제 해결을 위한 인사이트(Insight)를 도출하기 위해 데이터에 대해 EDA를 수행합니다.
-
+                        <p>
+HTML 페이지 내 이동
 
 </p>
                     
@@ -1187,7 +1365,7 @@ display(train.head())
                 <span class="reading-time">
                     
                     
-                      10 min read
+                      1 min read
                     
                 </span>
             </footer>

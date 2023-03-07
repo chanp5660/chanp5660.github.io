@@ -4,6 +4,22 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc>http://localhost:4000/TIL-%ED%8C%8C%EC%9D%BC%EA%B2%BD%EB%A1%9C%EC%B0%BE%EA%B8%B0.html</loc>
+        
+        <lastmod>2023-03-07T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
         <loc>http://localhost:4000/TIL-python_warning%EB%AC%B4%EC%8B%9C.html</loc>
         
         <lastmod>2023-03-07T00:00:00+09:00</lastmod>
@@ -36,38 +52,6 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_EDA.html</loc>
-        
-        <lastmod>2023-03-06T00:00:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/%ED%95%AD%EA%B3%B5%EC%82%AC_%EB%A7%8C%EC%A1%B1%EB%8F%84_%EB%B6%84%EB%A5%98_Modeling.html</loc>
-        
-        <lastmod>2023-03-06T00:00:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
         <loc>http://localhost:4000/TIL-HTML%ED%8E%98%EC%9D%B4%EC%A7%80%EB%82%B4%EC%9D%B4%EB%8F%99.html</loc>
         
         <lastmod>2023-03-06T00:00:00+09:00</lastmod>
@@ -87,6 +71,22 @@
         <loc>http://localhost:4000/TIL-HTML%ED%86%A0%EA%B8%80%EC%84%A4%EC%A0%95.html</loc>
         
         <lastmod>2023-03-06T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/TIL-Slack.html</loc>
+        
+        <lastmod>2023-03-05T00:00:00+09:00</lastmod>
         
 
         
@@ -133,22 +133,6 @@
     
     <url>
         <loc>http://localhost:4000/TIL-%EA%B3%B5%EA%B3%B5%EB%8D%B0%EC%9D%B4%ED%84%B0.html</loc>
-        
-        <lastmod>2023-03-05T00:00:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/TIL-Slack.html</loc>
         
         <lastmod>2023-03-05T00:00:00+09:00</lastmod>
         
