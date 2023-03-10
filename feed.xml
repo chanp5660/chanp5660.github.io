@@ -1,4 +1,191 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-07T22:02:42+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">XGBoosting</title><link href="http://localhost:4000/XGBoosting" rel="alternate" type="text/html" title="XGBoosting" /><published>2023-03-07T00:00:00+09:00</published><updated>2023-03-07T00:00:00+09:00</updated><id>http://localhost:4000/XGBoosting</id><content type="html" xml:base="http://localhost:4000/XGBoosting">&lt;h1 id=&quot;xgboosting&quot;&gt;XGBoosting&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-10T21:47:01+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">TIL-HTML입력</title><link href="http://localhost:4000/TIL-HTML-%EC%9E%85%EB%A0%A5" rel="alternate" type="text/html" title="TIL-HTML입력" /><published>2023-03-10T00:00:00+09:00</published><updated>2023-03-10T00:00:00+09:00</updated><id>http://localhost:4000/TIL-HTML%20%EC%9E%85%EB%A0%A5</id><content type="html" xml:base="http://localhost:4000/TIL-HTML-%EC%9E%85%EB%A0%A5">&lt;h1 id=&quot;html-입력&quot;&gt;HTML 입력&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;HTML 내에서 입력을 받는 방법, 후에 입력 받은 정보로 python 코드를 실행 할 수 있도록 하려고 합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;코드-예제-및-실행&quot;&gt;코드 예제 및 실행&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;HTML 내에서 이름, 이메일을 입력 받을 수 있도록 합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;form method=&quot;POST&quot; action=&quot;/submit&quot;&gt;
+  &lt;label for=&quot;name&quot;&gt;Name:&lt;/label&gt;
+  &lt;input type=&quot;text&quot; id=&quot;name&quot; name=&quot;name&quot; /&gt;
+  
+  &lt;label for=&quot;email&quot;&gt;Email:&lt;/label&gt;
+  &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; /&gt;
+
+  &lt;input type=&quot;submit&quot; value=&quot;Submit&quot; /&gt;
+&lt;/form&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;python 코드 작성
+    &lt;ul&gt;
+      &lt;li&gt;해당 코드를 실행하면 로컬에서 서버가 열리면 해당 내용으로 입력을 받는다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{python}&quot;&gt;from flask import Flask, request
+
+app = Flask(__name__)
+
+@app.route(&apos;/submit&apos;, methods=[&apos;POST&apos;])
+def submit():
+    name = request.form[&apos;name&apos;]
+    email = request.form[&apos;email&apos;]
+    print(&apos;Name:&apos;, name)
+    print(&apos;Email:&apos;, email)
+    return &apos;Success!&apos;
+
+if __name__ == &apos;__main__&apos;:
+    app.run()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;flask&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Flask&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;app&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Flask&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__name__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;o&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;route&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;/submit&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;methods&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;POST&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;submit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;form&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;name&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;email&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;form&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;email&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Name:&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Email:&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;email&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;Success!&apos;&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__name__&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;__main__&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; * Serving Flask app &apos;__main__&apos; (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: off
+
+
+
+---------------------------------------------------------------------------
+
+UnicodeDecodeError                        Traceback (most recent call last)
+
+C:\Users\Public\Documents\ESTsoft\CreatorTemp\ipykernel_20512\1722002258.py in &amp;lt;module&amp;gt;
+     12 
+     13 if __name__ == &apos;__main__&apos;:
+---&amp;gt; 14     app.run()
+
+
+~\anaconda3\envs\chanp5660\lib\site-packages\flask\app.py in run(self, host, port, debug, load_dotenv, **options)
+    918 
+    919         try:
+--&amp;gt; 920             run_simple(t.cast(str, host), port, self, **options)
+    921         finally:
+    922             # reset the first request information if the development server
+
+
+~\anaconda3\envs\chanp5660\lib\site-packages\werkzeug\serving.py in run_simple(hostname, port, application, use_reloader, use_debugger, use_evalex, extra_files, exclude_patterns, reloader_interval, reloader_type, threaded, processes, request_handler, static_files, passthrough_errors, ssl_context)
+   1015         )
+   1016     else:
+-&amp;gt; 1017         inner()
+   1018 
+   1019 
+
+
+~\anaconda3\envs\chanp5660\lib\site-packages\werkzeug\serving.py in inner()
+    964             passthrough_errors,
+    965             ssl_context,
+--&amp;gt; 966             fd=fd,
+    967         )
+    968         if fd is None:
+
+
+~\anaconda3\envs\chanp5660\lib\site-packages\werkzeug\serving.py in make_server(host, port, app, threaded, processes, request_handler, passthrough_errors, ssl_context, fd)
+    788     elif threaded:
+    789         return ThreadedWSGIServer(
+--&amp;gt; 790             host, port, app, request_handler, passthrough_errors, ssl_context, fd=fd
+    791         )
+    792     elif processes &amp;gt; 1:
+
+
+~\anaconda3\envs\chanp5660\lib\site-packages\werkzeug\serving.py in __init__(self, host, port, app, handler, passthrough_errors, ssl_context, fd)
+    691                 os.unlink(server_address)
+    692 
+--&amp;gt; 693         super().__init__(server_address, handler)  # type: ignore
+    694 
+    695         self.app = app
+
+
+~\anaconda3\envs\chanp5660\lib\socketserver.py in __init__(self, server_address, RequestHandlerClass, bind_and_activate)
+    450         if bind_and_activate:
+    451             try:
+--&amp;gt; 452                 self.server_bind()
+    453                 self.server_activate()
+    454             except:
+
+
+~\anaconda3\envs\chanp5660\lib\http\server.py in server_bind(self)
+    137         socketserver.TCPServer.server_bind(self)
+    138         host, port = self.server_address[:2]
+--&amp;gt; 139         self.server_name = socket.getfqdn(host)
+    140         self.server_port = port
+    141 
+
+
+~\anaconda3\envs\chanp5660\lib\socket.py in getfqdn(name)
+    674         name = gethostname()
+    675     try:
+--&amp;gt; 676         hostname, aliases, ipaddrs = gethostbyaddr(name)
+    677     except error:
+    678         pass
+
+
+UnicodeDecodeError: &apos;utf-8&apos; codec can&apos;t decode byte 0xb3 in position 0: invalid start byte
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">HTML 입력</summary></entry><entry><title type="html">TIL-Kaggle</title><link href="http://localhost:4000/TIL-Kaggle" rel="alternate" type="text/html" title="TIL-Kaggle" /><published>2023-03-10T00:00:00+09:00</published><updated>2023-03-10T00:00:00+09:00</updated><id>http://localhost:4000/TIL-Kaggle</id><content type="html" xml:base="http://localhost:4000/TIL-Kaggle">&lt;h1 id=&quot;kaggle&quot;&gt;Kaggle&lt;/h1&gt;
+
+&lt;h2 id=&quot;정의&quot;&gt;정의&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;실제 데이터 세트로 작업하는 실용적인 기술 습득&lt;/li&gt;
+  &lt;li&gt;자신의 포트폴리오 프로젝트 개발&lt;/li&gt;
+  &lt;li&gt;Kaggle 커뮤니티를 만나고 성장&lt;/li&gt;
+  &lt;li&gt;새로운 도메인 또는 모델 유형에 대한 경험을 얻음&lt;/li&gt;
+  &lt;li&gt;최고 성능의 머신으로 최신 정보를 얻을 수 있음&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;순서&quot;&gt;순서&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;문제 정의&lt;/li&gt;
+  &lt;li&gt;학습 데이터 받기&lt;/li&gt;
+  &lt;li&gt;기계학습 모델 개발&lt;/li&gt;
+  &lt;li&gt;테스트 데이터 평가 및 제출&lt;/li&gt;
+  &lt;li&gt;순위표에 표시&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;실제-연습&quot;&gt;실제 연습&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/&quot;&gt;Kaggle 사이트 접속&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;데이터 다운로드&lt;/li&gt;
+  &lt;li&gt;모델 개발&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;solution&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;price&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;discount_rates&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;500000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;300000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.95&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;discount_price&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;discount_rate&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;discount_rates&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;items&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;price&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;discount_price&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;price&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;discount_rate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;solution&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;price&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;discount_rates&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">Kaggle</summary></entry><entry><title type="html">XGBoosting</title><link href="http://localhost:4000/XGBoosting" rel="alternate" type="text/html" title="XGBoosting" /><published>2023-03-07T00:00:00+09:00</published><updated>2023-03-07T00:00:00+09:00</updated><id>http://localhost:4000/XGBoosting</id><content type="html" xml:base="http://localhost:4000/XGBoosting">&lt;h1 id=&quot;xgboosting&quot;&gt;XGBoosting&lt;/h1&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;ChatGPT로 틀을 만들고 수정&lt;/p&gt;
@@ -654,34 +841,7 @@ display(train.head())
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;5 rows × 24 columns&lt;/p&gt;
-&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">HTML DataFrame 출력 조절하기</summary></entry><entry><title type="html">TIL-HTML 페이지 내 이동</title><link href="http://localhost:4000/TIL-HTML%ED%8E%98%EC%9D%B4%EC%A7%80%EB%82%B4%EC%9D%B4%EB%8F%99" rel="alternate" type="text/html" title="TIL-HTML 페이지 내 이동" /><published>2023-03-06T00:00:00+09:00</published><updated>2023-03-06T00:00:00+09:00</updated><id>http://localhost:4000/TIL-HTML%ED%8E%98%EC%9D%B4%EC%A7%80%EB%82%B4%EC%9D%B4%EB%8F%99</id><content type="html" xml:base="http://localhost:4000/TIL-HTML%ED%8E%98%EC%9D%B4%EC%A7%80%EB%82%B4%EC%9D%B4%EB%8F%99">&lt;p&gt;&lt;a name=&quot;want&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&quot;html-페이지-내-이동&quot;&gt;HTML 페이지 내 이동&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;github blog는 jekyll을 이용하기 때문에 결론적으로 HTML을 이용하여 만들어진다.&lt;/li&gt;
-  &lt;li&gt;마크다운 내 이동 링크는 작동하지 않기 때문에 HTML을 사용하여 이동하게 한다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;a-태그를-이용하는-방법&quot;&gt;a 태그를 이용하는 방법&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;a 태그를 이용해서 name 을 정해 원하는 곳으로 이동한다.&lt;/li&gt;
-  &lt;li&gt;기존에 있는 글에 a 태그를 감싸는 것도 좋지만 원하는 빈공간에 작성하는게 헷갈리지 않고 좋다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;예시&quot;&gt;예시&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;코드&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-{html}&quot;&gt;&amp;lt;a href=&quot;#want&quot;&amp;gt;제목으로 이동&amp;lt;/a&amp;gt; // 원하는 빈공간에 작성
-
-&amp;lt;a name=&quot;want&quot;&amp;gt;&amp;lt;/a&amp;gt; // 이동할 위치에 작성
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;#want&quot;&gt;제목으로 이동&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">HTML 페이지 내 이동</summary></entry><entry><title type="html">TIL-HTML 토글 설정</title><link href="http://localhost:4000/TIL-HTML%ED%86%A0%EA%B8%80%EC%84%A4%EC%A0%95" rel="alternate" type="text/html" title="TIL-HTML 토글 설정" /><published>2023-03-06T00:00:00+09:00</published><updated>2023-03-06T00:00:00+09:00</updated><id>http://localhost:4000/TIL-HTML%ED%86%A0%EA%B8%80%EC%84%A4%EC%A0%95</id><content type="html" xml:base="http://localhost:4000/TIL-HTML%ED%86%A0%EA%B8%80%EC%84%A4%EC%A0%95">&lt;h1 id=&quot;html-토글-설정-jekyll&quot;&gt;HTML 토글 설정 (jekyll)&lt;/h1&gt;
+&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">HTML DataFrame 출력 조절하기</summary></entry><entry><title type="html">TIL-HTML 토글 설정</title><link href="http://localhost:4000/TIL-HTML%ED%86%A0%EA%B8%80%EC%84%A4%EC%A0%95" rel="alternate" type="text/html" title="TIL-HTML 토글 설정" /><published>2023-03-06T00:00:00+09:00</published><updated>2023-03-06T00:00:00+09:00</updated><id>http://localhost:4000/TIL-HTML%ED%86%A0%EA%B8%80%EC%84%A4%EC%A0%95</id><content type="html" xml:base="http://localhost:4000/TIL-HTML%ED%86%A0%EA%B8%80%EC%84%A4%EC%A0%95">&lt;h1 id=&quot;html-토글-설정-jekyll&quot;&gt;HTML 토글 설정 (jekyll)&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;jekyll을 이용하여 깃허브 블로그를 운영하던 중에 토글을 사용하여 목차를 다루게 된다면 포스팅 상단부 쪽을 활용할 수 있을 것 같다.&lt;/li&gt;
@@ -720,28 +880,34 @@ display(train.head())
     &lt;/ul&gt;
 
   &lt;/div&gt;
-&lt;/details&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">HTML 토글 설정 (jekyll)</summary></entry><entry><title type="html">TIL-Notion</title><link href="http://localhost:4000/TIL-Notion" rel="alternate" type="text/html" title="TIL-Notion" /><published>2023-03-05T00:00:00+09:00</published><updated>2023-03-05T00:00:00+09:00</updated><id>http://localhost:4000/TIL-Notion</id><content type="html" xml:base="http://localhost:4000/TIL-Notion">&lt;h1 id=&quot;notion&quot;&gt;Notion&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Notion AI를 기반으로 작성&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;/details&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">HTML 토글 설정 (jekyll)</summary></entry><entry><title type="html">TIL-HTML 페이지 내 이동</title><link href="http://localhost:4000/TIL-HTML%ED%8E%98%EC%9D%B4%EC%A7%80%EB%82%B4%EC%9D%B4%EB%8F%99" rel="alternate" type="text/html" title="TIL-HTML 페이지 내 이동" /><published>2023-03-06T00:00:00+09:00</published><updated>2023-03-06T00:00:00+09:00</updated><id>http://localhost:4000/TIL-HTML%ED%8E%98%EC%9D%B4%EC%A7%80%EB%82%B4%EC%9D%B4%EB%8F%99</id><content type="html" xml:base="http://localhost:4000/TIL-HTML%ED%8E%98%EC%9D%B4%EC%A7%80%EB%82%B4%EC%9D%B4%EB%8F%99">&lt;p&gt;&lt;a name=&quot;want&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;html-페이지-내-이동&quot;&gt;HTML 페이지 내 이동&lt;/h1&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.notion.so/&quot;&gt;https://www.notion.so/&lt;/a&gt; 에서 구글로 로그인 하면 된다.&lt;/li&gt;
+  &lt;li&gt;github blog는 jekyll을 이용하기 때문에 결론적으로 HTML을 이용하여 만들어진다.&lt;/li&gt;
+  &lt;li&gt;마크다운 내 이동 링크는 작동하지 않기 때문에 HTML을 사용하여 이동하게 한다.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;notion에-대해&quot;&gt;Notion에 대해&lt;/h2&gt;
+&lt;h2 id=&quot;a-태그를-이용하는-방법&quot;&gt;a 태그를 이용하는 방법&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;a 태그를 이용해서 name 을 정해 원하는 곳으로 이동한다.&lt;/li&gt;
+  &lt;li&gt;기존에 있는 글에 a 태그를 감싸는 것도 좋지만 원하는 빈공간에 작성하는게 헷갈리지 않고 좋다.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Notion은 작업을 할 때 필요한 문서, 테이블, 체크리스트, 일정 등을 한 곳에서 모아 관리할 수 있는 작업 도구입니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;notion의-주요-기능&quot;&gt;Notion의 주요 기능&lt;/h2&gt;
+&lt;h2 id=&quot;예시&quot;&gt;예시&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;문서, 테이블, 체크리스트, 일정 등의 통합&lt;/li&gt;
-  &lt;li&gt;협업 기능&lt;/li&gt;
-  &lt;li&gt;파일 첨부 기능&lt;/li&gt;
-  &lt;li&gt;체크리스트 기능&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">Notion</summary></entry><entry><title type="html">TIL-Slack</title><link href="http://localhost:4000/TIL-Slack" rel="alternate" type="text/html" title="TIL-Slack" /><published>2023-03-05T00:00:00+09:00</published><updated>2023-03-05T00:00:00+09:00</updated><id>http://localhost:4000/TIL-Slack</id><content type="html" xml:base="http://localhost:4000/TIL-Slack">&lt;h1 id=&quot;slack&quot;&gt;Slack&lt;/h1&gt;
+  &lt;li&gt;코드&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{html}&quot;&gt;&amp;lt;a href=&quot;#want&quot;&amp;gt;제목으로 이동&amp;lt;/a&amp;gt; // 원하는 빈공간에 작성
+
+&amp;lt;a name=&quot;want&quot;&amp;gt;&amp;lt;/a&amp;gt; // 이동할 위치에 작성
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#want&quot;&gt;제목으로 이동&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">HTML 페이지 내 이동</summary></entry><entry><title type="html">TIL-Slack</title><link href="http://localhost:4000/TIL-Slack" rel="alternate" type="text/html" title="TIL-Slack" /><published>2023-03-05T00:00:00+09:00</published><updated>2023-03-05T00:00:00+09:00</updated><id>http://localhost:4000/TIL-Slack</id><content type="html" xml:base="http://localhost:4000/TIL-Slack">&lt;h1 id=&quot;slack&quot;&gt;Slack&lt;/h1&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;ChapGPT 기반으로 작성됨&lt;/p&gt;
@@ -822,39 +988,4 @@ display(train.head())
 &lt;ul&gt;
   &lt;li&gt;모델의 성능을 높이기 위해 다양한 방법을 적용&lt;/li&gt;
   &lt;li&gt;예를 들어, 하이퍼파라미터 튜닝, 앙상블 학습 등과 같은 방법을 사용&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">토이프로젝트</summary></entry><entry><title type="html">TIL-추천시스템필터링</title><link href="http://localhost:4000/TIL-%EC%B6%94%EC%B2%9C%EC%8B%9C%EC%8A%A4%ED%85%9C%ED%95%84%ED%84%B0%EB%A7%81" rel="alternate" type="text/html" title="TIL-추천시스템필터링" /><published>2023-03-05T00:00:00+09:00</published><updated>2023-03-05T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%EC%B6%94%EC%B2%9C%EC%8B%9C%EC%8A%A4%ED%85%9C%ED%95%84%ED%84%B0%EB%A7%81</id><content type="html" xml:base="http://localhost:4000/TIL-%EC%B6%94%EC%B2%9C%EC%8B%9C%EC%8A%A4%ED%85%9C%ED%95%84%ED%84%B0%EB%A7%81">&lt;h1 id=&quot;추천시스템-필터링&quot;&gt;추천시스템 필터링&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;크게 협업 필터링과 콘텐츠 기반 필터링으로 나뉜다. 두가지 방법을 같이 사용하는 하이브리드 방식이 가장 많이 사용된다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;협업-필터링&quot;&gt;협업 필터링&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;사용자들의 과거 행동 데이터를 분석하여, 유사한 취향과 관심사를 가진 사용자들을 찾아내어 추천을 제공하는 방식&lt;/li&gt;
-  &lt;li&gt;목적에 따라 2가지로 나뉨
-    &lt;ul&gt;
-      &lt;li&gt;사용자 기반 협업 필터링(User-Based Collaborative Filtering)&lt;/li&gt;
-      &lt;li&gt;상품 기반 협업 필터링(Item-Based Collaborative Filtering)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;콘텐츠-기반-필터링&quot;&gt;콘텐츠 기반 필터링&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;사용자가 이전에 선호한 콘텐츠의 특성을 분석하여 유사한 특성의 다른 콘텐츠를 추천하는 방식&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;하이브리드-방식hybrid-recommender-systems&quot;&gt;하이브리드 방식(Hybrid Recommender Systems)&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;최근에는 위 두 가지 방식을 결합한 방법이 많이 사용&lt;/li&gt;
-  &lt;li&gt;협업 필터링과 콘텐츠 기반 필터링을 조합하여 추천 정확도를 높이는 방식&lt;/li&gt;
-  &lt;li&gt;추천 시스템에서는 사용자의 행동 데이터(구매 이력, 검색 기록 등)를 분석하여&lt;br /&gt;
-새로운 아이템을 추천하는 방법으로 콜드 스타트(cold start) 문제를 해결할 수 있는 방법&lt;/li&gt;
-  &lt;li&gt;이 방법은 새로운 사용자나 새로운 아이템에 대한 추천을 제공하기 위해 사용&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">추천시스템 필터링</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">토이프로젝트</summary></entry></feed>

@@ -182,6 +182,24 @@ into the {body} of the default.hbs template -->
 <script>
     window.store = {
     
+    "til-kaggle": {
+        "title": "TIL-Kaggle",
+            "author": "chanp5660",
+            "category": "",
+            "content": "Kaggle정의  실제 데이터 세트로 작업하는 실용적인 기술 습득  자신의 포트폴리오 프로젝트 개발  Kaggle 커뮤니티를 만나고 성장  새로운 도메인 또는 모델 유형에 대한 경험을 얻음  최고 성능의 머신으로 최신 정보를 얻을 수 있음순서  문제 정의  학습 데이터 받기  기계학습 모델 개발  테스트 데이터 평가 및 제출  순위표에 표시실제 연습  Kaggle 사이트 접속  데이터 다운로드  모델 개발def solution(price):    discount_rates = {500000: 0.8, 300000: 0.9, 100000: 0.95, 0: 1}    for discount_price, discount_rate in discount_rates.items():        if price &gt;= discount_price:            return int(price * discount_rate)def solution(price):    discount_rates = {",
+        "url": "/TIL-Kaggle"
+    }
+    ,
+    
+    "til-html-ec-9e-85-eb-a0-a5": {
+        "title": "TIL-HTML입력",
+            "author": "chanp5660",
+            "category": "",
+            "content": "HTML 입력  HTML 내에서 입력을 받는 방법, 후에 입력 받은 정보로 python 코드를 실행 할 수 있도록 하려고 합니다.코드 예제 및 실행  HTML 내에서 이름, 이메일을 입력 받을 수 있도록 합니다.  Name:      Email:      python 코드 작성          해당 코드를 실행하면 로컬에서 서버가 열리면 해당 내용으로 입력을 받는다.      from flask import Flask, requestapp = Flask(__name__)@app.route('/submit', methods=['POST'])def submit():    name = request.form['name']    email = request.form['email']    print('Name:', name)    print('Email:', email)    return 'Success!'if __name__ == '__main__':    app.run()from flask import Flask, requestapp = Flask(__name__)@app.route('/submit', methods=['POST'])def submit():    name = request.form['name']    email = request.form['email']    print('Name:', name)    print('Email:', email)    return 'Success!'if __name__ == '__main__':    app.run() * Serving Flask app '__main__' (lazy loading) * Environment: production\u001b[31m   WARNING: This is a development server. Do not use it in a production deployment.\u001b[0m\u001b[2m   Use a production WSGI server instead.\u001b[0m * Debug mode: off---------------------------------------------------------------------------UnicodeDecodeError                        Traceback (most recent call last)C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\ipykernel_20512\\1722002258.py in &lt;module&gt;     12      13 if __name__ == '__main__':---&gt; 14     app.run()~\\anaconda3\\envs\\chanp5660\\lib\\site-packages\\flask\\app.py in run(self, host, port, debug, load_dotenv, **options)    918     919         try:--&gt; 920             run_simple(t.cast(str, host), port, self, **options)    921         finally:    922             # reset the first request information if the development server~\\anaconda3\\envs\\chanp5660\\lib\\site-packages\\werkzeug\\serving.py in run_simple(hostname, port, application, use_reloader, use_debugger, use_evalex, extra_files, exclude_patterns, reloader_interval, reloader_type, threaded, processes, request_handler, static_files, passthrough_errors, ssl_context)   1015         )   1016     else:-&gt; 1017         inner()   1018    1019 ~\\anaconda3\\envs\\chanp5660\\lib\\site-packages\\werkzeug\\serving.py in inner()    964             passthrough_errors,    965             ssl_context,--&gt; 966             fd=fd,    967         )    968         if fd is None:~\\anaconda3\\envs\\chanp5660\\lib\\site-packages\\werkzeug\\serving.py in make_server(host, port, app, threaded, processes, request_handler, passthrough_errors, ssl_context, fd)    788     elif threaded:    789         return ThreadedWSGIServer(--&gt; 790             host, port, app, request_handler, passthrough_errors, ssl_context, fd=fd    791         )    792     elif processes &gt; 1:~\\anaconda3\\envs\\chanp5660\\lib\\site-packages\\werkzeug\\serving.py in __init__(self, host, port, app, handler, passthrough_errors, ssl_context, fd)    691                 os.unlink(server_address)    692 --&gt; 693         super().__init__(server_address, handler)  # type: ignore    694     695         self.app = app~\\anaconda3\\envs\\chanp5660\\lib\\socketserver.py in __init__(self, server_address, RequestHandlerClass, bind_and_activate)    450         if bind_and_activate:    451             try:--&gt; 452                 self.server_bind()    453                 self.server_activate()    454             except:~\\anaconda3\\envs\\chanp5660\\lib\\http\\server.py in server_bind(self)    137         socketserver.TCPServer.server_bind(self)    138         host, port = self.server_address[:2]--&gt; 139         self.server_name = socket.getfqdn(host)    140         self.server_port = port    141 ~\\anaconda3\\envs\\chanp5660\\lib\\socket.py in getfqdn(name)    674         name = gethostname()    675     try:--&gt; 676         hostname, aliases, ipaddrs = gethostbyaddr(name)    677     except error:    678         passUnicodeDecodeError: 'utf-8' codec can't decode byte 0xb3 in position 0: invalid start byte",
+        "url": "/TIL-HTML-%EC%9E%85%EB%A0%A5"
+    }
+    ,
+    
     "til-ed-8c-8c-ec-9d-bc-ea-b2-bd-eb-a1-9c-ec-b0-be-ea-b8-b0": {
         "title": "TIL-파일경로찾기",
             "author": "chanp5660",
@@ -1202,7 +1220,7 @@ $(function() {
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-32300574-2', 'auto');
+  ga('create', 'G-CDN6YMS5DJ', 'auto');
   ga('send', 'pageview');
 
  </script>
