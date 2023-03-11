@@ -4,6 +4,70 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc>http://localhost:4000/TIL-%EB%A9%94%ED%83%80%EC%9D%B8%EC%A7%80.html</loc>
+        
+        <lastmod>2023-03-11T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/TIL-whiten.html</loc>
+        
+        <lastmod>2023-03-11T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/TIL-SVD.html</loc>
+        
+        <lastmod>2023-03-11T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/TIL-Attention.html</loc>
+        
+        <lastmod>2023-03-11T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
         <loc>http://localhost:4000/TIL-Kaggle.html</loc>
         
         <lastmod>2023-03-10T00:00:00+09:00</lastmod>
@@ -21,6 +85,22 @@
     
     <url>
         <loc>http://localhost:4000/TIL-HTML-%EC%9E%85%EB%A0%A5.html</loc>
+        
+        <lastmod>2023-03-10T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/TIL-GradientDescent.html</loc>
         
         <lastmod>2023-03-10T00:00:00+09:00</lastmod>
         

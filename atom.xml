@@ -8,6 +8,66 @@
     
       
       <item>
+        <title>TIL-메타인지</title>
+        
+          <description>&lt;h1 id=&quot;메타인지란&quot;&gt;메타인지란?&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Sat, 11 Mar 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/TIL-%EB%A9%94%ED%83%80%EC%9D%B8%EC%A7%80</link>
+        <guid isPermaLink="true">http://localhost:4000/TIL-%EB%A9%94%ED%83%80%EC%9D%B8%EC%A7%80</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>TIL-whiten</title>
+        
+          <description>&lt;h1 id=&quot;클러스터링에서-whiten-&quot;&gt;클러스터링에서 Whiten ?&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Sat, 11 Mar 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/TIL-whiten</link>
+        <guid isPermaLink="true">http://localhost:4000/TIL-whiten</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>TIL-SVD</title>
+        
+          <description>&lt;h1 id=&quot;svd란&quot;&gt;SVD란?&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Sat, 11 Mar 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/TIL-SVD</link>
+        <guid isPermaLink="true">http://localhost:4000/TIL-SVD</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>TIL-Attention</title>
+        
+          <description>&lt;h1 id=&quot;attention이란&quot;&gt;Attention이란?&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Sat, 11 Mar 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/TIL-Attention</link>
+        <guid isPermaLink="true">http://localhost:4000/TIL-Attention</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>TIL-Kaggle</title>
         
           <description>&lt;h1 id=&quot;kaggle&quot;&gt;Kaggle&lt;/h1&gt;
@@ -33,6 +93,21 @@
         <link>
         http://localhost:4000/TIL-HTML-%EC%9E%85%EB%A0%A5</link>
         <guid isPermaLink="true">http://localhost:4000/TIL-HTML-%EC%9E%85%EB%A0%A5</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>TIL-GradientDescent</title>
+        
+          <description>&lt;h1 id=&quot;gradient-descent란&quot;&gt;Gradient Descent란?&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Fri, 10 Mar 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/TIL-GradientDescent</link>
+        <guid isPermaLink="true">http://localhost:4000/TIL-GradientDescent</guid>
       </item>
       
     
