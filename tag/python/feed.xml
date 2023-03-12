@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/python/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-03-12T00:04:54+09:00</updated>
+  <updated>2023-03-12T18:10:31+09:00</updated>
   <id>http://localhost:4000/tag/python/feed.xml</id>
 
   
@@ -30,6 +30,839 @@
   
   
 
+  
+    <entry>
+      <title type="html">FinanceDataReader</title>
+      <link href="http://localhost:4000/FinanceDataReader" rel="alternate" type="text/html" title="FinanceDataReader" />
+      <published>2023-03-12T00:00:00+09:00</published>
+      <updated>2023-03-12T00:00:00+09:00</updated>
+      <id>http://localhost:4000/FinanceDataReader</id>
+      <content type="html" xml:base="http://localhost:4000/FinanceDataReader">&lt;h1 id=&quot;financedatareader&quot;&gt;FinanceDataReader&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Python에서 주가 정보를 얻을 수 있는 라이브러리입니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/FinanceData/FinanceDataReader&quot;&gt;FinanceDataReader 깃허브 제공&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://financedata.github.io/posts/finance-data-reader-users-guide.html&quot;&gt;FinanceDataReader 사용자 안내서&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;함수-정리&quot;&gt;함수 정리&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;입력값으로 해당 주식의 거래&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;FinanceDataReader.StockListing(market)
+    &lt;ul&gt;
+      &lt;li&gt;market 단축코드를 넣으면 해당 시장에 상장된 정보를 가져옵니다.
+        &lt;ul&gt;
+          &lt;li&gt;한국
+            &lt;ul&gt;
+              &lt;li&gt;KRX : KRX 종목 전체&lt;/li&gt;
+              &lt;li&gt;KOSPI : KOSPI 종목&lt;/li&gt;
+              &lt;li&gt;KOSDAQ : KOSDAQ 종목&lt;/li&gt;
+              &lt;li&gt;KONEX : KONEX 종목&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;미국
+            &lt;ul&gt;
+              &lt;li&gt;NASDAQ : NASDAQ 종목&lt;/li&gt;
+              &lt;li&gt;NYSE : 뉴욕 증권거래소 종목&lt;/li&gt;
+              &lt;li&gt;AMEX : AMEX 종목&lt;/li&gt;
+              &lt;li&gt;SP500 : S&amp;amp;P 500 종목&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;FinanceDataReader.DataReader(symbol, start_yyyy)&lt;/li&gt;
+  &lt;li&gt;FinanceDataReader.DataReader(symbol, start_y_m_d, end_y_m_d)
+    &lt;ul&gt;
+      &lt;li&gt;해당 종목의 원하는 범위의 가격 데이터를 수집합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;라이브러리-설치-및-import&quot;&gt;라이브러리 설치 및 import&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{python}&quot;&gt;# 설치
+!pip install -U finance-datareader
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# 차트 설정
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;matplotlib&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;inline&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;matplotlib.pyplot&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rcParams&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;font.family&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;HYHeadLine-Medium&apos;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rcParams&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;figure.figsize&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;14&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rcParams&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;lines.linewidth&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rcParams&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;axes.grid&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# FinanceDataReader 라이브러리 fdr로 설정
+&lt;/span&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;FinanceDataReader&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fdr&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fdr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__version__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;0.9.50
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;한국거래소-상장종목-전체-krx&quot;&gt;한국거래소 상장종목 전체 KRX&lt;/h2&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;df_krx&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fdr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;StockListing&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;KRX&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; 
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sa&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;한국거래소 상장종목 전체 KRX : &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df_krx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;한국거래소 상장종목 전체 KRX : 2705
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df_krx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div style=&quot;width:100%&quot;&gt; 
+ &lt;details&gt; 
+&lt;summary&gt;출력 보기(클릭)&lt;/summary&gt;
+
+
+
+&lt;div class=&quot;my-table&quot;&gt;
+&lt;style scoped=&quot;&quot;&gt;
+    .my-table {
+        width:100%;
+        height:300px;
+    }
+    .dataframe {
+        height: 95%;
+    }
+        .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+&lt;/style&gt;
+&lt;table border=&quot;1&quot; class=&quot;dataframe&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr style=&quot;text-align: right;&quot;&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;Code&lt;/th&gt;
+      &lt;th&gt;ISU_CD&lt;/th&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th&gt;Market&lt;/th&gt;
+      &lt;th&gt;Dept&lt;/th&gt;
+      &lt;th&gt;Close&lt;/th&gt;
+      &lt;th&gt;ChangeCode&lt;/th&gt;
+      &lt;th&gt;Changes&lt;/th&gt;
+      &lt;th&gt;ChagesRatio&lt;/th&gt;
+      &lt;th&gt;Open&lt;/th&gt;
+      &lt;th&gt;High&lt;/th&gt;
+      &lt;th&gt;Low&lt;/th&gt;
+      &lt;th&gt;Volume&lt;/th&gt;
+      &lt;th&gt;Amount&lt;/th&gt;
+      &lt;th&gt;Marcap&lt;/th&gt;
+      &lt;th&gt;Stocks&lt;/th&gt;
+      &lt;th&gt;MarketId&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;0&lt;/th&gt;
+      &lt;td&gt;005930&lt;/td&gt;
+      &lt;td&gt;KR7005930003&lt;/td&gt;
+      &lt;td&gt;삼성전자&lt;/td&gt;
+      &lt;td&gt;KOSPI&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;60700&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;-800&lt;/td&gt;
+      &lt;td&gt;-1.30&lt;/td&gt;
+      &lt;td&gt;61400&lt;/td&gt;
+      &lt;td&gt;61400&lt;/td&gt;
+      &lt;td&gt;60700&lt;/td&gt;
+      &lt;td&gt;11445731&lt;/td&gt;
+      &lt;td&gt;697231172000&lt;/td&gt;
+      &lt;td&gt;362962779040000&lt;/td&gt;
+      &lt;td&gt;5969782550&lt;/td&gt;
+      &lt;td&gt;STK&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;1&lt;/th&gt;
+      &lt;td&gt;373220&lt;/td&gt;
+      &lt;td&gt;KR7373220003&lt;/td&gt;
+      &lt;td&gt;LG에너지솔루션&lt;/td&gt;
+      &lt;td&gt;KOSPI&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;566000&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;19000&lt;/td&gt;
+      &lt;td&gt;3.47&lt;/td&gt;
+      &lt;td&gt;548000&lt;/td&gt;
+      &lt;td&gt;570000&lt;/td&gt;
+      &lt;td&gt;543000&lt;/td&gt;
+      &lt;td&gt;829918&lt;/td&gt;
+      &lt;td&gt;465315655000&lt;/td&gt;
+      &lt;td&gt;132444000000000&lt;/td&gt;
+      &lt;td&gt;234000000&lt;/td&gt;
+      &lt;td&gt;STK&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2&lt;/th&gt;
+      &lt;td&gt;000660&lt;/td&gt;
+      &lt;td&gt;KR7000660001&lt;/td&gt;
+      &lt;td&gt;SK하이닉스&lt;/td&gt;
+      &lt;td&gt;KOSPI&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;88900&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;-800&lt;/td&gt;
+      &lt;td&gt;-0.89&lt;/td&gt;
+      &lt;td&gt;89700&lt;/td&gt;
+      &lt;td&gt;90000&lt;/td&gt;
+      &lt;td&gt;88800&lt;/td&gt;
+      &lt;td&gt;1605515&lt;/td&gt;
+      &lt;td&gt;143506111000&lt;/td&gt;
+      &lt;td&gt;64719410248500&lt;/td&gt;
+      &lt;td&gt;728002365&lt;/td&gt;
+      &lt;td&gt;STK&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;3&lt;/th&gt;
+      &lt;td&gt;207940&lt;/td&gt;
+      &lt;td&gt;KR7207940008&lt;/td&gt;
+      &lt;td&gt;삼성바이오로직스&lt;/td&gt;
+      &lt;td&gt;KOSPI&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;794000&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;-7000&lt;/td&gt;
+      &lt;td&gt;-0.87&lt;/td&gt;
+      &lt;td&gt;801000&lt;/td&gt;
+      &lt;td&gt;804000&lt;/td&gt;
+      &lt;td&gt;792000&lt;/td&gt;
+      &lt;td&gt;50075&lt;/td&gt;
+      &lt;td&gt;39926732000&lt;/td&gt;
+      &lt;td&gt;56440982000000&lt;/td&gt;
+      &lt;td&gt;71174000&lt;/td&gt;
+      &lt;td&gt;STK&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;4&lt;/th&gt;
+      &lt;td&gt;006400&lt;/td&gt;
+      &lt;td&gt;KR7006400006&lt;/td&gt;
+      &lt;td&gt;삼성SDI&lt;/td&gt;
+      &lt;td&gt;KOSPI&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;793000&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;12000&lt;/td&gt;
+      &lt;td&gt;1.54&lt;/td&gt;
+      &lt;td&gt;779000&lt;/td&gt;
+      &lt;td&gt;801000&lt;/td&gt;
+      &lt;td&gt;768000&lt;/td&gt;
+      &lt;td&gt;579283&lt;/td&gt;
+      &lt;td&gt;456986290868&lt;/td&gt;
+      &lt;td&gt;54461507760000&lt;/td&gt;
+      &lt;td&gt;68764530&lt;/td&gt;
+      &lt;td&gt;STK&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/details&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;sp-500-종목-전체-sp500&quot;&gt;S&amp;amp;P 500 종목 전체 S&amp;amp;P500&lt;/h2&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;df_spx&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fdr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;StockListing&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;S&amp;amp;P500&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sa&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;S&amp;amp;P 500 종목 전체 S&amp;amp;P500 : &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df_spx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;S&amp;amp;P 500 종목 전체 S&amp;amp;P500 : 503
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df_spx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div style=&quot;width:100%&quot;&gt; 
+ &lt;details&gt; 
+&lt;summary&gt;출력 보기(클릭)&lt;/summary&gt;
+
+
+
+&lt;div class=&quot;my-table&quot;&gt;
+&lt;style scoped=&quot;&quot;&gt;
+    .my-table {
+        width:100%;
+        height:300px;
+    }
+    .dataframe {
+        height: 95%;
+    }
+        .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+&lt;/style&gt;
+&lt;table border=&quot;1&quot; class=&quot;dataframe&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr style=&quot;text-align: right;&quot;&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;Symbol&lt;/th&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th&gt;Sector&lt;/th&gt;
+      &lt;th&gt;Industry&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;0&lt;/th&gt;
+      &lt;td&gt;MMM&lt;/td&gt;
+      &lt;td&gt;3M&lt;/td&gt;
+      &lt;td&gt;Industrials&lt;/td&gt;
+      &lt;td&gt;Industrial Conglomerates&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;1&lt;/th&gt;
+      &lt;td&gt;AOS&lt;/td&gt;
+      &lt;td&gt;A. O. Smith&lt;/td&gt;
+      &lt;td&gt;Industrials&lt;/td&gt;
+      &lt;td&gt;Building Products&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2&lt;/th&gt;
+      &lt;td&gt;ABT&lt;/td&gt;
+      &lt;td&gt;Abbott&lt;/td&gt;
+      &lt;td&gt;Health Care&lt;/td&gt;
+      &lt;td&gt;Health Care Equipment&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;3&lt;/th&gt;
+      &lt;td&gt;ABBV&lt;/td&gt;
+      &lt;td&gt;AbbVie&lt;/td&gt;
+      &lt;td&gt;Health Care&lt;/td&gt;
+      &lt;td&gt;Pharmaceuticals&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;4&lt;/th&gt;
+      &lt;td&gt;ACN&lt;/td&gt;
+      &lt;td&gt;Accenture&lt;/td&gt;
+      &lt;td&gt;Information Technology&lt;/td&gt;
+      &lt;td&gt;IT Consulting &amp;amp; Other Services&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/details&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;신라젠-2021-년&quot;&gt;신라젠, 2021 년&lt;/h2&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fdr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DataReader&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;068270&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;2021&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div style=&quot;width:100%&quot;&gt; 
+ &lt;details&gt; 
+&lt;summary&gt;출력 보기(클릭)&lt;/summary&gt;
+
+
+
+&lt;div class=&quot;my-table&quot;&gt;
+&lt;style scoped=&quot;&quot;&gt;
+    .my-table {
+        width:100%;
+        height:300px;
+    }
+    .dataframe {
+        height: 95%;
+    }
+        .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+&lt;/style&gt;
+&lt;table border=&quot;1&quot; class=&quot;dataframe&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr style=&quot;text-align: right;&quot;&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;Open&lt;/th&gt;
+      &lt;th&gt;High&lt;/th&gt;
+      &lt;th&gt;Low&lt;/th&gt;
+      &lt;th&gt;Close&lt;/th&gt;
+      &lt;th&gt;Volume&lt;/th&gt;
+      &lt;th&gt;Change&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Date&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-04&lt;/th&gt;
+      &lt;td&gt;332320&lt;/td&gt;
+      &lt;td&gt;335157&lt;/td&gt;
+      &lt;td&gt;324285&lt;/td&gt;
+      &lt;td&gt;328540&lt;/td&gt;
+      &lt;td&gt;2122278&lt;/td&gt;
+      &lt;td&gt;-0.032035&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-05&lt;/th&gt;
+      &lt;td&gt;332320&lt;/td&gt;
+      &lt;td&gt;336575&lt;/td&gt;
+      &lt;td&gt;326176&lt;/td&gt;
+      &lt;td&gt;335158&lt;/td&gt;
+      &lt;td&gt;1328247&lt;/td&gt;
+      &lt;td&gt;0.020144&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-06&lt;/th&gt;
+      &lt;td&gt;337520&lt;/td&gt;
+      &lt;td&gt;339884&lt;/td&gt;
+      &lt;td&gt;334211&lt;/td&gt;
+      &lt;td&gt;334213&lt;/td&gt;
+      &lt;td&gt;1033942&lt;/td&gt;
+      &lt;td&gt;-0.002820&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-07&lt;/th&gt;
+      &lt;td&gt;335629&lt;/td&gt;
+      &lt;td&gt;339884&lt;/td&gt;
+      &lt;td&gt;331848&lt;/td&gt;
+      &lt;td&gt;337995&lt;/td&gt;
+      &lt;td&gt;1011751&lt;/td&gt;
+      &lt;td&gt;0.011316&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-08&lt;/th&gt;
+      &lt;td&gt;339884&lt;/td&gt;
+      &lt;td&gt;349812&lt;/td&gt;
+      &lt;td&gt;336575&lt;/td&gt;
+      &lt;td&gt;346976&lt;/td&gt;
+      &lt;td&gt;1819183&lt;/td&gt;
+      &lt;td&gt;0.026571&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-11&lt;/th&gt;
+      &lt;td&gt;356429&lt;/td&gt;
+      &lt;td&gt;365411&lt;/td&gt;
+      &lt;td&gt;346975&lt;/td&gt;
+      &lt;td&gt;353594&lt;/td&gt;
+      &lt;td&gt;2776258&lt;/td&gt;
+      &lt;td&gt;0.019073&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-12&lt;/th&gt;
+      &lt;td&gt;359738&lt;/td&gt;
+      &lt;td&gt;365883&lt;/td&gt;
+      &lt;td&gt;349812&lt;/td&gt;
+      &lt;td&gt;363048&lt;/td&gt;
+      &lt;td&gt;2618009&lt;/td&gt;
+      &lt;td&gt;0.026737&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-13&lt;/th&gt;
+      &lt;td&gt;359265&lt;/td&gt;
+      &lt;td&gt;368720&lt;/td&gt;
+      &lt;td&gt;354538&lt;/td&gt;
+      &lt;td&gt;360685&lt;/td&gt;
+      &lt;td&gt;2203856&lt;/td&gt;
+      &lt;td&gt;-0.006509&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-14&lt;/th&gt;
+      &lt;td&gt;346030&lt;/td&gt;
+      &lt;td&gt;353593&lt;/td&gt;
+      &lt;td&gt;331848&lt;/td&gt;
+      &lt;td&gt;333267&lt;/td&gt;
+      &lt;td&gt;3623245&lt;/td&gt;
+      &lt;td&gt;-0.076016&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-15&lt;/th&gt;
+      &lt;td&gt;329957&lt;/td&gt;
+      &lt;td&gt;330429&lt;/td&gt;
+      &lt;td&gt;307739&lt;/td&gt;
+      &lt;td&gt;311049&lt;/td&gt;
+      &lt;td&gt;3594398&lt;/td&gt;
+      &lt;td&gt;-0.066667&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-18&lt;/th&gt;
+      &lt;td&gt;309630&lt;/td&gt;
+      &lt;td&gt;327121&lt;/td&gt;
+      &lt;td&gt;296867&lt;/td&gt;
+      &lt;td&gt;296867&lt;/td&gt;
+      &lt;td&gt;2751296&lt;/td&gt;
+      &lt;td&gt;-0.045594&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-19&lt;/th&gt;
+      &lt;td&gt;291194&lt;/td&gt;
+      &lt;td&gt;299703&lt;/td&gt;
+      &lt;td&gt;280322&lt;/td&gt;
+      &lt;td&gt;295450&lt;/td&gt;
+      &lt;td&gt;3490677&lt;/td&gt;
+      &lt;td&gt;-0.004773&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-20&lt;/th&gt;
+      &lt;td&gt;298285&lt;/td&gt;
+      &lt;td&gt;306322&lt;/td&gt;
+      &lt;td&gt;291194&lt;/td&gt;
+      &lt;td&gt;294032&lt;/td&gt;
+      &lt;td&gt;1475955&lt;/td&gt;
+      &lt;td&gt;-0.004799&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-21&lt;/th&gt;
+      &lt;td&gt;296867&lt;/td&gt;
+      &lt;td&gt;300176&lt;/td&gt;
+      &lt;td&gt;289776&lt;/td&gt;
+      &lt;td&gt;294977&lt;/td&gt;
+      &lt;td&gt;1146479&lt;/td&gt;
+      &lt;td&gt;0.003214&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-22&lt;/th&gt;
+      &lt;td&gt;295448&lt;/td&gt;
+      &lt;td&gt;298285&lt;/td&gt;
+      &lt;td&gt;291194&lt;/td&gt;
+      &lt;td&gt;293086&lt;/td&gt;
+      &lt;td&gt;883444&lt;/td&gt;
+      &lt;td&gt;-0.006411&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-25&lt;/th&gt;
+      &lt;td&gt;294503&lt;/td&gt;
+      &lt;td&gt;304431&lt;/td&gt;
+      &lt;td&gt;294030&lt;/td&gt;
+      &lt;td&gt;303486&lt;/td&gt;
+      &lt;td&gt;995440&lt;/td&gt;
+      &lt;td&gt;0.035484&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-26&lt;/th&gt;
+      &lt;td&gt;309630&lt;/td&gt;
+      &lt;td&gt;316721&lt;/td&gt;
+      &lt;td&gt;303958&lt;/td&gt;
+      &lt;td&gt;304904&lt;/td&gt;
+      &lt;td&gt;1328530&lt;/td&gt;
+      &lt;td&gt;0.004672&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-27&lt;/th&gt;
+      &lt;td&gt;308212&lt;/td&gt;
+      &lt;td&gt;314830&lt;/td&gt;
+      &lt;td&gt;300649&lt;/td&gt;
+      &lt;td&gt;311049&lt;/td&gt;
+      &lt;td&gt;1072477&lt;/td&gt;
+      &lt;td&gt;0.020154&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-28&lt;/th&gt;
+      &lt;td&gt;302067&lt;/td&gt;
+      &lt;td&gt;319557&lt;/td&gt;
+      &lt;td&gt;298758&lt;/td&gt;
+      &lt;td&gt;316250&lt;/td&gt;
+      &lt;td&gt;1574846&lt;/td&gt;
+      &lt;td&gt;0.016721&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-29&lt;/th&gt;
+      &lt;td&gt;316248&lt;/td&gt;
+      &lt;td&gt;320503&lt;/td&gt;
+      &lt;td&gt;304903&lt;/td&gt;
+      &lt;td&gt;306322&lt;/td&gt;
+      &lt;td&gt;1139059&lt;/td&gt;
+      &lt;td&gt;-0.031393&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fdr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DataReader&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;068270&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;2017&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Close&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;plot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/180197749-540b369a-1e7c-474a-bfa1-02682c1d21a8.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;애플aapl-2018-01-01--2018-05-30&quot;&gt;애플(AAPL), 2018-01-01 ~ 2018-05-30&lt;/h2&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fdr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DataReader&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;AAPL&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;2018-01-01&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;2018-05-30&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tail&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div style=&quot;width:100%&quot;&gt; 
+ &lt;details&gt; 
+&lt;summary&gt;출력 보기(클릭)&lt;/summary&gt;
+
+
+
+&lt;div class=&quot;my-table&quot;&gt;
+&lt;style scoped=&quot;&quot;&gt;
+    .my-table {
+        width:100%;
+        height:300px;
+    }
+    .dataframe {
+        height: 95%;
+    }
+        .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+&lt;/style&gt;
+&lt;table border=&quot;1&quot; class=&quot;dataframe&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr style=&quot;text-align: right;&quot;&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;Open&lt;/th&gt;
+      &lt;th&gt;High&lt;/th&gt;
+      &lt;th&gt;Low&lt;/th&gt;
+      &lt;th&gt;Close&lt;/th&gt;
+      &lt;th&gt;Adj Close&lt;/th&gt;
+      &lt;th&gt;Volume&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Date&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2018-05-22&lt;/th&gt;
+      &lt;td&gt;47.095001&lt;/td&gt;
+      &lt;td&gt;47.220001&lt;/td&gt;
+      &lt;td&gt;46.695000&lt;/td&gt;
+      &lt;td&gt;46.790001&lt;/td&gt;
+      &lt;td&gt;44.777905&lt;/td&gt;
+      &lt;td&gt;60962800&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2018-05-23&lt;/th&gt;
+      &lt;td&gt;46.587502&lt;/td&gt;
+      &lt;td&gt;47.125000&lt;/td&gt;
+      &lt;td&gt;46.439999&lt;/td&gt;
+      &lt;td&gt;47.090000&lt;/td&gt;
+      &lt;td&gt;45.064995&lt;/td&gt;
+      &lt;td&gt;80233600&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2018-05-24&lt;/th&gt;
+      &lt;td&gt;47.192501&lt;/td&gt;
+      &lt;td&gt;47.209999&lt;/td&gt;
+      &lt;td&gt;46.552502&lt;/td&gt;
+      &lt;td&gt;47.037498&lt;/td&gt;
+      &lt;td&gt;45.014755&lt;/td&gt;
+      &lt;td&gt;92936000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2018-05-25&lt;/th&gt;
+      &lt;td&gt;47.057499&lt;/td&gt;
+      &lt;td&gt;47.412498&lt;/td&gt;
+      &lt;td&gt;46.912498&lt;/td&gt;
+      &lt;td&gt;47.145000&lt;/td&gt;
+      &lt;td&gt;45.117626&lt;/td&gt;
+      &lt;td&gt;69844000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2018-05-29&lt;/th&gt;
+      &lt;td&gt;46.900002&lt;/td&gt;
+      &lt;td&gt;47.187500&lt;/td&gt;
+      &lt;td&gt;46.717499&lt;/td&gt;
+      &lt;td&gt;46.974998&lt;/td&gt;
+      &lt;td&gt;44.954941&lt;/td&gt;
+      &lt;td&gt;90056400&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/details&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;애플aapl-2017년&quot;&gt;애플(AAPL), 2017년~&lt;/h2&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fdr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DataReader&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;AAPL&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;2017&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Close&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;plot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/180197751-a041edf5-4e4d-487a-a966-c22d7fbd3fec.png&quot; witdh=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;활용&quot;&gt;활용&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;주가 정보를 간단한 방법으로 얻을 수 있어서 간단한 주가 변동등을 다른 자료들과 같이 사용할 수 있을 것 같습니다.&lt;br /&gt;
+추가로 주가변동을 예측해보는 프로젝트를 진행해보겠습니다.&lt;/p&gt;
+&lt;/blockquote&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="programing" />
+      
+        <category term="python" />
+      
+
+      
+        <summary type="html">FinanceDataReader</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">순서정하기</title>
+      <link href="http://localhost:4000/%EC%88%9C%EC%84%9C%EC%A0%95%ED%95%98%EA%B8%B0" rel="alternate" type="text/html" title="순서정하기" />
+      <published>2023-03-12T00:00:00+09:00</published>
+      <updated>2023-03-12T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%EC%88%9C%EC%84%9C%EC%A0%95%ED%95%98%EA%B8%B0</id>
+      <content type="html" xml:base="http://localhost:4000/%EC%88%9C%EC%84%9C%EC%A0%95%ED%95%98%EA%B8%B0">&lt;h1 id=&quot;순서정하기&quot;&gt;순서정하기&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://school.programmers.co.kr/learn/courses/30/lessons/120835&quot;&gt;프로그래머스-진료순서정하기&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;주어진 배열에서 큰 숫자의 위치에 순서대로 숫자를 채워 출력합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;조건
+    &lt;ul&gt;
+      &lt;li&gt;중복된 원소 없음&lt;/li&gt;
+      &lt;li&gt;1 &amp;lt;= 입력된 배열의 길이 &amp;lt;= 10&lt;/li&gt;
+      &lt;li&gt;1 &amp;lt;= 입력된 배열의 원소 &amp;lt;= 100&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;예
+|input | result|
+|——|——|
+|[3, 76, 24]|[3, 1, 2]|
+|[1, 2, 3, 4, 5, 6, 7]|[7, 6, 5, 4, 3, 2, 1]|
+|[30, 10, 23, 6, 100]|[2, 4, 3, 5, 1]|&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;아래의 코드는 sorted에서 이미 O(NlogN) 정도의 시간이 든다고 가정합니다.&lt;/li&gt;
+  &lt;li&gt;그리고 반복문에서 index를 계속 부르게 되므로 계속 부르게 되므로 O(N^2)의 시간복잡도를 가지게 됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{python}&quot;&gt;def solution(emergency):
+    sorted_list = sorted(emergency,reverse=True)
+    answer = [sorted_list.index(x)+1 for x in emergency]
+    return answer
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;이를 시간복잡도의 효율을 생각해서 dict을 사용하여 코드를 작성해봅니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{python}&quot;&gt;def solution(emergency):
+    dict_sorted = {e : i+1 for i,e in enumerate(sorted(emergency)[::-1])}
+    return [dict_sorted[x] for x in emergency]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;오름차순으로 정렬하는 것은 sorted 함수에 [::-1]로 표현해주었다.
+    &lt;ul&gt;
+      &lt;li&gt;sorted에 reverse = True 매개변수를 집어 넣어주어도 됩니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;{} 반복문을 List Comprehension 방법으로 표현합니다.
+    &lt;ul&gt;
+      &lt;li&gt;enumerate 를 사용하여 인덱스를 순서로 표현합니다.&lt;/li&gt;
+      &lt;li&gt;값을 순서대로 넣어주는 방법으로 진행합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;만들어진 dict 에서 배열 원소를 입력받아 해당 인덱스를 출력합니다.&lt;/li&gt;
+  &lt;li&gt;이와 같은 방법으로 기존의 시간 복잡도보다 훨씬 줄어든 O(NlogN)의 모습으로 실행할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="programing" />
+      
+        <category term="python" />
+      
+
+      
+        <summary type="html">순서정하기</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">ChatGPT</title>
@@ -890,207 +1723,6 @@ None
 
       
         <summary type="html">해시 Hash 예시 1</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">최빈값구하기</title>
-      <link href="http://localhost:4000/%EC%B5%9C%EB%B9%88%EA%B0%92%EA%B5%AC%ED%95%98%EA%B8%B0" rel="alternate" type="text/html" title="최빈값구하기" />
-      <published>2023-03-01T00:00:00+09:00</published>
-      <updated>2023-03-01T00:00:00+09:00</updated>
-      <id>http://localhost:4000/%EC%B5%9C%EB%B9%88%EA%B0%92%EA%B5%AC%ED%95%98%EA%B8%B0</id>
-      <content type="html" xml:base="http://localhost:4000/%EC%B5%9C%EB%B9%88%EA%B0%92%EA%B5%AC%ED%95%98%EA%B8%B0">&lt;h1 id=&quot;최빈값-구하기&quot;&gt;최빈값 구하기&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://school.programmers.co.kr/learn/courses/30/lessons/120812&quot;&gt;프로그래머스-최빈값구하기&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;주어진 배열에서 빈도수가 가장 많은 원소를 출력, 최빈값이 2개 이상일 경우는 -1 출력&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;solution&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;# 딕셔너리를 사용해서 각 원소마다 빈도수를 구해준다.
-&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# set을 사용하여 나타낼수도 있지만 효율적으로는 O(N)만 사용하는게 가장 좋을 것 같았다.
-&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;tmp_dict&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;tmp_dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tmp_dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-    
-    &lt;span class=&quot;c1&quot;&gt;# 원소와 빈도수를 각각의 리스트에 저장해준다.
-&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;keys_list&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tmp_dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;keys&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;values_list&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tmp_dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;values&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
-    
-    &lt;span class=&quot;c1&quot;&gt;# 최빈값이 여러개인지 확인 후 출력
-&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;values_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;values_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;keys_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;values_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;values_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))]&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;solution&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;solution&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;2
--1
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;알고리즘
-    &lt;ul&gt;
-      &lt;li&gt;리스트를 딕셔너리형태로 변형하여 각 원소마다 빈도수를 구한다.
-        &lt;ul&gt;
-          &lt;li&gt;dict get을 사용하여 초기화 및 빈도 증가&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;최대 빈도수가 겹치는 숫자가 있는지 확인하고 출력한다.
-        &lt;ul&gt;
-          &lt;li&gt;count와 max를 사용해서 최대빈도수의 개수를 확인&lt;/li&gt;
-          &lt;li&gt;index를 사용하여 최대빈도수의 원소를 확인&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;추가 정보
-    &lt;blockquote&gt;
-      &lt;p&gt;풀이 추천 1등의 풀이에서는 내장함수 set을 사용하여 원소값의 중복을 제거하고 해당 원소를 하나씩 없애보면서 최빈값만 남을 때까지 반복한다. 최빈값의 중복이 있다면 마지막에 같이 없어져 array의 길이가 0이 되므로 -1을 출력해준다.&lt;/p&gt;
-      &lt;pre&gt;&lt;code class=&quot;language-{python}&quot;&gt;def solution(array):
-  while len(array) != 0:
-      for i, a in enumerate(set(array)):
-          array.remove(a)
-      if i == 0: return a
-  return -1
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="programing" />
-      
-        <category term="python" />
-      
-
-      
-        <summary type="html">최빈값 구하기</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">선택정렬</title>
-      <link href="http://localhost:4000/%EC%84%A0%ED%83%9D%EC%A0%95%EB%A0%AC" rel="alternate" type="text/html" title="선택정렬" />
-      <published>2023-03-01T00:00:00+09:00</published>
-      <updated>2023-03-01T00:00:00+09:00</updated>
-      <id>http://localhost:4000/%EC%84%A0%ED%83%9D%EC%A0%95%EB%A0%AC</id>
-      <content type="html" xml:base="http://localhost:4000/%EC%84%A0%ED%83%9D%EC%A0%95%EB%A0%AC">&lt;h1 id=&quot;선택정렬-selection-sorting&quot;&gt;선택정렬 selection Sorting&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;주어진 리스트에서 최소값을 찾아 맨 앞에 위치한 원소와 자리를 바꾸고, 그 다음으로 작은 값을 찾아 그 다음 위치에 위치시키는 과정을 반복하여 정렬하는 알고리즘&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;선택정렬-1&quot;&gt;선택정렬 1&lt;/h2&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;selection_sort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;# 배열의 모든 요소를 순회
-&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;c1&quot;&gt;# 최소값의 인덱스를 찾음
-&lt;/span&gt;        &lt;span class=&quot;n&quot;&gt;min_idx&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;min_idx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;min_idx&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;
-        &lt;span class=&quot;c1&quot;&gt;# 현재 인덱스와 최소값의 인덱스를 swap
-&lt;/span&gt;        &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;min_idx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;min_idx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;64&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;25&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;22&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;11&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;selection_sort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[11, 12, 22, 25, 64]
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;알고리즘
-    &lt;ul&gt;
-      &lt;li&gt;첫번째 반복문
-        &lt;ul&gt;
-          &lt;li&gt;모든 요소를 비교하기 위해 n-1번 비교한다.&lt;/li&gt;
-          &lt;li&gt;n번째는 n-1에서 정해지기 때문에 할 필요가 없다.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;두번째 반복문
-        &lt;ul&gt;
-          &lt;li&gt;i 이상의 인덱스에서 최소값을 가진 인덱스(min_idx)를 구한다.&lt;/li&gt;
-          &lt;li&gt;범위는 i ~ n까지의 원소 중에 비교하면 된다.
-            &lt;ul&gt;
-              &lt;li&gt;두번째 반복문 시작전 min_idx = 1 는 범위의 첫번째 인자를 최소값으로 초기화 시키고 시작한다는 의미이다.&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Swap
-        &lt;ul&gt;
-          &lt;li&gt;두번째 반복문이 끝나면 범위 안에 최소값인 인덱스를 알 수 있다.&lt;/li&gt;
-          &lt;li&gt;범위의 첫번째 인자 i와 최소값의 인덱스 min_index를 서로 교체한다.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;시간복잡도
-    &lt;ul&gt;
-      &lt;li&gt;O(n^2)&lt;/li&gt;
-      &lt;li&gt;버블정렬보다는 빠르다. ( 교환이 많이 일어나야하는 자료에 유리 )&lt;/li&gt;
-      &lt;li&gt;리스트가 길수록 오래걸린다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="programing" />
-      
-        <category term="python" />
-      
-
-      
-        <summary type="html">선택정렬 selection Sorting</summary>
       
 
       

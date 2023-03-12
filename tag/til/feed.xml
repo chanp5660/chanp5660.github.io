@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/til/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-03-12T00:04:54+09:00</updated>
+  <updated>2023-03-12T18:10:31+09:00</updated>
   <id>http://localhost:4000/tag/til/feed.xml</id>
 
   
@@ -30,6 +30,93 @@
   
   
 
+  
+    <entry>
+      <title type="html">TIL-코스피코스닥</title>
+      <link href="http://localhost:4000/TIL-%EC%BD%94%EC%8A%A4%ED%94%BC%EC%BD%94%EC%8A%A4%EB%8B%A5" rel="alternate" type="text/html" title="TIL-코스피코스닥" />
+      <published>2023-03-12T00:00:00+09:00</published>
+      <updated>2023-03-12T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-%EC%BD%94%EC%8A%A4%ED%94%BC%EC%BD%94%EC%8A%A4%EB%8B%A5</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-%EC%BD%94%EC%8A%A4%ED%94%BC%EC%BD%94%EC%8A%A4%EB%8B%A5">&lt;h1 id=&quot;코스피-코스닥&quot;&gt;코스피 코스닥&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;코스피(KOSPI) 코스닥(KOSDAQ)은 한국 증권거래소(KRX)에서 운영하는 대표적인 주식시장입니다.&lt;br /&gt;
+두 시장의 차이는 &lt;strong&gt;상장 기업의 특성과 시장 규모, 시장 참여자의 투자성향 등&lt;/strong&gt;에서 차이가 날 수 있습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;상장-기업의-특성&quot;&gt;상장 기업의 특성&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;코스피
+    &lt;ul&gt;
+      &lt;li&gt;대기업들과 대형 중소기업들이 많이 상장되어 있습니다.&lt;/li&gt;
+      &lt;li&gt;기업들은 안정적이고 예측 가능한 수익성을 가집니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;코스닥
+    &lt;ul&gt;
+      &lt;li&gt;기술 중심의 중소 기업들이 중심이 됩니다.&lt;/li&gt;
+      &lt;li&gt;기업들은 높은 성장성과 수익성을 추구합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;시장-규모&quot;&gt;시장 규모&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;코스피
+    &lt;ul&gt;
+      &lt;li&gt;시가총액 대비 거래량이 많아 시장 규모가 큽니다.&lt;/li&gt;
+      &lt;li&gt;대표적인 대기업들이 많이 상장되어 있습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;코스닥
+    &lt;ul&gt;
+      &lt;li&gt;거래량 대비 시가총액 비율이 낮아 시장 규모가 작습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;시장-참여자의-투자성향&quot;&gt;시장 참여자의 투자성향&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;코스피
+    &lt;ul&gt;
+      &lt;li&gt;기관과 외국인 등 대형 투자자들의 참여가 많아 전체 시장의 흐름을 좌우하기도 합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;코스닥
+    &lt;ul&gt;
+      &lt;li&gt;개인 투자자들의 참여가 많고, 기업의 신규 상장 과정이 빠르고 간소화되어 있다는 특징이 있습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">코스피 코스닥</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">TIL-SVD</title>
@@ -1356,81 +1443,6 @@ display(train.head())
 
       
         <summary type="html">HTML DataFrame 출력 조절하기</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">TIL-HTML 토글 설정</title>
-      <link href="http://localhost:4000/TIL-HTML%ED%86%A0%EA%B8%80%EC%84%A4%EC%A0%95" rel="alternate" type="text/html" title="TIL-HTML 토글 설정" />
-      <published>2023-03-06T00:00:00+09:00</published>
-      <updated>2023-03-06T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-HTML%ED%86%A0%EA%B8%80%EC%84%A4%EC%A0%95</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-HTML%ED%86%A0%EA%B8%80%EC%84%A4%EC%A0%95">&lt;h1 id=&quot;html-토글-설정-jekyll&quot;&gt;HTML 토글 설정 (jekyll)&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;jekyll을 이용하여 깃허브 블로그를 운영하던 중에 토글을 사용하여 목차를 다루게 된다면 포스팅 상단부 쪽을 활용할 수 있을 것 같다.&lt;/li&gt;
-  &lt;li&gt;상단부가 길어질까봐 추가하지 못했었다.&lt;/li&gt;
-  &lt;li&gt;링크와 체크박스 등 마크다운의 기능을 이용할 수 있다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-{html}&quot;&gt;&amp;lt;details&amp;gt;
-&amp;lt;summary&amp;gt;python 예제 목차&amp;lt;/summary&amp;gt;
-&amp;lt;div markdown=&quot;1&quot;&amp;gt;
-
-- [ ] [선택정렬](https://chanp5660.github.io/선택정렬)
-- [ ] [삽입정렬](https://chanp5660.github.io/삽입정렬)
-- [ ] [버블정렬](https://chanp5660.github.io/버블정렬)
-- [ ] [병합정렬](https://chanp5660.github.io/병합정렬)
-- [ ] 힙정렬
-- [ ] 퀵정렬
-- [ ] 기수정렬
-
-&amp;lt;/div&amp;gt;
-&amp;lt;/details&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;details&gt;
-&lt;summary&gt;python 예제 목차&lt;/summary&gt;
-&lt;div&gt;
-
-    &lt;ul class=&quot;task-list&quot;&gt;
-      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;&lt;a href=&quot;https://chanp5660.github.io/선택정렬&quot;&gt;선택정렬&lt;/a&gt;&lt;/li&gt;
-      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;&lt;a href=&quot;https://chanp5660.github.io/삽입정렬&quot;&gt;삽입정렬&lt;/a&gt;&lt;/li&gt;
-      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;&lt;a href=&quot;https://chanp5660.github.io/버블정렬&quot;&gt;버블정렬&lt;/a&gt;&lt;/li&gt;
-      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;&lt;a href=&quot;https://chanp5660.github.io/병합정렬&quot;&gt;병합정렬&lt;/a&gt;&lt;/li&gt;
-      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;힙정렬&lt;/li&gt;
-      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;퀵정렬&lt;/li&gt;
-      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;기수정렬&lt;/li&gt;
-    &lt;/ul&gt;
-
-  &lt;/div&gt;
-&lt;/details&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">HTML 토글 설정 (jekyll)</summary>
       
 
       

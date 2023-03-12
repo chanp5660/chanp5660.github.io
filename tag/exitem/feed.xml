@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/exitem/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-03-12T00:04:54+09:00</updated>
+  <updated>2023-03-12T18:10:31+09:00</updated>
   <id>http://localhost:4000/tag/exitem/feed.xml</id>
 
   
@@ -30,6 +30,93 @@
   
   
 
+  
+    <entry>
+      <title type="html">TIL-코스피코스닥</title>
+      <link href="http://localhost:4000/TIL-%EC%BD%94%EC%8A%A4%ED%94%BC%EC%BD%94%EC%8A%A4%EB%8B%A5" rel="alternate" type="text/html" title="TIL-코스피코스닥" />
+      <published>2023-03-12T00:00:00+09:00</published>
+      <updated>2023-03-12T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-%EC%BD%94%EC%8A%A4%ED%94%BC%EC%BD%94%EC%8A%A4%EB%8B%A5</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-%EC%BD%94%EC%8A%A4%ED%94%BC%EC%BD%94%EC%8A%A4%EB%8B%A5">&lt;h1 id=&quot;코스피-코스닥&quot;&gt;코스피 코스닥&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;코스피(KOSPI) 코스닥(KOSDAQ)은 한국 증권거래소(KRX)에서 운영하는 대표적인 주식시장입니다.&lt;br /&gt;
+두 시장의 차이는 &lt;strong&gt;상장 기업의 특성과 시장 규모, 시장 참여자의 투자성향 등&lt;/strong&gt;에서 차이가 날 수 있습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;상장-기업의-특성&quot;&gt;상장 기업의 특성&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;코스피
+    &lt;ul&gt;
+      &lt;li&gt;대기업들과 대형 중소기업들이 많이 상장되어 있습니다.&lt;/li&gt;
+      &lt;li&gt;기업들은 안정적이고 예측 가능한 수익성을 가집니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;코스닥
+    &lt;ul&gt;
+      &lt;li&gt;기술 중심의 중소 기업들이 중심이 됩니다.&lt;/li&gt;
+      &lt;li&gt;기업들은 높은 성장성과 수익성을 추구합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;시장-규모&quot;&gt;시장 규모&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;코스피
+    &lt;ul&gt;
+      &lt;li&gt;시가총액 대비 거래량이 많아 시장 규모가 큽니다.&lt;/li&gt;
+      &lt;li&gt;대표적인 대기업들이 많이 상장되어 있습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;코스닥
+    &lt;ul&gt;
+      &lt;li&gt;거래량 대비 시가총액 비율이 낮아 시장 규모가 작습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;시장-참여자의-투자성향&quot;&gt;시장 참여자의 투자성향&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;코스피
+    &lt;ul&gt;
+      &lt;li&gt;기관과 외국인 등 대형 투자자들의 참여가 많아 전체 시장의 흐름을 좌우하기도 합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;코스닥
+    &lt;ul&gt;
+      &lt;li&gt;개인 투자자들의 참여가 많고, 기업의 신규 상장 과정이 빠르고 간소화되어 있다는 특징이 있습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">코스피 코스닥</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">TIL-whiten</title>
@@ -1354,96 +1441,6 @@ display(train.head())
 
       
         <summary type="html">HTML DataFrame 출력 조절하기</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">TIL-파일경로찾기</title>
-      <link href="http://localhost:4000/TIL-%ED%8C%8C%EC%9D%BC%EA%B2%BD%EB%A1%9C%EC%B0%BE%EA%B8%B0" rel="alternate" type="text/html" title="TIL-파일경로찾기" />
-      <published>2023-03-07T00:00:00+09:00</published>
-      <updated>2023-03-07T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-%ED%8C%8C%EC%9D%BC%EA%B2%BD%EB%A1%9C%EC%B0%BE%EA%B8%B0</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-%ED%8C%8C%EC%9D%BC%EA%B2%BD%EB%A1%9C%EC%B0%BE%EA%B8%B0">&lt;h1 id=&quot;python을-이용하여-파일-경로-찾기&quot;&gt;python을 이용하여 파일 경로 찾기&lt;/h1&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;파일들을 여러개를 반복적으로 해야될 일이면 매우 귀찮습니다. 따라서 파일이 생길 때마다 반복해줘야하는 동작들을 자동화 해주는 프로그램을 작성하겠습니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;원하는-폴더의-파일들을-알고-싶을-때&quot;&gt;원하는 폴더의 파일들을 알고 싶을 때&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;항상 다루던 폴더가 있으면 파일을 일일히 불러오는게 아니라 한번에 폴더 내 모든 파일을 불러올 수 있다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;os&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;folder_path&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;../../drive-download-20230206T024359Z-001/HTML_DATAFRAME/_posts&quot;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 원하는 폴더 경로
-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;listdir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;folder_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[&apos;.ipynb_checkpoints&apos;, &apos;ai&apos;, &apos;devskill&apos;, &apos;exitem&apos;, &apos;List&apos;, &apos;math&apos;, &apos;programing&apos;, &apos;project&apos;]
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;폴더의-모든-하위-파일들을-알고-싶을-때&quot;&gt;폴더의 모든 하위 파일들을 알고 싶을 때&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;단순히 폴더 안의 내용을 알고 싶은 것이 아니라 폴더 내에 존재하는 모든 파일 경로를 알고 싶을 때&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;os&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;folder_path&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;../../drive-download-20230206T024359Z-001/HTML_DATAFRAME/_posts&quot;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 원하는 폴더 경로
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;file_paths&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# 파일 경로를 저장할 빈 리스트를 만듭니다.
-&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dirs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;files&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;walk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;folder_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;file&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;files&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;file_path&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;file_paths&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;file_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;file_paths&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;107
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;file_paths&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;../../drive-download-20230206T024359Z-001/HTML_DATAFRAME/_posts\ai\2023-02-06-머신러닝 워크플로우.md
-../../drive-download-20230206T024359Z-001/HTML_DATAFRAME/_posts\ai\2023-02-13-로지스틱회귀.md
-../../drive-download-20230206T024359Z-001/HTML_DATAFRAME/_posts\ai\2023-02-17-결정경계.md
-../../drive-download-20230206T024359Z-001/HTML_DATAFRAME/_posts\ai\2023-02-17-선형분류.md
-../../drive-download-20230206T024359Z-001/HTML_DATAFRAME/_posts\ai\2023-02-17-손실함수.md
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;이렇게 원하는 폴더의 하위 모든 파일의 경로를 얻을 수 있다.&lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">python을 이용하여 파일 경로 찾기 파일들을 여러개를 반복적으로 해야될 일이면 매우 귀찮습니다. 따라서 파일이 생길 때마다 반복해줘야하는 동작들을 자동화 해주는 프로그램을 작성하겠습니다.</summary>
       
 
       

@@ -1,105 +1,902 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-12T00:04:54+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">TIL-Attention</title><link href="http://localhost:4000/TIL-Attention" rel="alternate" type="text/html" title="TIL-Attention" /><published>2023-03-11T00:00:00+09:00</published><updated>2023-03-11T00:00:00+09:00</updated><id>http://localhost:4000/TIL-Attention</id><content type="html" xml:base="http://localhost:4000/TIL-Attention">&lt;h1 id=&quot;attention이란&quot;&gt;Attention이란?&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-12T18:10:31+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">TIL-코스피코스닥</title><link href="http://localhost:4000/TIL-%EC%BD%94%EC%8A%A4%ED%94%BC%EC%BD%94%EC%8A%A4%EB%8B%A5" rel="alternate" type="text/html" title="TIL-코스피코스닥" /><published>2023-03-12T00:00:00+09:00</published><updated>2023-03-12T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%EC%BD%94%EC%8A%A4%ED%94%BC%EC%BD%94%EC%8A%A4%EB%8B%A5</id><content type="html" xml:base="http://localhost:4000/TIL-%EC%BD%94%EC%8A%A4%ED%94%BC%EC%BD%94%EC%8A%A4%EB%8B%A5">&lt;h1 id=&quot;코스피-코스닥&quot;&gt;코스피 코스닥&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;코스피(KOSPI) 코스닥(KOSDAQ)은 한국 증권거래소(KRX)에서 운영하는 대표적인 주식시장입니다.&lt;br /&gt;
+두 시장의 차이는 &lt;strong&gt;상장 기업의 특성과 시장 규모, 시장 참여자의 투자성향 등&lt;/strong&gt;에서 차이가 날 수 있습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;상장-기업의-특성&quot;&gt;상장 기업의 특성&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;머신러닝에서 자연어 처리나 컴퓨터 비전 분야에서 주로 사용되는 기술로, 입력 시퀀스의 중요한 부분에 더 많은 가중치를 부여하여 출력을 생성하는 방식입니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;사용-계기&quot;&gt;사용 계기&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;일반적으로, 시퀀스 데이터는 고정된 길이를 가지는 벡터로 변환되어 모델에 입려됩니다.
+  &lt;li&gt;코스피
     &lt;ul&gt;
-      &lt;li&gt;그러나 이러한 고정 길이 벡터는 데이터의 모든 정보를 포착하지 못할 수 있습니다.&lt;/li&gt;
+      &lt;li&gt;대기업들과 대형 중소기업들이 많이 상장되어 있습니다.&lt;/li&gt;
+      &lt;li&gt;기업들은 안정적이고 예측 가능한 수익성을 가집니다.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;이러한 문제를 해결하기 위해 입력 시퀀스의 모든 위치에 대한 가중치를 계산합니다.
+  &lt;li&gt;코스닥
     &lt;ul&gt;
-      &lt;li&gt;이를 기반으로 가중합을 계산하여 입력 시퀀스의 특정 위치에 더 많은 주의를 기울입니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;사용&quot;&gt;사용&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;자연어 처리 분야에서 Attention은 번역, 요약, 질문 답변, 감정 분석 등 다양한 테스트에서 사용됩니다.&lt;/li&gt;
-  &lt;li&gt;예를 들어 번역에서, 입력 문장의 각 단어에 대한 가중치를 계산합니다.
-    &lt;ul&gt;
-      &lt;li&gt;이를 기반으로 출력 문장의 각 단어를 생성합니다.&lt;/li&gt;
-      &lt;li&gt;이를 통해 모델은 번역에 필요한 정보를 보다 효과적으로 추출할 수 있습니다.&lt;/li&gt;
+      &lt;li&gt;기술 중심의 중소 기업들이 중심이 됩니다.&lt;/li&gt;
+      &lt;li&gt;기업들은 높은 성장성과 수익성을 추구합니다.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;구현&quot;&gt;구현&lt;/h2&gt;
+&lt;h2 id=&quot;시장-규모&quot;&gt;시장 규모&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;일반적으로 소프트맥스 함수와 내적 연산을 이용하여 가중치를 계산합니다.&lt;/li&gt;
-  &lt;li&gt;가중치를 계산하는 방법은 다양한 종류가 있습니다.
+  &lt;li&gt;코스피
     &lt;ul&gt;
-      &lt;li&gt;Scaled Dot-Product Attention : 입력된 Query, Key, Value에 대해 내적(dot product)을 계산하고, 이를 스케일링하여 softmax 함수를 적용한 가중치를 Value에 곱해서 출력하는 방식입니다.&lt;/li&gt;
-      &lt;li&gt;Multi-Head Attention : 입력된 Query, Key, Value를 여러 개의 서로 다른 헤드(Head)로 분리하여 각각의 헤드에서 Scaled Dot-Product Attention을 계산하고, 이를 다시 합쳐서 출력하는 방식입니다.&lt;/li&gt;
-      &lt;li&gt;등&lt;/li&gt;
+      &lt;li&gt;시가총액 대비 거래량이 많아 시장 규모가 큽니다.&lt;/li&gt;
+      &lt;li&gt;대표적인 대기업들이 많이 상장되어 있습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;코스닥
+    &lt;ul&gt;
+      &lt;li&gt;거래량 대비 시가총액 비율이 낮아 시장 규모가 작습니다.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;장점&quot;&gt;장점&lt;/h2&gt;
+&lt;h2 id=&quot;시장-참여자의-투자성향&quot;&gt;시장 참여자의 투자성향&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;이전의 RNN, LSTM 등의 모델보다 더울 정확하고 효율적인 결과를 도출할 수 있기 때문입니다.&lt;/li&gt;
+  &lt;li&gt;코스피
+    &lt;ul&gt;
+      &lt;li&gt;기관과 외국인 등 대형 투자자들의 참여가 많아 전체 시장의 흐름을 좌우하기도 합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;코스닥
+    &lt;ul&gt;
+      &lt;li&gt;개인 투자자들의 참여가 많고, 기업의 신규 상장 과정이 빠르고 간소화되어 있다는 특징이 있습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">코스피 코스닥</summary></entry><entry><title type="html">주식 투자</title><link href="http://localhost:4000/%EC%A3%BC%EC%8B%9D%ED%88%AC%EC%9E%90%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8" rel="alternate" type="text/html" title="주식 투자" /><published>2023-03-12T00:00:00+09:00</published><updated>2023-03-12T00:00:00+09:00</updated><id>http://localhost:4000/%EC%A3%BC%EC%8B%9D%ED%88%AC%EC%9E%90%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8</id><content type="html" xml:base="http://localhost:4000/%EC%A3%BC%EC%8B%9D%ED%88%AC%EC%9E%90%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8">&lt;h1 id=&quot;주식-투자-정보-프로젝트&quot;&gt;주식 투자 정보 프로젝트&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;주식 예측 ( 여러개의 세미 프로젝트로 진행하면서 끊어가면 좋을 듯 )
+    &lt;ul&gt;
+      &lt;li&gt;수집 : api 이용 ( [python 라이브러리 존재] )&lt;/li&gt;
+      &lt;li&gt;분석 : 필요한 설명변수가 무엇인지 파악 ( 영향을 미치는 변수들 파악 )&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;과정&quot;&gt;과정&lt;/h2&gt;
+&lt;h2 id=&quot;세미-프로젝트1--가격이-오름세인가-내림세인가-&quot;&gt;세미 프로젝트1 [ 가격이 오름세인가 내림세인가? ]&lt;/h2&gt;
 &lt;ol&gt;
-  &lt;li&gt;Query, Key, Value 생성 : 입력 시퀀스를 표현하는 벡터를 Query, Key, Value로 분리합니다.
+  &lt;li&gt;데이터
     &lt;ul&gt;
-      &lt;li&gt;Query는 출력에 대한 정보를 제공하는 벡터입니다.&lt;/li&gt;
-      &lt;li&gt;Key 는 입력 시퀀스 내의 각 원소에 대한 정보를 제공하는 벡터입니다.&lt;/li&gt;
-      &lt;li&gt;Value 는 입력 시퀀스 내의 원소를 표현하는 벡터입니다.&lt;/li&gt;
+      &lt;li&gt;기술적 분석
+        &lt;ul&gt;
+          &lt;li&gt;주가 그래프&lt;/li&gt;
+          &lt;li&gt;거래량&lt;/li&gt;
+          &lt;li&gt;이동평균선&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Attention 가중치 계산 : Query와 Key 사이의 내적을 계산하여 유사도를 측정합니다.
-    &lt;ul&gt;
-      &lt;li&gt;이를 소프트맥스 함수를 이용하여 가중치로 변환합니다.&lt;/li&gt;
-      &lt;li&gt;가중치는 입력 시퀀스 내의 각 원소에 대한 중요도를 나타냅니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;가중합 계산 : 입력 시퀀스 내의 Value 벡터와 가중치를 곱하여 가중합을 계산합니다.
-    &lt;ul&gt;
-      &lt;li&gt;이를 통해 입력 시퀀스 내에서 주목할 부분이 강조됩니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;출력 생성 : 가중합을 기반으로 출력 벡터를 생성합니다.
-    &lt;ul&gt;
-      &lt;li&gt;이때, 가중합의 결과를 어떻게 활용할지는 태스크에 따라 다릅니다.&lt;/li&gt;
-      &lt;li&gt;예를 들어, 번역에서는 출력 문장의 각 단어를 생성하는 데 사용됩니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
+  &lt;li&gt;이진 분류(오름세, 내림세) : 가격 데이터를 기반으로 오름세 판단&lt;/li&gt;
+  &lt;li&gt;회귀 분석 : 실제로는 회귀분석으로 돌아간다. (아직 속성이 하나이기 때문에 결정트리로만 파악하기 어렵다.)&lt;/li&gt;
+  &lt;li&gt;기간 : 1주일, 한달, 주기로 판단&lt;/li&gt;
+  &lt;li&gt;분야 : 오름세가 포함되어 있는 분야로 넓혀서 판단&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&quot;다른-기술과-조합하여-사용&quot;&gt;다른 기술과 조합하여 사용&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Transformer 모델은 Attention 기반의 Encoder와 Decoder를 조합하여 사용하는 모델입니다.
+&lt;h2 id=&quot;세미-프로젝트2--오름세-상세-예측-&quot;&gt;세미 프로젝트2 [ 오름세 상세 예측 ]&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;데이터
     &lt;ul&gt;
-      &lt;li&gt;이를 통해 자연어 처리 분야에서 최고 수준의 성능을 보여주고 있습니다.&lt;/li&gt;
+      &lt;li&gt;회사의 재무정보
+        &lt;ul&gt;
+          &lt;li&gt;수익성 지표&lt;/li&gt;
+          &lt;li&gt;재무 건정성 지표&lt;/li&gt;
+          &lt;li&gt;성장성 지표&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;경제 지표
+        &lt;ul&gt;
+          &lt;li&gt;금리&lt;/li&gt;
+          &lt;li&gt;인플레이션&lt;/li&gt;
+          &lt;li&gt;실업률&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;기타 외부요인
+        &lt;ul&gt;
+          &lt;li&gt;경영진 변경&lt;/li&gt;
+          &lt;li&gt;정책 변화&lt;/li&gt;
+          &lt;li&gt;시장 변화&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;회귀분석 : 오름세로 판단된 품목에 대해 상세 분석&lt;/li&gt;
+  &lt;li&gt;재무재표 등 데이터를 추가하여 판단할 수 있는 방법을 추가&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;세미-프로젝트3--확률-수치-제공-&quot;&gt;세미 프로젝트3 [ 확률 수치 제공 ]&lt;/h2&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. 분류(추천) : 확률의 순서대로 제공
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="project" /><summary type="html">주식 투자 정보 프로젝트</summary></entry><entry><title type="html">주식투자-수집</title><link href="http://localhost:4000/%EC%A3%BC%EC%8B%9D%ED%88%AC%EC%9E%90%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%EC%A7%91" rel="alternate" type="text/html" title="주식투자-수집" /><published>2023-03-12T00:00:00+09:00</published><updated>2023-03-12T00:00:00+09:00</updated><id>http://localhost:4000/%EC%A3%BC%EC%8B%9D%ED%88%AC%EC%9E%90%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%EC%A7%91</id><content type="html" xml:base="http://localhost:4000/%EC%A3%BC%EC%8B%9D%ED%88%AC%EC%9E%90%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%EC%A7%91">&lt;h1 id=&quot;주식투자-프로젝트-수집&quot;&gt;주식투자 프로젝트 수집&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;주식투자 프로젝트에서 필요한 데이터를 수집합니다.&lt;br /&gt;
+기술적 분석을 위한 데이터를 수집하는 것이므로 회사, 주가 그래프, 거래량을 수집합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;회사-선택-select-a-company&quot;&gt;회사 선택; Select a Company&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;삼성전자를 기준으로 진행합니다.&lt;br /&gt;
+데이터의 수가 많을 것 같은 상장된지 시간이 오래된 회사를 선택했습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;주가-그래프-수집-stock-price-acquisition-with-python&quot;&gt;주가 그래프 수집; Stock Price Acquisition With Python&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Python 라이브러리를 이용해서 선택한 회사에 대한 주가 그래프를 수집합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://chanp5660.github.io//FinanceDataReader&quot;&gt;FinanceDataReader 라이브러리 간단한 사용법&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="project" /><summary type="html">주식투자 프로젝트 수집</summary></entry><entry><title type="html">순서정하기</title><link href="http://localhost:4000/%EC%88%9C%EC%84%9C%EC%A0%95%ED%95%98%EA%B8%B0" rel="alternate" type="text/html" title="순서정하기" /><published>2023-03-12T00:00:00+09:00</published><updated>2023-03-12T00:00:00+09:00</updated><id>http://localhost:4000/%EC%88%9C%EC%84%9C%EC%A0%95%ED%95%98%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/%EC%88%9C%EC%84%9C%EC%A0%95%ED%95%98%EA%B8%B0">&lt;h1 id=&quot;순서정하기&quot;&gt;순서정하기&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://school.programmers.co.kr/learn/courses/30/lessons/120835&quot;&gt;프로그래머스-진료순서정하기&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;주어진 배열에서 큰 숫자의 위치에 순서대로 숫자를 채워 출력합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;조건
+    &lt;ul&gt;
+      &lt;li&gt;중복된 원소 없음&lt;/li&gt;
+      &lt;li&gt;1 &amp;lt;= 입력된 배열의 길이 &amp;lt;= 10&lt;/li&gt;
+      &lt;li&gt;1 &amp;lt;= 입력된 배열의 원소 &amp;lt;= 100&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;예
+|input | result|
+|——|——|
+|[3, 76, 24]|[3, 1, 2]|
+|[1, 2, 3, 4, 5, 6, 7]|[7, 6, 5, 4, 3, 2, 1]|
+|[30, 10, 23, 6, 100]|[2, 4, 3, 5, 1]|&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;아래의 코드는 sorted에서 이미 O(NlogN) 정도의 시간이 든다고 가정합니다.&lt;/li&gt;
+  &lt;li&gt;그리고 반복문에서 index를 계속 부르게 되므로 계속 부르게 되므로 O(N^2)의 시간복잡도를 가지게 됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{python}&quot;&gt;def solution(emergency):
+    sorted_list = sorted(emergency,reverse=True)
+    answer = [sorted_list.index(x)+1 for x in emergency]
+    return answer
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;이를 시간복잡도의 효율을 생각해서 dict을 사용하여 코드를 작성해봅니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{python}&quot;&gt;def solution(emergency):
+    dict_sorted = {e : i+1 for i,e in enumerate(sorted(emergency)[::-1])}
+    return [dict_sorted[x] for x in emergency]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;오름차순으로 정렬하는 것은 sorted 함수에 [::-1]로 표현해주었다.
+    &lt;ul&gt;
+      &lt;li&gt;sorted에 reverse = True 매개변수를 집어 넣어주어도 됩니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;{} 반복문을 List Comprehension 방법으로 표현합니다.
+    &lt;ul&gt;
+      &lt;li&gt;enumerate 를 사용하여 인덱스를 순서로 표현합니다.&lt;/li&gt;
+      &lt;li&gt;값을 순서대로 넣어주는 방법으로 진행합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;만들어진 dict 에서 배열 원소를 입력받아 해당 인덱스를 출력합니다.&lt;/li&gt;
+  &lt;li&gt;이와 같은 방법으로 기존의 시간 복잡도보다 훨씬 줄어든 O(NlogN)의 모습으로 실행할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="programing" /><category term="python" /><summary type="html">순서정하기</summary></entry><entry><title type="html">FinanceDataReader</title><link href="http://localhost:4000/FinanceDataReader" rel="alternate" type="text/html" title="FinanceDataReader" /><published>2023-03-12T00:00:00+09:00</published><updated>2023-03-12T00:00:00+09:00</updated><id>http://localhost:4000/FinanceDataReader</id><content type="html" xml:base="http://localhost:4000/FinanceDataReader">&lt;h1 id=&quot;financedatareader&quot;&gt;FinanceDataReader&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Python에서 주가 정보를 얻을 수 있는 라이브러리입니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/FinanceData/FinanceDataReader&quot;&gt;FinanceDataReader 깃허브 제공&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://financedata.github.io/posts/finance-data-reader-users-guide.html&quot;&gt;FinanceDataReader 사용자 안내서&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;함수-정리&quot;&gt;함수 정리&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;입력값으로 해당 주식의 거래&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;FinanceDataReader.StockListing(market)
+    &lt;ul&gt;
+      &lt;li&gt;market 단축코드를 넣으면 해당 시장에 상장된 정보를 가져옵니다.
+        &lt;ul&gt;
+          &lt;li&gt;한국
+            &lt;ul&gt;
+              &lt;li&gt;KRX : KRX 종목 전체&lt;/li&gt;
+              &lt;li&gt;KOSPI : KOSPI 종목&lt;/li&gt;
+              &lt;li&gt;KOSDAQ : KOSDAQ 종목&lt;/li&gt;
+              &lt;li&gt;KONEX : KONEX 종목&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;미국
+            &lt;ul&gt;
+              &lt;li&gt;NASDAQ : NASDAQ 종목&lt;/li&gt;
+              &lt;li&gt;NYSE : 뉴욕 증권거래소 종목&lt;/li&gt;
+              &lt;li&gt;AMEX : AMEX 종목&lt;/li&gt;
+              &lt;li&gt;SP500 : S&amp;amp;P 500 종목&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;FinanceDataReader.DataReader(symbol, start_yyyy)&lt;/li&gt;
+  &lt;li&gt;FinanceDataReader.DataReader(symbol, start_y_m_d, end_y_m_d)
+    &lt;ul&gt;
+      &lt;li&gt;해당 종목의 원하는 범위의 가격 데이터를 수집합니다.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;컴퓨터-비전-분야에서도-활발하게-사용&quot;&gt;컴퓨터 비전 분야에서도 활발하게 사용&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;예를 들어, 이미지 캡셔닝에서 이미지의 각 부분에 대한 가중치를 계산하여 캡션을 생성하는 데 사용됩니다.
-    &lt;ul&gt;
-      &lt;li&gt;이를 통해 이미지와 텍스트 정보를 결합하여 보다 정확한 결과를 도출할 수 있습니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+&lt;h2 id=&quot;라이브러리-설치-및-import&quot;&gt;라이브러리 설치 및 import&lt;/h2&gt;
 
-&lt;h2 id=&quot;학습된-가중치를-시각화&quot;&gt;학습된 가중치를 시각화&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;장점 : 학습된 가중치를 시각화하여 모델이 어떤 부분에 주목하고 있는지 확인할 수 있습니다.
-    &lt;ul&gt;
-      &lt;li&gt;이는 모델의 해석 가능성을 높여주며, 모델의 개선에도 도움이 됩니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">Attention이란?</summary></entry><entry><title type="html">TIL-메타인지</title><link href="http://localhost:4000/TIL-%EB%A9%94%ED%83%80%EC%9D%B8%EC%A7%80" rel="alternate" type="text/html" title="TIL-메타인지" /><published>2023-03-11T00:00:00+09:00</published><updated>2023-03-11T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%EB%A9%94%ED%83%80%EC%9D%B8%EC%A7%80</id><content type="html" xml:base="http://localhost:4000/TIL-%EB%A9%94%ED%83%80%EC%9D%B8%EC%A7%80">&lt;h1 id=&quot;메타인지란&quot;&gt;메타인지란?&lt;/h1&gt;
+&lt;pre&gt;&lt;code class=&quot;language-{python}&quot;&gt;# 설치
+!pip install -U finance-datareader
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# 차트 설정
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;matplotlib&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;inline&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;matplotlib.pyplot&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rcParams&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;font.family&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;HYHeadLine-Medium&apos;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rcParams&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;figure.figsize&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;14&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rcParams&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;lines.linewidth&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rcParams&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;axes.grid&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# FinanceDataReader 라이브러리 fdr로 설정
+&lt;/span&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;FinanceDataReader&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fdr&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fdr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__version__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;0.9.50
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;한국거래소-상장종목-전체-krx&quot;&gt;한국거래소 상장종목 전체 KRX&lt;/h2&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;df_krx&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fdr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;StockListing&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;KRX&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; 
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sa&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;한국거래소 상장종목 전체 KRX : &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df_krx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;한국거래소 상장종목 전체 KRX : 2705
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df_krx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div style=&quot;width:100%&quot;&gt; 
+ &lt;details&gt; 
+&lt;summary&gt;출력 보기(클릭)&lt;/summary&gt;
+
+
+
+&lt;div class=&quot;my-table&quot;&gt;
+&lt;style scoped=&quot;&quot;&gt;
+    .my-table {
+        width:100%;
+        height:300px;
+    }
+    .dataframe {
+        height: 95%;
+    }
+        .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+&lt;/style&gt;
+&lt;table border=&quot;1&quot; class=&quot;dataframe&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr style=&quot;text-align: right;&quot;&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;Code&lt;/th&gt;
+      &lt;th&gt;ISU_CD&lt;/th&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th&gt;Market&lt;/th&gt;
+      &lt;th&gt;Dept&lt;/th&gt;
+      &lt;th&gt;Close&lt;/th&gt;
+      &lt;th&gt;ChangeCode&lt;/th&gt;
+      &lt;th&gt;Changes&lt;/th&gt;
+      &lt;th&gt;ChagesRatio&lt;/th&gt;
+      &lt;th&gt;Open&lt;/th&gt;
+      &lt;th&gt;High&lt;/th&gt;
+      &lt;th&gt;Low&lt;/th&gt;
+      &lt;th&gt;Volume&lt;/th&gt;
+      &lt;th&gt;Amount&lt;/th&gt;
+      &lt;th&gt;Marcap&lt;/th&gt;
+      &lt;th&gt;Stocks&lt;/th&gt;
+      &lt;th&gt;MarketId&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;0&lt;/th&gt;
+      &lt;td&gt;005930&lt;/td&gt;
+      &lt;td&gt;KR7005930003&lt;/td&gt;
+      &lt;td&gt;삼성전자&lt;/td&gt;
+      &lt;td&gt;KOSPI&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;60700&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;-800&lt;/td&gt;
+      &lt;td&gt;-1.30&lt;/td&gt;
+      &lt;td&gt;61400&lt;/td&gt;
+      &lt;td&gt;61400&lt;/td&gt;
+      &lt;td&gt;60700&lt;/td&gt;
+      &lt;td&gt;11445731&lt;/td&gt;
+      &lt;td&gt;697231172000&lt;/td&gt;
+      &lt;td&gt;362962779040000&lt;/td&gt;
+      &lt;td&gt;5969782550&lt;/td&gt;
+      &lt;td&gt;STK&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;1&lt;/th&gt;
+      &lt;td&gt;373220&lt;/td&gt;
+      &lt;td&gt;KR7373220003&lt;/td&gt;
+      &lt;td&gt;LG에너지솔루션&lt;/td&gt;
+      &lt;td&gt;KOSPI&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;566000&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;19000&lt;/td&gt;
+      &lt;td&gt;3.47&lt;/td&gt;
+      &lt;td&gt;548000&lt;/td&gt;
+      &lt;td&gt;570000&lt;/td&gt;
+      &lt;td&gt;543000&lt;/td&gt;
+      &lt;td&gt;829918&lt;/td&gt;
+      &lt;td&gt;465315655000&lt;/td&gt;
+      &lt;td&gt;132444000000000&lt;/td&gt;
+      &lt;td&gt;234000000&lt;/td&gt;
+      &lt;td&gt;STK&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2&lt;/th&gt;
+      &lt;td&gt;000660&lt;/td&gt;
+      &lt;td&gt;KR7000660001&lt;/td&gt;
+      &lt;td&gt;SK하이닉스&lt;/td&gt;
+      &lt;td&gt;KOSPI&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;88900&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;-800&lt;/td&gt;
+      &lt;td&gt;-0.89&lt;/td&gt;
+      &lt;td&gt;89700&lt;/td&gt;
+      &lt;td&gt;90000&lt;/td&gt;
+      &lt;td&gt;88800&lt;/td&gt;
+      &lt;td&gt;1605515&lt;/td&gt;
+      &lt;td&gt;143506111000&lt;/td&gt;
+      &lt;td&gt;64719410248500&lt;/td&gt;
+      &lt;td&gt;728002365&lt;/td&gt;
+      &lt;td&gt;STK&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;3&lt;/th&gt;
+      &lt;td&gt;207940&lt;/td&gt;
+      &lt;td&gt;KR7207940008&lt;/td&gt;
+      &lt;td&gt;삼성바이오로직스&lt;/td&gt;
+      &lt;td&gt;KOSPI&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;794000&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;-7000&lt;/td&gt;
+      &lt;td&gt;-0.87&lt;/td&gt;
+      &lt;td&gt;801000&lt;/td&gt;
+      &lt;td&gt;804000&lt;/td&gt;
+      &lt;td&gt;792000&lt;/td&gt;
+      &lt;td&gt;50075&lt;/td&gt;
+      &lt;td&gt;39926732000&lt;/td&gt;
+      &lt;td&gt;56440982000000&lt;/td&gt;
+      &lt;td&gt;71174000&lt;/td&gt;
+      &lt;td&gt;STK&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;4&lt;/th&gt;
+      &lt;td&gt;006400&lt;/td&gt;
+      &lt;td&gt;KR7006400006&lt;/td&gt;
+      &lt;td&gt;삼성SDI&lt;/td&gt;
+      &lt;td&gt;KOSPI&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;793000&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;12000&lt;/td&gt;
+      &lt;td&gt;1.54&lt;/td&gt;
+      &lt;td&gt;779000&lt;/td&gt;
+      &lt;td&gt;801000&lt;/td&gt;
+      &lt;td&gt;768000&lt;/td&gt;
+      &lt;td&gt;579283&lt;/td&gt;
+      &lt;td&gt;456986290868&lt;/td&gt;
+      &lt;td&gt;54461507760000&lt;/td&gt;
+      &lt;td&gt;68764530&lt;/td&gt;
+      &lt;td&gt;STK&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/details&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;sp-500-종목-전체-sp500&quot;&gt;S&amp;amp;P 500 종목 전체 S&amp;amp;P500&lt;/h2&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;df_spx&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fdr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;StockListing&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;S&amp;amp;P500&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sa&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;S&amp;amp;P 500 종목 전체 S&amp;amp;P500 : &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df_spx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;S&amp;amp;P 500 종목 전체 S&amp;amp;P500 : 503
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df_spx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div style=&quot;width:100%&quot;&gt; 
+ &lt;details&gt; 
+&lt;summary&gt;출력 보기(클릭)&lt;/summary&gt;
+
+
+
+&lt;div class=&quot;my-table&quot;&gt;
+&lt;style scoped=&quot;&quot;&gt;
+    .my-table {
+        width:100%;
+        height:300px;
+    }
+    .dataframe {
+        height: 95%;
+    }
+        .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+&lt;/style&gt;
+&lt;table border=&quot;1&quot; class=&quot;dataframe&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr style=&quot;text-align: right;&quot;&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;Symbol&lt;/th&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th&gt;Sector&lt;/th&gt;
+      &lt;th&gt;Industry&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;0&lt;/th&gt;
+      &lt;td&gt;MMM&lt;/td&gt;
+      &lt;td&gt;3M&lt;/td&gt;
+      &lt;td&gt;Industrials&lt;/td&gt;
+      &lt;td&gt;Industrial Conglomerates&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;1&lt;/th&gt;
+      &lt;td&gt;AOS&lt;/td&gt;
+      &lt;td&gt;A. O. Smith&lt;/td&gt;
+      &lt;td&gt;Industrials&lt;/td&gt;
+      &lt;td&gt;Building Products&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2&lt;/th&gt;
+      &lt;td&gt;ABT&lt;/td&gt;
+      &lt;td&gt;Abbott&lt;/td&gt;
+      &lt;td&gt;Health Care&lt;/td&gt;
+      &lt;td&gt;Health Care Equipment&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;3&lt;/th&gt;
+      &lt;td&gt;ABBV&lt;/td&gt;
+      &lt;td&gt;AbbVie&lt;/td&gt;
+      &lt;td&gt;Health Care&lt;/td&gt;
+      &lt;td&gt;Pharmaceuticals&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;4&lt;/th&gt;
+      &lt;td&gt;ACN&lt;/td&gt;
+      &lt;td&gt;Accenture&lt;/td&gt;
+      &lt;td&gt;Information Technology&lt;/td&gt;
+      &lt;td&gt;IT Consulting &amp;amp; Other Services&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/details&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;신라젠-2021-년&quot;&gt;신라젠, 2021 년&lt;/h2&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fdr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DataReader&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;068270&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;2021&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div style=&quot;width:100%&quot;&gt; 
+ &lt;details&gt; 
+&lt;summary&gt;출력 보기(클릭)&lt;/summary&gt;
+
+
+
+&lt;div class=&quot;my-table&quot;&gt;
+&lt;style scoped=&quot;&quot;&gt;
+    .my-table {
+        width:100%;
+        height:300px;
+    }
+    .dataframe {
+        height: 95%;
+    }
+        .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+&lt;/style&gt;
+&lt;table border=&quot;1&quot; class=&quot;dataframe&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr style=&quot;text-align: right;&quot;&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;Open&lt;/th&gt;
+      &lt;th&gt;High&lt;/th&gt;
+      &lt;th&gt;Low&lt;/th&gt;
+      &lt;th&gt;Close&lt;/th&gt;
+      &lt;th&gt;Volume&lt;/th&gt;
+      &lt;th&gt;Change&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Date&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-04&lt;/th&gt;
+      &lt;td&gt;332320&lt;/td&gt;
+      &lt;td&gt;335157&lt;/td&gt;
+      &lt;td&gt;324285&lt;/td&gt;
+      &lt;td&gt;328540&lt;/td&gt;
+      &lt;td&gt;2122278&lt;/td&gt;
+      &lt;td&gt;-0.032035&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-05&lt;/th&gt;
+      &lt;td&gt;332320&lt;/td&gt;
+      &lt;td&gt;336575&lt;/td&gt;
+      &lt;td&gt;326176&lt;/td&gt;
+      &lt;td&gt;335158&lt;/td&gt;
+      &lt;td&gt;1328247&lt;/td&gt;
+      &lt;td&gt;0.020144&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-06&lt;/th&gt;
+      &lt;td&gt;337520&lt;/td&gt;
+      &lt;td&gt;339884&lt;/td&gt;
+      &lt;td&gt;334211&lt;/td&gt;
+      &lt;td&gt;334213&lt;/td&gt;
+      &lt;td&gt;1033942&lt;/td&gt;
+      &lt;td&gt;-0.002820&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-07&lt;/th&gt;
+      &lt;td&gt;335629&lt;/td&gt;
+      &lt;td&gt;339884&lt;/td&gt;
+      &lt;td&gt;331848&lt;/td&gt;
+      &lt;td&gt;337995&lt;/td&gt;
+      &lt;td&gt;1011751&lt;/td&gt;
+      &lt;td&gt;0.011316&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-08&lt;/th&gt;
+      &lt;td&gt;339884&lt;/td&gt;
+      &lt;td&gt;349812&lt;/td&gt;
+      &lt;td&gt;336575&lt;/td&gt;
+      &lt;td&gt;346976&lt;/td&gt;
+      &lt;td&gt;1819183&lt;/td&gt;
+      &lt;td&gt;0.026571&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-11&lt;/th&gt;
+      &lt;td&gt;356429&lt;/td&gt;
+      &lt;td&gt;365411&lt;/td&gt;
+      &lt;td&gt;346975&lt;/td&gt;
+      &lt;td&gt;353594&lt;/td&gt;
+      &lt;td&gt;2776258&lt;/td&gt;
+      &lt;td&gt;0.019073&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-12&lt;/th&gt;
+      &lt;td&gt;359738&lt;/td&gt;
+      &lt;td&gt;365883&lt;/td&gt;
+      &lt;td&gt;349812&lt;/td&gt;
+      &lt;td&gt;363048&lt;/td&gt;
+      &lt;td&gt;2618009&lt;/td&gt;
+      &lt;td&gt;0.026737&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-13&lt;/th&gt;
+      &lt;td&gt;359265&lt;/td&gt;
+      &lt;td&gt;368720&lt;/td&gt;
+      &lt;td&gt;354538&lt;/td&gt;
+      &lt;td&gt;360685&lt;/td&gt;
+      &lt;td&gt;2203856&lt;/td&gt;
+      &lt;td&gt;-0.006509&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-14&lt;/th&gt;
+      &lt;td&gt;346030&lt;/td&gt;
+      &lt;td&gt;353593&lt;/td&gt;
+      &lt;td&gt;331848&lt;/td&gt;
+      &lt;td&gt;333267&lt;/td&gt;
+      &lt;td&gt;3623245&lt;/td&gt;
+      &lt;td&gt;-0.076016&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-15&lt;/th&gt;
+      &lt;td&gt;329957&lt;/td&gt;
+      &lt;td&gt;330429&lt;/td&gt;
+      &lt;td&gt;307739&lt;/td&gt;
+      &lt;td&gt;311049&lt;/td&gt;
+      &lt;td&gt;3594398&lt;/td&gt;
+      &lt;td&gt;-0.066667&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-18&lt;/th&gt;
+      &lt;td&gt;309630&lt;/td&gt;
+      &lt;td&gt;327121&lt;/td&gt;
+      &lt;td&gt;296867&lt;/td&gt;
+      &lt;td&gt;296867&lt;/td&gt;
+      &lt;td&gt;2751296&lt;/td&gt;
+      &lt;td&gt;-0.045594&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-19&lt;/th&gt;
+      &lt;td&gt;291194&lt;/td&gt;
+      &lt;td&gt;299703&lt;/td&gt;
+      &lt;td&gt;280322&lt;/td&gt;
+      &lt;td&gt;295450&lt;/td&gt;
+      &lt;td&gt;3490677&lt;/td&gt;
+      &lt;td&gt;-0.004773&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-20&lt;/th&gt;
+      &lt;td&gt;298285&lt;/td&gt;
+      &lt;td&gt;306322&lt;/td&gt;
+      &lt;td&gt;291194&lt;/td&gt;
+      &lt;td&gt;294032&lt;/td&gt;
+      &lt;td&gt;1475955&lt;/td&gt;
+      &lt;td&gt;-0.004799&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-21&lt;/th&gt;
+      &lt;td&gt;296867&lt;/td&gt;
+      &lt;td&gt;300176&lt;/td&gt;
+      &lt;td&gt;289776&lt;/td&gt;
+      &lt;td&gt;294977&lt;/td&gt;
+      &lt;td&gt;1146479&lt;/td&gt;
+      &lt;td&gt;0.003214&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-22&lt;/th&gt;
+      &lt;td&gt;295448&lt;/td&gt;
+      &lt;td&gt;298285&lt;/td&gt;
+      &lt;td&gt;291194&lt;/td&gt;
+      &lt;td&gt;293086&lt;/td&gt;
+      &lt;td&gt;883444&lt;/td&gt;
+      &lt;td&gt;-0.006411&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-25&lt;/th&gt;
+      &lt;td&gt;294503&lt;/td&gt;
+      &lt;td&gt;304431&lt;/td&gt;
+      &lt;td&gt;294030&lt;/td&gt;
+      &lt;td&gt;303486&lt;/td&gt;
+      &lt;td&gt;995440&lt;/td&gt;
+      &lt;td&gt;0.035484&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-26&lt;/th&gt;
+      &lt;td&gt;309630&lt;/td&gt;
+      &lt;td&gt;316721&lt;/td&gt;
+      &lt;td&gt;303958&lt;/td&gt;
+      &lt;td&gt;304904&lt;/td&gt;
+      &lt;td&gt;1328530&lt;/td&gt;
+      &lt;td&gt;0.004672&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-27&lt;/th&gt;
+      &lt;td&gt;308212&lt;/td&gt;
+      &lt;td&gt;314830&lt;/td&gt;
+      &lt;td&gt;300649&lt;/td&gt;
+      &lt;td&gt;311049&lt;/td&gt;
+      &lt;td&gt;1072477&lt;/td&gt;
+      &lt;td&gt;0.020154&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-28&lt;/th&gt;
+      &lt;td&gt;302067&lt;/td&gt;
+      &lt;td&gt;319557&lt;/td&gt;
+      &lt;td&gt;298758&lt;/td&gt;
+      &lt;td&gt;316250&lt;/td&gt;
+      &lt;td&gt;1574846&lt;/td&gt;
+      &lt;td&gt;0.016721&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-29&lt;/th&gt;
+      &lt;td&gt;316248&lt;/td&gt;
+      &lt;td&gt;320503&lt;/td&gt;
+      &lt;td&gt;304903&lt;/td&gt;
+      &lt;td&gt;306322&lt;/td&gt;
+      &lt;td&gt;1139059&lt;/td&gt;
+      &lt;td&gt;-0.031393&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fdr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DataReader&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;068270&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;2017&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Close&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;plot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/180197749-540b369a-1e7c-474a-bfa1-02682c1d21a8.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;애플aapl-2018-01-01--2018-05-30&quot;&gt;애플(AAPL), 2018-01-01 ~ 2018-05-30&lt;/h2&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fdr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DataReader&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;AAPL&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;2018-01-01&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;2018-05-30&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tail&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div style=&quot;width:100%&quot;&gt; 
+ &lt;details&gt; 
+&lt;summary&gt;출력 보기(클릭)&lt;/summary&gt;
+
+
+
+&lt;div class=&quot;my-table&quot;&gt;
+&lt;style scoped=&quot;&quot;&gt;
+    .my-table {
+        width:100%;
+        height:300px;
+    }
+    .dataframe {
+        height: 95%;
+    }
+        .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+&lt;/style&gt;
+&lt;table border=&quot;1&quot; class=&quot;dataframe&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr style=&quot;text-align: right;&quot;&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;Open&lt;/th&gt;
+      &lt;th&gt;High&lt;/th&gt;
+      &lt;th&gt;Low&lt;/th&gt;
+      &lt;th&gt;Close&lt;/th&gt;
+      &lt;th&gt;Adj Close&lt;/th&gt;
+      &lt;th&gt;Volume&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Date&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2018-05-22&lt;/th&gt;
+      &lt;td&gt;47.095001&lt;/td&gt;
+      &lt;td&gt;47.220001&lt;/td&gt;
+      &lt;td&gt;46.695000&lt;/td&gt;
+      &lt;td&gt;46.790001&lt;/td&gt;
+      &lt;td&gt;44.777905&lt;/td&gt;
+      &lt;td&gt;60962800&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2018-05-23&lt;/th&gt;
+      &lt;td&gt;46.587502&lt;/td&gt;
+      &lt;td&gt;47.125000&lt;/td&gt;
+      &lt;td&gt;46.439999&lt;/td&gt;
+      &lt;td&gt;47.090000&lt;/td&gt;
+      &lt;td&gt;45.064995&lt;/td&gt;
+      &lt;td&gt;80233600&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2018-05-24&lt;/th&gt;
+      &lt;td&gt;47.192501&lt;/td&gt;
+      &lt;td&gt;47.209999&lt;/td&gt;
+      &lt;td&gt;46.552502&lt;/td&gt;
+      &lt;td&gt;47.037498&lt;/td&gt;
+      &lt;td&gt;45.014755&lt;/td&gt;
+      &lt;td&gt;92936000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2018-05-25&lt;/th&gt;
+      &lt;td&gt;47.057499&lt;/td&gt;
+      &lt;td&gt;47.412498&lt;/td&gt;
+      &lt;td&gt;46.912498&lt;/td&gt;
+      &lt;td&gt;47.145000&lt;/td&gt;
+      &lt;td&gt;45.117626&lt;/td&gt;
+      &lt;td&gt;69844000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2018-05-29&lt;/th&gt;
+      &lt;td&gt;46.900002&lt;/td&gt;
+      &lt;td&gt;47.187500&lt;/td&gt;
+      &lt;td&gt;46.717499&lt;/td&gt;
+      &lt;td&gt;46.974998&lt;/td&gt;
+      &lt;td&gt;44.954941&lt;/td&gt;
+      &lt;td&gt;90056400&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/details&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;애플aapl-2017년&quot;&gt;애플(AAPL), 2017년~&lt;/h2&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fdr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DataReader&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;AAPL&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;2017&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Close&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;plot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/180197751-a041edf5-4e4d-487a-a966-c22d7fbd3fec.png&quot; witdh=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;활용&quot;&gt;활용&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;주가 정보를 간단한 방법으로 얻을 수 있어서 간단한 주가 변동등을 다른 자료들과 같이 사용할 수 있을 것 같습니다.&lt;br /&gt;
+추가로 주가변동을 예측해보는 프로젝트를 진행해보겠습니다.&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>chanp5660</name></author><category term="programing" /><category term="python" /><summary type="html">FinanceDataReader</summary></entry><entry><title type="html">TIL-메타인지</title><link href="http://localhost:4000/TIL-%EB%A9%94%ED%83%80%EC%9D%B8%EC%A7%80" rel="alternate" type="text/html" title="TIL-메타인지" /><published>2023-03-11T00:00:00+09:00</published><updated>2023-03-11T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%EB%A9%94%ED%83%80%EC%9D%B8%EC%A7%80</id><content type="html" xml:base="http://localhost:4000/TIL-%EB%A9%94%ED%83%80%EC%9D%B8%EC%A7%80">&lt;h1 id=&quot;메타인지란&quot;&gt;메타인지란?&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;인간의 인지적 능력 중 하나입니다.&lt;/li&gt;
@@ -245,7 +1042,108 @@
       &lt;li&gt;이를 해결하기 위해, SVD의 변형 기법인 절단된 SVD(Truncated SVD)와 랜덤 SVD(Randomized SVD) 등이 개발되었습니다.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">SVD란?</summary></entry><entry><title type="html">TIL-GradientDescent</title><link href="http://localhost:4000/TIL-GradientDescent" rel="alternate" type="text/html" title="TIL-GradientDescent" /><published>2023-03-10T00:00:00+09:00</published><updated>2023-03-10T00:00:00+09:00</updated><id>http://localhost:4000/TIL-GradientDescent</id><content type="html" xml:base="http://localhost:4000/TIL-GradientDescent">&lt;h1 id=&quot;gradient-descent란&quot;&gt;Gradient Descent란?&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">SVD란?</summary></entry><entry><title type="html">TIL-Attention</title><link href="http://localhost:4000/TIL-Attention" rel="alternate" type="text/html" title="TIL-Attention" /><published>2023-03-11T00:00:00+09:00</published><updated>2023-03-11T00:00:00+09:00</updated><id>http://localhost:4000/TIL-Attention</id><content type="html" xml:base="http://localhost:4000/TIL-Attention">&lt;h1 id=&quot;attention이란&quot;&gt;Attention이란?&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;머신러닝에서 자연어 처리나 컴퓨터 비전 분야에서 주로 사용되는 기술로, 입력 시퀀스의 중요한 부분에 더 많은 가중치를 부여하여 출력을 생성하는 방식입니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;사용-계기&quot;&gt;사용 계기&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;일반적으로, 시퀀스 데이터는 고정된 길이를 가지는 벡터로 변환되어 모델에 입려됩니다.
+    &lt;ul&gt;
+      &lt;li&gt;그러나 이러한 고정 길이 벡터는 데이터의 모든 정보를 포착하지 못할 수 있습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;이러한 문제를 해결하기 위해 입력 시퀀스의 모든 위치에 대한 가중치를 계산합니다.
+    &lt;ul&gt;
+      &lt;li&gt;이를 기반으로 가중합을 계산하여 입력 시퀀스의 특정 위치에 더 많은 주의를 기울입니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;사용&quot;&gt;사용&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;자연어 처리 분야에서 Attention은 번역, 요약, 질문 답변, 감정 분석 등 다양한 테스트에서 사용됩니다.&lt;/li&gt;
+  &lt;li&gt;예를 들어 번역에서, 입력 문장의 각 단어에 대한 가중치를 계산합니다.
+    &lt;ul&gt;
+      &lt;li&gt;이를 기반으로 출력 문장의 각 단어를 생성합니다.&lt;/li&gt;
+      &lt;li&gt;이를 통해 모델은 번역에 필요한 정보를 보다 효과적으로 추출할 수 있습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;구현&quot;&gt;구현&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;일반적으로 소프트맥스 함수와 내적 연산을 이용하여 가중치를 계산합니다.&lt;/li&gt;
+  &lt;li&gt;가중치를 계산하는 방법은 다양한 종류가 있습니다.
+    &lt;ul&gt;
+      &lt;li&gt;Scaled Dot-Product Attention : 입력된 Query, Key, Value에 대해 내적(dot product)을 계산하고, 이를 스케일링하여 softmax 함수를 적용한 가중치를 Value에 곱해서 출력하는 방식입니다.&lt;/li&gt;
+      &lt;li&gt;Multi-Head Attention : 입력된 Query, Key, Value를 여러 개의 서로 다른 헤드(Head)로 분리하여 각각의 헤드에서 Scaled Dot-Product Attention을 계산하고, 이를 다시 합쳐서 출력하는 방식입니다.&lt;/li&gt;
+      &lt;li&gt;등&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;장점&quot;&gt;장점&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;이전의 RNN, LSTM 등의 모델보다 더울 정확하고 효율적인 결과를 도출할 수 있기 때문입니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;과정&quot;&gt;과정&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Query, Key, Value 생성 : 입력 시퀀스를 표현하는 벡터를 Query, Key, Value로 분리합니다.
+    &lt;ul&gt;
+      &lt;li&gt;Query는 출력에 대한 정보를 제공하는 벡터입니다.&lt;/li&gt;
+      &lt;li&gt;Key 는 입력 시퀀스 내의 각 원소에 대한 정보를 제공하는 벡터입니다.&lt;/li&gt;
+      &lt;li&gt;Value 는 입력 시퀀스 내의 원소를 표현하는 벡터입니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Attention 가중치 계산 : Query와 Key 사이의 내적을 계산하여 유사도를 측정합니다.
+    &lt;ul&gt;
+      &lt;li&gt;이를 소프트맥스 함수를 이용하여 가중치로 변환합니다.&lt;/li&gt;
+      &lt;li&gt;가중치는 입력 시퀀스 내의 각 원소에 대한 중요도를 나타냅니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;가중합 계산 : 입력 시퀀스 내의 Value 벡터와 가중치를 곱하여 가중합을 계산합니다.
+    &lt;ul&gt;
+      &lt;li&gt;이를 통해 입력 시퀀스 내에서 주목할 부분이 강조됩니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;출력 생성 : 가중합을 기반으로 출력 벡터를 생성합니다.
+    &lt;ul&gt;
+      &lt;li&gt;이때, 가중합의 결과를 어떻게 활용할지는 태스크에 따라 다릅니다.&lt;/li&gt;
+      &lt;li&gt;예를 들어, 번역에서는 출력 문장의 각 단어를 생성하는 데 사용됩니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;다른-기술과-조합하여-사용&quot;&gt;다른 기술과 조합하여 사용&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Transformer 모델은 Attention 기반의 Encoder와 Decoder를 조합하여 사용하는 모델입니다.
+    &lt;ul&gt;
+      &lt;li&gt;이를 통해 자연어 처리 분야에서 최고 수준의 성능을 보여주고 있습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;컴퓨터-비전-분야에서도-활발하게-사용&quot;&gt;컴퓨터 비전 분야에서도 활발하게 사용&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;예를 들어, 이미지 캡셔닝에서 이미지의 각 부분에 대한 가중치를 계산하여 캡션을 생성하는 데 사용됩니다.
+    &lt;ul&gt;
+      &lt;li&gt;이를 통해 이미지와 텍스트 정보를 결합하여 보다 정확한 결과를 도출할 수 있습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;학습된-가중치를-시각화&quot;&gt;학습된 가중치를 시각화&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;장점 : 학습된 가중치를 시각화하여 모델이 어떤 부분에 주목하고 있는지 확인할 수 있습니다.
+    &lt;ul&gt;
+      &lt;li&gt;이는 모델의 해석 가능성을 높여주며, 모델의 개선에도 도움이 됩니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">Attention이란?</summary></entry><entry><title type="html">TIL-GradientDescent</title><link href="http://localhost:4000/TIL-GradientDescent" rel="alternate" type="text/html" title="TIL-GradientDescent" /><published>2023-03-10T00:00:00+09:00</published><updated>2023-03-10T00:00:00+09:00</updated><id>http://localhost:4000/TIL-GradientDescent</id><content type="html" xml:base="http://localhost:4000/TIL-GradientDescent">&lt;h1 id=&quot;gradient-descent란&quot;&gt;Gradient Descent란?&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;경사 하강법;Gradient Descent 는 머신러닝에서 가장 기본적인 &lt;strong&gt;최적화 알고리즘&lt;/strong&gt; 중 하나입니다.&lt;/li&gt;
@@ -320,743 +1218,4 @@
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;따라서 학습률을 조정하는 기법들이 중요하며, 이를 통해 경사 하강법의 성능을 향상시킬 수 있습니다.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">Gradient Descent란?</summary></entry><entry><title type="html">TIL-Kaggle</title><link href="http://localhost:4000/TIL-Kaggle" rel="alternate" type="text/html" title="TIL-Kaggle" /><published>2023-03-10T00:00:00+09:00</published><updated>2023-03-10T00:00:00+09:00</updated><id>http://localhost:4000/TIL-Kaggle</id><content type="html" xml:base="http://localhost:4000/TIL-Kaggle">&lt;h1 id=&quot;kaggle&quot;&gt;Kaggle&lt;/h1&gt;
-
-&lt;h2 id=&quot;정의&quot;&gt;정의&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;실제 데이터 세트로 작업하는 실용적인 기술 습득&lt;/li&gt;
-  &lt;li&gt;자신의 포트폴리오 프로젝트 개발&lt;/li&gt;
-  &lt;li&gt;Kaggle 커뮤니티를 만나고 성장&lt;/li&gt;
-  &lt;li&gt;새로운 도메인 또는 모델 유형에 대한 경험을 얻음&lt;/li&gt;
-  &lt;li&gt;최고 성능의 머신으로 최신 정보를 얻을 수 있음&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;순서&quot;&gt;순서&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;문제 정의&lt;/li&gt;
-  &lt;li&gt;학습 데이터 받기&lt;/li&gt;
-  &lt;li&gt;기계학습 모델 개발&lt;/li&gt;
-  &lt;li&gt;테스트 데이터 평가 및 제출&lt;/li&gt;
-  &lt;li&gt;순위표에 표시&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;실제-연습&quot;&gt;실제 연습&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/&quot;&gt;Kaggle 사이트 접속&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;데이터 다운로드&lt;/li&gt;
-  &lt;li&gt;모델 개발&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;solution&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;price&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;discount_rates&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;500000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;300000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.95&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;discount_price&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;discount_rate&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;discount_rates&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;items&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;price&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;discount_price&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;price&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;discount_rate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;solution&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;price&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;discount_rates&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">Kaggle</summary></entry><entry><title type="html">TIL-HTML입력</title><link href="http://localhost:4000/TIL-HTML-%EC%9E%85%EB%A0%A5" rel="alternate" type="text/html" title="TIL-HTML입력" /><published>2023-03-10T00:00:00+09:00</published><updated>2023-03-10T00:00:00+09:00</updated><id>http://localhost:4000/TIL-HTML%20%EC%9E%85%EB%A0%A5</id><content type="html" xml:base="http://localhost:4000/TIL-HTML-%EC%9E%85%EB%A0%A5">&lt;h1 id=&quot;html-입력&quot;&gt;HTML 입력&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;HTML 내에서 입력을 받는 방법, 후에 입력 받은 정보로 python 코드를 실행 할 수 있도록 하려고 합니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;코드-예제-및-실행&quot;&gt;코드 예제 및 실행&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;HTML 내에서 이름, 이메일을 입력 받을 수 있도록 합니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;form method=&quot;POST&quot; action=&quot;/submit&quot;&gt;
-  &lt;label for=&quot;name&quot;&gt;Name:&lt;/label&gt;
-  &lt;input type=&quot;text&quot; id=&quot;name&quot; name=&quot;name&quot; /&gt;
-  
-  &lt;label for=&quot;email&quot;&gt;Email:&lt;/label&gt;
-  &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; /&gt;
-
-  &lt;input type=&quot;submit&quot; value=&quot;Submit&quot; /&gt;
-&lt;/form&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;python 코드 작성
-    &lt;ul&gt;
-      &lt;li&gt;해당 코드를 실행하면 로컬에서 서버가 열리면 해당 내용으로 입력을 받는다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-{python}&quot;&gt;from flask import Flask, request
-
-app = Flask(__name__)
-
-@app.route(&apos;/submit&apos;, methods=[&apos;POST&apos;])
-def submit():
-    name = request.form[&apos;name&apos;]
-    email = request.form[&apos;email&apos;]
-    print(&apos;Name:&apos;, name)
-    print(&apos;Email:&apos;, email)
-    return &apos;Success!&apos;
-
-if __name__ == &apos;__main__&apos;:
-    app.run()
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;flask&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Flask&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;app&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Flask&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__name__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;o&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;route&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;/submit&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;methods&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;POST&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;submit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;form&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;name&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;email&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;form&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;email&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Name:&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Email:&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;email&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;Success!&apos;&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__name__&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;__main__&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">HTML 입력</summary></entry><entry><title type="html">TIL-파일경로찾기</title><link href="http://localhost:4000/TIL-%ED%8C%8C%EC%9D%BC%EA%B2%BD%EB%A1%9C%EC%B0%BE%EA%B8%B0" rel="alternate" type="text/html" title="TIL-파일경로찾기" /><published>2023-03-07T00:00:00+09:00</published><updated>2023-03-07T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%ED%8C%8C%EC%9D%BC%EA%B2%BD%EB%A1%9C%EC%B0%BE%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/TIL-%ED%8C%8C%EC%9D%BC%EA%B2%BD%EB%A1%9C%EC%B0%BE%EA%B8%B0">&lt;h1 id=&quot;python을-이용하여-파일-경로-찾기&quot;&gt;python을 이용하여 파일 경로 찾기&lt;/h1&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;파일들을 여러개를 반복적으로 해야될 일이면 매우 귀찮습니다. 따라서 파일이 생길 때마다 반복해줘야하는 동작들을 자동화 해주는 프로그램을 작성하겠습니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;원하는-폴더의-파일들을-알고-싶을-때&quot;&gt;원하는 폴더의 파일들을 알고 싶을 때&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;항상 다루던 폴더가 있으면 파일을 일일히 불러오는게 아니라 한번에 폴더 내 모든 파일을 불러올 수 있다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;os&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;folder_path&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;../../drive-download-20230206T024359Z-001/HTML_DATAFRAME/_posts&quot;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 원하는 폴더 경로
-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;listdir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;folder_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[&apos;.ipynb_checkpoints&apos;, &apos;ai&apos;, &apos;devskill&apos;, &apos;exitem&apos;, &apos;List&apos;, &apos;math&apos;, &apos;programing&apos;, &apos;project&apos;]
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;폴더의-모든-하위-파일들을-알고-싶을-때&quot;&gt;폴더의 모든 하위 파일들을 알고 싶을 때&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;단순히 폴더 안의 내용을 알고 싶은 것이 아니라 폴더 내에 존재하는 모든 파일 경로를 알고 싶을 때&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;os&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;folder_path&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;../../drive-download-20230206T024359Z-001/HTML_DATAFRAME/_posts&quot;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 원하는 폴더 경로
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;file_paths&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# 파일 경로를 저장할 빈 리스트를 만듭니다.
-&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dirs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;files&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;walk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;folder_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;file&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;files&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;file_path&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;file_paths&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;file_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;file_paths&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;107
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;file_paths&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;../../drive-download-20230206T024359Z-001/HTML_DATAFRAME/_posts\ai\2023-02-06-머신러닝 워크플로우.md
-../../drive-download-20230206T024359Z-001/HTML_DATAFRAME/_posts\ai\2023-02-13-로지스틱회귀.md
-../../drive-download-20230206T024359Z-001/HTML_DATAFRAME/_posts\ai\2023-02-17-결정경계.md
-../../drive-download-20230206T024359Z-001/HTML_DATAFRAME/_posts\ai\2023-02-17-선형분류.md
-../../drive-download-20230206T024359Z-001/HTML_DATAFRAME/_posts\ai\2023-02-17-손실함수.md
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;이렇게 원하는 폴더의 하위 모든 파일의 경로를 얻을 수 있다.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">python을 이용하여 파일 경로 찾기 파일들을 여러개를 반복적으로 해야될 일이면 매우 귀찮습니다. 따라서 파일이 생길 때마다 반복해줘야하는 동작들을 자동화 해주는 프로그램을 작성하겠습니다.</summary></entry><entry><title type="html">TIL-Python Warning무시</title><link href="http://localhost:4000/TIL-python_warning%EB%AC%B4%EC%8B%9C" rel="alternate" type="text/html" title="TIL-Python Warning무시" /><published>2023-03-07T00:00:00+09:00</published><updated>2023-03-07T00:00:00+09:00</updated><id>http://localhost:4000/TIL-python_warning%EB%AC%B4%EC%8B%9C</id><content type="html" xml:base="http://localhost:4000/TIL-python_warning%EB%AC%B4%EC%8B%9C">&lt;h1 id=&quot;python-warning-무시하는-방법&quot;&gt;Python Warning 무시하는 방법&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;블로그에 ipynb을 올릴 때 머신러닝의 경우 모델 학습할 때 경고가 너무 많이 출력됩니다. 이를 처리하는 방법을 알아봅니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;경고를-아예-무시하는-방법&quot;&gt;경고를 아예 무시하는 방법&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;warnings 모듈을 사용하여 모든 경고 메시지를 무시&lt;/li&gt;
-  &lt;li&gt;코드를 실행하면 프로그램 전체에서 경고 메시지를 무시&lt;/li&gt;
-  &lt;li&gt;이 방법은 경고 메시지가 중요하지 않거나 무시할 수 있는 경우에만 사용하는 것이 좋습니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-{python}&quot;&gt;import warnings
-warnings.filterwarnings(&quot;ignore&quot;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&quot;경고를-무시하는-대신-로그에-적는-방법&quot;&gt;경고를 무시하는 대신 로그에 적는 방법&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;코드를 실행하면 모든 경고 메시지가 로그로 저장&lt;/li&gt;
-  &lt;li&gt;경고 메시지를 무시하지 않으면서도 콘솔 출력을 깨끗하게 유지&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-{python}&quot;&gt;import logging
-logging.captureWarnings(True)
-&lt;/code&gt;&lt;/pre&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">Python Warning 무시하는 방법</summary></entry><entry><title type="html">TIL-HTML DataFrame 출력 조절</title><link href="http://localhost:4000/TIL-HTML_DataFrame%EC%B6%9C%EB%A0%A5" rel="alternate" type="text/html" title="TIL-HTML DataFrame 출력 조절" /><published>2023-03-07T00:00:00+09:00</published><updated>2023-03-07T00:00:00+09:00</updated><id>http://localhost:4000/TIL-HTML_DataFrame%EC%B6%9C%EB%A0%A5</id><content type="html" xml:base="http://localhost:4000/TIL-HTML_DataFrame%EC%B6%9C%EB%A0%A5">&lt;h1 id=&quot;html-dataframe-출력-조절하기&quot;&gt;HTML DataFrame 출력 조절하기&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;ipynb 을 이용하여 github blog를 다루고 있기 때문에 html에서 dataframe은 매우 크게 나와 가독성에 문제가 생기므로 해결책을 찾습니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;테이블-크기-조정&quot;&gt;테이블 크기 조정&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;데이터 프레임을 출력하는 HTML 테이블의 크기를 조정하여 가독성을 높일 수 있습니다.&lt;/li&gt;
-  &lt;li&gt;스크롤바를 추가하는 것보다 더 복잡하지만, 더욱 세밀한 제어가 가능하고 아래는 테이블 크기를 조정하는 예제 코드입니다.&lt;/li&gt;
-  &lt;li&gt;단점으로는 출력하기 위한 python 코드가 table 내에서 주석으로 처리되어 출력됩니다.&lt;/li&gt;
-  &lt;li&gt;그래도 출력 결과물을 보니 가독성이 훨씬 좋아진 것 같습니다.&lt;/li&gt;
-  &lt;li&gt;블로그 만들때 귀찮을 것 같은데 자동으로 md 형태에서 html에 넣을 때 자동으로 고쳐주는 프로그램을 만들어야겠습니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-{html}&quot;&gt;&amp;lt;table style=&quot;width:50%&quot;&amp;gt;
-  &amp;lt;!-- 데이터 프레임 출력 코드 --&amp;gt;
-&amp;lt;/table&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-{html}&quot;&gt;&amp;lt;table style=&quot;width:50%&quot;&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;table style=&quot;width:50%&quot;&gt;
-
-
-```python
-train.head()
-```
-
-
-
-
-&lt;div&gt;
-&lt;style scoped=&quot;&quot;&gt;
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-&lt;/style&gt;
-&lt;table border=&quot;1&quot; class=&quot;dataframe&quot;&gt;
-  &lt;thead&gt;
-    &lt;tr style=&quot;text-align: right;&quot;&gt;
-      &lt;th&gt;&lt;/th&gt;
-      &lt;th&gt;id&lt;/th&gt;
-      &lt;th&gt;Gender&lt;/th&gt;
-      &lt;th&gt;Customer Type&lt;/th&gt;
-      &lt;th&gt;Age&lt;/th&gt;
-      &lt;th&gt;Type of Travel&lt;/th&gt;
-      &lt;th&gt;Class&lt;/th&gt;
-      &lt;th&gt;Flight Distance&lt;/th&gt;
-      &lt;th&gt;Inflight wifi service&lt;/th&gt;
-      &lt;th&gt;Departure/Arrival time convenient&lt;/th&gt;
-      &lt;th&gt;Ease of Online booking&lt;/th&gt;
-      &lt;th&gt;...&lt;/th&gt;
-      &lt;th&gt;Inflight entertainment&lt;/th&gt;
-      &lt;th&gt;On-board service&lt;/th&gt;
-      &lt;th&gt;Leg room service&lt;/th&gt;
-      &lt;th&gt;Baggage handling&lt;/th&gt;
-      &lt;th&gt;Checkin service&lt;/th&gt;
-      &lt;th&gt;Inflight service&lt;/th&gt;
-      &lt;th&gt;Cleanliness&lt;/th&gt;
-      &lt;th&gt;Departure Delay in Minutes&lt;/th&gt;
-      &lt;th&gt;Arrival Delay in Minutes&lt;/th&gt;
-      &lt;th&gt;satisfaction&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;th&gt;0&lt;/th&gt;
-      &lt;td&gt;84455&lt;/td&gt;
-      &lt;td&gt;Female&lt;/td&gt;
-      &lt;td&gt;disloyal Customer&lt;/td&gt;
-      &lt;td&gt;23&lt;/td&gt;
-      &lt;td&gt;Business travel&lt;/td&gt;
-      &lt;td&gt;Eco&lt;/td&gt;
-      &lt;td&gt;290&lt;/td&gt;
-      &lt;td&gt;3&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;3&lt;/td&gt;
-      &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;th&gt;1&lt;/th&gt;
-      &lt;td&gt;90180&lt;/td&gt;
-      &lt;td&gt;Male&lt;/td&gt;
-      &lt;td&gt;Loyal Customer&lt;/td&gt;
-      &lt;td&gt;61&lt;/td&gt;
-      &lt;td&gt;Personal Travel&lt;/td&gt;
-      &lt;td&gt;Eco&lt;/td&gt;
-      &lt;td&gt;957&lt;/td&gt;
-      &lt;td&gt;3&lt;/td&gt;
-      &lt;td&gt;5&lt;/td&gt;
-      &lt;td&gt;3&lt;/td&gt;
-      &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;th&gt;2&lt;/th&gt;
-      &lt;td&gt;33002&lt;/td&gt;
-      &lt;td&gt;Male&lt;/td&gt;
-      &lt;td&gt;Loyal Customer&lt;/td&gt;
-      &lt;td&gt;43&lt;/td&gt;
-      &lt;td&gt;Personal Travel&lt;/td&gt;
-      &lt;td&gt;Eco&lt;/td&gt;
-      &lt;td&gt;163&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;5&lt;/td&gt;
-      &lt;td&gt;0&lt;/td&gt;
-      &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;th&gt;3&lt;/th&gt;
-      &lt;td&gt;124430&lt;/td&gt;
-      &lt;td&gt;Female&lt;/td&gt;
-      &lt;td&gt;Loyal Customer&lt;/td&gt;
-      &lt;td&gt;28&lt;/td&gt;
-      &lt;td&gt;Personal Travel&lt;/td&gt;
-      &lt;td&gt;Eco&lt;/td&gt;
-      &lt;td&gt;1262&lt;/td&gt;
-      &lt;td&gt;2&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;2&lt;/td&gt;
-      &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;th&gt;4&lt;/th&gt;
-      &lt;td&gt;93970&lt;/td&gt;
-      &lt;td&gt;Female&lt;/td&gt;
-      &lt;td&gt;Loyal Customer&lt;/td&gt;
-      &lt;td&gt;39&lt;/td&gt;
-      &lt;td&gt;Business travel&lt;/td&gt;
-      &lt;td&gt;Business&lt;/td&gt;
-      &lt;td&gt;1218&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;satisfied&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;5 rows × 24 columns&lt;/p&gt;
-&lt;/div&gt;
-
-
-
-&lt;/table&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-{html}&quot;&gt;&amp;lt;/table&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-{html}&quot;&gt;&amp;lt;table style=&quot;width:50%&quot;&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;table style=&quot;width:50%&quot;&gt;
-
-
-```python
-display(train.head())
-```
-
-
-&lt;div&gt;
-&lt;style scoped=&quot;&quot;&gt;
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-&lt;/style&gt;
-&lt;table border=&quot;1&quot; class=&quot;dataframe&quot;&gt;
-  &lt;thead&gt;
-    &lt;tr style=&quot;text-align: right;&quot;&gt;
-      &lt;th&gt;&lt;/th&gt;
-      &lt;th&gt;id&lt;/th&gt;
-      &lt;th&gt;Gender&lt;/th&gt;
-      &lt;th&gt;Customer Type&lt;/th&gt;
-      &lt;th&gt;Age&lt;/th&gt;
-      &lt;th&gt;Type of Travel&lt;/th&gt;
-      &lt;th&gt;Class&lt;/th&gt;
-      &lt;th&gt;Flight Distance&lt;/th&gt;
-      &lt;th&gt;Inflight wifi service&lt;/th&gt;
-      &lt;th&gt;Departure/Arrival time convenient&lt;/th&gt;
-      &lt;th&gt;Ease of Online booking&lt;/th&gt;
-      &lt;th&gt;...&lt;/th&gt;
-      &lt;th&gt;Inflight entertainment&lt;/th&gt;
-      &lt;th&gt;On-board service&lt;/th&gt;
-      &lt;th&gt;Leg room service&lt;/th&gt;
-      &lt;th&gt;Baggage handling&lt;/th&gt;
-      &lt;th&gt;Checkin service&lt;/th&gt;
-      &lt;th&gt;Inflight service&lt;/th&gt;
-      &lt;th&gt;Cleanliness&lt;/th&gt;
-      &lt;th&gt;Departure Delay in Minutes&lt;/th&gt;
-      &lt;th&gt;Arrival Delay in Minutes&lt;/th&gt;
-      &lt;th&gt;satisfaction&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;th&gt;0&lt;/th&gt;
-      &lt;td&gt;84455&lt;/td&gt;
-      &lt;td&gt;Female&lt;/td&gt;
-      &lt;td&gt;disloyal Customer&lt;/td&gt;
-      &lt;td&gt;23&lt;/td&gt;
-      &lt;td&gt;Business travel&lt;/td&gt;
-      &lt;td&gt;Eco&lt;/td&gt;
-      &lt;td&gt;290&lt;/td&gt;
-      &lt;td&gt;3&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;3&lt;/td&gt;
-      &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;th&gt;1&lt;/th&gt;
-      &lt;td&gt;90180&lt;/td&gt;
-      &lt;td&gt;Male&lt;/td&gt;
-      &lt;td&gt;Loyal Customer&lt;/td&gt;
-      &lt;td&gt;61&lt;/td&gt;
-      &lt;td&gt;Personal Travel&lt;/td&gt;
-      &lt;td&gt;Eco&lt;/td&gt;
-      &lt;td&gt;957&lt;/td&gt;
-      &lt;td&gt;3&lt;/td&gt;
-      &lt;td&gt;5&lt;/td&gt;
-      &lt;td&gt;3&lt;/td&gt;
-      &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;th&gt;2&lt;/th&gt;
-      &lt;td&gt;33002&lt;/td&gt;
-      &lt;td&gt;Male&lt;/td&gt;
-      &lt;td&gt;Loyal Customer&lt;/td&gt;
-      &lt;td&gt;43&lt;/td&gt;
-      &lt;td&gt;Personal Travel&lt;/td&gt;
-      &lt;td&gt;Eco&lt;/td&gt;
-      &lt;td&gt;163&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;5&lt;/td&gt;
-      &lt;td&gt;0&lt;/td&gt;
-      &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;th&gt;3&lt;/th&gt;
-      &lt;td&gt;124430&lt;/td&gt;
-      &lt;td&gt;Female&lt;/td&gt;
-      &lt;td&gt;Loyal Customer&lt;/td&gt;
-      &lt;td&gt;28&lt;/td&gt;
-      &lt;td&gt;Personal Travel&lt;/td&gt;
-      &lt;td&gt;Eco&lt;/td&gt;
-      &lt;td&gt;1262&lt;/td&gt;
-      &lt;td&gt;2&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;2&lt;/td&gt;
-      &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;th&gt;4&lt;/th&gt;
-      &lt;td&gt;93970&lt;/td&gt;
-      &lt;td&gt;Female&lt;/td&gt;
-      &lt;td&gt;Loyal Customer&lt;/td&gt;
-      &lt;td&gt;39&lt;/td&gt;
-      &lt;td&gt;Business travel&lt;/td&gt;
-      &lt;td&gt;Business&lt;/td&gt;
-      &lt;td&gt;1218&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;satisfied&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;5 rows × 24 columns&lt;/p&gt;
-&lt;/div&gt;
-
-
-&lt;/table&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-{html}&quot;&gt;&amp;lt;/table&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&quot;자동화-시키기-위한-특징-찾기&quot;&gt;자동화 시키기 위한 특징 찾기&lt;/h1&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div&gt;
-&lt;style scoped=&quot;&quot;&gt;
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-&lt;/style&gt;
-&lt;table border=&quot;1&quot; class=&quot;dataframe&quot;&gt;
-  &lt;thead&gt;
-    &lt;tr style=&quot;text-align: right;&quot;&gt;
-      &lt;th&gt;&lt;/th&gt;
-      &lt;th&gt;id&lt;/th&gt;
-      &lt;th&gt;Gender&lt;/th&gt;
-      &lt;th&gt;Customer Type&lt;/th&gt;
-      &lt;th&gt;Age&lt;/th&gt;
-      &lt;th&gt;Type of Travel&lt;/th&gt;
-      &lt;th&gt;Class&lt;/th&gt;
-      &lt;th&gt;Flight Distance&lt;/th&gt;
-      &lt;th&gt;Inflight wifi service&lt;/th&gt;
-      &lt;th&gt;Departure/Arrival time convenient&lt;/th&gt;
-      &lt;th&gt;Ease of Online booking&lt;/th&gt;
-      &lt;th&gt;...&lt;/th&gt;
-      &lt;th&gt;Inflight entertainment&lt;/th&gt;
-      &lt;th&gt;On-board service&lt;/th&gt;
-      &lt;th&gt;Leg room service&lt;/th&gt;
-      &lt;th&gt;Baggage handling&lt;/th&gt;
-      &lt;th&gt;Checkin service&lt;/th&gt;
-      &lt;th&gt;Inflight service&lt;/th&gt;
-      &lt;th&gt;Cleanliness&lt;/th&gt;
-      &lt;th&gt;Departure Delay in Minutes&lt;/th&gt;
-      &lt;th&gt;Arrival Delay in Minutes&lt;/th&gt;
-      &lt;th&gt;satisfaction&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;th&gt;0&lt;/th&gt;
-      &lt;td&gt;84455&lt;/td&gt;
-      &lt;td&gt;Female&lt;/td&gt;
-      &lt;td&gt;disloyal Customer&lt;/td&gt;
-      &lt;td&gt;23&lt;/td&gt;
-      &lt;td&gt;Business travel&lt;/td&gt;
-      &lt;td&gt;Eco&lt;/td&gt;
-      &lt;td&gt;290&lt;/td&gt;
-      &lt;td&gt;3&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;3&lt;/td&gt;
-      &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;th&gt;1&lt;/th&gt;
-      &lt;td&gt;90180&lt;/td&gt;
-      &lt;td&gt;Male&lt;/td&gt;
-      &lt;td&gt;Loyal Customer&lt;/td&gt;
-      &lt;td&gt;61&lt;/td&gt;
-      &lt;td&gt;Personal Travel&lt;/td&gt;
-      &lt;td&gt;Eco&lt;/td&gt;
-      &lt;td&gt;957&lt;/td&gt;
-      &lt;td&gt;3&lt;/td&gt;
-      &lt;td&gt;5&lt;/td&gt;
-      &lt;td&gt;3&lt;/td&gt;
-      &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;th&gt;2&lt;/th&gt;
-      &lt;td&gt;33002&lt;/td&gt;
-      &lt;td&gt;Male&lt;/td&gt;
-      &lt;td&gt;Loyal Customer&lt;/td&gt;
-      &lt;td&gt;43&lt;/td&gt;
-      &lt;td&gt;Personal Travel&lt;/td&gt;
-      &lt;td&gt;Eco&lt;/td&gt;
-      &lt;td&gt;163&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;5&lt;/td&gt;
-      &lt;td&gt;0&lt;/td&gt;
-      &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;th&gt;3&lt;/th&gt;
-      &lt;td&gt;124430&lt;/td&gt;
-      &lt;td&gt;Female&lt;/td&gt;
-      &lt;td&gt;Loyal Customer&lt;/td&gt;
-      &lt;td&gt;28&lt;/td&gt;
-      &lt;td&gt;Personal Travel&lt;/td&gt;
-      &lt;td&gt;Eco&lt;/td&gt;
-      &lt;td&gt;1262&lt;/td&gt;
-      &lt;td&gt;2&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;2&lt;/td&gt;
-      &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;th&gt;4&lt;/th&gt;
-      &lt;td&gt;93970&lt;/td&gt;
-      &lt;td&gt;Female&lt;/td&gt;
-      &lt;td&gt;Loyal Customer&lt;/td&gt;
-      &lt;td&gt;39&lt;/td&gt;
-      &lt;td&gt;Business travel&lt;/td&gt;
-      &lt;td&gt;Business&lt;/td&gt;
-      &lt;td&gt;1218&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;satisfied&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;5 rows × 24 columns&lt;/p&gt;
-&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">HTML DataFrame 출력 조절하기</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">Gradient Descent란?</summary></entry></feed>
