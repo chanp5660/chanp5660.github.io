@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/til/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-03-12T18:10:31+09:00</updated>
+  <updated>2023-03-13T22:34:46+09:00</updated>
   <id>http://localhost:4000/tag/til/feed.xml</id>
 
   
@@ -30,6 +30,102 @@
   
   
 
+  
+    <entry>
+      <title type="html">TIL-KMeanscluster</title>
+      <link href="http://localhost:4000/TIL-KMeans%EA%B5%B0%EC%A7%91%ED%99%94" rel="alternate" type="text/html" title="TIL-KMeanscluster" />
+      <published>2023-03-12T00:00:00+09:00</published>
+      <updated>2023-03-12T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-KMeans%EA%B5%B0%EC%A7%91%ED%99%94</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-KMeans%EA%B5%B0%EC%A7%91%ED%99%94">&lt;h1 id=&quot;k-means-군집화&quot;&gt;K-Means 군집화&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;비지도 학습&lt;/strong&gt;의 일종으로, 데이터를 &lt;strong&gt;여러 그룹&lt;/strong&gt;으로 나누는 &lt;strong&gt;클러스터링&lt;/strong&gt; 알고리즘 중 하나입니다.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;데이터 마이닝&lt;/strong&gt;과 &lt;strong&gt;패턴 인식 분야&lt;/strong&gt;에서 널리 사용되는 클러스터링 알고리즘 중 하나입니다.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;데이터 분석, 이미지 처리, 자연어 처리, 이상치 탐지&lt;/strong&gt; 등 다양한 분야에서 사용됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;알고리즘&quot;&gt;알고리즘&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;입력된 데이터의 &lt;strong&gt;유사성&lt;/strong&gt;을 기반으로 클러스터를 생성합니다.&lt;/li&gt;
+  &lt;li&gt;데이터들 간의 유사성은 &lt;strong&gt;거리 측정&lt;/strong&gt;을 통해 계산됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;단계&quot;&gt;단계&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;초기화 단계
+    &lt;ul&gt;
+      &lt;li&gt;클러스터링을 위해 데이터 포인트들 중에서 K개의 초기 중심점(centroid)을 랜덤하게 선택합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;할당 단계
+    &lt;ul&gt;
+      &lt;li&gt;각 데이터 포인트들은 초기 중심점 중에서 가장 가까운 중심점에 할당됩니다.&lt;/li&gt;
+      &lt;li&gt;이렇게 할당된 데이터 포인트들을 하나의 클러스터로 묶습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;갱신 단계
+    &lt;ul&gt;
+      &lt;li&gt;클러스터링된 데이터 포인트들의 중심점을 새롭게 계산합니다.&lt;/li&gt;
+      &lt;li&gt;이렇게 갱신된 중심점들을 바탕으로 새로운 클러스터를 생성합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;반복
+    &lt;ul&gt;
+      &lt;li&gt;2,3단계를 반복 수행하면서 클러스터링을 수행합니다.&lt;/li&gt;
+      &lt;li&gt;더 이상 중심점이 변하지 않을 때까지 수행됩니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;주의&quot;&gt;주의&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;데이터를 K개의 클러스터로 묶는데, K는 사용자가 지정해야 합니다.
+    &lt;ul&gt;
+      &lt;li&gt;적절한 K값을 찾기 위해서는 여러 가지 방법을 사용할 수 있습니다.&lt;/li&gt;
+      &lt;li&gt;예를 들어, elbow method를 사용하여 적정한 K값을 찾을 수 있습니다.
+        &lt;ul&gt;
+          &lt;li&gt;elbow method 는 클러스터 수 K를 변화시켰을 때, 왜곡 점수가 급격하게 줄어드는 지점을 찾는 방법입니다.&lt;/li&gt;
+          &lt;li&gt;한계는 데이터가 고르게 분포되어 있다면 왜곡 점수의 변화가 작으므로 이용하기 힘들다.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;간단하고 빠른 알고리즘을 널리 사용되고 있습니다.
+    &lt;ul&gt;
+      &lt;li&gt;그러나 클러스터링 결과는 초기 중심점의 랜덤한 선택에 따라 영향을 받을 수 있기 때문에, 여러 번 실행하여 결과를 평균내는 등의 방법으로 결과를 개선할 수 있습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">K-Means 군집화</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">TIL-코스피코스닥</title>
@@ -420,6 +516,81 @@
     </entry>
   
     <entry>
+      <title type="html">TIL-Kaggle</title>
+      <link href="http://localhost:4000/TIL-Kaggle" rel="alternate" type="text/html" title="TIL-Kaggle" />
+      <published>2023-03-10T00:00:00+09:00</published>
+      <updated>2023-03-10T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-Kaggle</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-Kaggle">&lt;h1 id=&quot;kaggle&quot;&gt;Kaggle&lt;/h1&gt;
+
+&lt;h2 id=&quot;정의&quot;&gt;정의&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;실제 데이터 세트로 작업하는 실용적인 기술 습득&lt;/li&gt;
+  &lt;li&gt;자신의 포트폴리오 프로젝트 개발&lt;/li&gt;
+  &lt;li&gt;Kaggle 커뮤니티를 만나고 성장&lt;/li&gt;
+  &lt;li&gt;새로운 도메인 또는 모델 유형에 대한 경험을 얻음&lt;/li&gt;
+  &lt;li&gt;최고 성능의 머신으로 최신 정보를 얻을 수 있음&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;순서&quot;&gt;순서&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;문제 정의&lt;/li&gt;
+  &lt;li&gt;학습 데이터 받기&lt;/li&gt;
+  &lt;li&gt;기계학습 모델 개발&lt;/li&gt;
+  &lt;li&gt;테스트 데이터 평가 및 제출&lt;/li&gt;
+  &lt;li&gt;순위표에 표시&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;실제-연습&quot;&gt;실제 연습&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/&quot;&gt;Kaggle 사이트 접속&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;데이터 다운로드&lt;/li&gt;
+  &lt;li&gt;모델 개발&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;solution&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;price&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;discount_rates&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;500000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;300000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.95&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;discount_price&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;discount_rate&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;discount_rates&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;items&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;price&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;discount_price&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;price&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;discount_rate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;solution&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;price&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;discount_rates&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">Kaggle</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">TIL-HTML입력</title>
       <link href="http://localhost:4000/TIL-HTML-%EC%9E%85%EB%A0%A5" rel="alternate" type="text/html" title="TIL-HTML입력" />
       <published>2023-03-10T00:00:00+09:00</published>
@@ -620,171 +791,6 @@ if __name__ == &apos;__main__&apos;:
 
       
         <summary type="html">Gradient Descent란?</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">TIL-Kaggle</title>
-      <link href="http://localhost:4000/TIL-Kaggle" rel="alternate" type="text/html" title="TIL-Kaggle" />
-      <published>2023-03-10T00:00:00+09:00</published>
-      <updated>2023-03-10T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-Kaggle</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-Kaggle">&lt;h1 id=&quot;kaggle&quot;&gt;Kaggle&lt;/h1&gt;
-
-&lt;h2 id=&quot;정의&quot;&gt;정의&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;실제 데이터 세트로 작업하는 실용적인 기술 습득&lt;/li&gt;
-  &lt;li&gt;자신의 포트폴리오 프로젝트 개발&lt;/li&gt;
-  &lt;li&gt;Kaggle 커뮤니티를 만나고 성장&lt;/li&gt;
-  &lt;li&gt;새로운 도메인 또는 모델 유형에 대한 경험을 얻음&lt;/li&gt;
-  &lt;li&gt;최고 성능의 머신으로 최신 정보를 얻을 수 있음&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;순서&quot;&gt;순서&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;문제 정의&lt;/li&gt;
-  &lt;li&gt;학습 데이터 받기&lt;/li&gt;
-  &lt;li&gt;기계학습 모델 개발&lt;/li&gt;
-  &lt;li&gt;테스트 데이터 평가 및 제출&lt;/li&gt;
-  &lt;li&gt;순위표에 표시&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;실제-연습&quot;&gt;실제 연습&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/&quot;&gt;Kaggle 사이트 접속&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;데이터 다운로드&lt;/li&gt;
-  &lt;li&gt;모델 개발&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;solution&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;price&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;discount_rates&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;500000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;300000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.95&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;discount_price&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;discount_rate&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;discount_rates&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;items&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;price&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;discount_price&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;price&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;discount_rate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;solution&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;price&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;discount_rates&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">Kaggle</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">TIL-파일경로찾기</title>
-      <link href="http://localhost:4000/TIL-%ED%8C%8C%EC%9D%BC%EA%B2%BD%EB%A1%9C%EC%B0%BE%EA%B8%B0" rel="alternate" type="text/html" title="TIL-파일경로찾기" />
-      <published>2023-03-07T00:00:00+09:00</published>
-      <updated>2023-03-07T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-%ED%8C%8C%EC%9D%BC%EA%B2%BD%EB%A1%9C%EC%B0%BE%EA%B8%B0</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-%ED%8C%8C%EC%9D%BC%EA%B2%BD%EB%A1%9C%EC%B0%BE%EA%B8%B0">&lt;h1 id=&quot;python을-이용하여-파일-경로-찾기&quot;&gt;python을 이용하여 파일 경로 찾기&lt;/h1&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;파일들을 여러개를 반복적으로 해야될 일이면 매우 귀찮습니다. 따라서 파일이 생길 때마다 반복해줘야하는 동작들을 자동화 해주는 프로그램을 작성하겠습니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;원하는-폴더의-파일들을-알고-싶을-때&quot;&gt;원하는 폴더의 파일들을 알고 싶을 때&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;항상 다루던 폴더가 있으면 파일을 일일히 불러오는게 아니라 한번에 폴더 내 모든 파일을 불러올 수 있다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;os&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;folder_path&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;../../drive-download-20230206T024359Z-001/HTML_DATAFRAME/_posts&quot;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 원하는 폴더 경로
-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;listdir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;folder_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[&apos;.ipynb_checkpoints&apos;, &apos;ai&apos;, &apos;devskill&apos;, &apos;exitem&apos;, &apos;List&apos;, &apos;math&apos;, &apos;programing&apos;, &apos;project&apos;]
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;폴더의-모든-하위-파일들을-알고-싶을-때&quot;&gt;폴더의 모든 하위 파일들을 알고 싶을 때&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;단순히 폴더 안의 내용을 알고 싶은 것이 아니라 폴더 내에 존재하는 모든 파일 경로를 알고 싶을 때&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;os&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;folder_path&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;../../drive-download-20230206T024359Z-001/HTML_DATAFRAME/_posts&quot;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 원하는 폴더 경로
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;file_paths&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# 파일 경로를 저장할 빈 리스트를 만듭니다.
-&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dirs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;files&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;walk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;folder_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;file&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;files&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;file_path&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;file_paths&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;file_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;file_paths&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;107
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;file_paths&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;../../drive-download-20230206T024359Z-001/HTML_DATAFRAME/_posts\ai\2023-02-06-머신러닝 워크플로우.md
-../../drive-download-20230206T024359Z-001/HTML_DATAFRAME/_posts\ai\2023-02-13-로지스틱회귀.md
-../../drive-download-20230206T024359Z-001/HTML_DATAFRAME/_posts\ai\2023-02-17-결정경계.md
-../../drive-download-20230206T024359Z-001/HTML_DATAFRAME/_posts\ai\2023-02-17-선형분류.md
-../../drive-download-20230206T024359Z-001/HTML_DATAFRAME/_posts\ai\2023-02-17-손실함수.md
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;이렇게 원하는 폴더의 하위 모든 파일의 경로를 얻을 수 있다.&lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">python을 이용하여 파일 경로 찾기 파일들을 여러개를 반복적으로 해야될 일이면 매우 귀찮습니다. 따라서 파일이 생길 때마다 반복해줘야하는 동작들을 자동화 해주는 프로그램을 작성하겠습니다.</summary>
       
 
       

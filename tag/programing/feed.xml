@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/programing/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-03-12T18:10:31+09:00</updated>
+  <updated>2023-03-13T22:34:46+09:00</updated>
   <id>http://localhost:4000/tag/programing/feed.xml</id>
 
   
@@ -124,7 +124,7 @@
 
 &lt;div style=&quot;width:100%&quot;&gt; 
  &lt;details&gt; 
-&lt;summary&gt;출력 보기(클릭)&lt;/summary&gt;
+     &lt;summary&gt;&lt;span style=&quot;color:blue&quot;&gt;출력 보기(클릭)&lt;/span&gt;&lt;/summary&gt;
 
 
 
@@ -785,22 +785,41 @@
   &lt;p&gt;주어진 배열에서 큰 숫자의 위치에 순서대로 숫자를 채워 출력합니다.&lt;/p&gt;
 &lt;/blockquote&gt;
 
+&lt;h2 id=&quot;조건&quot;&gt;조건&lt;/h2&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;조건
-    &lt;ul&gt;
-      &lt;li&gt;중복된 원소 없음&lt;/li&gt;
-      &lt;li&gt;1 &amp;lt;= 입력된 배열의 길이 &amp;lt;= 10&lt;/li&gt;
-      &lt;li&gt;1 &amp;lt;= 입력된 배열의 원소 &amp;lt;= 100&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;예
-|input | result|
-|——|——|
-|[3, 76, 24]|[3, 1, 2]|
-|[1, 2, 3, 4, 5, 6, 7]|[7, 6, 5, 4, 3, 2, 1]|
-|[30, 10, 23, 6, 100]|[2, 4, 3, 5, 1]|&lt;/p&gt;
-  &lt;/li&gt;
+  &lt;li&gt;중복된 원소 없음&lt;/li&gt;
+  &lt;li&gt;1 &amp;lt;= 입력된 배열의 길이 &amp;lt;= 10&lt;/li&gt;
+  &lt;li&gt;1 &amp;lt;= 입력된 배열의 원소 &amp;lt;= 100&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;예시&quot;&gt;예시&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;input&lt;/th&gt;
+      &lt;th&gt;result&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[3, 76, 24]&lt;/td&gt;
+      &lt;td&gt;[3, 1, 2]&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[1, 2, 3, 4, 5, 6, 7]&lt;/td&gt;
+      &lt;td&gt;[7, 6, 5, 4, 3, 2, 1]&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[30, 10, 23, 6, 100]&lt;/td&gt;
+      &lt;td&gt;[2, 4, 3, 5, 1]&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;기존-작성-코드-및-문제&quot;&gt;기존 작성 코드 및 문제&lt;/h2&gt;
+&lt;ul&gt;
   &lt;li&gt;아래의 코드는 sorted에서 이미 O(NlogN) 정도의 시간이 든다고 가정합니다.&lt;/li&gt;
   &lt;li&gt;그리고 반복문에서 index를 계속 부르게 되므로 계속 부르게 되므로 O(N^2)의 시간복잡도를 가지게 됩니다.&lt;/li&gt;
 &lt;/ul&gt;
@@ -811,6 +830,7 @@
     return answer
 &lt;/code&gt;&lt;/pre&gt;
 
+&lt;h2 id=&quot;문제-해결-코드-및-설명&quot;&gt;문제 해결 코드 및 설명&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;이를 시간복잡도의 효율을 생각해서 dict을 사용하여 코드를 작성해봅니다.&lt;/li&gt;
 &lt;/ul&gt;

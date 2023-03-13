@@ -84,6 +84,22 @@
     </url>
     
     <url>
+        <loc>http://localhost:4000/TIL-KMeans%EA%B5%B0%EC%A7%91%ED%99%94.html</loc>
+        
+        <lastmod>2023-03-12T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
         <loc>http://localhost:4000/TIL-%EB%A9%94%ED%83%80%EC%9D%B8%EC%A7%80.html</loc>
         
         <lastmod>2023-03-11T00:00:00+09:00</lastmod>
