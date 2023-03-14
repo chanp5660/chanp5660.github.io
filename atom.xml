@@ -8,6 +8,51 @@
     
       
       <item>
+        <title>TIL-디메타</title>
+        
+          <description>&lt;h1 id=&quot;디메타&quot;&gt;디메타&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Tue, 14 Mar 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/TIL-%EB%94%94%EB%A9%94%ED%83%80</link>
+        <guid isPermaLink="true">http://localhost:4000/TIL-%EB%94%94%EB%A9%94%ED%83%80</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>TIL-TF-IDF</title>
+        
+          <description>&lt;h1 id=&quot;td-idf-용어-빈도---역-문서-빈도&quot;&gt;TD-IDF (용어 빈도 - 역 문서 빈도)&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Tue, 14 Mar 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/TIL-TFIDF</link>
+        <guid isPermaLink="true">http://localhost:4000/TIL-TFIDF</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>TIL-Stop Words</title>
+        
+          <description>&lt;h1 id=&quot;stop-words-불용어&quot;&gt;Stop Words 불용어&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Mon, 13 Mar 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/TIL-StopWords</link>
+        <guid isPermaLink="true">http://localhost:4000/TIL-StopWords</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>주식 투자</title>
         
           <description>&lt;h1 id=&quot;주식-투자-정보-프로젝트&quot;&gt;주식 투자 정보 프로젝트&lt;/h1&gt;

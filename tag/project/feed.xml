@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/project/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-03-13T22:34:46+09:00</updated>
+  <updated>2023-03-14T22:53:09+09:00</updated>
   <id>http://localhost:4000/tag/project/feed.xml</id>
 
   
@@ -96,13 +96,31 @@
       <id>http://localhost:4000/%EC%A3%BC%EC%8B%9D%ED%88%AC%EC%9E%90%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8</id>
       <content type="html" xml:base="http://localhost:4000/%EC%A3%BC%EC%8B%9D%ED%88%AC%EC%9E%90%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8">&lt;h1 id=&quot;주식-투자-정보-프로젝트&quot;&gt;주식 투자 정보 프로젝트&lt;/h1&gt;
 
+&lt;h2 id=&quot;목표&quot;&gt;목표&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;주식 랜덤성&lt;/strong&gt;이 있고 참고해야할 사항이 많으므로 &lt;strong&gt;투자 정보&lt;/strong&gt;를 &lt;strong&gt;개인의 성향에 맞게 제공&lt;/strong&gt;하는 것으로 목표로 하고 있습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;대상&quot;&gt;대상&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;정확한 주식 예측이 아닌 투자 정보를 제공하는 것을 목적으로 하고 있기 때문에 대상은 &lt;strong&gt;어느 정도 주식을 아는 사람&lt;/strong&gt;입니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;서비스-예상&quot;&gt;서비스 예상&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;필요한 정보들(기술적 분석, 재무정보, 경제 지표, 기타 외부요인)을 한 곳에서 볼 수 있도록 정보를 제공합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;주식-투자-정보-제공&quot;&gt;주식 투자 정보 제공&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;주식 예측 ( 여러개의 세미 프로젝트로 진행하면서 끊어가면 좋을 듯 )
-    &lt;ul&gt;
-      &lt;li&gt;수집 : api 이용 ( [python 라이브러리 존재] )&lt;/li&gt;
-      &lt;li&gt;분석 : 필요한 설명변수가 무엇인지 파악 ( 영향을 미치는 변수들 파악 )&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
+  &lt;li&gt;세미 프로젝트로 나누어 서비스를 배포합니다.&lt;/li&gt;
+  &lt;li&gt;수집 : api 이용 ( [python 라이브러리 존재] )&lt;/li&gt;
+  &lt;li&gt;분석 : 필요한 설명변수가 무엇인지 파악 ( 영향을 미치는 변수들 파악 )&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;세미-프로젝트1--가격이-오름세인가-내림세인가-&quot;&gt;세미 프로젝트1 [ 가격이 오름세인가 내림세인가? ]&lt;/h2&gt;
@@ -128,7 +146,7 @@
 &lt;ol&gt;
   &lt;li&gt;데이터
     &lt;ul&gt;
-      &lt;li&gt;회사의 재무정보
+      &lt;li&gt;회사의 재무정보 &lt;a href=&quot;https://dart.fss.or.kr/main.do&quot;&gt;전자공시시스템 링크&lt;/a&gt;
         &lt;ul&gt;
           &lt;li&gt;수익성 지표&lt;/li&gt;
           &lt;li&gt;재무 건정성 지표&lt;/li&gt;
@@ -156,8 +174,17 @@
 &lt;/ol&gt;
 
 &lt;h2 id=&quot;세미-프로젝트3--확률-수치-제공-&quot;&gt;세미 프로젝트3 [ 확률 수치 제공 ]&lt;/h2&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. 분류(추천) : 확률의 순서대로 제공
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+
+&lt;ol&gt;
+  &lt;li&gt;분류(추천) : 확률의 순서대로 제공&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;메모&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;개인의 성향은 변동성을 3단계로 나누어 매개변수를 조절하여 나타냅니다.&lt;/li&gt;
+&lt;/ul&gt;</content>
 
       
       

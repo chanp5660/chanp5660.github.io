@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/til/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-03-13T22:34:46+09:00</updated>
+  <updated>2023-03-14T22:53:09+09:00</updated>
   <id>http://localhost:4000/tag/til/feed.xml</id>
 
   
@@ -30,6 +30,323 @@
   
   
 
+  
+    <entry>
+      <title type="html">TIL-TF-IDF</title>
+      <link href="http://localhost:4000/TIL-TFIDF" rel="alternate" type="text/html" title="TIL-TF-IDF" />
+      <published>2023-03-14T00:00:00+09:00</published>
+      <updated>2023-03-14T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-TFIDF</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-TFIDF">&lt;h1 id=&quot;td-idf-용어-빈도---역-문서-빈도&quot;&gt;TD-IDF (용어 빈도 - 역 문서 빈도)&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;TF-IDF; Term Frequency-Inverse Document Frequency’&lt;/li&gt;
+  &lt;li&gt;정보 검색에서 &lt;strong&gt;문서의 내용&lt;/strong&gt;을 &lt;strong&gt;수치화&lt;/strong&gt;하는 데에 사용되는 방법입니다.&lt;/li&gt;
+  &lt;li&gt;단어의 빈도와 문서 내에서의 출현 빈도를 고려하여 &lt;strong&gt;각 단어&lt;/strong&gt;에 대한 &lt;strong&gt;가중치&lt;/strong&gt;를 계산합니다.&lt;/li&gt;
+  &lt;li&gt;문서 검색, 정보 검색, 문서 분류 등의 분야에서 널리 사용되는 기법입니다.&lt;/li&gt;
+  &lt;li&gt;다양한 자연어 처리 기술에서 활용됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;개념&quot;&gt;개념&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Term Frequency(TF)
+    &lt;ul&gt;
+      &lt;li&gt;문서에서 단어가 얼마나 자주 나타나는지를 측정합니다.&lt;/li&gt;
+      &lt;li&gt;각 단어의 TF는 &lt;strong&gt;해당 단어&lt;/strong&gt;가 &lt;strong&gt;문서&lt;/strong&gt;에 &lt;strong&gt;나타나는 빈도&lt;/strong&gt;를 나타냅니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Inverse Document Frequecncy(IDF)
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;전체 문서 집합&lt;/strong&gt;에서 &lt;strong&gt;단어&lt;/strong&gt;가 얼마나 &lt;strong&gt;희귀&lt;/strong&gt;한지를 측정합니다.&lt;/li&gt;
+      &lt;li&gt;IDF는 문서 내에서 단어가 나타날 때마다 &lt;strong&gt;역수&lt;/strong&gt;를 취하여 계산됩니다.&lt;/li&gt;
+      &lt;li&gt;즉, 문서 집합에서 자주 나타나는 단어에는 낮은 가중치가 부여되고, 드물기 나타나는 단어에는 높은 가중치가 부여됩니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;계산&quot;&gt;계산&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;각 단어의 &lt;strong&gt;TF&lt;/strong&gt;와 &lt;strong&gt;IDF&lt;/strong&gt;를 &lt;strong&gt;곱&lt;/strong&gt;하여 계산됩니다.
+    &lt;ul&gt;
+      &lt;li&gt;이 값은 각 단어의 중요도를 나타냅니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;높은 TF-IDF&lt;/strong&gt; 값을 가지는 단어는 문서의 &lt;strong&gt;주요 특징을 잘 나타내는 단어&lt;/strong&gt;라고 할 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;이를 통해 문서 검색 등에서 관련성이 높은 문서를 더 잘 찾을 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;예시&quot;&gt;예시&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;dog 라는 단어가 문서에서 5번 나타났습니다.&lt;/li&gt;
+  &lt;li&gt;전체 문서 집합에서 dog 라는 단어가 드물게 나타났다면, TF-IDF 값은 높아집니다.&lt;/li&gt;
+  &lt;li&gt;이는 단어가 문서의 특징을 잘 나타내는 중요한 단어라는 것을 나타내며, 이를 통해 이 문서가 dog과 관련이 높다는 것을 나타내는 검색 결과에서 상위에 나타날 수 있게 됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;활용&quot;&gt;활용&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;단어의 빈도수를 고려하기 때문에, 자주 나타나는 단어에 대해서는 높은 가중치를 부여하고, 드물게 나타나는 단어에 대해서는 높은 가중치를 부여합니다.
+    &lt;ul&gt;
+      &lt;li&gt;이러한 방식은 다른 기술과 함께 사용될 때 좋은 결과를 낼 수 있습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;불용어 제거&lt;/strong&gt;에도 사용할 수 있습니다.
+    &lt;ul&gt;
+      &lt;li&gt;자주 나타나지만 분석에 필요하지 않은 단어들을 제거하고, 중요한 단어들에 대해서만 TF-IDF 가중치를 계산하여 분석을 수행할 수 있습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;다른 기술과 결합하여 &lt;strong&gt;토픽 모델링&lt;/strong&gt;이나 &lt;strong&gt;감성 분석&lt;/strong&gt; 등의 작업에서도 활용됩니다.
+    &lt;ul&gt;
+      &lt;li&gt;이러한 분야에서도 TF-IDF를 활용하여 각 단어의 중요도를 계산하고, 이를 바탕으로 분석을 수행합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;한계&quot;&gt;한계&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;동음이의어&lt;/strong&gt;나 &lt;strong&gt;유사어&lt;/strong&gt;의 처리에 대해서는 &lt;strong&gt;한계&lt;/strong&gt;가 있습니다.
+    &lt;ul&gt;
+      &lt;li&gt;이러한 문제를 해결하기 위해서는 &lt;strong&gt;단어 임베딩&lt;/strong&gt;(word embedding) 등의 기술을 함께 사용해야 합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;긴 문서&lt;/strong&gt;에서는 &lt;strong&gt;단어의 빈도수&lt;/strong&gt;가 &lt;strong&gt;과도하게 높아져서&lt;/strong&gt;, 가중치가 높은 단어가 &lt;strong&gt;특별한 의미&lt;/strong&gt;를 &lt;strong&gt;가지지 않는&lt;/strong&gt; 경우도 있습니다.&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">TD-IDF (용어 빈도 - 역 문서 빈도)</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">TIL-디메타</title>
+      <link href="http://localhost:4000/TIL-%EB%94%94%EB%A9%94%ED%83%80" rel="alternate" type="text/html" title="TIL-디메타" />
+      <published>2023-03-14T00:00:00+09:00</published>
+      <updated>2023-03-14T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-%EB%94%94%EB%A9%94%ED%83%80</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-%EB%94%94%EB%A9%94%ED%83%80">&lt;h1 id=&quot;디메타&quot;&gt;디메타&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;운송 및 물류 분야 시장 강자를 목표&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;철도분야를 시작으로해서 운송 및 물류 분야 시장의 강자를 목표를 하고 있습니다. 회사에 제가 필요한 부분은 AI 를 기반으로 하는 회사 시스템을 통해 시스템 개발을 목적으로 하는 것 같습니다. 따라서 주요한 직무로는 서비를 제공하기 위한 현재 시스템의 AI 와 그 중 컴퓨터 비젼 관련으로 질문이 나올 것 같습니다. 질문해주시는 부분에 대해서는 차분하게 대답하면서 아는 것들로 정직하게 대답하고 오겠습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;디메타-기본-정보&quot;&gt;디메타 기본 정보&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.d-meta.ai/&quot;&gt;공식 사이트&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;이름 의미 : D-Meta Career
+    &lt;ul&gt;
+      &lt;li&gt;Distruptive Technology provide Transcending service with AI&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2019년 1월 28일 설립&lt;/li&gt;
+  &lt;li&gt;D-Meta.AI 는 철도신호제어 부문의 국내 Top 회사로부터 투자를 받아, 안정적이면서도 성장 가능성이 무궁한 철도분야를 시작으로 &lt;strong&gt;운송 및 물류 분야 시장의 강자&lt;/strong&gt;를 &lt;strong&gt;목표&lt;/strong&gt;로 합니다.&lt;/li&gt;
+  &lt;li&gt;AI 기술력과 Top 엔지니어를 발판으로 모회사가 강자로 있는 &lt;strong&gt;철도신호제어 분야&lt;/strong&gt;에서 &lt;strong&gt;AI, 빅데이터, 디지털트윈&lt;/strong&gt;이 반영된 새로운 &lt;strong&gt;시스템&lt;/strong&gt;을 &lt;strong&gt;개발&lt;/strong&gt;하고 있습니다.&lt;/li&gt;
+  &lt;li&gt;당사의 목표는 &lt;strong&gt;AI 기술&lt;/strong&gt;로 &lt;strong&gt;최적의 시뮬레이션&lt;/strong&gt;을 할 수 있는 &lt;strong&gt;철도관제 시스템을 개발&lt;/strong&gt;하고, 철도 시설물에 대한 다양한 검측 및 예측을 함으로써 &lt;strong&gt;철도관제의 안전성과 최적성을 고도화&lt;/strong&gt;하고자 합니다.&lt;/li&gt;
+  &lt;li&gt;궁극적으로는 다양한 &lt;strong&gt;다른 교통수단&lt;/strong&gt;과 &lt;strong&gt;물류 부문&lt;/strong&gt;에 대해서도 &lt;strong&gt;적용&lt;/strong&gt;할 수 있는 시스템으로 &lt;strong&gt;개발&lt;/strong&gt;함으로써, 인류에게 보다 안전하고 최적화된 철도관제, 교통관제, 물류관제 구현에 이바지하고자 하며, 국내를 넘어 해외로도 진출하여 &lt;strong&gt;5년 이내 IPO 상장&lt;/strong&gt;을 &lt;strong&gt;계획&lt;/strong&gt;하고 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;서비스&quot;&gt;서비스&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ARTEMIS (아르테미스)
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;A&lt;/strong&gt;I based &lt;strong&gt;R&lt;/strong&gt;ailway and &lt;strong&gt;T&lt;/strong&gt;rain &lt;strong&gt;E&lt;/strong&gt;nvironment &lt;strong&gt;M&lt;/strong&gt;anagement and &lt;strong&gt;I&lt;/strong&gt;nformation &lt;strong&gt;S&lt;/strong&gt;olution&lt;/li&gt;
+      &lt;li&gt;AI,Bigdata 기술을 기반으로 열차의 미래를 예측하고 &lt;strong&gt;사고&lt;/strong&gt;를 미연에 &lt;strong&gt;방지&lt;/strong&gt;하고 열차 &lt;strong&gt;스케쥴&lt;/strong&gt;을 다양한 관점에서 &lt;strong&gt;최적화&lt;/strong&gt;하여 보다 &lt;strong&gt;안전&lt;/strong&gt;하고 &lt;strong&gt;효율&lt;/strong&gt;적인 열차 관제를 지원하는 시스템&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;ARTEVA (아르테바)
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;A&lt;/strong&gt;I based &lt;strong&gt;R&lt;/strong&gt;ailway and &lt;strong&gt;T&lt;/strong&gt;rain &lt;strong&gt;E&lt;/strong&gt;nvironment &lt;strong&gt;V&lt;/strong&gt;ideo &lt;strong&gt;A&lt;/strong&gt;nalytics solution&lt;/li&gt;
+      &lt;li&gt;AI, Bigdata 기술을 기반으로 &lt;strong&gt;선로, 역사&lt;/strong&gt; 등의 &lt;strong&gt;CCTV 비디오를 분석&lt;/strong&gt;하여 &lt;strong&gt;이상상황 탐지&lt;/strong&gt; 등 안전관제를 지원하는 시스템&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;원티드-채용-공고-내용&quot;&gt;원티드 채용 공고 내용&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.wanted.co.kr/wd/139525&quot;&gt;https://www.wanted.co.kr/wd/139525&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;주요업무
+    &lt;ul&gt;
+      &lt;li&gt;열차 운송 시스템 관련 Data Analysis 를 통한 예측 솔루션 개발&lt;/li&gt;
+      &lt;li&gt;Deep Learning 및 Computer Vision 기반의 열차 영상 분석 시스템 솔루션 개발&lt;/li&gt;
+      &lt;li&gt;Reinforcement Learning을 이용한 열차 운행 최적화 알고리즘 및 시스템 개발&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;자격요건
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Python&lt;/strong&gt;, C++ 를 사용하여 알고리즘 또는 시스템 개발 경험이 있으신 분&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Artificial Intelligence / Computer Science / Data Science / Statistics / Electric Engineering 등 이 · 공 계열 학사 이상 학위 보유하신 분&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;PyTorch, TensorFlow 와 같은 머신러닝 프레임워크 사용 경험이 있으신 분&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;협업 및 의사소통이 원활하신 분&lt;/strong&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;우대사항
+    &lt;ul&gt;
+      &lt;li&gt;Artificial Intelligence / Computer Science / Data Science / Statistics / Electric Engineering 등 이 · 공 계열 석사 이상 학위 보유하신 분&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Deep learning&lt;/strong&gt;, Reinforcement Learning, Computer Vision based Image Processing 기반의 알고리즘 또는 시스템 개발 프로젝트 경력이 있으신 분&lt;/li&gt;
+      &lt;li&gt;AI, Deep Learning, Machine Learning 관련 분야 학회 논문 1편 이상 보유하신 분&lt;/li&gt;
+      &lt;li&gt;최신 논문에 대한 빠른 이해 및 구현 능력이 있으신 분&lt;/li&gt;
+      &lt;li&gt;교통/물류 관련 예측 및 최적화 프로젝트 경험 혹은 영상 관련 프로젝트 경험이 있으신 분&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;채용절차
+    &lt;ul&gt;
+      &lt;li&gt;서류전형 → 실무 &amp;amp; 경영진 면접 → 코딩 테스트 → 최종합격&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;span style=&quot;color:blue&quot;&gt;내 생각&lt;br /&gt;
+기본적인 자격요건이 충족되는데 회사가 원하는 신입은 컴퓨터비전을 경험해본 사람을 원하는 것 같아서 어떤 대화가 오갈지 설렘반 기대반이다.
+&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">디메타</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">TIL-Stop Words</title>
+      <link href="http://localhost:4000/TIL-StopWords" rel="alternate" type="text/html" title="TIL-Stop Words" />
+      <published>2023-03-13T00:00:00+09:00</published>
+      <updated>2023-03-13T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-StopWords</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-StopWords">&lt;h1 id=&quot;stop-words-불용어&quot;&gt;Stop Words 불용어&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;자연어 처리(NLP)에서 ‘불용어(Stop Words)’는 분석하려는 문서에서 &lt;strong&gt;제거되는 일반적인 단어 또는 구문&lt;/strong&gt;입니다.&lt;/li&gt;
+  &lt;li&gt;이러한 단어는 일반적으로 문장에서 나타나지만, 문서의 내용을 이해하는 데 큰 도움이 되지 않거나 &lt;strong&gt;분석에 불필요한 정보&lt;/strong&gt;를 제공합니다.&lt;/li&gt;
+  &lt;li&gt;따라서 이러한 단어를 &lt;strong&gt;제거&lt;/strong&gt;함으로써 &lt;strong&gt;분석의 정확성&lt;/strong&gt;을 &lt;strong&gt;높일 수&lt;/strong&gt; 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;예시&quot;&gt;예시&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;영어에서는 ‘the’, ‘a’, ‘an’, ‘in’, ‘on’, ‘of’ 등이 일반적인 불용어입니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;중요한-이유&quot;&gt;중요한 이유&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;불용어를 제거&lt;/strong&gt;함으로써 모델링 과정에서 처리해야 하는 &lt;strong&gt;단어의 수를 줄일 수&lt;/strong&gt; 있습니다.
+    &lt;ul&gt;
+      &lt;li&gt;이는 모델링을 더 &lt;strong&gt;빠르고 효율적&lt;/strong&gt;으로 만들 수 있습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;불용어를 제거하면 모델링 &lt;strong&gt;결과의 정확도가 향상&lt;/strong&gt;됩니다.
+    &lt;ul&gt;
+      &lt;li&gt;모델링을 수행하는 동안 &lt;strong&gt;고려해야 하는 단어의 수가 줄어&lt;/strong&gt;들기 때문입니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;예를 들어, &lt;strong&gt;문서의 유사도&lt;/strong&gt;를 계산한다고 가정합니다.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;불용어가 큰 영향을 미치지 않는다면&lt;/strong&gt;, 문서의 &lt;strong&gt;길이&lt;/strong&gt;가 &lt;strong&gt;다른 경우&lt;/strong&gt;에도 문서 간의 유사도를 &lt;strong&gt;측정&lt;/strong&gt;할 수 있습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;또 다른 예로, &lt;strong&gt;감성 분석&lt;/strong&gt;과 같은 작업을 한다고 가정합니다.
+    &lt;ul&gt;
+      &lt;li&gt;문장에서 ‘그것’ 또는 ‘이것’과 같은 &lt;strong&gt;대명사&lt;/strong&gt;를 &lt;strong&gt;불용어로 간주&lt;/strong&gt;하고 &lt;strong&gt;제거&lt;/strong&gt;함으로써 분석 결과를 더욱 &lt;strong&gt;정확&lt;/strong&gt;하게 만들 수 있습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;주의&quot;&gt;주의&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;불용어는 &lt;strong&gt;분석하려는 언어&lt;/strong&gt;나 &lt;strong&gt;분석 목적&lt;/strong&gt;에 따라 달라질 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;따라서 분석하려는 데이터에 맞게 적절한 불용어 목록을 선정하는 것이 중요합니다.&lt;/li&gt;
+  &lt;li&gt;이러한 목록은 일반적으로 &lt;strong&gt;언어별로 구축&lt;/strong&gt;되며, 대부분의 NLP 라이브러리에서는 불용어 목록을 제공하거나, 사용자 정의 불용어 목록을 지정할 수 있는 기능을 제공합니다.&lt;/li&gt;
+  &lt;li&gt;일부 상황에서는 불용어를 제거하지 않는 것이 더 나을 수 있습니다.
+    &lt;ul&gt;
+      &lt;li&gt;예를 들어, 문서의 길이가 짧은 경우, 불용어가 전체적인 문맥을 파악하는 데 필수적일 수 있습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">Stop Words 불용어</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">TIL-KMeanscluster</title>
@@ -680,775 +997,6 @@ if __name__ == &apos;__main__&apos;:
 
       
         <summary type="html">HTML 입력</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">TIL-GradientDescent</title>
-      <link href="http://localhost:4000/TIL-GradientDescent" rel="alternate" type="text/html" title="TIL-GradientDescent" />
-      <published>2023-03-10T00:00:00+09:00</published>
-      <updated>2023-03-10T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-GradientDescent</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-GradientDescent">&lt;h1 id=&quot;gradient-descent란&quot;&gt;Gradient Descent란?&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;경사 하강법;Gradient Descent 는 머신러닝에서 가장 기본적인 &lt;strong&gt;최적화 알고리즘&lt;/strong&gt; 중 하나입니다.&lt;/li&gt;
-  &lt;li&gt;주어진 비용 함수(cost function)의 값이 최소화되는 가중치(weight)와 편향(bias)를 찾는데 사용됩니다.&lt;/li&gt;
-  &lt;li&gt;경사 하강법은 각 가중치와 편향의 기울기(gradient)를 계산하여 이 값이 0이 되는 지점을 찾습니다.&lt;/li&gt;
-  &lt;li&gt;핵심 아이디어는 &lt;strong&gt;비용 함수를 최소화하는 가중치와 편향을 찾기 위해 최적화할 매개변수를 반복적으로 조정&lt;/strong&gt;하는 것입니다.&lt;/li&gt;
-  &lt;li&gt;이때 매개변수는 초기값에서 시작하여 경사 하강법을 통해 조정됩니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;경사-하강법의-기본-과정&quot;&gt;경사 하강법의 기본 과정&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;초기값 설정
-    &lt;ul&gt;
-      &lt;li&gt;가중치와 편향을 임의의 값으로 초기화합니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;예측값 계산
-    &lt;ul&gt;
-      &lt;li&gt;초기 가중치와 편향을 사용하여 예측값을 계산합니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;비용 함수 계산
-    &lt;ul&gt;
-      &lt;li&gt;예측값과 실제값을 비교하여 비용함수를 계산합니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;기울기(gradient) 계산
-    &lt;ul&gt;
-      &lt;li&gt;비용 함수의 기울기를 계산합니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;매개변수 업데이트
-    &lt;ul&gt;
-      &lt;li&gt;기울기를 사용하여 가중치와 편향을 업데이트합니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;반복
-    &lt;ul&gt;
-      &lt;li&gt;2~5단계를 반복하여 &lt;strong&gt;비용 함수를 최소화&lt;/strong&gt;하는 가중치와 편향을 찾습니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;가중치와-편향을-조정하는-방법&quot;&gt;가중치와 편향을 조정하는 방법&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;batch gradient descent
-    &lt;ul&gt;
-      &lt;li&gt;전체 데이터셋을 사용하여 기울기를 계산합니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;stochastic gradient descent
-    &lt;ul&gt;
-      &lt;li&gt;데이터셋을 일부분만 사용하여 기울기를 계산합니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;mini-batch gradient descent
-    &lt;ul&gt;
-      &lt;li&gt;batch와 stochastic의 장점을 결합합니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;경사-하강법의-주의할-점&quot;&gt;경사 하강법의 주의할 점&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;경사 하강법의 장점은 다른 최적화 알고리즘에 비해 구현이 간단하고 효율적이라는 점입니다.&lt;/li&gt;
-  &lt;li&gt;하지만 학습률(learning rate)을 적절히 설정하지 않으면 최적값에 수렴하지 못하거나 수렴하는 속도가 느려질 수 있습니다.
-    &lt;ul&gt;
-      &lt;li&gt;학습률이 너무 작으면 최소치에 가는 시간이 너무 오래 걸립니다.&lt;/li&gt;
-      &lt;li&gt;학습률이 너무 크면 최소치에 접근하지 못하고 큰 이동을 해버리는 문제가 생깁니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;따라서 학습률을 조정하는 기법들이 중요하며, 이를 통해 경사 하강법의 성능을 향상시킬 수 있습니다.&lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">Gradient Descent란?</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">TIL-Python Warning무시</title>
-      <link href="http://localhost:4000/TIL-python_warning%EB%AC%B4%EC%8B%9C" rel="alternate" type="text/html" title="TIL-Python Warning무시" />
-      <published>2023-03-07T00:00:00+09:00</published>
-      <updated>2023-03-07T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-python_warning%EB%AC%B4%EC%8B%9C</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-python_warning%EB%AC%B4%EC%8B%9C">&lt;h1 id=&quot;python-warning-무시하는-방법&quot;&gt;Python Warning 무시하는 방법&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;블로그에 ipynb을 올릴 때 머신러닝의 경우 모델 학습할 때 경고가 너무 많이 출력됩니다. 이를 처리하는 방법을 알아봅니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;경고를-아예-무시하는-방법&quot;&gt;경고를 아예 무시하는 방법&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;warnings 모듈을 사용하여 모든 경고 메시지를 무시&lt;/li&gt;
-  &lt;li&gt;코드를 실행하면 프로그램 전체에서 경고 메시지를 무시&lt;/li&gt;
-  &lt;li&gt;이 방법은 경고 메시지가 중요하지 않거나 무시할 수 있는 경우에만 사용하는 것이 좋습니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-{python}&quot;&gt;import warnings
-warnings.filterwarnings(&quot;ignore&quot;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&quot;경고를-무시하는-대신-로그에-적는-방법&quot;&gt;경고를 무시하는 대신 로그에 적는 방법&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;코드를 실행하면 모든 경고 메시지가 로그로 저장&lt;/li&gt;
-  &lt;li&gt;경고 메시지를 무시하지 않으면서도 콘솔 출력을 깨끗하게 유지&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-{python}&quot;&gt;import logging
-logging.captureWarnings(True)
-&lt;/code&gt;&lt;/pre&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">Python Warning 무시하는 방법</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">TIL-HTML DataFrame 출력 조절</title>
-      <link href="http://localhost:4000/TIL-HTML_DataFrame%EC%B6%9C%EB%A0%A5" rel="alternate" type="text/html" title="TIL-HTML DataFrame 출력 조절" />
-      <published>2023-03-07T00:00:00+09:00</published>
-      <updated>2023-03-07T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-HTML_DataFrame%EC%B6%9C%EB%A0%A5</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-HTML_DataFrame%EC%B6%9C%EB%A0%A5">&lt;h1 id=&quot;html-dataframe-출력-조절하기&quot;&gt;HTML DataFrame 출력 조절하기&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;ipynb 을 이용하여 github blog를 다루고 있기 때문에 html에서 dataframe은 매우 크게 나와 가독성에 문제가 생기므로 해결책을 찾습니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;테이블-크기-조정&quot;&gt;테이블 크기 조정&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;데이터 프레임을 출력하는 HTML 테이블의 크기를 조정하여 가독성을 높일 수 있습니다.&lt;/li&gt;
-  &lt;li&gt;스크롤바를 추가하는 것보다 더 복잡하지만, 더욱 세밀한 제어가 가능하고 아래는 테이블 크기를 조정하는 예제 코드입니다.&lt;/li&gt;
-  &lt;li&gt;단점으로는 출력하기 위한 python 코드가 table 내에서 주석으로 처리되어 출력됩니다.&lt;/li&gt;
-  &lt;li&gt;그래도 출력 결과물을 보니 가독성이 훨씬 좋아진 것 같습니다.&lt;/li&gt;
-  &lt;li&gt;블로그 만들때 귀찮을 것 같은데 자동으로 md 형태에서 html에 넣을 때 자동으로 고쳐주는 프로그램을 만들어야겠습니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-{html}&quot;&gt;&amp;lt;table style=&quot;width:50%&quot;&amp;gt;
-  &amp;lt;!-- 데이터 프레임 출력 코드 --&amp;gt;
-&amp;lt;/table&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-{html}&quot;&gt;&amp;lt;table style=&quot;width:50%&quot;&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;table style=&quot;width:50%&quot;&gt;
-
-
-```python
-train.head()
-```
-
-
-
-
-&lt;div&gt;
-&lt;style scoped=&quot;&quot;&gt;
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-&lt;/style&gt;
-&lt;table border=&quot;1&quot; class=&quot;dataframe&quot;&gt;
-  &lt;thead&gt;
-    &lt;tr style=&quot;text-align: right;&quot;&gt;
-      &lt;th&gt;&lt;/th&gt;
-      &lt;th&gt;id&lt;/th&gt;
-      &lt;th&gt;Gender&lt;/th&gt;
-      &lt;th&gt;Customer Type&lt;/th&gt;
-      &lt;th&gt;Age&lt;/th&gt;
-      &lt;th&gt;Type of Travel&lt;/th&gt;
-      &lt;th&gt;Class&lt;/th&gt;
-      &lt;th&gt;Flight Distance&lt;/th&gt;
-      &lt;th&gt;Inflight wifi service&lt;/th&gt;
-      &lt;th&gt;Departure/Arrival time convenient&lt;/th&gt;
-      &lt;th&gt;Ease of Online booking&lt;/th&gt;
-      &lt;th&gt;...&lt;/th&gt;
-      &lt;th&gt;Inflight entertainment&lt;/th&gt;
-      &lt;th&gt;On-board service&lt;/th&gt;
-      &lt;th&gt;Leg room service&lt;/th&gt;
-      &lt;th&gt;Baggage handling&lt;/th&gt;
-      &lt;th&gt;Checkin service&lt;/th&gt;
-      &lt;th&gt;Inflight service&lt;/th&gt;
-      &lt;th&gt;Cleanliness&lt;/th&gt;
-      &lt;th&gt;Departure Delay in Minutes&lt;/th&gt;
-      &lt;th&gt;Arrival Delay in Minutes&lt;/th&gt;
-      &lt;th&gt;satisfaction&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;th&gt;0&lt;/th&gt;
-      &lt;td&gt;84455&lt;/td&gt;
-      &lt;td&gt;Female&lt;/td&gt;
-      &lt;td&gt;disloyal Customer&lt;/td&gt;
-      &lt;td&gt;23&lt;/td&gt;
-      &lt;td&gt;Business travel&lt;/td&gt;
-      &lt;td&gt;Eco&lt;/td&gt;
-      &lt;td&gt;290&lt;/td&gt;
-      &lt;td&gt;3&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;3&lt;/td&gt;
-      &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;th&gt;1&lt;/th&gt;
-      &lt;td&gt;90180&lt;/td&gt;
-      &lt;td&gt;Male&lt;/td&gt;
-      &lt;td&gt;Loyal Customer&lt;/td&gt;
-      &lt;td&gt;61&lt;/td&gt;
-      &lt;td&gt;Personal Travel&lt;/td&gt;
-      &lt;td&gt;Eco&lt;/td&gt;
-      &lt;td&gt;957&lt;/td&gt;
-      &lt;td&gt;3&lt;/td&gt;
-      &lt;td&gt;5&lt;/td&gt;
-      &lt;td&gt;3&lt;/td&gt;
-      &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;th&gt;2&lt;/th&gt;
-      &lt;td&gt;33002&lt;/td&gt;
-      &lt;td&gt;Male&lt;/td&gt;
-      &lt;td&gt;Loyal Customer&lt;/td&gt;
-      &lt;td&gt;43&lt;/td&gt;
-      &lt;td&gt;Personal Travel&lt;/td&gt;
-      &lt;td&gt;Eco&lt;/td&gt;
-      &lt;td&gt;163&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;5&lt;/td&gt;
-      &lt;td&gt;0&lt;/td&gt;
-      &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;th&gt;3&lt;/th&gt;
-      &lt;td&gt;124430&lt;/td&gt;
-      &lt;td&gt;Female&lt;/td&gt;
-      &lt;td&gt;Loyal Customer&lt;/td&gt;
-      &lt;td&gt;28&lt;/td&gt;
-      &lt;td&gt;Personal Travel&lt;/td&gt;
-      &lt;td&gt;Eco&lt;/td&gt;
-      &lt;td&gt;1262&lt;/td&gt;
-      &lt;td&gt;2&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;2&lt;/td&gt;
-      &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;th&gt;4&lt;/th&gt;
-      &lt;td&gt;93970&lt;/td&gt;
-      &lt;td&gt;Female&lt;/td&gt;
-      &lt;td&gt;Loyal Customer&lt;/td&gt;
-      &lt;td&gt;39&lt;/td&gt;
-      &lt;td&gt;Business travel&lt;/td&gt;
-      &lt;td&gt;Business&lt;/td&gt;
-      &lt;td&gt;1218&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;satisfied&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;5 rows × 24 columns&lt;/p&gt;
-&lt;/div&gt;
-
-
-
-&lt;/table&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-{html}&quot;&gt;&amp;lt;/table&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-{html}&quot;&gt;&amp;lt;table style=&quot;width:50%&quot;&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;table style=&quot;width:50%&quot;&gt;
-
-
-```python
-display(train.head())
-```
-
-
-&lt;div&gt;
-&lt;style scoped=&quot;&quot;&gt;
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-&lt;/style&gt;
-&lt;table border=&quot;1&quot; class=&quot;dataframe&quot;&gt;
-  &lt;thead&gt;
-    &lt;tr style=&quot;text-align: right;&quot;&gt;
-      &lt;th&gt;&lt;/th&gt;
-      &lt;th&gt;id&lt;/th&gt;
-      &lt;th&gt;Gender&lt;/th&gt;
-      &lt;th&gt;Customer Type&lt;/th&gt;
-      &lt;th&gt;Age&lt;/th&gt;
-      &lt;th&gt;Type of Travel&lt;/th&gt;
-      &lt;th&gt;Class&lt;/th&gt;
-      &lt;th&gt;Flight Distance&lt;/th&gt;
-      &lt;th&gt;Inflight wifi service&lt;/th&gt;
-      &lt;th&gt;Departure/Arrival time convenient&lt;/th&gt;
-      &lt;th&gt;Ease of Online booking&lt;/th&gt;
-      &lt;th&gt;...&lt;/th&gt;
-      &lt;th&gt;Inflight entertainment&lt;/th&gt;
-      &lt;th&gt;On-board service&lt;/th&gt;
-      &lt;th&gt;Leg room service&lt;/th&gt;
-      &lt;th&gt;Baggage handling&lt;/th&gt;
-      &lt;th&gt;Checkin service&lt;/th&gt;
-      &lt;th&gt;Inflight service&lt;/th&gt;
-      &lt;th&gt;Cleanliness&lt;/th&gt;
-      &lt;th&gt;Departure Delay in Minutes&lt;/th&gt;
-      &lt;th&gt;Arrival Delay in Minutes&lt;/th&gt;
-      &lt;th&gt;satisfaction&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;th&gt;0&lt;/th&gt;
-      &lt;td&gt;84455&lt;/td&gt;
-      &lt;td&gt;Female&lt;/td&gt;
-      &lt;td&gt;disloyal Customer&lt;/td&gt;
-      &lt;td&gt;23&lt;/td&gt;
-      &lt;td&gt;Business travel&lt;/td&gt;
-      &lt;td&gt;Eco&lt;/td&gt;
-      &lt;td&gt;290&lt;/td&gt;
-      &lt;td&gt;3&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;3&lt;/td&gt;
-      &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;th&gt;1&lt;/th&gt;
-      &lt;td&gt;90180&lt;/td&gt;
-      &lt;td&gt;Male&lt;/td&gt;
-      &lt;td&gt;Loyal Customer&lt;/td&gt;
-      &lt;td&gt;61&lt;/td&gt;
-      &lt;td&gt;Personal Travel&lt;/td&gt;
-      &lt;td&gt;Eco&lt;/td&gt;
-      &lt;td&gt;957&lt;/td&gt;
-      &lt;td&gt;3&lt;/td&gt;
-      &lt;td&gt;5&lt;/td&gt;
-      &lt;td&gt;3&lt;/td&gt;
-      &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;th&gt;2&lt;/th&gt;
-      &lt;td&gt;33002&lt;/td&gt;
-      &lt;td&gt;Male&lt;/td&gt;
-      &lt;td&gt;Loyal Customer&lt;/td&gt;
-      &lt;td&gt;43&lt;/td&gt;
-      &lt;td&gt;Personal Travel&lt;/td&gt;
-      &lt;td&gt;Eco&lt;/td&gt;
-      &lt;td&gt;163&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;5&lt;/td&gt;
-      &lt;td&gt;0&lt;/td&gt;
-      &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;th&gt;3&lt;/th&gt;
-      &lt;td&gt;124430&lt;/td&gt;
-      &lt;td&gt;Female&lt;/td&gt;
-      &lt;td&gt;Loyal Customer&lt;/td&gt;
-      &lt;td&gt;28&lt;/td&gt;
-      &lt;td&gt;Personal Travel&lt;/td&gt;
-      &lt;td&gt;Eco&lt;/td&gt;
-      &lt;td&gt;1262&lt;/td&gt;
-      &lt;td&gt;2&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;2&lt;/td&gt;
-      &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;th&gt;4&lt;/th&gt;
-      &lt;td&gt;93970&lt;/td&gt;
-      &lt;td&gt;Female&lt;/td&gt;
-      &lt;td&gt;Loyal Customer&lt;/td&gt;
-      &lt;td&gt;39&lt;/td&gt;
-      &lt;td&gt;Business travel&lt;/td&gt;
-      &lt;td&gt;Business&lt;/td&gt;
-      &lt;td&gt;1218&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;satisfied&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;5 rows × 24 columns&lt;/p&gt;
-&lt;/div&gt;
-
-
-&lt;/table&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-{html}&quot;&gt;&amp;lt;/table&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&quot;자동화-시키기-위한-특징-찾기&quot;&gt;자동화 시키기 위한 특징 찾기&lt;/h1&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div&gt;
-&lt;style scoped=&quot;&quot;&gt;
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-&lt;/style&gt;
-&lt;table border=&quot;1&quot; class=&quot;dataframe&quot;&gt;
-  &lt;thead&gt;
-    &lt;tr style=&quot;text-align: right;&quot;&gt;
-      &lt;th&gt;&lt;/th&gt;
-      &lt;th&gt;id&lt;/th&gt;
-      &lt;th&gt;Gender&lt;/th&gt;
-      &lt;th&gt;Customer Type&lt;/th&gt;
-      &lt;th&gt;Age&lt;/th&gt;
-      &lt;th&gt;Type of Travel&lt;/th&gt;
-      &lt;th&gt;Class&lt;/th&gt;
-      &lt;th&gt;Flight Distance&lt;/th&gt;
-      &lt;th&gt;Inflight wifi service&lt;/th&gt;
-      &lt;th&gt;Departure/Arrival time convenient&lt;/th&gt;
-      &lt;th&gt;Ease of Online booking&lt;/th&gt;
-      &lt;th&gt;...&lt;/th&gt;
-      &lt;th&gt;Inflight entertainment&lt;/th&gt;
-      &lt;th&gt;On-board service&lt;/th&gt;
-      &lt;th&gt;Leg room service&lt;/th&gt;
-      &lt;th&gt;Baggage handling&lt;/th&gt;
-      &lt;th&gt;Checkin service&lt;/th&gt;
-      &lt;th&gt;Inflight service&lt;/th&gt;
-      &lt;th&gt;Cleanliness&lt;/th&gt;
-      &lt;th&gt;Departure Delay in Minutes&lt;/th&gt;
-      &lt;th&gt;Arrival Delay in Minutes&lt;/th&gt;
-      &lt;th&gt;satisfaction&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;th&gt;0&lt;/th&gt;
-      &lt;td&gt;84455&lt;/td&gt;
-      &lt;td&gt;Female&lt;/td&gt;
-      &lt;td&gt;disloyal Customer&lt;/td&gt;
-      &lt;td&gt;23&lt;/td&gt;
-      &lt;td&gt;Business travel&lt;/td&gt;
-      &lt;td&gt;Eco&lt;/td&gt;
-      &lt;td&gt;290&lt;/td&gt;
-      &lt;td&gt;3&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;3&lt;/td&gt;
-      &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;th&gt;1&lt;/th&gt;
-      &lt;td&gt;90180&lt;/td&gt;
-      &lt;td&gt;Male&lt;/td&gt;
-      &lt;td&gt;Loyal Customer&lt;/td&gt;
-      &lt;td&gt;61&lt;/td&gt;
-      &lt;td&gt;Personal Travel&lt;/td&gt;
-      &lt;td&gt;Eco&lt;/td&gt;
-      &lt;td&gt;957&lt;/td&gt;
-      &lt;td&gt;3&lt;/td&gt;
-      &lt;td&gt;5&lt;/td&gt;
-      &lt;td&gt;3&lt;/td&gt;
-      &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;th&gt;2&lt;/th&gt;
-      &lt;td&gt;33002&lt;/td&gt;
-      &lt;td&gt;Male&lt;/td&gt;
-      &lt;td&gt;Loyal Customer&lt;/td&gt;
-      &lt;td&gt;43&lt;/td&gt;
-      &lt;td&gt;Personal Travel&lt;/td&gt;
-      &lt;td&gt;Eco&lt;/td&gt;
-      &lt;td&gt;163&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;5&lt;/td&gt;
-      &lt;td&gt;0&lt;/td&gt;
-      &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;th&gt;3&lt;/th&gt;
-      &lt;td&gt;124430&lt;/td&gt;
-      &lt;td&gt;Female&lt;/td&gt;
-      &lt;td&gt;Loyal Customer&lt;/td&gt;
-      &lt;td&gt;28&lt;/td&gt;
-      &lt;td&gt;Personal Travel&lt;/td&gt;
-      &lt;td&gt;Eco&lt;/td&gt;
-      &lt;td&gt;1262&lt;/td&gt;
-      &lt;td&gt;2&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;2&lt;/td&gt;
-      &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;neutral or dissatisfied&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;th&gt;4&lt;/th&gt;
-      &lt;td&gt;93970&lt;/td&gt;
-      &lt;td&gt;Female&lt;/td&gt;
-      &lt;td&gt;Loyal Customer&lt;/td&gt;
-      &lt;td&gt;39&lt;/td&gt;
-      &lt;td&gt;Business travel&lt;/td&gt;
-      &lt;td&gt;Business&lt;/td&gt;
-      &lt;td&gt;1218&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;NaN&lt;/td&gt;
-      &lt;td&gt;satisfied&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;5 rows × 24 columns&lt;/p&gt;
-&lt;/div&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">HTML DataFrame 출력 조절하기</summary>
       
 
       
