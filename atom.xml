@@ -8,6 +8,66 @@
     
       
       <item>
+        <title>면접질문</title>
+        
+          <description>&lt;h1 id=&quot;면접질문&quot;&gt;면접질문&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Wed, 15 Mar 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/%EB%A9%B4%EC%A0%91%EC%A7%88%EB%AC%B8</link>
+        <guid isPermaLink="true">http://localhost:4000/%EB%A9%B4%EC%A0%91%EC%A7%88%EB%AC%B8</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>TIL-위플랫</title>
+        
+          <description>&lt;h1 id=&quot;위플랫&quot;&gt;위플랫&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Wed, 15 Mar 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/TIL-%EC%9C%84%ED%94%8C%EB%9E%AB</link>
+        <guid isPermaLink="true">http://localhost:4000/TIL-%EC%9C%84%ED%94%8C%EB%9E%AB</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>TIL-PyMySQL</title>
+        
+          <description>&lt;h1 id=&quot;pymysql&quot;&gt;PyMySQL&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Wed, 15 Mar 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/TIL-PyMySQL</link>
+        <guid isPermaLink="true">http://localhost:4000/TIL-PyMySQL</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>TIL-TF-IDF</title>
+        
+          <description>&lt;h1 id=&quot;tf-idf-용어-빈도---역-문서-빈도&quot;&gt;TF-IDF (용어 빈도 - 역 문서 빈도)&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Tue, 14 Mar 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/TIL-TFIDF</link>
+        <guid isPermaLink="true">http://localhost:4000/TIL-TFIDF</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>TIL-디메타</title>
         
           <description>&lt;h1 id=&quot;디메타&quot;&gt;디메타&lt;/h1&gt;
@@ -18,21 +78,6 @@
         <link>
         http://localhost:4000/TIL-%EB%94%94%EB%A9%94%ED%83%80</link>
         <guid isPermaLink="true">http://localhost:4000/TIL-%EB%94%94%EB%A9%94%ED%83%80</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>TIL-TF-IDF</title>
-        
-          <description>&lt;h1 id=&quot;td-idf-용어-빈도---역-문서-빈도&quot;&gt;TD-IDF (용어 빈도 - 역 문서 빈도)&lt;/h1&gt;
-
-</description>
-        
-        <pubDate>Tue, 14 Mar 2023 00:00:00 +0900</pubDate>
-        <link>
-        http://localhost:4000/TIL-TFIDF</link>
-        <guid isPermaLink="true">http://localhost:4000/TIL-TFIDF</guid>
       </item>
       
     

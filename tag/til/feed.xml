@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/til/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-03-14T22:53:09+09:00</updated>
+  <updated>2023-03-15T23:57:21+09:00</updated>
   <id>http://localhost:4000/tag/til/feed.xml</id>
 
   
@@ -32,89 +32,100 @@
 
   
     <entry>
-      <title type="html">TIL-TF-IDF</title>
-      <link href="http://localhost:4000/TIL-TFIDF" rel="alternate" type="text/html" title="TIL-TF-IDF" />
-      <published>2023-03-14T00:00:00+09:00</published>
-      <updated>2023-03-14T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-TFIDF</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-TFIDF">&lt;h1 id=&quot;td-idf-용어-빈도---역-문서-빈도&quot;&gt;TD-IDF (용어 빈도 - 역 문서 빈도)&lt;/h1&gt;
+      <title type="html">TIL-PyMySQL</title>
+      <link href="http://localhost:4000/TIL-PyMySQL" rel="alternate" type="text/html" title="TIL-PyMySQL" />
+      <published>2023-03-15T00:00:00+09:00</published>
+      <updated>2023-03-15T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-PyMySQL</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-PyMySQL">&lt;h1 id=&quot;pymysql&quot;&gt;PyMySQL&lt;/h1&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;TF-IDF; Term Frequency-Inverse Document Frequency’&lt;/li&gt;
-  &lt;li&gt;정보 검색에서 &lt;strong&gt;문서의 내용&lt;/strong&gt;을 &lt;strong&gt;수치화&lt;/strong&gt;하는 데에 사용되는 방법입니다.&lt;/li&gt;
-  &lt;li&gt;단어의 빈도와 문서 내에서의 출현 빈도를 고려하여 &lt;strong&gt;각 단어&lt;/strong&gt;에 대한 &lt;strong&gt;가중치&lt;/strong&gt;를 계산합니다.&lt;/li&gt;
-  &lt;li&gt;문서 검색, 정보 검색, 문서 분류 등의 분야에서 널리 사용되는 기법입니다.&lt;/li&gt;
-  &lt;li&gt;다양한 자연어 처리 기술에서 활용됩니다.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;MySQL을 Python에서 사용하면서 데이터를 저장 및 관리를 하면 DB를 다룹니다.&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;h2 id=&quot;개념&quot;&gt;개념&lt;/h2&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pymysql&lt;/span&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Term Frequency(TF)
-    &lt;ul&gt;
-      &lt;li&gt;문서에서 단어가 얼마나 자주 나타나는지를 측정합니다.&lt;/li&gt;
-      &lt;li&gt;각 단어의 TF는 &lt;strong&gt;해당 단어&lt;/strong&gt;가 &lt;strong&gt;문서&lt;/strong&gt;에 &lt;strong&gt;나타나는 빈도&lt;/strong&gt;를 나타냅니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Inverse Document Frequecncy(IDF)
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;전체 문서 집합&lt;/strong&gt;에서 &lt;strong&gt;단어&lt;/strong&gt;가 얼마나 &lt;strong&gt;희귀&lt;/strong&gt;한지를 측정합니다.&lt;/li&gt;
-      &lt;li&gt;IDF는 문서 내에서 단어가 나타날 때마다 &lt;strong&gt;역수&lt;/strong&gt;를 취하여 계산됩니다.&lt;/li&gt;
-      &lt;li&gt;즉, 문서 집합에서 자주 나타나는 단어에는 낮은 가중치가 부여되고, 드물기 나타나는 단어에는 높은 가중치가 부여됩니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+&lt;span class=&quot;c1&quot;&gt;# MySQL 서버에 연결합니다.
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;conn&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pymysql&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;connect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;host&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;127.0.0.1:5660&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 호스트 이름
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;user&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;root&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 사용자 이름
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;password&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;0000&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 비밀번호
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;db&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;soloDB&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 데이터베이스 이름
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;charset&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;utf8&apos;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 인코딩 설정
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h2 id=&quot;계산&quot;&gt;계산&lt;/h2&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---------------------------------------------------------------------------
 
-&lt;ul&gt;
-  &lt;li&gt;각 단어의 &lt;strong&gt;TF&lt;/strong&gt;와 &lt;strong&gt;IDF&lt;/strong&gt;를 &lt;strong&gt;곱&lt;/strong&gt;하여 계산됩니다.
-    &lt;ul&gt;
-      &lt;li&gt;이 값은 각 단어의 중요도를 나타냅니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;높은 TF-IDF&lt;/strong&gt; 값을 가지는 단어는 문서의 &lt;strong&gt;주요 특징을 잘 나타내는 단어&lt;/strong&gt;라고 할 수 있습니다.&lt;/li&gt;
-  &lt;li&gt;이를 통해 문서 검색 등에서 관련성이 높은 문서를 더 잘 찾을 수 있습니다.&lt;/li&gt;
-&lt;/ul&gt;
+gaierror                                  Traceback (most recent call last)
 
-&lt;h2 id=&quot;예시&quot;&gt;예시&lt;/h2&gt;
+~\anaconda3\envs\chanp5660\lib\site-packages\pymysql\connections.py in connect(self, sock)
+    613                             sock = socket.create_connection(
+--&amp;gt; 614                                 (self.host, self.port), self.connect_timeout, **kwargs
+    615                             )
 
-&lt;ul&gt;
-  &lt;li&gt;dog 라는 단어가 문서에서 5번 나타났습니다.&lt;/li&gt;
-  &lt;li&gt;전체 문서 집합에서 dog 라는 단어가 드물게 나타났다면, TF-IDF 값은 높아집니다.&lt;/li&gt;
-  &lt;li&gt;이는 단어가 문서의 특징을 잘 나타내는 중요한 단어라는 것을 나타내며, 이를 통해 이 문서가 dog과 관련이 높다는 것을 나타내는 검색 결과에서 상위에 나타날 수 있게 됩니다.&lt;/li&gt;
-&lt;/ul&gt;
 
-&lt;h2 id=&quot;활용&quot;&gt;활용&lt;/h2&gt;
+~\anaconda3\envs\chanp5660\lib\socket.py in create_connection(address, timeout, source_address)
+    706     err = None
+--&amp;gt; 707     for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+    708         af, socktype, proto, canonname, sa = res
 
-&lt;ul&gt;
-  &lt;li&gt;단어의 빈도수를 고려하기 때문에, 자주 나타나는 단어에 대해서는 높은 가중치를 부여하고, 드물게 나타나는 단어에 대해서는 높은 가중치를 부여합니다.
-    &lt;ul&gt;
-      &lt;li&gt;이러한 방식은 다른 기술과 함께 사용될 때 좋은 결과를 낼 수 있습니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;불용어 제거&lt;/strong&gt;에도 사용할 수 있습니다.
-    &lt;ul&gt;
-      &lt;li&gt;자주 나타나지만 분석에 필요하지 않은 단어들을 제거하고, 중요한 단어들에 대해서만 TF-IDF 가중치를 계산하여 분석을 수행할 수 있습니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;다른 기술과 결합하여 &lt;strong&gt;토픽 모델링&lt;/strong&gt;이나 &lt;strong&gt;감성 분석&lt;/strong&gt; 등의 작업에서도 활용됩니다.
-    &lt;ul&gt;
-      &lt;li&gt;이러한 분야에서도 TF-IDF를 활용하여 각 단어의 중요도를 계산하고, 이를 바탕으로 분석을 수행합니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
 
-&lt;h2 id=&quot;한계&quot;&gt;한계&lt;/h2&gt;
+~\anaconda3\envs\chanp5660\lib\socket.py in getaddrinfo(host, port, family, type, proto, flags)
+    751     addrlist = []
+--&amp;gt; 752     for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+    753         af, socktype, proto, canonname, sa = res
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;동음이의어&lt;/strong&gt;나 &lt;strong&gt;유사어&lt;/strong&gt;의 처리에 대해서는 &lt;strong&gt;한계&lt;/strong&gt;가 있습니다.
-    &lt;ul&gt;
-      &lt;li&gt;이러한 문제를 해결하기 위해서는 &lt;strong&gt;단어 임베딩&lt;/strong&gt;(word embedding) 등의 기술을 함께 사용해야 합니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;긴 문서&lt;/strong&gt;에서는 &lt;strong&gt;단어의 빈도수&lt;/strong&gt;가 &lt;strong&gt;과도하게 높아져서&lt;/strong&gt;, 가중치가 높은 단어가 &lt;strong&gt;특별한 의미&lt;/strong&gt;를 &lt;strong&gt;가지지 않는&lt;/strong&gt; 경우도 있습니다.&lt;/li&gt;
-&lt;/ul&gt;</content>
+
+gaierror: [Errno 11001] getaddrinfo failed
+
+
+During handling of the above exception, another exception occurred:
+
+
+OperationalError                          Traceback (most recent call last)
+
+C:\Users\Public\Documents\ESTsoft\CreatorTemp\ipykernel_13780\2981384421.py in &amp;lt;module&amp;gt;
+      7     password = &apos;0000&apos;, # 비밀번호
+      8     db = &apos;soloDB&apos;, # 데이터베이스 이름
+----&amp;gt; 9     charset = &apos;utf8&apos; # 인코딩 설정
+     10 )
+
+
+~\anaconda3\envs\chanp5660\lib\site-packages\pymysql\connections.py in __init__(self, user, password, host, database, unix_socket, port, charset, sql_mode, read_default_file, conv, use_unicode, client_flag, cursorclass, init_command, connect_timeout, read_default_group, autocommit, local_infile, max_allowed_packet, defer_connect, auth_plugin_map, read_timeout, write_timeout, bind_address, binary_prefix, program_name, server_public_key, ssl, ssl_ca, ssl_cert, ssl_disabled, ssl_key, ssl_verify_cert, ssl_verify_identity, compress, named_pipe, passwd, db)
+    351             self._sock = None
+    352         else:
+--&amp;gt; 353             self.connect()
+    354 
+    355     def __enter__(self):
+
+
+~\anaconda3\envs\chanp5660\lib\site-packages\pymysql\connections.py in connect(self, sock)
+    662                 if DEBUG:
+    663                     print(exc.traceback)
+--&amp;gt; 664                 raise exc
+    665 
+    666             # If e is neither DatabaseError or IOError, It&apos;s a bug.
+
+
+OperationalError: (2003, &quot;Can&apos;t connect to MySQL server on &apos;127.0.0.1:5660&apos; ([Errno 11001] getaddrinfo failed)&quot;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pymysql&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# MySQL 서버에 연결합니다.
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;conn&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pymysql&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;connect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;host&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;localhost&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# 호스트 이름
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;username&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# 사용자 이름
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;password&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;password&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# 비밀번호
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;db&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;database_name&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# 데이터베이스 이름
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;charset&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;utf8mb4&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# 인코딩 설정
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;cursorclass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pymysql&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cursors&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DictCursor&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# 결과를 딕셔너리 형태로 받아옵니다.
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
 
       
       
@@ -137,7 +148,46 @@
       
 
       
-        <summary type="html">TD-IDF (용어 빈도 - 역 문서 빈도)</summary>
+        <summary type="html">PyMySQL</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">TIL-위플랫</title>
+      <link href="http://localhost:4000/TIL-%EC%9C%84%ED%94%8C%EB%9E%AB" rel="alternate" type="text/html" title="TIL-위플랫" />
+      <published>2023-03-15T00:00:00+09:00</published>
+      <updated>2023-03-15T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-%EC%9C%84%ED%94%8C%EB%9E%AB</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-%EC%9C%84%ED%94%8C%EB%9E%AB">&lt;h1 id=&quot;위플랫&quot;&gt;위플랫&lt;/h1&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">위플랫</summary>
       
 
       
@@ -258,6 +308,119 @@
 
       
         <summary type="html">디메타</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">TIL-TF-IDF</title>
+      <link href="http://localhost:4000/TIL-TFIDF" rel="alternate" type="text/html" title="TIL-TF-IDF" />
+      <published>2023-03-14T00:00:00+09:00</published>
+      <updated>2023-03-14T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-TFIDF</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-TFIDF">&lt;h1 id=&quot;tf-idf-용어-빈도---역-문서-빈도&quot;&gt;TF-IDF (용어 빈도 - 역 문서 빈도)&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;TF-IDF; Term Frequency-Inverse Document Frequency’&lt;/li&gt;
+  &lt;li&gt;정보 검색에서 &lt;strong&gt;문서의 내용&lt;/strong&gt;을 &lt;strong&gt;수치화&lt;/strong&gt;하는 데에 사용되는 방법입니다.&lt;/li&gt;
+  &lt;li&gt;단어의 빈도와 문서 내에서의 출현 빈도를 고려하여 &lt;strong&gt;각 단어&lt;/strong&gt;에 대한 &lt;strong&gt;가중치&lt;/strong&gt;를 계산합니다.&lt;/li&gt;
+  &lt;li&gt;문서 검색, 정보 검색, 문서 분류 등의 분야에서 널리 사용되는 기법입니다.&lt;/li&gt;
+  &lt;li&gt;다양한 자연어 처리 기술에서 활용됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;개념&quot;&gt;개념&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Term Frequency(TF)
+    &lt;ul&gt;
+      &lt;li&gt;문서에서 단어가 얼마나 자주 나타나는지를 측정합니다.&lt;/li&gt;
+      &lt;li&gt;각 단어의 TF는 &lt;strong&gt;해당 단어&lt;/strong&gt;가 &lt;strong&gt;문서&lt;/strong&gt;에 &lt;strong&gt;나타나는 빈도&lt;/strong&gt;를 나타냅니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Inverse Document Frequecncy(IDF)
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;전체 문서 집합&lt;/strong&gt;에서 &lt;strong&gt;단어&lt;/strong&gt;가 얼마나 &lt;strong&gt;희귀&lt;/strong&gt;한지를 측정합니다.&lt;/li&gt;
+      &lt;li&gt;IDF는 문서 내에서 단어가 나타날 때마다 &lt;strong&gt;역수&lt;/strong&gt;를 취하여 계산됩니다.&lt;/li&gt;
+      &lt;li&gt;즉, 문서 집합에서 자주 나타나는 단어에는 낮은 가중치가 부여되고, 드물기 나타나는 단어에는 높은 가중치가 부여됩니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;계산&quot;&gt;계산&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;각 단어의 &lt;strong&gt;TF&lt;/strong&gt;와 &lt;strong&gt;IDF&lt;/strong&gt;를 &lt;strong&gt;곱&lt;/strong&gt;하여 계산됩니다.
+    &lt;ul&gt;
+      &lt;li&gt;이 값은 각 단어의 중요도를 나타냅니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;높은 TF-IDF&lt;/strong&gt; 값을 가지는 단어는 문서의 &lt;strong&gt;주요 특징을 잘 나타내는 단어&lt;/strong&gt;라고 할 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;이를 통해 문서 검색 등에서 관련성이 높은 문서를 더 잘 찾을 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;예시&quot;&gt;예시&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;dog 라는 단어가 문서에서 5번 나타났습니다.&lt;/li&gt;
+  &lt;li&gt;전체 문서 집합에서 dog 라는 단어가 드물게 나타났다면, TF-IDF 값은 높아집니다.&lt;/li&gt;
+  &lt;li&gt;이는 단어가 문서의 특징을 잘 나타내는 중요한 단어라는 것을 나타내며, 이를 통해 이 문서가 dog과 관련이 높다는 것을 나타내는 검색 결과에서 상위에 나타날 수 있게 됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;활용&quot;&gt;활용&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;단어의 빈도수를 고려하기 때문에, 자주 나타나는 단어에 대해서는 높은 가중치를 부여하고, 드물게 나타나는 단어에 대해서는 높은 가중치를 부여합니다.
+    &lt;ul&gt;
+      &lt;li&gt;이러한 방식은 다른 기술과 함께 사용될 때 좋은 결과를 낼 수 있습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;불용어 제거&lt;/strong&gt;에도 사용할 수 있습니다.
+    &lt;ul&gt;
+      &lt;li&gt;자주 나타나지만 분석에 필요하지 않은 단어들을 제거하고, 중요한 단어들에 대해서만 TF-IDF 가중치를 계산하여 분석을 수행할 수 있습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;다른 기술과 결합하여 &lt;strong&gt;토픽 모델링&lt;/strong&gt;이나 &lt;strong&gt;감성 분석&lt;/strong&gt; 등의 작업에서도 활용됩니다.
+    &lt;ul&gt;
+      &lt;li&gt;이러한 분야에서도 TF-IDF를 활용하여 각 단어의 중요도를 계산하고, 이를 바탕으로 분석을 수행합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;한계&quot;&gt;한계&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;동음이의어&lt;/strong&gt;나 &lt;strong&gt;유사어&lt;/strong&gt;의 처리에 대해서는 &lt;strong&gt;한계&lt;/strong&gt;가 있습니다.
+    &lt;ul&gt;
+      &lt;li&gt;이러한 문제를 해결하기 위해서는 &lt;strong&gt;단어 임베딩&lt;/strong&gt;(word embedding) 등의 기술을 함께 사용해야 합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;긴 문서&lt;/strong&gt;에서는 &lt;strong&gt;단어의 빈도수&lt;/strong&gt;가 &lt;strong&gt;과도하게 높아져서&lt;/strong&gt;, 가중치가 높은 단어가 &lt;strong&gt;특별한 의미&lt;/strong&gt;를 &lt;strong&gt;가지지 않는&lt;/strong&gt; 경우도 있습니다.&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">TF-IDF (용어 빈도 - 역 문서 빈도)</summary>
       
 
       
@@ -532,6 +695,82 @@
     </entry>
   
     <entry>
+      <title type="html">TIL-whiten</title>
+      <link href="http://localhost:4000/TIL-whiten" rel="alternate" type="text/html" title="TIL-whiten" />
+      <published>2023-03-11T00:00:00+09:00</published>
+      <updated>2023-03-11T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-whiten</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-whiten">&lt;h1 id=&quot;클러스터링에서-whiten-&quot;&gt;클러스터링에서 Whiten ?&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;데이터를 더욱 효과적으로 클러스터링하기 위해 whiten이라는 전처리 기술을 사용합니다.
+    &lt;ul&gt;
+      &lt;li&gt;클러스터링은 비슷한 특징을 가진 데이터들을 그룹으로 묶는 기술입니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;whiten 처리를 하면 데이터의 &lt;strong&gt;스케일링&lt;/strong&gt;과 &lt;strong&gt;정규화&lt;/strong&gt;를 수행하고, 각 변수간의 상관관계를 줄입니다.
+    &lt;ul&gt;
+      &lt;li&gt;이렇게 처리된 데이터는 클러스터링 알고리즘에서 더욱 정확하게 작동하게 됩니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;즉, whiten은 데이터를 변환하여 클러스터링 알고리즘의 성능을 높이는 기술입니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;예시&quot;&gt;예시&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;이차원의 데이터가 주어질 때, 그대로 클러스터링 알고리즘에 적용하면, 각 변수의 범위와 분산이 다르기 때문에 올바른 클러스터링 결과를 얻기 어렵습니다. 따라서 whiten 처리를 수행하여 데이터를 반환합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[[1, 2],
+ [2, 4],
+ [3, 6],
+ [4, 8]]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;데이터를 whiten 처리하면, 데이터의 분산이 모두 1이 되고, 각 변수간의 상관관계가 제거 됩니다. 이전의 데이터를 whiten 처리한 결과는 아래와 같습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[[-1.34164079, -1.34164079],
+ [ 0.        ,  0.        ],
+ [ 1.34164079,  1.34164079],
+ [ 2.68328157,  2.68328157]]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;변수간의 상관관계가 없어지고 분산이 같아지기 때문에 더욱 정확한 클러스터링 결과를 얻을 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">클러스터링에서 Whiten ?</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">TIL-SVD</title>
       <link href="http://localhost:4000/TIL-SVD" rel="alternate" type="text/html" title="TIL-SVD" />
       <published>2023-03-11T00:00:00+09:00</published>
@@ -750,253 +989,6 @@
 
       
         <summary type="html">Attention이란?</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">TIL-whiten</title>
-      <link href="http://localhost:4000/TIL-whiten" rel="alternate" type="text/html" title="TIL-whiten" />
-      <published>2023-03-11T00:00:00+09:00</published>
-      <updated>2023-03-11T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-whiten</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-whiten">&lt;h1 id=&quot;클러스터링에서-whiten-&quot;&gt;클러스터링에서 Whiten ?&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;데이터를 더욱 효과적으로 클러스터링하기 위해 whiten이라는 전처리 기술을 사용합니다.
-    &lt;ul&gt;
-      &lt;li&gt;클러스터링은 비슷한 특징을 가진 데이터들을 그룹으로 묶는 기술입니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;whiten 처리를 하면 데이터의 &lt;strong&gt;스케일링&lt;/strong&gt;과 &lt;strong&gt;정규화&lt;/strong&gt;를 수행하고, 각 변수간의 상관관계를 줄입니다.
-    &lt;ul&gt;
-      &lt;li&gt;이렇게 처리된 데이터는 클러스터링 알고리즘에서 더욱 정확하게 작동하게 됩니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;즉, whiten은 데이터를 변환하여 클러스터링 알고리즘의 성능을 높이는 기술입니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;예시&quot;&gt;예시&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;이차원의 데이터가 주어질 때, 그대로 클러스터링 알고리즘에 적용하면, 각 변수의 범위와 분산이 다르기 때문에 올바른 클러스터링 결과를 얻기 어렵습니다. 따라서 whiten 처리를 수행하여 데이터를 반환합니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[[1, 2],
- [2, 4],
- [3, 6],
- [4, 8]]
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;데이터를 whiten 처리하면, 데이터의 분산이 모두 1이 되고, 각 변수간의 상관관계가 제거 됩니다. 이전의 데이터를 whiten 처리한 결과는 아래와 같습니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[[-1.34164079, -1.34164079],
- [ 0.        ,  0.        ],
- [ 1.34164079,  1.34164079],
- [ 2.68328157,  2.68328157]]
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;변수간의 상관관계가 없어지고 분산이 같아지기 때문에 더욱 정확한 클러스터링 결과를 얻을 수 있습니다.&lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">클러스터링에서 Whiten ?</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">TIL-Kaggle</title>
-      <link href="http://localhost:4000/TIL-Kaggle" rel="alternate" type="text/html" title="TIL-Kaggle" />
-      <published>2023-03-10T00:00:00+09:00</published>
-      <updated>2023-03-10T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-Kaggle</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-Kaggle">&lt;h1 id=&quot;kaggle&quot;&gt;Kaggle&lt;/h1&gt;
-
-&lt;h2 id=&quot;정의&quot;&gt;정의&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;실제 데이터 세트로 작업하는 실용적인 기술 습득&lt;/li&gt;
-  &lt;li&gt;자신의 포트폴리오 프로젝트 개발&lt;/li&gt;
-  &lt;li&gt;Kaggle 커뮤니티를 만나고 성장&lt;/li&gt;
-  &lt;li&gt;새로운 도메인 또는 모델 유형에 대한 경험을 얻음&lt;/li&gt;
-  &lt;li&gt;최고 성능의 머신으로 최신 정보를 얻을 수 있음&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;순서&quot;&gt;순서&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;문제 정의&lt;/li&gt;
-  &lt;li&gt;학습 데이터 받기&lt;/li&gt;
-  &lt;li&gt;기계학습 모델 개발&lt;/li&gt;
-  &lt;li&gt;테스트 데이터 평가 및 제출&lt;/li&gt;
-  &lt;li&gt;순위표에 표시&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;실제-연습&quot;&gt;실제 연습&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/&quot;&gt;Kaggle 사이트 접속&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;데이터 다운로드&lt;/li&gt;
-  &lt;li&gt;모델 개발&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;solution&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;price&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;discount_rates&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;500000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;300000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.95&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;discount_price&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;discount_rate&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;discount_rates&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;items&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;price&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;discount_price&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;price&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;discount_rate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;solution&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;price&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;discount_rates&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">Kaggle</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">TIL-HTML입력</title>
-      <link href="http://localhost:4000/TIL-HTML-%EC%9E%85%EB%A0%A5" rel="alternate" type="text/html" title="TIL-HTML입력" />
-      <published>2023-03-10T00:00:00+09:00</published>
-      <updated>2023-03-10T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-HTML%20%EC%9E%85%EB%A0%A5</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-HTML-%EC%9E%85%EB%A0%A5">&lt;h1 id=&quot;html-입력&quot;&gt;HTML 입력&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;HTML 내에서 입력을 받는 방법, 후에 입력 받은 정보로 python 코드를 실행 할 수 있도록 하려고 합니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;코드-예제-및-실행&quot;&gt;코드 예제 및 실행&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;HTML 내에서 이름, 이메일을 입력 받을 수 있도록 합니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;form method=&quot;POST&quot; action=&quot;/submit&quot;&gt;
-  &lt;label for=&quot;name&quot;&gt;Name:&lt;/label&gt;
-  &lt;input type=&quot;text&quot; id=&quot;name&quot; name=&quot;name&quot; /&gt;
-  
-  &lt;label for=&quot;email&quot;&gt;Email:&lt;/label&gt;
-  &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; /&gt;
-
-  &lt;input type=&quot;submit&quot; value=&quot;Submit&quot; /&gt;
-&lt;/form&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;python 코드 작성
-    &lt;ul&gt;
-      &lt;li&gt;해당 코드를 실행하면 로컬에서 서버가 열리면 해당 내용으로 입력을 받는다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-{python}&quot;&gt;from flask import Flask, request
-
-app = Flask(__name__)
-
-@app.route(&apos;/submit&apos;, methods=[&apos;POST&apos;])
-def submit():
-    name = request.form[&apos;name&apos;]
-    email = request.form[&apos;email&apos;]
-    print(&apos;Name:&apos;, name)
-    print(&apos;Email:&apos;, email)
-    return &apos;Success!&apos;
-
-if __name__ == &apos;__main__&apos;:
-    app.run()
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;flask&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Flask&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;app&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Flask&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__name__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;o&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;route&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;/submit&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;methods&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;POST&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;submit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;form&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;name&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;email&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;form&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;email&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Name:&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Email:&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;email&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;Success!&apos;&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__name__&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;__main__&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">HTML 입력</summary>
       
 
       

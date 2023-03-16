@@ -4,7 +4,55 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
-        <loc>http://localhost:4000/TIL-%EB%94%94%EB%A9%94%ED%83%80.html</loc>
+        <loc>http://localhost:4000/%EB%A9%B4%EC%A0%91%EC%A7%88%EB%AC%B8.html</loc>
+        
+        <lastmod>2023-03-15T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/TIL-%EC%9C%84%ED%94%8C%EB%9E%AB.html</loc>
+        
+        <lastmod>2023-03-15T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/TIL-PyMySQL.html</loc>
+        
+        <lastmod>2023-03-15T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/TIL-TFIDF.html</loc>
         
         <lastmod>2023-03-14T00:00:00+09:00</lastmod>
         
@@ -20,7 +68,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/TIL-TFIDF.html</loc>
+        <loc>http://localhost:4000/TIL-%EB%94%94%EB%A9%94%ED%83%80.html</loc>
         
         <lastmod>2023-03-14T00:00:00+09:00</lastmod>
         
