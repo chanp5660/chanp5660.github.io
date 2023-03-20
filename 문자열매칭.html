@@ -56,7 +56,7 @@
     <meta property="og:site_name" content="Engineer Chanp5660" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="문자열매칭" />
-    <meta property="og:description" content="문자열매칭 기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것 문자열매칭 1 (KMP 알고리즘; Knuth-Morris-Pratt) 문자열에 다른 문자열이 어디에 있는지 인덱스를 출력한다. def kmp(text, pattern): n, m = len(text), len(pattern) # 접두사와 접미사가 일치하는 위치를 계산합니다 lps = compute_lps(pattern) # 패턴 문자열과 텍스트 문자열을 비교합니다 i, j = 0, 0 while i" />
+    <meta property="og:description" content="문자열매칭 개념 공부는 동비나 유투브를 참조해서 공부하면 좋습니다. 문자열매칭 1 (KMP 알고리즘; Knuth-Morris-Pratt) 문서 내에서 원하는 문자열의 위치를 찾습니다. 접두사와 접미사를 사용해서 진행합니다. 문자열 매칭에 실패하면 얼마나 점프할건지에 대한 정보를 저장하여 검색 횟수를 줄이는게 목표입니다. def kmp(text, pattern): n, m = len(text), len(pattern) # 접두사와 접미사가 일치하는 위치를 계산합니다 lps" />
     <meta property="og:url" content="http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EB%A7%A4%EC%B9%AD" />
     <meta property="og:image" content="http://localhost:4000/assets/built/images/문자열매칭.png" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
@@ -66,7 +66,7 @@
     <meta property="article:tag" content="Programing" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="문자열매칭" />
-    <meta name="twitter:description" content="문자열매칭 기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것 문자열매칭 1 (KMP 알고리즘; Knuth-Morris-Pratt) 문자열에 다른 문자열이 어디에 있는지 인덱스를 출력한다. def kmp(text, pattern): n, m = len(text), len(pattern) # 접두사와 접미사가 일치하는 위치를 계산합니다 lps = compute_lps(pattern) # 패턴 문자열과 텍스트 문자열을 비교합니다 i, j = 0, 0 while i" />
+    <meta name="twitter:description" content="문자열매칭 개념 공부는 동비나 유투브를 참조해서 공부하면 좋습니다. 문자열매칭 1 (KMP 알고리즘; Knuth-Morris-Pratt) 문서 내에서 원하는 문자열의 위치를 찾습니다. 접두사와 접미사를 사용해서 진행합니다. 문자열 매칭에 실패하면 얼마나 점프할건지에 대한 정보를 저장하여 검색 횟수를 줄이는게 목표입니다. def kmp(text, pattern): n, m = len(text), len(pattern) # 접두사와 접미사가 일치하는 위치를 계산합니다 lps" />
     <meta name="twitter:url" content="http://localhost:4000/" />
     <meta name="twitter:image" content="http://localhost:4000/assets/built/images/문자열매칭.png" />
     <meta name="twitter:label1" content="Written by" />
@@ -98,7 +98,7 @@
         "@type": "WebPage",
         "@id": "http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EB%A7%A4%EC%B9%AD"
     },
-    "description": "문자열매칭 기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것 문자열매칭 1 (KMP 알고리즘; Knuth-Morris-Pratt) 문자열에 다른 문자열이 어디에 있는지 인덱스를 출력한다. def kmp(text, pattern): n, m = len(text), len(pattern) # 접두사와 접미사가 일치하는 위치를 계산합니다 lps = compute_lps(pattern) # 패턴 문자열과 텍스트 문자열을 비교합니다 i, j = 0, 0 while i"
+    "description": "문자열매칭 개념 공부는 동비나 유투브를 참조해서 공부하면 좋습니다. 문자열매칭 1 (KMP 알고리즘; Knuth-Morris-Pratt) 문서 내에서 원하는 문자열의 위치를 찾습니다. 접두사와 접미사를 사용해서 진행합니다. 문자열 매칭에 실패하면 얼마나 점프할건지에 대한 정보를 저장하여 검색 횟수를 줄이는게 목표입니다. def kmp(text, pattern): n, m = len(text), len(pattern) # 접두사와 접미사가 일치하는 위치를 계산합니다 lps"
 }
     </script>
 
@@ -201,14 +201,16 @@ into the {body} of the default.hbs template -->
                 <div class="kg-card-markdown">
                     <h1 id="문자열매칭">문자열매칭</h1>
 
-<blockquote>
-  <p>기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것</p>
-</blockquote>
+<p>개념 공부는 <a href="https://www.youtube.com/watch?v=yWWbLrV4PZ8">동비나 유투브</a>를 참조해서 공부하면 좋습니다.</p>
 
 <h2 id="문자열매칭-1-kmp-알고리즘-knuth-morris-pratt">문자열매칭 1 (KMP 알고리즘; Knuth-Morris-Pratt)</h2>
 
 <blockquote>
-  <p>문자열에 다른 문자열이 어디에 있는지 인덱스를 출력한다.</p>
+  <p>문서 내에서 원하는 문자열의 위치를 찾습니다.</p>
+  <ul>
+    <li>접두사와 접미사를 사용해서 진행합니다.</li>
+    <li>문자열 매칭에 실패하면 얼마나 점프할건지에 대한 정보를 저장하여 검색 횟수를 줄이는게 목표입니다.</li>
+  </ul>
 </blockquote>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">kmp</span><span class="p">(</span><span class="n">text</span><span class="p">,</span> <span class="n">pattern</span><span class="p">):</span>
@@ -388,6 +390,12 @@ into the {body} of the default.hbs template -->
                                   
                                 
                                   
+                                
+                                  
+                                
+                                  
+                                
+                                  
                                     
                                         
                                         
@@ -528,9 +536,6 @@ into the {body} of the default.hbs template -->
                                 
                                   
                                     
-                                        
-                                        
-                                    
                                   
                                 
                                   
@@ -562,6 +567,9 @@ into the {body} of the default.hbs template -->
                                   
                                 
                                   
+                                    
+                                        
+                                        
                                     
                                   
                                 
@@ -826,12 +834,12 @@ into the {body} of the default.hbs template -->
 
     <article class="post-card post-template">
         
-            <a class="post-card-image-link" href="/%EB%AC%B8%EC%9E%90%EC%97%B4%EB%B9%84%EA%B5%90">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/문자열비교.png)"></div>
+            <a class="post-card-image-link" href="/%EB%B2%84%EB%B8%94%EC%A0%95%EB%A0%AC">
+                <div class="post-card-image" style="background-image: url(/assets/built/images/버블정렬.png)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/%EB%AC%B8%EC%9E%90%EC%97%B4%EB%B9%84%EA%B5%90">
+            <a class="post-card-content-link" href="/%EB%B2%84%EB%B8%94%EC%A0%95%EB%A0%AC">
                 <header class="post-card-header">
                     
                         
@@ -845,11 +853,11 @@ into the {body} of the default.hbs template -->
                         
                     
 
-                    <h2 class="post-card-title">문자열비교</h2>
+                    <h2 class="post-card-title">버블정렬</h2>
                 </header>
                 <section class="post-card-excerpt">
                     
-                        <p>문자열비교
+                        <p>버블정렬 bubble Sorting
 
 </p>
                     
@@ -884,12 +892,12 @@ into the {body} of the default.hbs template -->
 
     <article class="post-card post-template">
         
-            <a class="post-card-image-link" href="/%EB%84%88%EB%B9%84%EC%9A%B0%EC%84%A0%ED%83%90%EC%83%89">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/너비우선탐색.png)"></div>
+            <a class="post-card-image-link" href="/%EB%B6%84%EC%88%98%EC%9D%98%EB%8D%A7%EC%85%88">
+                <div class="post-card-image" style="background-image: url(/assets/built/images/분수의덧셈.png)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/%EB%84%88%EB%B9%84%EC%9A%B0%EC%84%A0%ED%83%90%EC%83%89">
+            <a class="post-card-content-link" href="/%EB%B6%84%EC%88%98%EC%9D%98%EB%8D%A7%EC%85%88">
                 <header class="post-card-header">
                     
                         
@@ -903,11 +911,11 @@ into the {body} of the default.hbs template -->
                         
                     
 
-                    <h2 class="post-card-title">너비우선탐색</h2>
+                    <h2 class="post-card-title">분수의덧셈</h2>
                 </header>
                 <section class="post-card-excerpt">
                     
-                        <p>너비 우선 탐색 BFS ; Breadth First Search
+                        <p>분수의 덧셈
 
 </p>
                     

@@ -56,7 +56,7 @@
     <meta property="og:site_name" content="Engineer Chanp5660" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="TIL-PyMySQL" />
-    <meta property="og:description" content="PyMySQL MySQL을 Python에서 사용하면서 데이터를 저장 및 관리를 하면 DB를 다룹니다. import pymysql # MySQL 서버에 연결합니다. conn = pymysql.connect( host = '127.0.0.1:5660', # 호스트 이름 user = 'root', # 사용자 이름 password = '0000', # 비밀번호 db = 'soloDB', # 데이터베이스 이름 charset = 'utf8' # 인코딩 설정 )" />
+    <meta property="og:description" content="PyMySQL MySQL을 Python에서 사용하면서 데이터를 저장 및 관리를 하면 DB를 다룹니다. 블로그 링크에 사진과 함께 MySQL 설치 방법과 WorkBench 사용하는 방법이 나와있다. 연결 import pymysql # MySQL 서버에 연결합니다. conn = pymysql.connect( host = '127.0.0.1', # 호스트 이름 port = 3306, user = 'root', # 사용자 이름 password = 'alclssha12'," />
     <meta property="og:url" content="http://localhost:4000/TIL-PyMySQL" />
     <meta property="og:image" content="http://localhost:4000/assets/built/images/PyMySQL.png" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
@@ -66,7 +66,7 @@
     <meta property="article:tag" content="Exitem" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="TIL-PyMySQL" />
-    <meta name="twitter:description" content="PyMySQL MySQL을 Python에서 사용하면서 데이터를 저장 및 관리를 하면 DB를 다룹니다. import pymysql # MySQL 서버에 연결합니다. conn = pymysql.connect( host = '127.0.0.1:5660', # 호스트 이름 user = 'root', # 사용자 이름 password = '0000', # 비밀번호 db = 'soloDB', # 데이터베이스 이름 charset = 'utf8' # 인코딩 설정 )" />
+    <meta name="twitter:description" content="PyMySQL MySQL을 Python에서 사용하면서 데이터를 저장 및 관리를 하면 DB를 다룹니다. 블로그 링크에 사진과 함께 MySQL 설치 방법과 WorkBench 사용하는 방법이 나와있다. 연결 import pymysql # MySQL 서버에 연결합니다. conn = pymysql.connect( host = '127.0.0.1', # 호스트 이름 port = 3306, user = 'root', # 사용자 이름 password = 'alclssha12'," />
     <meta name="twitter:url" content="http://localhost:4000/" />
     <meta name="twitter:image" content="http://localhost:4000/assets/built/images/PyMySQL.png" />
     <meta name="twitter:label1" content="Written by" />
@@ -98,7 +98,7 @@
         "@type": "WebPage",
         "@id": "http://localhost:4000/TIL-PyMySQL"
     },
-    "description": "PyMySQL MySQL을 Python에서 사용하면서 데이터를 저장 및 관리를 하면 DB를 다룹니다. import pymysql # MySQL 서버에 연결합니다. conn = pymysql.connect( host = '127.0.0.1:5660', # 호스트 이름 user = 'root', # 사용자 이름 password = '0000', # 비밀번호 db = 'soloDB', # 데이터베이스 이름 charset = 'utf8' # 인코딩 설정 )"
+    "description": "PyMySQL MySQL을 Python에서 사용하면서 데이터를 저장 및 관리를 하면 DB를 다룹니다. 블로그 링크에 사진과 함께 MySQL 설치 방법과 WorkBench 사용하는 방법이 나와있다. 연결 import pymysql # MySQL 서버에 연결합니다. conn = pymysql.connect( host = '127.0.0.1', # 호스트 이름 port = 3306, user = 'root', # 사용자 이름 password = 'alclssha12',"
 }
     </script>
 
@@ -205,89 +205,154 @@ into the {body} of the default.hbs template -->
   <p>MySQL을 Python에서 사용하면서 데이터를 저장 및 관리를 하면 DB를 다룹니다.</p>
 </blockquote>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">pymysql</span>
+<ul>
+  <li><a href="https://dearmycode.tistory.com/15">블로그 링크</a>에 사진과 함께 MySQL 설치 방법과 WorkBench 사용하는 방법이 나와있다.</li>
+</ul>
 
-<span class="c1"># MySQL 서버에 연결합니다.
-</span><span class="n">conn</span> <span class="o">=</span> <span class="n">pymysql</span><span class="p">.</span><span class="n">connect</span><span class="p">(</span>
-    <span class="n">host</span> <span class="o">=</span> <span class="s">'127.0.0.1:5660'</span><span class="p">,</span> <span class="c1"># 호스트 이름
-</span>    <span class="n">user</span> <span class="o">=</span> <span class="s">'root'</span><span class="p">,</span> <span class="c1"># 사용자 이름
-</span>    <span class="n">password</span> <span class="o">=</span> <span class="s">'0000'</span><span class="p">,</span> <span class="c1"># 비밀번호
-</span>    <span class="n">db</span> <span class="o">=</span> <span class="s">'soloDB'</span><span class="p">,</span> <span class="c1"># 데이터베이스 이름
-</span>    <span class="n">charset</span> <span class="o">=</span> <span class="s">'utf8'</span> <span class="c1"># 인코딩 설정
-</span><span class="p">)</span>
-</code></pre></div></div>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---------------------------------------------------------------------------
-
-gaierror                                  Traceback (most recent call last)
-
-~\anaconda3\envs\chanp5660\lib\site-packages\pymysql\connections.py in connect(self, sock)
-    613                             sock = socket.create_connection(
---&gt; 614                                 (self.host, self.port), self.connect_timeout, **kwargs
-    615                             )
-
-
-~\anaconda3\envs\chanp5660\lib\socket.py in create_connection(address, timeout, source_address)
-    706     err = None
---&gt; 707     for res in getaddrinfo(host, port, 0, SOCK_STREAM):
-    708         af, socktype, proto, canonname, sa = res
-
-
-~\anaconda3\envs\chanp5660\lib\socket.py in getaddrinfo(host, port, family, type, proto, flags)
-    751     addrlist = []
---&gt; 752     for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
-    753         af, socktype, proto, canonname, sa = res
-
-
-gaierror: [Errno 11001] getaddrinfo failed
-
-
-During handling of the above exception, another exception occurred:
-
-
-OperationalError                          Traceback (most recent call last)
-
-C:\Users\Public\Documents\ESTsoft\CreatorTemp\ipykernel_13780\2981384421.py in &lt;module&gt;
-      7     password = '0000', # 비밀번호
-      8     db = 'soloDB', # 데이터베이스 이름
-----&gt; 9     charset = 'utf8' # 인코딩 설정
-     10 )
-
-
-~\anaconda3\envs\chanp5660\lib\site-packages\pymysql\connections.py in __init__(self, user, password, host, database, unix_socket, port, charset, sql_mode, read_default_file, conv, use_unicode, client_flag, cursorclass, init_command, connect_timeout, read_default_group, autocommit, local_infile, max_allowed_packet, defer_connect, auth_plugin_map, read_timeout, write_timeout, bind_address, binary_prefix, program_name, server_public_key, ssl, ssl_ca, ssl_cert, ssl_disabled, ssl_key, ssl_verify_cert, ssl_verify_identity, compress, named_pipe, passwd, db)
-    351             self._sock = None
-    352         else:
---&gt; 353             self.connect()
-    354 
-    355     def __enter__(self):
-
-
-~\anaconda3\envs\chanp5660\lib\site-packages\pymysql\connections.py in connect(self, sock)
-    662                 if DEBUG:
-    663                     print(exc.traceback)
---&gt; 664                 raise exc
-    665 
-    666             # If e is neither DatabaseError or IOError, It's a bug.
-
-
-OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1:5660' ([Errno 11001] getaddrinfo failed)")
-</code></pre></div></div>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-</code></pre></div></div>
+<h2 id="연결">연결</h2>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">pymysql</span>
 
 <span class="c1"># MySQL 서버에 연결합니다.
 </span><span class="n">conn</span> <span class="o">=</span> <span class="n">pymysql</span><span class="p">.</span><span class="n">connect</span><span class="p">(</span>
-    <span class="n">host</span><span class="o">=</span><span class="s">'localhost'</span><span class="p">,</span>  <span class="c1"># 호스트 이름
-</span>    <span class="n">user</span><span class="o">=</span><span class="s">'username'</span><span class="p">,</span>  <span class="c1"># 사용자 이름
-</span>    <span class="n">password</span><span class="o">=</span><span class="s">'password'</span><span class="p">,</span>  <span class="c1"># 비밀번호
-</span>    <span class="n">db</span><span class="o">=</span><span class="s">'database_name'</span><span class="p">,</span>  <span class="c1"># 데이터베이스 이름
-</span>    <span class="n">charset</span><span class="o">=</span><span class="s">'utf8mb4'</span><span class="p">,</span>  <span class="c1"># 인코딩 설정
+    <span class="n">host</span> <span class="o">=</span> <span class="s">'127.0.0.1'</span><span class="p">,</span> <span class="c1"># 호스트 이름
+</span>    <span class="n">port</span> <span class="o">=</span> <span class="mi">3306</span><span class="p">,</span>
+    <span class="n">user</span> <span class="o">=</span> <span class="s">'root'</span><span class="p">,</span> <span class="c1"># 사용자 이름
+</span>    <span class="n">password</span> <span class="o">=</span> <span class="s">'alclssha12'</span><span class="p">,</span> <span class="c1"># 비밀번호
+</span>    <span class="n">db</span> <span class="o">=</span> <span class="s">'sample'</span><span class="p">,</span> <span class="c1"># 데이터베이스 이름
+</span>    <span class="n">charset</span> <span class="o">=</span> <span class="s">'utf8'</span><span class="p">,</span> <span class="c1"># 인코딩 설정
 </span>    <span class="n">cursorclass</span><span class="o">=</span><span class="n">pymysql</span><span class="p">.</span><span class="n">cursors</span><span class="p">.</span><span class="n">DictCursor</span>  <span class="c1"># 결과를 딕셔너리 형태로 받아옵니다.
 </span><span class="p">)</span>
 </code></pre></div></div>
+
+<h2 id="테이블-생성">테이블 생성</h2>
+<ul>
+  <li>전체를 try로 감싸고 진행하는 것이 안전합니다.</li>
+</ul>
+
+<pre><code class="language-{python}">try:
+    --- 아래 코드 ---
+finally:
+    # 연결 종료
+    conn.close()
+</code></pre>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 테이블 생성 쿼리 실행
+</span><span class="k">with</span> <span class="n">conn</span><span class="p">.</span><span class="n">cursor</span><span class="p">()</span> <span class="k">as</span> <span class="n">cursor</span><span class="p">:</span>
+    <span class="c1"># 쿼리 작성
+</span>    <span class="n">sql</span> <span class="o">=</span> <span class="s">"""
+    CREATE TABLE IF NOT EXISTS `users` (
+        `id` int(11) NOT NULL AUTO_INCREMENT,
+        `name` varchar(50) NOT NULL,
+        `email` varchar(50) NOT NULL,
+        `age` int(11) NOT NULL,
+        PRIMARY KEY (`id`)
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+    """</span>
+
+    <span class="c1"># 쿼리 실행
+</span>    <span class="n">cursor</span><span class="p">.</span><span class="n">execute</span><span class="p">(</span><span class="n">sql</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h2 id="데이터-추가">데이터 추가</h2>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 데이터 추가 쿼리 실행
+</span><span class="k">with</span> <span class="n">conn</span><span class="p">.</span><span class="n">cursor</span><span class="p">()</span> <span class="k">as</span> <span class="n">cursor</span><span class="p">:</span>
+    <span class="c1"># 쿼리 작성
+</span>    <span class="n">sql</span> <span class="o">=</span> <span class="s">"INSERT INTO `users` (`name`, `email`, `age`) VALUES (%s, %s, %s)"</span>
+
+    <span class="c1"># 데이터 추가
+</span>    <span class="n">cursor</span><span class="p">.</span><span class="n">execute</span><span class="p">(</span><span class="n">sql</span><span class="p">,</span> <span class="p">(</span><span class="s">'John Doe'</span><span class="p">,</span> <span class="s">'john@example.com'</span><span class="p">,</span> <span class="mi">25</span><span class="p">))</span>
+    <span class="n">cursor</span><span class="p">.</span><span class="n">execute</span><span class="p">(</span><span class="n">sql</span><span class="p">,</span> <span class="p">(</span><span class="s">'Jane Doe'</span><span class="p">,</span> <span class="s">'jane@example.com'</span><span class="p">,</span> <span class="mi">30</span><span class="p">))</span>
+    <span class="n">cursor</span><span class="p">.</span><span class="n">execute</span><span class="p">(</span><span class="n">sql</span><span class="p">,</span> <span class="p">(</span><span class="s">'Bob Smith'</span><span class="p">,</span> <span class="s">'bob@example.com'</span><span class="p">,</span> <span class="mi">40</span><span class="p">))</span>
+
+    <span class="c1"># 변경사항 커밋
+</span>    <span class="n">conn</span><span class="p">.</span><span class="n">commit</span><span class="p">()</span>
+</code></pre></div></div>
+
+<h2 id="데이터-조회">데이터 조회</h2>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 데이터 조회 쿼리 실행
+</span><span class="k">with</span> <span class="n">conn</span><span class="p">.</span><span class="n">cursor</span><span class="p">()</span> <span class="k">as</span> <span class="n">cursor</span><span class="p">:</span>
+    <span class="c1"># 쿼리 작성
+</span>    <span class="n">sql</span> <span class="o">=</span> <span class="s">"SELECT * FROM `users`"</span>
+
+    <span class="c1"># 쿼리 실행
+</span>    <span class="n">cursor</span><span class="p">.</span><span class="n">execute</span><span class="p">(</span><span class="n">sql</span><span class="p">)</span>
+
+    <span class="c1"># 결과 출력
+</span>    <span class="n">results</span> <span class="o">=</span> <span class="n">cursor</span><span class="p">.</span><span class="n">fetchall</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">result</span> <span class="ow">in</span> <span class="n">results</span><span class="p">:</span>
+        <span class="k">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{'id': 22, 'name': 'John Doe', 'email': 'john@example.com', 'age': 25}
+{'id': 23, 'name': 'Jane Doe', 'email': 'jane@example.com', 'age': 30}
+{'id': 24, 'name': 'Bob Smith', 'email': 'bob@example.com', 'age': 40}
+{'id': 25, 'name': 'John Doe', 'email': 'john@example.com', 'age': 25}
+{'id': 26, 'name': 'Jane Doe', 'email': 'jane@example.com', 'age': 30}
+{'id': 27, 'name': 'Bob Smith', 'email': 'bob@example.com', 'age': 40}
+</code></pre></div></div>
+
+<h2 id="데이터-수정">데이터 수정</h2>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 데이터 수정
+</span><span class="k">with</span> <span class="n">conn</span><span class="p">.</span><span class="n">cursor</span><span class="p">()</span> <span class="k">as</span> <span class="n">cursor</span><span class="p">:</span>
+    <span class="c1"># 특정 데이터 수정
+</span>    <span class="n">sql</span> <span class="o">=</span> <span class="s">"UPDATE `users` SET name=%s WHERE id=%s"</span>
+    <span class="n">cursor</span><span class="p">.</span><span class="n">execute</span><span class="p">(</span><span class="n">sql</span><span class="p">,</span> <span class="p">(</span><span class="s">"John"</span><span class="p">,</span> <span class="mi">1</span><span class="p">))</span>
+    <span class="n">conn</span><span class="p">.</span><span class="n">commit</span><span class="p">()</span>
+</code></pre></div></div>
+
+<h2 id="데이터-조회-1">데이터 조회</h2>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 데이터 조회
+</span><span class="k">with</span> <span class="n">conn</span><span class="p">.</span><span class="n">cursor</span><span class="p">()</span> <span class="k">as</span> <span class="n">cursor</span><span class="p">:</span>
+    <span class="c1"># 모든 데이터 조회
+</span>    <span class="n">sql</span> <span class="o">=</span> <span class="s">"SELECT * FROM `users`"</span>
+    <span class="n">cursor</span><span class="p">.</span><span class="n">execute</span><span class="p">(</span><span class="n">sql</span><span class="p">)</span>
+    <span class="n">results</span> <span class="o">=</span> <span class="n">cursor</span><span class="p">.</span><span class="n">fetchall</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">results</span><span class="p">:</span>
+        <span class="k">print</span><span class="p">(</span><span class="n">row</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{'id': 22, 'name': 'John Doe', 'email': 'john@example.com', 'age': 25}
+{'id': 23, 'name': 'Jane Doe', 'email': 'jane@example.com', 'age': 30}
+{'id': 24, 'name': 'Bob Smith', 'email': 'bob@example.com', 'age': 40}
+{'id': 25, 'name': 'John Doe', 'email': 'john@example.com', 'age': 25}
+{'id': 26, 'name': 'Jane Doe', 'email': 'jane@example.com', 'age': 30}
+{'id': 27, 'name': 'Bob Smith', 'email': 'bob@example.com', 'age': 40}
+</code></pre></div></div>
+
+<h2 id="데이터-삭제">데이터 삭제</h2>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 데이터 삭제
+</span><span class="k">with</span> <span class="n">conn</span><span class="p">.</span><span class="n">cursor</span><span class="p">()</span> <span class="k">as</span> <span class="n">cursor</span><span class="p">:</span>
+    <span class="c1"># 특정 데이터 삭제
+</span>    <span class="n">sql</span> <span class="o">=</span> <span class="s">"DELETE FROM `users` WHERE id=%s"</span>
+    <span class="n">cursor</span><span class="p">.</span><span class="n">execute</span><span class="p">(</span><span class="n">sql</span><span class="p">,</span> <span class="p">(</span><span class="mi">1</span><span class="p">,))</span>
+    <span class="n">conn</span><span class="p">.</span><span class="n">commit</span><span class="p">()</span>
+</code></pre></div></div>
+
+<h2 id="연결-닫기">연결 닫기</h2>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 연결 닫기
+</span><span class="n">conn</span><span class="p">.</span><span class="n">close</span><span class="p">()</span>
+</code></pre></div></div>
+
+<hr />
+<h1 id="열-데이터-제약-조건">열 데이터 제약 조건</h1>
+
+<ul>
+  <li>PK (Primary Key): 테이블에서 유일한 레코드를 식별하기 위한 기본 키(primary key)를 지정합니다.</li>
+  <li>NN (Not Null): 해당 칼럼이 null 값을 가질 수 없도록 제약 조건을 설정합니다.</li>
+  <li>UQ (Unique): 해당 칼럼의 값이 유일(unique)해야 함을 지정합니다.</li>
+  <li>B (Boolean): 해당 칼럼의 값이 참(true) 또는 거짓(false) 중 하나임을 지정합니다.</li>
+  <li>UN (Unsigned): 해당 칼럼의 값이 음수(negative)가 아니어야 함을 지정합니다.</li>
+  <li>ZF (Zero Fill): 해당 칼럼의 값이 0으로 채워지도록 설정합니다.</li>
+  <li>AI (Auto Increment): 해당 칼럼의 값이 자동으로 증가하도록 설정합니다.</li>
+  <li>G (Generated): 해당 칼럼의 값이 데이터베이스에 의해 자동으로 생성되도록 설정합니다.</li>
+</ul>
 
                 </div>
             </section>
@@ -386,6 +451,26 @@ OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1:5660' ([Er
                                     
                                         
                                         
+                                            <li><a href="/%ED%95%9C%EA%B5%AD%ED%95%B4%EC%96%91%EA%B8%B0%EC%83%81%EA%B8%B0%EC%88%A0(%EC%A7%81%EC%9E%A5)">한국해양기상기술 직장</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/TIL-%EB%94%A5%EB%9F%AC%EB%8B%9D">HTML-딥러닝이란?</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
                                             <li><a href="/%EB%A9%B4%EC%A0%91%EC%A7%88%EB%AC%B8">면접질문</a></li>
                                         
                                     
@@ -393,22 +478,18 @@ OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1:5660' ([Er
                                 
                                   
                                     
-                                        
-                                        
-                                            <li><a href="/TIL-%EC%9C%84%ED%94%8C%EB%9E%AB">TIL-위플랫</a></li>
-                                        
-                                    
-                                  
-                                
-                                  
-                                    
                                   
                                 
                                   
                                     
                                         
                                         
-                                            <li><a href="/TIL-TFIDF">TIL-TF-IDF</a></li>
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
                                         
                                     
                                   
@@ -888,7 +969,7 @@ OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1:5660' ([Er
                         <footer class="read-next-card-footer">
                             <a href="/tag/exitem/">
                                 
-                                    See all 51 posts  →
+                                    See all 53 posts  →
                                 
                             </a>
                         </footer>
@@ -897,6 +978,60 @@ OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1:5660' ([Er
             
 
             <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+
+    <article class="post-card post-template">
+        
+            <a class="post-card-image-link" href="/%EB%A9%B4%EC%A0%91%EC%A7%88%EB%AC%B8">
+                <div class="post-card-image" style="background-image: url(/assets/built/images/면접질문.png)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/%EB%A9%B4%EC%A0%91%EC%A7%88%EB%AC%B8">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags">Exitem</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">면접질문</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p>면접질문
+
+</p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/built/images/favicon.jpg" alt="chanp5660" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/chanp5660/">chanp5660</a>
+                        </span>
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      3 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+            
+
+            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
             
                 
 
@@ -926,64 +1061,6 @@ OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1:5660' ([Er
                 <section class="post-card-excerpt">
                     
                         <p>위플랫
-
-</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/built/images/favicon.jpg" alt="chanp5660" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/chanp5660/">chanp5660</a>
-                        </span>
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-            
-
-            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
-            
-                
-
-    <article class="post-card post-template">
-        
-            <a class="post-card-image-link" href="/TIL-TFIDF">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/TFIDF.png)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/TIL-TFIDF">
-                <header class="post-card-header">
-                    
-                        
-                            
-                               <span class="post-card-tags">Exitem</span>
-                            
-                        
-                            
-                                <span class="post-card-tags">Til</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">TIL-TF-IDF</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>TF-IDF (용어 빈도 - 역 문서 빈도)
 
 </p>
                     

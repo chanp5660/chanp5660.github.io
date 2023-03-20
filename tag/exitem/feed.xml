@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/exitem/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-03-15T23:57:21+09:00</updated>
+  <updated>2023-03-20T12:35:39+09:00</updated>
   <id>http://localhost:4000/tag/exitem/feed.xml</id>
 
   
@@ -30,6 +30,270 @@
   
   
 
+  
+    <entry>
+      <title type="html">HTML-딥러닝이란?</title>
+      <link href="http://localhost:4000/TIL-%EB%94%A5%EB%9F%AC%EB%8B%9D" rel="alternate" type="text/html" title="HTML-딥러닝이란?" />
+      <published>2023-03-19T00:00:00+09:00</published>
+      <updated>2023-03-19T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-%EB%94%A5%EB%9F%AC%EB%8B%9D</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-%EB%94%A5%EB%9F%AC%EB%8B%9D">&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+
+      
+        <summary type="html">```python</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">한국해양기상기술 직장</title>
+      <link href="http://localhost:4000/%ED%95%9C%EA%B5%AD%ED%95%B4%EC%96%91%EA%B8%B0%EC%83%81%EA%B8%B0%EC%88%A0(%EC%A7%81%EC%9E%A5)" rel="alternate" type="text/html" title="한국해양기상기술 직장" />
+      <published>2023-03-19T00:00:00+09:00</published>
+      <updated>2023-03-19T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%ED%95%9C%EA%B5%AD%ED%95%B4%EC%96%91%EA%B8%B0%EC%83%81%EA%B8%B0%EC%88%A0(%EC%A7%81%EC%9E%A5)</id>
+      <content type="html" xml:base="http://localhost:4000/%ED%95%9C%EA%B5%AD%ED%95%B4%EC%96%91%EA%B8%B0%EC%83%81%EA%B8%B0%EC%88%A0(%EC%A7%81%EC%9E%A5)">&lt;h1 id=&quot;한국해양기상기술&quot;&gt;한국해양기상기술&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;첫 직장으로 입사하게 되었습니다. 그래서 회사의 정보들을 알고 있으면 적응하는데 도움이 될 것이기 때문에 좀 더 상세히 살펴보려고 합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;회사-위치&quot;&gt;회사 위치&lt;/h2&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+
+      
+        <summary type="html">한국해양기상기술</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">TIL-PyMySQL</title>
+      <link href="http://localhost:4000/TIL-PyMySQL" rel="alternate" type="text/html" title="TIL-PyMySQL" />
+      <published>2023-03-15T00:00:00+09:00</published>
+      <updated>2023-03-15T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-PyMySQL</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-PyMySQL">&lt;h1 id=&quot;pymysql&quot;&gt;PyMySQL&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;MySQL을 Python에서 사용하면서 데이터를 저장 및 관리를 하면 DB를 다룹니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://dearmycode.tistory.com/15&quot;&gt;블로그 링크&lt;/a&gt;에 사진과 함께 MySQL 설치 방법과 WorkBench 사용하는 방법이 나와있다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;연결&quot;&gt;연결&lt;/h2&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pymysql&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# MySQL 서버에 연결합니다.
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;conn&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pymysql&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;connect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;host&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;127.0.0.1&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 호스트 이름
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;port&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3306&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;user&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;root&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 사용자 이름
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;password&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;alclssha12&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 비밀번호
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;db&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;sample&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 데이터베이스 이름
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;charset&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;utf8&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 인코딩 설정
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;cursorclass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pymysql&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cursors&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DictCursor&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# 결과를 딕셔너리 형태로 받아옵니다.
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;테이블-생성&quot;&gt;테이블 생성&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;전체를 try로 감싸고 진행하는 것이 안전합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{python}&quot;&gt;try:
+    --- 아래 코드 ---
+finally:
+    # 연결 종료
+    conn.close()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# 테이블 생성 쿼리 실행
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;conn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cursor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cursor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# 쿼리 작성
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;sql&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;
+    CREATE TABLE IF NOT EXISTS `users` (
+        `id` int(11) NOT NULL AUTO_INCREMENT,
+        `name` varchar(50) NOT NULL,
+        `email` varchar(50) NOT NULL,
+        `age` int(11) NOT NULL,
+        PRIMARY KEY (`id`)
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+    &quot;&quot;&quot;&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;# 쿼리 실행
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;cursor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;execute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sql&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;데이터-추가&quot;&gt;데이터 추가&lt;/h2&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# 데이터 추가 쿼리 실행
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;conn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cursor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cursor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# 쿼리 작성
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;sql&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;INSERT INTO `users` (`name`, `email`, `age`) VALUES (%s, %s, %s)&quot;&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;# 데이터 추가
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;cursor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;execute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sql&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;John Doe&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;john@example.com&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;25&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;cursor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;execute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sql&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Jane Doe&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;jane@example.com&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;cursor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;execute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sql&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Bob Smith&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;bob@example.com&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;40&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;# 변경사항 커밋
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;conn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;commit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;데이터-조회&quot;&gt;데이터 조회&lt;/h2&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# 데이터 조회 쿼리 실행
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;conn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cursor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cursor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# 쿼리 작성
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;sql&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;SELECT * FROM `users`&quot;&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;# 쿼리 실행
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;cursor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;execute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sql&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;# 결과 출력
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;results&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cursor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fetchall&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;results&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{&apos;id&apos;: 22, &apos;name&apos;: &apos;John Doe&apos;, &apos;email&apos;: &apos;john@example.com&apos;, &apos;age&apos;: 25}
+{&apos;id&apos;: 23, &apos;name&apos;: &apos;Jane Doe&apos;, &apos;email&apos;: &apos;jane@example.com&apos;, &apos;age&apos;: 30}
+{&apos;id&apos;: 24, &apos;name&apos;: &apos;Bob Smith&apos;, &apos;email&apos;: &apos;bob@example.com&apos;, &apos;age&apos;: 40}
+{&apos;id&apos;: 25, &apos;name&apos;: &apos;John Doe&apos;, &apos;email&apos;: &apos;john@example.com&apos;, &apos;age&apos;: 25}
+{&apos;id&apos;: 26, &apos;name&apos;: &apos;Jane Doe&apos;, &apos;email&apos;: &apos;jane@example.com&apos;, &apos;age&apos;: 30}
+{&apos;id&apos;: 27, &apos;name&apos;: &apos;Bob Smith&apos;, &apos;email&apos;: &apos;bob@example.com&apos;, &apos;age&apos;: 40}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;데이터-수정&quot;&gt;데이터 수정&lt;/h2&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# 데이터 수정
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;conn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cursor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cursor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# 특정 데이터 수정
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;sql&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;UPDATE `users` SET name=%s WHERE id=%s&quot;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;cursor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;execute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sql&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;John&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;conn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;commit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;데이터-조회-1&quot;&gt;데이터 조회&lt;/h2&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# 데이터 조회
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;conn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cursor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cursor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# 모든 데이터 조회
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;sql&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;SELECT * FROM `users`&quot;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;cursor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;execute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sql&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;results&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cursor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fetchall&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;row&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;results&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;row&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{&apos;id&apos;: 22, &apos;name&apos;: &apos;John Doe&apos;, &apos;email&apos;: &apos;john@example.com&apos;, &apos;age&apos;: 25}
+{&apos;id&apos;: 23, &apos;name&apos;: &apos;Jane Doe&apos;, &apos;email&apos;: &apos;jane@example.com&apos;, &apos;age&apos;: 30}
+{&apos;id&apos;: 24, &apos;name&apos;: &apos;Bob Smith&apos;, &apos;email&apos;: &apos;bob@example.com&apos;, &apos;age&apos;: 40}
+{&apos;id&apos;: 25, &apos;name&apos;: &apos;John Doe&apos;, &apos;email&apos;: &apos;john@example.com&apos;, &apos;age&apos;: 25}
+{&apos;id&apos;: 26, &apos;name&apos;: &apos;Jane Doe&apos;, &apos;email&apos;: &apos;jane@example.com&apos;, &apos;age&apos;: 30}
+{&apos;id&apos;: 27, &apos;name&apos;: &apos;Bob Smith&apos;, &apos;email&apos;: &apos;bob@example.com&apos;, &apos;age&apos;: 40}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;데이터-삭제&quot;&gt;데이터 삭제&lt;/h2&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# 데이터 삭제
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;conn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cursor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cursor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# 특정 데이터 삭제
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;sql&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;DELETE FROM `users` WHERE id=%s&quot;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;cursor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;execute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sql&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,))&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;conn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;commit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;연결-닫기&quot;&gt;연결 닫기&lt;/h2&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# 연결 닫기
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;conn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;close&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h1 id=&quot;열-데이터-제약-조건&quot;&gt;열 데이터 제약 조건&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;PK (Primary Key): 테이블에서 유일한 레코드를 식별하기 위한 기본 키(primary key)를 지정합니다.&lt;/li&gt;
+  &lt;li&gt;NN (Not Null): 해당 칼럼이 null 값을 가질 수 없도록 제약 조건을 설정합니다.&lt;/li&gt;
+  &lt;li&gt;UQ (Unique): 해당 칼럼의 값이 유일(unique)해야 함을 지정합니다.&lt;/li&gt;
+  &lt;li&gt;B (Boolean): 해당 칼럼의 값이 참(true) 또는 거짓(false) 중 하나임을 지정합니다.&lt;/li&gt;
+  &lt;li&gt;UN (Unsigned): 해당 칼럼의 값이 음수(negative)가 아니어야 함을 지정합니다.&lt;/li&gt;
+  &lt;li&gt;ZF (Zero Fill): 해당 칼럼의 값이 0으로 채워지도록 설정합니다.&lt;/li&gt;
+  &lt;li&gt;AI (Auto Increment): 해당 칼럼의 값이 자동으로 증가하도록 설정합니다.&lt;/li&gt;
+  &lt;li&gt;G (Generated): 해당 칼럼의 값이 데이터베이스에 의해 자동으로 생성되도록 설정합니다.&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">PyMySQL</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">TIL-위플랫</title>
@@ -71,130 +335,6 @@
     </entry>
   
     <entry>
-      <title type="html">TIL-PyMySQL</title>
-      <link href="http://localhost:4000/TIL-PyMySQL" rel="alternate" type="text/html" title="TIL-PyMySQL" />
-      <published>2023-03-15T00:00:00+09:00</published>
-      <updated>2023-03-15T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-PyMySQL</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-PyMySQL">&lt;h1 id=&quot;pymysql&quot;&gt;PyMySQL&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;MySQL을 Python에서 사용하면서 데이터를 저장 및 관리를 하면 DB를 다룹니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pymysql&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;# MySQL 서버에 연결합니다.
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;conn&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pymysql&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;connect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;host&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;127.0.0.1:5660&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 호스트 이름
-&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;user&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;root&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 사용자 이름
-&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;password&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;0000&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 비밀번호
-&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;db&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;soloDB&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 데이터베이스 이름
-&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;charset&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;utf8&apos;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 인코딩 설정
-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---------------------------------------------------------------------------
-
-gaierror                                  Traceback (most recent call last)
-
-~\anaconda3\envs\chanp5660\lib\site-packages\pymysql\connections.py in connect(self, sock)
-    613                             sock = socket.create_connection(
---&amp;gt; 614                                 (self.host, self.port), self.connect_timeout, **kwargs
-    615                             )
-
-
-~\anaconda3\envs\chanp5660\lib\socket.py in create_connection(address, timeout, source_address)
-    706     err = None
---&amp;gt; 707     for res in getaddrinfo(host, port, 0, SOCK_STREAM):
-    708         af, socktype, proto, canonname, sa = res
-
-
-~\anaconda3\envs\chanp5660\lib\socket.py in getaddrinfo(host, port, family, type, proto, flags)
-    751     addrlist = []
---&amp;gt; 752     for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
-    753         af, socktype, proto, canonname, sa = res
-
-
-gaierror: [Errno 11001] getaddrinfo failed
-
-
-During handling of the above exception, another exception occurred:
-
-
-OperationalError                          Traceback (most recent call last)
-
-C:\Users\Public\Documents\ESTsoft\CreatorTemp\ipykernel_13780\2981384421.py in &amp;lt;module&amp;gt;
-      7     password = &apos;0000&apos;, # 비밀번호
-      8     db = &apos;soloDB&apos;, # 데이터베이스 이름
-----&amp;gt; 9     charset = &apos;utf8&apos; # 인코딩 설정
-     10 )
-
-
-~\anaconda3\envs\chanp5660\lib\site-packages\pymysql\connections.py in __init__(self, user, password, host, database, unix_socket, port, charset, sql_mode, read_default_file, conv, use_unicode, client_flag, cursorclass, init_command, connect_timeout, read_default_group, autocommit, local_infile, max_allowed_packet, defer_connect, auth_plugin_map, read_timeout, write_timeout, bind_address, binary_prefix, program_name, server_public_key, ssl, ssl_ca, ssl_cert, ssl_disabled, ssl_key, ssl_verify_cert, ssl_verify_identity, compress, named_pipe, passwd, db)
-    351             self._sock = None
-    352         else:
---&amp;gt; 353             self.connect()
-    354 
-    355     def __enter__(self):
-
-
-~\anaconda3\envs\chanp5660\lib\site-packages\pymysql\connections.py in connect(self, sock)
-    662                 if DEBUG:
-    663                     print(exc.traceback)
---&amp;gt; 664                 raise exc
-    665 
-    666             # If e is neither DatabaseError or IOError, It&apos;s a bug.
-
-
-OperationalError: (2003, &quot;Can&apos;t connect to MySQL server on &apos;127.0.0.1:5660&apos; ([Errno 11001] getaddrinfo failed)&quot;)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pymysql&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;# MySQL 서버에 연결합니다.
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;conn&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pymysql&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;connect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;host&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;localhost&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# 호스트 이름
-&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;username&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# 사용자 이름
-&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;password&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;password&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# 비밀번호
-&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;db&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;database_name&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# 데이터베이스 이름
-&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;charset&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;utf8mb4&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# 인코딩 설정
-&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;cursorclass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pymysql&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cursors&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DictCursor&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# 결과를 딕셔너리 형태로 받아옵니다.
-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">PyMySQL</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
       <title type="html">면접질문</title>
       <link href="http://localhost:4000/%EB%A9%B4%EC%A0%91%EC%A7%88%EB%AC%B8" rel="alternate" type="text/html" title="면접질문" />
       <published>2023-03-15T00:00:00+09:00</published>
@@ -209,7 +349,7 @@ OperationalError: (2003, &quot;Can&apos;t connect to MySQL server on &apos;127.0
 &lt;h2 id=&quot;간단한-자기소개-해주세요&quot;&gt;간단한 자기소개 해주세요.&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;네 안녕하세요! 지원자 박찬입니다.&lt;/li&gt;
-  &lt;li&gt;통계학과에 진학하여 적은 데이터로 추론, 추측을 하다가 2학년 수업에서 python을 이용한 머신러닝 수업을 접하게 되면서 컴퓨터공학부를 부전공을 전공하고 교수님과 인연이 되어 컴퓨터공학부 대학원에 진학하게 됐습니다.&lt;/li&gt;
+  &lt;li&gt;통계학과에 진학하여 적은 데이터로 추론, 추측을 하다가 2학년 수업에서 python을 이용한 머신러닝 수업을 접하게 되면서 컴퓨터공학부를 부전공하고 교수님과 인연이 되어 컴퓨터공학부 대학원에 진학하게 됐습니다.&lt;/li&gt;
   &lt;li&gt;석사 중에는 범부처 협업을 하게 되면서 농산물 관련 온라인 소셜 미디어 데이터를 통해 농부들에게 가격변동에 영향을 주는 요인들을 제공해주는 프로젝트를 진행했습니다.&lt;/li&gt;
   &lt;li&gt;이후 1년 공백기에는 부모님이 산림조합을 설립 하셨는데 컴퓨터를 잘 다루지 못하시고 인력도 구하기 힘든 부분이라서 도와드렸습니다.&lt;/li&gt;
   &lt;li&gt;현재 2월 중순부터 취업준비를 시작하여 이 면접을 보게 된 것입니다.&lt;/li&gt;
@@ -222,62 +362,23 @@ OperationalError: (2003, &quot;Can&apos;t connect to MySQL server on &apos;127.0
   &lt;li&gt;세부적으로 살펴보면 가격변동 데이터를 맡은 팀에서 가격변동을 제공하고 특정 기간과 품목을 설정하면 오름세와 내림세의 주요 요인과 관련된 SNS 정보들을 제공하는 프로젝트입니다.&lt;/li&gt;
   &lt;li&gt;이를 통해 농부들은 해당 품목에 대해서 어떤 요인들이 발생했는지를 파악하고 조심하여 행동변화를 일으키거나 걱정을 덜어드릴 수 있습니다.&lt;/li&gt;
   &lt;li&gt;기술적으로 살펴보면 데이터 수집은 KAMIS(농산물유통정보) 같은 전문적인 사이트에서 주요 용어를 얻어 네이버, 구글, 트위터에서 api와 웹 스크랩핑(selenium,BeautifulSoup)으로 수집했습니다. pysql을 이용해서 데이터 저장 및 관리 했습니다. 문서 유사도로 비슷한 문서들을 모아놓고 토픽 모델링을 사용하여 데이터에서 레시피, 영양성분 등의 가격변동에 영향을 주는 주요 용어를 파악했습니다.&lt;/li&gt;
-  &lt;li&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
-&lt;p&gt;실제 경험 메모&lt;/p&gt;
+&lt;h2 id=&quot;프로젝트의-정확도와-실제-정확도는-어느정도-인가&quot;&gt;프로젝트의 정확도와 실제 정확도는 어느정도 인가?&lt;/h2&gt;
 
-&lt;p&gt;디메타&lt;/p&gt;
+&lt;h2 id=&quot;데이터-전처리를-제외하고-어떤-부분이-가장-힘들었는가&quot;&gt;데이터 전처리를 제외하고 어떤 부분이 가장 힘들었는가?&lt;/h2&gt;
 
-&lt;p&gt;20230315 11시&lt;/p&gt;
+&lt;h2 id=&quot;이력서-부분에-python-scikit-learn-을-이용했다고-했는데-어떤-것들을-이용해서-진행한건가요-세부적으로-데이터를-근거로-추론한-것으로-이야기-해주세요&quot;&gt;이력서 부분에 Python Scikit-learn 을 이용했다고 했는데 어떤 것들을 이용해서 진행한건가요? 세부적으로 데이터를 근거로 추론한 것으로 이야기 해주세요&lt;/h2&gt;
 
-&lt;p&gt;분위기 좋음&lt;/p&gt;
+&lt;h2 id=&quot;프로젝트로-인해-임팩트-있는-부분이-무엇이-있었고-어떻게-찾았는지-기술적으로-설명해주세요&quot;&gt;프로젝트로 인해 임팩트 있는 부분이 무엇이 있었고 어떻게 찾았는지 기술적으로 설명해주세요&lt;/h2&gt;
 
-&lt;p&gt;질문&lt;/p&gt;
+&lt;h2 id=&quot;이력서-부분에서-데이터의-의심가는-부분에-대하여-왜-의심을-가지게-되었습니까-이를-해결하기-위해-무엇을-했고-직접-해결하지-못할-때-데이터적으로-어떻게-해결하게-되었습니까&quot;&gt;이력서 부분에서 데이터의 의심가는 부분에 대하여 왜 의심을 가지게 되었습니까? 이를 해결하기 위해 무엇을 했고 직접 해결하지 못할 때 데이터적으로 어떻게 해결하게 되었습니까?&lt;/h2&gt;
 
-&lt;p&gt;자기소개&lt;/p&gt;
+&lt;h2 id=&quot;통계적인-분석을-해본적이-있는가&quot;&gt;통계적인 분석을 해본적이 있는가?&lt;/h2&gt;
 
-&lt;p&gt;실험에 대한 부분&lt;/p&gt;
+&lt;h2 id=&quot;왜-졸업이-아니라-수료를-하게-됐는가&quot;&gt;왜 졸업이 아니라 수료를 하게 됐는가?&lt;/h2&gt;
 
-&lt;p&gt;통계적인 부분이 없다.( 기술적으로 뭐가 구체적으로 있고 그 부분 중에 왜 선택하게 되었는지 ) 기술로 선택한 이유가 성능을 제외하고 무엇이 있었는지&lt;/p&gt;
-
-&lt;p&gt;실험을 기승전결로 준비해야한다. 결과를 말하고 시작과 과정이 어떻게 진행 되었는지&lt;/p&gt;
-
-&lt;p&gt;프로젝트의 정확도는 어떻게 되는가?
-실제 적용하면 어떻게 되겠는가?&lt;/p&gt;
-
-&lt;p&gt;데이터 전처리를 제외하고 어떤 부분이 가장 힘들었는지 -&amp;gt; 기술적으로 대답하기 힘들어서 실제로는 적용하지 못하고 사용자의 관점에서 어렵다라는 이야기로 대답함.&lt;/p&gt;
-
-&lt;p&gt;이력서 중에 Python Scikit-Learn 을 이용했다고 했는데 어떤 것들을 이용해서 진행한건가요? 세부적으로 데이터를 근거로 추론하는 것으로 한 부분을 이야기 해주세요.&lt;/p&gt;
-
-&lt;p&gt;프로젝트로 인해 임팩트 있는 부분이 무엇이 있었어 어떻게 찾았는지 어떤 기술로 찾게 됐는지 알아봐야겠다&lt;/p&gt;
-
-&lt;p&gt;만약 확인할 수 없는 데이터가 있을때는 어떻게 하는지?( 예를 들어 쇼핑몰 데이터에서 남자 카드 결제가 높은 이유를 확인 할 수 없을때는 해당 속성응 어떻게 할 것 인가?)&lt;/p&gt;
-
-&lt;p&gt;정보
-퇴사율은… 모르겠고 보통 1년6개월정도 한다. 퇴사자보다 입사자가 더 많다.&lt;/p&gt;
-
-&lt;p&gt;총 18명 중 팀원은 5명&lt;/p&gt;
-
-&lt;p&gt;강화학습이 주를 이룰 것 같지만 다른 분야가 없는 것도 아니라서 자기만의 분야로 맡게 될 것이므로 걱정은 없다.&lt;/p&gt;
-
-&lt;p&gt;코테는 기간이 길게 주어질 것이고 이미지를 주고 그것을 어떻게 해석하고 찾아낼건지에 대한 과정에 집중하게 될 것이다.&lt;/p&gt;
-
-&lt;p&gt;전체적인 후기&lt;/p&gt;
-
-&lt;p&gt;질문에 대한 답변을 하고 싶어도 기술적인 부분에 대한 답을 잘 못하기 때문에 그 부분에 대한 부분을 어떻게든 만들어 놔야겠다.&lt;/p&gt;
-
-&lt;p&gt;특히 프로젝트 부분에 대해서 결과 시작 중간 으로 기술 + 아이디어 + 결과의 중요한 부분 들에 대한 것들에 대해 구체적으로 작성해본다.&lt;/p&gt;
-
-&lt;p&gt;기술적으로 물어볼 수 있는 것들이 자세하게 파고 들지 못했기 때문에 결론적으로는 개인적인 장단점이나 성격들에 대해서 물어보지 않았던 것으로 생각된다.&lt;/p&gt;
-
-&lt;p&gt;가장 첫번째로 기술적인 것을 추가해야겠다. 어떻게 했는지 성능이 어느정도 나왔는지에 대한 연구가 어떻게 진행된건지에 대한 정보들을 다시 생각해봐야겠다.&lt;/p&gt;
-
-&lt;p&gt;요약( 우선순위 ), 이게 나의 필살기다&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;프로젝트에 사용된 기술에 대한 공부 및 정리 요약&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h2 id=&quot;미래에-어떤-모습으로-있을-것-같나-너의-꿈이-무엇이냐&quot;&gt;미래에 어떤 모습으로 있을 것 같나? 너의 꿈이 무엇이냐?&lt;/h2&gt;
 
 &lt;p&gt;한국해양기상기술&lt;/p&gt;
 
@@ -309,6 +410,23 @@ OperationalError: (2003, &quot;Can&apos;t connect to MySQL server on &apos;127.0
   &lt;li&gt;프로그래밍을 좋아해야한다.&lt;/li&gt;
   &lt;li&gt;잘해야한다.&lt;/li&gt;
   &lt;li&gt;월급보다 잘해야한다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;실제 경험 메모&lt;/p&gt;
+
+&lt;h1 id=&quot;전체적인-주의-사항&quot;&gt;전체적인 주의 사항&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;질문에 대한 답변을 하고 싶어도 기술적인 부분에 대한 답을 공백기로 기술적으로 아직 대답을 못하기 때문에 다시 공부하면서 작성해 놔야겠습니다.&lt;/li&gt;
+  &lt;li&gt;특히 프로젝트 부분에 대해서 결과 시작 중간으로 기술 + 아이디어 + 결과의 중요한 부분에 대해 구체적으로 작성해놔야합니다.&lt;/li&gt;
+  &lt;li&gt;기술적으로 물어볼 수 있는 것들은 자세하게 파고들지 못했기 때문에 결론적으로는 개인적인 장단점이나 성격들에 대해서 물어보지 않았던 것으로 생각됩니다.&lt;/li&gt;
+  &lt;li&gt;가장 첫번째로 기술적인 것을 추가해야겠다. 어떻게 했는지 성능이 어느정도 나왔는지에 대한 연구가 어떻게 진행된건지에 대한 정보들을 다시 생각해보고 작성해야겠습니다.&lt;/li&gt;
+  &lt;li&gt;요약(우선순위), &lt;strong&gt;이게 나의 필살기다&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;프로젝트에 사용된 기술에 대한 공부 및 정리 요약&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;ol&gt;
@@ -374,6 +492,119 @@ OperationalError: (2003, &quot;Can&apos;t connect to MySQL server on &apos;127.0
 
       
         <summary type="html">면접질문</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">TIL-TF-IDF</title>
+      <link href="http://localhost:4000/TIL-TFIDF" rel="alternate" type="text/html" title="TIL-TF-IDF" />
+      <published>2023-03-14T00:00:00+09:00</published>
+      <updated>2023-03-14T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-TFIDF</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-TFIDF">&lt;h1 id=&quot;tf-idf-용어-빈도---역-문서-빈도&quot;&gt;TF-IDF (용어 빈도 - 역 문서 빈도)&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;TF-IDF; Term Frequency-Inverse Document Frequency’&lt;/li&gt;
+  &lt;li&gt;정보 검색에서 &lt;strong&gt;문서의 내용&lt;/strong&gt;을 &lt;strong&gt;수치화&lt;/strong&gt;하는 데에 사용되는 방법입니다.&lt;/li&gt;
+  &lt;li&gt;단어의 빈도와 문서 내에서의 출현 빈도를 고려하여 &lt;strong&gt;각 단어&lt;/strong&gt;에 대한 &lt;strong&gt;가중치&lt;/strong&gt;를 계산합니다.&lt;/li&gt;
+  &lt;li&gt;문서 검색, 정보 검색, 문서 분류 등의 분야에서 널리 사용되는 기법입니다.&lt;/li&gt;
+  &lt;li&gt;다양한 자연어 처리 기술에서 활용됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;개념&quot;&gt;개념&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Term Frequency(TF)
+    &lt;ul&gt;
+      &lt;li&gt;문서에서 단어가 얼마나 자주 나타나는지를 측정합니다.&lt;/li&gt;
+      &lt;li&gt;각 단어의 TF는 &lt;strong&gt;해당 단어&lt;/strong&gt;가 &lt;strong&gt;문서&lt;/strong&gt;에 &lt;strong&gt;나타나는 빈도&lt;/strong&gt;를 나타냅니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Inverse Document Frequecncy(IDF)
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;전체 문서 집합&lt;/strong&gt;에서 &lt;strong&gt;단어&lt;/strong&gt;가 얼마나 &lt;strong&gt;희귀&lt;/strong&gt;한지를 측정합니다.&lt;/li&gt;
+      &lt;li&gt;IDF는 문서 내에서 단어가 나타날 때마다 &lt;strong&gt;역수&lt;/strong&gt;를 취하여 계산됩니다.&lt;/li&gt;
+      &lt;li&gt;즉, 문서 집합에서 자주 나타나는 단어에는 낮은 가중치가 부여되고, 드물기 나타나는 단어에는 높은 가중치가 부여됩니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;계산&quot;&gt;계산&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;각 단어의 &lt;strong&gt;TF&lt;/strong&gt;와 &lt;strong&gt;IDF&lt;/strong&gt;를 &lt;strong&gt;곱&lt;/strong&gt;하여 계산됩니다.
+    &lt;ul&gt;
+      &lt;li&gt;이 값은 각 단어의 중요도를 나타냅니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;높은 TF-IDF&lt;/strong&gt; 값을 가지는 단어는 문서의 &lt;strong&gt;주요 특징을 잘 나타내는 단어&lt;/strong&gt;라고 할 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;이를 통해 문서 검색 등에서 관련성이 높은 문서를 더 잘 찾을 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;예시&quot;&gt;예시&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;dog 라는 단어가 문서에서 5번 나타났습니다.&lt;/li&gt;
+  &lt;li&gt;전체 문서 집합에서 dog 라는 단어가 드물게 나타났다면, TF-IDF 값은 높아집니다.&lt;/li&gt;
+  &lt;li&gt;이는 단어가 문서의 특징을 잘 나타내는 중요한 단어라는 것을 나타내며, 이를 통해 이 문서가 dog과 관련이 높다는 것을 나타내는 검색 결과에서 상위에 나타날 수 있게 됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;활용&quot;&gt;활용&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;단어의 빈도수를 고려하기 때문에, 자주 나타나는 단어에 대해서는 높은 가중치를 부여하고, 드물게 나타나는 단어에 대해서는 높은 가중치를 부여합니다.
+    &lt;ul&gt;
+      &lt;li&gt;이러한 방식은 다른 기술과 함께 사용될 때 좋은 결과를 낼 수 있습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;불용어 제거&lt;/strong&gt;에도 사용할 수 있습니다.
+    &lt;ul&gt;
+      &lt;li&gt;자주 나타나지만 분석에 필요하지 않은 단어들을 제거하고, 중요한 단어들에 대해서만 TF-IDF 가중치를 계산하여 분석을 수행할 수 있습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;다른 기술과 결합하여 &lt;strong&gt;토픽 모델링&lt;/strong&gt;이나 &lt;strong&gt;감성 분석&lt;/strong&gt; 등의 작업에서도 활용됩니다.
+    &lt;ul&gt;
+      &lt;li&gt;이러한 분야에서도 TF-IDF를 활용하여 각 단어의 중요도를 계산하고, 이를 바탕으로 분석을 수행합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;한계&quot;&gt;한계&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;동음이의어&lt;/strong&gt;나 &lt;strong&gt;유사어&lt;/strong&gt;의 처리에 대해서는 &lt;strong&gt;한계&lt;/strong&gt;가 있습니다.
+    &lt;ul&gt;
+      &lt;li&gt;이러한 문제를 해결하기 위해서는 &lt;strong&gt;단어 임베딩&lt;/strong&gt;(word embedding) 등의 기술을 함께 사용해야 합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;긴 문서&lt;/strong&gt;에서는 &lt;strong&gt;단어의 빈도수&lt;/strong&gt;가 &lt;strong&gt;과도하게 높아져서&lt;/strong&gt;, 가중치가 높은 단어가 &lt;strong&gt;특별한 의미&lt;/strong&gt;를 &lt;strong&gt;가지지 않는&lt;/strong&gt; 경우도 있습니다.&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">TF-IDF (용어 빈도 - 역 문서 빈도)</summary>
       
 
       
@@ -501,119 +732,6 @@ OperationalError: (2003, &quot;Can&apos;t connect to MySQL server on &apos;127.0
     </entry>
   
     <entry>
-      <title type="html">TIL-TF-IDF</title>
-      <link href="http://localhost:4000/TIL-TFIDF" rel="alternate" type="text/html" title="TIL-TF-IDF" />
-      <published>2023-03-14T00:00:00+09:00</published>
-      <updated>2023-03-14T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-TFIDF</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-TFIDF">&lt;h1 id=&quot;tf-idf-용어-빈도---역-문서-빈도&quot;&gt;TF-IDF (용어 빈도 - 역 문서 빈도)&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;TF-IDF; Term Frequency-Inverse Document Frequency’&lt;/li&gt;
-  &lt;li&gt;정보 검색에서 &lt;strong&gt;문서의 내용&lt;/strong&gt;을 &lt;strong&gt;수치화&lt;/strong&gt;하는 데에 사용되는 방법입니다.&lt;/li&gt;
-  &lt;li&gt;단어의 빈도와 문서 내에서의 출현 빈도를 고려하여 &lt;strong&gt;각 단어&lt;/strong&gt;에 대한 &lt;strong&gt;가중치&lt;/strong&gt;를 계산합니다.&lt;/li&gt;
-  &lt;li&gt;문서 검색, 정보 검색, 문서 분류 등의 분야에서 널리 사용되는 기법입니다.&lt;/li&gt;
-  &lt;li&gt;다양한 자연어 처리 기술에서 활용됩니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;개념&quot;&gt;개념&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Term Frequency(TF)
-    &lt;ul&gt;
-      &lt;li&gt;문서에서 단어가 얼마나 자주 나타나는지를 측정합니다.&lt;/li&gt;
-      &lt;li&gt;각 단어의 TF는 &lt;strong&gt;해당 단어&lt;/strong&gt;가 &lt;strong&gt;문서&lt;/strong&gt;에 &lt;strong&gt;나타나는 빈도&lt;/strong&gt;를 나타냅니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Inverse Document Frequecncy(IDF)
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;전체 문서 집합&lt;/strong&gt;에서 &lt;strong&gt;단어&lt;/strong&gt;가 얼마나 &lt;strong&gt;희귀&lt;/strong&gt;한지를 측정합니다.&lt;/li&gt;
-      &lt;li&gt;IDF는 문서 내에서 단어가 나타날 때마다 &lt;strong&gt;역수&lt;/strong&gt;를 취하여 계산됩니다.&lt;/li&gt;
-      &lt;li&gt;즉, 문서 집합에서 자주 나타나는 단어에는 낮은 가중치가 부여되고, 드물기 나타나는 단어에는 높은 가중치가 부여됩니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;계산&quot;&gt;계산&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;각 단어의 &lt;strong&gt;TF&lt;/strong&gt;와 &lt;strong&gt;IDF&lt;/strong&gt;를 &lt;strong&gt;곱&lt;/strong&gt;하여 계산됩니다.
-    &lt;ul&gt;
-      &lt;li&gt;이 값은 각 단어의 중요도를 나타냅니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;높은 TF-IDF&lt;/strong&gt; 값을 가지는 단어는 문서의 &lt;strong&gt;주요 특징을 잘 나타내는 단어&lt;/strong&gt;라고 할 수 있습니다.&lt;/li&gt;
-  &lt;li&gt;이를 통해 문서 검색 등에서 관련성이 높은 문서를 더 잘 찾을 수 있습니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;예시&quot;&gt;예시&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;dog 라는 단어가 문서에서 5번 나타났습니다.&lt;/li&gt;
-  &lt;li&gt;전체 문서 집합에서 dog 라는 단어가 드물게 나타났다면, TF-IDF 값은 높아집니다.&lt;/li&gt;
-  &lt;li&gt;이는 단어가 문서의 특징을 잘 나타내는 중요한 단어라는 것을 나타내며, 이를 통해 이 문서가 dog과 관련이 높다는 것을 나타내는 검색 결과에서 상위에 나타날 수 있게 됩니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;활용&quot;&gt;활용&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;단어의 빈도수를 고려하기 때문에, 자주 나타나는 단어에 대해서는 높은 가중치를 부여하고, 드물게 나타나는 단어에 대해서는 높은 가중치를 부여합니다.
-    &lt;ul&gt;
-      &lt;li&gt;이러한 방식은 다른 기술과 함께 사용될 때 좋은 결과를 낼 수 있습니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;불용어 제거&lt;/strong&gt;에도 사용할 수 있습니다.
-    &lt;ul&gt;
-      &lt;li&gt;자주 나타나지만 분석에 필요하지 않은 단어들을 제거하고, 중요한 단어들에 대해서만 TF-IDF 가중치를 계산하여 분석을 수행할 수 있습니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;다른 기술과 결합하여 &lt;strong&gt;토픽 모델링&lt;/strong&gt;이나 &lt;strong&gt;감성 분석&lt;/strong&gt; 등의 작업에서도 활용됩니다.
-    &lt;ul&gt;
-      &lt;li&gt;이러한 분야에서도 TF-IDF를 활용하여 각 단어의 중요도를 계산하고, 이를 바탕으로 분석을 수행합니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;한계&quot;&gt;한계&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;동음이의어&lt;/strong&gt;나 &lt;strong&gt;유사어&lt;/strong&gt;의 처리에 대해서는 &lt;strong&gt;한계&lt;/strong&gt;가 있습니다.
-    &lt;ul&gt;
-      &lt;li&gt;이러한 문제를 해결하기 위해서는 &lt;strong&gt;단어 임베딩&lt;/strong&gt;(word embedding) 등의 기술을 함께 사용해야 합니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;긴 문서&lt;/strong&gt;에서는 &lt;strong&gt;단어의 빈도수&lt;/strong&gt;가 &lt;strong&gt;과도하게 높아져서&lt;/strong&gt;, 가중치가 높은 단어가 &lt;strong&gt;특별한 의미&lt;/strong&gt;를 &lt;strong&gt;가지지 않는&lt;/strong&gt; 경우도 있습니다.&lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">TF-IDF (용어 빈도 - 역 문서 빈도)</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
       <title type="html">TIL-Stop Words</title>
       <link href="http://localhost:4000/TIL-StopWords" rel="alternate" type="text/html" title="TIL-Stop Words" />
       <published>2023-03-13T00:00:00+09:00</published>
@@ -691,93 +809,6 @@ OperationalError: (2003, &quot;Can&apos;t connect to MySQL server on &apos;127.0
 
       
         <summary type="html">Stop Words 불용어</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">TIL-코스피코스닥</title>
-      <link href="http://localhost:4000/TIL-%EC%BD%94%EC%8A%A4%ED%94%BC%EC%BD%94%EC%8A%A4%EB%8B%A5" rel="alternate" type="text/html" title="TIL-코스피코스닥" />
-      <published>2023-03-12T00:00:00+09:00</published>
-      <updated>2023-03-12T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-%EC%BD%94%EC%8A%A4%ED%94%BC%EC%BD%94%EC%8A%A4%EB%8B%A5</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-%EC%BD%94%EC%8A%A4%ED%94%BC%EC%BD%94%EC%8A%A4%EB%8B%A5">&lt;h1 id=&quot;코스피-코스닥&quot;&gt;코스피 코스닥&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;코스피(KOSPI) 코스닥(KOSDAQ)은 한국 증권거래소(KRX)에서 운영하는 대표적인 주식시장입니다.&lt;br /&gt;
-두 시장의 차이는 &lt;strong&gt;상장 기업의 특성과 시장 규모, 시장 참여자의 투자성향 등&lt;/strong&gt;에서 차이가 날 수 있습니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;상장-기업의-특성&quot;&gt;상장 기업의 특성&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;코스피
-    &lt;ul&gt;
-      &lt;li&gt;대기업들과 대형 중소기업들이 많이 상장되어 있습니다.&lt;/li&gt;
-      &lt;li&gt;기업들은 안정적이고 예측 가능한 수익성을 가집니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;코스닥
-    &lt;ul&gt;
-      &lt;li&gt;기술 중심의 중소 기업들이 중심이 됩니다.&lt;/li&gt;
-      &lt;li&gt;기업들은 높은 성장성과 수익성을 추구합니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;시장-규모&quot;&gt;시장 규모&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;코스피
-    &lt;ul&gt;
-      &lt;li&gt;시가총액 대비 거래량이 많아 시장 규모가 큽니다.&lt;/li&gt;
-      &lt;li&gt;대표적인 대기업들이 많이 상장되어 있습니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;코스닥
-    &lt;ul&gt;
-      &lt;li&gt;거래량 대비 시가총액 비율이 낮아 시장 규모가 작습니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;시장-참여자의-투자성향&quot;&gt;시장 참여자의 투자성향&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;코스피
-    &lt;ul&gt;
-      &lt;li&gt;기관과 외국인 등 대형 투자자들의 참여가 많아 전체 시장의 흐름을 좌우하기도 합니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;코스닥
-    &lt;ul&gt;
-      &lt;li&gt;개인 투자자들의 참여가 많고, 기업의 신규 상장 과정이 빠르고 간소화되어 있다는 특징이 있습니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">코스피 코스닥</summary>
       
 
       
@@ -881,137 +912,60 @@ OperationalError: (2003, &quot;Can&apos;t connect to MySQL server on &apos;127.0
     </entry>
   
     <entry>
-      <title type="html">TIL-whiten</title>
-      <link href="http://localhost:4000/TIL-whiten" rel="alternate" type="text/html" title="TIL-whiten" />
-      <published>2023-03-11T00:00:00+09:00</published>
-      <updated>2023-03-11T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-whiten</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-whiten">&lt;h1 id=&quot;클러스터링에서-whiten-&quot;&gt;클러스터링에서 Whiten ?&lt;/h1&gt;
+      <title type="html">TIL-코스피코스닥</title>
+      <link href="http://localhost:4000/TIL-%EC%BD%94%EC%8A%A4%ED%94%BC%EC%BD%94%EC%8A%A4%EB%8B%A5" rel="alternate" type="text/html" title="TIL-코스피코스닥" />
+      <published>2023-03-12T00:00:00+09:00</published>
+      <updated>2023-03-12T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-%EC%BD%94%EC%8A%A4%ED%94%BC%EC%BD%94%EC%8A%A4%EB%8B%A5</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-%EC%BD%94%EC%8A%A4%ED%94%BC%EC%BD%94%EC%8A%A4%EB%8B%A5">&lt;h1 id=&quot;코스피-코스닥&quot;&gt;코스피 코스닥&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;코스피(KOSPI) 코스닥(KOSDAQ)은 한국 증권거래소(KRX)에서 운영하는 대표적인 주식시장입니다.&lt;br /&gt;
+두 시장의 차이는 &lt;strong&gt;상장 기업의 특성과 시장 규모, 시장 참여자의 투자성향 등&lt;/strong&gt;에서 차이가 날 수 있습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;상장-기업의-특성&quot;&gt;상장 기업의 특성&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;데이터를 더욱 효과적으로 클러스터링하기 위해 whiten이라는 전처리 기술을 사용합니다.
+  &lt;li&gt;코스피
     &lt;ul&gt;
-      &lt;li&gt;클러스터링은 비슷한 특징을 가진 데이터들을 그룹으로 묶는 기술입니다.&lt;/li&gt;
+      &lt;li&gt;대기업들과 대형 중소기업들이 많이 상장되어 있습니다.&lt;/li&gt;
+      &lt;li&gt;기업들은 안정적이고 예측 가능한 수익성을 가집니다.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;whiten 처리를 하면 데이터의 &lt;strong&gt;스케일링&lt;/strong&gt;과 &lt;strong&gt;정규화&lt;/strong&gt;를 수행하고, 각 변수간의 상관관계를 줄입니다.
+  &lt;li&gt;코스닥
     &lt;ul&gt;
-      &lt;li&gt;이렇게 처리된 데이터는 클러스터링 알고리즘에서 더욱 정확하게 작동하게 됩니다.&lt;/li&gt;
+      &lt;li&gt;기술 중심의 중소 기업들이 중심이 됩니다.&lt;/li&gt;
+      &lt;li&gt;기업들은 높은 성장성과 수익성을 추구합니다.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;즉, whiten은 데이터를 변환하여 클러스터링 알고리즘의 성능을 높이는 기술입니다.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;예시&quot;&gt;예시&lt;/h2&gt;
-
+&lt;h2 id=&quot;시장-규모&quot;&gt;시장 규모&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;이차원의 데이터가 주어질 때, 그대로 클러스터링 알고리즘에 적용하면, 각 변수의 범위와 분산이 다르기 때문에 올바른 클러스터링 결과를 얻기 어렵습니다. 따라서 whiten 처리를 수행하여 데이터를 반환합니다.&lt;/li&gt;
+  &lt;li&gt;코스피
+    &lt;ul&gt;
+      &lt;li&gt;시가총액 대비 거래량이 많아 시장 규모가 큽니다.&lt;/li&gt;
+      &lt;li&gt;대표적인 대기업들이 많이 상장되어 있습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;코스닥
+    &lt;ul&gt;
+      &lt;li&gt;거래량 대비 시가총액 비율이 낮아 시장 규모가 작습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[[1, 2],
- [2, 4],
- [3, 6],
- [4, 8]]
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
+&lt;h2 id=&quot;시장-참여자의-투자성향&quot;&gt;시장 참여자의 투자성향&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;데이터를 whiten 처리하면, 데이터의 분산이 모두 1이 되고, 각 변수간의 상관관계가 제거 됩니다. 이전의 데이터를 whiten 처리한 결과는 아래와 같습니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[[-1.34164079, -1.34164079],
- [ 0.        ,  0.        ],
- [ 1.34164079,  1.34164079],
- [ 2.68328157,  2.68328157]]
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;변수간의 상관관계가 없어지고 분산이 같아지기 때문에 더욱 정확한 클러스터링 결과를 얻을 수 있습니다.&lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">클러스터링에서 Whiten ?</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">TIL-SVD</title>
-      <link href="http://localhost:4000/TIL-SVD" rel="alternate" type="text/html" title="TIL-SVD" />
-      <published>2023-03-11T00:00:00+09:00</published>
-      <updated>2023-03-11T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-SVD</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-SVD">&lt;h1 id=&quot;svd란&quot;&gt;SVD란?&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;특이값 분해(Singular Value Decomposition;SVD)&lt;/li&gt;
-  &lt;li&gt;주어진 행렬을 세 개의 행렬의 곲으로 분해하는 기법입니다.
+  &lt;li&gt;코스피
     &lt;ul&gt;
-      &lt;li&gt;이 세 개의 행렬은 특이값, 왼쪽 특이벡터, 오른쪽 특이벡터라고 합니다.&lt;/li&gt;
-      &lt;li&gt;특이값 행렬
-        &lt;ul&gt;
-          &lt;li&gt;중요도가 높은 순서대로 정렬된 실수값을 대각원소로 가지는 정방 행렬입니다.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;왼쪽 특이벡터 행렬
-        &lt;ul&gt;
-          &lt;li&gt;행렬의 행의 차원과 같은 크기를 가지며, 각 열이 서로 직교하는 단위 벡터로 구성된 직사각 행렬입니다.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;오른쪽 특이벡터 행렬
-        &lt;ul&gt;
-          &lt;li&gt;행렬의 열의 차원과 같은 크기를 가지며, 각 열이 서로 직교하는 단위 벡터로 구성된 직사각 행렬입니다.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;이러한 행렬 분해를 통해, 행렬의 고유 정보를 추출할 수 있습니다.&lt;/li&gt;
-      &lt;li&gt;행렬의 차원 중 작은 값(일반적으로 0에 가까운 값)을 제거하면, 차원 축소(Dimensionality Reduction)을 수행할 수 있습니다.&lt;/li&gt;
+      &lt;li&gt;기관과 외국인 등 대형 투자자들의 참여가 많아 전체 시장의 흐름을 좌우하기도 합니다.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;사용되는 다양한 분야
+  &lt;li&gt;코스닥
     &lt;ul&gt;
-      &lt;li&gt;행렬 분해&lt;/li&gt;
-      &lt;li&gt;추천 시스템 : SVD를 이용하여 사용자와 상품의 특성을 추출하고, 이를 바탕으로 개인화된 추천을 제공할 수 있습니다.&lt;/li&gt;
-      &lt;li&gt;이미지 압축 : SVD를 이용하여 분해하면, 중요한 정보만 남기고 불필요한 정보는 제거할 수 있어 이미지 압출에 사용됩니다.&lt;/li&gt;
-      &lt;li&gt;등&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;PCA(주성분 분석) 등의 기법과 밀접한 관련이 있으며, 머신러닝과 딥러닝 분야에서도 널리 사용됩니다.
-    &lt;ul&gt;
-      &lt;li&gt;예를 들어, 이미지 분류에서는 이미지 데이터를 특징 벡터로 변환하는 과정이 필요한데, 이 때 SVD를 이용하여 데이터를 분해하고, 중요한 정보를 추출합니다.&lt;/li&gt;
-      &lt;li&gt;이를 바탕으로 분류 모델을 학습하거나, 차원 축소를 수행하여 모델의 성능을 개선할 수 있습니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;SVD는 행렬 분해 기법 중에서도 가장 일반적인 기법 중 하나입니다.
-    &lt;ul&gt;
-      &lt;li&gt;다양한 행렬 기법이 존재하지만, SVD는 대부분의 행렬에 대해서 적용이 가능하고&lt;/li&gt;
-      &lt;li&gt;분해된 세 개의 행렬을 통해 다양한 정보를 추출할 수 있습니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;단점
-    &lt;ul&gt;
-      &lt;li&gt;행렬의 크기가 크거나, 희소 행렬(sparse matrix)의 경우에는 계산 복잡도가 매우 높아지는 단점이 있습니다.&lt;/li&gt;
-      &lt;li&gt;이를 해결하기 위해, SVD의 변형 기법인 절단된 SVD(Truncated SVD)와 랜덤 SVD(Randomized SVD) 등이 개발되었습니다.&lt;/li&gt;
+      &lt;li&gt;개인 투자자들의 참여가 많고, 기업의 신규 상장 과정이 빠르고 간소화되어 있다는 특징이 있습니다.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;</content>
@@ -1037,7 +991,7 @@ OperationalError: (2003, &quot;Can&apos;t connect to MySQL server on &apos;127.0
       
 
       
-        <summary type="html">SVD란?</summary>
+        <summary type="html">코스피 코스닥</summary>
       
 
       

@@ -8,6 +8,51 @@
     
       
       <item>
+        <title>한국해양기상기술 직장</title>
+        
+          <description>&lt;h1 id=&quot;한국해양기상기술&quot;&gt;한국해양기상기술&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Sun, 19 Mar 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/%ED%95%9C%EA%B5%AD%ED%95%B4%EC%96%91%EA%B8%B0%EC%83%81%EA%B8%B0%EC%88%A0(%EC%A7%81%EC%9E%A5)</link>
+        <guid isPermaLink="true">http://localhost:4000/%ED%95%9C%EA%B5%AD%ED%95%B4%EC%96%91%EA%B8%B0%EC%83%81%EA%B8%B0%EC%88%A0(%EC%A7%81%EC%9E%A5)</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>HTML-딥러닝이란?</title>
+        
+          <description>&lt;p&gt;```python&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sun, 19 Mar 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/TIL-%EB%94%A5%EB%9F%AC%EB%8B%9D</link>
+        <guid isPermaLink="true">http://localhost:4000/TIL-%EB%94%A5%EB%9F%AC%EB%8B%9D</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>신용카드 사기 탐지</title>
+        
+          <description>&lt;h1 id=&quot;신용카드-사기-탐지-credit-card-fraud-detection&quot;&gt;신용카드 사기 탐지 (Credit Card Fraud Detection)&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Fri, 17 Mar 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80</link>
+        <guid isPermaLink="true">http://localhost:4000/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>면접질문</title>
         
           <description>&lt;h1 id=&quot;면접질문&quot;&gt;면접질문&lt;/h1&gt;
@@ -23,21 +68,6 @@
     
       
       <item>
-        <title>TIL-위플랫</title>
-        
-          <description>&lt;h1 id=&quot;위플랫&quot;&gt;위플랫&lt;/h1&gt;
-
-</description>
-        
-        <pubDate>Wed, 15 Mar 2023 00:00:00 +0900</pubDate>
-        <link>
-        http://localhost:4000/TIL-%EC%9C%84%ED%94%8C%EB%9E%AB</link>
-        <guid isPermaLink="true">http://localhost:4000/TIL-%EC%9C%84%ED%94%8C%EB%9E%AB</guid>
-      </item>
-      
-    
-      
-      <item>
         <title>TIL-PyMySQL</title>
         
           <description>&lt;h1 id=&quot;pymysql&quot;&gt;PyMySQL&lt;/h1&gt;
@@ -48,6 +78,21 @@
         <link>
         http://localhost:4000/TIL-PyMySQL</link>
         <guid isPermaLink="true">http://localhost:4000/TIL-PyMySQL</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>TIL-위플랫</title>
+        
+          <description>&lt;h1 id=&quot;위플랫&quot;&gt;위플랫&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Wed, 15 Mar 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/TIL-%EC%9C%84%ED%94%8C%EB%9E%AB</link>
+        <guid isPermaLink="true">http://localhost:4000/TIL-%EC%9C%84%ED%94%8C%EB%9E%AB</guid>
       </item>
       
     
@@ -650,6 +695,21 @@
     
       
       <item>
+        <title>문자열매칭</title>
+        
+          <description>&lt;h1 id=&quot;문자열매칭&quot;&gt;문자열매칭&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Tue, 28 Feb 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EB%A7%A4%EC%B9%AD</link>
+        <guid isPermaLink="true">http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EB%A7%A4%EC%B9%AD</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>분수의덧셈</title>
         
           <description>&lt;h1 id=&quot;분수의-덧셈&quot;&gt;분수의 덧셈&lt;/h1&gt;
@@ -720,21 +780,6 @@
         <link>
         http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EB%B9%84%EA%B5%90</link>
         <guid isPermaLink="true">http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EB%B9%84%EA%B5%90</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>문자열매칭</title>
-        
-          <description>&lt;h1 id=&quot;문자열매칭&quot;&gt;문자열매칭&lt;/h1&gt;
-
-</description>
-        
-        <pubDate>Tue, 28 Feb 2023 00:00:00 +0900</pubDate>
-        <link>
-        http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EB%A7%A4%EC%B9%AD</link>
-        <guid isPermaLink="true">http://localhost:4000/%EB%AC%B8%EC%9E%90%EC%97%B4%EB%A7%A4%EC%B9%AD</guid>
       </item>
       
     
@@ -1238,6 +1283,21 @@
     
       
       <item>
+        <title>TIL-에이아이스페라</title>
+        
+          <description>&lt;h1 id=&quot;에이아이스페라&quot;&gt;에이아이스페라&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Fri, 10 Feb 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/TIL-aispera</link>
+        <guid isPermaLink="true">http://localhost:4000/TIL-aispera</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>TIL-한국해양기상기술</title>
         
           <description>&lt;h1 id=&quot;한국해양기상기술&quot;&gt;한국해양기상기술&lt;/h1&gt;
@@ -1263,21 +1323,6 @@
         <link>
         http://localhost:4000/TIL-%EC%9D%B4%EB%85%B8%EB%A3%B0%EC%8A%A4</link>
         <guid isPermaLink="true">http://localhost:4000/TIL-%EC%9D%B4%EB%85%B8%EB%A3%B0%EC%8A%A4</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>TIL-에이아이스페라</title>
-        
-          <description>&lt;h1 id=&quot;에이아이스페라&quot;&gt;에이아이스페라&lt;/h1&gt;
-
-</description>
-        
-        <pubDate>Fri, 10 Feb 2023 00:00:00 +0900</pubDate>
-        <link>
-        http://localhost:4000/TIL-aispera</link>
-        <guid isPermaLink="true">http://localhost:4000/TIL-aispera</guid>
       </item>
       
     

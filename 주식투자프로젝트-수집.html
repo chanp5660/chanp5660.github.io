@@ -217,8 +217,451 @@ into the {body} of the default.hbs template -->
 
 <p><a href="https://chanp5660.github.io//FinanceDataReader">FinanceDataReader 라이브러리 간단한 사용법</a></p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<p>라이브러리 로드</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+
+<span class="n">plt</span><span class="p">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s">'font.family'</span><span class="p">]</span> <span class="o">=</span> <span class="s">'HYHeadLine-Medium'</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s">'figure.figsize'</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">14</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s">'lines.linewidth'</span><span class="p">]</span> <span class="o">=</span> <span class="mi">2</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s">'axes.grid'</span><span class="p">]</span> <span class="o">=</span> <span class="bp">True</span>
+
+<span class="n">plt</span><span class="p">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s">'axes.unicode_minus'</span><span class="p">]</span> <span class="o">=</span> <span class="bp">False</span>
+
+<span class="kn">import</span> <span class="nn">FinanceDataReader</span> <span class="k">as</span> <span class="n">fdr</span>
+<span class="k">print</span><span class="p">(</span><span class="n">fdr</span><span class="p">.</span><span class="n">__version__</span><span class="p">)</span>
 </code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>0.9.50
+</code></pre></div></div>
+
+<hr />
+<p>한국거래소 상장종목 전체 KRX</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">df_krx</span> <span class="o">=</span> <span class="n">fdr</span><span class="p">.</span><span class="n">StockListing</span><span class="p">(</span><span class="s">'KRX'</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">df_krx</span><span class="p">))</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>2707
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">display</span><span class="p">(</span><span class="n">df_krx</span><span class="p">.</span><span class="n">head</span><span class="p">())</span>
+</code></pre></div></div>
+
+<div style="width:100%"> 
+ <details> 
+<summary><span style="color:blue">출력 보기(클릭)</span></summary>
+
+
+
+<div class="my-table">
+<style scoped="">
+    .my-table {
+        width:100%;
+        height:300px;
+    }
+    .dataframe {
+        height: 95%;
+    }
+        .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Code</th>
+      <th>ISU_CD</th>
+      <th>Name</th>
+      <th>Market</th>
+      <th>Dept</th>
+      <th>Close</th>
+      <th>ChangeCode</th>
+      <th>Changes</th>
+      <th>ChagesRatio</th>
+      <th>Open</th>
+      <th>High</th>
+      <th>Low</th>
+      <th>Volume</th>
+      <th>Amount</th>
+      <th>Marcap</th>
+      <th>Stocks</th>
+      <th>MarketId</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>005930</td>
+      <td>KR7005930003</td>
+      <td>삼성전자</td>
+      <td>KOSPI</td>
+      <td></td>
+      <td>59900</td>
+      <td>1</td>
+      <td>100</td>
+      <td>0.17</td>
+      <td>59200</td>
+      <td>60200</td>
+      <td>59100</td>
+      <td>10611939</td>
+      <td>633331744600</td>
+      <td>357589974745000</td>
+      <td>5969782550</td>
+      <td>STK</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>373220</td>
+      <td>KR7373220003</td>
+      <td>LG에너지솔루션</td>
+      <td>KOSPI</td>
+      <td></td>
+      <td>576000</td>
+      <td>1</td>
+      <td>11000</td>
+      <td>1.95</td>
+      <td>561000</td>
+      <td>578000</td>
+      <td>558000</td>
+      <td>499942</td>
+      <td>285799756000</td>
+      <td>134784000000000</td>
+      <td>234000000</td>
+      <td>STK</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>000660</td>
+      <td>KR7000660001</td>
+      <td>SK하이닉스</td>
+      <td>KOSPI</td>
+      <td></td>
+      <td>79000</td>
+      <td>2</td>
+      <td>-100</td>
+      <td>-0.13</td>
+      <td>76700</td>
+      <td>80200</td>
+      <td>76700</td>
+      <td>4804196</td>
+      <td>379790459748</td>
+      <td>57512186835000</td>
+      <td>728002365</td>
+      <td>STK</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>207940</td>
+      <td>KR7207940008</td>
+      <td>삼성바이오로직스</td>
+      <td>KOSPI</td>
+      <td></td>
+      <td>790000</td>
+      <td>1</td>
+      <td>12000</td>
+      <td>1.54</td>
+      <td>772000</td>
+      <td>796000</td>
+      <td>771000</td>
+      <td>60191</td>
+      <td>47387536000</td>
+      <td>56227460000000</td>
+      <td>71174000</td>
+      <td>STK</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>051910</td>
+      <td>KR7051910008</td>
+      <td>LG화학</td>
+      <td>KOSPI</td>
+      <td></td>
+      <td>730000</td>
+      <td>1</td>
+      <td>9000</td>
+      <td>1.25</td>
+      <td>716000</td>
+      <td>731000</td>
+      <td>707000</td>
+      <td>224294</td>
+      <td>161777544800</td>
+      <td>51532410390000</td>
+      <td>70592343</td>
+      <td>STK</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</details>
+</div>
+
+<hr />
+<p>삼성전자의 주가그래프 살펴보기</p>
+<ul>
+  <li>변수 이름
+    <ul>
+      <li>Open : 일일 시가 (시작 주가)</li>
+      <li>High : 당일의 주가 최고점</li>
+      <li>Low : 당일의 주가 최저점</li>
+      <li>Close : 일일 종가 (마지막 주가)</li>
+      <li>Vloumne : 거래량</li>
+      <li>Change : 당일 가격변동
+        <ul>
+          <li>계산식 : (일일 종가 - 일일 시가) / 일일 시가 * 100</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 가독성이 좋게 코드 부분에 회사 이름을 적을 수 있도록 합니다.
+</span><span class="n">name_code_trans</span> <span class="o">=</span> <span class="p">{</span><span class="n">name</span><span class="p">:</span><span class="n">code</span> <span class="k">for</span> <span class="n">code</span><span class="p">,</span><span class="n">name</span> <span class="ow">in</span> <span class="n">df_krx</span><span class="p">[[</span><span class="s">'Code'</span><span class="p">,</span><span class="s">'Name'</span><span class="p">]].</span><span class="n">values</span><span class="p">}</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">fdr</span><span class="p">.</span><span class="n">DataReader</span><span class="p">(</span><span class="n">name_code_trans</span><span class="p">[</span><span class="s">'삼성전자'</span><span class="p">])</span>
+<span class="n">display</span><span class="p">(</span><span class="n">df</span><span class="p">.</span><span class="n">head</span><span class="p">())</span>
+</code></pre></div></div>
+
+<div style="width:100%"> 
+ <details> 
+<summary><span style="color:blue">출력 보기(클릭)</span></summary>
+
+
+
+<div class="my-table">
+<style scoped="">
+    .my-table {
+        width:100%;
+        height:300px;
+    }
+    .dataframe {
+        height: 95%;
+    }
+        .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Open</th>
+      <th>High</th>
+      <th>Low</th>
+      <th>Close</th>
+      <th>Volume</th>
+      <th>Change</th>
+    </tr>
+    <tr>
+      <th>Date</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1998-11-28</th>
+      <td>1292</td>
+      <td>1321</td>
+      <td>1289</td>
+      <td>1318</td>
+      <td>264480</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1998-11-30</th>
+      <td>1335</td>
+      <td>1335</td>
+      <td>1268</td>
+      <td>1276</td>
+      <td>320470</td>
+      <td>-0.031866</td>
+    </tr>
+    <tr>
+      <th>1998-12-01</th>
+      <td>1254</td>
+      <td>1254</td>
+      <td>1162</td>
+      <td>1197</td>
+      <td>877940</td>
+      <td>-0.061912</td>
+    </tr>
+    <tr>
+      <th>1998-12-02</th>
+      <td>1206</td>
+      <td>1225</td>
+      <td>1168</td>
+      <td>1226</td>
+      <td>531220</td>
+      <td>0.024227</td>
+    </tr>
+    <tr>
+      <th>1998-12-03</th>
+      <td>1260</td>
+      <td>1293</td>
+      <td>1227</td>
+      <td>1264</td>
+      <td>910940</td>
+      <td>0.030995</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</details>
+</div>
+
+<hr />
+<p>삼성전자, 2021년</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">df</span> <span class="o">=</span> <span class="n">fdr</span><span class="p">.</span><span class="n">DataReader</span><span class="p">(</span><span class="n">name_code_trans</span><span class="p">[</span><span class="s">'삼성전자'</span><span class="p">],</span><span class="s">'2021'</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">df</span><span class="p">.</span><span class="n">head</span><span class="p">())</span>
+</code></pre></div></div>
+
+<div style="width:100%"> 
+ <details> 
+<summary><span style="color:blue">출력 보기(클릭)</span></summary>
+
+
+
+<div class="my-table">
+<style scoped="">
+    .my-table {
+        width:100%;
+        height:300px;
+    }
+    .dataframe {
+        height: 95%;
+    }
+        .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Open</th>
+      <th>High</th>
+      <th>Low</th>
+      <th>Close</th>
+      <th>Volume</th>
+      <th>Change</th>
+    </tr>
+    <tr>
+      <th>Date</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2021-01-04</th>
+      <td>81000</td>
+      <td>84400</td>
+      <td>80200</td>
+      <td>83000</td>
+      <td>38655276</td>
+      <td>0.024691</td>
+    </tr>
+    <tr>
+      <th>2021-01-05</th>
+      <td>81600</td>
+      <td>83900</td>
+      <td>81600</td>
+      <td>83900</td>
+      <td>35335669</td>
+      <td>0.010843</td>
+    </tr>
+    <tr>
+      <th>2021-01-06</th>
+      <td>83300</td>
+      <td>84500</td>
+      <td>82100</td>
+      <td>82200</td>
+      <td>42089013</td>
+      <td>-0.020262</td>
+    </tr>
+    <tr>
+      <th>2021-01-07</th>
+      <td>82800</td>
+      <td>84200</td>
+      <td>82700</td>
+      <td>82900</td>
+      <td>32644642</td>
+      <td>0.008516</td>
+    </tr>
+    <tr>
+      <th>2021-01-08</th>
+      <td>83300</td>
+      <td>90000</td>
+      <td>83000</td>
+      <td>88800</td>
+      <td>59013307</td>
+      <td>0.071170</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</details>
+</div>
+
+<hr />
+<p>그래프로 표현하기</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">df</span><span class="p">[</span><span class="s">'Close'</span><span class="p">].</span><span class="n">plot</span><span class="p">()</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p><img src="https://user-images.githubusercontent.com/46266247/225679882-5e5767de-aec6-4668-a84c-7e2046c77202.png" width="100%" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">df</span><span class="p">[</span><span class="s">'Open'</span><span class="p">].</span><span class="n">plot</span><span class="p">()</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p><img src="https://user-images.githubusercontent.com/46266247/225679888-9d35c8a3-c7a1-426b-91ad-a9636e699c88.png" width="100%" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">df</span><span class="p">[</span><span class="s">'Change'</span><span class="p">].</span><span class="n">plot</span><span class="p">()</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p><img src="%EC%A3%BC%EC%8B%9D%ED%88%AC%EC%9E%90%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%EC%A7%91_files/%EC%A3%BC%EC%8B%9D%ED%88%AC%EC%9E%90%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%EC%A7%91_19_0.png" alt="png" /></p>
+
+<p>궁금</p>
+<ul>
+  <li>변동성(절대값으로 크기만 비교)과 거래량의 관계는?</li>
+</ul>
 
                 </div>
             </section>
@@ -312,6 +755,19 @@ into the {body} of the default.hbs template -->
                         <div class="read-next-card-content">
                             <ul>
                                 
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80">신용카드 사기 탐지</a></li>
+                                        
+                                    
+                                  
                                 
                                   
                                 
@@ -517,8 +973,6 @@ into the {body} of the default.hbs template -->
                                     
                                         
                                         
-                                            <li><a href="/%EB%82%98%EB%9D%BC%EC%9E%A5%ED%84%B0-%EB%84%A4%EC%9D%B4%EB%B2%84%EB%A9%94%EC%9D%BC%EC%9E%90%EB%8F%99%EB%B3%B4%EB%82%B4%EA%B8%B0">나라장터-네이버메일자동보내기</a></li>
-                                        
                                     
                                   
                                 
@@ -589,7 +1043,7 @@ into the {body} of the default.hbs template -->
                         <footer class="read-next-card-footer">
                             <a href="/tag/project/">
                                 
-                                    See all 5 posts  →
+                                    See all 6 posts  →
                                 
                             </a>
                         </footer>

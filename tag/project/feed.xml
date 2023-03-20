@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/project/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-03-15T23:57:21+09:00</updated>
+  <updated>2023-03-20T12:35:39+09:00</updated>
   <id>http://localhost:4000/tag/project/feed.xml</id>
 
   
@@ -30,6 +30,58 @@
   
   
 
+  
+    <entry>
+      <title type="html">신용카드 사기 탐지</title>
+      <link href="http://localhost:4000/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80" rel="alternate" type="text/html" title="신용카드 사기 탐지" />
+      <published>2023-03-17T00:00:00+09:00</published>
+      <updated>2023-03-17T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80</id>
+      <content type="html" xml:base="http://localhost:4000/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80">&lt;h1 id=&quot;신용카드-사기-탐지-credit-card-fraud-detection&quot;&gt;신용카드 사기 탐지 (Credit Card Fraud Detection)&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud&quot;&gt;kaggle&lt;/a&gt;에서 SVM을 사용해서 분석하는 방법을 클론 코딩해보면서 경험(도메인과 SVM 활용)을 쌓는다.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/code/janiobachmann/credit-fraud-dealing-with-imbalanced-datasets&quot;&gt;janiobachmann&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;중요사항&quot;&gt;중요사항&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;고객이 구매하지 않은 항목에 대해 비용이 청구되지 않도록 신용 카드 회사가 사기 신용 카드 거래를 인식할 수 있는 것이 중요합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;내용&quot;&gt;내용&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;데이터 세트에는 2013년 9월 유럽 카드 소지자가 신용 카드로 수행한 거래가 포함되어 있습니다.&lt;/li&gt;
+  &lt;li&gt;이 데이터 세트는 &lt;strong&gt;284,807건&lt;/strong&gt;의 거래 중 &lt;strong&gt;492건&lt;/strong&gt;의 사기가 있는 2일 동안 발생한 거래를 나타냅니다. 데이터 세트는 매우 불균형하며 긍정적인 클래스(사기)가 모든 거래의 0.172%를 차지합니다.&lt;/li&gt;
+  &lt;li&gt;여기에는 PCA 변환의 결과인 숫자 입력 변수만 포함됩니다. 유감스럽게도 기밀 문제로 인해 원본 기능과 데이터에 대한 자세한 배경 정보를 제공할 수 없습니다. 특징 V1, V2, … V28은 PCA로 얻은 주요 구성 요소이며 PCA로 변환되지 않은 유일한 특징은 ‘시간’과 ‘양’입니다. 기능 ‘시간’에는 각 트랜잭션과 데이터 세트의 첫 번째 트랜잭션 사이에 경과된 초가 포함됩니다. ‘Amount’ 기능은 거래 금액이며, 이 기능은 예제 종속 비용에 민감한 학습에 사용할 수 있습니다. Feature ‘Class’는 응답 변수이며 사기의 경우 값 1, 그렇지 않은 경우 0입니다.&lt;/li&gt;
+  &lt;li&gt;클래스 불균형 비율을 고려할 때 AUPRC(Area Under the Precision-Recall Curve)를 사용하여 정확도를 측정하는 것이 좋습니다. 혼란 행렬 정확도는 불균형 분류에 의미가 없습니다.&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="project" />
+      
+
+      
+        <summary type="html">신용카드 사기 탐지 (Credit Card Fraud Detection)</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">주식투자-수집</title>
@@ -59,8 +111,451 @@
 
 &lt;p&gt;&lt;a href=&quot;https://chanp5660.github.io//FinanceDataReader&quot;&gt;FinanceDataReader 라이브러리 간단한 사용법&lt;/a&gt;&lt;/p&gt;
 
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+&lt;p&gt;라이브러리 로드&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;matplotlib.pyplot&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rcParams&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;font.family&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;HYHeadLine-Medium&apos;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rcParams&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;figure.figsize&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;14&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rcParams&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;lines.linewidth&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rcParams&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;axes.grid&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rcParams&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;axes.unicode_minus&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
+
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;FinanceDataReader&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fdr&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fdr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__version__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;0.9.50
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;한국거래소 상장종목 전체 KRX&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;df_krx&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fdr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;StockListing&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;KRX&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df_krx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;2707
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df_krx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div style=&quot;width:100%&quot;&gt; 
+ &lt;details&gt; 
+&lt;summary&gt;&lt;span style=&quot;color:blue&quot;&gt;출력 보기(클릭)&lt;/span&gt;&lt;/summary&gt;
+
+
+
+&lt;div class=&quot;my-table&quot;&gt;
+&lt;style scoped=&quot;&quot;&gt;
+    .my-table {
+        width:100%;
+        height:300px;
+    }
+    .dataframe {
+        height: 95%;
+    }
+        .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+&lt;/style&gt;
+&lt;table border=&quot;1&quot; class=&quot;dataframe&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr style=&quot;text-align: right;&quot;&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;Code&lt;/th&gt;
+      &lt;th&gt;ISU_CD&lt;/th&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th&gt;Market&lt;/th&gt;
+      &lt;th&gt;Dept&lt;/th&gt;
+      &lt;th&gt;Close&lt;/th&gt;
+      &lt;th&gt;ChangeCode&lt;/th&gt;
+      &lt;th&gt;Changes&lt;/th&gt;
+      &lt;th&gt;ChagesRatio&lt;/th&gt;
+      &lt;th&gt;Open&lt;/th&gt;
+      &lt;th&gt;High&lt;/th&gt;
+      &lt;th&gt;Low&lt;/th&gt;
+      &lt;th&gt;Volume&lt;/th&gt;
+      &lt;th&gt;Amount&lt;/th&gt;
+      &lt;th&gt;Marcap&lt;/th&gt;
+      &lt;th&gt;Stocks&lt;/th&gt;
+      &lt;th&gt;MarketId&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;0&lt;/th&gt;
+      &lt;td&gt;005930&lt;/td&gt;
+      &lt;td&gt;KR7005930003&lt;/td&gt;
+      &lt;td&gt;삼성전자&lt;/td&gt;
+      &lt;td&gt;KOSPI&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;59900&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;100&lt;/td&gt;
+      &lt;td&gt;0.17&lt;/td&gt;
+      &lt;td&gt;59200&lt;/td&gt;
+      &lt;td&gt;60200&lt;/td&gt;
+      &lt;td&gt;59100&lt;/td&gt;
+      &lt;td&gt;10611939&lt;/td&gt;
+      &lt;td&gt;633331744600&lt;/td&gt;
+      &lt;td&gt;357589974745000&lt;/td&gt;
+      &lt;td&gt;5969782550&lt;/td&gt;
+      &lt;td&gt;STK&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;1&lt;/th&gt;
+      &lt;td&gt;373220&lt;/td&gt;
+      &lt;td&gt;KR7373220003&lt;/td&gt;
+      &lt;td&gt;LG에너지솔루션&lt;/td&gt;
+      &lt;td&gt;KOSPI&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;576000&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;11000&lt;/td&gt;
+      &lt;td&gt;1.95&lt;/td&gt;
+      &lt;td&gt;561000&lt;/td&gt;
+      &lt;td&gt;578000&lt;/td&gt;
+      &lt;td&gt;558000&lt;/td&gt;
+      &lt;td&gt;499942&lt;/td&gt;
+      &lt;td&gt;285799756000&lt;/td&gt;
+      &lt;td&gt;134784000000000&lt;/td&gt;
+      &lt;td&gt;234000000&lt;/td&gt;
+      &lt;td&gt;STK&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2&lt;/th&gt;
+      &lt;td&gt;000660&lt;/td&gt;
+      &lt;td&gt;KR7000660001&lt;/td&gt;
+      &lt;td&gt;SK하이닉스&lt;/td&gt;
+      &lt;td&gt;KOSPI&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;79000&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;-100&lt;/td&gt;
+      &lt;td&gt;-0.13&lt;/td&gt;
+      &lt;td&gt;76700&lt;/td&gt;
+      &lt;td&gt;80200&lt;/td&gt;
+      &lt;td&gt;76700&lt;/td&gt;
+      &lt;td&gt;4804196&lt;/td&gt;
+      &lt;td&gt;379790459748&lt;/td&gt;
+      &lt;td&gt;57512186835000&lt;/td&gt;
+      &lt;td&gt;728002365&lt;/td&gt;
+      &lt;td&gt;STK&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;3&lt;/th&gt;
+      &lt;td&gt;207940&lt;/td&gt;
+      &lt;td&gt;KR7207940008&lt;/td&gt;
+      &lt;td&gt;삼성바이오로직스&lt;/td&gt;
+      &lt;td&gt;KOSPI&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;790000&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;12000&lt;/td&gt;
+      &lt;td&gt;1.54&lt;/td&gt;
+      &lt;td&gt;772000&lt;/td&gt;
+      &lt;td&gt;796000&lt;/td&gt;
+      &lt;td&gt;771000&lt;/td&gt;
+      &lt;td&gt;60191&lt;/td&gt;
+      &lt;td&gt;47387536000&lt;/td&gt;
+      &lt;td&gt;56227460000000&lt;/td&gt;
+      &lt;td&gt;71174000&lt;/td&gt;
+      &lt;td&gt;STK&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;4&lt;/th&gt;
+      &lt;td&gt;051910&lt;/td&gt;
+      &lt;td&gt;KR7051910008&lt;/td&gt;
+      &lt;td&gt;LG화학&lt;/td&gt;
+      &lt;td&gt;KOSPI&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;730000&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;9000&lt;/td&gt;
+      &lt;td&gt;1.25&lt;/td&gt;
+      &lt;td&gt;716000&lt;/td&gt;
+      &lt;td&gt;731000&lt;/td&gt;
+      &lt;td&gt;707000&lt;/td&gt;
+      &lt;td&gt;224294&lt;/td&gt;
+      &lt;td&gt;161777544800&lt;/td&gt;
+      &lt;td&gt;51532410390000&lt;/td&gt;
+      &lt;td&gt;70592343&lt;/td&gt;
+      &lt;td&gt;STK&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/details&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;삼성전자의 주가그래프 살펴보기&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;변수 이름
+    &lt;ul&gt;
+      &lt;li&gt;Open : 일일 시가 (시작 주가)&lt;/li&gt;
+      &lt;li&gt;High : 당일의 주가 최고점&lt;/li&gt;
+      &lt;li&gt;Low : 당일의 주가 최저점&lt;/li&gt;
+      &lt;li&gt;Close : 일일 종가 (마지막 주가)&lt;/li&gt;
+      &lt;li&gt;Vloumne : 거래량&lt;/li&gt;
+      &lt;li&gt;Change : 당일 가격변동
+        &lt;ul&gt;
+          &lt;li&gt;계산식 : (일일 종가 - 일일 시가) / 일일 시가 * 100&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# 가독성이 좋게 코드 부분에 회사 이름을 적을 수 있도록 합니다.
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name_code_trans&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;code&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;df_krx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Code&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Name&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;values&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fdr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DataReader&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name_code_trans&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;삼성전자&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div style=&quot;width:100%&quot;&gt; 
+ &lt;details&gt; 
+&lt;summary&gt;&lt;span style=&quot;color:blue&quot;&gt;출력 보기(클릭)&lt;/span&gt;&lt;/summary&gt;
+
+
+
+&lt;div class=&quot;my-table&quot;&gt;
+&lt;style scoped=&quot;&quot;&gt;
+    .my-table {
+        width:100%;
+        height:300px;
+    }
+    .dataframe {
+        height: 95%;
+    }
+        .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+&lt;/style&gt;
+&lt;table border=&quot;1&quot; class=&quot;dataframe&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr style=&quot;text-align: right;&quot;&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;Open&lt;/th&gt;
+      &lt;th&gt;High&lt;/th&gt;
+      &lt;th&gt;Low&lt;/th&gt;
+      &lt;th&gt;Close&lt;/th&gt;
+      &lt;th&gt;Volume&lt;/th&gt;
+      &lt;th&gt;Change&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Date&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;1998-11-28&lt;/th&gt;
+      &lt;td&gt;1292&lt;/td&gt;
+      &lt;td&gt;1321&lt;/td&gt;
+      &lt;td&gt;1289&lt;/td&gt;
+      &lt;td&gt;1318&lt;/td&gt;
+      &lt;td&gt;264480&lt;/td&gt;
+      &lt;td&gt;NaN&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;1998-11-30&lt;/th&gt;
+      &lt;td&gt;1335&lt;/td&gt;
+      &lt;td&gt;1335&lt;/td&gt;
+      &lt;td&gt;1268&lt;/td&gt;
+      &lt;td&gt;1276&lt;/td&gt;
+      &lt;td&gt;320470&lt;/td&gt;
+      &lt;td&gt;-0.031866&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;1998-12-01&lt;/th&gt;
+      &lt;td&gt;1254&lt;/td&gt;
+      &lt;td&gt;1254&lt;/td&gt;
+      &lt;td&gt;1162&lt;/td&gt;
+      &lt;td&gt;1197&lt;/td&gt;
+      &lt;td&gt;877940&lt;/td&gt;
+      &lt;td&gt;-0.061912&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;1998-12-02&lt;/th&gt;
+      &lt;td&gt;1206&lt;/td&gt;
+      &lt;td&gt;1225&lt;/td&gt;
+      &lt;td&gt;1168&lt;/td&gt;
+      &lt;td&gt;1226&lt;/td&gt;
+      &lt;td&gt;531220&lt;/td&gt;
+      &lt;td&gt;0.024227&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;1998-12-03&lt;/th&gt;
+      &lt;td&gt;1260&lt;/td&gt;
+      &lt;td&gt;1293&lt;/td&gt;
+      &lt;td&gt;1227&lt;/td&gt;
+      &lt;td&gt;1264&lt;/td&gt;
+      &lt;td&gt;910940&lt;/td&gt;
+      &lt;td&gt;0.030995&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/details&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;삼성전자, 2021년&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fdr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DataReader&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name_code_trans&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;삼성전자&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;2021&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div style=&quot;width:100%&quot;&gt; 
+ &lt;details&gt; 
+&lt;summary&gt;&lt;span style=&quot;color:blue&quot;&gt;출력 보기(클릭)&lt;/span&gt;&lt;/summary&gt;
+
+
+
+&lt;div class=&quot;my-table&quot;&gt;
+&lt;style scoped=&quot;&quot;&gt;
+    .my-table {
+        width:100%;
+        height:300px;
+    }
+    .dataframe {
+        height: 95%;
+    }
+        .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+&lt;/style&gt;
+&lt;table border=&quot;1&quot; class=&quot;dataframe&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr style=&quot;text-align: right;&quot;&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;Open&lt;/th&gt;
+      &lt;th&gt;High&lt;/th&gt;
+      &lt;th&gt;Low&lt;/th&gt;
+      &lt;th&gt;Close&lt;/th&gt;
+      &lt;th&gt;Volume&lt;/th&gt;
+      &lt;th&gt;Change&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Date&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-04&lt;/th&gt;
+      &lt;td&gt;81000&lt;/td&gt;
+      &lt;td&gt;84400&lt;/td&gt;
+      &lt;td&gt;80200&lt;/td&gt;
+      &lt;td&gt;83000&lt;/td&gt;
+      &lt;td&gt;38655276&lt;/td&gt;
+      &lt;td&gt;0.024691&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-05&lt;/th&gt;
+      &lt;td&gt;81600&lt;/td&gt;
+      &lt;td&gt;83900&lt;/td&gt;
+      &lt;td&gt;81600&lt;/td&gt;
+      &lt;td&gt;83900&lt;/td&gt;
+      &lt;td&gt;35335669&lt;/td&gt;
+      &lt;td&gt;0.010843&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-06&lt;/th&gt;
+      &lt;td&gt;83300&lt;/td&gt;
+      &lt;td&gt;84500&lt;/td&gt;
+      &lt;td&gt;82100&lt;/td&gt;
+      &lt;td&gt;82200&lt;/td&gt;
+      &lt;td&gt;42089013&lt;/td&gt;
+      &lt;td&gt;-0.020262&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-07&lt;/th&gt;
+      &lt;td&gt;82800&lt;/td&gt;
+      &lt;td&gt;84200&lt;/td&gt;
+      &lt;td&gt;82700&lt;/td&gt;
+      &lt;td&gt;82900&lt;/td&gt;
+      &lt;td&gt;32644642&lt;/td&gt;
+      &lt;td&gt;0.008516&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2021-01-08&lt;/th&gt;
+      &lt;td&gt;83300&lt;/td&gt;
+      &lt;td&gt;90000&lt;/td&gt;
+      &lt;td&gt;83000&lt;/td&gt;
+      &lt;td&gt;88800&lt;/td&gt;
+      &lt;td&gt;59013307&lt;/td&gt;
+      &lt;td&gt;0.071170&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/details&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;그래프로 표현하기&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Close&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;plot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/225679882-5e5767de-aec6-4668-a84c-7e2046c77202.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Open&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;plot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/225679888-9d35c8a3-c7a1-426b-91ad-a9636e699c88.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Change&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;plot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;%EC%A3%BC%EC%8B%9D%ED%88%AC%EC%9E%90%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%EC%A7%91_files/%EC%A3%BC%EC%8B%9D%ED%88%AC%EC%9E%90%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%EC%A7%91_19_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;궁금&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;변동성(절대값으로 크기만 비교)과 거래량의 관계는?&lt;/li&gt;
+&lt;/ul&gt;</content>
 
       
       
@@ -99,7 +594,7 @@
 &lt;h2 id=&quot;목표&quot;&gt;목표&lt;/h2&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;주식 랜덤성&lt;/strong&gt;이 있고 참고해야할 사항이 많으므로 &lt;strong&gt;투자 정보&lt;/strong&gt;를 &lt;strong&gt;개인의 성향에 맞게 제공&lt;/strong&gt;하는 것으로 목표로 하고 있습니다.&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;주식 랜덤성&lt;/strong&gt;이 있고 참고해야할 사항이 많으므로 &lt;strong&gt;투자 정보&lt;/strong&gt;를 &lt;strong&gt;개인의 성향에 맞게 제공 및 추천&lt;/strong&gt;하는 것으로 목표로 하고 있습니다.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h2 id=&quot;대상&quot;&gt;대상&lt;/h2&gt;
@@ -111,7 +606,7 @@
 &lt;h2 id=&quot;서비스-예상&quot;&gt;서비스 예상&lt;/h2&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;필요한 정보들(기술적 분석, 재무정보, 경제 지표, 기타 외부요인)을 한 곳에서 볼 수 있도록 정보를 제공합니다.&lt;/p&gt;
+  &lt;p&gt;필요한 정보들(기술적 분석, 재무정보, 경제 지표, 기타 외부요인)을 한 곳에서 볼 수 있도록 정보를 제공합니다. 해당 관련 서비스는 네이버증권 등 증권 회사의 어플리케이션을 참고하여 어떤 것들이 주로 영향을 미치는지 틀을 참고할 수 있었습니다.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;hr /&gt;
