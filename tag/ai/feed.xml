@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/ai/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-03-21T11:25:25+09:00</updated>
+  <updated>2023-03-21T13:23:07+09:00</updated>
   <id>http://localhost:4000/tag/ai/feed.xml</id>
 
   
@@ -208,6 +208,93 @@
     </entry>
   
     <entry>
+      <title type="html">비지도학습</title>
+      <link href="http://localhost:4000/%EB%B9%84%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5" rel="alternate" type="text/html" title="비지도학습" />
+      <published>2023-02-25T00:00:00+09:00</published>
+      <updated>2023-02-25T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%EB%B9%84%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5</id>
+      <content type="html" xml:base="http://localhost:4000/%EB%B9%84%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5">&lt;h1 id=&quot;비지도학습-unsupervised-learning&quot;&gt;비지도학습 (Unsupervised Learning)&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것이며, 하나씩 해결해나가는 느낌으로 ML을 복습 및 검토한다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;비지도학습-정의&quot;&gt;비지도학습 정의&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;레이블(정답)&lt;/strong&gt; 된 데이터 &lt;strong&gt;없이&lt;/strong&gt; &lt;strong&gt;입력 데이터만&lt;/strong&gt;으로 &lt;strong&gt;패턴을 학습&lt;/strong&gt;하는 머신러닝의 한 분야입니다.&lt;/li&gt;
+  &lt;li&gt;데이터의 구조나 패턴을 찾아내기 위해 데이터를 &lt;strong&gt;자동&lt;/strong&gt;으로 &lt;strong&gt;클러스터링&lt;/strong&gt;하거나, &lt;strong&gt;차원 축소&lt;/strong&gt;, &lt;strong&gt;밀도 추정&lt;/strong&gt;, &lt;strong&gt;이상치 탐색&lt;/strong&gt; 등 다양한 방법이 사용될 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;사용&lt;/strong&gt; : 데이터 분석, 데이터 전처리, 데이터 시각화, 추천 시스템, 이미지/음성/텍스트 처리, 생성 모델링 등&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;해결-알고리즘-종류&quot;&gt;해결 알고리즘 종류&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;군집화(Clustering)
+    &lt;blockquote&gt;
+      &lt;p&gt;데이터들을 서로 유사한 특징을 가진 그룹으로 나누는 알고리즘 &lt;br /&gt;
+  K-Means, Hierarchical Clustering 등&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;차원 축소(Dimensionality Reduction)
+    &lt;blockquote&gt;
+      &lt;p&gt;고차원 데이터를 저차원 데이터로 변환하는 알고리즘 &lt;br /&gt;
+  PCA, t-SNE, LLE 등이 있습니다.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;이상치 탐지(Outlier Detection)
+    &lt;blockquote&gt;
+      &lt;p&gt;데이터셋에서 이상치를 탐지하는 알고리즘 &lt;br /&gt;
+  Isolation Forest, One-Class SVM 등&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;연관 규칙 학습(Association Rule Learning)
+    &lt;blockquote&gt;
+      &lt;p&gt;데이터에서 자주 발생하는 규칙을 찾아내는 알고리즘 &lt;br /&gt;
+  Apriori, FP-Growth 등&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;생성 모델(Generative Model)
+    &lt;blockquote&gt;
+      &lt;p&gt;데이터셋을 생성하는 확률 모델을 학습하는 알고리즘 &lt;br /&gt;
+  GAN, VAE 등&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;클러스터링(Curver Clustering)
+    &lt;blockquote&gt;
+      &lt;p&gt;곡선으로 이루어진 클러스터링 방법으로 이전의 클러스터링 방법들과는 차별화된 특성 &lt;br /&gt;
+  OPTICS, DBSCAN 등&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="ai" />
+      
+
+      
+        <summary type="html">비지도학습 (Unsupervised Learning)</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">Machine Learning</title>
       <link href="http://localhost:4000/Machine-Learning" rel="alternate" type="text/html" title="Machine Learning" />
       <published>2023-02-25T00:00:00+09:00</published>
@@ -361,93 +448,6 @@
 
       
         <summary type="html">머신러닝(Machine Learning)</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">비지도학습</title>
-      <link href="http://localhost:4000/%EB%B9%84%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5" rel="alternate" type="text/html" title="비지도학습" />
-      <published>2023-02-25T00:00:00+09:00</published>
-      <updated>2023-02-25T00:00:00+09:00</updated>
-      <id>http://localhost:4000/%EB%B9%84%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5</id>
-      <content type="html" xml:base="http://localhost:4000/%EB%B9%84%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5">&lt;h1 id=&quot;비지도학습-unsupervised-learning&quot;&gt;비지도학습 (Unsupervised Learning)&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만들어갈 것이며, 하나씩 해결해나가는 느낌으로 ML을 복습 및 검토한다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;비지도학습-정의&quot;&gt;비지도학습 정의&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;레이블(정답)&lt;/strong&gt; 된 데이터 &lt;strong&gt;없이&lt;/strong&gt; &lt;strong&gt;입력 데이터만&lt;/strong&gt;으로 &lt;strong&gt;패턴을 학습&lt;/strong&gt;하는 머신러닝의 한 분야입니다.&lt;/li&gt;
-  &lt;li&gt;데이터의 구조나 패턴을 찾아내기 위해 데이터를 &lt;strong&gt;자동&lt;/strong&gt;으로 &lt;strong&gt;클러스터링&lt;/strong&gt;하거나, &lt;strong&gt;차원 축소&lt;/strong&gt;, &lt;strong&gt;밀도 추정&lt;/strong&gt;, &lt;strong&gt;이상치 탐색&lt;/strong&gt; 등 다양한 방법이 사용될 수 있습니다.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;사용&lt;/strong&gt; : 데이터 분석, 데이터 전처리, 데이터 시각화, 추천 시스템, 이미지/음성/텍스트 처리, 생성 모델링 등&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;해결-알고리즘-종류&quot;&gt;해결 알고리즘 종류&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;군집화(Clustering)
-    &lt;blockquote&gt;
-      &lt;p&gt;데이터들을 서로 유사한 특징을 가진 그룹으로 나누는 알고리즘 &lt;br /&gt;
-  K-Means, Hierarchical Clustering 등&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;차원 축소(Dimensionality Reduction)
-    &lt;blockquote&gt;
-      &lt;p&gt;고차원 데이터를 저차원 데이터로 변환하는 알고리즘 &lt;br /&gt;
-  PCA, t-SNE, LLE 등이 있습니다.&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;이상치 탐지(Outlier Detection)
-    &lt;blockquote&gt;
-      &lt;p&gt;데이터셋에서 이상치를 탐지하는 알고리즘 &lt;br /&gt;
-  Isolation Forest, One-Class SVM 등&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;연관 규칙 학습(Association Rule Learning)
-    &lt;blockquote&gt;
-      &lt;p&gt;데이터에서 자주 발생하는 규칙을 찾아내는 알고리즘 &lt;br /&gt;
-  Apriori, FP-Growth 등&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;생성 모델(Generative Model)
-    &lt;blockquote&gt;
-      &lt;p&gt;데이터셋을 생성하는 확률 모델을 학습하는 알고리즘 &lt;br /&gt;
-  GAN, VAE 등&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;클러스터링(Curver Clustering)
-    &lt;blockquote&gt;
-      &lt;p&gt;곡선으로 이루어진 클러스터링 방법으로 이전의 클러스터링 방법들과는 차별화된 특성 &lt;br /&gt;
-  OPTICS, DBSCAN 등&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="ai" />
-      
-
-      
-        <summary type="html">비지도학습 (Unsupervised Learning)</summary>
       
 
       
