@@ -1,11 +1,556 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-20T12:35:39+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">HTML-딥러닝이란?</title><link href="http://localhost:4000/TIL-%EB%94%A5%EB%9F%AC%EB%8B%9D" rel="alternate" type="text/html" title="HTML-딥러닝이란?" /><published>2023-03-19T00:00:00+09:00</published><updated>2023-03-19T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%EB%94%A5%EB%9F%AC%EB%8B%9D</id><content type="html" xml:base="http://localhost:4000/TIL-%EB%94%A5%EB%9F%AC%EB%8B%9D">&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><summary type="html">```python</summary></entry><entry><title type="html">한국해양기상기술 직장</title><link href="http://localhost:4000/%ED%95%9C%EA%B5%AD%ED%95%B4%EC%96%91%EA%B8%B0%EC%83%81%EA%B8%B0%EC%88%A0(%EC%A7%81%EC%9E%A5)" rel="alternate" type="text/html" title="한국해양기상기술 직장" /><published>2023-03-19T00:00:00+09:00</published><updated>2023-03-19T00:00:00+09:00</updated><id>http://localhost:4000/%ED%95%9C%EA%B5%AD%ED%95%B4%EC%96%91%EA%B8%B0%EC%83%81%EA%B8%B0%EC%88%A0(%EC%A7%81%EC%9E%A5)</id><content type="html" xml:base="http://localhost:4000/%ED%95%9C%EA%B5%AD%ED%95%B4%EC%96%91%EA%B8%B0%EC%83%81%EA%B8%B0%EC%88%A0(%EC%A7%81%EC%9E%A5)">&lt;h1 id=&quot;한국해양기상기술&quot;&gt;한국해양기상기술&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-21T11:25:25+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">날짜시간(datetime)</title><link href="http://localhost:4000/%EB%82%A0%EC%A7%9C%EC%8B%9C%EA%B0%84_datetime" rel="alternate" type="text/html" title="날짜시간(datetime)" /><published>2023-03-21T00:00:00+09:00</published><updated>2023-03-21T00:00:00+09:00</updated><id>http://localhost:4000/%EB%82%A0%EC%A7%9C%EC%8B%9C%EA%B0%84_datetime</id><content type="html" xml:base="http://localhost:4000/%EB%82%A0%EC%A7%9C%EC%8B%9C%EA%B0%84_datetime">&lt;h1 id=&quot;날짜--시간-데이터-datatime&quot;&gt;날짜 &amp;amp; 시간 데이터 (datatime)&lt;/h1&gt;
+
+&lt;p&gt;파이썬에서 날짜 &amp;amp; 시간 데이터를 다루는 방법을 알아보고 실행해 보겠습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.infoking.site/144&quot;&gt;참고 블로그 https://www.infoking.site/144&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;datetimedatetime&quot;&gt;datetime.datetime&lt;/h2&gt;
+
+&lt;p&gt;now() : 현재 시간을 알 수 있습니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;datetime&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;now&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;2023-03-21 01:07:35.121578
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;위의 데이터를 상세 부분으로 출력할 수 있다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;NOW&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;now&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sa&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;년도 : &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;NOW&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;year&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sa&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;월 : &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;NOW&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;month&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sa&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;일 : &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;NOW&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;day&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sa&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;시 : &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;NOW&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hour&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sa&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;분 : &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;NOW&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;minute&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sa&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;초 : &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;NOW&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;second&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;년도 : 2023
+월 : 3
+일 : 21
+시 : 1
+분 : 11
+초 : 54
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;날짜 데이터 형식으로 저장이 가능합니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;DAY&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2020&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;25&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DAY&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;2020-02-25 00:00:00
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;비교 연산자 사용 가능합니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;NOW&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DAY&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;False
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="programing" /><category term="python" /><summary type="html">날짜 &amp;amp; 시간 데이터 (datatime)</summary></entry><entry><title type="html">날짜시간(Pandas)</title><link href="http://localhost:4000/%EB%82%A0%EC%A7%9C%EC%8B%9C%EA%B0%84_pandas" rel="alternate" type="text/html" title="날짜시간(Pandas)" /><published>2023-03-21T00:00:00+09:00</published><updated>2023-03-21T00:00:00+09:00</updated><id>http://localhost:4000/%EB%82%A0%EC%A7%9C%EC%8B%9C%EA%B0%84_pandas</id><content type="html" xml:base="http://localhost:4000/%EB%82%A0%EC%A7%9C%EC%8B%9C%EA%B0%84_pandas">&lt;h1 id=&quot;날짜--시간-데이터-pandas&quot;&gt;날짜 &amp;amp; 시간 데이터 (Pandas)&lt;/h1&gt;
+
+&lt;p&gt;파이썬에서 날짜 &amp;amp; 시간 데이터를 다루는 방법을 알아보고 실행해 보겠습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://durian9s-coding-tree.tistory.com/8&quot;&gt;참고 블로그 https://durian9s-coding-tree.tistory.com/8&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;pandasdt&quot;&gt;Pandas.dt&lt;/h1&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="programing" /><category term="python" /><summary type="html">날짜 &amp;amp; 시간 데이터 (Pandas)</summary></entry><entry><title type="html">HTML-딥러닝이란?</title><link href="http://localhost:4000/TIL-%EB%94%A5%EB%9F%AC%EB%8B%9D" rel="alternate" type="text/html" title="HTML-딥러닝이란?" /><published>2023-03-20T00:00:00+09:00</published><updated>2023-03-20T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%EB%94%A5%EB%9F%AC%EB%8B%9D</id><content type="html" xml:base="http://localhost:4000/TIL-%EB%94%A5%EB%9F%AC%EB%8B%9D">&lt;h1 id=&quot;딥러닝이란&quot;&gt;딥러닝이란?&lt;/h1&gt;
+
+&lt;p&gt;강력한 신경망을 사용하는 것입니다.&lt;/p&gt;
+
+&lt;p&gt;딥러닝(Deep Learning)은 인공지능(Artificial Intelligence)의 한 분야로, 머신러닝(Machine Learning)의 한 종류입니다. 머신러닝은 데이터로부터 패턴을 학습하여 예측 모델을 만드는 기술입니다.&lt;/p&gt;
+
+&lt;p&gt;딥러닝은 인공신경망(Artificial Neural Network)을 이용하여 이러한 학습을 수행합니다. 인공신경망은 사람의 뇌를 모방하여 만들어진 모델로, 입력층(Input Layer), 은닉층(Hidden Layer), 출력층(Output Layer)으로 구성되어 있습니다.&lt;/p&gt;
+
+&lt;p&gt;입력층에서는 데이터가 입력되고, 은닉층에서는 입력된 데이터를 처리하고 분석하여 다음 층으로 전달합니다. 은닉층의 개수와 노드의 수는 딥러닝 모델의 성능에 영향을 미치며, 이를 조절하여 최적의 모델을 만들어내는 것이 중요합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;사용처&quot;&gt;사용처&lt;/h2&gt;
+&lt;p&gt;딥러닝은 주로 이미지, 음성, 텍스트 등의 복잡하고 대용량의 데이터를 다루는데 사용됩니다. 예를 들어, 이미지 인식 분야에서는 딥러닝 모델이 이미지 내에 있는 특징(feature)을 자동으로 추출하여 이미지를 분류하고 인식하는데 사용됩니다.&lt;/p&gt;
+
+&lt;p&gt;딥러닝은 높은 정확도와 성능을 가지고 있으며, 최근에는 음성인식, 자율주행, 게임, 의료, 자연어 처리 등 다양한 분야에서 활용되고 있습니다.&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><summary type="html">딥러닝이란?</summary></entry><entry><title type="html">나라장터(API)</title><link href="http://localhost:4000/%EB%82%98%EB%9D%BC%EC%9E%A5%ED%84%B0(API)" rel="alternate" type="text/html" title="나라장터(API)" /><published>2023-03-20T00:00:00+09:00</published><updated>2023-03-20T00:00:00+09:00</updated><id>http://localhost:4000/%EB%82%98%EB%9D%BC%EC%9E%A5%ED%84%B0(API)</id><content type="html" xml:base="http://localhost:4000/%EB%82%98%EB%9D%BC%EC%9E%A5%ED%84%B0(API)">&lt;h1 id=&quot;나라장터-api&quot;&gt;나라장터 API&lt;/h1&gt;
+
+&lt;p&gt;API를 이용한 나라장터 거래 정보 데이터를 수집하겠습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;api-활용신청&quot;&gt;API 활용신청&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.data.go.kr/index.do&quot;&gt;공공데이터포털 사이트&lt;/a&gt;에서 &lt;strong&gt;&lt;a href=&quot;https://www.data.go.kr/data/15058815/openapi.do&quot;&gt;조달청_나라장터 공공데이터개방표준서비스&lt;/a&gt;&lt;/strong&gt; 를 검색합니다.
+&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/180806602-701bcead-48f9-44d7-adce-22cf48411c07.png&quot; width=&quot;90%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;그럼 아래와 같은 이미지의 오른쪽 밑에 &lt;strong&gt;활용신청&lt;/strong&gt;을 눌러 신청합니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;활용신청 : 안에 내용은 본인의 의도에 맞게 적어 제출하면 등록이 되어 사용가능하다.(바로 사용이 안되면 어느정도 기다렸다가 하면된다.) 다른 데이터는 기관에서 인증을 해주고 나서 해주는 경우도 있다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;참고문서 : open API 사용법 및 입출력 코드와 설명&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/180806928-08bff0b0-7068-44c2-adc2-a80103d3b828.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/180846098-3a7ad05d-620e-4b76-95ce-4f26faae64c7.png&quot; width=&quot;90%&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;openapi-url-만들기&quot;&gt;OPENAPI URL 만들기&lt;/h2&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;EndPoint&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;http://apis.data.go.kr/1230000/PubDataOpnStdService&quot;&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;ServiceKey&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 공공데이터포털에서 받은 인코딩 인증키
+&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;PageNo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 페이지번호
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;NumOfRows&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 한 페이지 결과 수
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Datatype&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;json&quot;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 오픈API 리턴 타입을 JSON으로 받고 싶을 경우 &apos;json&apos; 으로 지정함
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bidNtceBgnDt&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;202207240000&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 검색하고자하는 입찰공고일시범위 시작 &apos;YYYYMMDDHHMM&apos; (입찰공고일시 범위는 1개월 로 제한)
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bidNtceEndDt&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;202207312359&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 검색하고자하는 입찰공고일시범위 종료 &apos;YYYYMMDDHHMM&apos; (입찰공고일시 범위는 1개월 로 제한)
+&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Info_Version&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;info_version&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 데이터셋 개방표준에 따른 입찰공고정보
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;info_version&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;입찰&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;getDataSetOpnStdBidPblancInfo&quot;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;elif&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;info_version&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;낙찰&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;getDataSetOpnStdScsbidInfo&quot;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 계약
+&lt;/span&gt;        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;getDataSetOpnStdCntrctInfo&quot;&lt;/span&gt;    
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;테스트 : 결과물로 나오는 URL을 클릭하면 json 파일이 열린다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;info_version&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;입찰&quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;URL&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;sa&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;EndPoint&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Info_Version&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;info_version&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;?numOfRows=&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;NumOfRows&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;amp;pageNo=&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PageNo&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;amp;bidNtceBgnDt=&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bidNtceBgnDt&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;amp;bidNtceEndDt=&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bidNtceEndDt&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;amp;ServiceKey=&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ServiceKey&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;amp;type=&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Datatype&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/180835139-bbcbf0a5-d7b1-4f94-b60c-b5e250625e16.png&quot; width=&quot;60%&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;데이터-수집-코드&quot;&gt;데이터 수집 코드&lt;/h2&gt;
+
+&lt;p&gt;본 블로그는 투찰가능업종명 : 산림사업법인(숲가꾸기 및 병해충방제), 산림사업법인(도시숲등 조성, 관리) 관련으로 분석 및 예측한다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;requests&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pandas&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;datetime&lt;/span&gt;   
+    
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Get_Bid_df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;info_version&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bidNtceBgnDt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bidNtceEndDt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ServiceKey&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 원하는 기간, 버전에 따른 공고정보 얻기
+&lt;/span&gt;    
+    &lt;span class=&quot;c1&quot;&gt;# default setting
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;PageNo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 페이지번호
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;NumOfRows&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;999&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 한 페이지 결과 수 , 최대 999개 이다.
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;EndPoint&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;http://apis.data.go.kr/1230000/PubDataOpnStdService&quot;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;Datatype&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;json&quot;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 오픈API 리턴 타입을 JSON으로 받고 싶을 경우 &apos;json&apos; 으로 지정함
+&lt;/span&gt;    
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;info_version&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;입찰&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 데이터셋 개방표준에 따른 입찰공고정보
+&lt;/span&gt;        &lt;span class=&quot;n&quot;&gt;info_version_text&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;getDataSetOpnStdBidPblancInfo&quot;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;elif&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;info_version&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;낙찰&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;info_version_text&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;getDataSetOpnStdScsbidInfo&quot;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 계약
+&lt;/span&gt;        &lt;span class=&quot;n&quot;&gt;info_version_text&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;getDataSetOpnStdCntrctInfo&quot;&lt;/span&gt;
+    
+    
+    &lt;span class=&quot;n&quot;&gt;Bid_df&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DataFrame&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;nnn&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;URL&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;sa&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;EndPoint&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;info_version_text&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;?numOfRows=&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;NumOfRows&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;amp;pageNo=&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PageNo&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;amp;bidNtceBgnDt=&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bidNtceBgnDt&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;amp;bidNtceEndDt=&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bidNtceEndDt&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;amp;ServiceKey=&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ServiceKey&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;amp;type=&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Datatype&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;requests&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;URL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        
+        &lt;span class=&quot;c1&quot;&gt;# 총 데이터 개수
+&lt;/span&gt;        &lt;span class=&quot;n&quot;&gt;TotalCount&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;response&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;body&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;totalCount&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+
+        &lt;span class=&quot;c1&quot;&gt;# 나라장터 입찰공고 DataFrame 생성
+&lt;/span&gt;        &lt;span class=&quot;n&quot;&gt;bid_df&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DataFrame&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;response&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;body&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;items&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+        
+        &lt;span class=&quot;c1&quot;&gt;# 읽은 데이터의 개수를 확인해서 데이터의 끝인지 확인
+&lt;/span&gt;        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bid_df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;
+        
+        &lt;span class=&quot;c1&quot;&gt;# 목적에 필요한 열을 가져온다. 다운받은 참고문헌을 참조한다.
+&lt;/span&gt;        &lt;span class=&quot;c1&quot;&gt;# 본인의 목적에 따라 수정해야할 부분
+&lt;/span&gt;        &lt;span class=&quot;n&quot;&gt;bid_df&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bid_df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[:,[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;bidNtceNm&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;bidBeginDate&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;bidBeginTm&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;bidClseDate&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;bidClseTm&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;opengDate&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;opengTm&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;asignBdgtAmt&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;presmptPrce&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;rgnLmtYn&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;prtcptPsblRgnNm&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;bidprcPsblIndstrytyNm&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;bid_df&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bid_df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;columns&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;bidNtceNm&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;입찰공고명&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;bidBeginDate&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;입찰개시일자&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;bidBeginTm&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;입찰개시시각&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;bidClseDate&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;입찰마감일자&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;bidClseTm&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;입찰마감시각&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;opengDate&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;개찰일자&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;opengTm&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;개찰시각&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;asignBdgtAmt&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;배정예산금액(설계금액)&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;presmptPrce&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;추정가격&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;rgnLmtYn&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;지역제한여부&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;prtcptPsblRgnNm&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;참가가능지역명&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;bidprcPsblIndstrytyNm&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;투찰가능업종명&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+
+        &lt;span class=&quot;c1&quot;&gt;# 데이터 프레임 병합
+&lt;/span&gt;        &lt;span class=&quot;n&quot;&gt;Bid_df&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;concat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Bid_df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bid_df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;axis&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;Bid_df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reset_index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;drop&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;inplace&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+        &lt;span class=&quot;c1&quot;&gt;# 페이지 증가
+&lt;/span&gt;        &lt;span class=&quot;n&quot;&gt;PageNo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PageNo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;----------------------------------&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sa&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;info_version&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt; &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bidNtceBgnDt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;년 &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bidNtceBgnDt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;월 &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bidNtceBgnDt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;일 - &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bidNtceEndDt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;년 &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bidNtceEndDt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;월 &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bidNtceEndDt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;일&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;----------------------------------&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Bid_df&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;ServiceKey&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 공공데이터포털에서 받은 인코딩 인증키
+&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;bidNtceBgnDt&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;202207260000&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 검색하고자하는 입찰공고일시범위 시작 &apos;YYYYMMDDHHMM&apos; (입찰공고일시 범위는 1개월 로 제한)
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bidNtceEndDt&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;202207312359&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 검색하고자하는 입찰공고일시범위 종료 &apos;YYYYMMDDHHMM&apos; (입찰공고일시 범위는 1개월 로 제한)
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;info_version&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;입찰&quot;&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;Bid_df&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Get_Bid_df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;info_version&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bidNtceBgnDt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bidNtceEndDt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ServiceKey&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;----------------------------------
+입찰 
+2022년 07월 26일 - 2022년 07월 31일
+----------------------------------
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Bid_df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div style=&quot;width:100%&quot;&gt; 
+ &lt;details&gt; 
+&lt;summary&gt;&lt;span style=&quot;color:blue&quot;&gt;출력 보기(클릭)&lt;/span&gt;&lt;/summary&gt;
+
+
+
+&lt;div class=&quot;my-table&quot;&gt;
+&lt;style scoped=&quot;&quot;&gt;
+    .my-table {
+        width:100%;
+        height:300px;
+    }
+    .dataframe {
+        height: 95%;
+    }
+        .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+&lt;/style&gt;
+&lt;table border=&quot;1&quot; class=&quot;dataframe&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr style=&quot;text-align: right;&quot;&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;입찰공고명&lt;/th&gt;
+      &lt;th&gt;입찰개시일자&lt;/th&gt;
+      &lt;th&gt;입찰개시시각&lt;/th&gt;
+      &lt;th&gt;입찰마감일자&lt;/th&gt;
+      &lt;th&gt;입찰마감시각&lt;/th&gt;
+      &lt;th&gt;개찰일자&lt;/th&gt;
+      &lt;th&gt;개찰시각&lt;/th&gt;
+      &lt;th&gt;배정예산금액(설계금액)&lt;/th&gt;
+      &lt;th&gt;추정가격&lt;/th&gt;
+      &lt;th&gt;지역제한여부&lt;/th&gt;
+      &lt;th&gt;참가가능지역명&lt;/th&gt;
+      &lt;th&gt;투찰가능업종명&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;0&lt;/th&gt;
+      &lt;td&gt;탄자니아 무힘빌리국립병원 음롱간질라 캠퍼스 운영관리 컨설팅 2차사업 중간평가&lt;/td&gt;
+      &lt;td&gt;2022-07-28&lt;/td&gt;
+      &lt;td&gt;15:00&lt;/td&gt;
+      &lt;td&gt;2022-07-29&lt;/td&gt;
+      &lt;td&gt;17:00&lt;/td&gt;
+      &lt;td&gt;2022-07-29&lt;/td&gt;
+      &lt;td&gt;17:01&lt;/td&gt;
+      &lt;td&gt;70711550&lt;/td&gt;
+      &lt;td&gt;63636364&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;학술.연구용역&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;1&lt;/th&gt;
+      &lt;td&gt;이집트-삶, 죽음, 부활의 이야기 출품 전시품 반출운송 용역&lt;/td&gt;
+      &lt;td&gt;2022-07-29&lt;/td&gt;
+      &lt;td&gt;15:00&lt;/td&gt;
+      &lt;td&gt;2022-08-01&lt;/td&gt;
+      &lt;td&gt;16:00&lt;/td&gt;
+      &lt;td&gt;2022-08-01&lt;/td&gt;
+      &lt;td&gt;16:01&lt;/td&gt;
+      &lt;td&gt;246056180&lt;/td&gt;
+      &lt;td&gt;221818182&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;화물자동차운송사업(일반),국제물류주선업&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2&lt;/th&gt;
+      &lt;td&gt;축산업·기업 분석 및 전망 연구용역&lt;/td&gt;
+      &lt;td&gt;2022-07-28&lt;/td&gt;
+      &lt;td&gt;10:00&lt;/td&gt;
+      &lt;td&gt;2022-07-28&lt;/td&gt;
+      &lt;td&gt;12:00&lt;/td&gt;
+      &lt;td&gt;2022-07-28&lt;/td&gt;
+      &lt;td&gt;13:00&lt;/td&gt;
+      &lt;td&gt;234976760&lt;/td&gt;
+      &lt;td&gt;211818182&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;투자자문업(5-1-1)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;3&lt;/th&gt;
+      &lt;td&gt;2022학년도 학생 및 교원 특수건강검진 소액수의 견적 재공고&lt;/td&gt;
+      &lt;td&gt;2022-07-26&lt;/td&gt;
+      &lt;td&gt;15:00&lt;/td&gt;
+      &lt;td&gt;2022-07-29&lt;/td&gt;
+      &lt;td&gt;10:00&lt;/td&gt;
+      &lt;td&gt;2022-07-29&lt;/td&gt;
+      &lt;td&gt;11:00&lt;/td&gt;
+      &lt;td&gt;51534450&lt;/td&gt;
+      &lt;td&gt;46849500&lt;/td&gt;
+      &lt;td&gt;Y&lt;/td&gt;
+      &lt;td&gt;전라북도&lt;/td&gt;
+      &lt;td&gt;특수건강진단기관&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;4&lt;/th&gt;
+      &lt;td&gt;산업전환 협약기업 진단 및 훈련 로드맵 개발 용역&lt;/td&gt;
+      &lt;td&gt;2022-07-26&lt;/td&gt;
+      &lt;td&gt;08:00&lt;/td&gt;
+      &lt;td&gt;2022-08-08&lt;/td&gt;
+      &lt;td&gt;14:00&lt;/td&gt;
+      &lt;td&gt;2022-08-08&lt;/td&gt;
+      &lt;td&gt;15:00&lt;/td&gt;
+      &lt;td&gt;90000000&lt;/td&gt;
+      &lt;td&gt;81818182&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;Savefile_path&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;./2022-07-25-나라장터-수집(1)-OPENAPI&quot;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 저장할 파일 경로
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Bid_df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to_csv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sa&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Savefile_path&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;info_version&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bidNtceBgnDt&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bidNtceEndDt&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;.csv&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;encoding&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;cp949&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 인덱스를 없애고 저장한다.
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/181279690-3d7e4c0a-8c10-47df-a4ce-126951cf5bec.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h1 id=&quot;입찰공고-확인_v2&quot;&gt;입찰공고 확인_v2&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;매일 본인의 목적에 필요한 공고만 확인하기 위한 필터&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;투찰가능업종명, 기간, 참가가능지역, 지역제한 을 기준으로 적용&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;투찰가능업종명 : “산림사업법인(숲가꾸기 및 병해충방제)”, “산림사업법인(도시숲등 조성, 관리)”&lt;/li&gt;
+      &lt;li&gt;참가가능지역명 : “고흥”, “보성”, “장흥”, “여수”, “순천”&lt;/li&gt;
+      &lt;li&gt;기간 : 프로그램 실행시에 입찰 가능한 공고가 있을 시, 크롤링 기간은 29일 전까지의 기간으로 한다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# 기간 : 프로그램 실행시에 입찰 가능한 공고가 있을 시,YYYYMMDDHHMM 형식으로 변환
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bidNtceBgnDt&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;now&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;timedelta&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;days&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;bidNtceBgnDt&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bidNtceBgnDt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strftime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%Y%m%d%H%M&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 검색하고자하는 입찰공고일시범위 시작 &apos;YYYYMMDDHHMM&apos; (입찰공고일시 범위는 1개월 로 제한)
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bidNtceEndDt&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;now&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strftime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%Y%m%d%H%M&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 검색하고자하는 입찰공고일시범위 종료 &apos;YYYYMMDDHHMM&apos; (입찰공고일시 범위는 1개월 로 제한)
+&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;info_version&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;입찰&quot;&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;Bid_df&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Get_Bid_df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;info_version&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bidNtceBgnDt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bidNtceEndDt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ServiceKey&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;----------------------------------
+입찰 
+2022년 08월 01일 - 2022년 08월 04일
+----------------------------------
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# 투찰가능업종명 : [&quot;산림사업법인(숲가꾸기 및 병해충방제)&quot;, &quot;산림사업법인(도시숲등 조성, 관리)&quot;]
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Active_name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;산림사업법인(숲가꾸기 및 병해충방제)&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;산림사업법인(도시숲등 조성, 관리)&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# 참가가능지역명 : 고흥
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Active_local&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;고흥&quot;&quot;순천&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Filter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Bid_df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bidNtceEndDt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Active_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Active_local&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# Active_date_list : 입찰 마감 기간에 프로그램 실행 후에 있는지 확인 &quot;입찰마감일자&quot;, &quot;입찰마감시각&quot;
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;Active_date_list&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Bid_df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)):&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;Active_date_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Bid_df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;입찰마감일자&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;-&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Bid_df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;입찰마감시각&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bidNtceEndDt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;Bid_df&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Bid_df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Active_date_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,:].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reset_index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;drop&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+            
+    &lt;span class=&quot;c1&quot;&gt;# Active_name : 투찰가능업종명 제한
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;Active_name_list&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Check_name&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Bid_df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;투찰가능업종명&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Active_name&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Check_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;Active_name_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;Active_name_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;Bid_df&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Bid_df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Active_name_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,:].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reset_index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;drop&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;        
+    
+    
+    &lt;span class=&quot;c1&quot;&gt;# Active_local : 참가가능지역명
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;Active_local_list&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Check_local&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Bid_df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;참가가능지역명&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Active_local&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Check_local&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;Active_local_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;Active_local_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;Bid_df&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Bid_df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Active_local_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,:].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reset_index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;drop&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Bid_df&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# 투찰가능업종명 : [&quot;산림사업법인(숲가꾸기 및 병해충방제)&quot;, &quot;산림사업법인(도시숲등 조성, 관리)&quot;]
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Active_name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;산림사업법인(숲가꾸기 및 병해충방제)&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;산림사업법인(도시숲등 조성, 관리)&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;제작자&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# 참가가능지역명 : 고흥
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Active_local&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;고흥&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;보성&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;장흥&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;여수&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;순천&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Filter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Bid_df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bidNtceEndDt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Active_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Active_local&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# Active_date_list : 입찰 마감 기간에 프로그램 실행 후에 있는지 확인 &quot;입찰마감일자&quot;, &quot;입찰마감시각&quot;
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;Active_date_list&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Bid_df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)):&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;Active_date_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Bid_df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;입찰마감일자&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;-&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Bid_df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;입찰마감시각&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bidNtceEndDt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;Bid_df&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Bid_df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Active_date_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,:].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reset_index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;drop&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+            
+    &lt;span class=&quot;c1&quot;&gt;# Active_name : 투찰가능업종명 제한
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;Active_name_list&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Check_name&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Bid_df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;투찰가능업종명&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Active_name&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Check_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;Active_name_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;Active_name_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;Bid_df&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Bid_df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Active_name_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,:].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reset_index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;drop&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;        
+    
+    
+    &lt;span class=&quot;c1&quot;&gt;# Active_local : 참가가능지역명
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;Active_local_list&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Check_local&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Bid_df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;참가가능지역명&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Active_local&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Check_local&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;Active_local_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;Active_local_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;Bid_df&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Bid_df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Active_local_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,:].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reset_index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;drop&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Bid_df&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;Bid_df_filter&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Filter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Bid_df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bidNtceEndDt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Active_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Active_local&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;Bid_df_filter&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/182018755-2a49395e-5f1c-4ea0-b3d7-9f5813f5ab9d.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="project" /><summary type="html">나라장터 API</summary></entry><entry><title type="html">한국해양기상기술 직장</title><link href="http://localhost:4000/%ED%95%9C%EA%B5%AD%ED%95%B4%EC%96%91%EA%B8%B0%EC%83%81%EA%B8%B0%EC%88%A0(%EC%A7%81%EC%9E%A5)" rel="alternate" type="text/html" title="한국해양기상기술 직장" /><published>2023-03-19T00:00:00+09:00</published><updated>2023-03-19T00:00:00+09:00</updated><id>http://localhost:4000/%ED%95%9C%EA%B5%AD%ED%95%B4%EC%96%91%EA%B8%B0%EC%83%81%EA%B8%B0%EC%88%A0(%EC%A7%81%EC%9E%A5)</id><content type="html" xml:base="http://localhost:4000/%ED%95%9C%EA%B5%AD%ED%95%B4%EC%96%91%EA%B8%B0%EC%83%81%EA%B8%B0%EC%88%A0(%EC%A7%81%EC%9E%A5)">&lt;h1 id=&quot;주한국해양기상기술&quot;&gt;(주)한국해양기상기술&lt;/h1&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;첫 직장으로 입사하게 되었습니다. 그래서 회사의 정보들을 알고 있으면 적응하는데 도움이 될 것이기 때문에 좀 더 상세히 살펴보려고 합니다.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&quot;회사-위치&quot;&gt;회사 위치&lt;/h2&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><summary type="html">한국해양기상기술</summary></entry><entry><title type="html">신용카드 사기 탐지</title><link href="http://localhost:4000/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80" rel="alternate" type="text/html" title="신용카드 사기 탐지" /><published>2023-03-17T00:00:00+09:00</published><updated>2023-03-17T00:00:00+09:00</updated><id>http://localhost:4000/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80</id><content type="html" xml:base="http://localhost:4000/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80">&lt;h1 id=&quot;신용카드-사기-탐지-credit-card-fraud-detection&quot;&gt;신용카드 사기 탐지 (Credit Card Fraud Detection)&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://chanp5660.github.io/TIL-한국해양기상기술&quot;&gt;사전 조사 링크&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;직무&quot;&gt;직무&lt;/h2&gt;
+
+&lt;p&gt;AI 개발자&lt;/p&gt;
+
+&lt;h2 id=&quot;회사-사이트&quot;&gt;회사 사이트&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://koast.net/wp/&quot;&gt;http://koast.net/wp/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;회사-위치&quot;&gt;회사 위치&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://map.naver.com/v5/search/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B5%AC%EB%A1%9C%EA%B5%AC%20%EA%B2%BD%EC%9D%B8%EB%A1%9C53%EA%B8%B8%2090%20(%EA%B5%AC%EB%A1%9C%EB%8F%99)%20STX%20W-%ED%83%80%EC%9B%8C/address/14123677.726841275,4509688.102578923,%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B5%AC%EB%A1%9C%EA%B5%AC%20%EA%B2%BD%EC%9D%B8%EB%A1%9C53%EA%B8%B8%2090,new?c=18,0,0,0,dh&amp;amp;isCorrectAnswer=true&quot;&gt;서울특별시 구로구 경인로53길 90 (구로동) STX W-타워, 1502-1504호&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;재무정보&quot;&gt;재무정보&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.saramin.co.kr/zf_user/company-info/view-inner-finance/csn/UGIzQmh5aFBJb1JYT3g2cnNHUjFqdz09/company_nm/(주)한국해양기상기술&quot;&gt;사람인 링크&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;기업-비전&quot;&gt;기업 비전&lt;/h2&gt;
+
+&lt;p&gt;㈜한국해양기상기술은 UM모델의 분석 및 사용자 관리시스템인 KUMUI를 구축한 핵심 인력을 바탕으로 해양•기상 사업 컨설팅, 예측에 대한 과학적 자료제공과 응용소프트웨어 개발 및 DB구축, 하드웨어 개발을 통한 통합솔루션을 제공합니다. 또한 관측 및 수치모델정보의 3차원 가시화를 위한 솔루션과 다년간의 경험을 보유하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;KUMUI는 한국해양기상기술이 개발한 UM(Unified Modeling Language) 모델의 분석 및 사용자 관리 시스템입니다. KUMUI는 UM 모델을 기반으로 하는 해양 및 기상 사업 컨설팅, 예측에 대한 과학적 자료 제공과 응용 소프트웨어 개발, DB 구축, 하드웨어 개발을 통한 통합 솔루션을 제공합니다.&lt;/p&gt;
+
+&lt;p&gt;KUMUI는 UM 모델의 예측 결과를 수집, 저장, 분석하는 기능을 제공하며, 이를 기반으로 해양 및 기상 관련 분야에서 다양한 응용 솔루션을 개발할 수 있습니다. 또한 KUMUI는 관측 및 수치 모델 정보의 3차원 가시화를 위한 솔루션도 제공하여, 시각적인 정보를 쉽게 이해할 수 있도록 도와줍니다.&lt;/p&gt;
+
+&lt;p&gt;한국해양기상기술은 KUMUI를 통해 해양 및 기상 관련 분야에서 필요한 다양한 정보와 솔루션을 제공하며, 다년간의 경험을 바탕으로 전문성 있는 서비스를 제공하고 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;복리후생&quot;&gt;복리후생&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.jobkorea.co.kr/Recruit/Co_Read/C/koast1717&quot;&gt;잡코리아&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;연금·보험
+    &lt;ul&gt;
+      &lt;li&gt;국민연금&lt;/li&gt;
+      &lt;li&gt;고용보험&lt;/li&gt;
+      &lt;li&gt;산재보험&lt;/li&gt;
+      &lt;li&gt;건강보험&lt;/li&gt;
+      &lt;li&gt;퇴직연금&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;휴무·휴가·행사
+    &lt;ul&gt;
+      &lt;li&gt;주5일제&lt;/li&gt;
+      &lt;li&gt;연차제도&lt;/li&gt;
+      &lt;li&gt;월차제도&lt;/li&gt;
+      &lt;li&gt;경조휴가&lt;/li&gt;
+      &lt;li&gt;반차제도&lt;/li&gt;
+      &lt;li&gt;포상휴가&lt;/li&gt;
+      &lt;li&gt;육아휴직&lt;/li&gt;
+      &lt;li&gt;창립일 휴무&lt;/li&gt;
+      &lt;li&gt;노동절 휴무&lt;/li&gt;
+      &lt;li&gt;워크샵/MT&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;보상·수당·지원
+    &lt;ul&gt;
+      &lt;li&gt;경조금&lt;/li&gt;
+      &lt;li&gt;인센티브&lt;/li&gt;
+      &lt;li&gt;장기근속 포상&lt;/li&gt;
+      &lt;li&gt;장기근속수당&lt;/li&gt;
+      &lt;li&gt;성과급&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;사내제도·성장
+    &lt;ul&gt;
+      &lt;li&gt;신입 사원 교육&lt;/li&gt;
+      &lt;li&gt;직무능력향상교육&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;사내시설
+    &lt;ul&gt;
+      &lt;li&gt;휴식공간&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;편의·여가·건강
+    &lt;ul&gt;
+      &lt;li&gt;건강검진&lt;/li&gt;
+      &lt;li&gt;점심 식사 지원&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.jobkorea.co.kr/Recruit/Co_Read/C/koast1717&quot;&gt;사람인&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;건강검진, 통신비 지원&lt;/li&gt;
+  &lt;li&gt;퇴직연금, 인센티브제, 장기근속자 포상, 우수사원포상, 장기근속수당, 4대 보험&lt;/li&gt;
+  &lt;li&gt;생일선물/파티&lt;/li&gt;
+  &lt;li&gt;워크샵, 플레이샵, 직무능력향상교육, 점심식사 제공, 저녁식사 제공&lt;/li&gt;
+  &lt;li&gt;회의실, 공기청정기&lt;/li&gt;
+  &lt;li&gt;자유복장&lt;/li&gt;
+  &lt;li&gt;차량유류비지급, 회사차량 있음&lt;/li&gt;
+  &lt;li&gt;연차, 여름휴가, 경조휴가제, 반차, 창립일휴무, 근로자의 날 휴무, 휴가비지원&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><summary type="html">(주)한국해양기상기술</summary></entry><entry><title type="html">신용카드 사기 탐지</title><link href="http://localhost:4000/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80" rel="alternate" type="text/html" title="신용카드 사기 탐지" /><published>2023-03-17T00:00:00+09:00</published><updated>2023-03-17T00:00:00+09:00</updated><id>http://localhost:4000/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80</id><content type="html" xml:base="http://localhost:4000/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80">&lt;h1 id=&quot;신용카드-사기-탐지-credit-card-fraud-detection&quot;&gt;신용카드 사기 탐지 (Credit Card Fraud Detection)&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud&quot;&gt;kaggle&lt;/a&gt;에서 SVM을 사용해서 분석하는 방법을 클론 코딩해보면서 경험(도메인과 SVM 활용)을 쌓는다.&lt;/p&gt;
 &lt;ul&gt;
@@ -23,7 +568,10 @@
   &lt;li&gt;이 데이터 세트는 &lt;strong&gt;284,807건&lt;/strong&gt;의 거래 중 &lt;strong&gt;492건&lt;/strong&gt;의 사기가 있는 2일 동안 발생한 거래를 나타냅니다. 데이터 세트는 매우 불균형하며 긍정적인 클래스(사기)가 모든 거래의 0.172%를 차지합니다.&lt;/li&gt;
   &lt;li&gt;여기에는 PCA 변환의 결과인 숫자 입력 변수만 포함됩니다. 유감스럽게도 기밀 문제로 인해 원본 기능과 데이터에 대한 자세한 배경 정보를 제공할 수 없습니다. 특징 V1, V2, … V28은 PCA로 얻은 주요 구성 요소이며 PCA로 변환되지 않은 유일한 특징은 ‘시간’과 ‘양’입니다. 기능 ‘시간’에는 각 트랜잭션과 데이터 세트의 첫 번째 트랜잭션 사이에 경과된 초가 포함됩니다. ‘Amount’ 기능은 거래 금액이며, 이 기능은 예제 종속 비용에 민감한 학습에 사용할 수 있습니다. Feature ‘Class’는 응답 변수이며 사기의 경우 값 1, 그렇지 않은 경우 0입니다.&lt;/li&gt;
   &lt;li&gt;클래스 불균형 비율을 고려할 때 AUPRC(Area Under the Precision-Recall Curve)를 사용하여 정확도를 측정하는 것이 좋습니다. 혼란 행렬 정확도는 불균형 분류에 의미가 없습니다.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="project" /><summary type="html">신용카드 사기 탐지 (Credit Card Fraud Detection)</summary></entry><entry><title type="html">면접질문</title><link href="http://localhost:4000/%EB%A9%B4%EC%A0%91%EC%A7%88%EB%AC%B8" rel="alternate" type="text/html" title="면접질문" /><published>2023-03-15T00:00:00+09:00</published><updated>2023-03-15T00:00:00+09:00</updated><id>http://localhost:4000/%EB%A9%B4%EC%A0%91%EC%A7%88%EB%AC%B8</id><content type="html" xml:base="http://localhost:4000/%EB%A9%B4%EC%A0%91%EC%A7%88%EB%AC%B8">&lt;h1 id=&quot;면접질문&quot;&gt;면접질문&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="project" /><summary type="html">신용카드 사기 탐지 (Credit Card Fraud Detection)</summary></entry><entry><title type="html">TIL-위플랫</title><link href="http://localhost:4000/TIL-%EC%9C%84%ED%94%8C%EB%9E%AB" rel="alternate" type="text/html" title="TIL-위플랫" /><published>2023-03-15T00:00:00+09:00</published><updated>2023-03-15T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%EC%9C%84%ED%94%8C%EB%9E%AB</id><content type="html" xml:base="http://localhost:4000/TIL-%EC%9C%84%ED%94%8C%EB%9E%AB">&lt;h1 id=&quot;위플랫&quot;&gt;위플랫&lt;/h1&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">위플랫</summary></entry><entry><title type="html">면접질문</title><link href="http://localhost:4000/%EB%A9%B4%EC%A0%91%EC%A7%88%EB%AC%B8" rel="alternate" type="text/html" title="면접질문" /><published>2023-03-15T00:00:00+09:00</published><updated>2023-03-15T00:00:00+09:00</updated><id>http://localhost:4000/%EB%A9%B4%EC%A0%91%EC%A7%88%EB%AC%B8</id><content type="html" xml:base="http://localhost:4000/%EB%A9%B4%EC%A0%91%EC%A7%88%EB%AC%B8">&lt;h1 id=&quot;면접질문&quot;&gt;면접질문&lt;/h1&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;면접 때 질문 받은 부분들을 정리해서 다음 면접 때 해당 질문에 답할 수 있도록 진행합니다.&lt;/p&gt;
@@ -62,38 +610,6 @@
 &lt;h2 id=&quot;왜-졸업이-아니라-수료를-하게-됐는가&quot;&gt;왜 졸업이 아니라 수료를 하게 됐는가?&lt;/h2&gt;
 
 &lt;h2 id=&quot;미래에-어떤-모습으로-있을-것-같나-너의-꿈이-무엇이냐&quot;&gt;미래에 어떤 모습으로 있을 것 같나? 너의 꿈이 무엇이냐?&lt;/h2&gt;
-
-&lt;p&gt;한국해양기상기술&lt;/p&gt;
-
-&lt;p&gt;20230315 15시&lt;/p&gt;
-
-&lt;p&gt;면접끝&lt;/p&gt;
-
-&lt;p&gt;질문
-자기소개
-왜 졸업이 아니라 수료를 하게 됐는가?&lt;/p&gt;
-
-&lt;p&gt;미래에 어떤 모습으로 있을 것 같냐? 너의 꿈이 무엇이냐?&lt;/p&gt;
-
-&lt;p&gt;구독하고 있는 피드가 있는가?
-양질의 정보는 어떻게 얻는가?&lt;/p&gt;
-
-&lt;p&gt;오픈소스를 이용해서 협업해본 적이 있느냐?(즉, 할 수 있나?)&lt;/p&gt;
-
-&lt;p&gt;리눅스를 다룰 수 있는가? 어느정도 다루는가?&lt;/p&gt;
-
-&lt;p&gt;스트레스는 어떻게 푸는가?&lt;/p&gt;
-
-&lt;p&gt;최신 논문을 어떤 것을 봤는가?&lt;/p&gt;
-
-&lt;p&gt;ai팀 인원 현재 3명(인원이 많이 적군….흠..)&lt;/p&gt;
-
-&lt;p&gt;원하는 인재상&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;프로그래밍을 좋아해야한다.&lt;/li&gt;
-  &lt;li&gt;잘해야한다.&lt;/li&gt;
-  &lt;li&gt;월급보다 잘해야한다.&lt;/li&gt;
-&lt;/ul&gt;
 
 &lt;hr /&gt;
 &lt;p&gt;실제 경험 메모&lt;/p&gt;
@@ -306,10 +822,7 @@ finally:
   &lt;li&gt;ZF (Zero Fill): 해당 칼럼의 값이 0으로 채워지도록 설정합니다.&lt;/li&gt;
   &lt;li&gt;AI (Auto Increment): 해당 칼럼의 값이 자동으로 증가하도록 설정합니다.&lt;/li&gt;
   &lt;li&gt;G (Generated): 해당 칼럼의 값이 데이터베이스에 의해 자동으로 생성되도록 설정합니다.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">PyMySQL</summary></entry><entry><title type="html">TIL-위플랫</title><link href="http://localhost:4000/TIL-%EC%9C%84%ED%94%8C%EB%9E%AB" rel="alternate" type="text/html" title="TIL-위플랫" /><published>2023-03-15T00:00:00+09:00</published><updated>2023-03-15T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%EC%9C%84%ED%94%8C%EB%9E%AB</id><content type="html" xml:base="http://localhost:4000/TIL-%EC%9C%84%ED%94%8C%EB%9E%AB">&lt;h1 id=&quot;위플랫&quot;&gt;위플랫&lt;/h1&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">위플랫</summary></entry><entry><title type="html">TIL-디메타</title><link href="http://localhost:4000/TIL-%EB%94%94%EB%A9%94%ED%83%80" rel="alternate" type="text/html" title="TIL-디메타" /><published>2023-03-14T00:00:00+09:00</published><updated>2023-03-14T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%EB%94%94%EB%A9%94%ED%83%80</id><content type="html" xml:base="http://localhost:4000/TIL-%EB%94%94%EB%A9%94%ED%83%80">&lt;h1 id=&quot;디메타&quot;&gt;디메타&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">PyMySQL</summary></entry><entry><title type="html">TIL-디메타</title><link href="http://localhost:4000/TIL-%EB%94%94%EB%A9%94%ED%83%80" rel="alternate" type="text/html" title="TIL-디메타" /><published>2023-03-14T00:00:00+09:00</published><updated>2023-03-14T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%EB%94%94%EB%A9%94%ED%83%80</id><content type="html" xml:base="http://localhost:4000/TIL-%EB%94%94%EB%A9%94%ED%83%80">&lt;h1 id=&quot;디메타&quot;&gt;디메타&lt;/h1&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;운송 및 물류 분야 시장 강자를 목표&lt;/p&gt;
@@ -393,219 +906,4 @@ finally:
   &lt;p&gt;&lt;span style=&quot;color:blue&quot;&gt;내 생각&lt;br /&gt;
 기본적인 자격요건이 충족되는데 회사가 원하는 신입은 컴퓨터비전을 경험해본 사람을 원하는 것 같아서 어떤 대화가 오갈지 설렘반 기대반이다.
 &lt;/span&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">디메타</summary></entry><entry><title type="html">TIL-TF-IDF</title><link href="http://localhost:4000/TIL-TFIDF" rel="alternate" type="text/html" title="TIL-TF-IDF" /><published>2023-03-14T00:00:00+09:00</published><updated>2023-03-14T00:00:00+09:00</updated><id>http://localhost:4000/TIL-TFIDF</id><content type="html" xml:base="http://localhost:4000/TIL-TFIDF">&lt;h1 id=&quot;tf-idf-용어-빈도---역-문서-빈도&quot;&gt;TF-IDF (용어 빈도 - 역 문서 빈도)&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;TF-IDF; Term Frequency-Inverse Document Frequency’&lt;/li&gt;
-  &lt;li&gt;정보 검색에서 &lt;strong&gt;문서의 내용&lt;/strong&gt;을 &lt;strong&gt;수치화&lt;/strong&gt;하는 데에 사용되는 방법입니다.&lt;/li&gt;
-  &lt;li&gt;단어의 빈도와 문서 내에서의 출현 빈도를 고려하여 &lt;strong&gt;각 단어&lt;/strong&gt;에 대한 &lt;strong&gt;가중치&lt;/strong&gt;를 계산합니다.&lt;/li&gt;
-  &lt;li&gt;문서 검색, 정보 검색, 문서 분류 등의 분야에서 널리 사용되는 기법입니다.&lt;/li&gt;
-  &lt;li&gt;다양한 자연어 처리 기술에서 활용됩니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;개념&quot;&gt;개념&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Term Frequency(TF)
-    &lt;ul&gt;
-      &lt;li&gt;문서에서 단어가 얼마나 자주 나타나는지를 측정합니다.&lt;/li&gt;
-      &lt;li&gt;각 단어의 TF는 &lt;strong&gt;해당 단어&lt;/strong&gt;가 &lt;strong&gt;문서&lt;/strong&gt;에 &lt;strong&gt;나타나는 빈도&lt;/strong&gt;를 나타냅니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Inverse Document Frequecncy(IDF)
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;전체 문서 집합&lt;/strong&gt;에서 &lt;strong&gt;단어&lt;/strong&gt;가 얼마나 &lt;strong&gt;희귀&lt;/strong&gt;한지를 측정합니다.&lt;/li&gt;
-      &lt;li&gt;IDF는 문서 내에서 단어가 나타날 때마다 &lt;strong&gt;역수&lt;/strong&gt;를 취하여 계산됩니다.&lt;/li&gt;
-      &lt;li&gt;즉, 문서 집합에서 자주 나타나는 단어에는 낮은 가중치가 부여되고, 드물기 나타나는 단어에는 높은 가중치가 부여됩니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;계산&quot;&gt;계산&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;각 단어의 &lt;strong&gt;TF&lt;/strong&gt;와 &lt;strong&gt;IDF&lt;/strong&gt;를 &lt;strong&gt;곱&lt;/strong&gt;하여 계산됩니다.
-    &lt;ul&gt;
-      &lt;li&gt;이 값은 각 단어의 중요도를 나타냅니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;높은 TF-IDF&lt;/strong&gt; 값을 가지는 단어는 문서의 &lt;strong&gt;주요 특징을 잘 나타내는 단어&lt;/strong&gt;라고 할 수 있습니다.&lt;/li&gt;
-  &lt;li&gt;이를 통해 문서 검색 등에서 관련성이 높은 문서를 더 잘 찾을 수 있습니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;예시&quot;&gt;예시&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;dog 라는 단어가 문서에서 5번 나타났습니다.&lt;/li&gt;
-  &lt;li&gt;전체 문서 집합에서 dog 라는 단어가 드물게 나타났다면, TF-IDF 값은 높아집니다.&lt;/li&gt;
-  &lt;li&gt;이는 단어가 문서의 특징을 잘 나타내는 중요한 단어라는 것을 나타내며, 이를 통해 이 문서가 dog과 관련이 높다는 것을 나타내는 검색 결과에서 상위에 나타날 수 있게 됩니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;활용&quot;&gt;활용&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;단어의 빈도수를 고려하기 때문에, 자주 나타나는 단어에 대해서는 높은 가중치를 부여하고, 드물게 나타나는 단어에 대해서는 높은 가중치를 부여합니다.
-    &lt;ul&gt;
-      &lt;li&gt;이러한 방식은 다른 기술과 함께 사용될 때 좋은 결과를 낼 수 있습니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;불용어 제거&lt;/strong&gt;에도 사용할 수 있습니다.
-    &lt;ul&gt;
-      &lt;li&gt;자주 나타나지만 분석에 필요하지 않은 단어들을 제거하고, 중요한 단어들에 대해서만 TF-IDF 가중치를 계산하여 분석을 수행할 수 있습니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;다른 기술과 결합하여 &lt;strong&gt;토픽 모델링&lt;/strong&gt;이나 &lt;strong&gt;감성 분석&lt;/strong&gt; 등의 작업에서도 활용됩니다.
-    &lt;ul&gt;
-      &lt;li&gt;이러한 분야에서도 TF-IDF를 활용하여 각 단어의 중요도를 계산하고, 이를 바탕으로 분석을 수행합니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;한계&quot;&gt;한계&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;동음이의어&lt;/strong&gt;나 &lt;strong&gt;유사어&lt;/strong&gt;의 처리에 대해서는 &lt;strong&gt;한계&lt;/strong&gt;가 있습니다.
-    &lt;ul&gt;
-      &lt;li&gt;이러한 문제를 해결하기 위해서는 &lt;strong&gt;단어 임베딩&lt;/strong&gt;(word embedding) 등의 기술을 함께 사용해야 합니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;긴 문서&lt;/strong&gt;에서는 &lt;strong&gt;단어의 빈도수&lt;/strong&gt;가 &lt;strong&gt;과도하게 높아져서&lt;/strong&gt;, 가중치가 높은 단어가 &lt;strong&gt;특별한 의미&lt;/strong&gt;를 &lt;strong&gt;가지지 않는&lt;/strong&gt; 경우도 있습니다.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">TF-IDF (용어 빈도 - 역 문서 빈도)</summary></entry><entry><title type="html">TIL-Stop Words</title><link href="http://localhost:4000/TIL-StopWords" rel="alternate" type="text/html" title="TIL-Stop Words" /><published>2023-03-13T00:00:00+09:00</published><updated>2023-03-13T00:00:00+09:00</updated><id>http://localhost:4000/TIL-StopWords</id><content type="html" xml:base="http://localhost:4000/TIL-StopWords">&lt;h1 id=&quot;stop-words-불용어&quot;&gt;Stop Words 불용어&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;자연어 처리(NLP)에서 ‘불용어(Stop Words)’는 분석하려는 문서에서 &lt;strong&gt;제거되는 일반적인 단어 또는 구문&lt;/strong&gt;입니다.&lt;/li&gt;
-  &lt;li&gt;이러한 단어는 일반적으로 문장에서 나타나지만, 문서의 내용을 이해하는 데 큰 도움이 되지 않거나 &lt;strong&gt;분석에 불필요한 정보&lt;/strong&gt;를 제공합니다.&lt;/li&gt;
-  &lt;li&gt;따라서 이러한 단어를 &lt;strong&gt;제거&lt;/strong&gt;함으로써 &lt;strong&gt;분석의 정확성&lt;/strong&gt;을 &lt;strong&gt;높일 수&lt;/strong&gt; 있습니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;예시&quot;&gt;예시&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;영어에서는 ‘the’, ‘a’, ‘an’, ‘in’, ‘on’, ‘of’ 등이 일반적인 불용어입니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;중요한-이유&quot;&gt;중요한 이유&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;불용어를 제거&lt;/strong&gt;함으로써 모델링 과정에서 처리해야 하는 &lt;strong&gt;단어의 수를 줄일 수&lt;/strong&gt; 있습니다.
-    &lt;ul&gt;
-      &lt;li&gt;이는 모델링을 더 &lt;strong&gt;빠르고 효율적&lt;/strong&gt;으로 만들 수 있습니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;불용어를 제거하면 모델링 &lt;strong&gt;결과의 정확도가 향상&lt;/strong&gt;됩니다.
-    &lt;ul&gt;
-      &lt;li&gt;모델링을 수행하는 동안 &lt;strong&gt;고려해야 하는 단어의 수가 줄어&lt;/strong&gt;들기 때문입니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;예를 들어, &lt;strong&gt;문서의 유사도&lt;/strong&gt;를 계산한다고 가정합니다.
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;불용어가 큰 영향을 미치지 않는다면&lt;/strong&gt;, 문서의 &lt;strong&gt;길이&lt;/strong&gt;가 &lt;strong&gt;다른 경우&lt;/strong&gt;에도 문서 간의 유사도를 &lt;strong&gt;측정&lt;/strong&gt;할 수 있습니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;또 다른 예로, &lt;strong&gt;감성 분석&lt;/strong&gt;과 같은 작업을 한다고 가정합니다.
-    &lt;ul&gt;
-      &lt;li&gt;문장에서 ‘그것’ 또는 ‘이것’과 같은 &lt;strong&gt;대명사&lt;/strong&gt;를 &lt;strong&gt;불용어로 간주&lt;/strong&gt;하고 &lt;strong&gt;제거&lt;/strong&gt;함으로써 분석 결과를 더욱 &lt;strong&gt;정확&lt;/strong&gt;하게 만들 수 있습니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;주의&quot;&gt;주의&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;불용어는 &lt;strong&gt;분석하려는 언어&lt;/strong&gt;나 &lt;strong&gt;분석 목적&lt;/strong&gt;에 따라 달라질 수 있습니다.&lt;/li&gt;
-  &lt;li&gt;따라서 분석하려는 데이터에 맞게 적절한 불용어 목록을 선정하는 것이 중요합니다.&lt;/li&gt;
-  &lt;li&gt;이러한 목록은 일반적으로 &lt;strong&gt;언어별로 구축&lt;/strong&gt;되며, 대부분의 NLP 라이브러리에서는 불용어 목록을 제공하거나, 사용자 정의 불용어 목록을 지정할 수 있는 기능을 제공합니다.&lt;/li&gt;
-  &lt;li&gt;일부 상황에서는 불용어를 제거하지 않는 것이 더 나을 수 있습니다.
-    &lt;ul&gt;
-      &lt;li&gt;예를 들어, 문서의 길이가 짧은 경우, 불용어가 전체적인 문맥을 파악하는 데 필수적일 수 있습니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">Stop Words 불용어</summary></entry><entry><title type="html">주식 투자</title><link href="http://localhost:4000/%EC%A3%BC%EC%8B%9D%ED%88%AC%EC%9E%90%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8" rel="alternate" type="text/html" title="주식 투자" /><published>2023-03-12T00:00:00+09:00</published><updated>2023-03-12T00:00:00+09:00</updated><id>http://localhost:4000/%EC%A3%BC%EC%8B%9D%ED%88%AC%EC%9E%90%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8</id><content type="html" xml:base="http://localhost:4000/%EC%A3%BC%EC%8B%9D%ED%88%AC%EC%9E%90%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8">&lt;h1 id=&quot;주식-투자-정보-프로젝트&quot;&gt;주식 투자 정보 프로젝트&lt;/h1&gt;
-
-&lt;h2 id=&quot;목표&quot;&gt;목표&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;주식 랜덤성&lt;/strong&gt;이 있고 참고해야할 사항이 많으므로 &lt;strong&gt;투자 정보&lt;/strong&gt;를 &lt;strong&gt;개인의 성향에 맞게 제공 및 추천&lt;/strong&gt;하는 것으로 목표로 하고 있습니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;대상&quot;&gt;대상&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;정확한 주식 예측이 아닌 투자 정보를 제공하는 것을 목적으로 하고 있기 때문에 대상은 &lt;strong&gt;어느 정도 주식을 아는 사람&lt;/strong&gt;입니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;서비스-예상&quot;&gt;서비스 예상&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;필요한 정보들(기술적 분석, 재무정보, 경제 지표, 기타 외부요인)을 한 곳에서 볼 수 있도록 정보를 제공합니다. 해당 관련 서비스는 네이버증권 등 증권 회사의 어플리케이션을 참고하여 어떤 것들이 주로 영향을 미치는지 틀을 참고할 수 있었습니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;주식-투자-정보-제공&quot;&gt;주식 투자 정보 제공&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;세미 프로젝트로 나누어 서비스를 배포합니다.&lt;/li&gt;
-  &lt;li&gt;수집 : api 이용 ( [python 라이브러리 존재] )&lt;/li&gt;
-  &lt;li&gt;분석 : 필요한 설명변수가 무엇인지 파악 ( 영향을 미치는 변수들 파악 )&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;세미-프로젝트1--가격이-오름세인가-내림세인가-&quot;&gt;세미 프로젝트1 [ 가격이 오름세인가 내림세인가? ]&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;데이터
-    &lt;ul&gt;
-      &lt;li&gt;기술적 분석
-        &lt;ul&gt;
-          &lt;li&gt;주가 그래프&lt;/li&gt;
-          &lt;li&gt;거래량&lt;/li&gt;
-          &lt;li&gt;이동평균선&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;이진 분류(오름세, 내림세) : 가격 데이터를 기반으로 오름세 판단&lt;/li&gt;
-  &lt;li&gt;회귀 분석 : 실제로는 회귀분석으로 돌아간다. (아직 속성이 하나이기 때문에 결정트리로만 파악하기 어렵다.)&lt;/li&gt;
-  &lt;li&gt;기간 : 1주일, 한달, 주기로 판단&lt;/li&gt;
-  &lt;li&gt;분야 : 오름세가 포함되어 있는 분야로 넓혀서 판단&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;세미-프로젝트2--오름세-상세-예측-&quot;&gt;세미 프로젝트2 [ 오름세 상세 예측 ]&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;데이터
-    &lt;ul&gt;
-      &lt;li&gt;회사의 재무정보 &lt;a href=&quot;https://dart.fss.or.kr/main.do&quot;&gt;전자공시시스템 링크&lt;/a&gt;
-        &lt;ul&gt;
-          &lt;li&gt;수익성 지표&lt;/li&gt;
-          &lt;li&gt;재무 건정성 지표&lt;/li&gt;
-          &lt;li&gt;성장성 지표&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;경제 지표
-        &lt;ul&gt;
-          &lt;li&gt;금리&lt;/li&gt;
-          &lt;li&gt;인플레이션&lt;/li&gt;
-          &lt;li&gt;실업률&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;기타 외부요인
-        &lt;ul&gt;
-          &lt;li&gt;경영진 변경&lt;/li&gt;
-          &lt;li&gt;정책 변화&lt;/li&gt;
-          &lt;li&gt;시장 변화&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;회귀분석 : 오름세로 판단된 품목에 대해 상세 분석&lt;/li&gt;
-  &lt;li&gt;재무재표 등 데이터를 추가하여 판단할 수 있는 방법을 추가&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;세미-프로젝트3--확률-수치-제공-&quot;&gt;세미 프로젝트3 [ 확률 수치 제공 ]&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;분류(추천) : 확률의 순서대로 제공&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;메모&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;개인의 성향은 변동성을 3단계로 나누어 매개변수를 조절하여 나타냅니다.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="project" /><summary type="html">주식 투자 정보 프로젝트</summary></entry></feed>
+&lt;/blockquote&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">디메타</summary></entry></feed>

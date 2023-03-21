@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/exitem/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-03-20T12:35:39+09:00</updated>
+  <updated>2023-03-21T11:25:25+09:00</updated>
   <id>http://localhost:4000/tag/exitem/feed.xml</id>
 
   
@@ -34,11 +34,23 @@
     <entry>
       <title type="html">HTML-딥러닝이란?</title>
       <link href="http://localhost:4000/TIL-%EB%94%A5%EB%9F%AC%EB%8B%9D" rel="alternate" type="text/html" title="HTML-딥러닝이란?" />
-      <published>2023-03-19T00:00:00+09:00</published>
-      <updated>2023-03-19T00:00:00+09:00</updated>
+      <published>2023-03-20T00:00:00+09:00</published>
+      <updated>2023-03-20T00:00:00+09:00</updated>
       <id>http://localhost:4000/TIL-%EB%94%A5%EB%9F%AC%EB%8B%9D</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-%EB%94%A5%EB%9F%AC%EB%8B%9D">&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+      <content type="html" xml:base="http://localhost:4000/TIL-%EB%94%A5%EB%9F%AC%EB%8B%9D">&lt;h1 id=&quot;딥러닝이란&quot;&gt;딥러닝이란?&lt;/h1&gt;
+
+&lt;p&gt;강력한 신경망을 사용하는 것입니다.&lt;/p&gt;
+
+&lt;p&gt;딥러닝(Deep Learning)은 인공지능(Artificial Intelligence)의 한 분야로, 머신러닝(Machine Learning)의 한 종류입니다. 머신러닝은 데이터로부터 패턴을 학습하여 예측 모델을 만드는 기술입니다.&lt;/p&gt;
+
+&lt;p&gt;딥러닝은 인공신경망(Artificial Neural Network)을 이용하여 이러한 학습을 수행합니다. 인공신경망은 사람의 뇌를 모방하여 만들어진 모델로, 입력층(Input Layer), 은닉층(Hidden Layer), 출력층(Output Layer)으로 구성되어 있습니다.&lt;/p&gt;
+
+&lt;p&gt;입력층에서는 데이터가 입력되고, 은닉층에서는 입력된 데이터를 처리하고 분석하여 다음 층으로 전달합니다. 은닉층의 개수와 노드의 수는 딥러닝 모델의 성능에 영향을 미치며, 이를 조절하여 최적의 모델을 만들어내는 것이 중요합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;사용처&quot;&gt;사용처&lt;/h2&gt;
+&lt;p&gt;딥러닝은 주로 이미지, 음성, 텍스트 등의 복잡하고 대용량의 데이터를 다루는데 사용됩니다. 예를 들어, 이미지 인식 분야에서는 딥러닝 모델이 이미지 내에 있는 특징(feature)을 자동으로 추출하여 이미지를 분류하고 인식하는데 사용됩니다.&lt;/p&gt;
+
+&lt;p&gt;딥러닝은 높은 정확도와 성능을 가지고 있으며, 최근에는 음성인식, 자율주행, 게임, 의료, 자연어 처리 등 다양한 분야에서 활용되고 있습니다.&lt;/p&gt;</content>
 
       
       
@@ -59,7 +71,7 @@
       
 
       
-        <summary type="html">```python</summary>
+        <summary type="html">딥러닝이란?</summary>
       
 
       
@@ -72,13 +84,106 @@
       <published>2023-03-19T00:00:00+09:00</published>
       <updated>2023-03-19T00:00:00+09:00</updated>
       <id>http://localhost:4000/%ED%95%9C%EA%B5%AD%ED%95%B4%EC%96%91%EA%B8%B0%EC%83%81%EA%B8%B0%EC%88%A0(%EC%A7%81%EC%9E%A5)</id>
-      <content type="html" xml:base="http://localhost:4000/%ED%95%9C%EA%B5%AD%ED%95%B4%EC%96%91%EA%B8%B0%EC%83%81%EA%B8%B0%EC%88%A0(%EC%A7%81%EC%9E%A5)">&lt;h1 id=&quot;한국해양기상기술&quot;&gt;한국해양기상기술&lt;/h1&gt;
+      <content type="html" xml:base="http://localhost:4000/%ED%95%9C%EA%B5%AD%ED%95%B4%EC%96%91%EA%B8%B0%EC%83%81%EA%B8%B0%EC%88%A0(%EC%A7%81%EC%9E%A5)">&lt;h1 id=&quot;주한국해양기상기술&quot;&gt;(주)한국해양기상기술&lt;/h1&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;첫 직장으로 입사하게 되었습니다. 그래서 회사의 정보들을 알고 있으면 적응하는데 도움이 될 것이기 때문에 좀 더 상세히 살펴보려고 합니다.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&quot;회사-위치&quot;&gt;회사 위치&lt;/h2&gt;</content>
+&lt;p&gt;&lt;a href=&quot;https://chanp5660.github.io/TIL-한국해양기상기술&quot;&gt;사전 조사 링크&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;직무&quot;&gt;직무&lt;/h2&gt;
+
+&lt;p&gt;AI 개발자&lt;/p&gt;
+
+&lt;h2 id=&quot;회사-사이트&quot;&gt;회사 사이트&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://koast.net/wp/&quot;&gt;http://koast.net/wp/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;회사-위치&quot;&gt;회사 위치&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://map.naver.com/v5/search/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B5%AC%EB%A1%9C%EA%B5%AC%20%EA%B2%BD%EC%9D%B8%EB%A1%9C53%EA%B8%B8%2090%20(%EA%B5%AC%EB%A1%9C%EB%8F%99)%20STX%20W-%ED%83%80%EC%9B%8C/address/14123677.726841275,4509688.102578923,%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B5%AC%EB%A1%9C%EA%B5%AC%20%EA%B2%BD%EC%9D%B8%EB%A1%9C53%EA%B8%B8%2090,new?c=18,0,0,0,dh&amp;amp;isCorrectAnswer=true&quot;&gt;서울특별시 구로구 경인로53길 90 (구로동) STX W-타워, 1502-1504호&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;재무정보&quot;&gt;재무정보&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.saramin.co.kr/zf_user/company-info/view-inner-finance/csn/UGIzQmh5aFBJb1JYT3g2cnNHUjFqdz09/company_nm/(주)한국해양기상기술&quot;&gt;사람인 링크&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;기업-비전&quot;&gt;기업 비전&lt;/h2&gt;
+
+&lt;p&gt;㈜한국해양기상기술은 UM모델의 분석 및 사용자 관리시스템인 KUMUI를 구축한 핵심 인력을 바탕으로 해양•기상 사업 컨설팅, 예측에 대한 과학적 자료제공과 응용소프트웨어 개발 및 DB구축, 하드웨어 개발을 통한 통합솔루션을 제공합니다. 또한 관측 및 수치모델정보의 3차원 가시화를 위한 솔루션과 다년간의 경험을 보유하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;KUMUI는 한국해양기상기술이 개발한 UM(Unified Modeling Language) 모델의 분석 및 사용자 관리 시스템입니다. KUMUI는 UM 모델을 기반으로 하는 해양 및 기상 사업 컨설팅, 예측에 대한 과학적 자료 제공과 응용 소프트웨어 개발, DB 구축, 하드웨어 개발을 통한 통합 솔루션을 제공합니다.&lt;/p&gt;
+
+&lt;p&gt;KUMUI는 UM 모델의 예측 결과를 수집, 저장, 분석하는 기능을 제공하며, 이를 기반으로 해양 및 기상 관련 분야에서 다양한 응용 솔루션을 개발할 수 있습니다. 또한 KUMUI는 관측 및 수치 모델 정보의 3차원 가시화를 위한 솔루션도 제공하여, 시각적인 정보를 쉽게 이해할 수 있도록 도와줍니다.&lt;/p&gt;
+
+&lt;p&gt;한국해양기상기술은 KUMUI를 통해 해양 및 기상 관련 분야에서 필요한 다양한 정보와 솔루션을 제공하며, 다년간의 경험을 바탕으로 전문성 있는 서비스를 제공하고 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;복리후생&quot;&gt;복리후생&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.jobkorea.co.kr/Recruit/Co_Read/C/koast1717&quot;&gt;잡코리아&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;연금·보험
+    &lt;ul&gt;
+      &lt;li&gt;국민연금&lt;/li&gt;
+      &lt;li&gt;고용보험&lt;/li&gt;
+      &lt;li&gt;산재보험&lt;/li&gt;
+      &lt;li&gt;건강보험&lt;/li&gt;
+      &lt;li&gt;퇴직연금&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;휴무·휴가·행사
+    &lt;ul&gt;
+      &lt;li&gt;주5일제&lt;/li&gt;
+      &lt;li&gt;연차제도&lt;/li&gt;
+      &lt;li&gt;월차제도&lt;/li&gt;
+      &lt;li&gt;경조휴가&lt;/li&gt;
+      &lt;li&gt;반차제도&lt;/li&gt;
+      &lt;li&gt;포상휴가&lt;/li&gt;
+      &lt;li&gt;육아휴직&lt;/li&gt;
+      &lt;li&gt;창립일 휴무&lt;/li&gt;
+      &lt;li&gt;노동절 휴무&lt;/li&gt;
+      &lt;li&gt;워크샵/MT&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;보상·수당·지원
+    &lt;ul&gt;
+      &lt;li&gt;경조금&lt;/li&gt;
+      &lt;li&gt;인센티브&lt;/li&gt;
+      &lt;li&gt;장기근속 포상&lt;/li&gt;
+      &lt;li&gt;장기근속수당&lt;/li&gt;
+      &lt;li&gt;성과급&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;사내제도·성장
+    &lt;ul&gt;
+      &lt;li&gt;신입 사원 교육&lt;/li&gt;
+      &lt;li&gt;직무능력향상교육&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;사내시설
+    &lt;ul&gt;
+      &lt;li&gt;휴식공간&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;편의·여가·건강
+    &lt;ul&gt;
+      &lt;li&gt;건강검진&lt;/li&gt;
+      &lt;li&gt;점심 식사 지원&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.jobkorea.co.kr/Recruit/Co_Read/C/koast1717&quot;&gt;사람인&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;건강검진, 통신비 지원&lt;/li&gt;
+  &lt;li&gt;퇴직연금, 인센티브제, 장기근속자 포상, 우수사원포상, 장기근속수당, 4대 보험&lt;/li&gt;
+  &lt;li&gt;생일선물/파티&lt;/li&gt;
+  &lt;li&gt;워크샵, 플레이샵, 직무능력향상교육, 점심식사 제공, 저녁식사 제공&lt;/li&gt;
+  &lt;li&gt;회의실, 공기청정기&lt;/li&gt;
+  &lt;li&gt;자유복장&lt;/li&gt;
+  &lt;li&gt;차량유류비지급, 회사차량 있음&lt;/li&gt;
+  &lt;li&gt;연차, 여름휴가, 경조휴가제, 반차, 창립일휴무, 근로자의 날 휴무, 휴가비지원&lt;/li&gt;
+&lt;/ul&gt;</content>
 
       
       
@@ -99,7 +204,7 @@
       
 
       
-        <summary type="html">한국해양기상기술</summary>
+        <summary type="html">(주)한국해양기상기술</summary>
       
 
       
@@ -379,38 +484,6 @@ finally:
 &lt;h2 id=&quot;왜-졸업이-아니라-수료를-하게-됐는가&quot;&gt;왜 졸업이 아니라 수료를 하게 됐는가?&lt;/h2&gt;
 
 &lt;h2 id=&quot;미래에-어떤-모습으로-있을-것-같나-너의-꿈이-무엇이냐&quot;&gt;미래에 어떤 모습으로 있을 것 같나? 너의 꿈이 무엇이냐?&lt;/h2&gt;
-
-&lt;p&gt;한국해양기상기술&lt;/p&gt;
-
-&lt;p&gt;20230315 15시&lt;/p&gt;
-
-&lt;p&gt;면접끝&lt;/p&gt;
-
-&lt;p&gt;질문
-자기소개
-왜 졸업이 아니라 수료를 하게 됐는가?&lt;/p&gt;
-
-&lt;p&gt;미래에 어떤 모습으로 있을 것 같냐? 너의 꿈이 무엇이냐?&lt;/p&gt;
-
-&lt;p&gt;구독하고 있는 피드가 있는가?
-양질의 정보는 어떻게 얻는가?&lt;/p&gt;
-
-&lt;p&gt;오픈소스를 이용해서 협업해본 적이 있느냐?(즉, 할 수 있나?)&lt;/p&gt;
-
-&lt;p&gt;리눅스를 다룰 수 있는가? 어느정도 다루는가?&lt;/p&gt;
-
-&lt;p&gt;스트레스는 어떻게 푸는가?&lt;/p&gt;
-
-&lt;p&gt;최신 논문을 어떤 것을 봤는가?&lt;/p&gt;
-
-&lt;p&gt;ai팀 인원 현재 3명(인원이 많이 적군….흠..)&lt;/p&gt;
-
-&lt;p&gt;원하는 인재상&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;프로그래밍을 좋아해야한다.&lt;/li&gt;
-  &lt;li&gt;잘해야한다.&lt;/li&gt;
-  &lt;li&gt;월급보다 잘해야한다.&lt;/li&gt;
-&lt;/ul&gt;
 
 &lt;hr /&gt;
 &lt;p&gt;실제 경험 메모&lt;/p&gt;

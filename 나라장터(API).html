@@ -1,0 +1,1297 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Document Settings -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Base Meta -->
+    <!-- dynamically fixing the title for tag/author pages -->
+
+
+
+    <title>나라장터(API)</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Styles'n'Scripts -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.edited.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
+    
+    <!-- custom.css -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/custom.css" />
+    
+    <!--  Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">    
+    
+    <!-- 웹폰트 추가 -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css">    
+    
+    <!-- syntax.css 추가 -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css">  
+    
+    <!-- highlight.js -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+    <style>.hljs { background: none; }</style>
+
+    <!--[if IE]>
+        <style>
+            p, ol, ul{
+                width: 100%;
+            }
+            blockquote{
+                width: 100%;
+            }
+        </style>
+    <![endif]-->
+    
+    <!-- This tag outputs SEO meta+structured data and other important settings -->
+    <meta name="description" content="박찬" />
+    <link rel="shortcut icon" href="http://localhost:4000/assets/built/images/favicon.jpg" type="image/png" />
+    <link rel="canonical" href="http://localhost:4000/%EB%82%98%EB%9D%BC%EC%9E%A5%ED%84%B0(API)" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+
+     <!--title below is coming from _includes/dynamic_title-->
+    <meta property="og:site_name" content="Engineer Chanp5660" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="나라장터(API)" />
+    <meta property="og:description" content="나라장터 API API를 이용한 나라장터 거래 정보 데이터를 수집하겠습니다. API 활용신청 공공데이터포털 사이트에서 조달청_나라장터 공공데이터개방표준서비스 를 검색합니다. 그럼 아래와 같은 이미지의 오른쪽 밑에 활용신청을 눌러 신청합니다. 활용신청 : 안에 내용은 본인의 의도에 맞게 적어 제출하면 등록이 되어 사용가능하다.(바로 사용이 안되면 어느정도 기다렸다가 하면된다.) 다른 데이터는 기관에서 인증을 해주고 나서 해주는" />
+    <meta property="og:url" content="http://localhost:4000/%EB%82%98%EB%9D%BC%EC%9E%A5%ED%84%B0(API)" />
+    <meta property="og:image" content="http://localhost:4000/assets/built/images/나라장터.png" />
+    <meta property="article:publisher" content="https://www.facebook.com/" />
+    <meta property="article:author" content="https://www.facebook.com/" />
+    <meta property="article:published_time" content="2023-03-20T00:00:00+09:00" />
+    <meta property="article:modified_time" content="2023-03-20T00:00:00+09:00" />
+    <meta property="article:tag" content="Project" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="나라장터(API)" />
+    <meta name="twitter:description" content="나라장터 API API를 이용한 나라장터 거래 정보 데이터를 수집하겠습니다. API 활용신청 공공데이터포털 사이트에서 조달청_나라장터 공공데이터개방표준서비스 를 검색합니다. 그럼 아래와 같은 이미지의 오른쪽 밑에 활용신청을 눌러 신청합니다. 활용신청 : 안에 내용은 본인의 의도에 맞게 적어 제출하면 등록이 되어 사용가능하다.(바로 사용이 안되면 어느정도 기다렸다가 하면된다.) 다른 데이터는 기관에서 인증을 해주고 나서 해주는" />
+    <meta name="twitter:url" content="http://localhost:4000/" />
+    <meta name="twitter:image" content="http://localhost:4000/assets/built/images/나라장터.png" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="Engineer Chanp5660" />
+    <meta name="twitter:label2" content="Filed under" />
+    <meta name="twitter:data2" content="Project" />
+    <meta name="twitter:site" content="@" />
+    <meta name="twitter:creator" content="@" />
+    <meta property="og:image:width" content="1400" />
+    <meta property="og:image:height" content="933" />
+
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Website",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Engineer Chanp5660",
+        "logo": "http://localhost:4000/"
+    },
+    "url": "http://localhost:4000/%EB%82%98%EB%9D%BC%EC%9E%A5%ED%84%B0(API)",
+    "image": {
+        "@type": "ImageObject",
+        "url": "http://localhost:4000/assets/built/images/나라장터.png",
+        "width": 2000,
+        "height": 666
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://localhost:4000/%EB%82%98%EB%9D%BC%EC%9E%A5%ED%84%B0(API)"
+    },
+    "description": "나라장터 API API를 이용한 나라장터 거래 정보 데이터를 수집하겠습니다. API 활용신청 공공데이터포털 사이트에서 조달청_나라장터 공공데이터개방표준서비스 를 검색합니다. 그럼 아래와 같은 이미지의 오른쪽 밑에 활용신청을 눌러 신청합니다. 활용신청 : 안에 내용은 본인의 의도에 맞게 적어 제출하면 등록이 되어 사용가능하다.(바로 사용이 안되면 어느정도 기다렸다가 하면된다.) 다른 데이터는 기관에서 인증을 해주고 나서 해주는"
+}
+    </script>
+
+    <!-- <script type="text/javascript" src="https://demo.ghost.io/public/ghost-sdk.min.js?v=724281a32e"></script>
+    <script type="text/javascript">
+    ghost.init({
+    	clientId: "ghost-frontend",
+    	clientSecret: "f84a07a72b17"
+    });
+    </script> -->
+
+    <meta name="generator" content="Jekyll 3.6.2" />
+    <link rel="alternate" type="application/rss+xml" title="나라장터(API)" href="/feed.xml" />
+
+
+</head>
+<body class="post-template">
+
+    <div class="site-wrapper">
+        <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
+        <!-- default -->
+
+<!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template -->
+
+<header class="site-header outer">
+    <div class="inner">
+        <nav class="site-nav">
+    <div class="site-nav-left">
+        
+            
+                <a class="site-nav-logo" href="/">Engineer Chanp5660</a>
+            
+        
+        
+            <ul class="nav" role="menu">
+    <li class="nav-home" role="menuitem"><a href="/">Home</a></li>
+    <li class="nav-about" role="menuitem"><a href="/about/">about</a></li>
+    <li class="nav-project" role="menuitem"><a href="/tag/project/">Project</a></li>
+    <li class="nav-ai" role="menuitem"><a href="/tag/ai/">AI</a></li>
+    <li class="nav-math" role="menuitem"><a href="/tag/math/">Math</a></li>
+    <li class="nav-programing" role="menuitem"><a href="/tag/programing/">Programing</a></li>
+    <li class="nav-devskill" role="menuitem"><a href="/tag/devskill/">DevSkill</a></li>
+    <li class="nav-exitem" role="menuitem"><a href="/tag/exitem/">Ex-item</a></li>
+
+    <li class="nav-archive" role="menuitem"><a href="/archive.html">All Posts</a></li>
+    <li class="nav-archive" role="menuitem"><a href="/author_archive.html">Tag Posts</a></li>
+</ul>
+        
+    </div>
+    <div class="site-nav-right">
+        <div class="social-links">
+            
+            
+        </div>
+        
+            <a class="subscribe-button" href="#subscribe">Search</a>
+        
+    </div>
+</nav>
+
+    </div>
+</header>
+
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
+<main id="site-main" class="site-main outer" role="main">
+    <div class="inner">
+
+        <article class="post-full  tag-project post tag-python ">
+
+            <header class="post-full-header">
+                <section class="post-full-meta">
+                    <time class="post-full-meta-date" datetime="20 March 2023">20 March 2023</time>
+                    
+                        <span class="date-divider">/</span>
+                        
+                            
+                               <a href='/tag/project/'>PROJECT</a>
+                            
+                        
+                    
+                </section>
+                <h1 class="post-full-title">나라장터(API)</h1>
+            </header>
+            
+            <!--
+            
+            <figure class="post-full-image" style="background-image: url(/assets/built/images/나라장터.png)">
+            </figure>
+            
+            -->
+
+            <section class="post-full-content">
+                <div class="kg-card-markdown">
+                    <h1 id="나라장터-api">나라장터 API</h1>
+
+<p>API를 이용한 나라장터 거래 정보 데이터를 수집하겠습니다.</p>
+
+<h2 id="api-활용신청">API 활용신청</h2>
+
+<p><a href="https://www.data.go.kr/index.do">공공데이터포털 사이트</a>에서 <strong><a href="https://www.data.go.kr/data/15058815/openapi.do">조달청_나라장터 공공데이터개방표준서비스</a></strong> 를 검색합니다.
+<img src="https://user-images.githubusercontent.com/46266247/180806602-701bcead-48f9-44d7-adce-22cf48411c07.png" width="90%" /></p>
+
+<p>그럼 아래와 같은 이미지의 오른쪽 밑에 <strong>활용신청</strong>을 눌러 신청합니다.</p>
+
+<ul>
+  <li>
+    <p>활용신청 : 안에 내용은 본인의 의도에 맞게 적어 제출하면 등록이 되어 사용가능하다.(바로 사용이 안되면 어느정도 기다렸다가 하면된다.) 다른 데이터는 기관에서 인증을 해주고 나서 해주는 경우도 있다.</p>
+  </li>
+  <li>
+    <p>참고문서 : open API 사용법 및 입출력 코드와 설명</p>
+  </li>
+</ul>
+
+<p><img src="https://user-images.githubusercontent.com/46266247/180806928-08bff0b0-7068-44c2-adc2-a80103d3b828.png" width="100%" /></p>
+
+<p><img src="https://user-images.githubusercontent.com/46266247/180846098-3a7ad05d-620e-4b76-95ce-4f26faae64c7.png" width="90%" /></p>
+
+<h2 id="openapi-url-만들기">OPENAPI URL 만들기</h2>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">EndPoint</span> <span class="o">=</span> <span class="s">"http://apis.data.go.kr/1230000/PubDataOpnStdService"</span>
+
+<span class="n">ServiceKey</span> <span class="o">=</span><span class="s">""</span> <span class="c1"># 공공데이터포털에서 받은 인코딩 인증키
+</span>
+<span class="n">PageNo</span> <span class="o">=</span> <span class="mi">1</span> <span class="c1"># 페이지번호
+</span><span class="n">NumOfRows</span> <span class="o">=</span> <span class="mi">100</span> <span class="c1"># 한 페이지 결과 수
+</span><span class="n">Datatype</span> <span class="o">=</span> <span class="s">"json"</span> <span class="c1"># 오픈API 리턴 타입을 JSON으로 받고 싶을 경우 'json' 으로 지정함
+</span><span class="n">bidNtceBgnDt</span> <span class="o">=</span> <span class="mi">202207240000</span> <span class="c1"># 검색하고자하는 입찰공고일시범위 시작 'YYYYMMDDHHMM' (입찰공고일시 범위는 1개월 로 제한)
+</span><span class="n">bidNtceEndDt</span> <span class="o">=</span> <span class="mi">202207312359</span> <span class="c1"># 검색하고자하는 입찰공고일시범위 종료 'YYYYMMDDHHMM' (입찰공고일시 범위는 1개월 로 제한)
+</span>
+<span class="k">def</span> <span class="nf">Info_Version</span><span class="p">(</span><span class="n">info_version</span><span class="p">)</span> <span class="p">:</span> <span class="c1"># 데이터셋 개방표준에 따른 입찰공고정보
+</span>    <span class="k">if</span> <span class="n">info_version</span> <span class="o">==</span> <span class="s">"입찰"</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s">"getDataSetOpnStdBidPblancInfo"</span>
+    <span class="k">elif</span> <span class="n">info_version</span> <span class="o">==</span> <span class="s">"낙찰"</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s">"getDataSetOpnStdScsbidInfo"</span>
+    <span class="k">else</span> <span class="p">:</span> <span class="c1"># 계약
+</span>        <span class="k">return</span> <span class="s">"getDataSetOpnStdCntrctInfo"</span>    
+</code></pre></div></div>
+
+<ul>
+  <li>테스트 : 결과물로 나오는 URL을 클릭하면 json 파일이 열린다.</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">info_version</span> <span class="o">=</span> <span class="s">"입찰"</span>
+<span class="n">URL</span> <span class="o">=</span> <span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="n">EndPoint</span><span class="si">}</span><span class="s">/</span><span class="si">{</span><span class="n">Info_Version</span><span class="p">(</span><span class="n">info_version</span><span class="p">)</span><span class="si">}</span><span class="s">?numOfRows=</span><span class="si">{</span><span class="n">NumOfRows</span><span class="si">}</span><span class="s">&amp;pageNo=</span><span class="si">{</span><span class="n">PageNo</span><span class="si">}</span><span class="s">&amp;bidNtceBgnDt=</span><span class="si">{</span><span class="n">bidNtceBgnDt</span><span class="si">}</span><span class="s">&amp;bidNtceEndDt=</span><span class="si">{</span><span class="n">bidNtceEndDt</span><span class="si">}</span><span class="s">&amp;ServiceKey=</span><span class="si">{</span><span class="n">ServiceKey</span><span class="si">}</span><span class="s">&amp;type=</span><span class="si">{</span><span class="n">Datatype</span><span class="si">}</span><span class="s">"</span>
+</code></pre></div></div>
+
+<p><img src="https://user-images.githubusercontent.com/46266247/180835139-bbcbf0a5-d7b1-4f94-b60c-b5e250625e16.png" width="60%" /></p>
+
+<h2 id="데이터-수집-코드">데이터 수집 코드</h2>
+
+<p>본 블로그는 투찰가능업종명 : 산림사업법인(숲가꾸기 및 병해충방제), 산림사업법인(도시숲등 조성, 관리) 관련으로 분석 및 예측한다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">requests</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="n">pd</span>
+<span class="kn">import</span> <span class="nn">datetime</span>   
+    
+<span class="k">def</span> <span class="nf">Get_Bid_df</span><span class="p">(</span><span class="n">info_version</span><span class="p">,</span> <span class="n">bidNtceBgnDt</span><span class="p">,</span> <span class="n">bidNtceEndDt</span><span class="p">,</span> <span class="n">ServiceKey</span><span class="p">):</span> <span class="c1"># 원하는 기간, 버전에 따른 공고정보 얻기
+</span>    
+    <span class="c1"># default setting
+</span>    <span class="n">PageNo</span> <span class="o">=</span> <span class="mi">1</span> <span class="c1"># 페이지번호
+</span>    <span class="n">NumOfRows</span> <span class="o">=</span> <span class="mi">999</span> <span class="c1"># 한 페이지 결과 수 , 최대 999개 이다.
+</span>    <span class="n">EndPoint</span> <span class="o">=</span> <span class="s">"http://apis.data.go.kr/1230000/PubDataOpnStdService"</span>
+    <span class="n">Datatype</span> <span class="o">=</span> <span class="s">"json"</span> <span class="c1"># 오픈API 리턴 타입을 JSON으로 받고 싶을 경우 'json' 으로 지정함
+</span>    
+    <span class="k">if</span> <span class="n">info_version</span> <span class="o">==</span> <span class="s">"입찰"</span><span class="p">:</span> <span class="c1"># 데이터셋 개방표준에 따른 입찰공고정보
+</span>        <span class="n">info_version_text</span> <span class="o">=</span> <span class="s">"getDataSetOpnStdBidPblancInfo"</span>
+    <span class="k">elif</span> <span class="n">info_version</span> <span class="o">==</span> <span class="s">"낙찰"</span><span class="p">:</span>
+        <span class="n">info_version_text</span> <span class="o">=</span> <span class="s">"getDataSetOpnStdScsbidInfo"</span>
+    <span class="k">else</span> <span class="p">:</span> <span class="c1"># 계약
+</span>        <span class="n">info_version_text</span> <span class="o">=</span> <span class="s">"getDataSetOpnStdCntrctInfo"</span>
+    
+    
+    <span class="n">Bid_df</span> <span class="o">=</span><span class="n">pd</span><span class="p">.</span><span class="n">DataFrame</span><span class="p">()</span>
+    <span class="n">nnn</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+        <span class="n">URL</span> <span class="o">=</span> <span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="n">EndPoint</span><span class="si">}</span><span class="s">/</span><span class="si">{</span><span class="n">info_version_text</span><span class="si">}</span><span class="s">?numOfRows=</span><span class="si">{</span><span class="n">NumOfRows</span><span class="si">}</span><span class="s">&amp;pageNo=</span><span class="si">{</span><span class="n">PageNo</span><span class="si">}</span><span class="s">&amp;bidNtceBgnDt=</span><span class="si">{</span><span class="n">bidNtceBgnDt</span><span class="si">}</span><span class="s">&amp;bidNtceEndDt=</span><span class="si">{</span><span class="n">bidNtceEndDt</span><span class="si">}</span><span class="s">&amp;ServiceKey=</span><span class="si">{</span><span class="n">ServiceKey</span><span class="si">}</span><span class="s">&amp;type=</span><span class="si">{</span><span class="n">Datatype</span><span class="si">}</span><span class="s">"</span>
+        <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="n">URL</span><span class="p">)</span>
+        
+        <span class="c1"># 총 데이터 개수
+</span>        <span class="n">TotalCount</span> <span class="o">=</span> <span class="n">response</span><span class="p">.</span><span class="n">json</span><span class="p">()[</span><span class="s">"response"</span><span class="p">][</span><span class="s">"body"</span><span class="p">][</span><span class="s">"totalCount"</span><span class="p">]</span>
+
+        <span class="c1"># 나라장터 입찰공고 DataFrame 생성
+</span>        <span class="n">bid_df</span> <span class="o">=</span> <span class="n">pd</span><span class="p">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">response</span><span class="p">.</span><span class="n">json</span><span class="p">()[</span><span class="s">"response"</span><span class="p">][</span><span class="s">"body"</span><span class="p">][</span><span class="s">"items"</span><span class="p">])</span>
+        
+        <span class="c1"># 읽은 데이터의 개수를 확인해서 데이터의 끝인지 확인
+</span>        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">bid_df</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span> <span class="p">:</span> <span class="k">break</span>
+        
+        <span class="c1"># 목적에 필요한 열을 가져온다. 다운받은 참고문헌을 참조한다.
+</span>        <span class="c1"># 본인의 목적에 따라 수정해야할 부분
+</span>        <span class="n">bid_df</span> <span class="o">=</span> <span class="n">bid_df</span><span class="p">.</span><span class="n">loc</span><span class="p">[:,[</span><span class="s">"bidNtceNm"</span><span class="p">,</span><span class="s">"bidBeginDate"</span><span class="p">,</span><span class="s">"bidBeginTm"</span><span class="p">,</span><span class="s">"bidClseDate"</span><span class="p">,</span><span class="s">"bidClseTm"</span><span class="p">,</span><span class="s">"opengDate"</span><span class="p">,</span><span class="s">"opengTm"</span><span class="p">,</span><span class="s">"asignBdgtAmt"</span><span class="p">,</span><span class="s">"presmptPrce"</span><span class="p">,</span><span class="s">"rgnLmtYn"</span><span class="p">,</span><span class="s">"prtcptPsblRgnNm"</span><span class="p">,</span><span class="s">"bidprcPsblIndstrytyNm"</span><span class="p">]]</span>
+        <span class="n">bid_df</span> <span class="o">=</span> <span class="n">bid_df</span><span class="p">.</span><span class="n">rename</span><span class="p">(</span> <span class="n">columns</span>  <span class="o">=</span> <span class="p">{</span><span class="s">"bidNtceNm"</span><span class="p">:</span><span class="s">"입찰공고명"</span><span class="p">,</span><span class="s">"bidBeginDate"</span><span class="p">:</span><span class="s">"입찰개시일자"</span><span class="p">,</span><span class="s">"bidBeginTm"</span><span class="p">:</span><span class="s">"입찰개시시각"</span><span class="p">,</span><span class="s">"bidClseDate"</span><span class="p">:</span><span class="s">"입찰마감일자"</span><span class="p">,</span><span class="s">"bidClseTm"</span><span class="p">:</span><span class="s">"입찰마감시각"</span><span class="p">,</span><span class="s">"opengDate"</span><span class="p">:</span><span class="s">"개찰일자"</span><span class="p">,</span><span class="s">"opengTm"</span><span class="p">:</span><span class="s">"개찰시각"</span><span class="p">,</span><span class="s">"asignBdgtAmt"</span><span class="p">:</span><span class="s">"배정예산금액(설계금액)"</span><span class="p">,</span><span class="s">"presmptPrce"</span><span class="p">:</span><span class="s">"추정가격"</span><span class="p">,</span><span class="s">"rgnLmtYn"</span><span class="p">:</span><span class="s">"지역제한여부"</span><span class="p">,</span><span class="s">"prtcptPsblRgnNm"</span><span class="p">:</span><span class="s">"참가가능지역명"</span><span class="p">,</span><span class="s">"bidprcPsblIndstrytyNm"</span><span class="p">:</span><span class="s">"투찰가능업종명"</span><span class="p">})</span>
+
+        <span class="c1"># 데이터 프레임 병합
+</span>        <span class="n">Bid_df</span> <span class="o">=</span> <span class="n">pd</span><span class="p">.</span><span class="n">concat</span><span class="p">([</span><span class="n">Bid_df</span><span class="p">,</span><span class="n">bid_df</span><span class="p">],</span><span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+        <span class="n">Bid_df</span><span class="p">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span><span class="n">inplace</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+
+        <span class="c1"># 페이지 증가
+</span>        <span class="n">PageNo</span><span class="o">=</span><span class="nb">str</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">PageNo</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
+    
+    <span class="k">print</span><span class="p">(</span><span class="s">"----------------------------------"</span><span class="p">)</span>
+    <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="n">info_version</span><span class="si">}</span><span class="s"> </span><span class="se">\n</span><span class="si">{</span><span class="nb">str</span><span class="p">(</span><span class="n">bidNtceBgnDt</span><span class="p">)[:</span><span class="mi">4</span><span class="p">]</span><span class="si">}</span><span class="s">년 </span><span class="si">{</span><span class="nb">str</span><span class="p">(</span><span class="n">bidNtceBgnDt</span><span class="p">)[</span><span class="mi">4</span><span class="p">:</span><span class="mi">6</span><span class="p">]</span><span class="si">}</span><span class="s">월 </span><span class="si">{</span><span class="nb">str</span><span class="p">(</span><span class="n">bidNtceBgnDt</span><span class="p">)[</span><span class="mi">6</span><span class="p">:</span><span class="mi">8</span><span class="p">]</span><span class="si">}</span><span class="s">일 - </span><span class="si">{</span><span class="nb">str</span><span class="p">(</span><span class="n">bidNtceEndDt</span><span class="p">)[:</span><span class="mi">4</span><span class="p">]</span><span class="si">}</span><span class="s">년 </span><span class="si">{</span><span class="nb">str</span><span class="p">(</span><span class="n">bidNtceEndDt</span><span class="p">)[</span><span class="mi">4</span><span class="p">:</span><span class="mi">6</span><span class="p">]</span><span class="si">}</span><span class="s">월 </span><span class="si">{</span><span class="nb">str</span><span class="p">(</span><span class="n">bidNtceEndDt</span><span class="p">)[</span><span class="mi">6</span><span class="p">:</span><span class="mi">8</span><span class="p">]</span><span class="si">}</span><span class="s">일"</span><span class="p">)</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">"----------------------------------"</span><span class="p">)</span>
+    
+    <span class="k">return</span> <span class="n">Bid_df</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">ServiceKey</span> <span class="o">=</span><span class="s">""</span> <span class="c1"># 공공데이터포털에서 받은 인코딩 인증키
+</span>
+<span class="n">bidNtceBgnDt</span> <span class="o">=</span> <span class="mi">202207260000</span> <span class="c1"># 검색하고자하는 입찰공고일시범위 시작 'YYYYMMDDHHMM' (입찰공고일시 범위는 1개월 로 제한)
+</span><span class="n">bidNtceEndDt</span> <span class="o">=</span> <span class="mi">202207312359</span> <span class="c1"># 검색하고자하는 입찰공고일시범위 종료 'YYYYMMDDHHMM' (입찰공고일시 범위는 1개월 로 제한)
+</span><span class="n">info_version</span> <span class="o">=</span> <span class="s">"입찰"</span>
+
+<span class="n">Bid_df</span> <span class="o">=</span> <span class="n">Get_Bid_df</span><span class="p">(</span><span class="n">info_version</span><span class="p">,</span> <span class="n">bidNtceBgnDt</span><span class="p">,</span> <span class="n">bidNtceEndDt</span><span class="p">,</span> <span class="n">ServiceKey</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>----------------------------------
+입찰 
+2022년 07월 26일 - 2022년 07월 31일
+----------------------------------
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">display</span><span class="p">(</span><span class="n">Bid_df</span><span class="p">.</span><span class="n">head</span><span class="p">())</span>
+</code></pre></div></div>
+
+<div style="width:100%"> 
+ <details> 
+<summary><span style="color:blue">출력 보기(클릭)</span></summary>
+
+
+
+<div class="my-table">
+<style scoped="">
+    .my-table {
+        width:100%;
+        height:300px;
+    }
+    .dataframe {
+        height: 95%;
+    }
+        .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>입찰공고명</th>
+      <th>입찰개시일자</th>
+      <th>입찰개시시각</th>
+      <th>입찰마감일자</th>
+      <th>입찰마감시각</th>
+      <th>개찰일자</th>
+      <th>개찰시각</th>
+      <th>배정예산금액(설계금액)</th>
+      <th>추정가격</th>
+      <th>지역제한여부</th>
+      <th>참가가능지역명</th>
+      <th>투찰가능업종명</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>탄자니아 무힘빌리국립병원 음롱간질라 캠퍼스 운영관리 컨설팅 2차사업 중간평가</td>
+      <td>2022-07-28</td>
+      <td>15:00</td>
+      <td>2022-07-29</td>
+      <td>17:00</td>
+      <td>2022-07-29</td>
+      <td>17:01</td>
+      <td>70711550</td>
+      <td>63636364</td>
+      <td>N</td>
+      <td></td>
+      <td>학술.연구용역</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>이집트-삶, 죽음, 부활의 이야기 출품 전시품 반출운송 용역</td>
+      <td>2022-07-29</td>
+      <td>15:00</td>
+      <td>2022-08-01</td>
+      <td>16:00</td>
+      <td>2022-08-01</td>
+      <td>16:01</td>
+      <td>246056180</td>
+      <td>221818182</td>
+      <td>N</td>
+      <td></td>
+      <td>화물자동차운송사업(일반),국제물류주선업</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>축산업·기업 분석 및 전망 연구용역</td>
+      <td>2022-07-28</td>
+      <td>10:00</td>
+      <td>2022-07-28</td>
+      <td>12:00</td>
+      <td>2022-07-28</td>
+      <td>13:00</td>
+      <td>234976760</td>
+      <td>211818182</td>
+      <td>N</td>
+      <td></td>
+      <td>투자자문업(5-1-1)</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2022학년도 학생 및 교원 특수건강검진 소액수의 견적 재공고</td>
+      <td>2022-07-26</td>
+      <td>15:00</td>
+      <td>2022-07-29</td>
+      <td>10:00</td>
+      <td>2022-07-29</td>
+      <td>11:00</td>
+      <td>51534450</td>
+      <td>46849500</td>
+      <td>Y</td>
+      <td>전라북도</td>
+      <td>특수건강진단기관</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>산업전환 협약기업 진단 및 훈련 로드맵 개발 용역</td>
+      <td>2022-07-26</td>
+      <td>08:00</td>
+      <td>2022-08-08</td>
+      <td>14:00</td>
+      <td>2022-08-08</td>
+      <td>15:00</td>
+      <td>90000000</td>
+      <td>81818182</td>
+      <td>N</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</details>
+</div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Savefile_path</span> <span class="o">=</span> <span class="s">"./2022-07-25-나라장터-수집(1)-OPENAPI"</span> <span class="c1"># 저장할 파일 경로
+</span><span class="n">Bid_df</span><span class="p">.</span><span class="n">to_csv</span><span class="p">(</span><span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="n">Savefile_path</span><span class="si">}</span><span class="s">/</span><span class="si">{</span><span class="n">info_version</span><span class="si">}</span><span class="s">_</span><span class="si">{</span><span class="n">bidNtceBgnDt</span><span class="si">}</span><span class="s">_</span><span class="si">{</span><span class="n">bidNtceEndDt</span><span class="si">}</span><span class="s">.csv"</span><span class="p">,</span><span class="n">index</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s">"cp949"</span><span class="p">)</span> <span class="c1"># 인덱스를 없애고 저장한다.
+</span></code></pre></div></div>
+
+<p><img src="https://user-images.githubusercontent.com/46266247/181279690-3d7e4c0a-8c10-47df-a4ce-126951cf5bec.png" width="100%" /></p>
+
+<hr />
+<h1 id="입찰공고-확인_v2">입찰공고 확인_v2</h1>
+
+<ul>
+  <li>
+    <p>매일 본인의 목적에 필요한 공고만 확인하기 위한 필터</p>
+  </li>
+  <li>
+    <p>투찰가능업종명, 기간, 참가가능지역, 지역제한 을 기준으로 적용</p>
+    <ul>
+      <li>투찰가능업종명 : “산림사업법인(숲가꾸기 및 병해충방제)”, “산림사업법인(도시숲등 조성, 관리)”</li>
+      <li>참가가능지역명 : “고흥”, “보성”, “장흥”, “여수”, “순천”</li>
+      <li>기간 : 프로그램 실행시에 입찰 가능한 공고가 있을 시, 크롤링 기간은 29일 전까지의 기간으로 한다.</li>
+    </ul>
+  </li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 기간 : 프로그램 실행시에 입찰 가능한 공고가 있을 시,YYYYMMDDHHMM 형식으로 변환
+</span><span class="n">bidNtceBgnDt</span> <span class="o">=</span> <span class="n">datetime</span><span class="p">.</span><span class="n">datetime</span><span class="p">.</span><span class="n">now</span><span class="p">()</span><span class="o">-</span><span class="n">datetime</span><span class="p">.</span><span class="n">timedelta</span><span class="p">(</span><span class="n">days</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
+<span class="n">bidNtceBgnDt</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">bidNtceBgnDt</span><span class="p">.</span><span class="n">strftime</span><span class="p">(</span><span class="s">"%Y%m%d%H%M"</span><span class="p">))</span> <span class="c1"># 검색하고자하는 입찰공고일시범위 시작 'YYYYMMDDHHMM' (입찰공고일시 범위는 1개월 로 제한)
+</span><span class="n">bidNtceEndDt</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">datetime</span><span class="p">.</span><span class="n">datetime</span><span class="p">.</span><span class="n">now</span><span class="p">().</span><span class="n">strftime</span><span class="p">(</span><span class="s">"%Y%m%d%H%M"</span><span class="p">))</span> <span class="c1"># 검색하고자하는 입찰공고일시범위 종료 'YYYYMMDDHHMM' (입찰공고일시 범위는 1개월 로 제한)
+</span>
+<span class="n">info_version</span> <span class="o">=</span> <span class="s">"입찰"</span>
+
+<span class="n">Bid_df</span> <span class="o">=</span> <span class="n">Get_Bid_df</span><span class="p">(</span><span class="n">info_version</span><span class="p">,</span> <span class="n">bidNtceBgnDt</span><span class="p">,</span> <span class="n">bidNtceEndDt</span><span class="p">,</span> <span class="n">ServiceKey</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>----------------------------------
+입찰 
+2022년 08월 01일 - 2022년 08월 04일
+----------------------------------
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 투찰가능업종명 : ["산림사업법인(숲가꾸기 및 병해충방제)", "산림사업법인(도시숲등 조성, 관리)"]
+</span><span class="n">Active_name</span> <span class="o">=</span> <span class="p">[</span><span class="s">"산림사업법인(숲가꾸기 및 병해충방제)"</span><span class="p">,</span> <span class="s">"산림사업법인(도시숲등 조성, 관리)"</span><span class="p">]</span>
+
+<span class="c1"># 참가가능지역명 : 고흥
+</span><span class="n">Active_local</span> <span class="o">=</span> <span class="p">[</span><span class="s">"고흥""순천"</span><span class="p">]</span>
+
+<span class="k">def</span> <span class="nf">Filter</span><span class="p">(</span><span class="n">Bid_df</span><span class="p">,</span> <span class="n">bidNtceEndDt</span><span class="p">,</span> <span class="n">Active_name</span><span class="p">,</span> <span class="n">Active_local</span><span class="p">):</span>
+    <span class="c1"># Active_date_list : 입찰 마감 기간에 프로그램 실행 후에 있는지 확인 "입찰마감일자", "입찰마감시각"
+</span>    <span class="n">Active_date_list</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">Bid_df</span><span class="p">)):</span>
+        <span class="n">Active_date_list</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">Bid_df</span><span class="p">.</span><span class="n">loc</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="s">"입찰마감일자"</span><span class="p">].</span><span class="n">replace</span><span class="p">(</span><span class="s">"-"</span><span class="p">,</span><span class="s">""</span><span class="p">)</span><span class="o">+</span><span class="n">Bid_df</span><span class="p">.</span><span class="n">loc</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="s">"입찰마감시각"</span><span class="p">].</span><span class="n">replace</span><span class="p">(</span><span class="s">":"</span><span class="p">,</span><span class="s">""</span><span class="p">)</span><span class="o">&gt;=</span><span class="nb">str</span><span class="p">(</span><span class="n">bidNtceEndDt</span><span class="p">))</span>
+    <span class="n">Bid_df</span> <span class="o">=</span> <span class="n">Bid_df</span><span class="p">.</span><span class="n">loc</span><span class="p">[</span><span class="n">Active_date_list</span><span class="p">,:].</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+            
+    <span class="c1"># Active_name : 투찰가능업종명 제한
+</span>    <span class="n">Active_name_list</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="k">for</span> <span class="n">Check_name</span> <span class="ow">in</span> <span class="n">Bid_df</span><span class="p">[</span><span class="s">"투찰가능업종명"</span><span class="p">]:</span>
+        <span class="k">if</span> <span class="p">[</span><span class="mi">1</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">Active_name</span> <span class="k">if</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">Check_name</span><span class="p">]:</span>
+            <span class="n">Active_name_list</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="bp">True</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">Active_name_list</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="bp">False</span><span class="p">)</span>
+    <span class="n">Bid_df</span> <span class="o">=</span> <span class="n">Bid_df</span><span class="p">.</span><span class="n">loc</span><span class="p">[</span><span class="n">Active_name_list</span><span class="p">,:].</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>        
+    
+    
+    <span class="c1"># Active_local : 참가가능지역명
+</span>    <span class="n">Active_local_list</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="k">for</span> <span class="n">Check_local</span> <span class="ow">in</span> <span class="n">Bid_df</span><span class="p">[</span><span class="s">"참가가능지역명"</span><span class="p">]:</span>
+        <span class="k">if</span> <span class="p">[</span><span class="mi">1</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">Active_local</span> <span class="k">if</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">Check_local</span><span class="p">]:</span>
+            <span class="n">Active_local_list</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="bp">True</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">Active_local_list</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="bp">False</span><span class="p">)</span>
+    <span class="n">Bid_df</span> <span class="o">=</span> <span class="n">Bid_df</span><span class="p">.</span><span class="n">loc</span><span class="p">[</span><span class="n">Active_local_list</span><span class="p">,:].</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+    
+    <span class="k">return</span> <span class="n">Bid_df</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 투찰가능업종명 : ["산림사업법인(숲가꾸기 및 병해충방제)", "산림사업법인(도시숲등 조성, 관리)"]
+</span><span class="n">Active_name</span> <span class="o">=</span> <span class="p">[</span><span class="s">"산림사업법인(숲가꾸기 및 병해충방제)"</span><span class="p">,</span> <span class="s">"산림사업법인(도시숲등 조성, 관리)"</span><span class="p">,</span> <span class="s">"제작자"</span><span class="p">]</span>
+
+<span class="c1"># 참가가능지역명 : 고흥
+</span><span class="n">Active_local</span> <span class="o">=</span> <span class="p">[</span><span class="s">"고흥"</span><span class="p">,</span> <span class="s">"보성"</span><span class="p">,</span> <span class="s">"장흥"</span><span class="p">,</span> <span class="s">"여수"</span><span class="p">,</span> <span class="s">"순천"</span><span class="p">]</span>
+
+<span class="k">def</span> <span class="nf">Filter</span><span class="p">(</span><span class="n">Bid_df</span><span class="p">,</span> <span class="n">bidNtceEndDt</span><span class="p">,</span> <span class="n">Active_name</span><span class="p">,</span> <span class="n">Active_local</span><span class="p">):</span>
+    <span class="c1"># Active_date_list : 입찰 마감 기간에 프로그램 실행 후에 있는지 확인 "입찰마감일자", "입찰마감시각"
+</span>    <span class="n">Active_date_list</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">Bid_df</span><span class="p">)):</span>
+        <span class="n">Active_date_list</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">Bid_df</span><span class="p">.</span><span class="n">loc</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="s">"입찰마감일자"</span><span class="p">].</span><span class="n">replace</span><span class="p">(</span><span class="s">"-"</span><span class="p">,</span><span class="s">""</span><span class="p">)</span><span class="o">+</span><span class="n">Bid_df</span><span class="p">.</span><span class="n">loc</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="s">"입찰마감시각"</span><span class="p">].</span><span class="n">replace</span><span class="p">(</span><span class="s">":"</span><span class="p">,</span><span class="s">""</span><span class="p">)</span><span class="o">&gt;=</span><span class="nb">str</span><span class="p">(</span><span class="n">bidNtceEndDt</span><span class="p">))</span>
+    <span class="n">Bid_df</span> <span class="o">=</span> <span class="n">Bid_df</span><span class="p">.</span><span class="n">loc</span><span class="p">[</span><span class="n">Active_date_list</span><span class="p">,:].</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+            
+    <span class="c1"># Active_name : 투찰가능업종명 제한
+</span>    <span class="n">Active_name_list</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="k">for</span> <span class="n">Check_name</span> <span class="ow">in</span> <span class="n">Bid_df</span><span class="p">[</span><span class="s">"투찰가능업종명"</span><span class="p">]:</span>
+        <span class="k">if</span> <span class="p">[</span><span class="mi">1</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">Active_name</span> <span class="k">if</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">Check_name</span><span class="p">]:</span>
+            <span class="n">Active_name_list</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="bp">True</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">Active_name_list</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="bp">False</span><span class="p">)</span>
+    <span class="n">Bid_df</span> <span class="o">=</span> <span class="n">Bid_df</span><span class="p">.</span><span class="n">loc</span><span class="p">[</span><span class="n">Active_name_list</span><span class="p">,:].</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>        
+    
+    
+    <span class="c1"># Active_local : 참가가능지역명
+</span>    <span class="n">Active_local_list</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="k">for</span> <span class="n">Check_local</span> <span class="ow">in</span> <span class="n">Bid_df</span><span class="p">[</span><span class="s">"참가가능지역명"</span><span class="p">]:</span>
+        <span class="k">if</span> <span class="p">[</span><span class="mi">1</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">Active_local</span> <span class="k">if</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">Check_local</span><span class="p">]:</span>
+            <span class="n">Active_local_list</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="bp">True</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">Active_local_list</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="bp">False</span><span class="p">)</span>
+    <span class="n">Bid_df</span> <span class="o">=</span> <span class="n">Bid_df</span><span class="p">.</span><span class="n">loc</span><span class="p">[</span><span class="n">Active_local_list</span><span class="p">,:].</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+    
+    <span class="k">return</span> <span class="n">Bid_df</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Bid_df_filter</span> <span class="o">=</span> <span class="n">Filter</span><span class="p">(</span><span class="n">Bid_df</span><span class="p">,</span> <span class="n">bidNtceEndDt</span><span class="p">,</span> <span class="n">Active_name</span><span class="p">,</span> <span class="n">Active_local</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Bid_df_filter</span>
+</code></pre></div></div>
+
+<p><img src="https://user-images.githubusercontent.com/46266247/182018755-2a49395e-5f1c-4ea0-b3d7-9f5813f5ab9d.png" width="100%" /></p>
+
+                </div>
+            </section>
+
+            <!-- Email subscribe form at the bottom of the page -->
+            
+            <!--
+            
+                <section class="subscribe-form">
+                    <h3 class="subscribe-form-title">Subscribe to Engineer Chanp5660</h3>
+                    <p>Get the latest posts delivered right to your inbox</p>
+                    <span id="searchform" method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  />
+    <input class="location" type="hidden" name="location"  />
+    <input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" onkeyup="myFunc()" 
+               id="searchtext" type="text" name="searchtext"  
+               placeholder="Search..." />
+    </div>
+    <script type="text/javascript">
+        function myFunc() {
+            if(event.keyCode == 13) {
+                var url = encodeURIComponent($("#searchtext").val());
+                location.href = "/search.html?query=" + url;
+            }
+        }
+    </script>
+</span>
+                </section>
+            
+            -->
+
+            <footer class="post-full-footer">
+                <!-- Everything inside the #author tags pulls data from the author -->
+                <!-- #author-->
+                
+                    
+                        <section class="author-card">
+                            
+                                <img class="author-profile-image" src="/assets/built/images/favicon.jpg" alt="chanp5660" />
+                            
+                            <section class="author-card-content">
+                                <h4 class="author-card-name"><a href="/author/chanp5660">chanp5660</a></h4>
+                                
+                                    <p><a href="https://chanp5660.github.io">Engineer Chanp5660</a></p>
+                                
+                            </section>
+                        </section>
+                        <div class="post-full-footer-right">
+                            <a class="author-card-button" href="/author/chanp5660">Read More</a>
+                        </div>
+                    
+                
+                <!-- /author  -->
+            </footer>
+
+            <!-- If you use Disqus comments, just uncomment this block.
+            The only thing you need to change is "test-apkdzgmqhj" - which
+            should be replaced with your own Disqus site-id. -->
+            
+
+        </article>
+
+    </div>
+</main>
+
+<!-- Links to Previous/Next posts -->
+<aside class="read-next outer">
+    <div class="inner">
+        <div class="read-next-feed">
+            
+                
+                
+                
+                
+                    <article class="read-next-card"
+                        
+                            style="background-image: url(/assets/built/images/blog-cover.jpg)"
+                        
+                    >
+                        <header class="read-next-card-header">
+                            <small class="read-next-card-header-sitetitle">&mdash; Engineer Chanp5660 &mdash;</small>
+                            
+                                <h3 class="read-next-card-header-title"><a href="/tag/project/">Project</a></h3>
+                            
+                        </header>
+                        <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
+</div>
+                        <div class="read-next-card-content">
+                            <ul>
+                                
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80">신용카드 사기 탐지</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/%EC%A3%BC%EC%8B%9D%ED%88%AC%EC%9E%90%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8">주식 투자</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/%EC%A3%BC%EC%8B%9D%ED%88%AC%EC%9E%90%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%EC%A7%91">주식투자-수집</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                            </ul>
+                        </div>
+                        <footer class="read-next-card-footer">
+                            <a href="/tag/project/">
+                                
+                                    See all 7 posts  →
+                                
+                            </a>
+                        </footer>
+                    </article>
+                
+            
+
+            <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+
+    <article class="post-card post-template">
+        
+            <a class="post-card-image-link" href="/%EB%82%A0%EC%A7%9C%EC%8B%9C%EA%B0%84_datetime">
+                <div class="post-card-image" style="background-image: url(/assets/built/images/날짜시간.png)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/%EB%82%A0%EC%A7%9C%EC%8B%9C%EA%B0%84_datetime">
+                <header class="post-card-header">
+                    
+                        
+                            
+                               <span class="post-card-tags">Programing</span>
+                            
+                        
+                            
+                                <span class="post-card-tags">Python</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">날짜시간(datetime)</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p>날짜 &amp; 시간 데이터 (datatime)
+
+</p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/built/images/favicon.jpg" alt="chanp5660" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/chanp5660/">chanp5660</a>
+                        </span>
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      1 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+            
+
+            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+
+    <article class="post-card post-template">
+        
+            <a class="post-card-image-link" href="/TIL-%EB%94%A5%EB%9F%AC%EB%8B%9D">
+                <div class="post-card-image" style="background-image: url(/assets/built/images/딥러닝이란.png)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/TIL-%EB%94%A5%EB%9F%AC%EB%8B%9D">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags">Exitem</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">HTML-딥러닝이란?</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p>딥러닝이란?
+
+</p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/built/images/favicon.jpg" alt="chanp5660" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/chanp5660/">chanp5660</a>
+                        </span>
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      1 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+            
+
+        </div>
+    </div>
+</aside>
+
+<!-- Floating header which appears on-scroll, included from includes/floating-header.hbs -->
+<div class="floating-header">
+    <div class="floating-header-logo">
+        <a href="/">
+            
+            <span>Engineer Chanp5660</span>
+        </a>
+    </div>
+    <span class="floating-header-divider">&mdash;</span>
+    <div class="floating-header-title">나라장터(API)</div>
+    <div class="floating-header-share">
+        <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
+</svg>
+</div>
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=%EB%82%98%EB%9D%BC%EC%9E%A5%ED%84%B0%28API%29&amp;url=https://chanp5660.github.io/%EB%82%98%EB%9D%BC%EC%9E%A5%ED%84%B0(API)"
+            onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+
+        </a>
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://chanp5660.github.io/%EB%82%98%EB%9D%BC%EC%9E%A5%ED%84%B0(API)"
+            onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+
+        </a>
+    </div>
+    <progress class="progress" value="0">
+        <div class="progress-container">
+            <span class="progress-bar"></span>
+        </div>
+    </progress>
+</div>
+
+
+<!-- /post -->
+
+<!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs -->
+
+
+        <!-- Previous/next page links - displayed on every page -->
+        
+
+        <!-- The footer at the very bottom of the screen -->
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="http://localhost:4000/">Engineer Chanp5660</a> &copy; 2023</section>
+                <section class="poweredby"><a href="https://github.com/chanp5660">Github Pages chanp5660</a></section>
+                <nav class="site-footer-nav">
+                    <a href="/">Latest Posts</a>
+                    
+                    
+                    <a href="mailto:chanp5660@naver.com" target="_blank" rel="noopener">chanp5660@naver.com</a>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- The big email subscribe modal content -->
+    
+        <div id="subscribe" class="subscribe-overlay">
+            <a class="subscribe-overlay-close" href="#"></a>
+            <div class="subscribe-overlay-content">
+                
+                <h1 class="subscribe-overlay-title">Search Engineer Chanp5660</h1>
+                <p class="subscribe-overlay-description">
+                lunr.js를 이용한 posts 검색 </p>
+                <span id="searchform" method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  />
+    <input class="location" type="hidden" name="location"  />
+    <input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" onkeyup="myFunc()" 
+               id="searchtext" type="text" name="searchtext"  
+               placeholder="Search..." />
+    </div>
+    <script type="text/javascript">
+        function myFunc() {
+            if(event.keyCode == 13) {
+                var url = encodeURIComponent($("#searchtext").val());
+                location.href = "/search.html?query=" + url;
+            }
+        }
+    </script>
+</span>
+            </div>
+        </div>
+    
+
+    <!-- highlight.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
+    <script>$(document).ready(function() {
+      $('pre code').each(function(i, block) {
+        hljs.highlightBlock(block);
+      });
+    });</script>
+
+    <!-- jQuery + Fitvids, which makes all video embeds responsive -->
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="https://demo.ghost.io/assets/js/jquery.fitvids.js?v=724281a32e"></script>
+
+
+    <!-- Paginator increased to "infinit" in _config.yml -->
+    <!-- if paginator.posts  -->
+    <!-- <script>
+        var maxPages = parseInt('');
+    </script>
+    <script src="/assets/js/infinitescroll.js"></script> -->
+    <!-- /endif -->
+
+    
+
+
+    <!-- Add Google Analytics  -->
+    <!-- Google Analytics Tracking code -->
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'G-CDN6YMS5DJ', 'auto');
+  ga('send', 'pageview');
+
+ </script>
+
+
+    <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
+    
+        <script>
+
+// NOTE: Scroll performance is poor in Safari
+// - this appears to be due to the events firing much more slowly in Safari.
+//   Dropping the scroll event and using only a raf loop results in smoother
+//   scrolling but continuous processing even when not scrolling
+$(document).ready(function () {
+    // Start fitVids
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+    // End fitVids
+
+    var progressBar = document.querySelector('progress');
+    var header = document.querySelector('.floating-header');
+    var title = document.querySelector('.post-full-title');
+
+    var lastScrollY = window.scrollY;
+    var lastWindowHeight = window.innerHeight;
+    var lastDocumentHeight = $(document).height();
+    var ticking = false;
+
+    function onScroll() {
+        lastScrollY = window.scrollY;
+        requestTick();
+    }
+
+    function onResize() {
+        lastWindowHeight = window.innerHeight;
+        lastDocumentHeight = $(document).height();
+        requestTick();
+    }
+
+    function requestTick() {
+        if (!ticking) {
+            requestAnimationFrame(update);
+        }
+        ticking = true;
+    }
+
+    function update() {
+        var trigger = title.getBoundingClientRect().top + window.scrollY;
+        var triggerOffset = title.offsetHeight + 35;
+        var progressMax = lastDocumentHeight - lastWindowHeight;
+
+        // show/hide floating header
+        if (lastScrollY >= trigger + triggerOffset) {
+            header.classList.add('floating-active');
+        } else {
+            header.classList.remove('floating-active');
+        }
+
+        progressBar.setAttribute('max', progressMax);
+        progressBar.setAttribute('value', lastScrollY);
+
+        ticking = false;
+    }
+
+    window.addEventListener('scroll', onScroll, {passive: true});
+    window.addEventListener('resize', onResize, false);
+
+    update();
+});
+</script>
+
+    
+
+    <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
+    <!-- ghost_foot -->
+
+</body>
+</html>
