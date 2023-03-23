@@ -1,4 +1,92 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-21T13:23:07+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">TIL-PyMySQL</title><link href="http://localhost:4000/TIL-PyMySQL" rel="alternate" type="text/html" title="TIL-PyMySQL" /><published>2023-03-15T00:00:00+09:00</published><updated>2023-03-15T00:00:00+09:00</updated><id>http://localhost:4000/TIL-PyMySQL</id><content type="html" xml:base="http://localhost:4000/TIL-PyMySQL">&lt;h1 id=&quot;pymysql&quot;&gt;PyMySQL&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-23T23:42:05+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">TIL-청년주거정책</title><link href="http://localhost:4000/TIL-%EC%B2%AD%EB%85%84%EC%A3%BC%EA%B1%B0%EC%A0%95%EC%B1%85" rel="alternate" type="text/html" title="TIL-청년주거정책" /><published>2023-03-23T00:00:00+09:00</published><updated>2023-03-23T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%EC%B2%AD%EB%85%84%EC%A3%BC%EA%B1%B0%EC%A0%95%EC%B1%85</id><content type="html" xml:base="http://localhost:4000/TIL-%EC%B2%AD%EB%85%84%EC%A3%BC%EA%B1%B0%EC%A0%95%EC%B1%85">&lt;h1 id=&quot;청년주거정책&quot;&gt;청년주거정책&lt;/h1&gt;
+
+&lt;p&gt;서울살이를 하기 위한 청년주거정책에 대한 정보를 알아보고 정리합니다.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[월세 10만원에 괜찮은 집에 사는 방법&lt;/td&gt;
+      &lt;td&gt;청년주거정책 총정리](https://www.youtube.com/watch?v=5CfSOrQfsUk)라는 유투브에서 간단한 설명을 참고할 수 있습니다.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;중소기업-청년대출-대출-대상-탈락&quot;&gt;중소기업 청년대출 (대출 대상 탈락)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://nhuf.molit.go.kr/FP/FP05/FP0502/FP05020603.jsp&quot;&gt;주택도시기금&lt;/a&gt; 링크를 참고할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/227223984-a813d91e-32e0-41e7-8cdc-3e59b90e3353.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;lh-청년-전세-임대신청-가능&quot;&gt;LH 청년 전세 임대(신청 가능)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.lh.or.kr/contents/cont.do?sCode=user&amp;amp;mId=234&amp;amp;mPid=231&quot;&gt;LH&lt;/a&gt; 링크를 참고할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/227223635-7c59281d-b067-469d-900b-0f9105ca2d60.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/227226341-0563ef55-d2fe-40db-a962-957f50a2b8ba.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/227226716-bea27d92-3afc-4dc7-8a9a-fc3bc2f07de0.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;기숙사형-청년주택신청가능&quot;&gt;기숙사형 청년주택(신청가능)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.lh.or.kr/contents/cont.do?sCode=user&amp;amp;mPid=231&amp;amp;mId=601&amp;amp;menuYear=&quot;&gt;LH&lt;/a&gt; 링크를 참고할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/227227506-cddc2240-24e7-4a50-88a0-87eeb449f5a0.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/227227714-920d99d1-4ceb-4ae3-a23e-06e28c28f94f.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;청년매입임대주택신청가능&quot;&gt;청년매입임대주택(신청가능)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.lh.or.kr/contents/cont.do?sCode=user&amp;amp;mPid=231&amp;amp;mId=233&amp;amp;menuYear=&quot;&gt;LH&lt;/a&gt; 링크를 참고할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/227228638-1fe46dfc-f089-4be0-80c9-971c945441cc.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/227228872-c05d0661-deac-40f0-a83b-4d0d9a530d45.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;행복주택신청가능&quot;&gt;행복주택(신청가능)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.lh.or.kr/contents/cont.do?sCode=user&amp;amp;mPid=231&amp;amp;mId=232&amp;amp;menuYear=&quot;&gt;LH&lt;/a&gt; 링크를 참고할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/227229584-2310c8a0-8520-477d-88a1-17e104fea73c.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/227229758-931d523c-4a11-42f1-b1b7-96356a6aeb02.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;역세권-청년주택신청가능&quot;&gt;역세권 청년주택(신청가능)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;상세 내용은 &lt;a href=&quot;https://soco.seoul.go.kr/youth/main/contents.do?menuNo=400012&quot;&gt;역세권 청년주택&lt;/a&gt; 링크에서 살펴볼 수 있습니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://soco.seoul.go.kr/youth/pgm/home/yohome/supportYouth1.do?menuNo=400039&quot;&gt;자격 확인 링크&lt;/a&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/227233599-e5fa44d6-bf0d-4ed6-8183-769a28d3287d.png&quot; width=&quot;90%&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://soco.seoul.go.kr/youth/main/contents.do?menuNo=400014&quot;&gt;역세권 청년주택 공급현황 및 계획 링크&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/227234554-b015dbe7-0d68-4ac1-af6e-10b6d9b289ec.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;사회적주택신청가능&quot;&gt;사회적주택(신청가능)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://soco.seoul.go.kr/soHouse/main/contents.do?menuNo=300007&quot;&gt;사회주택플랫폼 링크&lt;/a&gt;에서 자세한 내용을 살펴볼 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/227235890-982233c7-158b-48b1-94f8-2d2e4a2e7a38.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://soco.seoul.go.kr/soHouse/pgm/home/sohome/list.do?menuNo=300006&quot;&gt;내집찾기 링크&lt;/a&gt;에서 바로 신청해볼 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/227238721-22e6f20d-d02a-4b1e-818d-07fe595123b9.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">청년주거정책</summary></entry><entry><title type="html">TIL-PyMySQL</title><link href="http://localhost:4000/TIL-PyMySQL" rel="alternate" type="text/html" title="TIL-PyMySQL" /><published>2023-03-15T00:00:00+09:00</published><updated>2023-03-15T00:00:00+09:00</updated><id>http://localhost:4000/TIL-PyMySQL</id><content type="html" xml:base="http://localhost:4000/TIL-PyMySQL">&lt;h1 id=&quot;pymysql&quot;&gt;PyMySQL&lt;/h1&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;MySQL을 Python에서 사용하면서 데이터를 저장 및 관리를 하면 DB를 다룹니다.&lt;/p&gt;
@@ -515,67 +603,7 @@ finally:
       &lt;li&gt;예를 들어, 문서의 길이가 짧은 경우, 불용어가 전체적인 문맥을 파악하는 데 필수적일 수 있습니다.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">Stop Words 불용어</summary></entry><entry><title type="html">TIL-KMeanscluster</title><link href="http://localhost:4000/TIL-KMeans%EA%B5%B0%EC%A7%91%ED%99%94" rel="alternate" type="text/html" title="TIL-KMeanscluster" /><published>2023-03-12T00:00:00+09:00</published><updated>2023-03-12T00:00:00+09:00</updated><id>http://localhost:4000/TIL-KMeans%EA%B5%B0%EC%A7%91%ED%99%94</id><content type="html" xml:base="http://localhost:4000/TIL-KMeans%EA%B5%B0%EC%A7%91%ED%99%94">&lt;h1 id=&quot;k-means-군집화&quot;&gt;K-Means 군집화&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;비지도 학습&lt;/strong&gt;의 일종으로, 데이터를 &lt;strong&gt;여러 그룹&lt;/strong&gt;으로 나누는 &lt;strong&gt;클러스터링&lt;/strong&gt; 알고리즘 중 하나입니다.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;데이터 마이닝&lt;/strong&gt;과 &lt;strong&gt;패턴 인식 분야&lt;/strong&gt;에서 널리 사용되는 클러스터링 알고리즘 중 하나입니다.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;데이터 분석, 이미지 처리, 자연어 처리, 이상치 탐지&lt;/strong&gt; 등 다양한 분야에서 사용됩니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;알고리즘&quot;&gt;알고리즘&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;입력된 데이터의 &lt;strong&gt;유사성&lt;/strong&gt;을 기반으로 클러스터를 생성합니다.&lt;/li&gt;
-  &lt;li&gt;데이터들 간의 유사성은 &lt;strong&gt;거리 측정&lt;/strong&gt;을 통해 계산됩니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;단계&quot;&gt;단계&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;초기화 단계
-    &lt;ul&gt;
-      &lt;li&gt;클러스터링을 위해 데이터 포인트들 중에서 K개의 초기 중심점(centroid)을 랜덤하게 선택합니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;할당 단계
-    &lt;ul&gt;
-      &lt;li&gt;각 데이터 포인트들은 초기 중심점 중에서 가장 가까운 중심점에 할당됩니다.&lt;/li&gt;
-      &lt;li&gt;이렇게 할당된 데이터 포인트들을 하나의 클러스터로 묶습니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;갱신 단계
-    &lt;ul&gt;
-      &lt;li&gt;클러스터링된 데이터 포인트들의 중심점을 새롭게 계산합니다.&lt;/li&gt;
-      &lt;li&gt;이렇게 갱신된 중심점들을 바탕으로 새로운 클러스터를 생성합니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;반복
-    &lt;ul&gt;
-      &lt;li&gt;2,3단계를 반복 수행하면서 클러스터링을 수행합니다.&lt;/li&gt;
-      &lt;li&gt;더 이상 중심점이 변하지 않을 때까지 수행됩니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;주의&quot;&gt;주의&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;데이터를 K개의 클러스터로 묶는데, K는 사용자가 지정해야 합니다.
-    &lt;ul&gt;
-      &lt;li&gt;적절한 K값을 찾기 위해서는 여러 가지 방법을 사용할 수 있습니다.&lt;/li&gt;
-      &lt;li&gt;예를 들어, elbow method를 사용하여 적정한 K값을 찾을 수 있습니다.
-        &lt;ul&gt;
-          &lt;li&gt;elbow method 는 클러스터 수 K를 변화시켰을 때, 왜곡 점수가 급격하게 줄어드는 지점을 찾는 방법입니다.&lt;/li&gt;
-          &lt;li&gt;한계는 데이터가 고르게 분포되어 있다면 왜곡 점수의 변화가 작으므로 이용하기 힘들다.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;간단하고 빠른 알고리즘을 널리 사용되고 있습니다.
-    &lt;ul&gt;
-      &lt;li&gt;그러나 클러스터링 결과는 초기 중심점의 랜덤한 선택에 따라 영향을 받을 수 있기 때문에, 여러 번 실행하여 결과를 평균내는 등의 방법으로 결과를 개선할 수 있습니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">K-Means 군집화</summary></entry><entry><title type="html">주식 투자</title><link href="http://localhost:4000/%EC%A3%BC%EC%8B%9D%ED%88%AC%EC%9E%90%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8" rel="alternate" type="text/html" title="주식 투자" /><published>2023-03-12T00:00:00+09:00</published><updated>2023-03-12T00:00:00+09:00</updated><id>http://localhost:4000/%EC%A3%BC%EC%8B%9D%ED%88%AC%EC%9E%90%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8</id><content type="html" xml:base="http://localhost:4000/%EC%A3%BC%EC%8B%9D%ED%88%AC%EC%9E%90%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8">&lt;h1 id=&quot;주식-투자-정보-프로젝트&quot;&gt;주식 투자 정보 프로젝트&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">Stop Words 불용어</summary></entry><entry><title type="html">주식 투자</title><link href="http://localhost:4000/%EC%A3%BC%EC%8B%9D%ED%88%AC%EC%9E%90%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8" rel="alternate" type="text/html" title="주식 투자" /><published>2023-03-12T00:00:00+09:00</published><updated>2023-03-12T00:00:00+09:00</updated><id>http://localhost:4000/%EC%A3%BC%EC%8B%9D%ED%88%AC%EC%9E%90%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8</id><content type="html" xml:base="http://localhost:4000/%EC%A3%BC%EC%8B%9D%ED%88%AC%EC%9E%90%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8">&lt;h1 id=&quot;주식-투자-정보-프로젝트&quot;&gt;주식 투자 정보 프로젝트&lt;/h1&gt;
 
 &lt;h2 id=&quot;목표&quot;&gt;목표&lt;/h2&gt;
 
