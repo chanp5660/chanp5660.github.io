@@ -1,4 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-23T23:45:28+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">TIL-청년주거정책</title><link href="http://localhost:4000/TIL-%EC%B2%AD%EB%85%84%EC%A3%BC%EA%B1%B0%EC%A0%95%EC%B1%85" rel="alternate" type="text/html" title="TIL-청년주거정책" /><published>2023-03-23T00:00:00+09:00</published><updated>2023-03-23T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%EC%B2%AD%EB%85%84%EC%A3%BC%EA%B1%B0%EC%A0%95%EC%B1%85</id><content type="html" xml:base="http://localhost:4000/TIL-%EC%B2%AD%EB%85%84%EC%A3%BC%EA%B1%B0%EC%A0%95%EC%B1%85">&lt;h1 id=&quot;청년주거정책&quot;&gt;청년주거정책&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-28T00:46:33+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">TIL-t-SNE</title><link href="http://localhost:4000/TIL-t-SNE" rel="alternate" type="text/html" title="TIL-t-SNE" /><published>2023-03-28T00:00:00+09:00</published><updated>2023-03-28T00:00:00+09:00</updated><id>http://localhost:4000/TIL-t-SNE</id><content type="html" xml:base="http://localhost:4000/TIL-t-SNE">&lt;h1 id=&quot;t-sne&quot;&gt;t-SNE&lt;/h1&gt;
+
+&lt;p&gt;t-Distributed Stochastic Neighbor Embedding의 약자&lt;/p&gt;
+
+&lt;h2 id=&quot;정의&quot;&gt;정의&lt;/h2&gt;
+
+&lt;p&gt;비선형 알고리즘 중 하나로 고차원 데이터를 저차원으로 임베딩하는 데 사용됩니다. 데이터 포인트 간의 유사도를 보존하면서 고차원 공간에서의 상대적인 거리를 저차원 공간으로 보존하는 방법을 찾습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;사용&quot;&gt;사용&lt;/h2&gt;
+
+&lt;p&gt;시각화, 분류, 군집화 등 다양한 데이터 분석 작업에 유용하게 사용됩니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;작동-방식&quot;&gt;작동 방식&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;고차원 공간에서 각 데이터 포인트들 간의 거리를 계산합니다.
+    &lt;ul&gt;
+      &lt;li&gt;이 거리는 유사도 매트릭스(Similarity Matrix)라는 이름으로도 불립니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;저차원 공간에서 각 데이터 포인트들 간의 거리를 계산합니다.
+    &lt;ul&gt;
+      &lt;li&gt;처음에는 무작위 선택한 값들로 시작하며, 이후에는 경사 하강법(Gradient Descent)을 사용하여 계속 업데이트 됩니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;고차원 공간과 저차원 공간에서 각각의 데이터 포인트들을 비교합니다.
+    &lt;ul&gt;
+      &lt;li&gt;두 공간에서의 데이터 포인트 간 거리 차이(고차원 공간에서의 거리 - 저차원 공간에서의 거리)를 최소화하는 방향으로 임베딩을 조정합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;이전 단계를 반복하여 저차원 공간에서의 임베딩을 최적화합니다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;특징&quot;&gt;특징&lt;/h2&gt;
+
+&lt;p&gt;고차원 데이터를 저차원으로 표현하면서도 이상치(outlier)나 군집(cluster)을 잘 보존하는 특징이 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;한계&quot;&gt;한계&lt;/h2&gt;
+
+&lt;p&gt;계산 복잡도가 높기 때문에 대규모 데이터셋에는 적용하기 어려울 수 있습니다.&lt;br /&gt;
+초기값에 따라 결과가 달라질 수 있으며, 최적의 임베딩을 찾기 위해서는 여러번 실험해야 할 수 있습니다.&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">t-SNE</summary></entry><entry><title type="html">TIL-청년주거정책</title><link href="http://localhost:4000/TIL-%EC%B2%AD%EB%85%84%EC%A3%BC%EA%B1%B0%EC%A0%95%EC%B1%85" rel="alternate" type="text/html" title="TIL-청년주거정책" /><published>2023-03-23T00:00:00+09:00</published><updated>2023-03-23T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%EC%B2%AD%EB%85%84%EC%A3%BC%EA%B1%B0%EC%A0%95%EC%B1%85</id><content type="html" xml:base="http://localhost:4000/TIL-%EC%B2%AD%EB%85%84%EC%A3%BC%EA%B1%B0%EC%A0%95%EC%B1%85">&lt;h1 id=&quot;청년주거정책&quot;&gt;청년주거정책&lt;/h1&gt;
 
 &lt;p&gt;서울살이를 하기 위한 청년주거정책에 대한 정보를 알아보고 정리합니다.&lt;/p&gt;
 
@@ -1152,83 +1192,4 @@ finally:
 &lt;p&gt;궁금&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;변동성(절대값으로 크기만 비교)과 거래량의 관계는?&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="project" /><summary type="html">주식투자 프로젝트 수집</summary></entry><entry><title type="html">순서정하기</title><link href="http://localhost:4000/%EC%88%9C%EC%84%9C%EC%A0%95%ED%95%98%EA%B8%B0" rel="alternate" type="text/html" title="순서정하기" /><published>2023-03-12T00:00:00+09:00</published><updated>2023-03-12T00:00:00+09:00</updated><id>http://localhost:4000/%EC%88%9C%EC%84%9C%EC%A0%95%ED%95%98%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/%EC%88%9C%EC%84%9C%EC%A0%95%ED%95%98%EA%B8%B0">&lt;h1 id=&quot;순서정하기&quot;&gt;순서정하기&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://school.programmers.co.kr/learn/courses/30/lessons/120835&quot;&gt;프로그래머스-진료순서정하기&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;주어진 배열에서 큰 숫자의 위치에 순서대로 숫자를 채워 출력합니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;조건&quot;&gt;조건&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;중복된 원소 없음&lt;/li&gt;
-  &lt;li&gt;1 &amp;lt;= 입력된 배열의 길이 &amp;lt;= 10&lt;/li&gt;
-  &lt;li&gt;1 &amp;lt;= 입력된 배열의 원소 &amp;lt;= 100&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;예시&quot;&gt;예시&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;input&lt;/th&gt;
-      &lt;th&gt;result&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;[3, 76, 24]&lt;/td&gt;
-      &lt;td&gt;[3, 1, 2]&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;[1, 2, 3, 4, 5, 6, 7]&lt;/td&gt;
-      &lt;td&gt;[7, 6, 5, 4, 3, 2, 1]&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;[30, 10, 23, 6, 100]&lt;/td&gt;
-      &lt;td&gt;[2, 4, 3, 5, 1]&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;기존-작성-코드-및-문제&quot;&gt;기존 작성 코드 및 문제&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;아래의 코드는 sorted에서 이미 O(NlogN) 정도의 시간이 든다고 가정합니다.&lt;/li&gt;
-  &lt;li&gt;그리고 반복문에서 index를 계속 부르게 되므로 계속 부르게 되므로 O(N^2)의 시간복잡도를 가지게 됩니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-{python}&quot;&gt;def solution(emergency):
-    sorted_list = sorted(emergency,reverse=True)
-    answer = [sorted_list.index(x)+1 for x in emergency]
-    return answer
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&quot;문제-해결-코드-및-설명&quot;&gt;문제 해결 코드 및 설명&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;이를 시간복잡도의 효율을 생각해서 dict을 사용하여 코드를 작성해봅니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-{python}&quot;&gt;def solution(emergency):
-    dict_sorted = {e : i+1 for i,e in enumerate(sorted(emergency)[::-1])}
-    return [dict_sorted[x] for x in emergency]
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;오름차순으로 정렬하는 것은 sorted 함수에 [::-1]로 표현해주었다.
-    &lt;ul&gt;
-      &lt;li&gt;sorted에 reverse = True 매개변수를 집어 넣어주어도 됩니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;{} 반복문을 List Comprehension 방법으로 표현합니다.
-    &lt;ul&gt;
-      &lt;li&gt;enumerate 를 사용하여 인덱스를 순서로 표현합니다.&lt;/li&gt;
-      &lt;li&gt;값을 순서대로 넣어주는 방법으로 진행합니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;만들어진 dict 에서 배열 원소를 입력받아 해당 인덱스를 출력합니다.&lt;/li&gt;
-  &lt;li&gt;이와 같은 방법으로 기존의 시간 복잡도보다 훨씬 줄어든 O(NlogN)의 모습으로 실행할 수 있습니다.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="programing" /><category term="python" /><summary type="html">순서정하기</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="project" /><summary type="html">주식투자 프로젝트 수집</summary></entry></feed>
