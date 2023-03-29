@@ -182,6 +182,15 @@ into the {body} of the default.hbs template -->
 <script>
     window.store = {
     
+    "ed-9e-99-ec-a0-95-eb-a0-ac": {
+        "title": "힙정렬",
+            "author": "chanp5660",
+            "category": "",
+            "content": "힙정렬 Heap Sorting  힙정렬(Heap Sort)은 완전 이진트리 구조를 이용한 정렬 알고리즘으로서, 선택정렬(Selection Sort)의 개선된 버전으로 볼 수 있습니다. 힙정렬은 정렬되지 않은 리스트를 최대 힙(Max Heap)이나 최소 힙(Min Heap)으로 만든 다음, 루트 노드를 추출하여 정렬된 리스트에 추가하는 방식으로 동작합니다.일반적인 단계      주어진 리스트를 최대 힙 또는 최소 힙으로 만듭니다. 이를 위해서는 주어진 리스트를 이진 트리로 변환하고, 트리의 루트부터 시작하여 각 노드가 자식 노드보다 크거나 작은지 확인하면서 재배치합니다.이러한 과정을 “힙 만들기(heapify)”라고 합니다.        최대 힙 또는 최소 힙에서 루트 노드를 추출하고, 정렬된 리스트에 추가합니다.추출한 노드를 리스트의 맨 뒤에 배치합니다.        남은 노드들에 대해 1과 2의 과정을 반복합니다.        리스트가 완전히 정렬될 때까지 1~3의 과정을 반복합니다.  시간 복잡도이 알고리즘의 시간 복잡도는 O(nlogn)으로, 안정적인 정렬 알고리즘 중에서는 빠른 편에 속합니다.최악의 경우에도 O(nlogn)을 보장하기 때문에 대부분의 경우에 효율적인 정렬 알고리즘으로 사용됩니다.힙정렬 1 (최대 힙으로 만들기)def heap_sort(arr):    n = len(arr)        # 최대 힙으로 만들기    for i in range(n // 2 - 1, -1, -1):        heapify(arr, n , i)            # 추출과 정렬    for i in range(n - 1, 0 , -1):        arr[0], arr[i] = arr[i], arr[0]        heapify(arr, i, 0)            return arr        def heap_sort(arr):    n = len(arr)        # 최대 힙으로 만들기    for i in range(n // 2 - 1, -1, -1):        heapify(arr, n , i)    print(\"최대 힙으로 만들기\")        print(arr)    # 추출과 정렬    for i in range(n - 1, 0, -1):        arr[0], arr[i] = arr[i], arr[0]        heapify(arr, i, 0)            return arrdef heapify(arr, n, i):    largest = i # 루트 노드    left = 2 * i + 1  # 왼쪽 자식 노드    right = 2 * i + 2  # 오른쪽 자식 노드        # 왼쪽 자식과 비교    if left &lt; n and arr[left] &gt; arr[largest]:        largest = left            # 오른쪽 자식과 비교    if right &lt; n and arr[right] &gt; arr[largest]:        largest = right            # 루트 노드 변경    if largest != i:        arr[i], arr[largest] = arr[largest], arr[i]        heapify(arr,n,largest)arr = [ 3, 4 , 1, 2, 5]arr_sort = heap_sort(arr)최대 힙으로 만들기[5, 4, 1, 2, 3]print(\"추출 및 정렬\")print(arr_sort)추출 및 정렬[1, 2, 3, 4, 5]",
+        "url": "/%ED%9E%99%EC%A0%95%EB%A0%AC"
+    }
+    ,
+    
     "til-ed-95-9c-ea-b5-ad-ed-95-b4-ec-96-91-eb-b8-8c-eb-a0-88-ec-9d-b8-ec-8a-a4-ed-86-a0-eb-b0-8d": {
         "title": "TIL-한국해양브레인스토밍",
             "author": "chanp5660",
@@ -524,6 +533,15 @@ into the {body} of the default.hbs template -->
     }
     ,
     
+    "eb-b3-91-ed-95-a9-ec-a0-95-eb-a0-ac": {
+        "title": "병합정렬",
+            "author": "chanp5660",
+            "category": "",
+            "content": "병합정렬 Merge Sorting  분할 정복(divide and conquer) 알고리즘의 대표적인 예시로, 배열을 두 부분으로 분할한 뒤, 각각을 재귀적으로 정렬하여, 합쳐서 정렬된 배열을 생성하는 방법병합정렬 1def merge_sort(arr):    # 병합하기 위한 함수로 입력된 배열은 오름차순으로 정렬된다.        # 병합의 최소 조건은 배열의 크기가 2 이상    if len(arr) &lt;= 1:        return arr        # 분할 지점 설정     mid = len(arr) // 2    left = arr[:mid]    right = arr[mid:]        # 재귀적으로 분할된 구역을 나눈다.    left = merge_sort(left)    right = merge_sort(right)        return merge( left, right )def merge(left, right):    # 정렬하기 위한 함수로 입련된 두 개의 배열을 순차적으로 비교해가면 하나의 새로운 오름차순으로 정렬된 배열을 만든다.        result = [] # 정렬된 숫자    i = 0 # left index    j = 0 # right index        # 한쪽씩 비교하면서 작은 수를 result에 집어 넣는다.    while i &lt; len(left) and j &lt; len(right) :        if left[i] &lt;= right[j] :            result.append(left[i])            i += 1        else:            result.append(right[j])            j+=1        # 남은 것이 있으면 result에 추가 정리    result += left[i:]    result += right[j:]        return result  알고리즘          merge_sort(arr) : 입력된 배열을 오름차순으로 정렬하여 출력하는 함수                  병합정렬의 최소 조건은 배열의 크기가 2개 이상인 기준          왼쪽과 오른쪽 부분으로 분할하여 정렬하는데 일반적으로 전체 길이의 절반의 인덱스를 기준                    merge(left, right) : 입력된 두 개의 배열을 순차적으로 비교해가면 하나의 새로운 배열을 만든다. 기준으로 오름차순으로 만든다.                  왼쪽, 오른쪽 각각의 인덱스를 만들어줘 순차적으로 비교할 수 있도록 함          한쪽의 배열의 정렬이 끝나면 나머지 한쪽의 배열을 최종 배열 오른쪽에 추가하여 완성                    ",
+        "url": "/%EB%B3%91%ED%95%A9%EC%A0%95%EB%A0%AC"
+    }
+    ,
+    
     "ec-84-a0-ed-98-95-ed-9a-8c-ea-b7-80": {
         "title": "선형회귀",
             "author": "chanp5660",
@@ -533,12 +551,21 @@ into the {body} of the default.hbs template -->
     }
     ,
     
-    "eb-b3-91-ed-95-a9-ec-a0-95-eb-a0-ac": {
-        "title": "병합정렬",
+    "ec-a0-95-eb-a0-ac": {
+        "title": "정렬",
             "author": "chanp5660",
             "category": "",
-            "content": "병합정렬 Merge Sorting  기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것  분할 정복(divide and conquer) 알고리즘의 대표적인 예시로, 배열을 두 부분으로 분할한 뒤, 각각을 재귀적으로 정렬하여, 합쳐서 정렬된 배열을 생성하는 방법병합정렬 1def merge_sort(arr):    # 병합하기 위한 함수로 입력된 배열은 오름차순으로 정렬된다.        # 병합의 최소 조건은 배열의 크기가 2 이상    if len(arr) &lt;= 1:        return arr        # 분할 지점 설정     mid = len(arr) // 2    left = arr[:mid]    right = arr[mid:]        # 재귀적으로 분할된 구역을 나눈다.    left = merge_sort(left)    right = merge_sort(right)        return merge( left, right )def merge(left, right):    # 정렬하기 위한 함수로 입련된 두 개의 배열을 순차적으로 비교해가면 하나의 새로운 오름차순으로 정렬된 배열을 만든다.        result = [] # 정렬된 숫자    i = 0 # left index    j = 0 # right index        # 한쪽씩 비교하면서 작은 수를 result에 집어 넣는다.    while i &lt; len(left) and j &lt; len(right) :        if left[i] &lt;= right[j] :            result.append(left[i])            i += 1        else:            result.append(right[j])            j+=1        # 남은 것이 있으면 result에 추가 정리    result += left[i:]    result += right[j:]        return result  알고리즘          merge_sort(arr) : 입력된 배열을 오름차순으로 정렬하여 출력하는 함수                  병합정렬의 최소 조건은 배열의 크기가 2개 이상인 기준          왼쪽과 오른쪽 부분으로 분할하여 정렬하는데 일반적으로 전체 길이의 절반의 인덱스를 기준                    merge(left, right) : 입력된 두 개의 배열을 순차적으로 비교해가면 하나의 새로운 배열을 만든다. 기준으로 오름차순으로 만든다.                  왼쪽, 오른쪽 각각의 인덱스를 만들어줘 순차적으로 비교할 수 있도록 함          한쪽의 배열의 정렬이 끝나면 나머지 한쪽의 배열을 최종 배열 오른쪽에 추가하여 완성                    ",
-        "url": "/%EB%B3%91%ED%95%A9%EC%A0%95%EB%A0%AC"
+            "content": "정렬 Sorting  기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것  컴퓨터 분야에서 중요시되는 문제 가운데 하나로 어떤 데이터들이 주어졌을 때 이를 정해진 순서대로 나열하는 문제로 실제 컴퓨터 분야에서 사용하는 데이터의 경우 숫자의 순서나 어휘의 순서대로 정렬한 다음 사용해야 되는 경우가 거의 항상 발생하는데 이걸 얼마나 효과적으로 해결할 수 있느냐가 정렬 문제의 핵심개념 이해하기 좋은 영상  어? 재밌네? 정렬 알고리즘, 한방에 이해하기!python 예제python 예제 목차          선택정렬      삽입정렬      버블정렬      병합정렬      힙정렬      퀵정렬      기수정렬      ",
+        "url": "/%EC%A0%95%EB%A0%AC"
+    }
+    ,
+    
+    "ec-84-a0-ed-83-9d-ec-a0-95-eb-a0-ac": {
+        "title": "선택정렬",
+            "author": "chanp5660",
+            "category": "",
+            "content": "선택정렬 selection Sorting  주어진 리스트에서 최소값을 찾아 맨 앞에 위치한 원소와 자리를 바꾸고, 그 다음으로 작은 값을 찾아 그 다음 위치에 위치시키는 과정을 반복하여 정렬하는 알고리즘선택정렬 1def selection_sort(arr):    n = len(arr)    # 배열의 모든 요소를 순회    for i in range(n-1):        # 최소값의 인덱스를 찾음        min_idx = i        for j in range(i+1,n):            if arr[min_idx] &gt; arr[j] :                min_idx = j        # 현재 인덱스와 최소값의 인덱스를 swap        arr[min_idx], arr[i] = arr[i], arr[min_idx]    return arrarr = [64, 25, 12, 22, 11]selection_sort(arr)[11, 12, 22, 25, 64]  알고리즘          첫번째 반복문                  모든 요소를 비교하기 위해 n-1번 비교한다.          n번째는 n-1에서 정해지기 때문에 할 필요가 없다.                    두번째 반복문                  i 이상의 인덱스에서 최소값을 가진 인덱스(min_idx)를 구한다.          범위는 i ~ n까지의 원소 중에 비교하면 된다.                          두번째 반복문 시작전 min_idx = 1 는 범위의 첫번째 인자를 최소값으로 초기화 시키고 시작한다는 의미이다.                                          Swap                  두번째 반복문이 끝나면 범위 안에 최소값인 인덱스를 알 수 있다.          범위의 첫번째 인자 i와 최소값의 인덱스 min_index를 서로 교체한다.                      시간복잡도          O(n^2)      버블정렬보다는 빠르다. ( 교환이 많이 일어나야하는 자료에 유리 )      리스트가 길수록 오래걸린다.      ",
+        "url": "/%EC%84%A0%ED%83%9D%EC%A0%95%EB%A0%AC"
     }
     ,
     
@@ -575,24 +602,6 @@ into the {body} of the default.hbs template -->
             "category": "",
             "content": "최빈값 구하기프로그래머스-최빈값구하기  주어진 배열에서 빈도수가 가장 많은 원소를 출력, 최빈값이 2개 이상일 경우는 -1 출력def solution(array):    # 딕셔너리를 사용해서 각 원소마다 빈도수를 구해준다.    # set을 사용하여 나타낼수도 있지만 효율적으로는 O(N)만 사용하는게 가장 좋을 것 같았다.    tmp_dict = {}    for i in array:        tmp_dict[i] = tmp_dict.get(i,0) + 1        # 원소와 빈도수를 각각의 리스트에 저장해준다.    keys_list = list(tmp_dict.keys())    values_list = list(tmp_dict.values())        # 최빈값이 여러개인지 확인 후 출력    if values_list.count(max(values_list)) &gt; 1: return -1    else : return keys_list[values_list.index(max(values_list))]a = [1,1,2,2,2,3,3,4]b = [1,1,2,2]print(solution(a))print(solution(b))2-1  알고리즘          리스트를 딕셔너리형태로 변형하여 각 원소마다 빈도수를 구한다.                  dict get을 사용하여 초기화 및 빈도 증가                    최대 빈도수가 겹치는 숫자가 있는지 확인하고 출력한다.                  count와 max를 사용해서 최대빈도수의 개수를 확인          index를 사용하여 최대빈도수의 원소를 확인                      추가 정보          풀이 추천 1등의 풀이에서는 내장함수 set을 사용하여 원소값의 중복을 제거하고 해당 원소를 하나씩 없애보면서 최빈값만 남을 때까지 반복한다. 최빈값의 중복이 있다면 마지막에 같이 없어져 array의 길이가 0이 되므로 -1을 출력해준다.      def solution(array):  while len(array) != 0:      for i, a in enumerate(set(array)):          array.remove(a)      if i == 0: return a  return -1      ",
         "url": "/%EC%B5%9C%EB%B9%88%EA%B0%92%EA%B5%AC%ED%95%98%EA%B8%B0"
-    }
-    ,
-    
-    "ec-a0-95-eb-a0-ac": {
-        "title": "정렬",
-            "author": "chanp5660",
-            "category": "",
-            "content": "정렬 Sorting  기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것  컴퓨터 분야에서 중요시되는 문제 가운데 하나로 어떤 데이터들이 주어졌을 때 이를 정해진 순서대로 나열하는 문제로 실제 컴퓨터 분야에서 사용하는 데이터의 경우 숫자의 순서나 어휘의 순서대로 정렬한 다음 사용해야 되는 경우가 거의 항상 발생하는데 이걸 얼마나 효과적으로 해결할 수 있느냐가 정렬 문제의 핵심개념 이해하기 좋은 영상  어? 재밌네? 정렬 알고리즘, 한방에 이해하기!python 예제python 예제 목차          선택정렬      삽입정렬      버블정렬      병합정렬      힙정렬      퀵정렬      기수정렬      ",
-        "url": "/%EC%A0%95%EB%A0%AC"
-    }
-    ,
-    
-    "ec-84-a0-ed-83-9d-ec-a0-95-eb-a0-ac": {
-        "title": "선택정렬",
-            "author": "chanp5660",
-            "category": "",
-            "content": "선택정렬 selection Sorting  기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것  주어진 리스트에서 최소값을 찾아 맨 앞에 위치한 원소와 자리를 바꾸고, 그 다음으로 작은 값을 찾아 그 다음 위치에 위치시키는 과정을 반복하여 정렬하는 알고리즘선택정렬 1def selection_sort(arr):    n = len(arr)    # 배열의 모든 요소를 순회    for i in range(n-1):        # 최소값의 인덱스를 찾음        min_idx = i        for j in range(i+1,n):            if arr[min_idx] &gt; arr[j] :                min_idx = j        # 현재 인덱스와 최소값의 인덱스를 swap        arr[min_idx], arr[i] = arr[i], arr[min_idx]    return arrarr = [64, 25, 12, 22, 11]selection_sort(arr)[11, 12, 22, 25, 64]  알고리즘          첫번째 반복문                  모든 요소를 비교하기 위해 n-1번 비교한다.          n번째는 n-1에서 정해지기 때문에 할 필요가 없다.                    두번째 반복문                  i 이상의 인덱스에서 최소값을 가진 인덱스(min_idx)를 구한다.          범위는 i ~ n까지의 원소 중에 비교하면 된다.                          두번째 반복문 시작전 min_idx = 1 는 범위의 첫번째 인자를 최소값으로 초기화 시키고 시작한다는 의미이다.                                          Swap                  두번째 반복문이 끝나면 범위 안에 최소값인 인덱스를 알 수 있다.          범위의 첫번째 인자 i와 최소값의 인덱스 min_index를 서로 교체한다.                      시간복잡도          O(n^2)      버블정렬보다는 빠르다. ( 교환이 많이 일어나야하는 자료에 유리 )      리스트가 길수록 오래걸린다.      ",
-        "url": "/%EC%84%A0%ED%83%9D%EC%A0%95%EB%A0%AC"
     }
     ,
     
