@@ -680,7 +680,7 @@ Frauds 0.17% of the dataset
 <span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
 </code></pre></div></div>
 
-<p><img src="%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_9_0.png" alt="png" /></p>
+<p><img src="https://user-images.githubusercontent.com/46266247/229357738-fab387ba-9b67-43f0-bd83-39789ad10e47.png" width="50%" /></p>
 
 <p><strong>Distributions:</strong> By seeing the distributions we can have an idea how skewed are these features, we can also see further distributions of the other features. There are techniques that can help the distributions be less skewed which will be implemented in this notebook in the future.</p>
 
@@ -703,7 +703,7 @@ Frauds 0.17% of the dataset
 <span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
 </code></pre></div></div>
 
-<p><img src="%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_11_0.png" alt="png" /></p>
+<p><img src="https://user-images.githubusercontent.com/46266247/229357740-cf4e4fbb-69b5-4fe1-aebf-0490cec1efab.png" width="80%" /></p>
 
 <h2> Scaling and Distributing </h2>
 <p><a id="distributing"></a>
@@ -1263,10 +1263,6 @@ Now that we have our dataframe correctly balanced, we can go further with our <b
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="s">"Distribution of the Classes in the subsample dataset"</span><span class="p">)</span>
 <span class="k">print</span><span class="p">(</span><span class="n">new_df</span><span class="p">[</span><span class="s">'Class'</span><span class="p">].</span><span class="n">value_counts</span><span class="p">()</span><span class="o">/</span><span class="nb">len</span><span class="p">(</span><span class="n">new_df</span><span class="p">))</span>
-
-<span class="n">sns</span><span class="p">.</span><span class="n">countplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">new_df</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s">"Class"</span><span class="p">,</span> <span class="n">palette</span><span class="o">=</span><span class="n">colors</span><span class="p">)</span>
-<span class="n">plt</span><span class="p">.</span><span class="n">title</span><span class="p">(</span><span class="s">"Equally Distributed Classed"</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
-<span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
 </code></pre></div></div>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Distribution of the Classes in the subsample dataset
@@ -1275,7 +1271,12 @@ Now that we have our dataframe correctly balanced, we can go further with our <b
 Name: Class, dtype: float64
 </code></pre></div></div>
 
-<p><img src="%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_20_1.png" alt="png" /></p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">sns</span><span class="p">.</span><span class="n">countplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">new_df</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s">"Class"</span><span class="p">,</span> <span class="n">palette</span><span class="o">=</span><span class="n">colors</span><span class="p">)</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">title</span><span class="p">(</span><span class="s">"Equally Distributed Classed"</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p><img src="https://user-images.githubusercontent.com/46266247/229357741-6b3ea131-0d26-4088-bf25-5b071902a5f3.png" width="50%" /></p>
 
 <h3> Correlation Matrices </h3>
 <p>Correlation matrices are the essence of understanding our data. We want to know if there are features that influence heavily in whether a specific transaction is a fraud. However, it is important that we use the correct dataframe (subsample)  in order for us to see which features have a high positive or negative correlation with regards to fraud transactions.</p>
@@ -1321,7 +1322,7 @@ Name: Class, dtype: float64
 <span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
 </code></pre></div></div>
 
-<p><img src="%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_22_0.png" alt="png" /></p>
+<p><img src="https://user-images.githubusercontent.com/46266247/229357742-c9f3c001-ff83-4813-9cd1-4403da33dca7.png" width="90%" /></p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">f</span><span class="p">,</span> <span class="n">axes</span> <span class="o">=</span> <span class="n">plt</span><span class="p">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">ncols</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span><span class="mi">4</span><span class="p">))</span>
 
@@ -1342,7 +1343,7 @@ Name: Class, dtype: float64
 <span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
 </code></pre></div></div>
 
-<p><img src="%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_23_0.png" alt="png" /></p>
+<p><img src="https://user-images.githubusercontent.com/46266247/229357744-9585f4ed-adb6-48e9-b26c-83d1ad6c6f38.png" width="100%" /></p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">f</span><span class="p">,</span> <span class="n">axes</span> <span class="o">=</span> <span class="n">plt</span><span class="p">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">ncols</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span><span class="mi">4</span><span class="p">))</span>
 
@@ -1363,7 +1364,7 @@ Name: Class, dtype: float64
 
 </code></pre></div></div>
 
-<p><img src="%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_24_0.png" alt="png" /></p>
+<p><img src="https://user-images.githubusercontent.com/46266247/229357745-375b625d-848f-4416-a546-41b82486e2e1.png" width="100%" /></p>
 
 <h2 id="anomaly-detection">Anomaly Detection:</h2>
 <p><a id="anomaly"></a>
