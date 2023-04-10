@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/python/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-04-08T13:43:53+09:00</updated>
+  <updated>2023-04-10T20:16:45+09:00</updated>
   <id>http://localhost:4000/tag/python/feed.xml</id>
 
   
@@ -30,6 +30,116 @@
   
   
 
+  
+    <entry>
+      <title type="html">퀵정렬</title>
+      <link href="http://localhost:4000/%ED%80%B5%EC%A0%95%EB%A0%AC" rel="alternate" type="text/html" title="퀵정렬" />
+      <published>2023-04-07T00:00:00+09:00</published>
+      <updated>2023-04-07T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%ED%80%B5%EC%A0%95%EB%A0%AC</id>
+      <content type="html" xml:base="http://localhost:4000/%ED%80%B5%EC%A0%95%EB%A0%AC">&lt;h1 id=&quot;퀵-정렬-quick-sort&quot;&gt;퀵 정렬 (Quick Sort)&lt;/h1&gt;
+
+&lt;p&gt;퀵 정렬은 분할 정복(Divide and Conquer) 방식을 이용하여 정렬하는 알고리즘 중 하나입니다.&lt;/p&gt;
+
+&lt;p&gt;참조 블로그 &lt;a href=&quot;https://gmlwjd9405.github.io/2018/05/10/algorithm-quick-sort.html&quot;&gt;퀵 정렬&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;알고리즘 간단한 설명&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;퀵 정렬의 기본 아이디어는 &lt;strong&gt;‘피벗(Pivot)’&lt;/strong&gt; 이라 불리는 하나의 원소를 기준으로 리스트를 두 개의 부분 리스트로 나누고, 각 부분 리스트를 재귀적으로 퀵 정렬을 적용하는 것입니다. 
+일반적으로 피벗은 리스트의 가자 왼쪽이나 오른쪽, 또는 중간에 위치한 값을 사용합니다.&lt;/p&gt;
+
+&lt;p&gt;퀵 정렬의 과정은 다음과 같습니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;알고리즘 상세 설명&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;리스트에서 하나의 원소를 선택하여 피벗으로 지정합니다.
+피벗을 기준으로 리스트를 두 개의 부분 리스트로 나눕니다. 
+이 때, 피벗보다 작은 원소는 왼쪽 리스트에, 큰 원소는 오른쪽 리스트에 위치하도록 합니다.
+해당 부분 리스트는 이미 정렬되었다고 가정합니다.
+각 재귀 호출이 종료되면, 피벗을 기준으로 분할된 부분 리스트들을 병합하여 전체 리스트를 정렬합니다.
+퀵 정렬은 일반적으로 평균적인 경우에는 매우 빠른 속도로 정렬을 수행합니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;시간복잡도&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;퀵 정렬의 시간 복잡도는 평균적으로 O(n log n)이며, 최악의 경우 O(n^2)이 됩니다. 이는 리스트를 분할할 때 피벗을 어떻게 선택하느냐에 따라 달라지는데, 만약 리스트가 이미 정렬되어 있는 경우나 역순으로 정렬되어 있는 경우 등에서 피벗을 가장 작거나 큰 값으로 선택하는 경우 최악의 시간 복잡도가 발생합니다. 이러한 경우를 방지하기 위해서는 피벗을 무작위로 선택하거나, 리스트의 중간값 등을 피벗으로 선택하는 방법이 있습니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;주의 및 단점&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;최악의 경우(이미 정렬되어 있는 리스트 등)에는 불균형한 분할이 발생하여 시간 복잡도가 O(n^2)까지 증가할 수 있습니다. 
+이러한 문제를 방지하기 위해, 피벗을 선택하는 방법을 무작위로 선택하거나, 중간값 등을 선택하여 최악의 경우 시간 복잡도를 개선할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;퀵 정렬은 분할 정복 알고리즘 중 하나이므로, 재귀적인 호출을 사용합니다. 이 때, 스택 자료구조를 사용하여 재귀 호출을 구현하면 스택 오버플로우 문제가 발생합니다. 따라서, 퀵 정렬은 최악의 경우 O(n)의 추가적인 메모리를 사용하여 스택 오버플로우 문제를 해결합니다. 이를 위해, 퀵 정렬의 재귀 호출을 수행할 때는 작은 부분 리스트부터 처리하여 메모리 사용량을 최소화하며, 재귀 호출 대신 반복문을 사용하는 방법도 있습니다.&lt;/p&gt;
+
+&lt;p&gt;퀵 정렬은 일반적으로 빠른 속도로 정렬을 수행하며, 안정성을 보장하지는 않습니다.&lt;br /&gt;
+따라서, 리스트의 크기가 작은 경우나 정렬된 리스트를 정렬할 때는 다른 알고리즘을 사용하는 것이 더욱 효율적일 수 있습니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;quick_sort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# 리스트 길이가 1 이하인 경우, 즉 이미 정렬되어 있는 경우나 원소가 하나인 경우는 정렬이 된 것으로 간주하고 바로 반환합니다.
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;
+    
+    &lt;span class=&quot;c1&quot;&gt;# 그렇지 않는 경우, 피벗으로 리스트의 중간값을 선택합니다.    
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;pivot&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+    
+    &lt;span class=&quot;c1&quot;&gt;# 이를 기준으로 리스트를 세 부분으로 분할합니다.
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;equal&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[],[],[]&lt;/span&gt;
+    
+    &lt;span class=&quot;c1&quot;&gt;# 분할된 각 부분 리스트에 대해서 재귀적으로 퀵 정렬을 수행합니다.
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pivot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;elif&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pivot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;equal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+            
+    &lt;span class=&quot;c1&quot;&gt;# 분할된 부분 리스트들을 병합하여 정렬된 리스트를 반환합니다.
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;quick_sort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;equal&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;quick_sort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;27&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;22&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;15&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;quick_sort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[1, 2, 3, 4, 5, 6, 15, 22, 27]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="programing" />
+      
+        <category term="python" />
+      
+
+      
+        <summary type="html">퀵 정렬 (Quick Sort)</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">힙정렬</title>
@@ -374,6 +484,121 @@
 
       
         <summary type="html">날짜 &amp;amp; 시간 데이터 (Pandas)</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">순서정하기</title>
+      <link href="http://localhost:4000/%EC%88%9C%EC%84%9C%EC%A0%95%ED%95%98%EA%B8%B0" rel="alternate" type="text/html" title="순서정하기" />
+      <published>2023-03-12T00:00:00+09:00</published>
+      <updated>2023-03-12T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%EC%88%9C%EC%84%9C%EC%A0%95%ED%95%98%EA%B8%B0</id>
+      <content type="html" xml:base="http://localhost:4000/%EC%88%9C%EC%84%9C%EC%A0%95%ED%95%98%EA%B8%B0">&lt;h1 id=&quot;순서정하기&quot;&gt;순서정하기&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://school.programmers.co.kr/learn/courses/30/lessons/120835&quot;&gt;프로그래머스-진료순서정하기&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;주어진 배열에서 큰 숫자의 위치에 순서대로 숫자를 채워 출력합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;조건&quot;&gt;조건&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;중복된 원소 없음&lt;/li&gt;
+  &lt;li&gt;1 &amp;lt;= 입력된 배열의 길이 &amp;lt;= 10&lt;/li&gt;
+  &lt;li&gt;1 &amp;lt;= 입력된 배열의 원소 &amp;lt;= 100&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;예시&quot;&gt;예시&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;input&lt;/th&gt;
+      &lt;th&gt;result&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[3, 76, 24]&lt;/td&gt;
+      &lt;td&gt;[3, 1, 2]&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[1, 2, 3, 4, 5, 6, 7]&lt;/td&gt;
+      &lt;td&gt;[7, 6, 5, 4, 3, 2, 1]&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[30, 10, 23, 6, 100]&lt;/td&gt;
+      &lt;td&gt;[2, 4, 3, 5, 1]&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;기존-작성-코드-및-문제&quot;&gt;기존 작성 코드 및 문제&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;아래의 코드는 sorted에서 이미 O(NlogN) 정도의 시간이 든다고 가정합니다.&lt;/li&gt;
+  &lt;li&gt;그리고 반복문에서 index를 계속 부르게 되므로 계속 부르게 되므로 O(N^2)의 시간복잡도를 가지게 됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{python}&quot;&gt;def solution(emergency):
+    sorted_list = sorted(emergency,reverse=True)
+    answer = [sorted_list.index(x)+1 for x in emergency]
+    return answer
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;문제-해결-코드-및-설명&quot;&gt;문제 해결 코드 및 설명&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;이를 시간복잡도의 효율을 생각해서 dict을 사용하여 코드를 작성해봅니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{python}&quot;&gt;def solution(emergency):
+    dict_sorted = {e : i+1 for i,e in enumerate(sorted(emergency)[::-1])}
+    return [dict_sorted[x] for x in emergency]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;오름차순으로 정렬하는 것은 sorted 함수에 [::-1]로 표현해주었다.
+    &lt;ul&gt;
+      &lt;li&gt;sorted에 reverse = True 매개변수를 집어 넣어주어도 됩니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;{} 반복문을 List Comprehension 방법으로 표현합니다.
+    &lt;ul&gt;
+      &lt;li&gt;enumerate 를 사용하여 인덱스를 순서로 표현합니다.&lt;/li&gt;
+      &lt;li&gt;값을 순서대로 넣어주는 방법으로 진행합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;만들어진 dict 에서 배열 원소를 입력받아 해당 인덱스를 출력합니다.&lt;/li&gt;
+  &lt;li&gt;이와 같은 방법으로 기존의 시간 복잡도보다 훨씬 줄어든 O(NlogN)의 모습으로 실행할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="programing" />
+      
+        <category term="python" />
+      
+
+      
+        <summary type="html">순서정하기</summary>
       
 
       
@@ -1119,121 +1344,6 @@
     </entry>
   
     <entry>
-      <title type="html">순서정하기</title>
-      <link href="http://localhost:4000/%EC%88%9C%EC%84%9C%EC%A0%95%ED%95%98%EA%B8%B0" rel="alternate" type="text/html" title="순서정하기" />
-      <published>2023-03-12T00:00:00+09:00</published>
-      <updated>2023-03-12T00:00:00+09:00</updated>
-      <id>http://localhost:4000/%EC%88%9C%EC%84%9C%EC%A0%95%ED%95%98%EA%B8%B0</id>
-      <content type="html" xml:base="http://localhost:4000/%EC%88%9C%EC%84%9C%EC%A0%95%ED%95%98%EA%B8%B0">&lt;h1 id=&quot;순서정하기&quot;&gt;순서정하기&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://school.programmers.co.kr/learn/courses/30/lessons/120835&quot;&gt;프로그래머스-진료순서정하기&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;주어진 배열에서 큰 숫자의 위치에 순서대로 숫자를 채워 출력합니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;조건&quot;&gt;조건&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;중복된 원소 없음&lt;/li&gt;
-  &lt;li&gt;1 &amp;lt;= 입력된 배열의 길이 &amp;lt;= 10&lt;/li&gt;
-  &lt;li&gt;1 &amp;lt;= 입력된 배열의 원소 &amp;lt;= 100&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;예시&quot;&gt;예시&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;input&lt;/th&gt;
-      &lt;th&gt;result&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;[3, 76, 24]&lt;/td&gt;
-      &lt;td&gt;[3, 1, 2]&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;[1, 2, 3, 4, 5, 6, 7]&lt;/td&gt;
-      &lt;td&gt;[7, 6, 5, 4, 3, 2, 1]&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;[30, 10, 23, 6, 100]&lt;/td&gt;
-      &lt;td&gt;[2, 4, 3, 5, 1]&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;기존-작성-코드-및-문제&quot;&gt;기존 작성 코드 및 문제&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;아래의 코드는 sorted에서 이미 O(NlogN) 정도의 시간이 든다고 가정합니다.&lt;/li&gt;
-  &lt;li&gt;그리고 반복문에서 index를 계속 부르게 되므로 계속 부르게 되므로 O(N^2)의 시간복잡도를 가지게 됩니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-{python}&quot;&gt;def solution(emergency):
-    sorted_list = sorted(emergency,reverse=True)
-    answer = [sorted_list.index(x)+1 for x in emergency]
-    return answer
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&quot;문제-해결-코드-및-설명&quot;&gt;문제 해결 코드 및 설명&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;이를 시간복잡도의 효율을 생각해서 dict을 사용하여 코드를 작성해봅니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-{python}&quot;&gt;def solution(emergency):
-    dict_sorted = {e : i+1 for i,e in enumerate(sorted(emergency)[::-1])}
-    return [dict_sorted[x] for x in emergency]
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;오름차순으로 정렬하는 것은 sorted 함수에 [::-1]로 표현해주었다.
-    &lt;ul&gt;
-      &lt;li&gt;sorted에 reverse = True 매개변수를 집어 넣어주어도 됩니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;{} 반복문을 List Comprehension 방법으로 표현합니다.
-    &lt;ul&gt;
-      &lt;li&gt;enumerate 를 사용하여 인덱스를 순서로 표현합니다.&lt;/li&gt;
-      &lt;li&gt;값을 순서대로 넣어주는 방법으로 진행합니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;만들어진 dict 에서 배열 원소를 입력받아 해당 인덱스를 출력합니다.&lt;/li&gt;
-  &lt;li&gt;이와 같은 방법으로 기존의 시간 복잡도보다 훨씬 줄어든 O(NlogN)의 모습으로 실행할 수 있습니다.&lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="programing" />
-      
-        <category term="python" />
-      
-
-      
-        <summary type="html">순서정하기</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
       <title type="html">ChatGPT</title>
       <link href="http://localhost:4000/ChatGPT" rel="alternate" type="text/html" title="ChatGPT" />
       <published>2023-03-04T00:00:00+09:00</published>
@@ -1617,79 +1727,9 @@ Crowd Sourcing이라는 기술의 기초적인 이론, 즉 공동작업의 중�
   &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;&lt;a href=&quot;https://chanp5660.github.io/버블정렬&quot;&gt;버블정렬&lt;/a&gt;&lt;/li&gt;
   &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;&lt;a href=&quot;https://chanp5660.github.io/병합정렬&quot;&gt;병합정렬&lt;/a&gt;&lt;/li&gt;
   &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;&lt;a href=&quot;https://chanp5660.github.io/힙정렬&quot;&gt;힙정렬&lt;/a&gt;&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;퀵정렬&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;&lt;a href=&quot;https://chanp5660.github.io/힙정렬&quot;&gt;퀵정렬&lt;/a&gt;&lt;/li&gt;
   &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;기수정렬&lt;/li&gt;
 &lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="programing" />
-      
-        <category term="python" />
-      
-
-      
-        <summary type="html">정렬 Sorting</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">정렬</title>
-      <link href="http://localhost:4000/%EC%A0%95%EB%A0%AC" rel="alternate" type="text/html" title="정렬" />
-      <published>2023-03-01T00:00:00+09:00</published>
-      <updated>2023-03-01T00:00:00+09:00</updated>
-      <id>http://localhost:4000/%EC%A0%95%EB%A0%AC</id>
-      <content type="html" xml:base="http://localhost:4000/%EC%A0%95%EB%A0%AC">&lt;h1 id=&quot;정렬-sorting&quot;&gt;정렬 Sorting&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;컴퓨터 분야에서 중요시되는 문제 가운데 하나로 어떤 데이터들이 주어졌을 때 이를 &lt;strong&gt;정해진 순서&lt;/strong&gt;대로 &lt;strong&gt;나열&lt;/strong&gt;하는 문제로 &lt;br /&gt;
-실제 컴퓨터 분야에서 사용하는 데이터의 경우 &lt;strong&gt;숫자의 순서나 어휘&lt;/strong&gt;의 &lt;strong&gt;순서대로 정렬&lt;/strong&gt;한 다음 사용해야 되는 경우가 거의 항상 발생하는데 이걸 얼마나 &lt;strong&gt;효과적으로 해결&lt;/strong&gt;할 수 있느냐가 &lt;strong&gt;정렬 문제의 핵심&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;개념-이해하기-좋은-영상&quot;&gt;개념 이해하기 좋은 영상&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Bor_CRWEIXo&quot;&gt;어? 재밌네? 정렬 알고리즘, 한방에 이해하기!&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;python-예제&quot;&gt;python 예제&lt;/h2&gt;
-
-&lt;details&gt;
-&lt;summary&gt;python 예제 목차&lt;/summary&gt;
-&lt;div&gt;
-
-    &lt;ul class=&quot;task-list&quot;&gt;
-      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;&lt;a href=&quot;https://chanp5660.github.io/선택정렬&quot;&gt;선택정렬&lt;/a&gt;&lt;/li&gt;
-      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;&lt;a href=&quot;https://chanp5660.github.io/삽입정렬&quot;&gt;삽입정렬&lt;/a&gt;&lt;/li&gt;
-      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;&lt;a href=&quot;https://chanp5660.github.io/버블정렬&quot;&gt;버블정렬&lt;/a&gt;&lt;/li&gt;
-      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;&lt;a href=&quot;https://chanp5660.github.io/병합정렬&quot;&gt;병합정렬&lt;/a&gt;&lt;/li&gt;
-      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;&lt;a href=&quot;https://chanp5660.github.io/힙정렬&quot;&gt;힙정렬&lt;/a&gt;&lt;/li&gt;
-      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;퀵정렬&lt;/li&gt;
-      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;기수정렬&lt;/li&gt;
-    &lt;/ul&gt;
-
-  &lt;/div&gt;
-&lt;/details&gt;</content>
 
       
       

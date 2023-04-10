@@ -8,6 +8,21 @@
     
       
       <item>
+        <title>퀵정렬</title>
+        
+          <description>&lt;h1 id=&quot;퀵-정렬-quick-sort&quot;&gt;퀵 정렬 (Quick Sort)&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Fri, 07 Apr 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/%ED%80%B5%EC%A0%95%EB%A0%AC</link>
+        <guid isPermaLink="true">http://localhost:4000/%ED%80%B5%EC%A0%95%EB%A0%AC</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>TIL-Jira</title>
         
           <description>&lt;h1 id=&quot;jira&quot;&gt;Jira&lt;/h1&gt;
@@ -660,21 +675,6 @@
         <link>
         http://localhost:4000/%EC%84%A0%ED%98%95%ED%9A%8C%EA%B7%80</link>
         <guid isPermaLink="true">http://localhost:4000/%EC%84%A0%ED%98%95%ED%9A%8C%EA%B7%80</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>정렬</title>
-        
-          <description>&lt;h1 id=&quot;정렬-sorting&quot;&gt;정렬 Sorting&lt;/h1&gt;
-
-</description>
-        
-        <pubDate>Wed, 01 Mar 2023 00:00:00 +0900</pubDate>
-        <link>
-        http://localhost:4000/%EC%A0%95%EB%A0%AC</link>
-        <guid isPermaLink="true">http://localhost:4000/%EC%A0%95%EB%A0%AC</guid>
       </item>
       
     

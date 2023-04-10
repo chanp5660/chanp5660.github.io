@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/programing/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-04-08T13:43:53+09:00</updated>
+  <updated>2023-04-10T20:16:45+09:00</updated>
   <id>http://localhost:4000/tag/programing/feed.xml</id>
 
   
@@ -30,6 +30,116 @@
   
   
 
+  
+    <entry>
+      <title type="html">퀵정렬</title>
+      <link href="http://localhost:4000/%ED%80%B5%EC%A0%95%EB%A0%AC" rel="alternate" type="text/html" title="퀵정렬" />
+      <published>2023-04-07T00:00:00+09:00</published>
+      <updated>2023-04-07T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%ED%80%B5%EC%A0%95%EB%A0%AC</id>
+      <content type="html" xml:base="http://localhost:4000/%ED%80%B5%EC%A0%95%EB%A0%AC">&lt;h1 id=&quot;퀵-정렬-quick-sort&quot;&gt;퀵 정렬 (Quick Sort)&lt;/h1&gt;
+
+&lt;p&gt;퀵 정렬은 분할 정복(Divide and Conquer) 방식을 이용하여 정렬하는 알고리즘 중 하나입니다.&lt;/p&gt;
+
+&lt;p&gt;참조 블로그 &lt;a href=&quot;https://gmlwjd9405.github.io/2018/05/10/algorithm-quick-sort.html&quot;&gt;퀵 정렬&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;알고리즘 간단한 설명&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;퀵 정렬의 기본 아이디어는 &lt;strong&gt;‘피벗(Pivot)’&lt;/strong&gt; 이라 불리는 하나의 원소를 기준으로 리스트를 두 개의 부분 리스트로 나누고, 각 부분 리스트를 재귀적으로 퀵 정렬을 적용하는 것입니다. 
+일반적으로 피벗은 리스트의 가자 왼쪽이나 오른쪽, 또는 중간에 위치한 값을 사용합니다.&lt;/p&gt;
+
+&lt;p&gt;퀵 정렬의 과정은 다음과 같습니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;알고리즘 상세 설명&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;리스트에서 하나의 원소를 선택하여 피벗으로 지정합니다.
+피벗을 기준으로 리스트를 두 개의 부분 리스트로 나눕니다. 
+이 때, 피벗보다 작은 원소는 왼쪽 리스트에, 큰 원소는 오른쪽 리스트에 위치하도록 합니다.
+해당 부분 리스트는 이미 정렬되었다고 가정합니다.
+각 재귀 호출이 종료되면, 피벗을 기준으로 분할된 부분 리스트들을 병합하여 전체 리스트를 정렬합니다.
+퀵 정렬은 일반적으로 평균적인 경우에는 매우 빠른 속도로 정렬을 수행합니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;시간복잡도&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;퀵 정렬의 시간 복잡도는 평균적으로 O(n log n)이며, 최악의 경우 O(n^2)이 됩니다. 이는 리스트를 분할할 때 피벗을 어떻게 선택하느냐에 따라 달라지는데, 만약 리스트가 이미 정렬되어 있는 경우나 역순으로 정렬되어 있는 경우 등에서 피벗을 가장 작거나 큰 값으로 선택하는 경우 최악의 시간 복잡도가 발생합니다. 이러한 경우를 방지하기 위해서는 피벗을 무작위로 선택하거나, 리스트의 중간값 등을 피벗으로 선택하는 방법이 있습니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;주의 및 단점&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;최악의 경우(이미 정렬되어 있는 리스트 등)에는 불균형한 분할이 발생하여 시간 복잡도가 O(n^2)까지 증가할 수 있습니다. 
+이러한 문제를 방지하기 위해, 피벗을 선택하는 방법을 무작위로 선택하거나, 중간값 등을 선택하여 최악의 경우 시간 복잡도를 개선할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;퀵 정렬은 분할 정복 알고리즘 중 하나이므로, 재귀적인 호출을 사용합니다. 이 때, 스택 자료구조를 사용하여 재귀 호출을 구현하면 스택 오버플로우 문제가 발생합니다. 따라서, 퀵 정렬은 최악의 경우 O(n)의 추가적인 메모리를 사용하여 스택 오버플로우 문제를 해결합니다. 이를 위해, 퀵 정렬의 재귀 호출을 수행할 때는 작은 부분 리스트부터 처리하여 메모리 사용량을 최소화하며, 재귀 호출 대신 반복문을 사용하는 방법도 있습니다.&lt;/p&gt;
+
+&lt;p&gt;퀵 정렬은 일반적으로 빠른 속도로 정렬을 수행하며, 안정성을 보장하지는 않습니다.&lt;br /&gt;
+따라서, 리스트의 크기가 작은 경우나 정렬된 리스트를 정렬할 때는 다른 알고리즘을 사용하는 것이 더욱 효율적일 수 있습니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;quick_sort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# 리스트 길이가 1 이하인 경우, 즉 이미 정렬되어 있는 경우나 원소가 하나인 경우는 정렬이 된 것으로 간주하고 바로 반환합니다.
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;
+    
+    &lt;span class=&quot;c1&quot;&gt;# 그렇지 않는 경우, 피벗으로 리스트의 중간값을 선택합니다.    
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;pivot&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+    
+    &lt;span class=&quot;c1&quot;&gt;# 이를 기준으로 리스트를 세 부분으로 분할합니다.
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;equal&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[],[],[]&lt;/span&gt;
+    
+    &lt;span class=&quot;c1&quot;&gt;# 분할된 각 부분 리스트에 대해서 재귀적으로 퀵 정렬을 수행합니다.
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pivot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;elif&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pivot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;equal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+            
+    &lt;span class=&quot;c1&quot;&gt;# 분할된 부분 리스트들을 병합하여 정렬된 리스트를 반환합니다.
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;quick_sort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;equal&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;quick_sort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;27&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;22&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;15&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;quick_sort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[1, 2, 3, 4, 5, 6, 15, 22, 27]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="programing" />
+      
+        <category term="python" />
+      
+
+      
+        <summary type="html">퀵 정렬 (Quick Sort)</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">힙정렬</title>
@@ -1372,6 +1482,108 @@ Crowd Sourcing이라는 기술의 기초적인 이론, 즉 공동작업의 중�
     </entry>
   
     <entry>
+      <title type="html">병합정렬</title>
+      <link href="http://localhost:4000/%EB%B3%91%ED%95%A9%EC%A0%95%EB%A0%AC" rel="alternate" type="text/html" title="병합정렬" />
+      <published>2023-03-02T00:00:00+09:00</published>
+      <updated>2023-03-02T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%EB%B3%91%ED%95%A9%EC%A0%95%EB%A0%AC</id>
+      <content type="html" xml:base="http://localhost:4000/%EB%B3%91%ED%95%A9%EC%A0%95%EB%A0%AC">&lt;h1 id=&quot;병합정렬-merge-sorting&quot;&gt;병합정렬 Merge Sorting&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;분할 정복(divide and conquer) 알고리즘의 대표적인 예시로, 배열을 두 부분으로 분할한 뒤, 각각을 재귀적으로 정렬하여, 합쳐서 정렬된 배열을 생성하는 방법&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;병합정렬-1&quot;&gt;병합정렬 1&lt;/h2&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;merge_sort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# 병합하기 위한 함수로 입력된 배열은 오름차순으로 정렬된다.
+&lt;/span&gt;    
+    &lt;span class=&quot;c1&quot;&gt;# 병합의 최소 조건은 배열의 크기가 2 이상
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;
+    
+    &lt;span class=&quot;c1&quot;&gt;# 분할 지점 설정 
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;mid&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;left&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mid&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;right&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mid&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:]&lt;/span&gt;
+    
+    &lt;span class=&quot;c1&quot;&gt;# 재귀적으로 분할된 구역을 나눈다.
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;left&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;merge_sort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;right&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;merge_sort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;merge&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;right&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;merge&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# 정렬하기 위한 함수로 입련된 두 개의 배열을 순차적으로 비교해가면 하나의 새로운 오름차순으로 정렬된 배열을 만든다.
+&lt;/span&gt;    
+    &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 정렬된 숫자
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# left index
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# right index
+&lt;/span&gt;    
+    &lt;span class=&quot;c1&quot;&gt;# 한쪽씩 비교하면서 작은 수를 result에 집어 넣는다.
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+    
+    &lt;span class=&quot;c1&quot;&gt;# 남은 것이 있으면 result에 추가 정리
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:]&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:]&lt;/span&gt;
+    
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;알고리즘
+    &lt;ul&gt;
+      &lt;li&gt;merge_sort(arr) : 입력된 배열을 오름차순으로 정렬하여 출력하는 함수
+        &lt;ul&gt;
+          &lt;li&gt;병합정렬의 최소 조건은 배열의 크기가 2개 이상인 기준&lt;/li&gt;
+          &lt;li&gt;왼쪽과 오른쪽 부분으로 분할하여 정렬하는데 일반적으로 전체 길이의 절반의 인덱스를 기준&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;merge(left, right) : 입력된 두 개의 배열을 순차적으로 비교해가면 하나의 새로운 배열을 만든다. 기준으로 오름차순으로 만든다.
+        &lt;ul&gt;
+          &lt;li&gt;왼쪽, 오른쪽 각각의 인덱스를 만들어줘 순차적으로 비교할 수 있도록 함&lt;/li&gt;
+          &lt;li&gt;한쪽의 배열의 정렬이 끝나면 나머지 한쪽의 배열을 최종 배열 오른쪽에 추가하여 완성&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="programing" />
+      
+        <category term="python" />
+      
+
+      
+        <summary type="html">병합정렬 Merge Sorting</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">선형회귀</title>
       <link href="http://localhost:4000/%EC%84%A0%ED%98%95%ED%9A%8C%EA%B7%80" rel="alternate" type="text/html" title="선형회귀" />
       <published>2023-03-02T00:00:00+09:00</published>
@@ -1484,75 +1696,72 @@ Crowd Sourcing이라는 기술의 기초적인 이론, 즉 공동작업의 중�
     </entry>
   
     <entry>
-      <title type="html">병합정렬</title>
-      <link href="http://localhost:4000/%EB%B3%91%ED%95%A9%EC%A0%95%EB%A0%AC" rel="alternate" type="text/html" title="병합정렬" />
-      <published>2023-03-02T00:00:00+09:00</published>
-      <updated>2023-03-02T00:00:00+09:00</updated>
-      <id>http://localhost:4000/%EB%B3%91%ED%95%A9%EC%A0%95%EB%A0%AC</id>
-      <content type="html" xml:base="http://localhost:4000/%EB%B3%91%ED%95%A9%EC%A0%95%EB%A0%AC">&lt;h1 id=&quot;병합정렬-merge-sorting&quot;&gt;병합정렬 Merge Sorting&lt;/h1&gt;
+      <title type="html">선택정렬</title>
+      <link href="http://localhost:4000/%EC%84%A0%ED%83%9D%EC%A0%95%EB%A0%AC" rel="alternate" type="text/html" title="선택정렬" />
+      <published>2023-03-01T00:00:00+09:00</published>
+      <updated>2023-03-01T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%EC%84%A0%ED%83%9D%EC%A0%95%EB%A0%AC</id>
+      <content type="html" xml:base="http://localhost:4000/%EC%84%A0%ED%83%9D%EC%A0%95%EB%A0%AC">&lt;h1 id=&quot;선택정렬-selection-sorting&quot;&gt;선택정렬 selection Sorting&lt;/h1&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;분할 정복(divide and conquer) 알고리즘의 대표적인 예시로, 배열을 두 부분으로 분할한 뒤, 각각을 재귀적으로 정렬하여, 합쳐서 정렬된 배열을 생성하는 방법&lt;/p&gt;
+  &lt;p&gt;주어진 리스트에서 최소값을 찾아 맨 앞에 위치한 원소와 자리를 바꾸고, 그 다음으로 작은 값을 찾아 그 다음 위치에 위치시키는 과정을 반복하여 정렬하는 알고리즘&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&quot;병합정렬-1&quot;&gt;병합정렬 1&lt;/h2&gt;
+&lt;h2 id=&quot;선택정렬-1&quot;&gt;선택정렬 1&lt;/h2&gt;
 
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;merge_sort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;# 병합하기 위한 함수로 입력된 배열은 오름차순으로 정렬된다.
-&lt;/span&gt;    
-    &lt;span class=&quot;c1&quot;&gt;# 병합의 최소 조건은 배열의 크기가 2 이상
-&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;
-    
-    &lt;span class=&quot;c1&quot;&gt;# 분할 지점 설정 
-&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;mid&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;left&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mid&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;right&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mid&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:]&lt;/span&gt;
-    
-    &lt;span class=&quot;c1&quot;&gt;# 재귀적으로 분할된 구역을 나눈다.
-&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;left&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;merge_sort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;right&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;merge_sort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;merge&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;right&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;selection_sort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# 배열의 모든 요소를 순회
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# 최소값의 인덱스를 찾음
+&lt;/span&gt;        &lt;span class=&quot;n&quot;&gt;min_idx&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;min_idx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;min_idx&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# 현재 인덱스와 최소값의 인덱스를 swap
+&lt;/span&gt;        &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;min_idx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;min_idx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;merge&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;# 정렬하기 위한 함수로 입련된 두 개의 배열을 순차적으로 비교해가면 하나의 새로운 오름차순으로 정렬된 배열을 만든다.
-&lt;/span&gt;    
-    &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 정렬된 숫자
-&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# left index
-&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# right index
-&lt;/span&gt;    
-    &lt;span class=&quot;c1&quot;&gt;# 한쪽씩 비교하면서 작은 수를 result에 집어 넣는다.
-&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-    
-    &lt;span class=&quot;c1&quot;&gt;# 남은 것이 있으면 result에 추가 정리
-&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:]&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:]&lt;/span&gt;
-    
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;64&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;25&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;22&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;11&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;selection_sort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[11, 12, 22, 25, 64]
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;ul&gt;
   &lt;li&gt;알고리즘
     &lt;ul&gt;
-      &lt;li&gt;merge_sort(arr) : 입력된 배열을 오름차순으로 정렬하여 출력하는 함수
+      &lt;li&gt;첫번째 반복문
         &lt;ul&gt;
-          &lt;li&gt;병합정렬의 최소 조건은 배열의 크기가 2개 이상인 기준&lt;/li&gt;
-          &lt;li&gt;왼쪽과 오른쪽 부분으로 분할하여 정렬하는데 일반적으로 전체 길이의 절반의 인덱스를 기준&lt;/li&gt;
+          &lt;li&gt;모든 요소를 비교하기 위해 n-1번 비교한다.&lt;/li&gt;
+          &lt;li&gt;n번째는 n-1에서 정해지기 때문에 할 필요가 없다.&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;merge(left, right) : 입력된 두 개의 배열을 순차적으로 비교해가면 하나의 새로운 배열을 만든다. 기준으로 오름차순으로 만든다.
+      &lt;li&gt;두번째 반복문
         &lt;ul&gt;
-          &lt;li&gt;왼쪽, 오른쪽 각각의 인덱스를 만들어줘 순차적으로 비교할 수 있도록 함&lt;/li&gt;
-          &lt;li&gt;한쪽의 배열의 정렬이 끝나면 나머지 한쪽의 배열을 최종 배열 오른쪽에 추가하여 완성&lt;/li&gt;
+          &lt;li&gt;i 이상의 인덱스에서 최소값을 가진 인덱스(min_idx)를 구한다.&lt;/li&gt;
+          &lt;li&gt;범위는 i ~ n까지의 원소 중에 비교하면 된다.
+            &lt;ul&gt;
+              &lt;li&gt;두번째 반복문 시작전 min_idx = 1 는 범위의 첫번째 인자를 최소값으로 초기화 시키고 시작한다는 의미이다.&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
+      &lt;li&gt;Swap
+        &lt;ul&gt;
+          &lt;li&gt;두번째 반복문이 끝나면 범위 안에 최소값인 인덱스를 알 수 있다.&lt;/li&gt;
+          &lt;li&gt;범위의 첫번째 인자 i와 최소값의 인덱스 min_index를 서로 교체한다.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;시간복잡도
+    &lt;ul&gt;
+      &lt;li&gt;O(n^2)&lt;/li&gt;
+      &lt;li&gt;버블정렬보다는 빠르다. ( 교환이 많이 일어나야하는 자료에 유리 )&lt;/li&gt;
+      &lt;li&gt;리스트가 길수록 오래걸린다.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;</content>
@@ -1578,141 +1787,7 @@ Crowd Sourcing이라는 기술의 기초적인 이론, 즉 공동작업의 중�
       
 
       
-        <summary type="html">병합정렬 Merge Sorting</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">정렬</title>
-      <link href="http://localhost:4000/%EC%A0%95%EB%A0%AC" rel="alternate" type="text/html" title="정렬" />
-      <published>2023-03-01T00:00:00+09:00</published>
-      <updated>2023-03-01T00:00:00+09:00</updated>
-      <id>http://localhost:4000/%EC%A0%95%EB%A0%AC</id>
-      <content type="html" xml:base="http://localhost:4000/%EC%A0%95%EB%A0%AC">&lt;h1 id=&quot;정렬-sorting&quot;&gt;정렬 Sorting&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;컴퓨터 분야에서 중요시되는 문제 가운데 하나로 어떤 데이터들이 주어졌을 때 이를 &lt;strong&gt;정해진 순서&lt;/strong&gt;대로 &lt;strong&gt;나열&lt;/strong&gt;하는 문제로 &lt;br /&gt;
-실제 컴퓨터 분야에서 사용하는 데이터의 경우 &lt;strong&gt;숫자의 순서나 어휘&lt;/strong&gt;의 &lt;strong&gt;순서대로 정렬&lt;/strong&gt;한 다음 사용해야 되는 경우가 거의 항상 발생하는데 이걸 얼마나 &lt;strong&gt;효과적으로 해결&lt;/strong&gt;할 수 있느냐가 &lt;strong&gt;정렬 문제의 핵심&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;개념-이해하기-좋은-영상&quot;&gt;개념 이해하기 좋은 영상&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Bor_CRWEIXo&quot;&gt;어? 재밌네? 정렬 알고리즘, 한방에 이해하기!&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;python-예제&quot;&gt;python 예제&lt;/h2&gt;
-
-&lt;p&gt;python 예제 목차&lt;/p&gt;
-&lt;ul class=&quot;task-list&quot;&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;&lt;a href=&quot;https://chanp5660.github.io/선택정렬&quot;&gt;선택정렬&lt;/a&gt;&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;&lt;a href=&quot;https://chanp5660.github.io/삽입정렬&quot;&gt;삽입정렬&lt;/a&gt;&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;&lt;a href=&quot;https://chanp5660.github.io/버블정렬&quot;&gt;버블정렬&lt;/a&gt;&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;&lt;a href=&quot;https://chanp5660.github.io/병합정렬&quot;&gt;병합정렬&lt;/a&gt;&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;&lt;a href=&quot;https://chanp5660.github.io/힙정렬&quot;&gt;힙정렬&lt;/a&gt;&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;퀵정렬&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;기수정렬&lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="programing" />
-      
-        <category term="python" />
-      
-
-      
-        <summary type="html">정렬 Sorting</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">정렬</title>
-      <link href="http://localhost:4000/%EC%A0%95%EB%A0%AC" rel="alternate" type="text/html" title="정렬" />
-      <published>2023-03-01T00:00:00+09:00</published>
-      <updated>2023-03-01T00:00:00+09:00</updated>
-      <id>http://localhost:4000/%EC%A0%95%EB%A0%AC</id>
-      <content type="html" xml:base="http://localhost:4000/%EC%A0%95%EB%A0%AC">&lt;h1 id=&quot;정렬-sorting&quot;&gt;정렬 Sorting&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;기본적으로 ChatGPT를 이용하여 틀을 잡고 만든 것&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;컴퓨터 분야에서 중요시되는 문제 가운데 하나로 어떤 데이터들이 주어졌을 때 이를 &lt;strong&gt;정해진 순서&lt;/strong&gt;대로 &lt;strong&gt;나열&lt;/strong&gt;하는 문제로 &lt;br /&gt;
-실제 컴퓨터 분야에서 사용하는 데이터의 경우 &lt;strong&gt;숫자의 순서나 어휘&lt;/strong&gt;의 &lt;strong&gt;순서대로 정렬&lt;/strong&gt;한 다음 사용해야 되는 경우가 거의 항상 발생하는데 이걸 얼마나 &lt;strong&gt;효과적으로 해결&lt;/strong&gt;할 수 있느냐가 &lt;strong&gt;정렬 문제의 핵심&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;개념-이해하기-좋은-영상&quot;&gt;개념 이해하기 좋은 영상&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Bor_CRWEIXo&quot;&gt;어? 재밌네? 정렬 알고리즘, 한방에 이해하기!&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;python-예제&quot;&gt;python 예제&lt;/h2&gt;
-
-&lt;details&gt;
-&lt;summary&gt;python 예제 목차&lt;/summary&gt;
-&lt;div&gt;
-
-    &lt;ul class=&quot;task-list&quot;&gt;
-      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;&lt;a href=&quot;https://chanp5660.github.io/선택정렬&quot;&gt;선택정렬&lt;/a&gt;&lt;/li&gt;
-      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;&lt;a href=&quot;https://chanp5660.github.io/삽입정렬&quot;&gt;삽입정렬&lt;/a&gt;&lt;/li&gt;
-      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;&lt;a href=&quot;https://chanp5660.github.io/버블정렬&quot;&gt;버블정렬&lt;/a&gt;&lt;/li&gt;
-      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;&lt;a href=&quot;https://chanp5660.github.io/병합정렬&quot;&gt;병합정렬&lt;/a&gt;&lt;/li&gt;
-      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;&lt;a href=&quot;https://chanp5660.github.io/힙정렬&quot;&gt;힙정렬&lt;/a&gt;&lt;/li&gt;
-      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;퀵정렬&lt;/li&gt;
-      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;기수정렬&lt;/li&gt;
-    &lt;/ul&gt;
-
-  &lt;/div&gt;
-&lt;/details&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="programing" />
-      
-        <category term="python" />
-      
-
-      
-        <summary type="html">정렬 Sorting</summary>
+        <summary type="html">선택정렬 selection Sorting</summary>
       
 
       
