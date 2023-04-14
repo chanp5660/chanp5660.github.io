@@ -222,6 +222,8 @@ into the {body} of the default.hbs template -->
 <h2 id="소개">소개</h2>
 <p>이 커널은 다양한 예측 모델을 사용하여 <strong>거래가 정상적인 지불인지 사기인지 탐지하는데 얼마나 정확한지 확인</strong>할 것입니다. 데이터 세트에 설명된 대로 요인의 크기가 조정되고 개인 정보 보호 문제로 인해 요인의 이름이 표시되지 않습니다. 그럼에도 불구하고, 우리는 여전히 데이터 세트의 몇 가지 <strong>중요한 측면</strong>을 분석할 수 있습니다. 시작해봅시다.</p>
 
+<p><span style="color:blue"> 사기 거래에 대한 추가 설명으로 신용카드 회사가 고객이 구매하지 않은 항목에 대해서 사기 거래로 탐지하여 비용이 청구되지 않도록 하는 것입니다. </span></p>
+
 <h2> Our Goals: </h2>
 <ul>
 <li> Understand the little distribution of the "little" data that was provided to us. </li>
@@ -290,7 +292,7 @@ b) <a href="#neural_networks">신경망 테스트(언더샘플링 vs 오버샘�
 <h2 id="불균형-데이터-세트의-이전-실수-수정">불균형 데이터 세트의 이전 실수 수정:</h2>
 <ul>
   <li>오버샘플링 또는 언더 샘플링 데이터 세트에서는 절대 테스트하지 하세요.</li>
-  <li>교차 검증을 구형하려면 교차 검증 중에 train 데이터를 과도하게 샘플링하거나 과소 샘플링하는 것을 잊지 마십시오. 이전에는 그렇지 않았습니다!</li>
+  <li>교차 검증을 구현하려면 교차 검증 중에 train 데이터를 과도하게 샘플링하거나 과소 샘플링하는 것을 잊지 마십시오. 이전에는 그렇지 않았습니다!</li>
   <li>불균형 데이터 세트 matrix로 정확한(Accuracy) 점수를 사용하지 마십시오(일반적으로 높고 오해의 소지가 있음). 대신 f1 점수, 정밀도/호출 점수 또는 혼동 행렬(confusion matrix)을 사용하세요.</li>
 </ul>
 
@@ -1142,123 +1144,123 @@ Label Distributions:
   </thead>
   <tbody>
     <tr>
-      <th>219477</th>
-      <td>-0.027947</td>
-      <td>0.670297</td>
-      <td>1.981718</td>
-      <td>0.084056</td>
-      <td>-1.657433</td>
-      <td>0.285592</td>
-      <td>0.328588</td>
-      <td>-0.773846</td>
-      <td>0.124599</td>
-      <td>-0.204654</td>
+      <th>122184</th>
+      <td>-0.092224</td>
+      <td>-0.096665</td>
+      <td>1.096144</td>
+      <td>0.198668</td>
+      <td>-0.156906</td>
+      <td>0.703266</td>
+      <td>1.054722</td>
+      <td>1.577221</td>
+      <td>-0.026891</td>
+      <td>0.337371</td>
       <td>...</td>
-      <td>-0.055698</td>
-      <td>-0.193516</td>
-      <td>-0.279140</td>
-      <td>0.109042</td>
-      <td>-0.412877</td>
-      <td>-0.008591</td>
-      <td>-0.094052</td>
-      <td>-0.003720</td>
-      <td>-0.029865</td>
+      <td>-0.143850</td>
+      <td>0.114563</td>
+      <td>0.575651</td>
+      <td>-0.101910</td>
+      <td>-1.765628</td>
+      <td>0.526712</td>
+      <td>-0.152967</td>
+      <td>0.091028</td>
+      <td>0.001842</td>
       <td>0</td>
     </tr>
     <tr>
-      <th>42473</th>
-      <td>-0.254454</td>
-      <td>-0.511942</td>
-      <td>-3.600544</td>
-      <td>4.519047</td>
-      <td>-6.340884</td>
-      <td>6.214767</td>
-      <td>-5.829558</td>
-      <td>-2.478095</td>
-      <td>-9.938412</td>
-      <td>2.830086</td>
+      <th>116139</th>
+      <td>0.767694</td>
+      <td>-0.123744</td>
+      <td>-1.548788</td>
+      <td>1.808698</td>
+      <td>-0.953509</td>
+      <td>2.213085</td>
+      <td>-2.015728</td>
+      <td>-0.913457</td>
+      <td>-2.356013</td>
+      <td>1.197169</td>
       <td>...</td>
-      <td>1.384743</td>
-      <td>2.263770</td>
-      <td>0.620749</td>
-      <td>-0.094069</td>
-      <td>0.536719</td>
-      <td>0.398142</td>
-      <td>0.008277</td>
-      <td>2.053524</td>
-      <td>0.835749</td>
+      <td>0.390786</td>
+      <td>0.855138</td>
+      <td>0.774745</td>
+      <td>0.059037</td>
+      <td>0.343200</td>
+      <td>-0.468938</td>
+      <td>-0.278338</td>
+      <td>0.625922</td>
+      <td>0.395573</td>
       <td>1</td>
     </tr>
     <tr>
-      <th>236639</th>
-      <td>-0.266192</td>
-      <td>0.754250</td>
-      <td>2.329280</td>
-      <td>-0.996064</td>
-      <td>-1.466978</td>
-      <td>-1.813964</td>
-      <td>-0.553143</td>
-      <td>-0.765076</td>
-      <td>-0.610683</td>
-      <td>-0.314480</td>
+      <th>204521</th>
+      <td>0.083840</td>
+      <td>0.594779</td>
+      <td>-1.635628</td>
+      <td>0.190823</td>
+      <td>-0.042933</td>
+      <td>-1.926723</td>
+      <td>1.403739</td>
+      <td>-1.775181</td>
+      <td>1.305257</td>
+      <td>-0.641480</td>
       <td>...</td>
-      <td>-0.347988</td>
-      <td>-0.255511</td>
-      <td>-0.304625</td>
-      <td>0.319128</td>
-      <td>0.752311</td>
-      <td>-0.145672</td>
-      <td>-0.371917</td>
-      <td>-0.020493</td>
-      <td>-0.059228</td>
+      <td>-0.623723</td>
+      <td>-0.263745</td>
+      <td>0.163846</td>
+      <td>-0.960925</td>
+      <td>0.144301</td>
+      <td>1.332132</td>
+      <td>1.017021</td>
+      <td>-0.081181</td>
+      <td>-0.064023</td>
       <td>0</td>
     </tr>
     <tr>
-      <th>154697</th>
-      <td>-0.201355</td>
-      <td>0.210682</td>
-      <td>-4.221221</td>
-      <td>2.871121</td>
-      <td>-5.888716</td>
-      <td>6.890952</td>
-      <td>-3.404894</td>
-      <td>-1.154394</td>
-      <td>-7.739928</td>
-      <td>2.851363</td>
+      <th>144108</th>
+      <td>4.030182</td>
+      <td>0.013804</td>
+      <td>-3.586964</td>
+      <td>2.609127</td>
+      <td>-5.568577</td>
+      <td>3.631947</td>
+      <td>-4.543590</td>
+      <td>-0.157899</td>
+      <td>-4.089128</td>
+      <td>2.417305</td>
       <td>...</td>
-      <td>-0.227882</td>
-      <td>1.620591</td>
-      <td>1.567947</td>
-      <td>-0.578007</td>
-      <td>-0.059045</td>
-      <td>-1.829169</td>
-      <td>-0.072429</td>
-      <td>0.136734</td>
-      <td>-0.599848</td>
+      <td>-0.178534</td>
+      <td>1.024423</td>
+      <td>0.428756</td>
+      <td>0.182032</td>
+      <td>-0.534598</td>
+      <td>0.168933</td>
+      <td>-0.149844</td>
+      <td>0.685517</td>
+      <td>-0.299728</td>
       <td>1</td>
     </tr>
     <tr>
-      <th>6446</th>
-      <td>-0.293440</td>
-      <td>-0.904851</td>
-      <td>0.702710</td>
-      <td>2.426433</td>
-      <td>-5.234513</td>
-      <td>4.416661</td>
-      <td>-2.170806</td>
-      <td>-2.667554</td>
-      <td>-3.878088</td>
-      <td>0.911337</td>
+      <th>39183</th>
+      <td>10.547474</td>
+      <td>-0.528237</td>
+      <td>-0.964567</td>
+      <td>-1.643541</td>
+      <td>-0.187727</td>
+      <td>1.158253</td>
+      <td>-2.458336</td>
+      <td>0.852222</td>
+      <td>2.785163</td>
+      <td>-0.303609</td>
       <td>...</td>
-      <td>0.422743</td>
-      <td>0.551180</td>
-      <td>-0.009802</td>
-      <td>0.721698</td>
-      <td>0.473246</td>
-      <td>-1.959304</td>
-      <td>0.319476</td>
-      <td>0.600485</td>
-      <td>0.129305</td>
+      <td>1.784449</td>
+      <td>0.447180</td>
+      <td>0.536204</td>
+      <td>1.634061</td>
+      <td>0.203839</td>
+      <td>0.218749</td>
+      <td>-0.221886</td>
+      <td>-0.308555</td>
+      <td>-0.164500</td>
       <td>1</td>
     </tr>
   </tbody>
@@ -1289,6 +1291,8 @@ Name: Class, dtype: float64
 <span class="n">plt</span><span class="p">.</span><span class="n">title</span><span class="p">(</span><span class="s">"Equally Distributed Classed"</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
 <span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
 </code></pre></div></div>
+
+<p><img src="%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_24_0.png" alt="png" /></p>
 
 <p><img src="https://user-images.githubusercontent.com/46266247/229357741-6b3ea131-0d26-4088-bf25-5b071902a5f3.png" width="50%" /></p>
 
@@ -1335,6 +1339,8 @@ Name: Class, dtype: float64
 <span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
 </code></pre></div></div>
 
+<p><img src="%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_27_0.png" alt="png" /></p>
+
 <p><img src="https://user-images.githubusercontent.com/46266247/229357742-c9f3c001-ff83-4813-9cd1-4403da33dca7.png" width="90%" /></p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">f</span><span class="p">,</span> <span class="n">axes</span> <span class="o">=</span> <span class="n">plt</span><span class="p">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">ncols</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span><span class="mi">4</span><span class="p">))</span>
@@ -1356,6 +1362,8 @@ Name: Class, dtype: float64
 <span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
 </code></pre></div></div>
 
+<p><img src="%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_29_0.png" alt="png" /></p>
+
 <p><img src="https://user-images.githubusercontent.com/46266247/229357744-9585f4ed-adb6-48e9-b26c-83d1ad6c6f38.png" width="100%" /></p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">f</span><span class="p">,</span> <span class="n">axes</span> <span class="o">=</span> <span class="n">plt</span><span class="p">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">ncols</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span><span class="mi">4</span><span class="p">))</span>
@@ -1376,6 +1384,8 @@ Name: Class, dtype: float64
 <span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
 
 </code></pre></div></div>
+
+<p><img src="%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_31_0.png" alt="png" /></p>
 
 <p><img src="https://user-images.githubusercontent.com/46266247/229357745-375b625d-848f-4416-a546-41b82486e2e1.png" width="100%" /></p>
 
@@ -1547,19 +1557,19 @@ Cut Off: 8.114853173228282
 V14 Lower: -17.807576138200666
 V14 Upper: 3.8320323237414167
 Feature V14 Outliers for Fraud Cases: 4
-V14 outliers:[-19.2143254902614, -18.8220867423816, -18.4937733551053, -18.0499976898594]
+V14 outliers:[-19.2143254902614, -18.4937733551053, -18.0499976898594, -18.8220867423816]
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 V12 Lower: -17.3430371579634
 V12 Upper: 5.776973384895937
-V12 outliers: [-18.6837146333443, -18.4311310279993, -18.5536970096458, -18.0475965708216]
+V12 outliers: [-18.5536970096458, -18.4311310279993, -18.0475965708216, -18.6837146333443]
 Feature V12 Outliers for Fraud Cases: 4
 Number of Instances after outliers removal: 975
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 V10 Lower: -14.89885463232024
 V10 Upper: 4.92033495834214
-V10 outliers: [-15.1237521803455, -16.6011969664137, -16.2556117491401, -16.6496281595399, -20.9491915543611, -22.1870885620007, -22.1870885620007, -15.1241628144947, -14.9246547735487, -14.9246547735487, -24.5882624372475, -16.3035376590131, -24.4031849699728, -15.5637913387301, -15.5637913387301, -15.2318333653018, -15.2399619587112, -16.7460441053944, -15.2399619587112, -23.2282548357516, -18.9132433348732, -17.1415136412892, -18.2711681738888, -19.836148851696, -22.1870885620007, -15.3460988468775, -22.1870885620007]
+V10 outliers: [-22.1870885620007, -15.2399619587112, -16.7460441053944, -14.9246547735487, -23.2282548357516, -14.9246547735487, -20.9491915543611, -16.6011969664137, -15.3460988468775, -15.5637913387301, -18.9132433348732, -16.6496281595399, -22.1870885620007, -15.2318333653018, -15.1237521803455, -15.2399619587112, -15.5637913387301, -17.1415136412892, -19.836148851696, -16.3035376590131, -24.5882624372475, -22.1870885620007, -18.2711681738888, -15.1241628144947, -22.1870885620007, -16.2556117491401, -24.4031849699728]
 Feature V10 Outliers for Fraud Cases: 27
-Number of Instances after outliers removal: 946
+Number of Instances after outliers removal: 943
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">f</span><span class="p">,(</span><span class="n">ax1</span><span class="p">,</span> <span class="n">ax2</span><span class="p">,</span> <span class="n">ax3</span><span class="p">)</span> <span class="o">=</span> <span class="n">plt</span><span class="p">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span><span class="mi">6</span><span class="p">))</span>
@@ -1629,7 +1639,7 @@ Number of Instances after outliers removal: 946
 <h3 id="요약-3">요약:</h3>
 <ul>
   <li>t-SNE 알고리즘은 데이터 세트에서 Fraud 및 Non-Fraud 사례를 매우 정확하게 클러스터링 할 수 있습니다.</li>
-  <li>하위 샘플은 매우 작지만, t-SNE 알고리즘은 모든 시나이로에서 클러스터를 매우 정확하게 감지할 수 있습니다.(t-SNE를 실행하기 전에 데이터 세트를 섞습니다.)</li>
+  <li>하위 샘플은 매우 작지만, t-SNE 알고리즘은 모든 시나리오에서 클러스터를 매우 정확하게 감지할 수 있습니다.(t-SNE를 실행하기 전에 데이터 세트를 섞습니다.)</li>
   <li>이는 추가 예측 모델이 Fraud 및 Non-Fraud 사례를 구분하는 데 매우 우수한 성능을 발휘할 수 있음을 나타냅니다.</li>
 </ul>
 
@@ -1657,21 +1667,9 @@ Number of Instances after outliers removal: 946
 <span class="k">print</span><span class="p">(</span><span class="s">"Truncated SVD took {:.2} s"</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="n">t1</span> <span class="o">-</span> <span class="n">t0</span><span class="p">))</span>
 </code></pre></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>T-SNE took 4.7 s
-PCA took 0.052 s
-Truncated SVD took 0.003 s
-</code></pre></div></div>
-
-<hr />
-<hr />
-
-<h1 id="깃-commit-템플릿-사용">깃 commit 템플릿 사용</h1>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">f</span><span class="p">,</span> <span class="p">(</span><span class="n">ax1</span><span class="p">,</span> <span class="n">ax2</span><span class="p">,</span> <span class="n">ax3</span><span class="p">)</span> <span class="o">=</span> <span class="n">plt</span><span class="p">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">24</span><span class="p">,</span><span class="mi">6</span><span class="p">))</span>
-<span class="n">f</span><span class="p">.</span><span class="n">suptitle</span><span class="p">(</span><span class="s">'Clusters using Dimensionality Reduction'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
-
-<span class="n">blue_patch</span> <span class="o">=</span> <span class="n">mpatches</span><span class="p">.</span><span class="n">Patch</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="s">'#0A0AFF'</span><span class="p">,</span> <span class="n">label</span>
-
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>T-SNE took 3.3 s
+PCA took 0.015 s
+Truncated SVD took 0.002 s
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">f</span><span class="p">,</span> <span class="p">(</span><span class="n">ax1</span><span class="p">,</span> <span class="n">ax2</span><span class="p">,</span> <span class="n">ax3</span><span class="p">)</span> <span class="o">=</span> <span class="n">plt</span><span class="p">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">24</span><span class="p">,</span><span class="mi">6</span><span class="p">))</span>
@@ -1713,6 +1711,8 @@ Truncated SVD took 0.003 s
 
 <span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
 </code></pre></div></div>
+
+<p><img src="%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_39_0.png" alt="png" /></p>
 
 <h2> Classifiers (UnderSampling):  </h2>
 <p><a id="classifiers"></a>
@@ -1771,6 +1771,12 @@ In this section we will train four types of classifiers and decide which classif
     <span class="k">print</span><span class="p">(</span><span class="s">"Classifiers: "</span><span class="p">,</span> <span class="n">classifier</span><span class="p">.</span><span class="n">__class__</span><span class="p">.</span><span class="n">__name__</span><span class="p">,</span> <span class="s">"Has a training score of"</span><span class="p">,</span> <span class="nb">round</span><span class="p">(</span><span class="n">training_score</span><span class="p">.</span><span class="n">mean</span><span class="p">(),</span> <span class="mi">2</span><span class="p">)</span> <span class="o">*</span> <span class="mi">100</span><span class="p">,</span> <span class="s">"% accuracy score"</span><span class="p">)</span>
 </code></pre></div></div>
 
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Classifiers:  LogisticRegression Has a training score of 94.0 % accuracy score
+Classifiers:  KNeighborsClassifier Has a training score of 93.0 % accuracy score
+Classifiers:  SVC Has a training score of 93.0 % accuracy score
+Classifiers:  DecisionTreeClassifier Has a training score of 90.0 % accuracy score
+</code></pre></div></div>
+
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Use GridSearchCV to find the best parameters.
 </span><span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">GridSearchCV</span>
 
@@ -1826,6 +1832,12 @@ In this section we will train four types of classifiers and decide which classif
 <span class="k">print</span><span class="p">(</span><span class="s">'DecisionTree Classifier Cross Validation Score'</span><span class="p">,</span> <span class="nb">round</span><span class="p">(</span><span class="n">tree_score</span><span class="p">.</span><span class="n">mean</span><span class="p">()</span> <span class="o">*</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">2</span><span class="p">).</span><span class="n">astype</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span> <span class="o">+</span> <span class="s">'%'</span><span class="p">)</span>
 </code></pre></div></div>
 
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Logistic Regression Cross Validation Score:  94.3%
+Knears Neighbors Cross Validation Score 92.97%
+Support Vector Classifier Cross Validation Score 94.17%
+DecisionTree Classifier Cross Validation Score 91.64%
+</code></pre></div></div>
+
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># We will undersample during cross validating
 </span><span class="n">undersample_X</span> <span class="o">=</span> <span class="n">df</span><span class="p">.</span><span class="n">drop</span><span class="p">(</span><span class="s">'Class'</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
 <span class="n">undersample_y</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s">'Class'</span><span class="p">]</span>
@@ -1848,8 +1860,13 @@ In this section we will train four types of classifiers and decide which classif
 
 <span class="c1"># Implementing NearMiss Technique 
 # Distribution of NearMiss (Just to see how it distributes the labels we won't use these variables)
-</span><span class="n">X_nearmiss</span><span class="p">,</span> <span class="n">y_nearmiss</span> <span class="o">=</span> <span class="n">NearMiss</span><span class="p">().</span><span class="n">fit_sample</span><span class="p">(</span><span class="n">undersample_X</span><span class="p">.</span><span class="n">values</span><span class="p">,</span> <span class="n">undersample_y</span><span class="p">.</span><span class="n">values</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s">'NearMiss Label Distribution: {}'</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="n">Counter</span><span class="p">(</span><span class="n">y_nearmiss</span><span class="p">)))</span>
+</span><span class="kn">from</span> <span class="nn">imblearn.under_sampling</span> <span class="kn">import</span> <span class="n">RandomUnderSampler</span>  
+
+<span class="n">under_sampler</span> <span class="o">=</span> <span class="n">RandomUnderSampler</span><span class="p">()</span>
+<span class="n">X_nearmiss</span><span class="p">,</span> <span class="n">y_nearmiss</span> <span class="o">=</span> <span class="n">under_sampler</span><span class="p">.</span><span class="n">fit_resample</span><span class="p">(</span><span class="n">undersample_X</span><span class="p">.</span><span class="n">values</span><span class="p">,</span> <span class="n">undersample_y</span><span class="p">.</span><span class="n">values</span><span class="p">)</span>
+
+<span class="c1"># X_nearmiss, y_nearmiss = NearMiss().fit_sample(undersample_X.values, undersample_y.values)
+</span><span class="k">print</span><span class="p">(</span><span class="s">'NearMiss Label Distribution: {}'</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="n">Counter</span><span class="p">(</span><span class="n">y_nearmiss</span><span class="p">)))</span>
 <span class="c1"># Cross Validating the right way
 </span>
 <span class="k">for</span> <span class="n">train</span><span class="p">,</span> <span class="n">test</span> <span class="ow">in</span> <span class="n">sss</span><span class="p">.</span><span class="n">split</span><span class="p">(</span><span class="n">undersample_Xtrain</span><span class="p">,</span> <span class="n">undersample_ytrain</span><span class="p">):</span>
@@ -1862,6 +1879,14 @@ In this section we will train four types of classifiers and decide which classif
     <span class="n">undersample_recall</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">recall_score</span><span class="p">(</span><span class="n">original_ytrain</span><span class="p">[</span><span class="n">test</span><span class="p">],</span> <span class="n">undersample_prediction</span><span class="p">))</span>
     <span class="n">undersample_f1</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">f1_score</span><span class="p">(</span><span class="n">original_ytrain</span><span class="p">[</span><span class="n">test</span><span class="p">],</span> <span class="n">undersample_prediction</span><span class="p">))</span>
     <span class="n">undersample_auc</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">roc_auc_score</span><span class="p">(</span><span class="n">original_ytrain</span><span class="p">[</span><span class="n">test</span><span class="p">],</span> <span class="n">undersample_prediction</span><span class="p">))</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Train: [ 56016  56963  56964 ... 284804 284805 284806] Test: [    0     1     2 ... 56960 56961 56962]
+Train: [     0      1      2 ... 284804 284805 284806] Test: [ 56016  56963  56964 ... 116256 118787 118918]
+Train: [     0      1      2 ... 284804 284805 284806] Test: [113919 113920 113921 ... 180037 180301 180370]
+Train: [     0      1      2 ... 284804 284805 284806] Test: [170872 170873 170874 ... 229984 230294 230438]
+Train: [     0      1      2 ... 229984 230294 230438] Test: [227840 227841 227842 ... 284804 284805 284806]
+NearMiss Label Distribution: Counter({0: 492, 1: 492})
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Let's Plot LogisticRegression Learning Curve
@@ -1967,6 +1992,11 @@ In this section we will train four types of classifiers and decide which classif
 <span class="n">plot_learning_curve</span><span class="p">(</span><span class="n">log_reg</span><span class="p">,</span> <span class="n">knears_neighbors</span><span class="p">,</span> <span class="n">svc</span><span class="p">,</span> <span class="n">tree_clf</span><span class="p">,</span> <span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="p">(</span><span class="mf">0.87</span><span class="p">,</span> <span class="mf">1.01</span><span class="p">),</span> <span class="n">cv</span><span class="o">=</span><span class="n">cv</span><span class="p">,</span> <span class="n">n_jobs</span><span class="o">=</span><span class="mi">4</span><span class="p">)</span>
 </code></pre></div></div>
 
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;module 'matplotlib.pyplot' from 'C:\\Users\\master\\anaconda3\\envs\\chanp5660\\lib\\site-packages\\matplotlib\\pyplot.py'&gt;
+</code></pre></div></div>
+
+<p><img src="%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_50_1.png" alt="png" /></p>
+
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">roc_curve</span>
 <span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">cross_val_predict</span>
 <span class="c1"># Create a DataFrame with all the scores and the classifiers names.
@@ -1988,6 +2018,12 @@ In this section we will train four types of classifiers and decide which classif
 <span class="k">print</span><span class="p">(</span><span class="s">'KNears Neighbors: '</span><span class="p">,</span> <span class="n">roc_auc_score</span><span class="p">(</span><span class="n">y_train</span><span class="p">,</span> <span class="n">knears_pred</span><span class="p">))</span>
 <span class="k">print</span><span class="p">(</span><span class="s">'Support Vector Classifier: '</span><span class="p">,</span> <span class="n">roc_auc_score</span><span class="p">(</span><span class="n">y_train</span><span class="p">,</span> <span class="n">svc_pred</span><span class="p">))</span>
 <span class="k">print</span><span class="p">(</span><span class="s">'Decision Tree Classifier: '</span><span class="p">,</span> <span class="n">roc_auc_score</span><span class="p">(</span><span class="n">y_train</span><span class="p">,</span> <span class="n">tree_pred</span><span class="p">))</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Logistic Regression:  0.9819356837125479
+KNears Neighbors:  0.9290028722685288
+Support Vector Classifier:  0.9764093827438612
+Decision Tree Classifier:  0.9153525568821806
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">log_fpr</span><span class="p">,</span> <span class="n">log_tpr</span><span class="p">,</span> <span class="n">log_thresold</span> <span class="o">=</span> <span class="n">roc_curve</span><span class="p">(</span><span class="n">y_train</span><span class="p">,</span> <span class="n">log_reg_pred</span><span class="p">)</span>
@@ -2015,6 +2051,8 @@ In this section we will train four types of classifiers and decide which classif
 <span class="n">graph_roc_curve_multiple</span><span class="p">(</span><span class="n">log_fpr</span><span class="p">,</span> <span class="n">log_tpr</span><span class="p">,</span> <span class="n">knear_fpr</span><span class="p">,</span> <span class="n">knear_tpr</span><span class="p">,</span> <span class="n">svc_fpr</span><span class="p">,</span> <span class="n">svc_tpr</span><span class="p">,</span> <span class="n">tree_fpr</span><span class="p">,</span> <span class="n">tree_tpr</span><span class="p">)</span>
 <span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
 </code></pre></div></div>
+
+<p><img src="%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_53_0.png" alt="png" /></p>
 
 <h2 id="a-deeper-look-into-logisticregression">A Deeper Look into LogisticRegression:</h2>
 <p><a id="logistic"></a>
@@ -2052,6 +2090,8 @@ In this section we will ive a deeper look into the <b> logistic regression class
 <span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
 </code></pre></div></div>
 
+<p><img src="%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_55_0.png" alt="png" /></p>
+
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">precision_recall_curve</span>
 
 <span class="n">precision</span><span class="p">,</span> <span class="n">recall</span><span class="p">,</span> <span class="n">threshold</span> <span class="o">=</span> <span class="n">precision_recall_curve</span><span class="p">(</span><span class="n">y_train</span><span class="p">,</span> <span class="n">log_reg_pred</span><span class="p">)</span>
@@ -2079,6 +2119,24 @@ In this section we will ive a deeper look into the <b> logistic regression class
 <span class="k">print</span><span class="p">(</span><span class="s">'---'</span> <span class="o">*</span> <span class="mi">45</span><span class="p">)</span>
 </code></pre></div></div>
 
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---------------------------------------------------------------------------------------------------------------------------------------
+Overfitting: 
+
+Recall Score: 0.93
+Precision Score: 0.73
+F1 Score: 0.82
+Accuracy Score: 0.80
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+How it should be:
+
+Accuracy Score: 0.79
+Precision Score: 0.00
+Recall Score: 0.22
+F1 Score: 0.00
+---------------------------------------------------------------------------------------------------------------------------------------
+</code></pre></div></div>
+
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">undersample_y_score</span> <span class="o">=</span> <span class="n">log_reg</span><span class="p">.</span><span class="n">decision_function</span><span class="p">(</span><span class="n">original_Xtest</span><span class="p">)</span>
 </code></pre></div></div>
 
@@ -2088,6 +2146,9 @@ In this section we will ive a deeper look into the <b> logistic regression class
 
 <span class="k">print</span><span class="p">(</span><span class="s">'Average precision-recall score: {0:0.2f}'</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span>
       <span class="n">undersample_average_precision</span><span class="p">))</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Average precision-recall score: 0.07
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">precision_recall_curve</span>
@@ -2109,6 +2170,11 @@ In this section we will ive a deeper look into the <b> logistic regression class
 <span class="n">plt</span><span class="p">.</span><span class="n">title</span><span class="p">(</span><span class="s">'UnderSampling Precision-Recall curve: </span><span class="se">\n</span><span class="s"> Average Precision-Recall Score ={0:0.2f}'</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span>
           <span class="n">undersample_average_precision</span><span class="p">),</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">16</span><span class="p">)</span>
 </code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Text(0.5, 1.0, 'UnderSampling Precision-Recall curve: \n Average Precision-Recall Score =0.07')
+</code></pre></div></div>
+
+<p><img src="%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_60_1.png" alt="png" /></p>
 
 <h3 id="smote-technique-over-sampling">SMOTE Technique (Over-Sampling):</h3>
 <p><a id="smote"></a>
@@ -2194,9 +2260,30 @@ DEALING WITH IMBALANCED DATA: UNDERSAMPLING, OVERSAMPLING AND PROPER CROSS-VALID
 <span class="k">print</span><span class="p">(</span><span class="s">'---'</span> <span class="o">*</span> <span class="mi">45</span><span class="p">)</span>
 </code></pre></div></div>
 
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Length of X (train): 227846 | Length of y (train): 227846
+Length of X (test): 56961 | Length of y (test): 56961
+---------------------------------------------------------------------------------------------------------------------------------------
+
+accuracy: 0.9708093972022731
+precision: 0.06528802853097392
+recall: 0.9111976630963973
+f1: 0.12065454676338967
+---------------------------------------------------------------------------------------------------------------------------------------
+</code></pre></div></div>
+
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">labels</span> <span class="o">=</span> <span class="p">[</span><span class="s">'No Fraud'</span><span class="p">,</span> <span class="s">'Fraud'</span><span class="p">]</span>
 <span class="n">smote_prediction</span> <span class="o">=</span> <span class="n">best_est</span><span class="p">.</span><span class="n">predict</span><span class="p">(</span><span class="n">original_Xtest</span><span class="p">)</span>
 <span class="k">print</span><span class="p">(</span><span class="n">classification_report</span><span class="p">(</span><span class="n">original_ytest</span><span class="p">,</span> <span class="n">smote_prediction</span><span class="p">,</span> <span class="n">target_names</span><span class="o">=</span><span class="n">labels</span><span class="p">))</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>              precision    recall  f1-score   support
+
+    No Fraud       1.00      0.99      0.99     56863
+       Fraud       0.11      0.85      0.20        98
+
+    accuracy                           0.99     56961
+   macro avg       0.56      0.92      0.60     56961
+weighted avg       1.00      0.99      0.99     56961
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">y_score</span> <span class="o">=</span> <span class="n">best_est</span><span class="p">.</span><span class="n">decision_function</span><span class="p">(</span><span class="n">original_Xtest</span><span class="p">)</span>
@@ -2206,6 +2293,9 @@ DEALING WITH IMBALANCED DATA: UNDERSAMPLING, OVERSAMPLING AND PROPER CROSS-VALID
 
 <span class="k">print</span><span class="p">(</span><span class="s">'Average precision-recall score: {0:0.2f}'</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span>
       <span class="n">average_precision</span><span class="p">))</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Average precision-recall score: 0.76
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="p">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span><span class="mi">6</span><span class="p">))</span>
@@ -2225,13 +2315,20 @@ DEALING WITH IMBALANCED DATA: UNDERSAMPLING, OVERSAMPLING AND PROPER CROSS-VALID
           <span class="n">average_precision</span><span class="p">),</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">16</span><span class="p">)</span>
 </code></pre></div></div>
 
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Text(0.5, 1.0, 'OverSampling Precision-Recall curve: \n Average Precision-Recall Score =0.76')
+</code></pre></div></div>
+
+<p><img src="%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_66_1.png" alt="png" /></p>
+
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># SMOTE Technique (OverSampling) After splitting and Cross Validating
-</span><span class="n">sm</span> <span class="o">=</span> <span class="n">SMOTE</span><span class="p">(</span><span class="n">ratio</span><span class="o">=</span><span class="s">'minority'</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">)</span>
+#sm = SMOTE(ratio='minority', random_state=42) 
+</span><span class="n">sm</span> <span class="o">=</span> <span class="n">SMOTE</span><span class="p">(</span><span class="n">sampling_strategy</span><span class="o">=</span><span class="s">'auto'</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">)</span>
+
 <span class="c1"># Xsm_train, ysm_train = sm.fit_sample(X_train, y_train)
 </span>
 
 <span class="c1"># This will be the data were we are going to 
-</span><span class="n">Xsm_train</span><span class="p">,</span> <span class="n">ysm_train</span> <span class="o">=</span> <span class="n">sm</span><span class="p">.</span><span class="n">fit_sample</span><span class="p">(</span><span class="n">original_Xtrain</span><span class="p">,</span> <span class="n">original_ytrain</span><span class="p">)</span>
+</span><span class="n">Xsm_train</span><span class="p">,</span> <span class="n">ysm_train</span> <span class="o">=</span> <span class="n">sm</span><span class="p">.</span><span class="n">fit_resample</span><span class="p">(</span><span class="n">original_Xtrain</span><span class="p">,</span> <span class="n">original_ytrain</span><span class="p">)</span>
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># We Improve the score by 2% points approximately 
@@ -2243,6 +2340,9 @@ DEALING WITH IMBALANCED DATA: UNDERSAMPLING, OVERSAMPLING AND PROPER CROSS-VALID
 <span class="n">log_reg_sm</span><span class="p">.</span><span class="n">fit</span><span class="p">(</span><span class="n">Xsm_train</span><span class="p">,</span> <span class="n">ysm_train</span><span class="p">)</span>
 <span class="n">t1</span> <span class="o">=</span> <span class="n">time</span><span class="p">.</span><span class="n">time</span><span class="p">()</span>
 <span class="k">print</span><span class="p">(</span><span class="s">"Fitting oversample data took :{} sec"</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="n">t1</span> <span class="o">-</span> <span class="n">t0</span><span class="p">))</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Fitting oversample data took :4.898994207382202 sec
 </code></pre></div></div>
 
 <h1 id="test-data-with-logistic-regression">Test Data with Logistic Regression:</h1>
@@ -2308,6 +2408,8 @@ DEALING WITH IMBALANCED DATA: UNDERSAMPLING, OVERSAMPLING AND PROPER CROSS-VALID
 <span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
 </code></pre></div></div>
 
+<p><img src="%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_70_0.png" alt="png" /></p>
+
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">classification_report</span>
 
 
@@ -2322,6 +2424,47 @@ DEALING WITH IMBALANCED DATA: UNDERSAMPLING, OVERSAMPLING AND PROPER CROSS-VALID
 
 <span class="k">print</span><span class="p">(</span><span class="s">'Support Vector Classifier:'</span><span class="p">)</span>
 <span class="k">print</span><span class="p">(</span><span class="n">classification_report</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred_tree</span><span class="p">))</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Logistic Regression:
+              precision    recall  f1-score   support
+
+           0       0.92      0.99      0.95       100
+           1       0.99      0.90      0.94        89
+
+    accuracy                           0.95       189
+   macro avg       0.95      0.94      0.95       189
+weighted avg       0.95      0.95      0.95       189
+
+KNears Neighbors:
+              precision    recall  f1-score   support
+
+           0       0.91      0.96      0.93       100
+           1       0.95      0.89      0.92        89
+
+    accuracy                           0.93       189
+   macro avg       0.93      0.92      0.93       189
+weighted avg       0.93      0.93      0.93       189
+
+Support Vector Classifier:
+              precision    recall  f1-score   support
+
+           0       0.91      0.98      0.94       100
+           1       0.98      0.89      0.93        89
+
+    accuracy                           0.94       189
+   macro avg       0.94      0.93      0.94       189
+weighted avg       0.94      0.94      0.94       189
+
+Support Vector Classifier:
+              precision    recall  f1-score   support
+
+           0       0.90      0.94      0.92       100
+           1       0.93      0.89      0.91        89
+
+    accuracy                           0.92       189
+   macro avg       0.92      0.91      0.91       189
+weighted avg       0.92      0.92      0.92       189
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Final Score in the test set of logistic regression
@@ -2349,6 +2492,58 @@ DEALING WITH IMBALANCED DATA: UNDERSAMPLING, OVERSAMPLING AND PROPER CROSS-VALID
 <span class="c1"># Note how high is accuracy score it can be misleading! 
 </span><span class="n">final_df</span>
 </code></pre></div></div>
+
+<div style="width:100%"> 
+ <details> 
+<summary><span style="color:blue">출력 보기(클릭)</span></summary>
+
+
+
+<div class="my-table">
+<style scoped="">
+    .my-table {
+        width:100%;
+        height:300px;
+    }
+    .dataframe {
+        height: 95%;
+    }
+        .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Technique</th>
+      <th>Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Random UnderSampling</td>
+      <td>0.947090</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Oversampling (SMOTE)</td>
+      <td>0.988115</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</details>
+</div>
 
 <h2 id="neural-networks-testing-random-undersampling-data-vs-oversampling-smote">Neural Networks Testing Random UnderSampling Data vs OverSampling (SMOTE):</h2>
 <p><a id="neural_networks"></a>
@@ -2393,17 +2588,83 @@ In this section we will implement a simple Neural Network (with one hidden layer
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">undersample_model</span><span class="p">.</span><span class="n">summary</span><span class="p">()</span>
 </code></pre></div></div>
 
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense (Dense)               (None, 30)                930       
+                                                                 
+ dense_1 (Dense)             (None, 32)                992       
+                                                                 
+ dense_2 (Dense)             (None, 2)                 66        
+                                                                 
+=================================================================
+Total params: 1,988
+Trainable params: 1,988
+Non-trainable params: 0
+_________________________________________________________________
+</code></pre></div></div>
+
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">undersample_model</span><span class="p">.</span><span class="nb">compile</span><span class="p">(</span><span class="n">Adam</span><span class="p">(</span><span class="n">lr</span><span class="o">=</span><span class="mf">0.001</span><span class="p">),</span> <span class="n">loss</span><span class="o">=</span><span class="s">'sparse_categorical_crossentropy'</span><span class="p">,</span> <span class="n">metrics</span><span class="o">=</span><span class="p">[</span><span class="s">'accuracy'</span><span class="p">])</span>
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">undersample_model</span><span class="p">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">validation_split</span><span class="o">=</span><span class="mf">0.2</span><span class="p">,</span> <span class="n">batch_size</span><span class="o">=</span><span class="mi">25</span><span class="p">,</span> <span class="n">epochs</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">shuffle</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
 </code></pre></div></div>
 
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Epoch 1/20
+25/25 - 1s - loss: 0.5016 - accuracy: 0.7131 - val_loss: 0.4120 - val_accuracy: 0.7748 - 1s/epoch - 41ms/step
+Epoch 2/20
+25/25 - 0s - loss: 0.2984 - accuracy: 0.8856 - val_loss: 0.3205 - val_accuracy: 0.9205 - 78ms/epoch - 3ms/step
+Epoch 3/20
+25/25 - 0s - loss: 0.2374 - accuracy: 0.9254 - val_loss: 0.2717 - val_accuracy: 0.9272 - 105ms/epoch - 4ms/step
+Epoch 4/20
+25/25 - 0s - loss: 0.1981 - accuracy: 0.9320 - val_loss: 0.2426 - val_accuracy: 0.9338 - 97ms/epoch - 4ms/step
+Epoch 5/20
+25/25 - 0s - loss: 0.1732 - accuracy: 0.9386 - val_loss: 0.2241 - val_accuracy: 0.9404 - 111ms/epoch - 4ms/step
+Epoch 6/20
+25/25 - 0s - loss: 0.1569 - accuracy: 0.9436 - val_loss: 0.2117 - val_accuracy: 0.9338 - 109ms/epoch - 4ms/step
+Epoch 7/20
+25/25 - 0s - loss: 0.1433 - accuracy: 0.9453 - val_loss: 0.2042 - val_accuracy: 0.9404 - 83ms/epoch - 3ms/step
+Epoch 8/20
+25/25 - 0s - loss: 0.1338 - accuracy: 0.9486 - val_loss: 0.2012 - val_accuracy: 0.9338 - 81ms/epoch - 3ms/step
+Epoch 9/20
+25/25 - 0s - loss: 0.1268 - accuracy: 0.9469 - val_loss: 0.1998 - val_accuracy: 0.9338 - 78ms/epoch - 3ms/step
+Epoch 10/20
+25/25 - 0s - loss: 0.1198 - accuracy: 0.9502 - val_loss: 0.1953 - val_accuracy: 0.9470 - 89ms/epoch - 4ms/step
+Epoch 11/20
+25/25 - 0s - loss: 0.1150 - accuracy: 0.9502 - val_loss: 0.1985 - val_accuracy: 0.9404 - 85ms/epoch - 3ms/step
+Epoch 12/20
+25/25 - 0s - loss: 0.1081 - accuracy: 0.9569 - val_loss: 0.1987 - val_accuracy: 0.9338 - 87ms/epoch - 3ms/step
+Epoch 13/20
+25/25 - 0s - loss: 0.1046 - accuracy: 0.9602 - val_loss: 0.2006 - val_accuracy: 0.9338 - 82ms/epoch - 3ms/step
+Epoch 14/20
+25/25 - 0s - loss: 0.0992 - accuracy: 0.9602 - val_loss: 0.2023 - val_accuracy: 0.9205 - 82ms/epoch - 3ms/step
+Epoch 15/20
+25/25 - 0s - loss: 0.0959 - accuracy: 0.9619 - val_loss: 0.1991 - val_accuracy: 0.9272 - 82ms/epoch - 3ms/step
+Epoch 16/20
+25/25 - 0s - loss: 0.0914 - accuracy: 0.9635 - val_loss: 0.1999 - val_accuracy: 0.9338 - 82ms/epoch - 3ms/step
+Epoch 17/20
+25/25 - 0s - loss: 0.0878 - accuracy: 0.9652 - val_loss: 0.2041 - val_accuracy: 0.9470 - 80ms/epoch - 3ms/step
+Epoch 18/20
+25/25 - 0s - loss: 0.0845 - accuracy: 0.9652 - val_loss: 0.2035 - val_accuracy: 0.9338 - 95ms/epoch - 4ms/step
+Epoch 19/20
+25/25 - 0s - loss: 0.0815 - accuracy: 0.9685 - val_loss: 0.2028 - val_accuracy: 0.9470 - 99ms/epoch - 4ms/step
+Epoch 20/20
+25/25 - 0s - loss: 0.0786 - accuracy: 0.9652 - val_loss: 0.2048 - val_accuracy: 0.9470 - 94ms/epoch - 4ms/step
+
+
+
+
+
+&lt;keras.callbacks.History at 0x239d300bc48&gt;
+</code></pre></div></div>
+
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">undersample_predictions</span> <span class="o">=</span> <span class="n">undersample_model</span><span class="p">.</span><span class="n">predict</span><span class="p">(</span><span class="n">original_Xtest</span><span class="p">,</span> <span class="n">batch_size</span><span class="o">=</span><span class="mi">200</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
 </code></pre></div></div>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">undersample_fraud_predictions</span> <span class="o">=</span> <span class="n">undersample_model</span><span class="p">.</span><span class="n">predict_classes</span><span class="p">(</span><span class="n">original_Xtest</span><span class="p">,</span> <span class="n">batch_size</span><span class="o">=</span><span class="mi">200</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
-</code></pre></div></div>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">undersample_fraud_proba</span> <span class="o">=</span> <span class="n">undersample_model</span><span class="p">.</span><span class="n">predict</span><span class="p">(</span><span class="n">original_Xtest</span><span class="p">,</span> <span class="n">batch_size</span><span class="o">=</span><span class="mi">200</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span> <span class="c1"># 예측 확률값 계산
+</span><span class="n">undersample_fraud_predictions</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">undersample_fraud_proba</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span> <span class="c1"># 예측 클래스 결정
+</span></code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">itertools</span>
 
@@ -2456,6 +2717,16 @@ In this section we will implement a simple Neural Network (with one hidden layer
 <span class="n">plot_confusion_matrix</span><span class="p">(</span><span class="n">actual_cm</span><span class="p">,</span> <span class="n">labels</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s">"Confusion Matrix </span><span class="se">\n</span><span class="s"> (with 100% accuracy)"</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="n">plt</span><span class="p">.</span><span class="n">cm</span><span class="p">.</span><span class="n">Greens</span><span class="p">)</span>
 </code></pre></div></div>
 
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Confusion matrix, without normalization
+[[54963  1900]
+ [    6    92]]
+Confusion matrix, without normalization
+[[56863     0]
+ [    0    98]]
+</code></pre></div></div>
+
+<p><img src="%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_81_1.png" alt="png" /></p>
+
 <h3 id="keras--oversampling-smote">Keras || OverSampling (SMOTE):</h3>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">n_inputs</span> <span class="o">=</span> <span class="n">Xsm_train</span><span class="p">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
@@ -2473,11 +2744,60 @@ In this section we will implement a simple Neural Network (with one hidden layer
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">oversample_model</span><span class="p">.</span><span class="n">fit</span><span class="p">(</span><span class="n">Xsm_train</span><span class="p">,</span> <span class="n">ysm_train</span><span class="p">,</span> <span class="n">validation_split</span><span class="o">=</span><span class="mf">0.2</span><span class="p">,</span> <span class="n">batch_size</span><span class="o">=</span><span class="mi">300</span><span class="p">,</span> <span class="n">epochs</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">shuffle</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
 </code></pre></div></div>
 
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Epoch 1/20
+1214/1214 - 3s - loss: 0.0769 - accuracy: 0.9696 - val_loss: 0.0295 - val_accuracy: 0.9903 - 3s/epoch - 3ms/step
+Epoch 2/20
+1214/1214 - 3s - loss: 0.0157 - accuracy: 0.9961 - val_loss: 0.0138 - val_accuracy: 0.9986 - 3s/epoch - 2ms/step
+Epoch 3/20
+1214/1214 - 3s - loss: 0.0081 - accuracy: 0.9982 - val_loss: 0.0051 - val_accuracy: 0.9997 - 3s/epoch - 2ms/step
+Epoch 4/20
+1214/1214 - 3s - loss: 0.0056 - accuracy: 0.9988 - val_loss: 0.0013 - val_accuracy: 1.0000 - 3s/epoch - 2ms/step
+Epoch 5/20
+1214/1214 - 3s - loss: 0.0042 - accuracy: 0.9991 - val_loss: 0.0032 - val_accuracy: 0.9998 - 3s/epoch - 2ms/step
+Epoch 6/20
+1214/1214 - 3s - loss: 0.0034 - accuracy: 0.9993 - val_loss: 0.0168 - val_accuracy: 0.9983 - 3s/epoch - 3ms/step
+Epoch 7/20
+1214/1214 - 3s - loss: 0.0030 - accuracy: 0.9994 - val_loss: 0.0027 - val_accuracy: 0.9999 - 3s/epoch - 3ms/step
+Epoch 8/20
+1214/1214 - 3s - loss: 0.0027 - accuracy: 0.9995 - val_loss: 0.0015 - val_accuracy: 1.0000 - 3s/epoch - 3ms/step
+Epoch 9/20
+1214/1214 - 3s - loss: 0.0024 - accuracy: 0.9995 - val_loss: 6.3834e-04 - val_accuracy: 1.0000 - 3s/epoch - 2ms/step
+Epoch 10/20
+1214/1214 - 3s - loss: 0.0021 - accuracy: 0.9996 - val_loss: 0.0012 - val_accuracy: 0.9999 - 3s/epoch - 3ms/step
+Epoch 11/20
+1214/1214 - 3s - loss: 0.0018 - accuracy: 0.9996 - val_loss: 0.0012 - val_accuracy: 0.9998 - 3s/epoch - 2ms/step
+Epoch 12/20
+1214/1214 - 3s - loss: 0.0017 - accuracy: 0.9996 - val_loss: 3.3734e-04 - val_accuracy: 1.0000 - 3s/epoch - 2ms/step
+Epoch 13/20
+1214/1214 - 3s - loss: 0.0016 - accuracy: 0.9997 - val_loss: 9.1454e-04 - val_accuracy: 1.0000 - 3s/epoch - 3ms/step
+Epoch 14/20
+1214/1214 - 3s - loss: 0.0014 - accuracy: 0.9997 - val_loss: 7.4361e-04 - val_accuracy: 1.0000 - 3s/epoch - 2ms/step
+Epoch 15/20
+1214/1214 - 3s - loss: 0.0014 - accuracy: 0.9997 - val_loss: 0.0024 - val_accuracy: 0.9993 - 3s/epoch - 2ms/step
+Epoch 16/20
+1214/1214 - 3s - loss: 0.0012 - accuracy: 0.9997 - val_loss: 7.2585e-04 - val_accuracy: 1.0000 - 3s/epoch - 2ms/step
+Epoch 17/20
+1214/1214 - 3s - loss: 0.0011 - accuracy: 0.9998 - val_loss: 3.6759e-04 - val_accuracy: 0.9999 - 3s/epoch - 2ms/step
+Epoch 18/20
+1214/1214 - 3s - loss: 0.0010 - accuracy: 0.9998 - val_loss: 2.6780e-04 - val_accuracy: 1.0000 - 3s/epoch - 2ms/step
+Epoch 19/20
+1214/1214 - 3s - loss: 0.0015 - accuracy: 0.9997 - val_loss: 0.0010 - val_accuracy: 1.0000 - 3s/epoch - 2ms/step
+Epoch 20/20
+1214/1214 - 3s - loss: 9.7896e-04 - accuracy: 0.9998 - val_loss: 0.0014 - val_accuracy: 1.0000 - 3s/epoch - 2ms/step
+
+
+
+
+
+&lt;keras.callbacks.History at 0x239e9e05148&gt;
+</code></pre></div></div>
+
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">oversample_predictions</span> <span class="o">=</span> <span class="n">oversample_model</span><span class="p">.</span><span class="n">predict</span><span class="p">(</span><span class="n">original_Xtest</span><span class="p">,</span> <span class="n">batch_size</span><span class="o">=</span><span class="mi">200</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
 </code></pre></div></div>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">oversample_fraud_predictions</span> <span class="o">=</span> <span class="n">oversample_model</span><span class="p">.</span><span class="n">predict_classes</span><span class="p">(</span><span class="n">original_Xtest</span><span class="p">,</span> <span class="n">batch_size</span><span class="o">=</span><span class="mi">200</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
-</code></pre></div></div>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">oversample_fraud_proba</span> <span class="o">=</span> <span class="n">oversample_model</span><span class="p">.</span><span class="n">predict</span><span class="p">(</span><span class="n">original_Xtest</span><span class="p">,</span> <span class="n">batch_size</span><span class="o">=</span><span class="mi">200</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span> <span class="c1"># 예측 확률값 계산
+</span><span class="n">oversample_fraud_predictions</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">oversample_fraud_proba</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span> <span class="c1"># 예측 클래스 결정
+</span></code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">oversample_smote</span> <span class="o">=</span> <span class="n">confusion_matrix</span><span class="p">(</span><span class="n">original_ytest</span><span class="p">,</span> <span class="n">oversample_fraud_predictions</span><span class="p">)</span>
 <span class="n">actual_cm</span> <span class="o">=</span> <span class="n">confusion_matrix</span><span class="p">(</span><span class="n">original_ytest</span><span class="p">,</span> <span class="n">original_ytest</span><span class="p">)</span>
@@ -2491,6 +2811,16 @@ In this section we will implement a simple Neural Network (with one hidden layer
 <span class="n">fig</span><span class="p">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">222</span><span class="p">)</span>
 <span class="n">plot_confusion_matrix</span><span class="p">(</span><span class="n">actual_cm</span><span class="p">,</span> <span class="n">labels</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s">"Confusion Matrix </span><span class="se">\n</span><span class="s"> (with 100% accuracy)"</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="n">plt</span><span class="p">.</span><span class="n">cm</span><span class="p">.</span><span class="n">Greens</span><span class="p">)</span>
 </code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Confusion matrix, without normalization
+[[56851    12]
+ [   28    70]]
+Confusion matrix, without normalization
+[[56863     0]
+ [    0    98]]
+</code></pre></div></div>
+
+<p><img src="%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_88_1.png" alt="png" /></p>
 
 <h3 id="conclusion">Conclusion:</h3>
 <p>Implementing SMOTE on our imbalanced dataset helped us with the imbalance of our labels (more no fraud than fraud transactions). Nevertheless, I still have to state that sometimes the neural network on the oversampled dataset predicts less correct fraud transactions than our model using the undersample dataset. However, remember that the removal of outliers was implemented only on the random undersample dataset and not on the oversampled one. Also, in our undersample data our model is unable to detect for a large number of cases non fraud transactions correctly and instead, misclassifies those non fraud transactions as fraud cases. Imagine that people that were making regular purchases got their card blocked due to the reason that our model classified that transaction as a fraud transaction, this will be a huge disadvantage for the financial institution. The number of customer complaints and customer disatisfaction will increase.  The next step of this analysis will be to do an outlier removal on our oversample dataset and see if our accuracy in the test set improves. <br /><br /></p>
@@ -2596,6 +2926,8 @@ In this section we will implement a simple Neural Network (with one hidden layer
                                   
                                 
                                   
+                                
+                                  
                                     
                                   
                                 
@@ -2641,6 +2973,8 @@ In this section we will implement a simple Neural Network (with one hidden layer
                                             <li><a href="/%EC%A3%BC%EC%8B%9D%ED%88%AC%EC%9E%90%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%EC%A7%91">주식투자-수집</a></li>
                                         
                                     
+                                  
+                                
                                   
                                 
                                   

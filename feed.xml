@@ -1,4 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-04-10T21:10:23+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">TIL-Jira</title><link href="http://localhost:4000/TIL-Jira" rel="alternate" type="text/html" title="TIL-Jira" /><published>2023-04-07T00:00:00+09:00</published><updated>2023-04-07T00:00:00+09:00</updated><id>http://localhost:4000/TIL-Jira</id><content type="html" xml:base="http://localhost:4000/TIL-Jira">&lt;h1 id=&quot;jira&quot;&gt;Jira&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-04-15T01:05:30+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">공던지기</title><link href="http://localhost:4000/%EA%B3%B5%EB%8D%98%EC%A7%80%EA%B8%B0" rel="alternate" type="text/html" title="공던지기" /><published>2023-04-12T00:00:00+09:00</published><updated>2023-04-12T00:00:00+09:00</updated><id>http://localhost:4000/%EA%B3%B5%EB%8D%98%EC%A7%80%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/%EA%B3%B5%EB%8D%98%EC%A7%80%EA%B8%B0">&lt;h1 id=&quot;공던지기-문제&quot;&gt;공던지기 문제&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://school.programmers.co.kr/learn/courses/30/lessons/120843&quot;&gt;프로그래머스-공던지기&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;문제&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;배열 arr와 공던지는 횟수인 k개가 주어집니다.&lt;/li&gt;
+  &lt;li&gt;배열의 인덱스 0 -&amp;gt; 2 -&amp;gt; 4  이런식으로 2칸씩 이동합니다.&lt;/li&gt;
+  &lt;li&gt;단, 배열의 크기 n 을 넘으로 그만큼 0 인덱스에서 다시 시작합니다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;출력&lt;br /&gt;
+마지막 공을 던지는 인덱스&lt;/p&gt;
+
+&lt;p&gt;해결 알고리즘&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;마지막 공을 던지는 인덱스 이므로 k-1 번 반복합니다.&lt;/li&gt;
+  &lt;li&gt;배열의 2칸씩 이동하므로 기존 인덱스에 +2를 해줍니다.&lt;/li&gt;
+  &lt;li&gt;배열의 크기를 넘으면 안 되므로 (인덱스 값 % n)을 통해 조절해줍니다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;해당 코드를 작성하면&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def solution(numbers, k):
+    answer = 0
+    n = len(numbers)
+    for i in range(k-1):
+        answer = (answer+2) % n 
+    return numbers[answer]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;위와 같이 작성할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;더 간략하게 알고리즘을 작성해봅니다.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;2칸씩 (k-1)번 움직이는 것이므로 총 2*(k-1) 만큼 움직인다.&lt;/li&gt;
+  &lt;li&gt;총 이동 인덱스를 n으로 나머지를 구해줍니다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def solution(number, k):
+    return number[ (2 * (k-1)) % len(number)]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="programing" /><category term="python" /><summary type="html">공던지기 문제</summary></entry><entry><title type="html">TIL-Jira</title><link href="http://localhost:4000/TIL-Jira" rel="alternate" type="text/html" title="TIL-Jira" /><published>2023-04-07T00:00:00+09:00</published><updated>2023-04-07T00:00:00+09:00</updated><id>http://localhost:4000/TIL-Jira</id><content type="html" xml:base="http://localhost:4000/TIL-Jira">&lt;h1 id=&quot;jira&quot;&gt;Jira&lt;/h1&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;요약
 
@@ -137,6 +178,8 @@
 &lt;h2 id=&quot;소개&quot;&gt;소개&lt;/h2&gt;
 &lt;p&gt;이 커널은 다양한 예측 모델을 사용하여 &lt;strong&gt;거래가 정상적인 지불인지 사기인지 탐지하는데 얼마나 정확한지 확인&lt;/strong&gt;할 것입니다. 데이터 세트에 설명된 대로 요인의 크기가 조정되고 개인 정보 보호 문제로 인해 요인의 이름이 표시되지 않습니다. 그럼에도 불구하고, 우리는 여전히 데이터 세트의 몇 가지 &lt;strong&gt;중요한 측면&lt;/strong&gt;을 분석할 수 있습니다. 시작해봅시다.&lt;/p&gt;
 
+&lt;p&gt;&lt;span style=&quot;color:blue&quot;&gt; 사기 거래에 대한 추가 설명으로 신용카드 회사가 고객이 구매하지 않은 항목에 대해서 사기 거래로 탐지하여 비용이 청구되지 않도록 하는 것입니다. &lt;/span&gt;&lt;/p&gt;
+
 &lt;h2&gt; Our Goals: &lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt; Understand the little distribution of the &quot;little&quot; data that was provided to us. &lt;/li&gt;
@@ -205,7 +248,7 @@ b) &lt;a href=&quot;#neural_networks&quot;&gt;신경망 테스트(언더샘플�
 &lt;h2 id=&quot;불균형-데이터-세트의-이전-실수-수정&quot;&gt;불균형 데이터 세트의 이전 실수 수정:&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;오버샘플링 또는 언더 샘플링 데이터 세트에서는 절대 테스트하지 하세요.&lt;/li&gt;
-  &lt;li&gt;교차 검증을 구형하려면 교차 검증 중에 train 데이터를 과도하게 샘플링하거나 과소 샘플링하는 것을 잊지 마십시오. 이전에는 그렇지 않았습니다!&lt;/li&gt;
+  &lt;li&gt;교차 검증을 구현하려면 교차 검증 중에 train 데이터를 과도하게 샘플링하거나 과소 샘플링하는 것을 잊지 마십시오. 이전에는 그렇지 않았습니다!&lt;/li&gt;
   &lt;li&gt;불균형 데이터 세트 matrix로 정확한(Accuracy) 점수를 사용하지 마십시오(일반적으로 높고 오해의 소지가 있음). 대신 f1 점수, 정밀도/호출 점수 또는 혼동 행렬(confusion matrix)을 사용하세요.&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -1057,123 +1100,123 @@ Label Distributions:
   &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;th&gt;219477&lt;/th&gt;
-      &lt;td&gt;-0.027947&lt;/td&gt;
-      &lt;td&gt;0.670297&lt;/td&gt;
-      &lt;td&gt;1.981718&lt;/td&gt;
-      &lt;td&gt;0.084056&lt;/td&gt;
-      &lt;td&gt;-1.657433&lt;/td&gt;
-      &lt;td&gt;0.285592&lt;/td&gt;
-      &lt;td&gt;0.328588&lt;/td&gt;
-      &lt;td&gt;-0.773846&lt;/td&gt;
-      &lt;td&gt;0.124599&lt;/td&gt;
-      &lt;td&gt;-0.204654&lt;/td&gt;
+      &lt;th&gt;122184&lt;/th&gt;
+      &lt;td&gt;-0.092224&lt;/td&gt;
+      &lt;td&gt;-0.096665&lt;/td&gt;
+      &lt;td&gt;1.096144&lt;/td&gt;
+      &lt;td&gt;0.198668&lt;/td&gt;
+      &lt;td&gt;-0.156906&lt;/td&gt;
+      &lt;td&gt;0.703266&lt;/td&gt;
+      &lt;td&gt;1.054722&lt;/td&gt;
+      &lt;td&gt;1.577221&lt;/td&gt;
+      &lt;td&gt;-0.026891&lt;/td&gt;
+      &lt;td&gt;0.337371&lt;/td&gt;
       &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;-0.055698&lt;/td&gt;
-      &lt;td&gt;-0.193516&lt;/td&gt;
-      &lt;td&gt;-0.279140&lt;/td&gt;
-      &lt;td&gt;0.109042&lt;/td&gt;
-      &lt;td&gt;-0.412877&lt;/td&gt;
-      &lt;td&gt;-0.008591&lt;/td&gt;
-      &lt;td&gt;-0.094052&lt;/td&gt;
-      &lt;td&gt;-0.003720&lt;/td&gt;
-      &lt;td&gt;-0.029865&lt;/td&gt;
+      &lt;td&gt;-0.143850&lt;/td&gt;
+      &lt;td&gt;0.114563&lt;/td&gt;
+      &lt;td&gt;0.575651&lt;/td&gt;
+      &lt;td&gt;-0.101910&lt;/td&gt;
+      &lt;td&gt;-1.765628&lt;/td&gt;
+      &lt;td&gt;0.526712&lt;/td&gt;
+      &lt;td&gt;-0.152967&lt;/td&gt;
+      &lt;td&gt;0.091028&lt;/td&gt;
+      &lt;td&gt;0.001842&lt;/td&gt;
       &lt;td&gt;0&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;th&gt;42473&lt;/th&gt;
-      &lt;td&gt;-0.254454&lt;/td&gt;
-      &lt;td&gt;-0.511942&lt;/td&gt;
-      &lt;td&gt;-3.600544&lt;/td&gt;
-      &lt;td&gt;4.519047&lt;/td&gt;
-      &lt;td&gt;-6.340884&lt;/td&gt;
-      &lt;td&gt;6.214767&lt;/td&gt;
-      &lt;td&gt;-5.829558&lt;/td&gt;
-      &lt;td&gt;-2.478095&lt;/td&gt;
-      &lt;td&gt;-9.938412&lt;/td&gt;
-      &lt;td&gt;2.830086&lt;/td&gt;
+      &lt;th&gt;116139&lt;/th&gt;
+      &lt;td&gt;0.767694&lt;/td&gt;
+      &lt;td&gt;-0.123744&lt;/td&gt;
+      &lt;td&gt;-1.548788&lt;/td&gt;
+      &lt;td&gt;1.808698&lt;/td&gt;
+      &lt;td&gt;-0.953509&lt;/td&gt;
+      &lt;td&gt;2.213085&lt;/td&gt;
+      &lt;td&gt;-2.015728&lt;/td&gt;
+      &lt;td&gt;-0.913457&lt;/td&gt;
+      &lt;td&gt;-2.356013&lt;/td&gt;
+      &lt;td&gt;1.197169&lt;/td&gt;
       &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;1.384743&lt;/td&gt;
-      &lt;td&gt;2.263770&lt;/td&gt;
-      &lt;td&gt;0.620749&lt;/td&gt;
-      &lt;td&gt;-0.094069&lt;/td&gt;
-      &lt;td&gt;0.536719&lt;/td&gt;
-      &lt;td&gt;0.398142&lt;/td&gt;
-      &lt;td&gt;0.008277&lt;/td&gt;
-      &lt;td&gt;2.053524&lt;/td&gt;
-      &lt;td&gt;0.835749&lt;/td&gt;
+      &lt;td&gt;0.390786&lt;/td&gt;
+      &lt;td&gt;0.855138&lt;/td&gt;
+      &lt;td&gt;0.774745&lt;/td&gt;
+      &lt;td&gt;0.059037&lt;/td&gt;
+      &lt;td&gt;0.343200&lt;/td&gt;
+      &lt;td&gt;-0.468938&lt;/td&gt;
+      &lt;td&gt;-0.278338&lt;/td&gt;
+      &lt;td&gt;0.625922&lt;/td&gt;
+      &lt;td&gt;0.395573&lt;/td&gt;
       &lt;td&gt;1&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;th&gt;236639&lt;/th&gt;
-      &lt;td&gt;-0.266192&lt;/td&gt;
-      &lt;td&gt;0.754250&lt;/td&gt;
-      &lt;td&gt;2.329280&lt;/td&gt;
-      &lt;td&gt;-0.996064&lt;/td&gt;
-      &lt;td&gt;-1.466978&lt;/td&gt;
-      &lt;td&gt;-1.813964&lt;/td&gt;
-      &lt;td&gt;-0.553143&lt;/td&gt;
-      &lt;td&gt;-0.765076&lt;/td&gt;
-      &lt;td&gt;-0.610683&lt;/td&gt;
-      &lt;td&gt;-0.314480&lt;/td&gt;
+      &lt;th&gt;204521&lt;/th&gt;
+      &lt;td&gt;0.083840&lt;/td&gt;
+      &lt;td&gt;0.594779&lt;/td&gt;
+      &lt;td&gt;-1.635628&lt;/td&gt;
+      &lt;td&gt;0.190823&lt;/td&gt;
+      &lt;td&gt;-0.042933&lt;/td&gt;
+      &lt;td&gt;-1.926723&lt;/td&gt;
+      &lt;td&gt;1.403739&lt;/td&gt;
+      &lt;td&gt;-1.775181&lt;/td&gt;
+      &lt;td&gt;1.305257&lt;/td&gt;
+      &lt;td&gt;-0.641480&lt;/td&gt;
       &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;-0.347988&lt;/td&gt;
-      &lt;td&gt;-0.255511&lt;/td&gt;
-      &lt;td&gt;-0.304625&lt;/td&gt;
-      &lt;td&gt;0.319128&lt;/td&gt;
-      &lt;td&gt;0.752311&lt;/td&gt;
-      &lt;td&gt;-0.145672&lt;/td&gt;
-      &lt;td&gt;-0.371917&lt;/td&gt;
-      &lt;td&gt;-0.020493&lt;/td&gt;
-      &lt;td&gt;-0.059228&lt;/td&gt;
+      &lt;td&gt;-0.623723&lt;/td&gt;
+      &lt;td&gt;-0.263745&lt;/td&gt;
+      &lt;td&gt;0.163846&lt;/td&gt;
+      &lt;td&gt;-0.960925&lt;/td&gt;
+      &lt;td&gt;0.144301&lt;/td&gt;
+      &lt;td&gt;1.332132&lt;/td&gt;
+      &lt;td&gt;1.017021&lt;/td&gt;
+      &lt;td&gt;-0.081181&lt;/td&gt;
+      &lt;td&gt;-0.064023&lt;/td&gt;
       &lt;td&gt;0&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;th&gt;154697&lt;/th&gt;
-      &lt;td&gt;-0.201355&lt;/td&gt;
-      &lt;td&gt;0.210682&lt;/td&gt;
-      &lt;td&gt;-4.221221&lt;/td&gt;
-      &lt;td&gt;2.871121&lt;/td&gt;
-      &lt;td&gt;-5.888716&lt;/td&gt;
-      &lt;td&gt;6.890952&lt;/td&gt;
-      &lt;td&gt;-3.404894&lt;/td&gt;
-      &lt;td&gt;-1.154394&lt;/td&gt;
-      &lt;td&gt;-7.739928&lt;/td&gt;
-      &lt;td&gt;2.851363&lt;/td&gt;
+      &lt;th&gt;144108&lt;/th&gt;
+      &lt;td&gt;4.030182&lt;/td&gt;
+      &lt;td&gt;0.013804&lt;/td&gt;
+      &lt;td&gt;-3.586964&lt;/td&gt;
+      &lt;td&gt;2.609127&lt;/td&gt;
+      &lt;td&gt;-5.568577&lt;/td&gt;
+      &lt;td&gt;3.631947&lt;/td&gt;
+      &lt;td&gt;-4.543590&lt;/td&gt;
+      &lt;td&gt;-0.157899&lt;/td&gt;
+      &lt;td&gt;-4.089128&lt;/td&gt;
+      &lt;td&gt;2.417305&lt;/td&gt;
       &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;-0.227882&lt;/td&gt;
-      &lt;td&gt;1.620591&lt;/td&gt;
-      &lt;td&gt;1.567947&lt;/td&gt;
-      &lt;td&gt;-0.578007&lt;/td&gt;
-      &lt;td&gt;-0.059045&lt;/td&gt;
-      &lt;td&gt;-1.829169&lt;/td&gt;
-      &lt;td&gt;-0.072429&lt;/td&gt;
-      &lt;td&gt;0.136734&lt;/td&gt;
-      &lt;td&gt;-0.599848&lt;/td&gt;
+      &lt;td&gt;-0.178534&lt;/td&gt;
+      &lt;td&gt;1.024423&lt;/td&gt;
+      &lt;td&gt;0.428756&lt;/td&gt;
+      &lt;td&gt;0.182032&lt;/td&gt;
+      &lt;td&gt;-0.534598&lt;/td&gt;
+      &lt;td&gt;0.168933&lt;/td&gt;
+      &lt;td&gt;-0.149844&lt;/td&gt;
+      &lt;td&gt;0.685517&lt;/td&gt;
+      &lt;td&gt;-0.299728&lt;/td&gt;
       &lt;td&gt;1&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;th&gt;6446&lt;/th&gt;
-      &lt;td&gt;-0.293440&lt;/td&gt;
-      &lt;td&gt;-0.904851&lt;/td&gt;
-      &lt;td&gt;0.702710&lt;/td&gt;
-      &lt;td&gt;2.426433&lt;/td&gt;
-      &lt;td&gt;-5.234513&lt;/td&gt;
-      &lt;td&gt;4.416661&lt;/td&gt;
-      &lt;td&gt;-2.170806&lt;/td&gt;
-      &lt;td&gt;-2.667554&lt;/td&gt;
-      &lt;td&gt;-3.878088&lt;/td&gt;
-      &lt;td&gt;0.911337&lt;/td&gt;
+      &lt;th&gt;39183&lt;/th&gt;
+      &lt;td&gt;10.547474&lt;/td&gt;
+      &lt;td&gt;-0.528237&lt;/td&gt;
+      &lt;td&gt;-0.964567&lt;/td&gt;
+      &lt;td&gt;-1.643541&lt;/td&gt;
+      &lt;td&gt;-0.187727&lt;/td&gt;
+      &lt;td&gt;1.158253&lt;/td&gt;
+      &lt;td&gt;-2.458336&lt;/td&gt;
+      &lt;td&gt;0.852222&lt;/td&gt;
+      &lt;td&gt;2.785163&lt;/td&gt;
+      &lt;td&gt;-0.303609&lt;/td&gt;
       &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;0.422743&lt;/td&gt;
-      &lt;td&gt;0.551180&lt;/td&gt;
-      &lt;td&gt;-0.009802&lt;/td&gt;
-      &lt;td&gt;0.721698&lt;/td&gt;
-      &lt;td&gt;0.473246&lt;/td&gt;
-      &lt;td&gt;-1.959304&lt;/td&gt;
-      &lt;td&gt;0.319476&lt;/td&gt;
-      &lt;td&gt;0.600485&lt;/td&gt;
-      &lt;td&gt;0.129305&lt;/td&gt;
+      &lt;td&gt;1.784449&lt;/td&gt;
+      &lt;td&gt;0.447180&lt;/td&gt;
+      &lt;td&gt;0.536204&lt;/td&gt;
+      &lt;td&gt;1.634061&lt;/td&gt;
+      &lt;td&gt;0.203839&lt;/td&gt;
+      &lt;td&gt;0.218749&lt;/td&gt;
+      &lt;td&gt;-0.221886&lt;/td&gt;
+      &lt;td&gt;-0.308555&lt;/td&gt;
+      &lt;td&gt;-0.164500&lt;/td&gt;
       &lt;td&gt;1&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
@@ -1204,6 +1247,8 @@ Name: Class, dtype: float64
 &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Equally Distributed Classed&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fontsize&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;14&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_24_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/229357741-6b3ea131-0d26-4088-bf25-5b071902a5f3.png&quot; width=&quot;50%&quot; /&gt;&lt;/p&gt;
 
@@ -1250,6 +1295,8 @@ Name: Class, dtype: float64
 &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
+&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_27_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/229357742-c9f3c001-ff83-4813-9cd1-4403da33dca7.png&quot; width=&quot;90%&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;axes&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subplots&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ncols&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;figsize&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
@@ -1271,6 +1318,8 @@ Name: Class, dtype: float64
 &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
+&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_29_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/229357744-9585f4ed-adb6-48e9-b26c-83d1ad6c6f38.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;axes&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subplots&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ncols&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;figsize&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
@@ -1291,6 +1340,8 @@ Name: Class, dtype: float64
 &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_31_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/229357745-375b625d-848f-4416-a546-41b82486e2e1.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
 
@@ -1462,19 +1513,19 @@ Cut Off: 8.114853173228282
 V14 Lower: -17.807576138200666
 V14 Upper: 3.8320323237414167
 Feature V14 Outliers for Fraud Cases: 4
-V14 outliers:[-19.2143254902614, -18.8220867423816, -18.4937733551053, -18.0499976898594]
+V14 outliers:[-19.2143254902614, -18.4937733551053, -18.0499976898594, -18.8220867423816]
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 V12 Lower: -17.3430371579634
 V12 Upper: 5.776973384895937
-V12 outliers: [-18.6837146333443, -18.4311310279993, -18.5536970096458, -18.0475965708216]
+V12 outliers: [-18.5536970096458, -18.4311310279993, -18.0475965708216, -18.6837146333443]
 Feature V12 Outliers for Fraud Cases: 4
 Number of Instances after outliers removal: 975
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 V10 Lower: -14.89885463232024
 V10 Upper: 4.92033495834214
-V10 outliers: [-15.1237521803455, -16.6011969664137, -16.2556117491401, -16.6496281595399, -20.9491915543611, -22.1870885620007, -22.1870885620007, -15.1241628144947, -14.9246547735487, -14.9246547735487, -24.5882624372475, -16.3035376590131, -24.4031849699728, -15.5637913387301, -15.5637913387301, -15.2318333653018, -15.2399619587112, -16.7460441053944, -15.2399619587112, -23.2282548357516, -18.9132433348732, -17.1415136412892, -18.2711681738888, -19.836148851696, -22.1870885620007, -15.3460988468775, -22.1870885620007]
+V10 outliers: [-22.1870885620007, -15.2399619587112, -16.7460441053944, -14.9246547735487, -23.2282548357516, -14.9246547735487, -20.9491915543611, -16.6011969664137, -15.3460988468775, -15.5637913387301, -18.9132433348732, -16.6496281595399, -22.1870885620007, -15.2318333653018, -15.1237521803455, -15.2399619587112, -15.5637913387301, -17.1415136412892, -19.836148851696, -16.3035376590131, -24.5882624372475, -22.1870885620007, -18.2711681738888, -15.1241628144947, -22.1870885620007, -16.2556117491401, -24.4031849699728]
 Feature V10 Outliers for Fraud Cases: 27
-Number of Instances after outliers removal: 946
+Number of Instances after outliers removal: 943
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ax1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ax2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ax3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subplots&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;figsize&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
@@ -1544,7 +1595,7 @@ Number of Instances after outliers removal: 946
 &lt;h3 id=&quot;요약-3&quot;&gt;요약:&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;t-SNE 알고리즘은 데이터 세트에서 Fraud 및 Non-Fraud 사례를 매우 정확하게 클러스터링 할 수 있습니다.&lt;/li&gt;
-  &lt;li&gt;하위 샘플은 매우 작지만, t-SNE 알고리즘은 모든 시나이로에서 클러스터를 매우 정확하게 감지할 수 있습니다.(t-SNE를 실행하기 전에 데이터 세트를 섞습니다.)&lt;/li&gt;
+  &lt;li&gt;하위 샘플은 매우 작지만, t-SNE 알고리즘은 모든 시나리오에서 클러스터를 매우 정확하게 감지할 수 있습니다.(t-SNE를 실행하기 전에 데이터 세트를 섞습니다.)&lt;/li&gt;
   &lt;li&gt;이는 추가 예측 모델이 Fraud 및 Non-Fraud 사례를 구분하는 데 매우 우수한 성능을 발휘할 수 있음을 나타냅니다.&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -1572,21 +1623,9 @@ Number of Instances after outliers removal: 946
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Truncated SVD took {:.2} s&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;t0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;T-SNE took 4.7 s
-PCA took 0.052 s
-Truncated SVD took 0.003 s
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;깃-commit-템플릿-사용&quot;&gt;깃 commit 템플릿 사용&lt;/h1&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ax1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ax2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ax3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subplots&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;figsize&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;24&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;suptitle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Clusters using Dimensionality Reduction&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fontsize&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;14&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;blue_patch&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mpatches&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Patch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;#0A0AFF&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;label&lt;/span&gt;
-
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;T-SNE took 3.3 s
+PCA took 0.015 s
+Truncated SVD took 0.002 s
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ax1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ax2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ax3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subplots&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;figsize&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;24&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
@@ -1628,6 +1667,8 @@ Truncated SVD took 0.003 s
 
 &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_39_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
 
 &lt;h2&gt; Classifiers (UnderSampling):  &lt;/h2&gt;
 &lt;p&gt;&lt;a id=&quot;classifiers&quot;&gt;&lt;/a&gt;
@@ -1686,6 +1727,12 @@ In this section we will train four types of classifiers and decide which classif
     &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Classifiers: &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;classifier&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__class__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__name__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Has a training score of&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;round&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;training_score&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mean&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;% accuracy score&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Classifiers:  LogisticRegression Has a training score of 94.0 % accuracy score
+Classifiers:  KNeighborsClassifier Has a training score of 93.0 % accuracy score
+Classifiers:  SVC Has a training score of 93.0 % accuracy score
+Classifiers:  DecisionTreeClassifier Has a training score of 90.0 % accuracy score
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Use GridSearchCV to find the best parameters.
 &lt;/span&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sklearn.model_selection&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GridSearchCV&lt;/span&gt;
 
@@ -1741,6 +1788,12 @@ In this section we will train four types of classifiers and decide which classif
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;DecisionTree Classifier Cross Validation Score&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;round&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tree_score&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mean&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;astype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;%&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Logistic Regression Cross Validation Score:  94.3%
+Knears Neighbors Cross Validation Score 92.97%
+Support Vector Classifier Cross Validation Score 94.17%
+DecisionTree Classifier Cross Validation Score 91.64%
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# We will undersample during cross validating
 &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;undersample_X&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;drop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Class&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;axis&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;undersample_y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Class&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
@@ -1763,8 +1816,13 @@ In this section we will train four types of classifiers and decide which classif
 
 &lt;span class=&quot;c1&quot;&gt;# Implementing NearMiss Technique 
 # Distribution of NearMiss (Just to see how it distributes the labels we won&apos;t use these variables)
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;X_nearmiss&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y_nearmiss&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;NearMiss&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fit_sample&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;undersample_X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;values&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;undersample_y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;values&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;NearMiss Label Distribution: {}&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Counter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y_nearmiss&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
+&lt;/span&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;imblearn.under_sampling&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;RandomUnderSampler&lt;/span&gt;  
+
+&lt;span class=&quot;n&quot;&gt;under_sampler&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;RandomUnderSampler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;X_nearmiss&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y_nearmiss&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;under_sampler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fit_resample&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;undersample_X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;values&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;undersample_y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;values&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# X_nearmiss, y_nearmiss = NearMiss().fit_sample(undersample_X.values, undersample_y.values)
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;NearMiss Label Distribution: {}&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Counter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y_nearmiss&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;# Cross Validating the right way
 &lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;test&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sss&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;undersample_Xtrain&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;undersample_ytrain&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
@@ -1777,6 +1835,14 @@ In this section we will train four types of classifiers and decide which classif
     &lt;span class=&quot;n&quot;&gt;undersample_recall&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;recall_score&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;original_ytrain&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;undersample_prediction&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;undersample_f1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;f1_score&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;original_ytrain&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;undersample_prediction&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;undersample_auc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;roc_auc_score&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;original_ytrain&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;undersample_prediction&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Train: [ 56016  56963  56964 ... 284804 284805 284806] Test: [    0     1     2 ... 56960 56961 56962]
+Train: [     0      1      2 ... 284804 284805 284806] Test: [ 56016  56963  56964 ... 116256 118787 118918]
+Train: [     0      1      2 ... 284804 284805 284806] Test: [113919 113920 113921 ... 180037 180301 180370]
+Train: [     0      1      2 ... 284804 284805 284806] Test: [170872 170873 170874 ... 229984 230294 230438]
+Train: [     0      1      2 ... 229984 230294 230438] Test: [227840 227841 227842 ... 284804 284805 284806]
+NearMiss Label Distribution: Counter({0: 492, 1: 492})
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Let&apos;s Plot LogisticRegression Learning Curve
@@ -1882,6 +1948,11 @@ In this section we will train four types of classifiers and decide which classif
 &lt;span class=&quot;n&quot;&gt;plot_learning_curve&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log_reg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;knears_neighbors&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;svc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tree_clf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;X_train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y_train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.87&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;1.01&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cv&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n_jobs&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;module &apos;matplotlib.pyplot&apos; from &apos;C:\\Users\\master\\anaconda3\\envs\\chanp5660\\lib\\site-packages\\matplotlib\\pyplot.py&apos;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_50_1.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sklearn.metrics&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;roc_curve&lt;/span&gt;
 &lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sklearn.model_selection&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cross_val_predict&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;# Create a DataFrame with all the scores and the classifiers names.
@@ -1903,6 +1974,12 @@ In this section we will train four types of classifiers and decide which classif
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;KNears Neighbors: &apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;roc_auc_score&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y_train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;knears_pred&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Support Vector Classifier: &apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;roc_auc_score&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y_train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;svc_pred&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Decision Tree Classifier: &apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;roc_auc_score&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y_train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tree_pred&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Logistic Regression:  0.9819356837125479
+KNears Neighbors:  0.9290028722685288
+Support Vector Classifier:  0.9764093827438612
+Decision Tree Classifier:  0.9153525568821806
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;log_fpr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;log_tpr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;log_thresold&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;roc_curve&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y_train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;log_reg_pred&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
@@ -1930,6 +2007,8 @@ In this section we will train four types of classifiers and decide which classif
 &lt;span class=&quot;n&quot;&gt;graph_roc_curve_multiple&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log_fpr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;log_tpr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;knear_fpr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;knear_tpr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;svc_fpr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;svc_tpr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tree_fpr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tree_tpr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_53_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;a-deeper-look-into-logisticregression&quot;&gt;A Deeper Look into LogisticRegression:&lt;/h2&gt;
 &lt;p&gt;&lt;a id=&quot;logistic&quot;&gt;&lt;/a&gt;
@@ -1967,6 +2046,8 @@ In this section we will ive a deeper look into the &lt;b&gt; logistic regression
 &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
+&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_55_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sklearn.metrics&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;precision_recall_curve&lt;/span&gt;
 
 &lt;span class=&quot;n&quot;&gt;precision&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;recall&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;threshold&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;precision_recall_curve&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y_train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;log_reg_pred&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
@@ -1994,6 +2075,24 @@ In this section we will ive a deeper look into the &lt;b&gt; logistic regression
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;---&apos;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;45&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---------------------------------------------------------------------------------------------------------------------------------------
+Overfitting: 
+
+Recall Score: 0.93
+Precision Score: 0.73
+F1 Score: 0.82
+Accuracy Score: 0.80
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+How it should be:
+
+Accuracy Score: 0.79
+Precision Score: 0.00
+Recall Score: 0.22
+F1 Score: 0.00
+---------------------------------------------------------------------------------------------------------------------------------------
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;undersample_y_score&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;log_reg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;decision_function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;original_Xtest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
@@ -2003,6 +2102,9 @@ In this section we will ive a deeper look into the &lt;b&gt; logistic regression
 
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Average precision-recall score: {0:0.2f}&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
       &lt;span class=&quot;n&quot;&gt;undersample_average_precision&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Average precision-recall score: 0.07
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sklearn.metrics&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;precision_recall_curve&lt;/span&gt;
@@ -2024,6 +2126,11 @@ In this section we will ive a deeper look into the &lt;b&gt; logistic regression
 &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;UnderSampling Precision-Recall curve: &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt; Average Precision-Recall Score ={0:0.2f}&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
           &lt;span class=&quot;n&quot;&gt;undersample_average_precision&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fontsize&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Text(0.5, 1.0, &apos;UnderSampling Precision-Recall curve: \n Average Precision-Recall Score =0.07&apos;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_60_1.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;smote-technique-over-sampling&quot;&gt;SMOTE Technique (Over-Sampling):&lt;/h3&gt;
 &lt;p&gt;&lt;a id=&quot;smote&quot;&gt;&lt;/a&gt;
@@ -2109,9 +2216,30 @@ DEALING WITH IMBALANCED DATA: UNDERSAMPLING, OVERSAMPLING AND PROPER CROSS-VALID
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;---&apos;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;45&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Length of X (train): 227846 | Length of y (train): 227846
+Length of X (test): 56961 | Length of y (test): 56961
+---------------------------------------------------------------------------------------------------------------------------------------
+
+accuracy: 0.9708093972022731
+precision: 0.06528802853097392
+recall: 0.9111976630963973
+f1: 0.12065454676338967
+---------------------------------------------------------------------------------------------------------------------------------------
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;labels&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;No Fraud&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;Fraud&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;smote_prediction&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;best_est&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;predict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;original_Xtest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;classification_report&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;original_ytest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;smote_prediction&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;target_names&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;labels&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;              precision    recall  f1-score   support
+
+    No Fraud       1.00      0.99      0.99     56863
+       Fraud       0.11      0.85      0.20        98
+
+    accuracy                           0.99     56961
+   macro avg       0.56      0.92      0.60     56961
+weighted avg       1.00      0.99      0.99     56961
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;y_score&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;best_est&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;decision_function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;original_Xtest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
@@ -2121,6 +2249,9 @@ DEALING WITH IMBALANCED DATA: UNDERSAMPLING, OVERSAMPLING AND PROPER CROSS-VALID
 
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Average precision-recall score: {0:0.2f}&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
       &lt;span class=&quot;n&quot;&gt;average_precision&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Average precision-recall score: 0.76
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;fig&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;figure&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;figsize&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
@@ -2140,13 +2271,20 @@ DEALING WITH IMBALANCED DATA: UNDERSAMPLING, OVERSAMPLING AND PROPER CROSS-VALID
           &lt;span class=&quot;n&quot;&gt;average_precision&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fontsize&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Text(0.5, 1.0, &apos;OverSampling Precision-Recall curve: \n Average Precision-Recall Score =0.76&apos;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_66_1.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# SMOTE Technique (OverSampling) After splitting and Cross Validating
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sm&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;SMOTE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ratio&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;minority&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;random_state&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+#sm = SMOTE(ratio=&apos;minority&apos;, random_state=42) 
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sm&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;SMOTE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sampling_strategy&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;auto&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;random_state&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
 &lt;span class=&quot;c1&quot;&gt;# Xsm_train, ysm_train = sm.fit_sample(X_train, y_train)
 &lt;/span&gt;
 
 &lt;span class=&quot;c1&quot;&gt;# This will be the data were we are going to 
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Xsm_train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ysm_train&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fit_sample&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;original_Xtrain&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;original_ytrain&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Xsm_train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ysm_train&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fit_resample&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;original_Xtrain&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;original_ytrain&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# We Improve the score by 2% points approximately 
@@ -2158,6 +2296,9 @@ DEALING WITH IMBALANCED DATA: UNDERSAMPLING, OVERSAMPLING AND PROPER CROSS-VALID
 &lt;span class=&quot;n&quot;&gt;log_reg_sm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Xsm_train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ysm_train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;t1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Fitting oversample data took :{} sec&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;t0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Fitting oversample data took :4.898994207382202 sec
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h1 id=&quot;test-data-with-logistic-regression&quot;&gt;Test Data with Logistic Regression:&lt;/h1&gt;
@@ -2223,6 +2364,8 @@ DEALING WITH IMBALANCED DATA: UNDERSAMPLING, OVERSAMPLING AND PROPER CROSS-VALID
 &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
+&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_70_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sklearn.metrics&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;classification_report&lt;/span&gt;
 
 
@@ -2237,6 +2380,47 @@ DEALING WITH IMBALANCED DATA: UNDERSAMPLING, OVERSAMPLING AND PROPER CROSS-VALID
 
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Support Vector Classifier:&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;classification_report&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y_test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y_pred_tree&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Logistic Regression:
+              precision    recall  f1-score   support
+
+           0       0.92      0.99      0.95       100
+           1       0.99      0.90      0.94        89
+
+    accuracy                           0.95       189
+   macro avg       0.95      0.94      0.95       189
+weighted avg       0.95      0.95      0.95       189
+
+KNears Neighbors:
+              precision    recall  f1-score   support
+
+           0       0.91      0.96      0.93       100
+           1       0.95      0.89      0.92        89
+
+    accuracy                           0.93       189
+   macro avg       0.93      0.92      0.93       189
+weighted avg       0.93      0.93      0.93       189
+
+Support Vector Classifier:
+              precision    recall  f1-score   support
+
+           0       0.91      0.98      0.94       100
+           1       0.98      0.89      0.93        89
+
+    accuracy                           0.94       189
+   macro avg       0.94      0.93      0.94       189
+weighted avg       0.94      0.94      0.94       189
+
+Support Vector Classifier:
+              precision    recall  f1-score   support
+
+           0       0.90      0.94      0.92       100
+           1       0.93      0.89      0.91        89
+
+    accuracy                           0.92       189
+   macro avg       0.92      0.91      0.91       189
+weighted avg       0.92      0.92      0.92       189
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Final Score in the test set of logistic regression
@@ -2264,6 +2448,58 @@ DEALING WITH IMBALANCED DATA: UNDERSAMPLING, OVERSAMPLING AND PROPER CROSS-VALID
 &lt;span class=&quot;c1&quot;&gt;# Note how high is accuracy score it can be misleading! 
 &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;final_df&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div style=&quot;width:100%&quot;&gt; 
+ &lt;details&gt; 
+&lt;summary&gt;&lt;span style=&quot;color:blue&quot;&gt;출력 보기(클릭)&lt;/span&gt;&lt;/summary&gt;
+
+
+
+&lt;div class=&quot;my-table&quot;&gt;
+&lt;style scoped=&quot;&quot;&gt;
+    .my-table {
+        width:100%;
+        height:300px;
+    }
+    .dataframe {
+        height: 95%;
+    }
+        .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+&lt;/style&gt;
+&lt;table border=&quot;1&quot; class=&quot;dataframe&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr style=&quot;text-align: right;&quot;&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;Technique&lt;/th&gt;
+      &lt;th&gt;Score&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;0&lt;/th&gt;
+      &lt;td&gt;Random UnderSampling&lt;/td&gt;
+      &lt;td&gt;0.947090&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;1&lt;/th&gt;
+      &lt;td&gt;Oversampling (SMOTE)&lt;/td&gt;
+      &lt;td&gt;0.988115&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/details&gt;
+&lt;/div&gt;
 
 &lt;h2 id=&quot;neural-networks-testing-random-undersampling-data-vs-oversampling-smote&quot;&gt;Neural Networks Testing Random UnderSampling Data vs OverSampling (SMOTE):&lt;/h2&gt;
 &lt;p&gt;&lt;a id=&quot;neural_networks&quot;&gt;&lt;/a&gt;
@@ -2308,17 +2544,83 @@ In this section we will implement a simple Neural Network (with one hidden layer
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;undersample_model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;summary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Model: &quot;sequential&quot;
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense (Dense)               (None, 30)                930       
+                                                                 
+ dense_1 (Dense)             (None, 32)                992       
+                                                                 
+ dense_2 (Dense)             (None, 2)                 66        
+                                                                 
+=================================================================
+Total params: 1,988
+Trainable params: 1,988
+Non-trainable params: 0
+_________________________________________________________________
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;undersample_model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;compile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Adam&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.001&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;loss&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;sparse_categorical_crossentropy&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;metrics&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;accuracy&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;undersample_model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;X_train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y_train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;validation_split&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;batch_size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;25&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;epochs&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;shuffle&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;verbose&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Epoch 1/20
+25/25 - 1s - loss: 0.5016 - accuracy: 0.7131 - val_loss: 0.4120 - val_accuracy: 0.7748 - 1s/epoch - 41ms/step
+Epoch 2/20
+25/25 - 0s - loss: 0.2984 - accuracy: 0.8856 - val_loss: 0.3205 - val_accuracy: 0.9205 - 78ms/epoch - 3ms/step
+Epoch 3/20
+25/25 - 0s - loss: 0.2374 - accuracy: 0.9254 - val_loss: 0.2717 - val_accuracy: 0.9272 - 105ms/epoch - 4ms/step
+Epoch 4/20
+25/25 - 0s - loss: 0.1981 - accuracy: 0.9320 - val_loss: 0.2426 - val_accuracy: 0.9338 - 97ms/epoch - 4ms/step
+Epoch 5/20
+25/25 - 0s - loss: 0.1732 - accuracy: 0.9386 - val_loss: 0.2241 - val_accuracy: 0.9404 - 111ms/epoch - 4ms/step
+Epoch 6/20
+25/25 - 0s - loss: 0.1569 - accuracy: 0.9436 - val_loss: 0.2117 - val_accuracy: 0.9338 - 109ms/epoch - 4ms/step
+Epoch 7/20
+25/25 - 0s - loss: 0.1433 - accuracy: 0.9453 - val_loss: 0.2042 - val_accuracy: 0.9404 - 83ms/epoch - 3ms/step
+Epoch 8/20
+25/25 - 0s - loss: 0.1338 - accuracy: 0.9486 - val_loss: 0.2012 - val_accuracy: 0.9338 - 81ms/epoch - 3ms/step
+Epoch 9/20
+25/25 - 0s - loss: 0.1268 - accuracy: 0.9469 - val_loss: 0.1998 - val_accuracy: 0.9338 - 78ms/epoch - 3ms/step
+Epoch 10/20
+25/25 - 0s - loss: 0.1198 - accuracy: 0.9502 - val_loss: 0.1953 - val_accuracy: 0.9470 - 89ms/epoch - 4ms/step
+Epoch 11/20
+25/25 - 0s - loss: 0.1150 - accuracy: 0.9502 - val_loss: 0.1985 - val_accuracy: 0.9404 - 85ms/epoch - 3ms/step
+Epoch 12/20
+25/25 - 0s - loss: 0.1081 - accuracy: 0.9569 - val_loss: 0.1987 - val_accuracy: 0.9338 - 87ms/epoch - 3ms/step
+Epoch 13/20
+25/25 - 0s - loss: 0.1046 - accuracy: 0.9602 - val_loss: 0.2006 - val_accuracy: 0.9338 - 82ms/epoch - 3ms/step
+Epoch 14/20
+25/25 - 0s - loss: 0.0992 - accuracy: 0.9602 - val_loss: 0.2023 - val_accuracy: 0.9205 - 82ms/epoch - 3ms/step
+Epoch 15/20
+25/25 - 0s - loss: 0.0959 - accuracy: 0.9619 - val_loss: 0.1991 - val_accuracy: 0.9272 - 82ms/epoch - 3ms/step
+Epoch 16/20
+25/25 - 0s - loss: 0.0914 - accuracy: 0.9635 - val_loss: 0.1999 - val_accuracy: 0.9338 - 82ms/epoch - 3ms/step
+Epoch 17/20
+25/25 - 0s - loss: 0.0878 - accuracy: 0.9652 - val_loss: 0.2041 - val_accuracy: 0.9470 - 80ms/epoch - 3ms/step
+Epoch 18/20
+25/25 - 0s - loss: 0.0845 - accuracy: 0.9652 - val_loss: 0.2035 - val_accuracy: 0.9338 - 95ms/epoch - 4ms/step
+Epoch 19/20
+25/25 - 0s - loss: 0.0815 - accuracy: 0.9685 - val_loss: 0.2028 - val_accuracy: 0.9470 - 99ms/epoch - 4ms/step
+Epoch 20/20
+25/25 - 0s - loss: 0.0786 - accuracy: 0.9652 - val_loss: 0.2048 - val_accuracy: 0.9470 - 94ms/epoch - 4ms/step
+
+
+
+
+
+&amp;lt;keras.callbacks.History at 0x239d300bc48&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;undersample_predictions&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;undersample_model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;predict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;original_Xtest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;batch_size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;verbose&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;undersample_fraud_predictions&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;undersample_model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;predict_classes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;original_Xtest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;batch_size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;verbose&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;undersample_fraud_proba&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;undersample_model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;predict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;original_Xtest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;batch_size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;verbose&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 예측 확률값 계산
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;undersample_fraud_predictions&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;argmax&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;undersample_fraud_proba&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;axis&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 예측 클래스 결정
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;itertools&lt;/span&gt;
 
@@ -2371,6 +2673,16 @@ In this section we will implement a simple Neural Network (with one hidden layer
 &lt;span class=&quot;n&quot;&gt;plot_confusion_matrix&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;actual_cm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;labels&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Confusion Matrix &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt; (with 100% accuracy)&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cmap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Greens&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Confusion matrix, without normalization
+[[54963  1900]
+ [    6    92]]
+Confusion matrix, without normalization
+[[56863     0]
+ [    0    98]]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_81_1.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+
 &lt;h3 id=&quot;keras--oversampling-smote&quot;&gt;Keras || OverSampling (SMOTE):&lt;/h3&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;n_inputs&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Xsm_train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;shape&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
@@ -2388,11 +2700,60 @@ In this section we will implement a simple Neural Network (with one hidden layer
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;oversample_model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Xsm_train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ysm_train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;validation_split&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;batch_size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;300&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;epochs&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;shuffle&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;verbose&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Epoch 1/20
+1214/1214 - 3s - loss: 0.0769 - accuracy: 0.9696 - val_loss: 0.0295 - val_accuracy: 0.9903 - 3s/epoch - 3ms/step
+Epoch 2/20
+1214/1214 - 3s - loss: 0.0157 - accuracy: 0.9961 - val_loss: 0.0138 - val_accuracy: 0.9986 - 3s/epoch - 2ms/step
+Epoch 3/20
+1214/1214 - 3s - loss: 0.0081 - accuracy: 0.9982 - val_loss: 0.0051 - val_accuracy: 0.9997 - 3s/epoch - 2ms/step
+Epoch 4/20
+1214/1214 - 3s - loss: 0.0056 - accuracy: 0.9988 - val_loss: 0.0013 - val_accuracy: 1.0000 - 3s/epoch - 2ms/step
+Epoch 5/20
+1214/1214 - 3s - loss: 0.0042 - accuracy: 0.9991 - val_loss: 0.0032 - val_accuracy: 0.9998 - 3s/epoch - 2ms/step
+Epoch 6/20
+1214/1214 - 3s - loss: 0.0034 - accuracy: 0.9993 - val_loss: 0.0168 - val_accuracy: 0.9983 - 3s/epoch - 3ms/step
+Epoch 7/20
+1214/1214 - 3s - loss: 0.0030 - accuracy: 0.9994 - val_loss: 0.0027 - val_accuracy: 0.9999 - 3s/epoch - 3ms/step
+Epoch 8/20
+1214/1214 - 3s - loss: 0.0027 - accuracy: 0.9995 - val_loss: 0.0015 - val_accuracy: 1.0000 - 3s/epoch - 3ms/step
+Epoch 9/20
+1214/1214 - 3s - loss: 0.0024 - accuracy: 0.9995 - val_loss: 6.3834e-04 - val_accuracy: 1.0000 - 3s/epoch - 2ms/step
+Epoch 10/20
+1214/1214 - 3s - loss: 0.0021 - accuracy: 0.9996 - val_loss: 0.0012 - val_accuracy: 0.9999 - 3s/epoch - 3ms/step
+Epoch 11/20
+1214/1214 - 3s - loss: 0.0018 - accuracy: 0.9996 - val_loss: 0.0012 - val_accuracy: 0.9998 - 3s/epoch - 2ms/step
+Epoch 12/20
+1214/1214 - 3s - loss: 0.0017 - accuracy: 0.9996 - val_loss: 3.3734e-04 - val_accuracy: 1.0000 - 3s/epoch - 2ms/step
+Epoch 13/20
+1214/1214 - 3s - loss: 0.0016 - accuracy: 0.9997 - val_loss: 9.1454e-04 - val_accuracy: 1.0000 - 3s/epoch - 3ms/step
+Epoch 14/20
+1214/1214 - 3s - loss: 0.0014 - accuracy: 0.9997 - val_loss: 7.4361e-04 - val_accuracy: 1.0000 - 3s/epoch - 2ms/step
+Epoch 15/20
+1214/1214 - 3s - loss: 0.0014 - accuracy: 0.9997 - val_loss: 0.0024 - val_accuracy: 0.9993 - 3s/epoch - 2ms/step
+Epoch 16/20
+1214/1214 - 3s - loss: 0.0012 - accuracy: 0.9997 - val_loss: 7.2585e-04 - val_accuracy: 1.0000 - 3s/epoch - 2ms/step
+Epoch 17/20
+1214/1214 - 3s - loss: 0.0011 - accuracy: 0.9998 - val_loss: 3.6759e-04 - val_accuracy: 0.9999 - 3s/epoch - 2ms/step
+Epoch 18/20
+1214/1214 - 3s - loss: 0.0010 - accuracy: 0.9998 - val_loss: 2.6780e-04 - val_accuracy: 1.0000 - 3s/epoch - 2ms/step
+Epoch 19/20
+1214/1214 - 3s - loss: 0.0015 - accuracy: 0.9997 - val_loss: 0.0010 - val_accuracy: 1.0000 - 3s/epoch - 2ms/step
+Epoch 20/20
+1214/1214 - 3s - loss: 9.7896e-04 - accuracy: 0.9998 - val_loss: 0.0014 - val_accuracy: 1.0000 - 3s/epoch - 2ms/step
+
+
+
+
+
+&amp;lt;keras.callbacks.History at 0x239e9e05148&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;oversample_predictions&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;oversample_model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;predict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;original_Xtest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;batch_size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;verbose&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;oversample_fraud_predictions&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;oversample_model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;predict_classes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;original_Xtest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;batch_size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;verbose&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;oversample_fraud_proba&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;oversample_model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;predict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;original_Xtest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;batch_size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;verbose&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 예측 확률값 계산
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;oversample_fraud_predictions&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;argmax&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;oversample_fraud_proba&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;axis&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 예측 클래스 결정
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;oversample_smote&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;confusion_matrix&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;original_ytest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;oversample_fraud_predictions&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;actual_cm&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;confusion_matrix&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;original_ytest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;original_ytest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
@@ -2407,61 +2768,20 @@ In this section we will implement a simple Neural Network (with one hidden layer
 &lt;span class=&quot;n&quot;&gt;plot_confusion_matrix&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;actual_cm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;labels&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Confusion Matrix &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt; (with 100% accuracy)&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cmap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Greens&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Confusion matrix, without normalization
+[[56851    12]
+ [   28    70]]
+Confusion matrix, without normalization
+[[56863     0]
+ [    0    98]]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_88_1.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+
 &lt;h3 id=&quot;conclusion&quot;&gt;Conclusion:&lt;/h3&gt;
 &lt;p&gt;Implementing SMOTE on our imbalanced dataset helped us with the imbalance of our labels (more no fraud than fraud transactions). Nevertheless, I still have to state that sometimes the neural network on the oversampled dataset predicts less correct fraud transactions than our model using the undersample dataset. However, remember that the removal of outliers was implemented only on the random undersample dataset and not on the oversampled one. Also, in our undersample data our model is unable to detect for a large number of cases non fraud transactions correctly and instead, misclassifies those non fraud transactions as fraud cases. Imagine that people that were making regular purchases got their card blocked due to the reason that our model classified that transaction as a fraud transaction, this will be a huge disadvantage for the financial institution. The number of customer complaints and customer disatisfaction will increase.  The next step of this analysis will be to do an outlier removal on our oversample dataset and see if our accuracy in the test set improves. &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; One last thing, predictions and accuracies may be subjected to change since I implemented data shuffling on both types of dataframes. The main thing is to see if our models are able to correctly classify no fraud and fraud transactions. I will bring more updates, stay tuned!&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="project" /><summary type="html">신용카드 사기 탐지 (Credit Card Fraud Detection)</summary></entry><entry><title type="html">TIL-한국기상브레인스토밍</title><link href="http://localhost:4000/TIL-%ED%95%9C%EA%B5%AD%EA%B8%B0%EC%83%81-%EB%B8%8C%EB%A0%88%EC%9D%B8%EC%8A%A4%ED%86%A0%EB%B0%8D" rel="alternate" type="text/html" title="TIL-한국기상브레인스토밍" /><published>2023-03-29T00:00:00+09:00</published><updated>2023-03-29T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%ED%95%9C%EA%B5%AD%EA%B8%B0%EC%83%81%20%EB%B8%8C%EB%A0%88%EC%9D%B8%EC%8A%A4%ED%86%A0%EB%B0%8D</id><content type="html" xml:base="http://localhost:4000/TIL-%ED%95%9C%EA%B5%AD%EA%B8%B0%EC%83%81-%EB%B8%8C%EB%A0%88%EC%9D%B8%EC%8A%A4%ED%86%A0%EB%B0%8D">&lt;h1 id=&quot;한국-기상-브레인스토밍&quot;&gt;한국 기상 브레인스토밍&lt;/h1&gt;
-
-&lt;h2 id=&quot;하드웨어&quot;&gt;하드웨어&lt;/h2&gt;
-
-&lt;h3 id=&quot;기상예보용-슈퍼컴퓨팅&quot;&gt;기상예보용 슈퍼컴퓨팅&lt;/h3&gt;
-&lt;p&gt;한국은 기상예보용 슈퍼컴퓨터 개발에 투자하고 있습니다. 기상청은 수치예보와 기후모델링에 사용되는 고성능 컴퓨팅 시스템인 ‘해란’을 운영하고 있다.&lt;/p&gt;
-
-&lt;h3 id=&quot;기상-레이더-및-관측-네트워크&quot;&gt;기상 레이더 및 관측 네트워크&lt;/h3&gt;
-&lt;p&gt;한국은 실시간 기상 데이터를 제공하는 광범위한 기상 레이더 및 관측소 네트워크를 보유하고 있습니다. 기상청은 기상예보의 정확도를 높이고 악천후 조기 경보를 제공하기 위해 이 네트워크를 지속적으로 확장 및 업그레이드하고 있습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;ai&quot;&gt;AI&lt;/h2&gt;
-
-&lt;h3 id=&quot;일기예보를-위한-인공지능&quot;&gt;일기예보를 위한 인공지능&lt;/h3&gt;
-&lt;p&gt;한국도 일기예보를 위한 인공지능(AI) 활용에 투자하고 있습니다. 기상청은 머신러닝을 활용해 기상예보 정확도를 높이는 AI 기반 시스템 ‘WIIS(Weather Integrated Information System)’를 개발했다.&lt;/p&gt;
-
-&lt;h2 id=&quot;대기-오염&quot;&gt;대기 오염&lt;/h2&gt;
-
-&lt;h3 id=&quot;대기-오염-예측&quot;&gt;대기 오염 예측&lt;/h3&gt;
-&lt;p&gt;한국은 개선된 대기 오염 예측 모델을 개발하기 위해 노력하고 있습니다. 이것은 특히 도시 지역에서 국가의 대기 오염 수준이 높기 때문에 중요합니다. 기상청은 실시간 데이터를 활용해 대기오염도를 예측하는 대기질 예보시스템을 운영하고 있다.&lt;/p&gt;
-
-&lt;h2 id=&quot;재난&quot;&gt;재난&lt;/h2&gt;
-
-&lt;h3 id=&quot;재난-예방-및-대응&quot;&gt;재난 예방 및 대응&lt;/h3&gt;
-&lt;p&gt;한국은 태풍, 홍수, 산사태 등 기상 관련 재난을 포함한 재난 예방 및 대응 능력을 향상시키기 위해 노력하고 있습니다. 기상청은 실시간 기상정보를 제공하고 경보를 발령하여 인명과 재산을 보호합니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;농업&quot;&gt;농업&lt;/h2&gt;
-
-&lt;h3 id=&quot;농업-기상-예보&quot;&gt;농업 기상 예보&lt;/h3&gt;
-&lt;p&gt;한국은 농민의 요구에 맞는 기상 예보 시스템을 개발하고 있습니다. 기상청은 농업인의 현명한 판단을 돕기 위해 기상예보 및 농작물 관리정보를 제공하는 농업기상정보서비스를 운영하고 있습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;교육&quot;&gt;교육&lt;/h2&gt;
-
-&lt;h3 id=&quot;기상-교육-및-아웃리치&quot;&gt;기상 교육 및 아웃리치&lt;/h3&gt;
-&lt;p&gt;한국은 기상 및 기후 문제에 대한 대중의 이해를 높이기 위해 노력하고 있습니다. 기상청은 학교와 대중을 위한 교육 프로그램을 제공하고 있으며, 대중에게 기상 정보와 예보를 제공하기 위한 모바일 앱 및 기타 도구도 개발하고 있습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;기후변화-연구&quot;&gt;기후변화 연구&lt;/h2&gt;
-
-&lt;h3 id=&quot;기후-변화-연구&quot;&gt;기후 변화 연구&lt;/h3&gt;
-&lt;p&gt;한국은 또한 기후 변화가 국가의 날씨 패턴에 미치는 영향에 대한 연구에 투자하고 있습니다. 기상청은 미래 기후 시나리오를 보다 정확하게 예측할 수 있는 기후모델 개발을 위해 노력하고 있으며, 기후변화가 농업, 수자원 및 기타 부문에 미치는 영향을 연구하고 있습니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;기상-모니터링-및-연구-인프라&quot;&gt;기상 모니터링 및 연구 인프라&lt;/h3&gt;
-&lt;p&gt;한국은 기상 모니터링 및 연구 인프라 개발에 투자하고 있습니다. 기상청은 대기관측 및 측정을 위한 연구센터 및 시설을 운영하고 있으며, 자료수집 및 분석능력 향상을 위해 노력하고 있습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;우주기상&quot;&gt;우주기상&lt;/h2&gt;
-
-&lt;h3 id=&quot;우주기상예보&quot;&gt;우주기상예보&lt;/h3&gt;
-&lt;p&gt;한국도 우주기상예보 능력 개발에 투자하고 있다. 우주 기상은 통신 및 내비게이션 시스템은 물론 전력망 및 기타 중요한 인프라에 영향을 미칠 수 있습니다. 기상청은 우주 기상 현상과 그 영향을 예측하는 모델을 개발하기 위해 노력하고 있습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;뉴스&quot;&gt;뉴스&lt;/h2&gt;
-
-&lt;p&gt;2027년 항공기 착륙부터 이륙까지 단계별 기상예보 제공한다&lt;br /&gt;
-&lt;a href=&quot;https://m.dongascience.com/news.php?idx=55206&quot;&gt;항공기 착륙부터 이륙까지 단계별 기상예보 제공한다&lt;/a&gt;&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">한국 기상 브레인스토밍</summary></entry><entry><title type="html">힙정렬</title><link href="http://localhost:4000/%ED%9E%99%EC%A0%95%EB%A0%AC" rel="alternate" type="text/html" title="힙정렬" /><published>2023-03-29T00:00:00+09:00</published><updated>2023-03-29T00:00:00+09:00</updated><id>http://localhost:4000/%ED%9E%99%EC%A0%95%EB%A0%AC</id><content type="html" xml:base="http://localhost:4000/%ED%9E%99%EC%A0%95%EB%A0%AC">&lt;h1 id=&quot;힙정렬-heap-sorting&quot;&gt;힙정렬 Heap Sorting&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; One last thing, predictions and accuracies may be subjected to change since I implemented data shuffling on both types of dataframes. The main thing is to see if our models are able to correctly classify no fraud and fraud transactions. I will bring more updates, stay tuned!&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="project" /><summary type="html">신용카드 사기 탐지 (Credit Card Fraud Detection)</summary></entry><entry><title type="html">힙정렬</title><link href="http://localhost:4000/%ED%9E%99%EC%A0%95%EB%A0%AC" rel="alternate" type="text/html" title="힙정렬" /><published>2023-03-29T00:00:00+09:00</published><updated>2023-03-29T00:00:00+09:00</updated><id>http://localhost:4000/%ED%9E%99%EC%A0%95%EB%A0%AC</id><content type="html" xml:base="http://localhost:4000/%ED%9E%99%EC%A0%95%EB%A0%AC">&lt;h1 id=&quot;힙정렬-heap-sorting&quot;&gt;힙정렬 Heap Sorting&lt;/h1&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;힙정렬(Heap Sort)은 완전 이진트리 구조를 이용한 정렬 알고리즘으로서, 선택정렬(Selection Sort)의 개선된 버전으로 볼 수 있습니다. 힙정렬은 정렬되지 않은 리스트를 최대 힙(Max Heap)이나 최소 힙(Min Heap)으로 만든 다음, 루트 노드를 추출하여 정렬된 리스트에 추가하는 방식으로 동작합니다.&lt;/p&gt;
@@ -2612,7 +2932,58 @@ In this section we will implement a simple Neural Network (with one hidden layer
   &lt;li&gt;Sunke Schmidtko 외의 “해양학의 인공 지능 및 기계 학습: 현재 응용 프로그램 및 과제”. 이 백서는 데이터 전처리, 데이터 분석 및 데이터 동화를 포함하여 해양학에서 인공 지능 및 기계 학습의 현재 상태에 대한 포괄적인 검토를 제공합니다.&lt;/li&gt;
   &lt;li&gt;“해양 데이터 분석을 위한 딥러닝: 고주파 레이더 데이터를 사용한 사례 연구” 조성진 외. 본 논문은 해류 매핑을 위한 고주파 레이더 데이터에 딥러닝을 적용한 사례 연구를 제시한다.&lt;/li&gt;
   &lt;li&gt;Annette Stahl 및 Jörn Kohlus의 “해양 데이터 분석을 위한 기계 학습 기술: 검토”. 이 백서는 클러스터링, 분류 및 회귀를 포함하여 해양 데이터 분석에 사용되는 기계 학습 기술에 대한 리뷰를 제공합니다.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">한국 해양 브레인스토밍</summary></entry><entry><title type="html">TIL-t-SNE</title><link href="http://localhost:4000/TIL-t-SNE" rel="alternate" type="text/html" title="TIL-t-SNE" /><published>2023-03-28T00:00:00+09:00</published><updated>2023-03-28T00:00:00+09:00</updated><id>http://localhost:4000/TIL-t-SNE</id><content type="html" xml:base="http://localhost:4000/TIL-t-SNE">&lt;h1 id=&quot;t-sne&quot;&gt;t-SNE&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">한국 해양 브레인스토밍</summary></entry><entry><title type="html">TIL-한국기상브레인스토밍</title><link href="http://localhost:4000/TIL-%ED%95%9C%EA%B5%AD%EA%B8%B0%EC%83%81-%EB%B8%8C%EB%A0%88%EC%9D%B8%EC%8A%A4%ED%86%A0%EB%B0%8D" rel="alternate" type="text/html" title="TIL-한국기상브레인스토밍" /><published>2023-03-29T00:00:00+09:00</published><updated>2023-03-29T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%ED%95%9C%EA%B5%AD%EA%B8%B0%EC%83%81%20%EB%B8%8C%EB%A0%88%EC%9D%B8%EC%8A%A4%ED%86%A0%EB%B0%8D</id><content type="html" xml:base="http://localhost:4000/TIL-%ED%95%9C%EA%B5%AD%EA%B8%B0%EC%83%81-%EB%B8%8C%EB%A0%88%EC%9D%B8%EC%8A%A4%ED%86%A0%EB%B0%8D">&lt;h1 id=&quot;한국-기상-브레인스토밍&quot;&gt;한국 기상 브레인스토밍&lt;/h1&gt;
+
+&lt;h2 id=&quot;하드웨어&quot;&gt;하드웨어&lt;/h2&gt;
+
+&lt;h3 id=&quot;기상예보용-슈퍼컴퓨팅&quot;&gt;기상예보용 슈퍼컴퓨팅&lt;/h3&gt;
+&lt;p&gt;한국은 기상예보용 슈퍼컴퓨터 개발에 투자하고 있습니다. 기상청은 수치예보와 기후모델링에 사용되는 고성능 컴퓨팅 시스템인 ‘해란’을 운영하고 있다.&lt;/p&gt;
+
+&lt;h3 id=&quot;기상-레이더-및-관측-네트워크&quot;&gt;기상 레이더 및 관측 네트워크&lt;/h3&gt;
+&lt;p&gt;한국은 실시간 기상 데이터를 제공하는 광범위한 기상 레이더 및 관측소 네트워크를 보유하고 있습니다. 기상청은 기상예보의 정확도를 높이고 악천후 조기 경보를 제공하기 위해 이 네트워크를 지속적으로 확장 및 업그레이드하고 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;ai&quot;&gt;AI&lt;/h2&gt;
+
+&lt;h3 id=&quot;일기예보를-위한-인공지능&quot;&gt;일기예보를 위한 인공지능&lt;/h3&gt;
+&lt;p&gt;한국도 일기예보를 위한 인공지능(AI) 활용에 투자하고 있습니다. 기상청은 머신러닝을 활용해 기상예보 정확도를 높이는 AI 기반 시스템 ‘WIIS(Weather Integrated Information System)’를 개발했다.&lt;/p&gt;
+
+&lt;h2 id=&quot;대기-오염&quot;&gt;대기 오염&lt;/h2&gt;
+
+&lt;h3 id=&quot;대기-오염-예측&quot;&gt;대기 오염 예측&lt;/h3&gt;
+&lt;p&gt;한국은 개선된 대기 오염 예측 모델을 개발하기 위해 노력하고 있습니다. 이것은 특히 도시 지역에서 국가의 대기 오염 수준이 높기 때문에 중요합니다. 기상청은 실시간 데이터를 활용해 대기오염도를 예측하는 대기질 예보시스템을 운영하고 있다.&lt;/p&gt;
+
+&lt;h2 id=&quot;재난&quot;&gt;재난&lt;/h2&gt;
+
+&lt;h3 id=&quot;재난-예방-및-대응&quot;&gt;재난 예방 및 대응&lt;/h3&gt;
+&lt;p&gt;한국은 태풍, 홍수, 산사태 등 기상 관련 재난을 포함한 재난 예방 및 대응 능력을 향상시키기 위해 노력하고 있습니다. 기상청은 실시간 기상정보를 제공하고 경보를 발령하여 인명과 재산을 보호합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;농업&quot;&gt;농업&lt;/h2&gt;
+
+&lt;h3 id=&quot;농업-기상-예보&quot;&gt;농업 기상 예보&lt;/h3&gt;
+&lt;p&gt;한국은 농민의 요구에 맞는 기상 예보 시스템을 개발하고 있습니다. 기상청은 농업인의 현명한 판단을 돕기 위해 기상예보 및 농작물 관리정보를 제공하는 농업기상정보서비스를 운영하고 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;교육&quot;&gt;교육&lt;/h2&gt;
+
+&lt;h3 id=&quot;기상-교육-및-아웃리치&quot;&gt;기상 교육 및 아웃리치&lt;/h3&gt;
+&lt;p&gt;한국은 기상 및 기후 문제에 대한 대중의 이해를 높이기 위해 노력하고 있습니다. 기상청은 학교와 대중을 위한 교육 프로그램을 제공하고 있으며, 대중에게 기상 정보와 예보를 제공하기 위한 모바일 앱 및 기타 도구도 개발하고 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;기후변화-연구&quot;&gt;기후변화 연구&lt;/h2&gt;
+
+&lt;h3 id=&quot;기후-변화-연구&quot;&gt;기후 변화 연구&lt;/h3&gt;
+&lt;p&gt;한국은 또한 기후 변화가 국가의 날씨 패턴에 미치는 영향에 대한 연구에 투자하고 있습니다. 기상청은 미래 기후 시나리오를 보다 정확하게 예측할 수 있는 기후모델 개발을 위해 노력하고 있으며, 기후변화가 농업, 수자원 및 기타 부문에 미치는 영향을 연구하고 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;기상-모니터링-및-연구-인프라&quot;&gt;기상 모니터링 및 연구 인프라&lt;/h3&gt;
+&lt;p&gt;한국은 기상 모니터링 및 연구 인프라 개발에 투자하고 있습니다. 기상청은 대기관측 및 측정을 위한 연구센터 및 시설을 운영하고 있으며, 자료수집 및 분석능력 향상을 위해 노력하고 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;우주기상&quot;&gt;우주기상&lt;/h2&gt;
+
+&lt;h3 id=&quot;우주기상예보&quot;&gt;우주기상예보&lt;/h3&gt;
+&lt;p&gt;한국도 우주기상예보 능력 개발에 투자하고 있다. 우주 기상은 통신 및 내비게이션 시스템은 물론 전력망 및 기타 중요한 인프라에 영향을 미칠 수 있습니다. 기상청은 우주 기상 현상과 그 영향을 예측하는 모델을 개발하기 위해 노력하고 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;뉴스&quot;&gt;뉴스&lt;/h2&gt;
+
+&lt;p&gt;2027년 항공기 착륙부터 이륙까지 단계별 기상예보 제공한다&lt;br /&gt;
+&lt;a href=&quot;https://m.dongascience.com/news.php?idx=55206&quot;&gt;항공기 착륙부터 이륙까지 단계별 기상예보 제공한다&lt;/a&gt;&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">한국 기상 브레인스토밍</summary></entry><entry><title type="html">TIL-t-SNE</title><link href="http://localhost:4000/TIL-t-SNE" rel="alternate" type="text/html" title="TIL-t-SNE" /><published>2023-03-28T00:00:00+09:00</published><updated>2023-03-28T00:00:00+09:00</updated><id>http://localhost:4000/TIL-t-SNE</id><content type="html" xml:base="http://localhost:4000/TIL-t-SNE">&lt;h1 id=&quot;t-sne&quot;&gt;t-SNE&lt;/h1&gt;
 
 &lt;p&gt;t-Distributed Stochastic Neighbor Embedding의 약자&lt;/p&gt;
 
@@ -2853,28 +3224,4 @@ In this section we will implement a simple Neural Network (with one hidden layer
   &lt;li&gt;&lt;a href=&quot;https://soco.seoul.go.kr/soHouse/pgm/home/sohome/list.do?menuNo=300006&quot;&gt;내집찾기 링크&lt;/a&gt;에서 바로 신청해볼 수 있습니다.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/227238721-22e6f20d-d02a-4b1e-818d-07fe595123b9.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">청년주거정책</summary></entry><entry><title type="html">날짜시간(Pandas)</title><link href="http://localhost:4000/%EB%82%A0%EC%A7%9C%EC%8B%9C%EA%B0%84_pandas" rel="alternate" type="text/html" title="날짜시간(Pandas)" /><published>2023-03-21T00:00:00+09:00</published><updated>2023-03-21T00:00:00+09:00</updated><id>http://localhost:4000/%EB%82%A0%EC%A7%9C%EC%8B%9C%EA%B0%84_pandas</id><content type="html" xml:base="http://localhost:4000/%EB%82%A0%EC%A7%9C%EC%8B%9C%EA%B0%84_pandas">&lt;h1 id=&quot;날짜--시간-데이터-pandas&quot;&gt;날짜 &amp;amp; 시간 데이터 (Pandas)&lt;/h1&gt;
-
-&lt;p&gt;파이썬에서 날짜 &amp;amp; 시간 데이터를 다루는 방법을 알아보고 실행해 보겠습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://durian9s-coding-tree.tistory.com/8&quot;&gt;티스토리 블로그&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://datascienceschool.net/01%20python/04.08%20%EC%8B%9C%EA%B3%84%EC%97%B4%20%EC%9E%90%EB%A3%8C%20%EB%8B%A4%EB%A3%A8%EA%B8%B0.html#datetimeindex&quot;&gt;데이터 사이언스 스쿨 - 시계열 자료 다루기&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;pandasdt&quot;&gt;Pandas.dt&lt;/h1&gt;
-
-&lt;p&gt;데이터 형식은 datetime64 로 일자와 시간 정보를 제공합니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;pdto_datetime&quot;&gt;pd.to_datetime()&lt;/h3&gt;
-
-&lt;p&gt;날짜, 시간을 나타내는 문자열을 datetime64 자료형으로 변형합니다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;pddate_range&quot;&gt;pd.date_range()&lt;/h3&gt;
-
-&lt;p&gt;시작일과 종료일 또는 시작일과 기간을 입력하면 범위 내의 날짜, 시간에 해당되는 datetime64 형식의 데이터를 생성해줍니다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="programing" /><category term="python" /><summary type="html">날짜 &amp;amp; 시간 데이터 (Pandas)</summary></entry></feed>
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/227238721-22e6f20d-d02a-4b1e-818d-07fe595123b9.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">청년주거정책</summary></entry></feed>
