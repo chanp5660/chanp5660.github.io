@@ -1,4 +1,59 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-04-15T01:05:30+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">공던지기</title><link href="http://localhost:4000/%EA%B3%B5%EB%8D%98%EC%A7%80%EA%B8%B0" rel="alternate" type="text/html" title="공던지기" /><published>2023-04-12T00:00:00+09:00</published><updated>2023-04-12T00:00:00+09:00</updated><id>http://localhost:4000/%EA%B3%B5%EB%8D%98%EC%A7%80%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/%EA%B3%B5%EB%8D%98%EC%A7%80%EA%B8%B0">&lt;h1 id=&quot;공던지기-문제&quot;&gt;공던지기 문제&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-04-15T14:10:42+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">TIL-Imbalanced_data</title><link href="http://localhost:4000/TIL-Imbalanced_data" rel="alternate" type="text/html" title="TIL-Imbalanced_data" /><published>2023-04-15T00:00:00+09:00</published><updated>2023-04-15T00:00:00+09:00</updated><id>http://localhost:4000/TIL-Imbalanced_data</id><content type="html" xml:base="http://localhost:4000/TIL-Imbalanced_data">&lt;h1 id=&quot;imbalanced-data-다루는-방법&quot;&gt;Imbalanced data 다루는 방법&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;머신러닝을 다룰 때 학습 데이터에서 발생하는 Imbalanced data를 다루는 방법&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;발생-및-해결해야하는-이유&quot;&gt;발생 및 해결해야하는 이유&lt;/h2&gt;
+
+&lt;p&gt;학습 데이터에서 각 클래스 레이블의 분포가 불균형(Imbalanced)하게 분포되어 있을 때 발생합니다.&lt;br /&gt;
+불균형 데이터셋에서는 모델이 소수 클래스를 잘 예측하지 못하므로 데이터를 처리해서 잘 예측할 수 있도록 해야합니다.
+예를 들어, 어떤 이진 분류 문제에서 어떤 클래스는 다른 클래스보다 매우 적은 샘플을 가지고 있는 경우가 있습니다.&lt;br /&gt;
+상황을 예로 들면 암 진단 문제에서 양성 샘플이 매우 적은 경우, 모델은 거의 항상 음성 클래스를 예측하려고 할 수 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;해결-방법&quot;&gt;해결 방법&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;샘플링 기법
+    &lt;ul&gt;
+      &lt;li&gt;데이터 샘플링을 조절하는 방법으로 소수 클래스 샘플 수를 늘리거나 다수 클래스 샘플 수를 줄이는 것입니다. 방법은 언더샘플링, 오버샘플링이 존재합니다.&lt;/li&gt;
+      &lt;li&gt;언더샘플링은 다수 클래스의 샘플 수를 줄여 적은 데이터의 분포에 맞춥니다.&lt;/li&gt;
+      &lt;li&gt;오버샘플링은 소수 클래스의 샘플 수를 증가 시켜 다수 클래스의 샘플 분포에 맞춥니다.&lt;/li&gt;
+      &lt;li&gt;클래스 변경이라고 하기도 합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;가중치 부여
+    &lt;ul&gt;
+      &lt;li&gt;학습 알고리즘에서 소수 클래스를 더 중요하게 취급할 수 있도록 가중치를 부여할 수 있습니다.&lt;/li&gt;
+      &lt;li&gt;이를 통해 소수 클래스에 더 많은 비중을 두어 학습이 더 효과적으로 이루어질 수 있습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;앙상블 방법
+    &lt;ul&gt;
+      &lt;li&gt;여러 모델을 학습하여 그 결과를 결합함으로써, 소수 클래스의 샘플을 보다 정확하게 분류할 수 있습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;모델-관련-고려-사항&quot;&gt;모델 관련 고려 사항&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;평가 방법
+    &lt;ul&gt;
+      &lt;li&gt;정밀도, 재현율, F1 점수 등의 다른 지표를 사용해야 합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;데이터 전처리&lt;/li&gt;
+  &lt;li&gt;독립 변수 선택 및 추출&lt;/li&gt;
+  &lt;li&gt;하이퍼파라미터 튜닝&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;주의사항&quot;&gt;주의사항&lt;/h2&gt;
+
+&lt;p&gt;모든 기술의 적합한지에 대한 것은 데이터셋의 특성, 문제의 복자도, 모델의 종류 등 다양한 요인을 고려해야합니다.
+따라서, 적절한 기술을 선택하기 위해서는 데이터셋을 충분히 이해하고 해당 문제에 대한 이해도가 필요합니다.&lt;/p&gt;
+
+&lt;p&gt;예를 들어, 데이터셋이 매우 크다면 언더샘플링보다는 오버샘플링이 더 효과적일 수 있습니다.&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">Imbalanced data 다루는 방법</summary></entry><entry><title type="html">공던지기</title><link href="http://localhost:4000/%EA%B3%B5%EB%8D%98%EC%A7%80%EA%B8%B0" rel="alternate" type="text/html" title="공던지기" /><published>2023-04-12T00:00:00+09:00</published><updated>2023-04-12T00:00:00+09:00</updated><id>http://localhost:4000/%EA%B3%B5%EB%8D%98%EC%A7%80%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/%EA%B3%B5%EB%8D%98%EC%A7%80%EA%B8%B0">&lt;h1 id=&quot;공던지기-문제&quot;&gt;공던지기 문제&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://school.programmers.co.kr/learn/courses/30/lessons/120843&quot;&gt;프로그래머스-공던지기&lt;/a&gt;&lt;/p&gt;
 
@@ -3143,85 +3198,4 @@ Confusion matrix, without normalization
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1
 2
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="programing" /><category term="python" /><summary type="html">날짜 &amp;amp; 시간 데이터 (datatime)</summary></entry><entry><title type="html">TIL-청년주거정책</title><link href="http://localhost:4000/TIL-%EC%B2%AD%EB%85%84%EC%A3%BC%EA%B1%B0%EC%A0%95%EC%B1%85" rel="alternate" type="text/html" title="TIL-청년주거정책" /><published>2023-03-23T00:00:00+09:00</published><updated>2023-03-23T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%EC%B2%AD%EB%85%84%EC%A3%BC%EA%B1%B0%EC%A0%95%EC%B1%85</id><content type="html" xml:base="http://localhost:4000/TIL-%EC%B2%AD%EB%85%84%EC%A3%BC%EA%B1%B0%EC%A0%95%EC%B1%85">&lt;h1 id=&quot;청년주거정책&quot;&gt;청년주거정책&lt;/h1&gt;
-
-&lt;p&gt;서울살이를 하기 위한 청년주거정책에 대한 정보를 알아보고 정리합니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=5CfSOrQfsUk&quot;&gt;월세 10만원에 괜찮은 집에 사는 방법, 청년주거정책 총정리&lt;/a&gt;라는 유투브에서 간단한 설명을 참고할 수 있습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;중소기업-청년대출-대출-대상-탈락&quot;&gt;중소기업 청년대출 (대출 대상 탈락)&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://nhuf.molit.go.kr/FP/FP05/FP0502/FP05020603.jsp&quot;&gt;주택도시기금&lt;/a&gt; 링크를 참고할 수 있습니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/227223984-a813d91e-32e0-41e7-8cdc-3e59b90e3353.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;lh-청년-전세-임대신청-가능&quot;&gt;LH 청년 전세 임대(신청 가능)&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.lh.or.kr/contents/cont.do?sCode=user&amp;amp;mId=234&amp;amp;mPid=231&quot;&gt;LH&lt;/a&gt; 링크를 참고할 수 있습니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/227223635-7c59281d-b067-469d-900b-0f9105ca2d60.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/227226341-0563ef55-d2fe-40db-a962-957f50a2b8ba.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/227226716-bea27d92-3afc-4dc7-8a9a-fc3bc2f07de0.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;기숙사형-청년주택신청가능&quot;&gt;기숙사형 청년주택(신청가능)&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.lh.or.kr/contents/cont.do?sCode=user&amp;amp;mPid=231&amp;amp;mId=601&amp;amp;menuYear=&quot;&gt;LH&lt;/a&gt; 링크를 참고할 수 있습니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/227227506-cddc2240-24e7-4a50-88a0-87eeb449f5a0.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/227227714-920d99d1-4ceb-4ae3-a23e-06e28c28f94f.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;청년매입임대주택신청가능&quot;&gt;청년매입임대주택(신청가능)&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.lh.or.kr/contents/cont.do?sCode=user&amp;amp;mPid=231&amp;amp;mId=233&amp;amp;menuYear=&quot;&gt;LH&lt;/a&gt; 링크를 참고할 수 있습니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/227228638-1fe46dfc-f089-4be0-80c9-971c945441cc.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/227228872-c05d0661-deac-40f0-a83b-4d0d9a530d45.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;행복주택신청가능&quot;&gt;행복주택(신청가능)&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.lh.or.kr/contents/cont.do?sCode=user&amp;amp;mPid=231&amp;amp;mId=232&amp;amp;menuYear=&quot;&gt;LH&lt;/a&gt; 링크를 참고할 수 있습니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/227229584-2310c8a0-8520-477d-88a1-17e104fea73c.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/227229758-931d523c-4a11-42f1-b1b7-96356a6aeb02.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;역세권-청년주택신청가능&quot;&gt;역세권 청년주택(신청가능)&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;상세 내용은 &lt;a href=&quot;https://soco.seoul.go.kr/youth/main/contents.do?menuNo=400012&quot;&gt;역세권 청년주택&lt;/a&gt; 링크에서 살펴볼 수 있습니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://soco.seoul.go.kr/youth/pgm/home/yohome/supportYouth1.do?menuNo=400039&quot;&gt;자격 확인 링크&lt;/a&gt;
-&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/227233599-e5fa44d6-bf0d-4ed6-8183-769a28d3287d.png&quot; width=&quot;90%&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://soco.seoul.go.kr/youth/main/contents.do?menuNo=400014&quot;&gt;역세권 청년주택 공급현황 및 계획 링크&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/227234554-b015dbe7-0d68-4ac1-af6e-10b6d9b289ec.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;사회적주택신청가능&quot;&gt;사회적주택(신청가능)&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://soco.seoul.go.kr/soHouse/main/contents.do?menuNo=300007&quot;&gt;사회주택플랫폼 링크&lt;/a&gt;에서 자세한 내용을 살펴볼 수 있습니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/227235890-982233c7-158b-48b1-94f8-2d2e4a2e7a38.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://soco.seoul.go.kr/soHouse/pgm/home/sohome/list.do?menuNo=300006&quot;&gt;내집찾기 링크&lt;/a&gt;에서 바로 신청해볼 수 있습니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/227238721-22e6f20d-d02a-4b1e-818d-07fe595123b9.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">청년주거정책</summary></entry></feed>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="programing" /><category term="python" /><summary type="html">날짜 &amp;amp; 시간 데이터 (datatime)</summary></entry></feed>

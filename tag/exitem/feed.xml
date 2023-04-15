@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/exitem/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-04-15T01:05:30+09:00</updated>
+  <updated>2023-04-15T14:10:42+09:00</updated>
   <id>http://localhost:4000/tag/exitem/feed.xml</id>
 
   
@@ -30,6 +30,97 @@
   
   
 
+  
+    <entry>
+      <title type="html">TIL-Imbalanced_data</title>
+      <link href="http://localhost:4000/TIL-Imbalanced_data" rel="alternate" type="text/html" title="TIL-Imbalanced_data" />
+      <published>2023-04-15T00:00:00+09:00</published>
+      <updated>2023-04-15T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-Imbalanced_data</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-Imbalanced_data">&lt;h1 id=&quot;imbalanced-data-다루는-방법&quot;&gt;Imbalanced data 다루는 방법&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;머신러닝을 다룰 때 학습 데이터에서 발생하는 Imbalanced data를 다루는 방법&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;발생-및-해결해야하는-이유&quot;&gt;발생 및 해결해야하는 이유&lt;/h2&gt;
+
+&lt;p&gt;학습 데이터에서 각 클래스 레이블의 분포가 불균형(Imbalanced)하게 분포되어 있을 때 발생합니다.&lt;br /&gt;
+불균형 데이터셋에서는 모델이 소수 클래스를 잘 예측하지 못하므로 데이터를 처리해서 잘 예측할 수 있도록 해야합니다.
+예를 들어, 어떤 이진 분류 문제에서 어떤 클래스는 다른 클래스보다 매우 적은 샘플을 가지고 있는 경우가 있습니다.&lt;br /&gt;
+상황을 예로 들면 암 진단 문제에서 양성 샘플이 매우 적은 경우, 모델은 거의 항상 음성 클래스를 예측하려고 할 수 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;해결-방법&quot;&gt;해결 방법&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;샘플링 기법
+    &lt;ul&gt;
+      &lt;li&gt;데이터 샘플링을 조절하는 방법으로 소수 클래스 샘플 수를 늘리거나 다수 클래스 샘플 수를 줄이는 것입니다. 방법은 언더샘플링, 오버샘플링이 존재합니다.&lt;/li&gt;
+      &lt;li&gt;언더샘플링은 다수 클래스의 샘플 수를 줄여 적은 데이터의 분포에 맞춥니다.&lt;/li&gt;
+      &lt;li&gt;오버샘플링은 소수 클래스의 샘플 수를 증가 시켜 다수 클래스의 샘플 분포에 맞춥니다.&lt;/li&gt;
+      &lt;li&gt;클래스 변경이라고 하기도 합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;가중치 부여
+    &lt;ul&gt;
+      &lt;li&gt;학습 알고리즘에서 소수 클래스를 더 중요하게 취급할 수 있도록 가중치를 부여할 수 있습니다.&lt;/li&gt;
+      &lt;li&gt;이를 통해 소수 클래스에 더 많은 비중을 두어 학습이 더 효과적으로 이루어질 수 있습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;앙상블 방법
+    &lt;ul&gt;
+      &lt;li&gt;여러 모델을 학습하여 그 결과를 결합함으로써, 소수 클래스의 샘플을 보다 정확하게 분류할 수 있습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;모델-관련-고려-사항&quot;&gt;모델 관련 고려 사항&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;평가 방법
+    &lt;ul&gt;
+      &lt;li&gt;정밀도, 재현율, F1 점수 등의 다른 지표를 사용해야 합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;데이터 전처리&lt;/li&gt;
+  &lt;li&gt;독립 변수 선택 및 추출&lt;/li&gt;
+  &lt;li&gt;하이퍼파라미터 튜닝&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;주의사항&quot;&gt;주의사항&lt;/h2&gt;
+
+&lt;p&gt;모든 기술의 적합한지에 대한 것은 데이터셋의 특성, 문제의 복자도, 모델의 종류 등 다양한 요인을 고려해야합니다.
+따라서, 적절한 기술을 선택하기 위해서는 데이터셋을 충분히 이해하고 해당 문제에 대한 이해도가 필요합니다.&lt;/p&gt;
+
+&lt;p&gt;예를 들어, 데이터셋이 매우 크다면 언더샘플링보다는 오버샘플링이 더 효과적일 수 있습니다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">Imbalanced data 다루는 방법</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">TIL-Jira</title>
@@ -996,126 +1087,6 @@ finally:
 
       
         <summary type="html">TF-IDF (용어 빈도 - 역 문서 빈도)</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">TIL-디메타</title>
-      <link href="http://localhost:4000/TIL-%EB%94%94%EB%A9%94%ED%83%80" rel="alternate" type="text/html" title="TIL-디메타" />
-      <published>2023-03-14T00:00:00+09:00</published>
-      <updated>2023-03-14T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-%EB%94%94%EB%A9%94%ED%83%80</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-%EB%94%94%EB%A9%94%ED%83%80">&lt;h1 id=&quot;디메타&quot;&gt;디메타&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;운송 및 물류 분야 시장 강자를 목표&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;철도분야를 시작으로해서 운송 및 물류 분야 시장의 강자를 목표를 하고 있습니다. 회사에 제가 필요한 부분은 AI 를 기반으로 하는 회사 시스템을 통해 시스템 개발을 목적으로 하는 것 같습니다. 따라서 주요한 직무로는 서비를 제공하기 위한 현재 시스템의 AI 와 그 중 컴퓨터 비젼 관련으로 질문이 나올 것 같습니다. 질문해주시는 부분에 대해서는 차분하게 대답하면서 아는 것들로 정직하게 대답하고 오겠습니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;디메타-기본-정보&quot;&gt;디메타 기본 정보&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.d-meta.ai/&quot;&gt;공식 사이트&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;이름 의미 : D-Meta Career
-    &lt;ul&gt;
-      &lt;li&gt;Distruptive Technology provide Transcending service with AI&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2019년 1월 28일 설립&lt;/li&gt;
-  &lt;li&gt;D-Meta.AI 는 철도신호제어 부문의 국내 Top 회사로부터 투자를 받아, 안정적이면서도 성장 가능성이 무궁한 철도분야를 시작으로 &lt;strong&gt;운송 및 물류 분야 시장의 강자&lt;/strong&gt;를 &lt;strong&gt;목표&lt;/strong&gt;로 합니다.&lt;/li&gt;
-  &lt;li&gt;AI 기술력과 Top 엔지니어를 발판으로 모회사가 강자로 있는 &lt;strong&gt;철도신호제어 분야&lt;/strong&gt;에서 &lt;strong&gt;AI, 빅데이터, 디지털트윈&lt;/strong&gt;이 반영된 새로운 &lt;strong&gt;시스템&lt;/strong&gt;을 &lt;strong&gt;개발&lt;/strong&gt;하고 있습니다.&lt;/li&gt;
-  &lt;li&gt;당사의 목표는 &lt;strong&gt;AI 기술&lt;/strong&gt;로 &lt;strong&gt;최적의 시뮬레이션&lt;/strong&gt;을 할 수 있는 &lt;strong&gt;철도관제 시스템을 개발&lt;/strong&gt;하고, 철도 시설물에 대한 다양한 검측 및 예측을 함으로써 &lt;strong&gt;철도관제의 안전성과 최적성을 고도화&lt;/strong&gt;하고자 합니다.&lt;/li&gt;
-  &lt;li&gt;궁극적으로는 다양한 &lt;strong&gt;다른 교통수단&lt;/strong&gt;과 &lt;strong&gt;물류 부문&lt;/strong&gt;에 대해서도 &lt;strong&gt;적용&lt;/strong&gt;할 수 있는 시스템으로 &lt;strong&gt;개발&lt;/strong&gt;함으로써, 인류에게 보다 안전하고 최적화된 철도관제, 교통관제, 물류관제 구현에 이바지하고자 하며, 국내를 넘어 해외로도 진출하여 &lt;strong&gt;5년 이내 IPO 상장&lt;/strong&gt;을 &lt;strong&gt;계획&lt;/strong&gt;하고 있습니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;서비스&quot;&gt;서비스&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;ARTEMIS (아르테미스)
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;A&lt;/strong&gt;I based &lt;strong&gt;R&lt;/strong&gt;ailway and &lt;strong&gt;T&lt;/strong&gt;rain &lt;strong&gt;E&lt;/strong&gt;nvironment &lt;strong&gt;M&lt;/strong&gt;anagement and &lt;strong&gt;I&lt;/strong&gt;nformation &lt;strong&gt;S&lt;/strong&gt;olution&lt;/li&gt;
-      &lt;li&gt;AI,Bigdata 기술을 기반으로 열차의 미래를 예측하고 &lt;strong&gt;사고&lt;/strong&gt;를 미연에 &lt;strong&gt;방지&lt;/strong&gt;하고 열차 &lt;strong&gt;스케쥴&lt;/strong&gt;을 다양한 관점에서 &lt;strong&gt;최적화&lt;/strong&gt;하여 보다 &lt;strong&gt;안전&lt;/strong&gt;하고 &lt;strong&gt;효율&lt;/strong&gt;적인 열차 관제를 지원하는 시스템&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;ARTEVA (아르테바)
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;A&lt;/strong&gt;I based &lt;strong&gt;R&lt;/strong&gt;ailway and &lt;strong&gt;T&lt;/strong&gt;rain &lt;strong&gt;E&lt;/strong&gt;nvironment &lt;strong&gt;V&lt;/strong&gt;ideo &lt;strong&gt;A&lt;/strong&gt;nalytics solution&lt;/li&gt;
-      &lt;li&gt;AI, Bigdata 기술을 기반으로 &lt;strong&gt;선로, 역사&lt;/strong&gt; 등의 &lt;strong&gt;CCTV 비디오를 분석&lt;/strong&gt;하여 &lt;strong&gt;이상상황 탐지&lt;/strong&gt; 등 안전관제를 지원하는 시스템&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;원티드-채용-공고-내용&quot;&gt;원티드 채용 공고 내용&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.wanted.co.kr/wd/139525&quot;&gt;https://www.wanted.co.kr/wd/139525&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;주요업무
-    &lt;ul&gt;
-      &lt;li&gt;열차 운송 시스템 관련 Data Analysis 를 통한 예측 솔루션 개발&lt;/li&gt;
-      &lt;li&gt;Deep Learning 및 Computer Vision 기반의 열차 영상 분석 시스템 솔루션 개발&lt;/li&gt;
-      &lt;li&gt;Reinforcement Learning을 이용한 열차 운행 최적화 알고리즘 및 시스템 개발&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;자격요건
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;Python&lt;/strong&gt;, C++ 를 사용하여 알고리즘 또는 시스템 개발 경험이 있으신 분&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;Artificial Intelligence / Computer Science / Data Science / Statistics / Electric Engineering 등 이 · 공 계열 학사 이상 학위 보유하신 분&lt;/strong&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;PyTorch, TensorFlow 와 같은 머신러닝 프레임워크 사용 경험이 있으신 분&lt;/strong&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;협업 및 의사소통이 원활하신 분&lt;/strong&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;우대사항
-    &lt;ul&gt;
-      &lt;li&gt;Artificial Intelligence / Computer Science / Data Science / Statistics / Electric Engineering 등 이 · 공 계열 석사 이상 학위 보유하신 분&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;Deep learning&lt;/strong&gt;, Reinforcement Learning, Computer Vision based Image Processing 기반의 알고리즘 또는 시스템 개발 프로젝트 경력이 있으신 분&lt;/li&gt;
-      &lt;li&gt;AI, Deep Learning, Machine Learning 관련 분야 학회 논문 1편 이상 보유하신 분&lt;/li&gt;
-      &lt;li&gt;최신 논문에 대한 빠른 이해 및 구현 능력이 있으신 분&lt;/li&gt;
-      &lt;li&gt;교통/물류 관련 예측 및 최적화 프로젝트 경험 혹은 영상 관련 프로젝트 경험이 있으신 분&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;채용절차
-    &lt;ul&gt;
-      &lt;li&gt;서류전형 → 실무 &amp;amp; 경영진 면접 → 코딩 테스트 → 최종합격&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;span style=&quot;color:blue&quot;&gt;내 생각&lt;br /&gt;
-기본적인 자격요건이 충족되는데 회사가 원하는 신입은 컴퓨터비전을 경험해본 사람을 원하는 것 같아서 어떤 대화가 오갈지 설렘반 기대반이다.
-&lt;/span&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">디메타</summary>
       
 
       

@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/til/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-04-15T01:05:30+09:00</updated>
+  <updated>2023-04-15T14:10:42+09:00</updated>
   <id>http://localhost:4000/tag/til/feed.xml</id>
 
   
@@ -30,6 +30,97 @@
   
   
 
+  
+    <entry>
+      <title type="html">TIL-Imbalanced_data</title>
+      <link href="http://localhost:4000/TIL-Imbalanced_data" rel="alternate" type="text/html" title="TIL-Imbalanced_data" />
+      <published>2023-04-15T00:00:00+09:00</published>
+      <updated>2023-04-15T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-Imbalanced_data</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-Imbalanced_data">&lt;h1 id=&quot;imbalanced-data-다루는-방법&quot;&gt;Imbalanced data 다루는 방법&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;머신러닝을 다룰 때 학습 데이터에서 발생하는 Imbalanced data를 다루는 방법&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;발생-및-해결해야하는-이유&quot;&gt;발생 및 해결해야하는 이유&lt;/h2&gt;
+
+&lt;p&gt;학습 데이터에서 각 클래스 레이블의 분포가 불균형(Imbalanced)하게 분포되어 있을 때 발생합니다.&lt;br /&gt;
+불균형 데이터셋에서는 모델이 소수 클래스를 잘 예측하지 못하므로 데이터를 처리해서 잘 예측할 수 있도록 해야합니다.
+예를 들어, 어떤 이진 분류 문제에서 어떤 클래스는 다른 클래스보다 매우 적은 샘플을 가지고 있는 경우가 있습니다.&lt;br /&gt;
+상황을 예로 들면 암 진단 문제에서 양성 샘플이 매우 적은 경우, 모델은 거의 항상 음성 클래스를 예측하려고 할 수 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;해결-방법&quot;&gt;해결 방법&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;샘플링 기법
+    &lt;ul&gt;
+      &lt;li&gt;데이터 샘플링을 조절하는 방법으로 소수 클래스 샘플 수를 늘리거나 다수 클래스 샘플 수를 줄이는 것입니다. 방법은 언더샘플링, 오버샘플링이 존재합니다.&lt;/li&gt;
+      &lt;li&gt;언더샘플링은 다수 클래스의 샘플 수를 줄여 적은 데이터의 분포에 맞춥니다.&lt;/li&gt;
+      &lt;li&gt;오버샘플링은 소수 클래스의 샘플 수를 증가 시켜 다수 클래스의 샘플 분포에 맞춥니다.&lt;/li&gt;
+      &lt;li&gt;클래스 변경이라고 하기도 합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;가중치 부여
+    &lt;ul&gt;
+      &lt;li&gt;학습 알고리즘에서 소수 클래스를 더 중요하게 취급할 수 있도록 가중치를 부여할 수 있습니다.&lt;/li&gt;
+      &lt;li&gt;이를 통해 소수 클래스에 더 많은 비중을 두어 학습이 더 효과적으로 이루어질 수 있습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;앙상블 방법
+    &lt;ul&gt;
+      &lt;li&gt;여러 모델을 학습하여 그 결과를 결합함으로써, 소수 클래스의 샘플을 보다 정확하게 분류할 수 있습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;모델-관련-고려-사항&quot;&gt;모델 관련 고려 사항&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;평가 방법
+    &lt;ul&gt;
+      &lt;li&gt;정밀도, 재현율, F1 점수 등의 다른 지표를 사용해야 합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;데이터 전처리&lt;/li&gt;
+  &lt;li&gt;독립 변수 선택 및 추출&lt;/li&gt;
+  &lt;li&gt;하이퍼파라미터 튜닝&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;주의사항&quot;&gt;주의사항&lt;/h2&gt;
+
+&lt;p&gt;모든 기술의 적합한지에 대한 것은 데이터셋의 특성, 문제의 복자도, 모델의 종류 등 다양한 요인을 고려해야합니다.
+따라서, 적절한 기술을 선택하기 위해서는 데이터셋을 충분히 이해하고 해당 문제에 대한 이해도가 필요합니다.&lt;/p&gt;
+
+&lt;p&gt;예를 들어, 데이터셋이 매우 크다면 언더샘플링보다는 오버샘플링이 더 효과적일 수 있습니다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">Imbalanced data 다루는 방법</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">TIL-Jira</title>
@@ -476,45 +567,6 @@
     </entry>
   
     <entry>
-      <title type="html">TIL-위플랫</title>
-      <link href="http://localhost:4000/TIL-%EC%9C%84%ED%94%8C%EB%9E%AB" rel="alternate" type="text/html" title="TIL-위플랫" />
-      <published>2023-03-15T00:00:00+09:00</published>
-      <updated>2023-03-15T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-%EC%9C%84%ED%94%8C%EB%9E%AB</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-%EC%9C%84%ED%94%8C%EB%9E%AB">&lt;h1 id=&quot;위플랫&quot;&gt;위플랫&lt;/h1&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">위플랫</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
       <title type="html">TIL-PyMySQL</title>
       <link href="http://localhost:4000/TIL-PyMySQL" rel="alternate" type="text/html" title="TIL-PyMySQL" />
       <published>2023-03-15T00:00:00+09:00</published>
@@ -697,6 +749,45 @@ finally:
 
       
         <summary type="html">PyMySQL</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">TIL-위플랫</title>
+      <link href="http://localhost:4000/TIL-%EC%9C%84%ED%94%8C%EB%9E%AB" rel="alternate" type="text/html" title="TIL-위플랫" />
+      <published>2023-03-15T00:00:00+09:00</published>
+      <updated>2023-03-15T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-%EC%9C%84%ED%94%8C%EB%9E%AB</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-%EC%9C%84%ED%94%8C%EB%9E%AB">&lt;h1 id=&quot;위플랫&quot;&gt;위플랫&lt;/h1&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">위플랫</summary>
       
 
       
@@ -930,90 +1021,6 @@ finally:
 
       
         <summary type="html">디메타</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">TIL-Stop Words</title>
-      <link href="http://localhost:4000/TIL-StopWords" rel="alternate" type="text/html" title="TIL-Stop Words" />
-      <published>2023-03-13T00:00:00+09:00</published>
-      <updated>2023-03-13T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-StopWords</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-StopWords">&lt;h1 id=&quot;stop-words-불용어&quot;&gt;Stop Words 불용어&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;자연어 처리(NLP)에서 ‘불용어(Stop Words)’는 분석하려는 문서에서 &lt;strong&gt;제거되는 일반적인 단어 또는 구문&lt;/strong&gt;입니다.&lt;/li&gt;
-  &lt;li&gt;이러한 단어는 일반적으로 문장에서 나타나지만, 문서의 내용을 이해하는 데 큰 도움이 되지 않거나 &lt;strong&gt;분석에 불필요한 정보&lt;/strong&gt;를 제공합니다.&lt;/li&gt;
-  &lt;li&gt;따라서 이러한 단어를 &lt;strong&gt;제거&lt;/strong&gt;함으로써 &lt;strong&gt;분석의 정확성&lt;/strong&gt;을 &lt;strong&gt;높일 수&lt;/strong&gt; 있습니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;예시&quot;&gt;예시&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;영어에서는 ‘the’, ‘a’, ‘an’, ‘in’, ‘on’, ‘of’ 등이 일반적인 불용어입니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;중요한-이유&quot;&gt;중요한 이유&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;불용어를 제거&lt;/strong&gt;함으로써 모델링 과정에서 처리해야 하는 &lt;strong&gt;단어의 수를 줄일 수&lt;/strong&gt; 있습니다.
-    &lt;ul&gt;
-      &lt;li&gt;이는 모델링을 더 &lt;strong&gt;빠르고 효율적&lt;/strong&gt;으로 만들 수 있습니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;불용어를 제거하면 모델링 &lt;strong&gt;결과의 정확도가 향상&lt;/strong&gt;됩니다.
-    &lt;ul&gt;
-      &lt;li&gt;모델링을 수행하는 동안 &lt;strong&gt;고려해야 하는 단어의 수가 줄어&lt;/strong&gt;들기 때문입니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;예를 들어, &lt;strong&gt;문서의 유사도&lt;/strong&gt;를 계산한다고 가정합니다.
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;불용어가 큰 영향을 미치지 않는다면&lt;/strong&gt;, 문서의 &lt;strong&gt;길이&lt;/strong&gt;가 &lt;strong&gt;다른 경우&lt;/strong&gt;에도 문서 간의 유사도를 &lt;strong&gt;측정&lt;/strong&gt;할 수 있습니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;또 다른 예로, &lt;strong&gt;감성 분석&lt;/strong&gt;과 같은 작업을 한다고 가정합니다.
-    &lt;ul&gt;
-      &lt;li&gt;문장에서 ‘그것’ 또는 ‘이것’과 같은 &lt;strong&gt;대명사&lt;/strong&gt;를 &lt;strong&gt;불용어로 간주&lt;/strong&gt;하고 &lt;strong&gt;제거&lt;/strong&gt;함으로써 분석 결과를 더욱 &lt;strong&gt;정확&lt;/strong&gt;하게 만들 수 있습니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;주의&quot;&gt;주의&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;불용어는 &lt;strong&gt;분석하려는 언어&lt;/strong&gt;나 &lt;strong&gt;분석 목적&lt;/strong&gt;에 따라 달라질 수 있습니다.&lt;/li&gt;
-  &lt;li&gt;따라서 분석하려는 데이터에 맞게 적절한 불용어 목록을 선정하는 것이 중요합니다.&lt;/li&gt;
-  &lt;li&gt;이러한 목록은 일반적으로 &lt;strong&gt;언어별로 구축&lt;/strong&gt;되며, 대부분의 NLP 라이브러리에서는 불용어 목록을 제공하거나, 사용자 정의 불용어 목록을 지정할 수 있는 기능을 제공합니다.&lt;/li&gt;
-  &lt;li&gt;일부 상황에서는 불용어를 제거하지 않는 것이 더 나을 수 있습니다.
-    &lt;ul&gt;
-      &lt;li&gt;예를 들어, 문서의 길이가 짧은 경우, 불용어가 전체적인 문맥을 파악하는 데 필수적일 수 있습니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">Stop Words 불용어</summary>
       
 
       
