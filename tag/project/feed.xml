@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/project/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-04-15T14:10:42+09:00</updated>
+  <updated>2023-04-17T00:28:37+09:00</updated>
   <id>http://localhost:4000/tag/project/feed.xml</id>
 
   
@@ -524,8 +524,6 @@ Frauds 0.17% of the dataset
 &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_9_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
-
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/229357738-fab387ba-9b67-43f0-bd83-39789ad10e47.png&quot; width=&quot;50%&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Distributions:&lt;/strong&gt; By seeing the distributions we can have an idea how skewed are these features, we can also see further distributions of the other features. There are techniques that can help the distributions be less skewed which will be implemented in this notebook in the future.&lt;/p&gt;
@@ -548,8 +546,6 @@ Frauds 0.17% of the dataset
 
 &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_12_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/229357740-cf4e4fbb-69b5-4fe1-aebf-0490cec1efab.png&quot; width=&quot;80%&quot; /&gt;&lt;/p&gt;
 
@@ -1134,8 +1130,6 @@ Name: Class, dtype: float64
 &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_24_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
-
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/229357741-6b3ea131-0d26-4088-bf25-5b071902a5f3.png&quot; width=&quot;50%&quot; /&gt;&lt;/p&gt;
 
 &lt;h3&gt; Correlation Matrices &lt;/h3&gt;
@@ -1181,8 +1175,6 @@ Name: Class, dtype: float64
 &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_27_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
-
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/229357742-c9f3c001-ff83-4813-9cd1-4403da33dca7.png&quot; width=&quot;90%&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;axes&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subplots&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ncols&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;figsize&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
@@ -1204,8 +1196,6 @@ Name: Class, dtype: float64
 &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_29_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
-
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/229357744-9585f4ed-adb6-48e9-b26c-83d1ad6c6f38.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;axes&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subplots&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ncols&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;figsize&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
@@ -1226,8 +1216,6 @@ Name: Class, dtype: float64
 &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_31_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/229357745-375b625d-848f-4416-a546-41b82486e2e1.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
 
@@ -1560,6 +1548,10 @@ Truncated SVD took 0.002 s
 &lt;p&gt;&lt;a id=&quot;classifiers&quot;&gt;&lt;/a&gt;
 In this section we will train four types of classifiers and decide which classifier will be more effective in detecting &lt;b&gt;fraud transactions&lt;/b&gt;.  Before we have to split our data into training and testing sets and separate the features from the labels.&lt;/p&gt;
 
+&lt;h2 id=&quot;분류기-언더샘플링&quot;&gt;분류기 (언더샘플링)&lt;/h2&gt;
+
+&lt;p&gt;이 부분에서는 네 가지 유형의 분류기를 학습하고 어떤 분류기가 Fraud 거래를 탐지하는 데 더 효과적인지 결정합니다. 먼저 데이터를 훈련 세트와 테스트 세트로 나누고 레이블에서 특징을 분리해야 합니다.&lt;/p&gt;
+
 &lt;h2 id=&quot;summary-1&quot;&gt;Summary:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt; &lt;b&gt; Logistic Regression &lt;/b&gt; classifier is more accurate than the other three classifiers in most cases. (We will further analyze Logistic Regression) &lt;/li&gt;
@@ -1567,11 +1559,26 @@ In this section we will train four types of classifiers and decide which classif
 &lt;li&gt; Logistic Regression has the best Receiving Operating Characteristic score  (ROC), meaning that LogisticRegression pretty accurately separates &lt;b&gt; fraud &lt;/b&gt; and &lt;b&gt; non-fraud &lt;/b&gt; transactions.&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h2 id=&quot;요약-4&quot;&gt;요약:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;로지스틱 회귀 분류기가 대부분의 경우 다른 세 분류기보다 더 정확합니다. ( 로지스틱 회귀를 추가로 분석할 것입니다. )&lt;/li&gt;
+  &lt;li&gt;GridSearchCV 는 분류기에 대해 가장 좋은 예측 점수를 제공하는 유사 측정값을 결정하는 데 사용됩니다.&lt;/li&gt;
+  &lt;li&gt;로지스틱 회귀는 Receiving Operating Characteristic score (ROC)가 가장 높으며, 이는 로지스틱 회귀가 Fraud 거래와 Non-Fraud 거래를 매우 정확하게 구분한다는 것을 의미합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h2 id=&quot;learning-curves&quot;&gt;Learning Curves:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;The &lt;b&gt;wider the  gap&lt;/b&gt;  between the training score and the cross validation score, the more likely your model is &lt;b&gt;overfitting (high variance)&lt;/b&gt;.&lt;/li&gt;
 &lt;li&gt; If the score is low in both training and cross-validation sets&amp;lt;/b&amp;gt; this is an indication that our model is &lt;b&gt;underfitting (high bias)&lt;/b&gt;&lt;/li&gt;
 &lt;li&gt;&lt;b&gt; Logistic Regression Classifier&lt;/b&gt;  shows the best score in both training and cross-validating sets.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;학습-곡선learning-curves&quot;&gt;학습 곡선(Learning Curves):&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;학습 점수(training score)와 교차 검증 점수(cross validation score)의 격차가 클수록 모델이 과적합(높은 분산)일 가능성이 높습니다.&lt;/li&gt;
+  &lt;li&gt;훈련과 교차 검증 세트 모두에서 점수가 낮으면 모델이 과소적합(높은 편향)일 가능성이 높습니다.&lt;/li&gt;
+  &lt;li&gt;로지스틱 회귀 분류기가 훈련과 교차 검증 세트 모두에서 가장 좋은 점수를 보여줍니다.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Undersampling before cross validating (prone to overfit)
