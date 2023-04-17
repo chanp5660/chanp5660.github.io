@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/author/chanp5660/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-04-18T00:40:22+09:00</updated>
+  <updated>2023-04-18T01:01:10+09:00</updated>
   <id>http://localhost:4000/author/chanp5660/feed.xml</id>
 
   
@@ -30,6 +30,42 @@
   
   
 
+  
+    <entry>
+      <title type="html">TIL-동기_비동기</title>
+      <link href="http://localhost:4000/TIL-%EB%8F%99%EA%B8%B0_%EB%B9%84%EB%8F%99%EA%B8%B0" rel="alternate" type="text/html" title="TIL-동기_비동기" />
+      <published>2023-04-18T00:00:00+09:00</published>
+      <updated>2023-04-18T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-%EB%8F%99%EA%B8%B0_%EB%B9%84%EB%8F%99%EA%B8%B0</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-%EB%8F%99%EA%B8%B0_%EB%B9%84%EB%8F%99%EA%B8%B0">&lt;h1 id=&quot;동기와-비동기의-차이&quot;&gt;동기와 비동기의 차이&lt;/h1&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">동기와 비동기의 차이</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">TIL-UML다이어그램</title>
@@ -3575,93 +3611,6 @@ Confusion matrix, without normalization
 
       
         <summary type="html">한국 해양 브레인스토밍</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">TIL-한국기상브레인스토밍</title>
-      <link href="http://localhost:4000/TIL-%ED%95%9C%EA%B5%AD%EA%B8%B0%EC%83%81-%EB%B8%8C%EB%A0%88%EC%9D%B8%EC%8A%A4%ED%86%A0%EB%B0%8D" rel="alternate" type="text/html" title="TIL-한국기상브레인스토밍" />
-      <published>2023-03-29T00:00:00+09:00</published>
-      <updated>2023-03-29T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-%ED%95%9C%EA%B5%AD%EA%B8%B0%EC%83%81%20%EB%B8%8C%EB%A0%88%EC%9D%B8%EC%8A%A4%ED%86%A0%EB%B0%8D</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-%ED%95%9C%EA%B5%AD%EA%B8%B0%EC%83%81-%EB%B8%8C%EB%A0%88%EC%9D%B8%EC%8A%A4%ED%86%A0%EB%B0%8D">&lt;h1 id=&quot;한국-기상-브레인스토밍&quot;&gt;한국 기상 브레인스토밍&lt;/h1&gt;
-
-&lt;h2 id=&quot;하드웨어&quot;&gt;하드웨어&lt;/h2&gt;
-
-&lt;h3 id=&quot;기상예보용-슈퍼컴퓨팅&quot;&gt;기상예보용 슈퍼컴퓨팅&lt;/h3&gt;
-&lt;p&gt;한국은 기상예보용 슈퍼컴퓨터 개발에 투자하고 있습니다. 기상청은 수치예보와 기후모델링에 사용되는 고성능 컴퓨팅 시스템인 ‘해란’을 운영하고 있다.&lt;/p&gt;
-
-&lt;h3 id=&quot;기상-레이더-및-관측-네트워크&quot;&gt;기상 레이더 및 관측 네트워크&lt;/h3&gt;
-&lt;p&gt;한국은 실시간 기상 데이터를 제공하는 광범위한 기상 레이더 및 관측소 네트워크를 보유하고 있습니다. 기상청은 기상예보의 정확도를 높이고 악천후 조기 경보를 제공하기 위해 이 네트워크를 지속적으로 확장 및 업그레이드하고 있습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;ai&quot;&gt;AI&lt;/h2&gt;
-
-&lt;h3 id=&quot;일기예보를-위한-인공지능&quot;&gt;일기예보를 위한 인공지능&lt;/h3&gt;
-&lt;p&gt;한국도 일기예보를 위한 인공지능(AI) 활용에 투자하고 있습니다. 기상청은 머신러닝을 활용해 기상예보 정확도를 높이는 AI 기반 시스템 ‘WIIS(Weather Integrated Information System)’를 개발했다.&lt;/p&gt;
-
-&lt;h2 id=&quot;대기-오염&quot;&gt;대기 오염&lt;/h2&gt;
-
-&lt;h3 id=&quot;대기-오염-예측&quot;&gt;대기 오염 예측&lt;/h3&gt;
-&lt;p&gt;한국은 개선된 대기 오염 예측 모델을 개발하기 위해 노력하고 있습니다. 이것은 특히 도시 지역에서 국가의 대기 오염 수준이 높기 때문에 중요합니다. 기상청은 실시간 데이터를 활용해 대기오염도를 예측하는 대기질 예보시스템을 운영하고 있다.&lt;/p&gt;
-
-&lt;h2 id=&quot;재난&quot;&gt;재난&lt;/h2&gt;
-
-&lt;h3 id=&quot;재난-예방-및-대응&quot;&gt;재난 예방 및 대응&lt;/h3&gt;
-&lt;p&gt;한국은 태풍, 홍수, 산사태 등 기상 관련 재난을 포함한 재난 예방 및 대응 능력을 향상시키기 위해 노력하고 있습니다. 기상청은 실시간 기상정보를 제공하고 경보를 발령하여 인명과 재산을 보호합니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;농업&quot;&gt;농업&lt;/h2&gt;
-
-&lt;h3 id=&quot;농업-기상-예보&quot;&gt;농업 기상 예보&lt;/h3&gt;
-&lt;p&gt;한국은 농민의 요구에 맞는 기상 예보 시스템을 개발하고 있습니다. 기상청은 농업인의 현명한 판단을 돕기 위해 기상예보 및 농작물 관리정보를 제공하는 농업기상정보서비스를 운영하고 있습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;교육&quot;&gt;교육&lt;/h2&gt;
-
-&lt;h3 id=&quot;기상-교육-및-아웃리치&quot;&gt;기상 교육 및 아웃리치&lt;/h3&gt;
-&lt;p&gt;한국은 기상 및 기후 문제에 대한 대중의 이해를 높이기 위해 노력하고 있습니다. 기상청은 학교와 대중을 위한 교육 프로그램을 제공하고 있으며, 대중에게 기상 정보와 예보를 제공하기 위한 모바일 앱 및 기타 도구도 개발하고 있습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;기후변화-연구&quot;&gt;기후변화 연구&lt;/h2&gt;
-
-&lt;h3 id=&quot;기후-변화-연구&quot;&gt;기후 변화 연구&lt;/h3&gt;
-&lt;p&gt;한국은 또한 기후 변화가 국가의 날씨 패턴에 미치는 영향에 대한 연구에 투자하고 있습니다. 기상청은 미래 기후 시나리오를 보다 정확하게 예측할 수 있는 기후모델 개발을 위해 노력하고 있으며, 기후변화가 농업, 수자원 및 기타 부문에 미치는 영향을 연구하고 있습니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;기상-모니터링-및-연구-인프라&quot;&gt;기상 모니터링 및 연구 인프라&lt;/h3&gt;
-&lt;p&gt;한국은 기상 모니터링 및 연구 인프라 개발에 투자하고 있습니다. 기상청은 대기관측 및 측정을 위한 연구센터 및 시설을 운영하고 있으며, 자료수집 및 분석능력 향상을 위해 노력하고 있습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;우주기상&quot;&gt;우주기상&lt;/h2&gt;
-
-&lt;h3 id=&quot;우주기상예보&quot;&gt;우주기상예보&lt;/h3&gt;
-&lt;p&gt;한국도 우주기상예보 능력 개발에 투자하고 있다. 우주 기상은 통신 및 내비게이션 시스템은 물론 전력망 및 기타 중요한 인프라에 영향을 미칠 수 있습니다. 기상청은 우주 기상 현상과 그 영향을 예측하는 모델을 개발하기 위해 노력하고 있습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;뉴스&quot;&gt;뉴스&lt;/h2&gt;
-
-&lt;p&gt;2027년 항공기 착륙부터 이륙까지 단계별 기상예보 제공한다&lt;br /&gt;
-&lt;a href=&quot;https://m.dongascience.com/news.php?idx=55206&quot;&gt;항공기 착륙부터 이륙까지 단계별 기상예보 제공한다&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">한국 기상 브레인스토밍</summary>
       
 
       
