@@ -1,4 +1,155 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-04-17T00:28:37+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">TIL-Imbalanced_data</title><link href="http://localhost:4000/TIL-Imbalanced_data" rel="alternate" type="text/html" title="TIL-Imbalanced_data" /><published>2023-04-15T00:00:00+09:00</published><updated>2023-04-15T00:00:00+09:00</updated><id>http://localhost:4000/TIL-Imbalanced_data</id><content type="html" xml:base="http://localhost:4000/TIL-Imbalanced_data">&lt;h1 id=&quot;imbalanced-data-다루는-방법&quot;&gt;Imbalanced data 다루는 방법&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-04-18T00:40:22+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">TIL-UML다이어그램</title><link href="http://localhost:4000/TIL-UML%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8" rel="alternate" type="text/html" title="TIL-UML다이어그램" /><published>2023-04-17T00:00:00+09:00</published><updated>2023-04-17T00:00:00+09:00</updated><id>http://localhost:4000/TIL-UML%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8</id><content type="html" xml:base="http://localhost:4000/TIL-UML%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8">&lt;h1 id=&quot;uml-다이어그램&quot;&gt;UML 다이어그램&lt;/h1&gt;
+
+&lt;p&gt;UML (Unified Modeling Language) 다이어그램은 &lt;strong&gt;객체 지향 소프트웨어 설계&lt;/strong&gt;에 사용되는 그래픽 표기법입니다.&lt;/p&gt;
+
+&lt;p&gt;UML은 &lt;strong&gt;객체, 클래스, 상속, 연관, 메서드, 속성&lt;/strong&gt; 등과 같은 &lt;strong&gt;객체 지향 개념&lt;/strong&gt;을 시각적으로 표현할 수 있는 방법을 제공합니다.&lt;br /&gt;
+UML 다이어그램은 이러한 개념들을 그래픽으로 표현하여 &lt;strong&gt;시스템의 구조, 동작 및 관계&lt;/strong&gt;를 &lt;strong&gt;이해&lt;/strong&gt;하기 쉽게 만들어 줍니다.&lt;/p&gt;
+
+&lt;p&gt;여러 종류가 있으며, 각각의 다이어그램은 특정한 측면을 다룹니다.&lt;br /&gt;
+예를 들어 &lt;strong&gt;클래스 다이어그램&lt;/strong&gt;은 클래스와 클래스 간의 관계를 표시하고, &lt;strong&gt;시퀀스 다이어그램&lt;/strong&gt;은 시간적인 순서에 따른 객체 간의 상호작용을 보여줍니다.&lt;/p&gt;
+
+&lt;p&gt;소프트웨어 개발에서 널리 사용되며, 다양한 도구와 언어에서 지원됩니다.&lt;br /&gt;
+UML 다이어그램을 사용하면 개발자와 설계자들이 공통의 언어로 소프트웨어를 설계하고 개발할 수 있으며, 이는 소프트웨어 개발 프로세스의 효율성을 높이고 소프트웨어의 품질을 향상시키는 데 도움이 됩니다.&lt;/p&gt;
+
+&lt;h1 id=&quot;유형&quot;&gt;유형&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;구조 다이어그램 (Strucutral Diagram)
+    &lt;ul&gt;
+      &lt;li&gt;시스템의 정적인 구조를 표현합니다.&lt;/li&gt;
+      &lt;li&gt;클래스 다이어그램, 객체 다이어그램, 컴포넌트 다이어그램, 패키지 다이어그램, 배치 다이어그램 등이 있습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;동작 다이어그램 (Behavioral Diagram)
+    &lt;ul&gt;
+      &lt;li&gt;시스템의 동적인 행위를 표현합니다.&lt;/li&gt;
+      &lt;li&gt;유스케이스 다이어그램, 시퀀스 다이어그램, 상태 다이어그램, 활동 다이어그램, 커뮤니케이션 다이어그램 등이 있습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;구조 다이어그램은 시스템을 구성하는 요소들의 관계와 구조를 보여주는 반면, 동작 다이어그램은 시스템이 동작하는 과정과 상호작용을 보여줍니다.&lt;/p&gt;
+
+&lt;p&gt;UML 다이어그램은 소프트웨어 설계뿐만 아니라, 다양한 분야에서도 활용됩니다. &lt;br /&gt;
+예를 들어, 시스템 엔지니어링에서 하드뤠어와 소프트웨어 간의 상호작용을 설명하는 데 사용되기도 합니다.&lt;br /&gt;
+또한, 비즈니스 분야에서 프로세스의 흐름을 보여주는 등의 용도로도 사용됩니다.&lt;/p&gt;
+
+&lt;p&gt;각 다이어그램의 그림에 대해서 궁금하시면 참조하기 좋은 블로그 &lt;a href=&quot;https://m.blog.naver.com/icbanq/221781238065&quot;&gt;링크&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;클래스-다이어그램-class-diagram&quot;&gt;클래스 다이어그램 (Class Diagram)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;클래스, 인터체페이스, 관계 등을 표현합니다.&lt;/li&gt;
+  &lt;li&gt;클래스의 속성, 메소드, 연관 관계, 일반화, 집합 등을 나타냅니다.&lt;/li&gt;
+  &lt;li&gt;객체 지향 개념을 가장 잘 나타내는 다이어그램 중 하나입니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;객체-다이어그램-object-diagram&quot;&gt;객체 다이어그램 (Object Diagram)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;클래스 다이어그램에서 정의된 클래스의 인스턴스인 객체를 표현합니다.&lt;/li&gt;
+  &lt;li&gt;클래스와 객체 간의 관계, 속성, 연관 등을 표현합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;유스케이스-다이어그램use-case-diagram&quot;&gt;유스케이스 다이어그램(Use Case Diagram)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;시스템의 사용자 또는 액터와 시스템 간의 상호작용을 모델링합니다.&lt;/li&gt;
+  &lt;li&gt;액터, 유스케이스, 관계 등을 표현합니다.&lt;/li&gt;
+  &lt;li&gt;시스템의 기능을 기술하는 데 사용됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;액터(Actor) : 시스템의 외부에 있고 시스템과 상호작용을 하는 사람
+참고 블로그 &lt;a href=&quot;https://googry.tistory.com/2&quot;&gt;링크&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;시퀀스-다이어그램-sequence-diagram&quot;&gt;시퀀스 다이어그램 (Sequence Diagram)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;시스템의 객체 간 상호작용을 시간적으로 표현합니다.&lt;/li&gt;
+  &lt;li&gt;객체 간의 메시지 교환, 객체의 상태 변화, 예외 상황 등을 보여줍니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;상태-다이어그램-state-diagram&quot;&gt;상태 다이어그램 (State Diagram)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;객체의 동작과 상태 전이를 표현합니다.&lt;/li&gt;
+  &lt;li&gt;객체가 각각의 상태에서 어떤 동작을 수행하는지, 상태 정이의 조건 등을 보여줍니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;활동-다이어그램activity-diagram&quot;&gt;활동 다이어그램(Activity Diagram)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;시스템 내의 비즈니스 프로세스, 알고리즘, 기능 흐름 등을 표현합니다.&lt;/li&gt;
+  &lt;li&gt;활동, 연결선, 의사결정 노드, 병합 노드 등을 사용하여 프로세스를 모델링합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;컴포넌트-다이어그램-component-diagram&quot;&gt;컴포넌트 다이어그램 (Component Diagram)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;시스템을 구성하는 컴포넌트, 인터페이스, 의존 관계 등을 표현합니다.&lt;/li&gt;
+  &lt;li&gt;컴포넌트 간의 의존 관계, 인터페이스 구현, 라이브러리 등을 나타냅니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;패키지-다이어그램-package-diagram&quot;&gt;패키지 다이어그램 (Package Diagram)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;패키지, 클래스, 인터페이스 등의 요소가 어떻게 그룹화되어 있는지를 표현합니다.&lt;/li&gt;
+  &lt;li&gt;패키지 간의 의존 관계, 패키지 내의 클래스 관계 등을 보여줍니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;커뮤니케이션-다이어그램-communication-diagram&quot;&gt;커뮤니케이션 다이어그램 (Communication Diagram)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;객체 간의 메시지 전달과 응답을 표현합니다.&lt;/li&gt;
+  &lt;li&gt;객체와 객체 간의 상호작용을 표현하여 객체 간의 관계를 이해하기 쉽게 합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;배치-다이어그램-deployment-diagram&quot;&gt;배치 다이어그램 (Deployment Diagram)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;시스템의 물리적인 배치를 나타냅니다.&lt;/li&gt;
+  &lt;li&gt;소프트웨어 컴포넌트, 하드웨어 노드, 네트워크 등을 표현합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;타이밍-다이어그램-timing-diagram&quot;&gt;타이밍 다이어그램 (Timing Diagram)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;객체 간의 시간적인 관계를 보여줍니다.&lt;/li&gt;
+  &lt;li&gt;시간 축에 따라 객체의 상태, 메시지 전달 등을 나타냅니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;상호작용-개요-다이어그램-interaction-overview-diagram&quot;&gt;상호작용 개요 다이어그램 (Interaction Overview Diagram)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;다른 다이어그램에서 표현된 상호작용을 개요 수준으로 표현합니다.&lt;/li&gt;
+  &lt;li&gt;다른 다이어그램에서 표현된 객체 간의 상호작용을 개요 수준으로 표현하여 전반적인 시스템 흐름을 이해하기 쉽게 합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;각각의 다이어그램은 시스템을 모델링하는 데 필요한 다양한 정보와 관계를 표현합니다.&lt;br /&gt;
+이를 조합하여 전체적인 시스템 구조와 동작을 모델링할 수 있습니다.&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">UML 다이어그램</summary></entry><entry><title type="html">정보처리기사 기출문제 20220424</title><link href="http://localhost:4000/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC%EA%B8%B0%EC%B6%9C%EB%AC%B8%EC%A0%9C(20220424)" rel="alternate" type="text/html" title="정보처리기사 기출문제 20220424" /><published>2023-04-17T00:00:00+09:00</published><updated>2023-04-17T00:00:00+09:00</updated><id>http://localhost:4000/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC%EA%B8%B0%EC%B6%9C%EB%AC%B8%EC%A0%9C(20220424)</id><content type="html" xml:base="http://localhost:4000/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC%EA%B8%B0%EC%B6%9C%EB%AC%B8%EC%A0%9C(20220424)">&lt;h1 id=&quot;정보처리기사-기출문제-부시기-20220424&quot;&gt;정보처리기사 기출문제 부시기 20220424&lt;/h1&gt;
+
+&lt;p&gt;2023-04-17일인 오늘 큐넷을 통해 정보처리기사 필기 시험을 신청했습니다. &lt;br /&gt;
+그동안 AI를 하면서 필요없는 자격증이라고 생각해서 그동안 도전해볼 생각도 안했습니다. &lt;br /&gt;
+시험을 신청한 지금도 AI를 하기 위해서는 꼭 필요하다라는 생각이 드는 것은 아니고 있으면 좋을 것 같아서 이번에 도전하기로 했습니다.&lt;/p&gt;
+
+&lt;p&gt;시험 날짜는 5월 13일로 오늘이 지나면 25일 정도 남았습니다. &lt;br /&gt;
+또 5월 20일에는 ADsP도 시험보는 상황으로 합격을 기준으로 공부를 하도록 하겠습니다. &lt;br /&gt;
+단지 이해를 하면서 하는게 기억에 오래 남아서 정리해가면서 공부를 진행하도록 하겠습니다. &lt;br /&gt;
+합격을 기원합니다.&lt;/p&gt;
+
+&lt;p&gt;모든 자료는 &lt;a href=&quot;www.combmt.com&quot;&gt;전자문제집 CBT&lt;/a&gt;에서 제공됩니다.&lt;/p&gt;
+
+&lt;h1 id=&quot;1과목--소프트웨어-설계&quot;&gt;1과목 : 소프트웨어 설계&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-uml-다이어그램-중-순차-다이어그램에-대한-설명으로-틀린것은&quot;&gt;1. UML 다이어그램 중 순차 다이어그램에 대한 설명으로 &lt;strong&gt;틀린&lt;/strong&gt;것은?&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;객체 간의 동적 상호작용을 시간 개념을 중심으로 모델링 하는 것이다.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;주로 시스템의 정적 측변을 모델링하기 위해 사용한다.&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;일반적으로 다이어그램의 수직 방향이 시간의 흐름을 나타낸다.&lt;/li&gt;
+  &lt;li&gt;회귀 메시지(Self-Message), 제어블로(Statement block) 등으로 구성된다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;문제 해설=&quot;&quot;&gt;
+- 순차 다이어그램은 행위 다이어그램이므로 동적이고, 순차적인 포현을 위한 다이어그램이다. [해설작성자 : 두목넷]
+
+&lt;내 공부=&quot;&quot;&gt;
+- UML 다이어그램이란?
+    - [TIL-UML다이어그램](https://chanp5660.github.io/TIL-UML다이어그램)
+    - 정의 : UML (Unified Modeling Language), 통합 모델링 언어라는 뜻으로 객체 지향 소프트웨어 엔지니어링 분야의 표준화된 범용 모델링 언어를 말합니다.
+
+&lt;/내&gt;&lt;/문제&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">정보처리기사 기출문제 부시기 20220424</summary></entry><entry><title type="html">TIL-Imbalanced_data</title><link href="http://localhost:4000/TIL-Imbalanced_data" rel="alternate" type="text/html" title="TIL-Imbalanced_data" /><published>2023-04-15T00:00:00+09:00</published><updated>2023-04-15T00:00:00+09:00</updated><id>http://localhost:4000/TIL-Imbalanced_data</id><content type="html" xml:base="http://localhost:4000/TIL-Imbalanced_data">&lt;h1 id=&quot;imbalanced-data-다루는-방법&quot;&gt;Imbalanced data 다루는 방법&lt;/h1&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;머신러닝을 다룰 때 학습 데이터에서 발생하는 Imbalanced data를 다루는 방법&lt;/p&gt;
@@ -213,45 +364,7 @@ MSD 기수정렬은 가장 높은 자리수부터 시작하여 정렬하는 것�
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def solution(number, k):
     return number[ (2 * (k-1)) % len(number)]
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="programing" /><category term="python" /><summary type="html">공던지기 문제</summary></entry><entry><title type="html">TIL-Jira</title><link href="http://localhost:4000/TIL-Jira" rel="alternate" type="text/html" title="TIL-Jira" /><published>2023-04-07T00:00:00+09:00</published><updated>2023-04-07T00:00:00+09:00</updated><id>http://localhost:4000/TIL-Jira</id><content type="html" xml:base="http://localhost:4000/TIL-Jira">&lt;h1 id=&quot;jira&quot;&gt;Jira&lt;/h1&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;요약
-
-지라는 협업에 필요한 흐름을 알 수 있고 누가 어떤 일을 진행하고 있는지 물어보지 않고도 확인할 수 있습니다.
-업무의 방향을 확실하게 확인할 수 있어 본인의 업무의 방향에도 도움이 됩니다.
-
-문서로서는 능력은 Confluence를 활용하는게 좋습니다.
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Jira Software 사용하기&lt;a href=&quot;https://www.atlassian.com/ko/software/jira/features&quot;&gt;https://www.atlassian.com/ko/software/jira/features&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;소프트웨어 개발 및 프로젝트 관리를 위한 &lt;strong&gt;애자일&lt;/strong&gt; 기반의 이슈 트래킹 도구입니다. Atlassian이라는 회사에서 개발하고 유지 보수합니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;이슈&lt;/strong&gt;를 생성하고, 할 일을 추적하고, 업무의 진행 상황을 모니터링하며, 팀 간 협업을 촉진하는 기능을 제공합니다. 이슈는 각각 고유한 키를 가지면, 상태, 우선순위, 할당된 담당자, 직업 진행 상황 등의 정보를 포함합니다.&lt;/p&gt;
-
-&lt;p&gt;강력한 대시보드 및 보고 기능도 제공합니다. 프로젝트 상태, 팀의 업무 진행 상황, 직업에 대한 수행 시간 및 예산 등의 정보를 시각적으로 나타내서 보고서를 생성하고 프로젝트 관리를 돕습니다.&lt;/p&gt;
-
-&lt;p&gt;이슈를 관리하는 데에 유용한 여러 가지 기능을 제공합니다. 예를 들어, 이슈에 대한 코멘트를 남기고, 파일을 첨부하고, 이슈를 라벨링하고, 이슈를 추적하기 위한 워크플로우를 정의할 수 있습니다. 이슈를 할당하고, 작업 시간을 추적하며, 이슈에 대한 알림을 설정할 수도 있습니다.&lt;/p&gt;
-
-&lt;p&gt;대규모 프로젝트를 위한 확장성과 유연성을 제공합니다. 여러 팀이 Jira를 사용하고 각 팀마다 자신만의 프로젝트, 워크플로우, 이슈 유형 등을 정의할 수 있습니다. 또한 Jira는 다양한 플로그인을 지원하여 사용자 요구 사항에 맞게 기능을 확장할 수 있습니다.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;또한 소프트웨어 개발 뿐만 아니라 다양한 프로젝트와 업무 관리를 위한 툴로도 사용됩니다. 팀 전체에서 작업의 진행 상황을 실시간으로 모니터링할 수 있으며, 이슈가 &lt;strong&gt;누락&lt;/strong&gt;되거나 &lt;strong&gt;중복&lt;/strong&gt;되지 않도록 체계적으로 관리할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;각각의 이슈를 티켓(Ticket)으로 표현합니다. 티켓은 제목, 설명, 우선순위, 담당자, 상태 등의 정보를 담고 있으며, 이슈의 종류에 따라서는 추가적인 필드를 설정할 수 있습니다. 이슈를 생성하면 해당 이슈에 대한 토론과 댓글 작성, 파일 첨부 등의 기능을 활용하여 팀원 간 소통과 협업을 할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;이슈를 추적하기 위한 워크플로우(Workflow)를 지원합니다. 워크플로우는 이슈가 생성되어 해결될 때 이슈의 상태가 변경되는 일련의 과정을 정의하는 것입니다. 예를 들어, 소프트웨어 개발 프로젝트에서는 워크플로우를 “To do”, “In progress”, “Done”과 같이 정의하여, 이슈가 생성되면 초기 상태는 “To do”이 되고, 개발이 시작되면 “In progress” 상태로 변경되며, 완료되면 “Done” 상태로 변경됩니다. 이를 통해 팀원들은 이슈가 어느 단계에 있는지 쉽게 파악할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;대시보드(Dashboard)를 통해 프로젝트의 전반적인 상황을 한눈에 파악할 수 있습니다. 대시보드에는 프로젝트의 진행 상황, 이슈의 우선순위, 팀원의 일정 등의 정보가 표시되며, 개인적으로 자주 사용하는 이슈나 대시보드를 즐겨찾기에 등록하여 효율적으로 이용할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;또한 다양한 플러그인(Plugin)을 지원하여, 사용자가 필요에 따라 기능을 확장할 수 있습니다. 예를 들어, 코드 리뷰를 위한 플러그인인 Crucible이나 소스 코드 버전 관리를 위한 Bitbucket 등의 툴을 연동하여 더욱 효율적인 개발 환경을 구성할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;종합하면, 이슈 트래킹과 워크플로우, 대시보드, 플러그인 등 다양한 기능을 제공하여 프로젝트 관리를 보다 체계적으로 할 수 있도록 도와주는 프로젝트 관리 툴입니다. 또한, 사용하면 이슈의 우선순위, 담당자, 상태 등을 쉽게 파악하여 팀원 간의 협업을 원활하게 할 수 있습니다. 더불어, Jira를 통해 프로젝트의 진행 상황을 실시간으로 모니터링할 수 있어, 프로젝트 관리에 필요한 데이터를 신속하게 수집하고 분석할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;무료로 제공되는 버전과 유료로 제공되는 버전이 있습니다. 무료 버전은 기본적인 이슈 추적과 워크플로우 관리 기능만을 제공하며, 유료 버전에는 추가적으로 프로젝트 관리, 보고서 생성, 통계 분석 등의 기능이 제공됩니다.&lt;/p&gt;
-
-&lt;p&gt;많은 기업에서 프로젝트 관리에 활용하고 있으며, 소프트웨어 개발뿐만 아니라 마케팅, 인사 등 다양한 부서에서도 사용되고 있습니다. Jira의 다양한 기능과 확장성은 프로젝트 관리에 있어 매우 유용한 도구 중 하나입니다.&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">Jira</summary></entry><entry><title type="html">퀵정렬</title><link href="http://localhost:4000/%ED%80%B5%EC%A0%95%EB%A0%AC" rel="alternate" type="text/html" title="퀵정렬" /><published>2023-04-07T00:00:00+09:00</published><updated>2023-04-07T00:00:00+09:00</updated><id>http://localhost:4000/%ED%80%B5%EC%A0%95%EB%A0%AC</id><content type="html" xml:base="http://localhost:4000/%ED%80%B5%EC%A0%95%EB%A0%AC">&lt;h1 id=&quot;퀵-정렬-quick-sort&quot;&gt;퀵 정렬 (Quick Sort)&lt;/h1&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="programing" /><category term="python" /><summary type="html">공던지기 문제</summary></entry><entry><title type="html">퀵정렬</title><link href="http://localhost:4000/%ED%80%B5%EC%A0%95%EB%A0%AC" rel="alternate" type="text/html" title="퀵정렬" /><published>2023-04-07T00:00:00+09:00</published><updated>2023-04-07T00:00:00+09:00</updated><id>http://localhost:4000/%ED%80%B5%EC%A0%95%EB%A0%AC</id><content type="html" xml:base="http://localhost:4000/%ED%80%B5%EC%A0%95%EB%A0%AC">&lt;h1 id=&quot;퀵-정렬-quick-sort&quot;&gt;퀵 정렬 (Quick Sort)&lt;/h1&gt;
 
 &lt;p&gt;퀵 정렬은 분할 정복(Divide and Conquer) 방식을 이용하여 정렬하는 알고리즘 중 하나입니다.&lt;/p&gt;
 
@@ -325,7 +438,45 @@ MSD 기수정렬은 가장 높은 자리수부터 시작하여 정렬하는 것�
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[1, 2, 3, 4, 5, 6, 15, 22, 27]
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="programing" /><category term="python" /><summary type="html">퀵 정렬 (Quick Sort)</summary></entry><entry><title type="html">신용카드 사기 탐지</title><link href="http://localhost:4000/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80(Kaggle)" rel="alternate" type="text/html" title="신용카드 사기 탐지" /><published>2023-04-02T00:00:00+09:00</published><updated>2023-04-02T00:00:00+09:00</updated><id>http://localhost:4000/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80(Kaggle)</id><content type="html" xml:base="http://localhost:4000/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80(Kaggle)">&lt;h1 id=&quot;신용카드-사기-탐지-credit-card-fraud-detection&quot;&gt;신용카드 사기 탐지 (Credit Card Fraud Detection)&lt;/h1&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="programing" /><category term="python" /><summary type="html">퀵 정렬 (Quick Sort)</summary></entry><entry><title type="html">TIL-Jira</title><link href="http://localhost:4000/TIL-Jira" rel="alternate" type="text/html" title="TIL-Jira" /><published>2023-04-07T00:00:00+09:00</published><updated>2023-04-07T00:00:00+09:00</updated><id>http://localhost:4000/TIL-Jira</id><content type="html" xml:base="http://localhost:4000/TIL-Jira">&lt;h1 id=&quot;jira&quot;&gt;Jira&lt;/h1&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;요약
+
+지라는 협업에 필요한 흐름을 알 수 있고 누가 어떤 일을 진행하고 있는지 물어보지 않고도 확인할 수 있습니다.
+업무의 방향을 확실하게 확인할 수 있어 본인의 업무의 방향에도 도움이 됩니다.
+
+문서로서는 능력은 Confluence를 활용하는게 좋습니다.
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Jira Software 사용하기&lt;a href=&quot;https://www.atlassian.com/ko/software/jira/features&quot;&gt;https://www.atlassian.com/ko/software/jira/features&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;소프트웨어 개발 및 프로젝트 관리를 위한 &lt;strong&gt;애자일&lt;/strong&gt; 기반의 이슈 트래킹 도구입니다. Atlassian이라는 회사에서 개발하고 유지 보수합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;이슈&lt;/strong&gt;를 생성하고, 할 일을 추적하고, 업무의 진행 상황을 모니터링하며, 팀 간 협업을 촉진하는 기능을 제공합니다. 이슈는 각각 고유한 키를 가지면, 상태, 우선순위, 할당된 담당자, 직업 진행 상황 등의 정보를 포함합니다.&lt;/p&gt;
+
+&lt;p&gt;강력한 대시보드 및 보고 기능도 제공합니다. 프로젝트 상태, 팀의 업무 진행 상황, 직업에 대한 수행 시간 및 예산 등의 정보를 시각적으로 나타내서 보고서를 생성하고 프로젝트 관리를 돕습니다.&lt;/p&gt;
+
+&lt;p&gt;이슈를 관리하는 데에 유용한 여러 가지 기능을 제공합니다. 예를 들어, 이슈에 대한 코멘트를 남기고, 파일을 첨부하고, 이슈를 라벨링하고, 이슈를 추적하기 위한 워크플로우를 정의할 수 있습니다. 이슈를 할당하고, 작업 시간을 추적하며, 이슈에 대한 알림을 설정할 수도 있습니다.&lt;/p&gt;
+
+&lt;p&gt;대규모 프로젝트를 위한 확장성과 유연성을 제공합니다. 여러 팀이 Jira를 사용하고 각 팀마다 자신만의 프로젝트, 워크플로우, 이슈 유형 등을 정의할 수 있습니다. 또한 Jira는 다양한 플로그인을 지원하여 사용자 요구 사항에 맞게 기능을 확장할 수 있습니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;또한 소프트웨어 개발 뿐만 아니라 다양한 프로젝트와 업무 관리를 위한 툴로도 사용됩니다. 팀 전체에서 작업의 진행 상황을 실시간으로 모니터링할 수 있으며, 이슈가 &lt;strong&gt;누락&lt;/strong&gt;되거나 &lt;strong&gt;중복&lt;/strong&gt;되지 않도록 체계적으로 관리할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;각각의 이슈를 티켓(Ticket)으로 표현합니다. 티켓은 제목, 설명, 우선순위, 담당자, 상태 등의 정보를 담고 있으며, 이슈의 종류에 따라서는 추가적인 필드를 설정할 수 있습니다. 이슈를 생성하면 해당 이슈에 대한 토론과 댓글 작성, 파일 첨부 등의 기능을 활용하여 팀원 간 소통과 협업을 할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;이슈를 추적하기 위한 워크플로우(Workflow)를 지원합니다. 워크플로우는 이슈가 생성되어 해결될 때 이슈의 상태가 변경되는 일련의 과정을 정의하는 것입니다. 예를 들어, 소프트웨어 개발 프로젝트에서는 워크플로우를 “To do”, “In progress”, “Done”과 같이 정의하여, 이슈가 생성되면 초기 상태는 “To do”이 되고, 개발이 시작되면 “In progress” 상태로 변경되며, 완료되면 “Done” 상태로 변경됩니다. 이를 통해 팀원들은 이슈가 어느 단계에 있는지 쉽게 파악할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;대시보드(Dashboard)를 통해 프로젝트의 전반적인 상황을 한눈에 파악할 수 있습니다. 대시보드에는 프로젝트의 진행 상황, 이슈의 우선순위, 팀원의 일정 등의 정보가 표시되며, 개인적으로 자주 사용하는 이슈나 대시보드를 즐겨찾기에 등록하여 효율적으로 이용할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;또한 다양한 플러그인(Plugin)을 지원하여, 사용자가 필요에 따라 기능을 확장할 수 있습니다. 예를 들어, 코드 리뷰를 위한 플러그인인 Crucible이나 소스 코드 버전 관리를 위한 Bitbucket 등의 툴을 연동하여 더욱 효율적인 개발 환경을 구성할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;종합하면, 이슈 트래킹과 워크플로우, 대시보드, 플러그인 등 다양한 기능을 제공하여 프로젝트 관리를 보다 체계적으로 할 수 있도록 도와주는 프로젝트 관리 툴입니다. 또한, 사용하면 이슈의 우선순위, 담당자, 상태 등을 쉽게 파악하여 팀원 간의 협업을 원활하게 할 수 있습니다. 더불어, Jira를 통해 프로젝트의 진행 상황을 실시간으로 모니터링할 수 있어, 프로젝트 관리에 필요한 데이터를 신속하게 수집하고 분석할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;무료로 제공되는 버전과 유료로 제공되는 버전이 있습니다. 무료 버전은 기본적인 이슈 추적과 워크플로우 관리 기능만을 제공하며, 유료 버전에는 추가적으로 프로젝트 관리, 보고서 생성, 통계 분석 등의 기능이 제공됩니다.&lt;/p&gt;
+
+&lt;p&gt;많은 기업에서 프로젝트 관리에 활용하고 있으며, 소프트웨어 개발뿐만 아니라 마케팅, 인사 등 다양한 부서에서도 사용되고 있습니다. Jira의 다양한 기능과 확장성은 프로젝트 관리에 있어 매우 유용한 도구 중 하나입니다.&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">Jira</summary></entry><entry><title type="html">신용카드 사기 탐지</title><link href="http://localhost:4000/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80(Kaggle)" rel="alternate" type="text/html" title="신용카드 사기 탐지" /><published>2023-04-02T00:00:00+09:00</published><updated>2023-04-02T00:00:00+09:00</updated><id>http://localhost:4000/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80(Kaggle)</id><content type="html" xml:base="http://localhost:4000/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80(Kaggle)">&lt;h1 id=&quot;신용카드-사기-탐지-credit-card-fraud-detection&quot;&gt;신용카드 사기 탐지 (Credit Card Fraud Detection)&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud&quot;&gt;kaggle&lt;/a&gt; 에서 기존의 분석 경험 쌓기 + 프로그래밍 스킬 + 분석할 때 사용되는 영어 공부를 같이 진행합니다. 확실하게 진행되는 것이 우선순위인 속도로 진행됩니다.&lt;/p&gt;
 &lt;ul&gt;
@@ -805,7 +956,8 @@ Frauds 0.17% of the dataset
 &lt;p&gt;&lt;strong&gt;메모:&lt;/strong&gt; 
 원본 데이터 세트가 얼마나 불균형적인지 주목하십시오! 대부분의 거래는 사기가 아닙니다. 이 데이터 프레임을 예측 모델 및 분석의 기반으로 사용하면 많은 오류가 발생할 수 있으며 대부분의 거래가 사기가 아니라고 “assume”하기 때문에 알고리즘이 과도하게 적합할 수 있습니다. 하지만 우리는 모델이 사기를 탐지하기 위해 특정한 패턴을 학습하도록 하는 것이 목적입니다.&lt;/p&gt;
 
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;colors&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;#0101DF&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;#DF0101&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Class 열의 데이터 분포를 막대그래프로 시각하화여 차이를 확인합니다.
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;colors&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;#0101DF&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;#DF0101&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 
 &lt;span class=&quot;n&quot;&gt;sns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;countplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Class&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;palette&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;colors&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Class Distributions &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt; (0: No Fraud || 1: Fraud)&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fontsize&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;14&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
@@ -819,7 +971,8 @@ Frauds 0.17% of the dataset
 &lt;p&gt;&lt;strong&gt;분포:&lt;/strong&gt;
 분포를 보면 이러한 형상이 얼마나 치우쳐 있는지 알 수 있고, 다른 형태의 추가 분포도 볼 수 있습니다. 분포의 왜곡을 줄이는 데 도움이 되는 기술이 있으며, 향후 이 노트북에 구현될 예정입니다.&lt;/p&gt;
 
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;fig&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ax&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subplots&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;figsize&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;18&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Amount, Time 열을 histogram 그래프로 각 열의 데이터 분포를 살펴봅니다. 얼마나 모여있거나 치우쳐졌는지 확인합니다.
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fig&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ax&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subplots&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;figsize&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;18&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
 
 &lt;span class=&quot;n&quot;&gt;amount_val&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Amount&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;values&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;time_val&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Time&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;values&lt;/span&gt;
@@ -894,7 +1047,7 @@ In this phase of our kernel, we will first scale the columns comprise of &lt;b&g
 &lt;/span&gt;
 &lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sklearn.preprocessing&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;StandardScaler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;RobustScaler&lt;/span&gt;
 
-&lt;span class=&quot;c1&quot;&gt;# RobustScaler는 특이치가 발생하기 쉽습니다.
+&lt;span class=&quot;c1&quot;&gt;# RobustScaler는 이상값에 덜 취약합니다. 따라서 이번 장에서는 RobustScaler를 사용합니다.
 &lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;std_scaler&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;StandardScaler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;rob_scaler&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;RobustScaler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
@@ -905,7 +1058,8 @@ In this phase of our kernel, we will first scale the columns comprise of &lt;b&g
 &lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;drop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Amount&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;Time&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;axis&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;inplace&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;scaled_amount&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;scaled_amount&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# 스케일화 된 열들을 교체해줍니다.
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;scaled_amount&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;scaled_amount&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;scaled_time&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;scaled_time&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 
 &lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;drop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;scaled_amount&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;scaled_time&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;axis&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;inplace&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
@@ -1109,17 +1263,21 @@ Before proceeding with the &lt;b&gt; Random UnderSampling technique&lt;/b&gt; we
 주요 목표는 모델을 언더샘플 및 오버샘플 데이터 프레임(모델이 패턴을 감지할 수 있도록)에 맞추고 원래 테스트 세트에서 테스트하는 것입니다.&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sklearn.model_selection&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;train_test_split&lt;/span&gt;
-&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sklearn.model_selection&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;StratifiedShuffleSplit&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sa&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;No Frauds &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;round&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Class&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value_counts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;% of the dataset&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sklearn.model_selection&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;StratifiedShuffleSplit&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 비율을 맞추어 데이터를 분리할 수 있는 라이브러리입니다.
+&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# Class에 대한 Fraud 대 Non-Fraud의 비율을 구합니다.
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sa&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;No Frauds &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;round&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Class&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value_counts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;% of the dataset&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sa&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Frauds &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;round&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Class&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value_counts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;% of the dataset&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
-&lt;span class=&quot;n&quot;&gt;X&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;drop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Class&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;axis&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# 독립변수와 종속변수를 나눕니다.
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;X&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;drop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Class&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;axis&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Class&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 
-&lt;span class=&quot;n&quot;&gt;sss&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;StratifiedKFold&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_splits&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;random_state&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;shuffle&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# 데이터세트를 5개의 Fold로 나누어줍니다.
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sss&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;StratifiedKFold&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_splits&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;random_state&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;shuffle&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;train_index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;test_index&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sss&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# v
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;train_index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;test_index&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sss&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
     &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Train:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;train_index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Test:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;test_index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;original_Xtrain&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;original_Xtest&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iloc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;train_index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iloc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test_index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;original_ytrain&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;original_ytest&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iloc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;train_index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iloc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test_index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
@@ -1270,123 +1428,123 @@ Label Distributions:
   &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;th&gt;122184&lt;/th&gt;
-      &lt;td&gt;-0.092224&lt;/td&gt;
-      &lt;td&gt;-0.096665&lt;/td&gt;
-      &lt;td&gt;1.096144&lt;/td&gt;
-      &lt;td&gt;0.198668&lt;/td&gt;
-      &lt;td&gt;-0.156906&lt;/td&gt;
-      &lt;td&gt;0.703266&lt;/td&gt;
-      &lt;td&gt;1.054722&lt;/td&gt;
-      &lt;td&gt;1.577221&lt;/td&gt;
-      &lt;td&gt;-0.026891&lt;/td&gt;
-      &lt;td&gt;0.337371&lt;/td&gt;
+      &lt;th&gt;98509&lt;/th&gt;
+      &lt;td&gt;0.809055&lt;/td&gt;
+      &lt;td&gt;-0.211504&lt;/td&gt;
+      &lt;td&gt;1.002074&lt;/td&gt;
+      &lt;td&gt;-0.518813&lt;/td&gt;
+      &lt;td&gt;0.894617&lt;/td&gt;
+      &lt;td&gt;0.916939&lt;/td&gt;
+      &lt;td&gt;-1.089434&lt;/td&gt;
+      &lt;td&gt;-0.131757&lt;/td&gt;
+      &lt;td&gt;-0.461370&lt;/td&gt;
+      &lt;td&gt;0.185238&lt;/td&gt;
       &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;-0.143850&lt;/td&gt;
-      &lt;td&gt;0.114563&lt;/td&gt;
-      &lt;td&gt;0.575651&lt;/td&gt;
-      &lt;td&gt;-0.101910&lt;/td&gt;
-      &lt;td&gt;-1.765628&lt;/td&gt;
-      &lt;td&gt;0.526712&lt;/td&gt;
-      &lt;td&gt;-0.152967&lt;/td&gt;
-      &lt;td&gt;0.091028&lt;/td&gt;
-      &lt;td&gt;0.001842&lt;/td&gt;
+      &lt;td&gt;-0.047349&lt;/td&gt;
+      &lt;td&gt;-0.049445&lt;/td&gt;
+      &lt;td&gt;-0.066818&lt;/td&gt;
+      &lt;td&gt;-0.099627&lt;/td&gt;
+      &lt;td&gt;0.590103&lt;/td&gt;
+      &lt;td&gt;0.388942&lt;/td&gt;
+      &lt;td&gt;0.493591&lt;/td&gt;
+      &lt;td&gt;-0.029994&lt;/td&gt;
+      &lt;td&gt;0.015366&lt;/td&gt;
       &lt;td&gt;0&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;th&gt;116139&lt;/th&gt;
-      &lt;td&gt;0.767694&lt;/td&gt;
-      &lt;td&gt;-0.123744&lt;/td&gt;
-      &lt;td&gt;-1.548788&lt;/td&gt;
-      &lt;td&gt;1.808698&lt;/td&gt;
-      &lt;td&gt;-0.953509&lt;/td&gt;
-      &lt;td&gt;2.213085&lt;/td&gt;
-      &lt;td&gt;-2.015728&lt;/td&gt;
-      &lt;td&gt;-0.913457&lt;/td&gt;
-      &lt;td&gt;-2.356013&lt;/td&gt;
-      &lt;td&gt;1.197169&lt;/td&gt;
+      &lt;th&gt;95534&lt;/th&gt;
+      &lt;td&gt;0.138476&lt;/td&gt;
+      &lt;td&gt;-0.227141&lt;/td&gt;
+      &lt;td&gt;1.193916&lt;/td&gt;
+      &lt;td&gt;-0.571085&lt;/td&gt;
+      &lt;td&gt;0.742522&lt;/td&gt;
+      &lt;td&gt;-0.014588&lt;/td&gt;
+      &lt;td&gt;-0.624561&lt;/td&gt;
+      &lt;td&gt;0.832162&lt;/td&gt;
+      &lt;td&gt;-0.833350&lt;/td&gt;
+      &lt;td&gt;0.272897&lt;/td&gt;
       &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;0.390786&lt;/td&gt;
-      &lt;td&gt;0.855138&lt;/td&gt;
-      &lt;td&gt;0.774745&lt;/td&gt;
-      &lt;td&gt;0.059037&lt;/td&gt;
-      &lt;td&gt;0.343200&lt;/td&gt;
-      &lt;td&gt;-0.468938&lt;/td&gt;
-      &lt;td&gt;-0.278338&lt;/td&gt;
-      &lt;td&gt;0.625922&lt;/td&gt;
-      &lt;td&gt;0.395573&lt;/td&gt;
+      &lt;td&gt;0.062908&lt;/td&gt;
+      &lt;td&gt;-0.049502&lt;/td&gt;
+      &lt;td&gt;0.207265&lt;/td&gt;
+      &lt;td&gt;-0.265272&lt;/td&gt;
+      &lt;td&gt;-0.679294&lt;/td&gt;
+      &lt;td&gt;0.511812&lt;/td&gt;
+      &lt;td&gt;1.246604&lt;/td&gt;
+      &lt;td&gt;-0.028671&lt;/td&gt;
+      &lt;td&gt;-0.006112&lt;/td&gt;
       &lt;td&gt;1&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;th&gt;204521&lt;/th&gt;
-      &lt;td&gt;0.083840&lt;/td&gt;
-      &lt;td&gt;0.594779&lt;/td&gt;
-      &lt;td&gt;-1.635628&lt;/td&gt;
-      &lt;td&gt;0.190823&lt;/td&gt;
-      &lt;td&gt;-0.042933&lt;/td&gt;
-      &lt;td&gt;-1.926723&lt;/td&gt;
-      &lt;td&gt;1.403739&lt;/td&gt;
-      &lt;td&gt;-1.775181&lt;/td&gt;
-      &lt;td&gt;1.305257&lt;/td&gt;
-      &lt;td&gt;-0.641480&lt;/td&gt;
+      &lt;th&gt;165444&lt;/th&gt;
+      &lt;td&gt;2.822609&lt;/td&gt;
+      &lt;td&gt;0.384720&lt;/td&gt;
+      &lt;td&gt;1.576410&lt;/td&gt;
+      &lt;td&gt;-1.385526&lt;/td&gt;
+      &lt;td&gt;-0.335421&lt;/td&gt;
+      &lt;td&gt;-0.286623&lt;/td&gt;
+      &lt;td&gt;-1.244921&lt;/td&gt;
+      &lt;td&gt;-0.427657&lt;/td&gt;
+      &lt;td&gt;-0.450099&lt;/td&gt;
+      &lt;td&gt;-0.102136&lt;/td&gt;
       &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;-0.623723&lt;/td&gt;
-      &lt;td&gt;-0.263745&lt;/td&gt;
-      &lt;td&gt;0.163846&lt;/td&gt;
-      &lt;td&gt;-0.960925&lt;/td&gt;
-      &lt;td&gt;0.144301&lt;/td&gt;
-      &lt;td&gt;1.332132&lt;/td&gt;
-      &lt;td&gt;1.017021&lt;/td&gt;
-      &lt;td&gt;-0.081181&lt;/td&gt;
-      &lt;td&gt;-0.064023&lt;/td&gt;
+      &lt;td&gt;0.307440&lt;/td&gt;
+      &lt;td&gt;-0.110957&lt;/td&gt;
+      &lt;td&gt;-0.397984&lt;/td&gt;
+      &lt;td&gt;0.168028&lt;/td&gt;
+      &lt;td&gt;0.066283&lt;/td&gt;
+      &lt;td&gt;-0.591906&lt;/td&gt;
+      &lt;td&gt;0.380951&lt;/td&gt;
+      &lt;td&gt;-0.045874&lt;/td&gt;
+      &lt;td&gt;-0.007303&lt;/td&gt;
       &lt;td&gt;0&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;th&gt;144108&lt;/th&gt;
-      &lt;td&gt;4.030182&lt;/td&gt;
-      &lt;td&gt;0.013804&lt;/td&gt;
-      &lt;td&gt;-3.586964&lt;/td&gt;
-      &lt;td&gt;2.609127&lt;/td&gt;
-      &lt;td&gt;-5.568577&lt;/td&gt;
-      &lt;td&gt;3.631947&lt;/td&gt;
-      &lt;td&gt;-4.543590&lt;/td&gt;
-      &lt;td&gt;-0.157899&lt;/td&gt;
-      &lt;td&gt;-4.089128&lt;/td&gt;
-      &lt;td&gt;2.417305&lt;/td&gt;
+      &lt;th&gt;74794&lt;/th&gt;
+      &lt;td&gt;4.051003&lt;/td&gt;
+      &lt;td&gt;-0.339901&lt;/td&gt;
+      &lt;td&gt;-6.003422&lt;/td&gt;
+      &lt;td&gt;-3.930731&lt;/td&gt;
+      &lt;td&gt;-0.007045&lt;/td&gt;
+      &lt;td&gt;1.714669&lt;/td&gt;
+      &lt;td&gt;3.414667&lt;/td&gt;
+      &lt;td&gt;-2.329583&lt;/td&gt;
+      &lt;td&gt;-1.901512&lt;/td&gt;
+      &lt;td&gt;-2.746111&lt;/td&gt;
       &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;-0.178534&lt;/td&gt;
-      &lt;td&gt;1.024423&lt;/td&gt;
-      &lt;td&gt;0.428756&lt;/td&gt;
-      &lt;td&gt;0.182032&lt;/td&gt;
-      &lt;td&gt;-0.534598&lt;/td&gt;
-      &lt;td&gt;0.168933&lt;/td&gt;
-      &lt;td&gt;-0.149844&lt;/td&gt;
-      &lt;td&gt;0.685517&lt;/td&gt;
-      &lt;td&gt;-0.299728&lt;/td&gt;
+      &lt;td&gt;-4.128186&lt;/td&gt;
+      &lt;td&gt;1.101671&lt;/td&gt;
+      &lt;td&gt;-0.992494&lt;/td&gt;
+      &lt;td&gt;-0.698259&lt;/td&gt;
+      &lt;td&gt;0.139898&lt;/td&gt;
+      &lt;td&gt;-0.205151&lt;/td&gt;
+      &lt;td&gt;-0.472412&lt;/td&gt;
+      &lt;td&gt;1.775378&lt;/td&gt;
+      &lt;td&gt;-0.104285&lt;/td&gt;
       &lt;td&gt;1&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;th&gt;39183&lt;/th&gt;
-      &lt;td&gt;10.547474&lt;/td&gt;
-      &lt;td&gt;-0.528237&lt;/td&gt;
-      &lt;td&gt;-0.964567&lt;/td&gt;
-      &lt;td&gt;-1.643541&lt;/td&gt;
-      &lt;td&gt;-0.187727&lt;/td&gt;
-      &lt;td&gt;1.158253&lt;/td&gt;
-      &lt;td&gt;-2.458336&lt;/td&gt;
-      &lt;td&gt;0.852222&lt;/td&gt;
-      &lt;td&gt;2.785163&lt;/td&gt;
-      &lt;td&gt;-0.303609&lt;/td&gt;
+      &lt;th&gt;192687&lt;/th&gt;
+      &lt;td&gt;3.551596&lt;/td&gt;
+      &lt;td&gt;0.530034&lt;/td&gt;
+      &lt;td&gt;1.522080&lt;/td&gt;
+      &lt;td&gt;-0.519429&lt;/td&gt;
+      &lt;td&gt;-2.581685&lt;/td&gt;
+      &lt;td&gt;0.774741&lt;/td&gt;
+      &lt;td&gt;0.206722&lt;/td&gt;
+      &lt;td&gt;-1.431020&lt;/td&gt;
+      &lt;td&gt;0.757011&lt;/td&gt;
+      &lt;td&gt;-0.444418&lt;/td&gt;
       &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;1.784449&lt;/td&gt;
-      &lt;td&gt;0.447180&lt;/td&gt;
-      &lt;td&gt;0.536204&lt;/td&gt;
-      &lt;td&gt;1.634061&lt;/td&gt;
-      &lt;td&gt;0.203839&lt;/td&gt;
-      &lt;td&gt;0.218749&lt;/td&gt;
-      &lt;td&gt;-0.221886&lt;/td&gt;
-      &lt;td&gt;-0.308555&lt;/td&gt;
-      &lt;td&gt;-0.164500&lt;/td&gt;
+      &lt;td&gt;0.361169&lt;/td&gt;
+      &lt;td&gt;0.019649&lt;/td&gt;
+      &lt;td&gt;-0.211678&lt;/td&gt;
+      &lt;td&gt;-0.247452&lt;/td&gt;
+      &lt;td&gt;-0.279472&lt;/td&gt;
+      &lt;td&gt;0.239646&lt;/td&gt;
+      &lt;td&gt;-0.508398&lt;/td&gt;
+      &lt;td&gt;-0.015551&lt;/td&gt;
+      &lt;td&gt;0.041881&lt;/td&gt;
       &lt;td&gt;1&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
@@ -1675,19 +1833,19 @@ Cut Off: 8.114853173228282
 V14 Lower: -17.807576138200666
 V14 Upper: 3.8320323237414167
 Feature V14 Outliers for Fraud Cases: 4
-V14 outliers:[-19.2143254902614, -18.4937733551053, -18.0499976898594, -18.8220867423816]
+V14 outliers:[-18.0499976898594, -18.4937733551053, -18.8220867423816, -19.2143254902614]
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 V12 Lower: -17.3430371579634
 V12 Upper: 5.776973384895937
-V12 outliers: [-18.5536970096458, -18.4311310279993, -18.0475965708216, -18.6837146333443]
+V12 outliers: [-18.5536970096458, -18.6837146333443, -18.4311310279993, -18.0475965708216]
 Feature V12 Outliers for Fraud Cases: 4
-Number of Instances after outliers removal: 975
+Number of Instances after outliers removal: 976
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 V10 Lower: -14.89885463232024
 V10 Upper: 4.92033495834214
-V10 outliers: [-22.1870885620007, -15.2399619587112, -16.7460441053944, -14.9246547735487, -23.2282548357516, -14.9246547735487, -20.9491915543611, -16.6011969664137, -15.3460988468775, -15.5637913387301, -18.9132433348732, -16.6496281595399, -22.1870885620007, -15.2318333653018, -15.1237521803455, -15.2399619587112, -15.5637913387301, -17.1415136412892, -19.836148851696, -16.3035376590131, -24.5882624372475, -22.1870885620007, -18.2711681738888, -15.1241628144947, -22.1870885620007, -16.2556117491401, -24.4031849699728]
+V10 outliers: [-17.1415136412892, -22.1870885620007, -18.2711681738888, -16.3035376590131, -18.9132433348732, -14.9246547735487, -15.2318333653018, -19.836148851696, -15.5637913387301, -22.1870885620007, -15.2399619587112, -15.2399619587112, -16.2556117491401, -22.1870885620007, -15.3460988468775, -15.1241628144947, -22.1870885620007, -16.6496281595399, -20.9491915543611, -15.5637913387301, -16.7460441053944, -15.1237521803455, -24.4031849699728, -24.5882624372475, -14.9246547735487, -16.6011969664137, -23.2282548357516]
 Feature V10 Outliers for Fraud Cases: 27
-Number of Instances after outliers removal: 943
+Number of Instances after outliers removal: 944
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ax1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ax2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ax3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subplots&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;figsize&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
@@ -1739,7 +1897,7 @@ Number of Instances after outliers removal: 943
 &lt;ul&gt;
   &lt;li&gt;유클리드 거리(Euclidean Distance)&lt;/li&gt;
   &lt;li&gt;조건부 확률(Conditional Probability)&lt;/li&gt;
-  &lt;li&gt;정상 및 T-분포 그래프(Normal and T-Distribution Plots)&lt;/li&gt;
+  &lt;li&gt;정규 및 T-분포 그래프(Normal and T-Distribution Plots)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you want a simple instructive video look at &lt;a href=&quot;https://www.youtube.com/watch?v=NEaUSP4YerM&quot;&gt; StatQuest: t-SNE, Clearly Explained &lt;/a&gt; by Joshua Starmer&lt;/p&gt;
@@ -1785,9 +1943,9 @@ Number of Instances after outliers removal: 943
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Truncated SVD took {:.2} s&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;t0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;T-SNE took 3.3 s
-PCA took 0.015 s
-Truncated SVD took 0.002 s
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;T-SNE took 3.9 s
+PCA took 0.057 s
+Truncated SVD took 0.003 s
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ax1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ax2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ax3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subplots&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;figsize&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;24&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
@@ -1909,9 +2067,9 @@ In this section we will train four types of classifiers and decide which classif
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Classifiers:  LogisticRegression Has a training score of 94.0 % accuracy score
-Classifiers:  KNeighborsClassifier Has a training score of 93.0 % accuracy score
+Classifiers:  KNeighborsClassifier Has a training score of 92.0 % accuracy score
 Classifiers:  SVC Has a training score of 93.0 % accuracy score
-Classifiers:  DecisionTreeClassifier Has a training score of 90.0 % accuracy score
+Classifiers:  DecisionTreeClassifier Has a training score of 89.0 % accuracy score
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Use GridSearchCV to find the best parameters.
@@ -1969,10 +2127,62 @@ Classifiers:  DecisionTreeClassifier Has a training score of 90.0 % accuracy sco
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;DecisionTree Classifier Cross Validation Score&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;round&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tree_score&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mean&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;astype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;%&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Logistic Regression Cross Validation Score:  94.3%
-Knears Neighbors Cross Validation Score 92.97%
-Support Vector Classifier Cross Validation Score 94.17%
-DecisionTree Classifier Cross Validation Score 91.64%
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Logistic Regression Cross Validation Score:  93.91%
+Knears Neighbors Cross Validation Score 92.72%
+Support Vector Classifier Cross Validation Score 93.25%
+DecisionTree Classifier Cross Validation Score 91.92%
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# We will undersample during cross validating
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;undersample_X&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;drop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Class&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;axis&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;undersample_y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Class&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;train_index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;test_index&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sss&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;undersample_X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;undersample_y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Train:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;train_index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Test:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;test_index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;undersample_Xtrain&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;undersample_Xtest&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;undersample_X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iloc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;train_index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;undersample_X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iloc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test_index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;undersample_ytrain&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;undersample_ytest&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;undersample_y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iloc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;train_index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;undersample_y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iloc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test_index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+    
+&lt;span class=&quot;n&quot;&gt;undersample_Xtrain&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;undersample_Xtrain&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;values&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;undersample_Xtest&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;undersample_Xtest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;values&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;undersample_ytrain&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;undersample_ytrain&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;values&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;undersample_ytest&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;undersample_ytest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;values&lt;/span&gt; 
+
+&lt;span class=&quot;n&quot;&gt;undersample_accuracy&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;undersample_precision&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;undersample_recall&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;undersample_f1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;undersample_auc&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Train: [ 56961  56962  56963 ... 284804 284805 284806] Test: [    0     1     2 ... 56959 56960 57206]
+Train: [     0      1      2 ... 284804 284805 284806] Test: [ 56961  56962  56963 ... 113921 113922 114407]
+Train: [     0      1      2 ... 284804 284805 284806] Test: [113923 113924 113925 ... 172832 173003 174817]
+Train: [     0      1      2 ... 284804 284805 284806] Test: [170879 170880 170881 ... 230183 231820 232250]
+Train: [     0      1      2 ... 230183 231820 232250] Test: [227837 227838 227839 ... 284804 284805 284806]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Implementing NearMiss Technique 
+# Distribution of NearMiss (Just to see how it distributes the labels we won&apos;t use these variables)
+&lt;/span&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;imblearn.under_sampling&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;RandomUnderSampler&lt;/span&gt;  
+
+&lt;span class=&quot;n&quot;&gt;under_sampler&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;RandomUnderSampler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;X_nearmiss&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y_nearmiss&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;under_sampler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fit_resample&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;undersample_X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;values&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;undersample_y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;values&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# X_nearmiss, y_nearmiss = NearMiss().fit_sample(undersample_X.values, undersample_y.values)
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;NearMiss Label Distribution: {}&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Counter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y_nearmiss&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# Cross Validating the right way
+&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;test&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sss&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;undersample_Xtrain&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;undersample_ytrain&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;undersample_pipeline&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;imbalanced_make_pipeline&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;NearMiss&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sampling_strategy&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;majority&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;log_reg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# SMOTE happens during Cross Validation not before..
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;undersample_model&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;undersample_pipeline&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;undersample_Xtrain&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;undersample_ytrain&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;undersample_prediction&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;undersample_model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;predict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;undersample_Xtrain&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+    
+    &lt;span class=&quot;n&quot;&gt;undersample_accuracy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;undersample_pipeline&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;score&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;original_Xtrain&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;original_ytrain&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]))&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;undersample_precision&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;precision_score&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;original_ytrain&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;undersample_prediction&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;undersample_recall&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;recall_score&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;original_ytrain&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;undersample_prediction&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;undersample_f1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;f1_score&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;original_ytrain&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;undersample_prediction&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;undersample_auc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;roc_auc_score&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;original_ytrain&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;undersample_prediction&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# We will undersample during cross validating
@@ -2132,7 +2342,7 @@ NearMiss Label Distribution: Counter({0: 492, 1: 492})
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;module &apos;matplotlib.pyplot&apos; from &apos;C:\\Users\\master\\anaconda3\\envs\\chanp5660\\lib\\site-packages\\matplotlib\\pyplot.py&apos;&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_50_1.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_53_1.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sklearn.metrics&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;roc_curve&lt;/span&gt;
 &lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sklearn.model_selection&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cross_val_predict&lt;/span&gt;
@@ -2189,7 +2399,7 @@ Decision Tree Classifier:  0.9153525568821806
 &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_53_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_56_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;a-deeper-look-into-logisticregression&quot;&gt;A Deeper Look into LogisticRegression:&lt;/h2&gt;
 &lt;p&gt;&lt;a id=&quot;logistic&quot;&gt;&lt;/a&gt;
@@ -2227,7 +2437,7 @@ In this section we will ive a deeper look into the &lt;b&gt; logistic regression
 &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_55_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_58_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sklearn.metrics&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;precision_recall_curve&lt;/span&gt;
 
@@ -2311,7 +2521,7 @@ F1 Score: 0.00
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Text(0.5, 1.0, &apos;UnderSampling Precision-Recall curve: \n Average Precision-Recall Score =0.07&apos;)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_60_1.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_63_1.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;smote-technique-over-sampling&quot;&gt;SMOTE Technique (Over-Sampling):&lt;/h3&gt;
 &lt;p&gt;&lt;a id=&quot;smote&quot;&gt;&lt;/a&gt;
@@ -2455,7 +2665,7 @@ weighted avg       1.00      0.99      0.99     56961
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Text(0.5, 1.0, &apos;OverSampling Precision-Recall curve: \n Average Precision-Recall Score =0.76&apos;)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_66_1.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_69_1.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# SMOTE Technique (OverSampling) After splitting and Cross Validating
 #sm = SMOTE(ratio=&apos;minority&apos;, random_state=42) 
@@ -2545,7 +2755,7 @@ weighted avg       1.00      0.99      0.99     56961
 &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_70_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_73_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sklearn.metrics&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;classification_report&lt;/span&gt;
 
@@ -2862,7 +3072,7 @@ Confusion matrix, without normalization
  [    0    98]]
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_81_1.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_84_1.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;keras--oversampling-smote&quot;&gt;Keras || OverSampling (SMOTE):&lt;/h3&gt;
 
@@ -2957,7 +3167,7 @@ Confusion matrix, without normalization
  [    0    98]]
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_88_1.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_91_1.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;conclusion&quot;&gt;Conclusion:&lt;/h3&gt;
 &lt;p&gt;Implementing SMOTE on our imbalanced dataset helped us with the imbalance of our labels (more no fraud than fraud transactions). Nevertheless, I still have to state that sometimes the neural network on the oversampled dataset predicts less correct fraud transactions than our model using the undersample dataset. However, remember that the removal of outliers was implemented only on the random undersample dataset and not on the oversampled one. Also, in our undersample data our model is unable to detect for a large number of cases non fraud transactions correctly and instead, misclassifies those non fraud transactions as fraud cases. Imagine that people that were making regular purchases got their card blocked due to the reason that our model classified that transaction as a fraud transaction, this will be a huge disadvantage for the financial institution. The number of customer complaints and customer disatisfaction will increase.  The next step of this analysis will be to do an outlier removal on our oversample dataset and see if our accuracy in the test set improves. &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
@@ -3110,98 +3320,4 @@ Confusion matrix, without normalization
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;추출 및 정렬
 [1, 2, 3, 4, 5]
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="programing" /><category term="python" /><summary type="html">힙정렬 Heap Sorting</summary></entry><entry><title type="html">TIL-한국해양브레인스토밍</title><link href="http://localhost:4000/TIL-%ED%95%9C%EA%B5%AD%ED%95%B4%EC%96%91-%EB%B8%8C%EB%A0%88%EC%9D%B8%EC%8A%A4%ED%86%A0%EB%B0%8D" rel="alternate" type="text/html" title="TIL-한국해양브레인스토밍" /><published>2023-03-29T00:00:00+09:00</published><updated>2023-03-29T00:00:00+09:00</updated><id>http://localhost:4000/TIL-%ED%95%9C%EA%B5%AD%ED%95%B4%EC%96%91%20%EB%B8%8C%EB%A0%88%EC%9D%B8%EC%8A%A4%ED%86%A0%EB%B0%8D</id><content type="html" xml:base="http://localhost:4000/TIL-%ED%95%9C%EA%B5%AD%ED%95%B4%EC%96%91-%EB%B8%8C%EB%A0%88%EC%9D%B8%EC%8A%A4%ED%86%A0%EB%B0%8D">&lt;h1 id=&quot;한국-해양-브레인스토밍&quot;&gt;한국 해양 브레인스토밍&lt;/h1&gt;
-
-&lt;h2 id=&quot;선박&quot;&gt;선박&lt;/h2&gt;
-
-&lt;h3 id=&quot;스마트-선박-개발&quot;&gt;스마트 선박 개발&lt;/h3&gt;
-&lt;p&gt;한국은 사물인터넷(IoT), 빅데이터, 인공지능(AI) 등 첨단 기술을 활용해 운항을 최적화하고 안전성을 높이는 스마트 선박 개발에 투자하고 있다.&lt;/p&gt;
-
-&lt;h3 id=&quot;자율운항선박&quot;&gt;자율운항선박&lt;/h3&gt;
-&lt;p&gt;한국도 승무원 없이 운항할 수 있는 선박인 자율운항선 개발에 박차를 가하고 있다. 이러한 선박은 운항 비용을 줄이고 안전성을 향상시킬 수 있으며 한국은 이러한 노력을 지원하기 위해 센서, AI 및 머신 러닝과 같은 기술에 투자하고 있습니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;친환경-운송&quot;&gt;친환경 운송&lt;/h3&gt;
-&lt;p&gt;한국은 “녹색” 기술 개발을 통해 운송이 환경에 미치는 영향을 줄이기 위해 노력하고 있습니다. 여기에는 액화 천연 가스(LNG) 및 수소와 같은 대체 연료의 사용과 에너지 효율적인 선박 설계 개발이 포함됩니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;재생-에너지&quot;&gt;재생 에너지&lt;/h2&gt;
-
-&lt;h3 id=&quot;해상-풍력-발전-단지&quot;&gt;해상 풍력 발전 단지&lt;/h3&gt;
-&lt;p&gt;한국은 해상 풍력 발전 단지를 신재생 에너지원으로 적극 개발하고 있습니다. 한국은 2030년까지 12GW의 해상풍력을 설치한다는 목표를 세웠고, 이 목표를 지원하기 위해 신기술 연구개발에 투자하고 있다.&lt;/p&gt;
-
-&lt;h3 id=&quot;해양-재생-에너지&quot;&gt;해양 재생 에너지&lt;/h3&gt;
-&lt;p&gt;한국은 해상 풍력 발전소 외에도 파도 및 조력 에너지와 같은 다른 형태의 해양 재생 에너지에 투자하고 있습니다. 이러한 기술은 파도와 해류의 힘을 이용하여 전기를 생성합니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;항만-인프라&quot;&gt;항만 인프라&lt;/h2&gt;
-
-&lt;h3 id=&quot;항만-인프라-개발&quot;&gt;항만 인프라 개발&lt;/h3&gt;
-&lt;p&gt;한국은 효율성과 경쟁력을 향상시키기 위해 항만 인프라 개발에 투자하고 있습니다. 여기에는 항구의 확장 및 현대화는 물론 세계 무역을 지원하기 위한 새로운 물류 허브 개발이 포함됩니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;크루즈-산업&quot;&gt;크루즈 산업&lt;/h3&gt;
-&lt;p&gt;한국은 세계 시장에서 메이저 플레이어가 되는 것을 목표로 크루즈 산업 발전에 투자하고 있습니다. 여기에는 새로운 항만 시설 및 인프라 개발, 크루즈 승객 유치를 위한 한국 문화 및 관광 홍보가 포함됩니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;해양-안전-및-보안&quot;&gt;해양 안전 및 보안&lt;/h3&gt;
-&lt;p&gt;한국은 해양 안전 및 보안을 강화하기 위해 기술 및 인프라에 투자하고 있습니다. 여기에는 고급 내비게이션 및 통신 시스템의 개발은 물론 불법 복제 및 밀수와 같은 위협을 해결하기 위한 감시 및 대응 기능의 배치가 포함됩니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;생명공학&quot;&gt;생명공학&lt;/h2&gt;
-
-&lt;h3 id=&quot;해양-생명공학&quot;&gt;해양 생명공학&lt;/h3&gt;
-&lt;p&gt;한국은 해양 생물과 그 화합물을 의약품, 식품, 화장품 등의 용도로 사용하는 해양 생명공학 개발에도 투자하고 있습니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;해양-자원-관리&quot;&gt;해양 자원 관리&lt;/h3&gt;
-&lt;p&gt;한국은 경제 발전을 지원하는 동시에 해양 생태계 보호에 중점을 두고 해양 자원을 지속 가능하게 관리하기 위해 노력하고 있습니다. 여기에는 해양 자원 및 활동을 매핑하고 관리하는 것과 관련된 해양 공간 계획과 같은 이니셔티브가 포함됩니다.&lt;/p&gt;
-
-&lt;h1 id=&quot;뉴스&quot;&gt;뉴스&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.hdhy.co.kr/news/articleView.html?idxno=18117&quot;&gt;2022년 해양과학기술 10대 뉴스는?&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://ilyo.co.kr/?ac=article_view&amp;amp;entry_id=439785&quot;&gt;부산시 데이터 기반 스마트양식 기술 선점화 전략 모색 外&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;논문&quot;&gt;논문&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;채정훈 외 “해양 센서 데이터에 대한 딥러닝: 리뷰” 이 백서에서는 해양학, 기상학 및 지리 공간 데이터를 포함하여 해양 센서 데이터 분석에서 딥 러닝 응용 프로그램에 대한 개요를 제공합니다.&lt;/li&gt;
-  &lt;li&gt;Tengfei Xue et al.의 “해양 원격 감지를 위한 기계 학습: 응용, 과제 및 전망”. 이 백서에서는 해양 색상, 해수면 온도 및 해양 바람 필드를 포함하여 해양 원격 감지에서 기계 학습의 응용 프로그램을 검토합니다.&lt;/li&gt;
-  &lt;li&gt;Sunke Schmidtko 외의 “해양학의 인공 지능 및 기계 학습: 현재 응용 프로그램 및 과제”. 이 백서는 데이터 전처리, 데이터 분석 및 데이터 동화를 포함하여 해양학에서 인공 지능 및 기계 학습의 현재 상태에 대한 포괄적인 검토를 제공합니다.&lt;/li&gt;
-  &lt;li&gt;“해양 데이터 분석을 위한 딥러닝: 고주파 레이더 데이터를 사용한 사례 연구” 조성진 외. 본 논문은 해류 매핑을 위한 고주파 레이더 데이터에 딥러닝을 적용한 사례 연구를 제시한다.&lt;/li&gt;
-  &lt;li&gt;Annette Stahl 및 Jörn Kohlus의 “해양 데이터 분석을 위한 기계 학습 기술: 검토”. 이 백서는 클러스터링, 분류 및 회귀를 포함하여 해양 데이터 분석에 사용되는 기계 학습 기술에 대한 리뷰를 제공합니다.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">한국 해양 브레인스토밍</summary></entry><entry><title type="html">TIL-t-SNE</title><link href="http://localhost:4000/TIL-t-SNE" rel="alternate" type="text/html" title="TIL-t-SNE" /><published>2023-03-28T00:00:00+09:00</published><updated>2023-03-28T00:00:00+09:00</updated><id>http://localhost:4000/TIL-t-SNE</id><content type="html" xml:base="http://localhost:4000/TIL-t-SNE">&lt;h1 id=&quot;t-sne&quot;&gt;t-SNE&lt;/h1&gt;
-
-&lt;p&gt;t-Distributed Stochastic Neighbor Embedding의 약자&lt;/p&gt;
-
-&lt;h2 id=&quot;정의&quot;&gt;정의&lt;/h2&gt;
-
-&lt;p&gt;비선형 알고리즘 중 하나로 고차원 데이터를 저차원으로 임베딩하는 데 사용됩니다. 데이터 포인트 간의 유사도를 보존하면서 고차원 공간에서의 상대적인 거리를 저차원 공간으로 보존하는 방법을 찾습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;사용&quot;&gt;사용&lt;/h2&gt;
-
-&lt;p&gt;시각화, 분류, 군집화 등 다양한 데이터 분석 작업에 유용하게 사용됩니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;작동-방식&quot;&gt;작동 방식&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;고차원 공간에서 각 데이터 포인트들 간의 거리를 계산합니다.
-    &lt;ul&gt;
-      &lt;li&gt;이 거리는 유사도 매트릭스(Similarity Matrix)라는 이름으로도 불립니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;저차원 공간에서 각 데이터 포인트들 간의 거리를 계산합니다.
-    &lt;ul&gt;
-      &lt;li&gt;처음에는 무작위 선택한 값들로 시작하며, 이후에는 경사 하강법(Gradient Descent)을 사용하여 계속 업데이트 됩니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;고차원 공간과 저차원 공간에서 각각의 데이터 포인트들을 비교합니다.
-    &lt;ul&gt;
-      &lt;li&gt;두 공간에서의 데이터 포인트 간 거리 차이(고차원 공간에서의 거리 - 저차원 공간에서의 거리)를 최소화하는 방향으로 임베딩을 조정합니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;이전 단계를 반복하여 저차원 공간에서의 임베딩을 최적화합니다.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;특징&quot;&gt;특징&lt;/h2&gt;
-
-&lt;p&gt;고차원 데이터를 저차원으로 표현하면서도 이상치(outlier)나 군집(cluster)을 잘 보존하는 특징이 있습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;한계&quot;&gt;한계&lt;/h2&gt;
-
-&lt;p&gt;계산 복잡도가 높기 때문에 대규모 데이터셋에는 적용하기 어려울 수 있습니다.&lt;br /&gt;
-초기값에 따라 결과가 달라질 수 있으며, 최적의 임베딩을 찾기 위해서는 여러번 실험해야 할 수 있습니다.&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">t-SNE</summary></entry></feed>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="programing" /><category term="python" /><summary type="html">힙정렬 Heap Sorting</summary></entry></feed>

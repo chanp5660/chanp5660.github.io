@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/exitem/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-04-17T00:28:37+09:00</updated>
+  <updated>2023-04-18T00:40:22+09:00</updated>
   <id>http://localhost:4000/tag/exitem/feed.xml</id>
 
   
@@ -30,6 +30,229 @@
   
   
 
+  
+    <entry>
+      <title type="html">TIL-UML다이어그램</title>
+      <link href="http://localhost:4000/TIL-UML%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8" rel="alternate" type="text/html" title="TIL-UML다이어그램" />
+      <published>2023-04-17T00:00:00+09:00</published>
+      <updated>2023-04-17T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-UML%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-UML%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8">&lt;h1 id=&quot;uml-다이어그램&quot;&gt;UML 다이어그램&lt;/h1&gt;
+
+&lt;p&gt;UML (Unified Modeling Language) 다이어그램은 &lt;strong&gt;객체 지향 소프트웨어 설계&lt;/strong&gt;에 사용되는 그래픽 표기법입니다.&lt;/p&gt;
+
+&lt;p&gt;UML은 &lt;strong&gt;객체, 클래스, 상속, 연관, 메서드, 속성&lt;/strong&gt; 등과 같은 &lt;strong&gt;객체 지향 개념&lt;/strong&gt;을 시각적으로 표현할 수 있는 방법을 제공합니다.&lt;br /&gt;
+UML 다이어그램은 이러한 개념들을 그래픽으로 표현하여 &lt;strong&gt;시스템의 구조, 동작 및 관계&lt;/strong&gt;를 &lt;strong&gt;이해&lt;/strong&gt;하기 쉽게 만들어 줍니다.&lt;/p&gt;
+
+&lt;p&gt;여러 종류가 있으며, 각각의 다이어그램은 특정한 측면을 다룹니다.&lt;br /&gt;
+예를 들어 &lt;strong&gt;클래스 다이어그램&lt;/strong&gt;은 클래스와 클래스 간의 관계를 표시하고, &lt;strong&gt;시퀀스 다이어그램&lt;/strong&gt;은 시간적인 순서에 따른 객체 간의 상호작용을 보여줍니다.&lt;/p&gt;
+
+&lt;p&gt;소프트웨어 개발에서 널리 사용되며, 다양한 도구와 언어에서 지원됩니다.&lt;br /&gt;
+UML 다이어그램을 사용하면 개발자와 설계자들이 공통의 언어로 소프트웨어를 설계하고 개발할 수 있으며, 이는 소프트웨어 개발 프로세스의 효율성을 높이고 소프트웨어의 품질을 향상시키는 데 도움이 됩니다.&lt;/p&gt;
+
+&lt;h1 id=&quot;유형&quot;&gt;유형&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;구조 다이어그램 (Strucutral Diagram)
+    &lt;ul&gt;
+      &lt;li&gt;시스템의 정적인 구조를 표현합니다.&lt;/li&gt;
+      &lt;li&gt;클래스 다이어그램, 객체 다이어그램, 컴포넌트 다이어그램, 패키지 다이어그램, 배치 다이어그램 등이 있습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;동작 다이어그램 (Behavioral Diagram)
+    &lt;ul&gt;
+      &lt;li&gt;시스템의 동적인 행위를 표현합니다.&lt;/li&gt;
+      &lt;li&gt;유스케이스 다이어그램, 시퀀스 다이어그램, 상태 다이어그램, 활동 다이어그램, 커뮤니케이션 다이어그램 등이 있습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;구조 다이어그램은 시스템을 구성하는 요소들의 관계와 구조를 보여주는 반면, 동작 다이어그램은 시스템이 동작하는 과정과 상호작용을 보여줍니다.&lt;/p&gt;
+
+&lt;p&gt;UML 다이어그램은 소프트웨어 설계뿐만 아니라, 다양한 분야에서도 활용됩니다. &lt;br /&gt;
+예를 들어, 시스템 엔지니어링에서 하드뤠어와 소프트웨어 간의 상호작용을 설명하는 데 사용되기도 합니다.&lt;br /&gt;
+또한, 비즈니스 분야에서 프로세스의 흐름을 보여주는 등의 용도로도 사용됩니다.&lt;/p&gt;
+
+&lt;p&gt;각 다이어그램의 그림에 대해서 궁금하시면 참조하기 좋은 블로그 &lt;a href=&quot;https://m.blog.naver.com/icbanq/221781238065&quot;&gt;링크&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;클래스-다이어그램-class-diagram&quot;&gt;클래스 다이어그램 (Class Diagram)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;클래스, 인터체페이스, 관계 등을 표현합니다.&lt;/li&gt;
+  &lt;li&gt;클래스의 속성, 메소드, 연관 관계, 일반화, 집합 등을 나타냅니다.&lt;/li&gt;
+  &lt;li&gt;객체 지향 개념을 가장 잘 나타내는 다이어그램 중 하나입니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;객체-다이어그램-object-diagram&quot;&gt;객체 다이어그램 (Object Diagram)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;클래스 다이어그램에서 정의된 클래스의 인스턴스인 객체를 표현합니다.&lt;/li&gt;
+  &lt;li&gt;클래스와 객체 간의 관계, 속성, 연관 등을 표현합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;유스케이스-다이어그램use-case-diagram&quot;&gt;유스케이스 다이어그램(Use Case Diagram)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;시스템의 사용자 또는 액터와 시스템 간의 상호작용을 모델링합니다.&lt;/li&gt;
+  &lt;li&gt;액터, 유스케이스, 관계 등을 표현합니다.&lt;/li&gt;
+  &lt;li&gt;시스템의 기능을 기술하는 데 사용됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;액터(Actor) : 시스템의 외부에 있고 시스템과 상호작용을 하는 사람
+참고 블로그 &lt;a href=&quot;https://googry.tistory.com/2&quot;&gt;링크&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;시퀀스-다이어그램-sequence-diagram&quot;&gt;시퀀스 다이어그램 (Sequence Diagram)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;시스템의 객체 간 상호작용을 시간적으로 표현합니다.&lt;/li&gt;
+  &lt;li&gt;객체 간의 메시지 교환, 객체의 상태 변화, 예외 상황 등을 보여줍니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;상태-다이어그램-state-diagram&quot;&gt;상태 다이어그램 (State Diagram)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;객체의 동작과 상태 전이를 표현합니다.&lt;/li&gt;
+  &lt;li&gt;객체가 각각의 상태에서 어떤 동작을 수행하는지, 상태 정이의 조건 등을 보여줍니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;활동-다이어그램activity-diagram&quot;&gt;활동 다이어그램(Activity Diagram)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;시스템 내의 비즈니스 프로세스, 알고리즘, 기능 흐름 등을 표현합니다.&lt;/li&gt;
+  &lt;li&gt;활동, 연결선, 의사결정 노드, 병합 노드 등을 사용하여 프로세스를 모델링합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;컴포넌트-다이어그램-component-diagram&quot;&gt;컴포넌트 다이어그램 (Component Diagram)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;시스템을 구성하는 컴포넌트, 인터페이스, 의존 관계 등을 표현합니다.&lt;/li&gt;
+  &lt;li&gt;컴포넌트 간의 의존 관계, 인터페이스 구현, 라이브러리 등을 나타냅니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;패키지-다이어그램-package-diagram&quot;&gt;패키지 다이어그램 (Package Diagram)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;패키지, 클래스, 인터페이스 등의 요소가 어떻게 그룹화되어 있는지를 표현합니다.&lt;/li&gt;
+  &lt;li&gt;패키지 간의 의존 관계, 패키지 내의 클래스 관계 등을 보여줍니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;커뮤니케이션-다이어그램-communication-diagram&quot;&gt;커뮤니케이션 다이어그램 (Communication Diagram)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;객체 간의 메시지 전달과 응답을 표현합니다.&lt;/li&gt;
+  &lt;li&gt;객체와 객체 간의 상호작용을 표현하여 객체 간의 관계를 이해하기 쉽게 합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;배치-다이어그램-deployment-diagram&quot;&gt;배치 다이어그램 (Deployment Diagram)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;시스템의 물리적인 배치를 나타냅니다.&lt;/li&gt;
+  &lt;li&gt;소프트웨어 컴포넌트, 하드웨어 노드, 네트워크 등을 표현합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;타이밍-다이어그램-timing-diagram&quot;&gt;타이밍 다이어그램 (Timing Diagram)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;객체 간의 시간적인 관계를 보여줍니다.&lt;/li&gt;
+  &lt;li&gt;시간 축에 따라 객체의 상태, 메시지 전달 등을 나타냅니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;상호작용-개요-다이어그램-interaction-overview-diagram&quot;&gt;상호작용 개요 다이어그램 (Interaction Overview Diagram)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;다른 다이어그램에서 표현된 상호작용을 개요 수준으로 표현합니다.&lt;/li&gt;
+  &lt;li&gt;다른 다이어그램에서 표현된 객체 간의 상호작용을 개요 수준으로 표현하여 전반적인 시스템 흐름을 이해하기 쉽게 합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;각각의 다이어그램은 시스템을 모델링하는 데 필요한 다양한 정보와 관계를 표현합니다.&lt;br /&gt;
+이를 조합하여 전체적인 시스템 구조와 동작을 모델링할 수 있습니다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">UML 다이어그램</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">정보처리기사 기출문제 20220424</title>
+      <link href="http://localhost:4000/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC%EA%B8%B0%EC%B6%9C%EB%AC%B8%EC%A0%9C(20220424)" rel="alternate" type="text/html" title="정보처리기사 기출문제 20220424" />
+      <published>2023-04-17T00:00:00+09:00</published>
+      <updated>2023-04-17T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC%EA%B8%B0%EC%B6%9C%EB%AC%B8%EC%A0%9C(20220424)</id>
+      <content type="html" xml:base="http://localhost:4000/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC%EA%B8%B0%EC%B6%9C%EB%AC%B8%EC%A0%9C(20220424)">&lt;h1 id=&quot;정보처리기사-기출문제-부시기-20220424&quot;&gt;정보처리기사 기출문제 부시기 20220424&lt;/h1&gt;
+
+&lt;p&gt;2023-04-17일인 오늘 큐넷을 통해 정보처리기사 필기 시험을 신청했습니다. &lt;br /&gt;
+그동안 AI를 하면서 필요없는 자격증이라고 생각해서 그동안 도전해볼 생각도 안했습니다. &lt;br /&gt;
+시험을 신청한 지금도 AI를 하기 위해서는 꼭 필요하다라는 생각이 드는 것은 아니고 있으면 좋을 것 같아서 이번에 도전하기로 했습니다.&lt;/p&gt;
+
+&lt;p&gt;시험 날짜는 5월 13일로 오늘이 지나면 25일 정도 남았습니다. &lt;br /&gt;
+또 5월 20일에는 ADsP도 시험보는 상황으로 합격을 기준으로 공부를 하도록 하겠습니다. &lt;br /&gt;
+단지 이해를 하면서 하는게 기억에 오래 남아서 정리해가면서 공부를 진행하도록 하겠습니다. &lt;br /&gt;
+합격을 기원합니다.&lt;/p&gt;
+
+&lt;p&gt;모든 자료는 &lt;a href=&quot;www.combmt.com&quot;&gt;전자문제집 CBT&lt;/a&gt;에서 제공됩니다.&lt;/p&gt;
+
+&lt;h1 id=&quot;1과목--소프트웨어-설계&quot;&gt;1과목 : 소프트웨어 설계&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-uml-다이어그램-중-순차-다이어그램에-대한-설명으로-틀린것은&quot;&gt;1. UML 다이어그램 중 순차 다이어그램에 대한 설명으로 &lt;strong&gt;틀린&lt;/strong&gt;것은?&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;객체 간의 동적 상호작용을 시간 개념을 중심으로 모델링 하는 것이다.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;주로 시스템의 정적 측변을 모델링하기 위해 사용한다.&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;일반적으로 다이어그램의 수직 방향이 시간의 흐름을 나타낸다.&lt;/li&gt;
+  &lt;li&gt;회귀 메시지(Self-Message), 제어블로(Statement block) 등으로 구성된다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;문제 해설=&quot;&quot;&gt;
+- 순차 다이어그램은 행위 다이어그램이므로 동적이고, 순차적인 포현을 위한 다이어그램이다. [해설작성자 : 두목넷]
+
+&lt;내 공부=&quot;&quot;&gt;
+- UML 다이어그램이란?
+    - [TIL-UML다이어그램](https://chanp5660.github.io/TIL-UML다이어그램)
+    - 정의 : UML (Unified Modeling Language), 통합 모델링 언어라는 뜻으로 객체 지향 소프트웨어 엔지니어링 분야의 표준화된 범용 모델링 언어를 말합니다.
+
+&lt;/내&gt;&lt;/문제&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">정보처리기사 기출문제 부시기 20220424</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">TIL-Imbalanced_data</title>
@@ -567,231 +790,6 @@
     </entry>
   
     <entry>
-      <title type="html">면접질문</title>
-      <link href="http://localhost:4000/%EB%A9%B4%EC%A0%91%EC%A7%88%EB%AC%B8" rel="alternate" type="text/html" title="면접질문" />
-      <published>2023-03-15T00:00:00+09:00</published>
-      <updated>2023-03-15T00:00:00+09:00</updated>
-      <id>http://localhost:4000/%EB%A9%B4%EC%A0%91%EC%A7%88%EB%AC%B8</id>
-      <content type="html" xml:base="http://localhost:4000/%EB%A9%B4%EC%A0%91%EC%A7%88%EB%AC%B8">&lt;h1 id=&quot;면접질문&quot;&gt;면접질문&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;면접 때 질문 받은 부분들을 정리해서 다음 면접 때 해당 질문에 답할 수 있도록 진행합니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;간단한-자기소개-해주세요&quot;&gt;간단한 자기소개 해주세요.&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;네 안녕하세요! 지원자 박찬입니다.&lt;/li&gt;
-  &lt;li&gt;통계학과에 진학하여 적은 데이터로 추론, 추측을 하다가 2학년 수업에서 python을 이용한 머신러닝 수업을 접하게 되면서 컴퓨터공학부를 부전공하고 교수님과 인연이 되어 컴퓨터공학부 대학원에 진학하게 됐습니다.&lt;/li&gt;
-  &lt;li&gt;석사 중에는 범부처 협업을 하게 되면서 농산물 관련 온라인 소셜 미디어 데이터를 통해 농부들에게 가격변동에 영향을 주는 요인들을 제공해주는 프로젝트를 진행했습니다.&lt;/li&gt;
-  &lt;li&gt;이후 1년 공백기에는 부모님이 산림조합을 설립 하셨는데 컴퓨터를 잘 다루지 못하시고 인력도 구하기 힘든 부분이라서 도와드렸습니다.&lt;/li&gt;
-  &lt;li&gt;현재 2월 중순부터 취업준비를 시작하여 이 면접을 보게 된 것입니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;프로젝트에-대해서-자세히-설명-해주세요&quot;&gt;프로젝트에 대해서 자세히 설명 해주세요.&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;네, 우선 프로젝트의 결과부터 말씀드리겠습니다.&lt;/li&gt;
-  &lt;li&gt;농부들에게 가격데이터와 온라인 소셜미디어 데이터를 이용하여 정보를 제공하는 것입니다.&lt;/li&gt;
-  &lt;li&gt;세부적으로 살펴보면 가격변동 데이터를 맡은 팀에서 가격변동을 제공하고 특정 기간과 품목을 설정하면 오름세와 내림세의 주요 요인과 관련된 SNS 정보들을 제공하는 프로젝트입니다.&lt;/li&gt;
-  &lt;li&gt;이를 통해 농부들은 해당 품목에 대해서 어떤 요인들이 발생했는지를 파악하고 조심하여 행동변화를 일으키거나 걱정을 덜어드릴 수 있습니다.&lt;/li&gt;
-  &lt;li&gt;기술적으로 살펴보면 데이터 수집은 KAMIS(농산물유통정보) 같은 전문적인 사이트에서 주요 용어를 얻어 네이버, 구글, 트위터에서 api와 웹 스크랩핑(selenium,BeautifulSoup)으로 수집했습니다. pysql을 이용해서 데이터 저장 및 관리 했습니다. 문서 유사도로 비슷한 문서들을 모아놓고 토픽 모델링을 사용하여 데이터에서 레시피, 영양성분 등의 가격변동에 영향을 주는 주요 용어를 파악했습니다.&lt;/li&gt;
-  &lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;실제 경험 메모&lt;/p&gt;
-
-&lt;p&gt;디메타&lt;/p&gt;
-
-&lt;p&gt;20230315 11시&lt;/p&gt;
-
-&lt;p&gt;분위기 좋음&lt;/p&gt;
-
-&lt;p&gt;질문&lt;/p&gt;
-
-&lt;p&gt;자기소개&lt;/p&gt;
-
-&lt;p&gt;실험에 대한 부분&lt;/p&gt;
-
-&lt;p&gt;통계적인 부분이 없다.( 기술적으로 뭐가 구체적으로 있고 그 부분 중에 왜 선택하게 되었는지 ) 기술로 선택한 이유가 성능을 제외하고 무엇이 있었는지&lt;/p&gt;
-
-&lt;p&gt;실험을 기승전결로 준비해야한다. 결과를 말하고 시작과 과정이 어떻게 진행 되었는지&lt;/p&gt;
-
-&lt;p&gt;프로젝트의 정확도는 어떻게 되는가?
-실제 적용하면 어떻게 되겠는가?&lt;/p&gt;
-
-&lt;p&gt;데이터 전처리를 제외하고 어떤 부분이 가장 힘들었는지 -&amp;gt; 기술적으로 대답하기 힘들어서 실제로는 적용하지 못하고 사용자의 관점에서 어렵다라는 이야기로 대답함.&lt;/p&gt;
-
-&lt;p&gt;이력서 중에 Python Scikit-Learn 을 이용했다고 했는데 어떤 것들을 이용해서 진행한건가요? 세부적으로 데이터를 근거로 추론하는 것으로 한 부분을 이야기 해주세요.&lt;/p&gt;
-
-&lt;p&gt;프로젝트로 인해 임팩트 있는 부분이 무엇이 있었어 어떻게 찾았는지 어떤 기술로 찾게 됐는지 알아봐야겠다&lt;/p&gt;
-
-&lt;p&gt;만약 확인할 수 없는 데이터가 있을때는 어떻게 하는지?( 예를 들어 쇼핑몰 데이터에서 남자 카드 결제가 높은 이유를 확인 할 수 없을때는 해당 속성응 어떻게 할 것 인가?)&lt;/p&gt;
-
-&lt;p&gt;정보
-퇴사율은… 모르겠고 보통 1년6개월정도 한다. 퇴사자보다 입사자가 더 많다.&lt;/p&gt;
-
-&lt;p&gt;총 18명 중 팀원은 5명&lt;/p&gt;
-
-&lt;p&gt;강화학습이 주를 이룰 것 같지만 다른 분야가 없는 것도 아니라서 자기만의 분야로 맡게 될 것이므로 걱정은 없다.&lt;/p&gt;
-
-&lt;p&gt;코테는 기간이 길게 주어질 것이고 이미지를 주고 그것을 어떻게 해석하고 찾아낼건지에 대한 과정에 집중하게 될 것이다.&lt;/p&gt;
-
-&lt;p&gt;전체적인 후기&lt;/p&gt;
-
-&lt;p&gt;질문에 대한 답변을 하고 싶어도 기술적인 부분에 대한 답을 잘 못하기 때문에 그 부분에 대한 부분을 어떻게든 만들어 놔야겠다.&lt;/p&gt;
-
-&lt;p&gt;특히 프로젝트 부분에 대해서 결과 시작 중간 으로 기술 + 아이디어 + 결과의 중요한 부분 들에 대한 것들에 대해 구체적으로 작성해본다.&lt;/p&gt;
-
-&lt;p&gt;기술적으로 물어볼 수 있는 것들이 자세하게 파고 들지 못했기 때문에 결론적으로는 개인적인 장단점이나 성격들에 대해서 물어보지 않았던 것으로 생각된다.&lt;/p&gt;
-
-&lt;p&gt;가장 첫번째로 기술적인 것을 추가해야겠다. 어떻게 했는지 성능이 어느정도 나왔는지에 대한 연구가 어떻게 진행된건지에 대한 정보들을 다시 생각해봐야겠다.&lt;/p&gt;
-
-&lt;p&gt;요약( 우선순위 ), 이게 나의 필살기다&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;프로젝트에 사용된 기술에 대한 공부 및 정리 요약&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;한국해양기상기술&lt;/p&gt;
-
-&lt;p&gt;20230315 15시&lt;/p&gt;
-
-&lt;p&gt;면접끝&lt;/p&gt;
-
-&lt;p&gt;질문
-자기소개
-왜 졸업이 아니라 수료를 하게 됐는가?&lt;/p&gt;
-
-&lt;p&gt;미래에 어떤 모습으로 있을 것 같냐? 너의 꿈이 무엇이냐?&lt;/p&gt;
-
-&lt;p&gt;구독하고 있는 피드가 있는가?
-양질의 정보는 어떻게 얻는가?&lt;/p&gt;
-
-&lt;p&gt;오픈소스를 이용해서 협업해본 적이 있느냐?(즉, 할 수 있나?)&lt;/p&gt;
-
-&lt;p&gt;리눅스를 다룰 수 있는가? 어느정도 다루는가?&lt;/p&gt;
-
-&lt;p&gt;스트레스는 어떻게 푸는가?&lt;/p&gt;
-
-&lt;p&gt;최신 논문을 어떤 것을 봤는가?&lt;/p&gt;
-
-&lt;p&gt;ai팀 인원 현재 3명(인원이 많이 적군….흠..)&lt;/p&gt;
-
-&lt;p&gt;원하는 인재상&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;프로그래밍을 좋아해야한다.&lt;/li&gt;
-  &lt;li&gt;잘해야한다.&lt;/li&gt;
-  &lt;li&gt;월급보다 잘해야한다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;자기소개
-(본인의 키워드 몇개를 경험으로 짧게 설명할 수 있어야 함)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;직무를 수행함에 있어 가장 중요한 것은?
-( 자주 나오는 것 꼼꼼함 성실함 열정,,,, 처음에는 식상해도 자신만의 경험이나 직무에 관련된 특징을 살려 같이 대답한다.)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;지원자의 단점 2가지
-(현재 해결된 점을 말하는 것이 좋고 장점으로 대처가 되는 것을 크게 영향을 미치지 않는 것이 좋다.)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;지원직무를 위해 지금까지 한 노력&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;이력서에 적힌 부분에 대한 부분에 대해 비판적으로 단점으로 볼 수 있는 것에 대한 대처는?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;하나를 꾸준히 해본 경험은?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;가장 입사하고 싶은 회사는 어디 입니까?
-    &lt;ul&gt;
-      &lt;li&gt;세부적으로 말하기&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;해당 직문에 관련된 정보를 어떻게 얻습니까?
-    &lt;ul&gt;
-      &lt;li&gt;실제 구독하고 있는 정보…. 사람인 팔로우라던지 IT 뉴스, 경제 뉴스 등 실제 정보를 얻는 것을 정리해보자&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;지금까지 살면서 가장 힘들었던 순간은 언제입니까?&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;주의&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;어떤 것을 말했으면 결론이 있어야 한다. 예를 들어, 현업 직무자에게 인터뷰를 할 수 있는 기회가 있었을 때 어떤 것을 들었고 어떤 것을 실제로 실행 했는지에 대한 결론&lt;/li&gt;
-  &lt;li&gt;완벽한 대답을 하지 못하고 공격할 수 있는 부분에 대한 꼬리질문이 들어온다면? 예를 들어, 자격증을 미리 따놓지 못한 경우에 핑계라고 할 수 있지 않느냐? 이 직무에 관심이 많이 않느냐?&lt;/li&gt;
-  &lt;li&gt;구체적이지 않고 두루뭉실하게 대답하게 되면 질문자는 이 사람이 대답을 피하고 있다고 생각하게 된다.&lt;/li&gt;
-  &lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-
-      
-        <summary type="html">면접질문</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">TIL-위플랫</title>
-      <link href="http://localhost:4000/TIL-%EC%9C%84%ED%94%8C%EB%9E%AB" rel="alternate" type="text/html" title="TIL-위플랫" />
-      <published>2023-03-15T00:00:00+09:00</published>
-      <updated>2023-03-15T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-%EC%9C%84%ED%94%8C%EB%9E%AB</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-%EC%9C%84%ED%94%8C%EB%9E%AB">&lt;h1 id=&quot;위플랫&quot;&gt;위플랫&lt;/h1&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">위플랫</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
       <title type="html">TIL-PyMySQL</title>
       <link href="http://localhost:4000/TIL-PyMySQL" rel="alternate" type="text/html" title="TIL-PyMySQL" />
       <published>2023-03-15T00:00:00+09:00</published>
@@ -981,88 +979,163 @@ finally:
     </entry>
   
     <entry>
-      <title type="html">TIL-TF-IDF</title>
-      <link href="http://localhost:4000/TIL-TFIDF" rel="alternate" type="text/html" title="TIL-TF-IDF" />
-      <published>2023-03-14T00:00:00+09:00</published>
-      <updated>2023-03-14T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-TFIDF</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-TFIDF">&lt;h1 id=&quot;tf-idf-용어-빈도---역-문서-빈도&quot;&gt;TF-IDF (용어 빈도 - 역 문서 빈도)&lt;/h1&gt;
+      <title type="html">면접질문</title>
+      <link href="http://localhost:4000/%EB%A9%B4%EC%A0%91%EC%A7%88%EB%AC%B8" rel="alternate" type="text/html" title="면접질문" />
+      <published>2023-03-15T00:00:00+09:00</published>
+      <updated>2023-03-15T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%EB%A9%B4%EC%A0%91%EC%A7%88%EB%AC%B8</id>
+      <content type="html" xml:base="http://localhost:4000/%EB%A9%B4%EC%A0%91%EC%A7%88%EB%AC%B8">&lt;h1 id=&quot;면접질문&quot;&gt;면접질문&lt;/h1&gt;
 
+&lt;blockquote&gt;
+  &lt;p&gt;면접 때 질문 받은 부분들을 정리해서 다음 면접 때 해당 질문에 답할 수 있도록 진행합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;간단한-자기소개-해주세요&quot;&gt;간단한 자기소개 해주세요.&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;TF-IDF; Term Frequency-Inverse Document Frequency’&lt;/li&gt;
-  &lt;li&gt;정보 검색에서 &lt;strong&gt;문서의 내용&lt;/strong&gt;을 &lt;strong&gt;수치화&lt;/strong&gt;하는 데에 사용되는 방법입니다.&lt;/li&gt;
-  &lt;li&gt;단어의 빈도와 문서 내에서의 출현 빈도를 고려하여 &lt;strong&gt;각 단어&lt;/strong&gt;에 대한 &lt;strong&gt;가중치&lt;/strong&gt;를 계산합니다.&lt;/li&gt;
-  &lt;li&gt;문서 검색, 정보 검색, 문서 분류 등의 분야에서 널리 사용되는 기법입니다.&lt;/li&gt;
-  &lt;li&gt;다양한 자연어 처리 기술에서 활용됩니다.&lt;/li&gt;
+  &lt;li&gt;네 안녕하세요! 지원자 박찬입니다.&lt;/li&gt;
+  &lt;li&gt;통계학과에 진학하여 적은 데이터로 추론, 추측을 하다가 2학년 수업에서 python을 이용한 머신러닝 수업을 접하게 되면서 컴퓨터공학부를 부전공하고 교수님과 인연이 되어 컴퓨터공학부 대학원에 진학하게 됐습니다.&lt;/li&gt;
+  &lt;li&gt;석사 중에는 범부처 협업을 하게 되면서 농산물 관련 온라인 소셜 미디어 데이터를 통해 농부들에게 가격변동에 영향을 주는 요인들을 제공해주는 프로젝트를 진행했습니다.&lt;/li&gt;
+  &lt;li&gt;이후 1년 공백기에는 부모님이 산림조합을 설립 하셨는데 컴퓨터를 잘 다루지 못하시고 인력도 구하기 힘든 부분이라서 도와드렸습니다.&lt;/li&gt;
+  &lt;li&gt;현재 2월 중순부터 취업준비를 시작하여 이 면접을 보게 된 것입니다.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;개념&quot;&gt;개념&lt;/h2&gt;
-
+&lt;h2 id=&quot;프로젝트에-대해서-자세히-설명-해주세요&quot;&gt;프로젝트에 대해서 자세히 설명 해주세요.&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;Term Frequency(TF)
-    &lt;ul&gt;
-      &lt;li&gt;문서에서 단어가 얼마나 자주 나타나는지를 측정합니다.&lt;/li&gt;
-      &lt;li&gt;각 단어의 TF는 &lt;strong&gt;해당 단어&lt;/strong&gt;가 &lt;strong&gt;문서&lt;/strong&gt;에 &lt;strong&gt;나타나는 빈도&lt;/strong&gt;를 나타냅니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Inverse Document Frequecncy(IDF)
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;전체 문서 집합&lt;/strong&gt;에서 &lt;strong&gt;단어&lt;/strong&gt;가 얼마나 &lt;strong&gt;희귀&lt;/strong&gt;한지를 측정합니다.&lt;/li&gt;
-      &lt;li&gt;IDF는 문서 내에서 단어가 나타날 때마다 &lt;strong&gt;역수&lt;/strong&gt;를 취하여 계산됩니다.&lt;/li&gt;
-      &lt;li&gt;즉, 문서 집합에서 자주 나타나는 단어에는 낮은 가중치가 부여되고, 드물기 나타나는 단어에는 높은 가중치가 부여됩니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
+  &lt;li&gt;네, 우선 프로젝트의 결과부터 말씀드리겠습니다.&lt;/li&gt;
+  &lt;li&gt;농부들에게 가격데이터와 온라인 소셜미디어 데이터를 이용하여 정보를 제공하는 것입니다.&lt;/li&gt;
+  &lt;li&gt;세부적으로 살펴보면 가격변동 데이터를 맡은 팀에서 가격변동을 제공하고 특정 기간과 품목을 설정하면 오름세와 내림세의 주요 요인과 관련된 SNS 정보들을 제공하는 프로젝트입니다.&lt;/li&gt;
+  &lt;li&gt;이를 통해 농부들은 해당 품목에 대해서 어떤 요인들이 발생했는지를 파악하고 조심하여 행동변화를 일으키거나 걱정을 덜어드릴 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;기술적으로 살펴보면 데이터 수집은 KAMIS(농산물유통정보) 같은 전문적인 사이트에서 주요 용어를 얻어 네이버, 구글, 트위터에서 api와 웹 스크랩핑(selenium,BeautifulSoup)으로 수집했습니다. pysql을 이용해서 데이터 저장 및 관리 했습니다. 문서 유사도로 비슷한 문서들을 모아놓고 토픽 모델링을 사용하여 데이터에서 레시피, 영양성분 등의 가격변동에 영향을 주는 주요 용어를 파악했습니다.&lt;/li&gt;
+  &lt;li&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;계산&quot;&gt;계산&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;p&gt;실제 경험 메모&lt;/p&gt;
 
+&lt;p&gt;디메타&lt;/p&gt;
+
+&lt;p&gt;20230315 11시&lt;/p&gt;
+
+&lt;p&gt;분위기 좋음&lt;/p&gt;
+
+&lt;p&gt;질문&lt;/p&gt;
+
+&lt;p&gt;자기소개&lt;/p&gt;
+
+&lt;p&gt;실험에 대한 부분&lt;/p&gt;
+
+&lt;p&gt;통계적인 부분이 없다.( 기술적으로 뭐가 구체적으로 있고 그 부분 중에 왜 선택하게 되었는지 ) 기술로 선택한 이유가 성능을 제외하고 무엇이 있었는지&lt;/p&gt;
+
+&lt;p&gt;실험을 기승전결로 준비해야한다. 결과를 말하고 시작과 과정이 어떻게 진행 되었는지&lt;/p&gt;
+
+&lt;p&gt;프로젝트의 정확도는 어떻게 되는가?
+실제 적용하면 어떻게 되겠는가?&lt;/p&gt;
+
+&lt;p&gt;데이터 전처리를 제외하고 어떤 부분이 가장 힘들었는지 -&amp;gt; 기술적으로 대답하기 힘들어서 실제로는 적용하지 못하고 사용자의 관점에서 어렵다라는 이야기로 대답함.&lt;/p&gt;
+
+&lt;p&gt;이력서 중에 Python Scikit-Learn 을 이용했다고 했는데 어떤 것들을 이용해서 진행한건가요? 세부적으로 데이터를 근거로 추론하는 것으로 한 부분을 이야기 해주세요.&lt;/p&gt;
+
+&lt;p&gt;프로젝트로 인해 임팩트 있는 부분이 무엇이 있었어 어떻게 찾았는지 어떤 기술로 찾게 됐는지 알아봐야겠다&lt;/p&gt;
+
+&lt;p&gt;만약 확인할 수 없는 데이터가 있을때는 어떻게 하는지?( 예를 들어 쇼핑몰 데이터에서 남자 카드 결제가 높은 이유를 확인 할 수 없을때는 해당 속성응 어떻게 할 것 인가?)&lt;/p&gt;
+
+&lt;p&gt;정보
+퇴사율은… 모르겠고 보통 1년6개월정도 한다. 퇴사자보다 입사자가 더 많다.&lt;/p&gt;
+
+&lt;p&gt;총 18명 중 팀원은 5명&lt;/p&gt;
+
+&lt;p&gt;강화학습이 주를 이룰 것 같지만 다른 분야가 없는 것도 아니라서 자기만의 분야로 맡게 될 것이므로 걱정은 없다.&lt;/p&gt;
+
+&lt;p&gt;코테는 기간이 길게 주어질 것이고 이미지를 주고 그것을 어떻게 해석하고 찾아낼건지에 대한 과정에 집중하게 될 것이다.&lt;/p&gt;
+
+&lt;p&gt;전체적인 후기&lt;/p&gt;
+
+&lt;p&gt;질문에 대한 답변을 하고 싶어도 기술적인 부분에 대한 답을 잘 못하기 때문에 그 부분에 대한 부분을 어떻게든 만들어 놔야겠다.&lt;/p&gt;
+
+&lt;p&gt;특히 프로젝트 부분에 대해서 결과 시작 중간 으로 기술 + 아이디어 + 결과의 중요한 부분 들에 대한 것들에 대해 구체적으로 작성해본다.&lt;/p&gt;
+
+&lt;p&gt;기술적으로 물어볼 수 있는 것들이 자세하게 파고 들지 못했기 때문에 결론적으로는 개인적인 장단점이나 성격들에 대해서 물어보지 않았던 것으로 생각된다.&lt;/p&gt;
+
+&lt;p&gt;가장 첫번째로 기술적인 것을 추가해야겠다. 어떻게 했는지 성능이 어느정도 나왔는지에 대한 연구가 어떻게 진행된건지에 대한 정보들을 다시 생각해봐야겠다.&lt;/p&gt;
+
+&lt;p&gt;요약( 우선순위 ), 이게 나의 필살기다&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;프로젝트에 사용된 기술에 대한 공부 및 정리 요약&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;한국해양기상기술&lt;/p&gt;
+
+&lt;p&gt;20230315 15시&lt;/p&gt;
+
+&lt;p&gt;면접끝&lt;/p&gt;
+
+&lt;p&gt;질문
+자기소개
+왜 졸업이 아니라 수료를 하게 됐는가?&lt;/p&gt;
+
+&lt;p&gt;미래에 어떤 모습으로 있을 것 같냐? 너의 꿈이 무엇이냐?&lt;/p&gt;
+
+&lt;p&gt;구독하고 있는 피드가 있는가?
+양질의 정보는 어떻게 얻는가?&lt;/p&gt;
+
+&lt;p&gt;오픈소스를 이용해서 협업해본 적이 있느냐?(즉, 할 수 있나?)&lt;/p&gt;
+
+&lt;p&gt;리눅스를 다룰 수 있는가? 어느정도 다루는가?&lt;/p&gt;
+
+&lt;p&gt;스트레스는 어떻게 푸는가?&lt;/p&gt;
+
+&lt;p&gt;최신 논문을 어떤 것을 봤는가?&lt;/p&gt;
+
+&lt;p&gt;ai팀 인원 현재 3명(인원이 많이 적군….흠..)&lt;/p&gt;
+
+&lt;p&gt;원하는 인재상&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;각 단어의 &lt;strong&gt;TF&lt;/strong&gt;와 &lt;strong&gt;IDF&lt;/strong&gt;를 &lt;strong&gt;곱&lt;/strong&gt;하여 계산됩니다.
-    &lt;ul&gt;
-      &lt;li&gt;이 값은 각 단어의 중요도를 나타냅니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;높은 TF-IDF&lt;/strong&gt; 값을 가지는 단어는 문서의 &lt;strong&gt;주요 특징을 잘 나타내는 단어&lt;/strong&gt;라고 할 수 있습니다.&lt;/li&gt;
-  &lt;li&gt;이를 통해 문서 검색 등에서 관련성이 높은 문서를 더 잘 찾을 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;프로그래밍을 좋아해야한다.&lt;/li&gt;
+  &lt;li&gt;잘해야한다.&lt;/li&gt;
+  &lt;li&gt;월급보다 잘해야한다.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;예시&quot;&gt;예시&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;자기소개
+(본인의 키워드 몇개를 경험으로 짧게 설명할 수 있어야 함)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;직무를 수행함에 있어 가장 중요한 것은?
+( 자주 나오는 것 꼼꼼함 성실함 열정,,,, 처음에는 식상해도 자신만의 경험이나 직무에 관련된 특징을 살려 같이 대답한다.)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;지원자의 단점 2가지
+(현재 해결된 점을 말하는 것이 좋고 장점으로 대처가 되는 것을 크게 영향을 미치지 않는 것이 좋다.)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;지원직무를 위해 지금까지 한 노력&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;이력서에 적힌 부분에 대한 부분에 대해 비판적으로 단점으로 볼 수 있는 것에 대한 대처는?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;하나를 꾸준히 해본 경험은?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;가장 입사하고 싶은 회사는 어디 입니까?
+    &lt;ul&gt;
+      &lt;li&gt;세부적으로 말하기&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;해당 직문에 관련된 정보를 어떻게 얻습니까?
+    &lt;ul&gt;
+      &lt;li&gt;실제 구독하고 있는 정보…. 사람인 팔로우라던지 IT 뉴스, 경제 뉴스 등 실제 정보를 얻는 것을 정리해보자&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;지금까지 살면서 가장 힘들었던 순간은 언제입니까?&lt;/li&gt;
+&lt;/ol&gt;
 
+&lt;p&gt;주의&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;dog 라는 단어가 문서에서 5번 나타났습니다.&lt;/li&gt;
-  &lt;li&gt;전체 문서 집합에서 dog 라는 단어가 드물게 나타났다면, TF-IDF 값은 높아집니다.&lt;/li&gt;
-  &lt;li&gt;이는 단어가 문서의 특징을 잘 나타내는 중요한 단어라는 것을 나타내며, 이를 통해 이 문서가 dog과 관련이 높다는 것을 나타내는 검색 결과에서 상위에 나타날 수 있게 됩니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;활용&quot;&gt;활용&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;단어의 빈도수를 고려하기 때문에, 자주 나타나는 단어에 대해서는 높은 가중치를 부여하고, 드물게 나타나는 단어에 대해서는 높은 가중치를 부여합니다.
-    &lt;ul&gt;
-      &lt;li&gt;이러한 방식은 다른 기술과 함께 사용될 때 좋은 결과를 낼 수 있습니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;불용어 제거&lt;/strong&gt;에도 사용할 수 있습니다.
-    &lt;ul&gt;
-      &lt;li&gt;자주 나타나지만 분석에 필요하지 않은 단어들을 제거하고, 중요한 단어들에 대해서만 TF-IDF 가중치를 계산하여 분석을 수행할 수 있습니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;다른 기술과 결합하여 &lt;strong&gt;토픽 모델링&lt;/strong&gt;이나 &lt;strong&gt;감성 분석&lt;/strong&gt; 등의 작업에서도 활용됩니다.
-    &lt;ul&gt;
-      &lt;li&gt;이러한 분야에서도 TF-IDF를 활용하여 각 단어의 중요도를 계산하고, 이를 바탕으로 분석을 수행합니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;한계&quot;&gt;한계&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;동음이의어&lt;/strong&gt;나 &lt;strong&gt;유사어&lt;/strong&gt;의 처리에 대해서는 &lt;strong&gt;한계&lt;/strong&gt;가 있습니다.
-    &lt;ul&gt;
-      &lt;li&gt;이러한 문제를 해결하기 위해서는 &lt;strong&gt;단어 임베딩&lt;/strong&gt;(word embedding) 등의 기술을 함께 사용해야 합니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;긴 문서&lt;/strong&gt;에서는 &lt;strong&gt;단어의 빈도수&lt;/strong&gt;가 &lt;strong&gt;과도하게 높아져서&lt;/strong&gt;, 가중치가 높은 단어가 &lt;strong&gt;특별한 의미&lt;/strong&gt;를 &lt;strong&gt;가지지 않는&lt;/strong&gt; 경우도 있습니다.&lt;/li&gt;
+  &lt;li&gt;어떤 것을 말했으면 결론이 있어야 한다. 예를 들어, 현업 직무자에게 인터뷰를 할 수 있는 기회가 있었을 때 어떤 것을 들었고 어떤 것을 실제로 실행 했는지에 대한 결론&lt;/li&gt;
+  &lt;li&gt;완벽한 대답을 하지 못하고 공격할 수 있는 부분에 대한 꼬리질문이 들어온다면? 예를 들어, 자격증을 미리 따놓지 못한 경우에 핑계라고 할 수 있지 않느냐? 이 직무에 관심이 많이 않느냐?&lt;/li&gt;
+  &lt;li&gt;구체적이지 않고 두루뭉실하게 대답하게 되면 질문자는 이 사람이 대답을 피하고 있다고 생각하게 된다.&lt;/li&gt;
+  &lt;li&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
 
       
@@ -1082,11 +1155,9 @@ finally:
       
         <category term="exitem" />
       
-        <category term="TIL" />
-      
 
       
-        <summary type="html">TF-IDF (용어 빈도 - 역 문서 빈도)</summary>
+        <summary type="html">면접질문</summary>
       
 
       
