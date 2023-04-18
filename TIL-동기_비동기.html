@@ -56,9 +56,7 @@
     <meta property="og:site_name" content="Engineer Chanp5660" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="TIL-동기_비동기" />
-    <meta property="og:description" content="동기와 비동기의 차이
-
-" />
+    <meta property="og:description" content="동기와 비동기의 차이 가장 큰 차이는 프로그램 작업이 수행되는 방식과 작업이 완료될 때까지 대기해야 하는지 여부입니다. 동기 작업이 순차적으로 진행되는 방식입니다. 즉, 하나의 작업이 완료되기 전까지는 다른 작업이 시작되지 않습니다. 이 때문에 작업이 끝날 때까지 대기해야 하는 경우가 발생할 수 있습니다. 비동기 작업이 동시에 여러개 진행될 수 있는 방식입니다. 즉," />
     <meta property="og:url" content="http://localhost:4000/TIL-%EB%8F%99%EA%B8%B0_%EB%B9%84%EB%8F%99%EA%B8%B0" />
     <meta property="og:image" content="http://localhost:4000/assets/built/images/동기_비동기.png" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
@@ -68,9 +66,7 @@
     <meta property="article:tag" content="Exitem" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="TIL-동기_비동기" />
-    <meta name="twitter:description" content="동기와 비동기의 차이
-
-" />
+    <meta name="twitter:description" content="동기와 비동기의 차이 가장 큰 차이는 프로그램 작업이 수행되는 방식과 작업이 완료될 때까지 대기해야 하는지 여부입니다. 동기 작업이 순차적으로 진행되는 방식입니다. 즉, 하나의 작업이 완료되기 전까지는 다른 작업이 시작되지 않습니다. 이 때문에 작업이 끝날 때까지 대기해야 하는 경우가 발생할 수 있습니다. 비동기 작업이 동시에 여러개 진행될 수 있는 방식입니다. 즉," />
     <meta name="twitter:url" content="http://localhost:4000/" />
     <meta name="twitter:image" content="http://localhost:4000/assets/built/images/동기_비동기.png" />
     <meta name="twitter:label1" content="Written by" />
@@ -102,9 +98,7 @@
         "@type": "WebPage",
         "@id": "http://localhost:4000/TIL-%EB%8F%99%EA%B8%B0_%EB%B9%84%EB%8F%99%EA%B8%B0"
     },
-    "description": "동기와 비동기의 차이
-
-"
+    "description": "동기와 비동기의 차이 가장 큰 차이는 프로그램 작업이 수행되는 방식과 작업이 완료될 때까지 대기해야 하는지 여부입니다. 동기 작업이 순차적으로 진행되는 방식입니다. 즉, 하나의 작업이 완료되기 전까지는 다른 작업이 시작되지 않습니다. 이 때문에 작업이 끝날 때까지 대기해야 하는 경우가 발생할 수 있습니다. 비동기 작업이 동시에 여러개 진행될 수 있는 방식입니다. 즉,"
 }
     </script>
 
@@ -206,6 +200,39 @@ into the {body} of the default.hbs template -->
             <section class="post-full-content">
                 <div class="kg-card-markdown">
                     <h1 id="동기와-비동기의-차이">동기와 비동기의 차이</h1>
+
+<p>가장 큰 차이는 프로그램 작업이 수행되는 방식과 작업이 완료될 때까지 대기해야 하는지 여부입니다.</p>
+
+<h2 id="동기">동기</h2>
+
+<ul>
+  <li>작업이 순차적으로 진행되는 방식입니다.</li>
+  <li>즉, 하나의 작업이 완료되기 전까지는 다른 작업이 시작되지 않습니다.</li>
+  <li>이 때문에 작업이 끝날 때까지 대기해야 하는 경우가 발생할 수 있습니다.</li>
+</ul>
+
+<h2 id="비동기">비동기</h2>
+
+<ul>
+  <li>작업이 동시에 여러개 진행될 수 있는 방식입니다.</li>
+  <li>즉, 하나의 작업이 완료될 때까지 다른 작업이 시작될 수 있습니다.</li>
+  <li>이를 통해 작업이 끝날 때까지 대기하지 않고 다른 작업을 진행할 수 있어서, 전체적인 시스템의 성능이 향상될 수 있습니다.</li>
+</ul>
+
+<h2 id="예시1">예시1</h2>
+
+<ul>
+  <li>웹 서버에서 클라이언트의 요청을 처리할 때, <strong>동기</strong> 방식은 클라이언트의 요청에 대한 응답을 처리하는 동안 다른 요청을 처리하지 않습니다.</li>
+  <li>반면, 비동기 방식은 요청을 처리하는 동안 다른 요청을 처리할 수 있습니다.</li>
+</ul>
+
+<h2 id="예시2">예시2</h2>
+
+<ul>
+  <li>파일을 읽어오는 작업을 수행할 때를 들 수 있습니다.</li>
+  <li>동기 방식 : 파일을 읽어오는 작업이 끝날 때까지 대기해야 합니다.</li>
+  <li>비동기 방식 : 파일을 읽어오는 작업을 백그라운드에서 수행하고, 작업이 끝나면 콜백 함수를 호출하여 결과를 처리할 수 있습니다.</li>
+</ul>
 
 
                 </div>
@@ -309,6 +336,24 @@ into the {body} of the default.hbs template -->
                                     
                                         
                                         
+                                            <li><a href="/TIL-%EA%B5%AC%EC%A1%B0%EC%A0%81%EB%B0%A9%EB%B2%95%EB%A1%A0">TIL-구조적방법론</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/TIL-MOM(Message_Oriented_Middleware)">TIL-MOM(Message Oriented Middleware)</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
                                             <li><a href="/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC%EA%B8%B0%EC%B6%9C%EB%AC%B8%EC%A0%9C(20220424)">정보처리기사 기출문제 20220424</a></li>
                                         
                                     
@@ -318,8 +363,6 @@ into the {body} of the default.hbs template -->
                                     
                                         
                                         
-                                            <li><a href="/TIL-UML%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8">TIL-UML다이어그램</a></li>
-                                        
                                     
                                   
                                 
@@ -328,8 +371,6 @@ into the {body} of the default.hbs template -->
                                   
                                     
                                         
-                                        
-                                            <li><a href="/TIL-Imbalanced_data">TIL-Imbalanced_data</a></li>
                                         
                                     
                                   
@@ -877,7 +918,7 @@ into the {body} of the default.hbs template -->
                         <footer class="read-next-card-footer">
                             <a href="/tag/exitem/">
                                 
-                                    See all 59 posts  →
+                                    See all 61 posts  →
                                 
                             </a>
                         </footer>
@@ -894,12 +935,12 @@ into the {body} of the default.hbs template -->
 
     <article class="post-card post-template">
         
-            <a class="post-card-image-link" href="/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC%EA%B8%B0%EC%B6%9C%EB%AC%B8%EC%A0%9C(20220424)">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/정보처리기사.png)"></div>
+            <a class="post-card-image-link" href="/TIL-%EA%B5%AC%EC%A1%B0%EC%A0%81%EB%B0%A9%EB%B2%95%EB%A1%A0">
+                <div class="post-card-image" style="background-image: url(/assets/built/images/구조적방법론.png)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC%EA%B8%B0%EC%B6%9C%EB%AC%B8%EC%A0%9C(20220424)">
+            <a class="post-card-content-link" href="/TIL-%EA%B5%AC%EC%A1%B0%EC%A0%81%EB%B0%A9%EB%B2%95%EB%A1%A0">
                 <header class="post-card-header">
                     
                         
@@ -913,11 +954,11 @@ into the {body} of the default.hbs template -->
                         
                     
 
-                    <h2 class="post-card-title">정보처리기사 기출문제 20220424</h2>
+                    <h2 class="post-card-title">TIL-구조적방법론</h2>
                 </header>
                 <section class="post-card-excerpt">
                     
-                        <p>정보처리기사 기출문제 부시기 20220424
+                        <p>구조적 방법론(Structured Methodology)
 
 </p>
                     
@@ -937,7 +978,7 @@ into the {body} of the default.hbs template -->
                 <span class="reading-time">
                     
                     
-                      1 min read
+                      2 min read
                     
                 </span>
             </footer>
