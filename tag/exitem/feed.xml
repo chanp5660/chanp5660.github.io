@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/exitem/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-04-19T00:23:58+09:00</updated>
+  <updated>2023-04-19T01:22:58+09:00</updated>
   <id>http://localhost:4000/tag/exitem/feed.xml</id>
 
   
@@ -124,6 +124,118 @@
 
       
         <summary type="html">애자일 방법론(Agile Methodology)</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">TIL-유스케이스</title>
+      <link href="http://localhost:4000/TIL-%EC%9C%A0%EC%8A%A4%EC%BC%80%EC%9D%B4%EC%8A%A4" rel="alternate" type="text/html" title="TIL-유스케이스" />
+      <published>2023-04-19T00:00:00+09:00</published>
+      <updated>2023-04-19T00:00:00+09:00</updated>
+      <id>http://localhost:4000/TIL-%EC%9C%A0%EC%8A%A4%EC%BC%80%EC%9D%B4%EC%8A%A4</id>
+      <content type="html" xml:base="http://localhost:4000/TIL-%EC%9C%A0%EC%8A%A4%EC%BC%80%EC%9D%B4%EC%8A%A4">&lt;h1 id=&quot;유스케이스-uses-case&quot;&gt;유스케이스 (Uses Case)&lt;/h1&gt;
+
+&lt;p&gt;소프트웨어 개발 분야에서 사용되는 요구사항 기술 방법 중 하나로, 사용자 시나리오를 통해 시스템의 요구사항을 분석하고 문서화하는 기법입니다.&lt;br /&gt;
+간단히 말하면, 사용자들이 시스템을 어떻게 사용할지를 설명하는 방법으로, 사용자의 요구사항을 수집하고 분석하여 시스템의 동작을 명세화합니다.&lt;/p&gt;
+
+&lt;p&gt;다양한 형식으로 문서화될 수 있습니다. &lt;br /&gt;
+일반적으로는 텍스트나 &lt;a href=&quot;https://chanp5660.github.io/TIL-UML다이어그램&quot;&gt;&lt;strong&gt;UML다이어그램&lt;/strong&gt;&lt;/a&gt;으로 표현됩니다.&lt;br /&gt;
+또한, 작성할 때는 사용자의 요구사항을 명확하게 이해하고 분석하는 과정이 필요하며, 이를 위해서는 사용자와의 소통이 중요합니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;명세화란 정확하고 명백하며, 완전한 모델을 만드는 것을 의미합니다.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;같이 보면 좋은 사이트 &lt;a href=&quot;https://y-oni.tistory.com/50&quot;&gt;링크1&lt;/a&gt;,&lt;a href=&quot;https://www.ksga.org/sgstandard/framework/01/03/01.do&quot;&gt;링크2&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;구성-요소&quot;&gt;구성 요소&lt;/h2&gt;
+
+&lt;h3 id=&quot;액터actor&quot;&gt;액터(Actor)&lt;/h3&gt;
+
+&lt;p&gt;시스템과 상호작용하는 대상이나 사용자를 의미합니다.&lt;br /&gt;
+액터는 시스템 내에서 역할을 수행하거나 시스템으로부터 정보나 서비스를 제공받습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;시스템system&quot;&gt;시스템(System)&lt;/h3&gt;
+
+&lt;p&gt;유스케이스가 적용되는 대상 시스템을 의미합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;유스케이스use-case&quot;&gt;유스케이스(Use Case)&lt;/h3&gt;
+
+&lt;p&gt;사용자의 요구사항과 목적을 정의한 시나리오입니다.&lt;br /&gt;
+유스케이스는 사용자와 시스템 간의 상호작용을 기술하며, 기능적 요구사항을 명세화합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;전제조건precondition&quot;&gt;전제조건(Precondition)&lt;/h3&gt;
+
+&lt;p&gt;유스케이스를 시작하기 전에 충족되어야 하는 조건입니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;후속조건postcondition&quot;&gt;후속조건(Postcondition)&lt;/h3&gt;
+
+&lt;p&gt;유스케이스가 실행되는 과정에서 예상치 못한 오류나 예외상황이 발생할 때를 기술합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;장점&quot;&gt;장점&lt;/h2&gt;
+
+&lt;h3 id=&quot;요구사항의-명확한-이해&quot;&gt;요구사항의 명확한 이해&lt;/h3&gt;
+
+&lt;p&gt;사용자 시나리오를 통해 요구사항을 명세화합니다.&lt;br /&gt;
+이를 통해 사용자의 요구사항을 명확하게 이해하고 분석할 수 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;기능적-요구사항-명세화&quot;&gt;기능적 요구사항 명세화&lt;/h3&gt;
+
+&lt;p&gt;사용자 시나리오를 기반으로 시스템의 기능적 요구사항을 명세화합니다.&lt;br /&gt;
+이를 통해 시스템의 동작을 명확하게 정의하고, 이를 바탕으로 시스템을 설계하고 개발할 수 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;테스트-케이스-작성&quot;&gt;테스트 케이스 작성&lt;/h3&gt;
+
+&lt;p&gt;사용자 시나리오를 통해 시스템의 동작을 명세화합니다.&lt;br /&gt;
+이를 바탕으로 테스트 케이스를 작성하여 테스트를 수행할 수 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;개발과-유지보수-비용-절감&quot;&gt;개발과 유지보수 비용 절감&lt;/h3&gt;
+
+&lt;p&gt;유스케이스를 사용하면 요구사항이 명확하게 정의되고, 이를 바탕으로 시스템을 설계하고 개발할 수 있습니다.&lt;br /&gt;
+이를 통해 개발과 유지보수 비용을 절감할 수 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;소프트웨어-품질-향상&quot;&gt;소프트웨어 품질 향상&lt;/h3&gt;
+
+&lt;p&gt;요구사항이 명확하게 정의되고, 이를 바탕으로 시스템을 설계하고 개발할 수 있습니다.&lt;br /&gt;
+이를 통해 소프트웨어의 품질을 향상시킬 수 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;주의사항&quot;&gt;주의사항&lt;/h2&gt;
+
+&lt;p&gt;유스케이스가 모든 요구사항을 커버하지 않을 수 있으며, 너무 상세하게 작성하면 유연성일 떨어질 수 있습니다.&lt;br /&gt;
+따라서, 유스케이스를 작성할 때는 적절한 수준으로 작성하는 것이 중요합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;유스케이스use-case의-구성-요소-간의-관계&quot;&gt;유스케이스(Use Case)의 구성 요소 간의 관계&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;연관관계(Association) : 유스케이스와 액터간의 상호작용이 있음을 표현한다.&lt;/li&gt;
+  &lt;li&gt;포함관계(Include) : 하나의 유스케이스가 다른 유스케이스의 실행을 전제로 할 때 형성되는 관계이다.&lt;/li&gt;
+  &lt;li&gt;확장관계(Extend) : 확장 기능 유스케이스와 확장 대상 유스케이스 사이에 형성 되는 관계이다.&lt;/li&gt;
+  &lt;li&gt;일반화관계(Generalization) : 유사한 유스케이스 또는 액터를 모아 추상화한 유스케이스 또는 액터와 연결시켜 그룹을 만들어 이해도를 높이기 위한 관계이다.&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">유스케이스 (Uses Case)</summary>
       
 
       
@@ -855,96 +967,6 @@ MOM은 즉각적인 응답을 원하는 경우가 아니라 다소 느리고 안
 
       
         <summary type="html">한국 기상 브레인스토밍</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">TIL-한국해양브레인스토밍</title>
-      <link href="http://localhost:4000/TIL-%ED%95%9C%EA%B5%AD%ED%95%B4%EC%96%91-%EB%B8%8C%EB%A0%88%EC%9D%B8%EC%8A%A4%ED%86%A0%EB%B0%8D" rel="alternate" type="text/html" title="TIL-한국해양브레인스토밍" />
-      <published>2023-03-29T00:00:00+09:00</published>
-      <updated>2023-03-29T00:00:00+09:00</updated>
-      <id>http://localhost:4000/TIL-%ED%95%9C%EA%B5%AD%ED%95%B4%EC%96%91%20%EB%B8%8C%EB%A0%88%EC%9D%B8%EC%8A%A4%ED%86%A0%EB%B0%8D</id>
-      <content type="html" xml:base="http://localhost:4000/TIL-%ED%95%9C%EA%B5%AD%ED%95%B4%EC%96%91-%EB%B8%8C%EB%A0%88%EC%9D%B8%EC%8A%A4%ED%86%A0%EB%B0%8D">&lt;h1 id=&quot;한국-해양-브레인스토밍&quot;&gt;한국 해양 브레인스토밍&lt;/h1&gt;
-
-&lt;h2 id=&quot;선박&quot;&gt;선박&lt;/h2&gt;
-
-&lt;h3 id=&quot;스마트-선박-개발&quot;&gt;스마트 선박 개발&lt;/h3&gt;
-&lt;p&gt;한국은 사물인터넷(IoT), 빅데이터, 인공지능(AI) 등 첨단 기술을 활용해 운항을 최적화하고 안전성을 높이는 스마트 선박 개발에 투자하고 있다.&lt;/p&gt;
-
-&lt;h3 id=&quot;자율운항선박&quot;&gt;자율운항선박&lt;/h3&gt;
-&lt;p&gt;한국도 승무원 없이 운항할 수 있는 선박인 자율운항선 개발에 박차를 가하고 있다. 이러한 선박은 운항 비용을 줄이고 안전성을 향상시킬 수 있으며 한국은 이러한 노력을 지원하기 위해 센서, AI 및 머신 러닝과 같은 기술에 투자하고 있습니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;친환경-운송&quot;&gt;친환경 운송&lt;/h3&gt;
-&lt;p&gt;한국은 “녹색” 기술 개발을 통해 운송이 환경에 미치는 영향을 줄이기 위해 노력하고 있습니다. 여기에는 액화 천연 가스(LNG) 및 수소와 같은 대체 연료의 사용과 에너지 효율적인 선박 설계 개발이 포함됩니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;재생-에너지&quot;&gt;재생 에너지&lt;/h2&gt;
-
-&lt;h3 id=&quot;해상-풍력-발전-단지&quot;&gt;해상 풍력 발전 단지&lt;/h3&gt;
-&lt;p&gt;한국은 해상 풍력 발전 단지를 신재생 에너지원으로 적극 개발하고 있습니다. 한국은 2030년까지 12GW의 해상풍력을 설치한다는 목표를 세웠고, 이 목표를 지원하기 위해 신기술 연구개발에 투자하고 있다.&lt;/p&gt;
-
-&lt;h3 id=&quot;해양-재생-에너지&quot;&gt;해양 재생 에너지&lt;/h3&gt;
-&lt;p&gt;한국은 해상 풍력 발전소 외에도 파도 및 조력 에너지와 같은 다른 형태의 해양 재생 에너지에 투자하고 있습니다. 이러한 기술은 파도와 해류의 힘을 이용하여 전기를 생성합니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;항만-인프라&quot;&gt;항만 인프라&lt;/h2&gt;
-
-&lt;h3 id=&quot;항만-인프라-개발&quot;&gt;항만 인프라 개발&lt;/h3&gt;
-&lt;p&gt;한국은 효율성과 경쟁력을 향상시키기 위해 항만 인프라 개발에 투자하고 있습니다. 여기에는 항구의 확장 및 현대화는 물론 세계 무역을 지원하기 위한 새로운 물류 허브 개발이 포함됩니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;크루즈-산업&quot;&gt;크루즈 산업&lt;/h3&gt;
-&lt;p&gt;한국은 세계 시장에서 메이저 플레이어가 되는 것을 목표로 크루즈 산업 발전에 투자하고 있습니다. 여기에는 새로운 항만 시설 및 인프라 개발, 크루즈 승객 유치를 위한 한국 문화 및 관광 홍보가 포함됩니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;해양-안전-및-보안&quot;&gt;해양 안전 및 보안&lt;/h3&gt;
-&lt;p&gt;한국은 해양 안전 및 보안을 강화하기 위해 기술 및 인프라에 투자하고 있습니다. 여기에는 고급 내비게이션 및 통신 시스템의 개발은 물론 불법 복제 및 밀수와 같은 위협을 해결하기 위한 감시 및 대응 기능의 배치가 포함됩니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;생명공학&quot;&gt;생명공학&lt;/h2&gt;
-
-&lt;h3 id=&quot;해양-생명공학&quot;&gt;해양 생명공학&lt;/h3&gt;
-&lt;p&gt;한국은 해양 생물과 그 화합물을 의약품, 식품, 화장품 등의 용도로 사용하는 해양 생명공학 개발에도 투자하고 있습니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;해양-자원-관리&quot;&gt;해양 자원 관리&lt;/h3&gt;
-&lt;p&gt;한국은 경제 발전을 지원하는 동시에 해양 생태계 보호에 중점을 두고 해양 자원을 지속 가능하게 관리하기 위해 노력하고 있습니다. 여기에는 해양 자원 및 활동을 매핑하고 관리하는 것과 관련된 해양 공간 계획과 같은 이니셔티브가 포함됩니다.&lt;/p&gt;
-
-&lt;h1 id=&quot;뉴스&quot;&gt;뉴스&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.hdhy.co.kr/news/articleView.html?idxno=18117&quot;&gt;2022년 해양과학기술 10대 뉴스는?&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://ilyo.co.kr/?ac=article_view&amp;amp;entry_id=439785&quot;&gt;부산시 데이터 기반 스마트양식 기술 선점화 전략 모색 外&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;논문&quot;&gt;논문&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;채정훈 외 “해양 센서 데이터에 대한 딥러닝: 리뷰” 이 백서에서는 해양학, 기상학 및 지리 공간 데이터를 포함하여 해양 센서 데이터 분석에서 딥 러닝 응용 프로그램에 대한 개요를 제공합니다.&lt;/li&gt;
-  &lt;li&gt;Tengfei Xue et al.의 “해양 원격 감지를 위한 기계 학습: 응용, 과제 및 전망”. 이 백서에서는 해양 색상, 해수면 온도 및 해양 바람 필드를 포함하여 해양 원격 감지에서 기계 학습의 응용 프로그램을 검토합니다.&lt;/li&gt;
-  &lt;li&gt;Sunke Schmidtko 외의 “해양학의 인공 지능 및 기계 학습: 현재 응용 프로그램 및 과제”. 이 백서는 데이터 전처리, 데이터 분석 및 데이터 동화를 포함하여 해양학에서 인공 지능 및 기계 학습의 현재 상태에 대한 포괄적인 검토를 제공합니다.&lt;/li&gt;
-  &lt;li&gt;“해양 데이터 분석을 위한 딥러닝: 고주파 레이더 데이터를 사용한 사례 연구” 조성진 외. 본 논문은 해류 매핑을 위한 고주파 레이더 데이터에 딥러닝을 적용한 사례 연구를 제시한다.&lt;/li&gt;
-  &lt;li&gt;Annette Stahl 및 Jörn Kohlus의 “해양 데이터 분석을 위한 기계 학습 기술: 검토”. 이 백서는 클러스터링, 분류 및 회귀를 포함하여 해양 데이터 분석에 사용되는 기계 학습 기술에 대한 리뷰를 제공합니다.&lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">한국 해양 브레인스토밍</summary>
       
 
       
