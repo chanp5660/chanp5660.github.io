@@ -8,6 +8,21 @@
     
       
       <item>
+        <title>TIL-정보공학방법론</title>
+        
+          <description>&lt;h1 id=&quot;정보공학방법론&quot;&gt;정보공학방법론&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Wed, 19 Apr 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/TIL-%EC%A0%95%EB%B3%B4%EA%B3%B5%ED%95%99%EB%B0%A9%EB%B2%95%EB%A1%A0</link>
+        <guid isPermaLink="true">http://localhost:4000/TIL-%EC%A0%95%EB%B3%B4%EA%B3%B5%ED%95%99%EB%B0%A9%EB%B2%95%EB%A1%A0</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>TIL-유스케이스</title>
         
           <description>&lt;h1 id=&quot;유스케이스-uses-case&quot;&gt;유스케이스 (Uses Case)&lt;/h1&gt;
@@ -33,6 +48,21 @@
         <link>
         http://localhost:4000/TIL-%EC%95%A0%EC%9E%90%EC%9D%BC%EB%B0%A9%EB%B2%95%EB%A1%A0</link>
         <guid isPermaLink="true">http://localhost:4000/TIL-%EC%95%A0%EC%9E%90%EC%9D%BC%EB%B0%A9%EB%B2%95%EB%A1%A0</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>TIL-ERD</title>
+        
+          <description>&lt;h1 id=&quot;entity-relationship-diagram-erd-개체-관계-다이어그램&quot;&gt;Entity-Relationship Diagram ERD 개체 관계 다이어그램&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Wed, 19 Apr 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/TIL-Entity_Relationship_Diagram</link>
+        <guid isPermaLink="true">http://localhost:4000/TIL-Entity_Relationship_Diagram</guid>
       </item>
       
     
