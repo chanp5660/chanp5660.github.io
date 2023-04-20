@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/exitem/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-04-21T01:14:45+09:00</updated>
+  <updated>2023-04-21T01:24:30+09:00</updated>
   <id>http://localhost:4000/tag/exitem/feed.xml</id>
 
   
@@ -57,11 +57,22 @@
 
 &lt;h2 id=&quot;오버라이딩overriding&quot;&gt;오버라이딩(Overriding)&lt;/h2&gt;
 
-&lt;p&gt;오버라이딩은 부모 클래스에 정의된 메서드를 자식 클래스에서 재정의하여 사용하는 것을 말합니다.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;오버라이딩은 부모 클래스에 정의된 메서드를 자식 클래스에서 재정의하여 사용하는 것을 말합니다.&lt;/li&gt;
+  &lt;li&gt;오버라이딩 된 메서드는 상위 클래스의 &lt;em&gt;메서드 시그니처&lt;/em&gt;와 동일해야 합니다.&lt;/li&gt;
+  &lt;li&gt;오버라이딩을 사용하면, 하위 클래스에서 상위 클래스의 메서드를 그대로 사용하거나 일부분을 수정하여 사용할 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;오버라이딩은 다형성의 구현에 가장 중요한 요소 중 하나입니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;메서드 시그니처&lt;/em&gt; : 메서드의 이름과 매개변수&lt;/p&gt;
 
 &lt;h2 id=&quot;오버로딩overloading&quot;&gt;오버로딩(Overloading)&lt;/h2&gt;
 
-&lt;p&gt;오버로딩은 같은 이름의 메서드를 여러 개 정의하고, 인자의 개수나 타입에 따라 다른 동작을 수행하도록 하는 것을 말합니다.&lt;/p&gt;</content>
+&lt;ul&gt;
+  &lt;li&gt;오버로딩은 같은 이름의 메서드를 여러 개 정의하고, 인자의 개수나 타입에 따라 다른 동작을 수행하도록 하는 것을 말합니다.&lt;/li&gt;
+  &lt;li&gt;컴파일러는 오버로딩된 메서드 중에서 호출할 메서드를 선택할 때, 메서드 호출 시 전달하는 인자의 개수, 타입, 순서 등을 기반으로 선택합니다.&lt;/li&gt;
+  &lt;li&gt;메서드의 이름을 재활용하여 코드의 가독성을 높이고, 코드의 재사용성을 높이는 데에 도움을 줍니다.&lt;/li&gt;
+&lt;/ul&gt;</content>
 
       
       
