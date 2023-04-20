@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/til/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-04-20T23:49:17+09:00</updated>
+  <updated>2023-04-21T00:34:44+09:00</updated>
   <id>http://localhost:4000/tag/til/feed.xml</id>
 
   
@@ -30,6 +30,596 @@
   
   
 
+  
+    <entry>
+      <title type="html">데이터준분석가 데이터의 이해</title>
+      <link href="http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%A4%80%EB%B6%84%EC%84%9D%EA%B0%80_%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%9D%98%EC%9D%B4%ED%95%B4" rel="alternate" type="text/html" title="데이터준분석가 데이터의 이해" />
+      <published>2023-04-20T00:00:00+09:00</published>
+      <updated>2023-04-20T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%A4%80%EB%B6%84%EC%84%9D%EA%B0%80_%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%9D%98%EC%9D%B4%ED%95%B4</id>
+      <content type="html" xml:base="http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%A4%80%EB%B6%84%EC%84%9D%EA%B0%80_%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%9D%98%EC%9D%B4%ED%95%B4">&lt;h1 id=&quot;데이터준분석가-adsp-데이터의-이해&quot;&gt;데이터준분석가 ADsP 데이터의 이해&lt;/h1&gt;
+
+&lt;p&gt;데이터분석 준전문가(ADsP : Advanced Data Analytics Semi-Professional)란 데이터 이해에 대한 기본지식을 바탕으로 데이터분석 기획 및 데이터분석 등의 직무를 수행하는 실무자를 말한다.&lt;/p&gt;
+
+&lt;p&gt;ADsP에 대한 자세한 정보를 &lt;a href=&quot;https://www.dataq.or.kr/www/sub/a_06.do&quot;&gt;&lt;strong&gt;링크&lt;/strong&gt;&lt;/a&gt;에서 제공합니다.&lt;/p&gt;
+
+&lt;p&gt;목적 : 데이터준분석가와 관련된 용어들에 대해 공부를 해보겠습니다.&lt;/p&gt;
+
+&lt;h1 id=&quot;데이터와-정보&quot;&gt;데이터와 정보&lt;/h1&gt;
+
+&lt;p&gt;데이터와 정보는 서로 구분되는 개념이지만, 정보를 얻기 위해서는 데이터를 수집하고 가공해야합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;데이터&quot;&gt;데이터&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;숫자, 문자, 기호 등의 형태로 표현된 단순한 사실이나 정보입니다.&lt;/li&gt;
+  &lt;li&gt;의미가 부여되지 않은 채로 존재합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;정보&quot;&gt;정보&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;데이터&lt;/strong&gt;를 가공하고 의미를 부여한 것입니다.&lt;/li&gt;
+  &lt;li&gt;보통 사람들이 이해할 수 있는 형태로 정리되며, 의미가 부여된 채로 존재합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;데이터의-유형&quot;&gt;데이터의 유형&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;정성적&lt;/strong&gt; 데이터와 &lt;strong&gt;정량적&lt;/strong&gt; 데이터는 데이터의 특성에 따라 분류된 두 가지 유형의 데이터입니다.&lt;br /&gt;
+데이터의 특성과 활용 방안에 따라 차이가 있으며, 분석 목적에 맞게 적절한 데이터를 선택하여 활용하는 것이 중요합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;정성적-데이터&quot;&gt;정성적 데이터&lt;/h2&gt;
+
+&lt;p&gt;주로 &lt;strong&gt;질적&lt;/strong&gt; 데이터로 불리며, 수치화되지 않은 데이터를 의미합니다.&lt;br /&gt;
+예를 들어, 고객 만족도 조사에서 고객의 만족도를 ‘매우 만족’, ‘만족’, ‘보통’, ‘불만족’, ‘매우 불만족’과 같은 카테고리로 평가하는 경우가 있습니다.&lt;/p&gt;
+
+&lt;p&gt;이러한 데이터는 주로 감성적인 분석이 필요하거나, 인과관계나 통계적 분석이 어려운 경우에 활용됩니다.&lt;/p&gt;
+
+&lt;p&gt;감성 분석이나 텍스트 마이닝 등의 방법을 활용하여 분석하며, 고객 만족도 조사나 제품 리뷰 등에서 활용됩니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;정량적-데이터&quot;&gt;정량적 데이터&lt;/h2&gt;
+
+&lt;p&gt;주로 &lt;strong&gt;양적&lt;/strong&gt; 데이터로 불리며, 수치화된 데이터를 의미합니다.&lt;br /&gt;
+예를 들어, 고개 만족도 조사에서 고객의 만족도를 1점부터 5점까지의 척도로 평가하는 경우가 있습니다.&lt;/p&gt;
+
+&lt;p&gt;이러한 데이터는 주로 통계적 분석이 가능하며, 인과관계를 분석하거나 예측 모델을 만드는 등의 다양한 분석 작업에 활용됩니다.&lt;/p&gt;
+
+&lt;p&gt;통계 분석이나 데이터 마이닝 등의 방법을 활용하여 분석하며, 매출 현황, 고객 구매 패턴 등에서 활용됩니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;dikw-피라미드data-information-knowledge-wisdom&quot;&gt;DIKW 피라미드(Data Information Knowledge Wisdom)&lt;/h2&gt;
+
+&lt;p&gt;개인이나 조직이 정보를 이해하고 활용하는 과정을 보여줍니다.&lt;/p&gt;
+
+&lt;p&gt;피라미드의 목적은 데이터를 수집하고 분석한 후, 정보를 추출하고 이를 지식으로 바꾸는 과정을 거쳐 지혜를 얻는 것이 목표입니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;D, Data : 개별 데이터 자체로는 의미가 중요하지 않은 객관적인 사실로 숫자, 문자, 기호 등의 형태로 표현된 단순한 사실이나 정보입니다.&lt;br /&gt;
+예를 들어, 날씨 정보, 주시 시장의 가격 등이 데이터의 예시입니다.&lt;/li&gt;
+  &lt;li&gt;I, Information : 데이터의 가공, 처리와 데이터간 연관 관계 속에서 의미가 도출된 것으로 데이터가 무엇을 의미하는지를 설명하는 것입니다.&lt;br /&gt;
+예를 들어, 일기예보가 ‘내일은 맑은’이라는 데이터를 정보로 변환합니다.&lt;/li&gt;
+  &lt;li&gt;K, Knowledge : 데이터를 통해 도출된 다양한 정보를 구조화하여 유의미한 정보를 분류하고 개인적인 경험을 결합시켜 고유의 지식으로 내재화된 것입니다.&lt;br /&gt;
+예를 들어, 일기예보에서 ‘맑음’이 내일 물건을 건조시키기 좋은 기상 조건이라는 지식을 얻을 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;W, Wisdom : 지식을 활용하여 의사결정이나 문제 해결에 대한 지혜를 얻는 것입니다. 지혜는 지식을 응용하여 문제를 해결하는 것으로, 조직이나 개인이 지식을 기반으로 비즈니스나 생활 전반에 걸치 의사결정을 내리는 것을 돕습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;데이터베이스-정의와-특징&quot;&gt;데이터베이스 정의와 특징&lt;/h1&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">데이터준분석가 ADsP 데이터의 이해</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">TIL-유스케이스</title>
+      <link href="http://localhost:4000/%EC%9C%A0%EC%8A%A4%EC%BC%80%EC%9D%B4%EC%8A%A4" rel="alternate" type="text/html" title="TIL-유스케이스" />
+      <published>2023-04-19T00:00:00+09:00</published>
+      <updated>2023-04-19T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%EC%9C%A0%EC%8A%A4%EC%BC%80%EC%9D%B4%EC%8A%A4</id>
+      <content type="html" xml:base="http://localhost:4000/%EC%9C%A0%EC%8A%A4%EC%BC%80%EC%9D%B4%EC%8A%A4">&lt;h1 id=&quot;유스케이스-uses-case&quot;&gt;유스케이스 (Uses Case)&lt;/h1&gt;
+
+&lt;p&gt;소프트웨어 개발 분야에서 사용되는 요구사항 기술 방법 중 하나로, 사용자 시나리오를 통해 시스템의 요구사항을 분석하고 문서화하는 기법입니다.&lt;br /&gt;
+간단히 말하면, 사용자들이 시스템을 어떻게 사용할지를 설명하는 방법으로, 사용자의 요구사항을 수집하고 분석하여 시스템의 동작을 명세화합니다.&lt;/p&gt;
+
+&lt;p&gt;다양한 형식으로 문서화될 수 있습니다. &lt;br /&gt;
+일반적으로는 텍스트나 &lt;a href=&quot;https://chanp5660.github.io/TIL-UML다이어그램&quot;&gt;&lt;strong&gt;UML다이어그램&lt;/strong&gt;&lt;/a&gt;으로 표현됩니다.&lt;br /&gt;
+또한, 작성할 때는 사용자의 요구사항을 명확하게 이해하고 분석하는 과정이 필요하며, 이를 위해서는 사용자와의 소통이 중요합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;명세화란 정확하고 명백하며, 완전한 모델을 만드는 것을 의미합니다.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;같이 보면 좋은 사이트 &lt;a href=&quot;https://y-oni.tistory.com/50&quot;&gt;&lt;strong&gt;링크1&lt;/strong&gt;&lt;/a&gt;,&lt;a href=&quot;https://www.ksga.org/sgstandard/framework/01/03/01.do&quot;&gt;&lt;strong&gt;링크2&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;구성-요소&quot;&gt;구성 요소&lt;/h2&gt;
+
+&lt;h3 id=&quot;액터actor&quot;&gt;액터(Actor)&lt;/h3&gt;
+
+&lt;p&gt;시스템과 상호작용하는 대상이나 사용자를 의미합니다.&lt;br /&gt;
+액터는 시스템 내에서 역할을 수행하거나 시스템으로부터 정보나 서비스를 제공받습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;시스템system&quot;&gt;시스템(System)&lt;/h3&gt;
+
+&lt;p&gt;유스케이스가 적용되는 대상 시스템을 의미합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;유스케이스use-case&quot;&gt;유스케이스(Use Case)&lt;/h3&gt;
+
+&lt;p&gt;사용자의 요구사항과 목적을 정의한 시나리오입니다.&lt;br /&gt;
+유스케이스는 사용자와 시스템 간의 상호작용을 기술하며, 기능적 요구사항을 명세화합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;전제조건precondition&quot;&gt;전제조건(Precondition)&lt;/h3&gt;
+
+&lt;p&gt;유스케이스를 시작하기 전에 충족되어야 하는 조건입니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;후속조건postcondition&quot;&gt;후속조건(Postcondition)&lt;/h3&gt;
+
+&lt;p&gt;유스케이스가 실행되는 과정에서 예상치 못한 오류나 예외상황이 발생할 때를 기술합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;장점&quot;&gt;장점&lt;/h2&gt;
+
+&lt;h3 id=&quot;요구사항의-명확한-이해&quot;&gt;요구사항의 명확한 이해&lt;/h3&gt;
+
+&lt;p&gt;사용자 시나리오를 통해 요구사항을 명세화합니다.&lt;br /&gt;
+이를 통해 사용자의 요구사항을 명확하게 이해하고 분석할 수 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;기능적-요구사항-명세화&quot;&gt;기능적 요구사항 명세화&lt;/h3&gt;
+
+&lt;p&gt;사용자 시나리오를 기반으로 시스템의 기능적 요구사항을 명세화합니다.&lt;br /&gt;
+이를 통해 시스템의 동작을 명확하게 정의하고, 이를 바탕으로 시스템을 설계하고 개발할 수 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;테스트-케이스-작성&quot;&gt;테스트 케이스 작성&lt;/h3&gt;
+
+&lt;p&gt;사용자 시나리오를 통해 시스템의 동작을 명세화합니다.&lt;br /&gt;
+이를 바탕으로 테스트 케이스를 작성하여 테스트를 수행할 수 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;개발과-유지보수-비용-절감&quot;&gt;개발과 유지보수 비용 절감&lt;/h3&gt;
+
+&lt;p&gt;유스케이스를 사용하면 요구사항이 명확하게 정의되고, 이를 바탕으로 시스템을 설계하고 개발할 수 있습니다.&lt;br /&gt;
+이를 통해 개발과 유지보수 비용을 절감할 수 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;소프트웨어-품질-향상&quot;&gt;소프트웨어 품질 향상&lt;/h3&gt;
+
+&lt;p&gt;요구사항이 명확하게 정의되고, 이를 바탕으로 시스템을 설계하고 개발할 수 있습니다.&lt;br /&gt;
+이를 통해 소프트웨어의 품질을 향상시킬 수 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;주의사항&quot;&gt;주의사항&lt;/h2&gt;
+
+&lt;p&gt;유스케이스가 모든 요구사항을 커버하지 않을 수 있으며, 너무 상세하게 작성하면 유연성일 떨어질 수 있습니다.&lt;br /&gt;
+따라서, 유스케이스를 작성할 때는 적절한 수준으로 작성하는 것이 중요합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;유스케이스use-case의-구성-요소-간의-관계&quot;&gt;유스케이스(Use Case)의 구성 요소 간의 관계&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;연관관계(Association) : 유스케이스와 액터간의 상호작용이 있음을 표현한다.&lt;/li&gt;
+  &lt;li&gt;포함관계(Include) : 하나의 유스케이스가 다른 유스케이스의 실행을 전제로 할 때 형성되는 관계이다.&lt;/li&gt;
+  &lt;li&gt;확장관계(Extend) : 확장 기능 유스케이스와 확장 대상 유스케이스 사이에 형성 되는 관계이다.&lt;/li&gt;
+  &lt;li&gt;일반화관계(Generalization) : 유사한 유스케이스 또는 액터를 모아 추상화한 유스케이스 또는 액터와 연결시켜 그룹을 만들어 이해도를 높이기 위한 관계이다.&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">유스케이스 (Uses Case)</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">TIL-애자일방법론</title>
+      <link href="http://localhost:4000/%EC%95%A0%EC%9E%90%EC%9D%BC%EB%B0%A9%EB%B2%95%EB%A1%A0" rel="alternate" type="text/html" title="TIL-애자일방법론" />
+      <published>2023-04-19T00:00:00+09:00</published>
+      <updated>2023-04-19T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%EC%95%A0%EC%9E%90%EC%9D%BC%EB%B0%A9%EB%B2%95%EB%A1%A0</id>
+      <content type="html" xml:base="http://localhost:4000/%EC%95%A0%EC%9E%90%EC%9D%BC%EB%B0%A9%EB%B2%95%EB%A1%A0">&lt;h1 id=&quot;애자일-방법론agile-methodology&quot;&gt;애자일 방법론(Agile Methodology)&lt;/h1&gt;
+
+&lt;p&gt;소프트웨어 개발 프로세스에서 일어나는 변화와 요구사항에 빠르게 대응하기 위해 고안된 방법론입니다.&lt;br /&gt;
+원래 소프트웨어 개발 프로세스를 위한 것이지만, 현재는 다른 분야에서도 적용되고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;빠르고 유연한 개발 프로세스를 강조합니다.&lt;br /&gt;
+이를 위해 다양한 방법론이 개발되었는데, 그 중에서 대표적인 것은 스크럼(Scrum), 익스트림 프로그래밍(Extreme Programming, XP), 칸반(Kanban) 등이 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;특징&quot;&gt;특징&lt;/h2&gt;
+
+&lt;p&gt;애자일 방법론은 기존의 워터폴 방식에 비해 빠르고 유연하게 개발을 진행할 수 있으며, 고객의 요구사항을 더 잘 반영할 수 있습니다.&lt;br /&gt;
+하지만 기존 방식과 달리 자율적인 팀 협업이 중요하기 때문에 개발팀 간의 의사소통과 협업 능력이 필요합니다.&lt;br /&gt;
+또한, 스프린트 주기로 작은 기능 단위로 개발을 진행하기 때문에, 기존의 대규모 개발 프로젝트에 적합하지 않을 수 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;반복적-개발&quot;&gt;반복적 개발&lt;/h3&gt;
+
+&lt;p&gt;프로젝트를 작은 단위로 나누어 짧은 주기로 개발을 진행합니다.&lt;br /&gt;
+이를 스프린트(Sprint) 라고 부르며, 스프린트는 보통 1주일에서 1개월 사이의 기간으로 설정됩니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;고객-참여&quot;&gt;고객 참여&lt;/h3&gt;
+
+&lt;p&gt;고객과 함께 일하는 것을 강조합니다.&lt;br /&gt;
+고객은 제품의 요구사항과 우선순위를 결정하고, 개발팀과 함께 일정한 주기로 제품을 검토합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;변화에-대한-대처&quot;&gt;변화에 대한 대처&lt;/h3&gt;
+
+&lt;p&gt;요구사항이나 환경의 변화에 빠르게 대처할 수 있습니다.&lt;br /&gt;
+이를 위해 유연한 계획을 수립하고, 작은 주기로 개발을 진행하여 변화에 대응합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;팀-협업&quot;&gt;팀 협업&lt;/h3&gt;
+
+&lt;p&gt;개발팀은 자율적으로 일하는 것을 강조하며, 팀원들은 서로의 역할을 이해하고, 지속적인 협업을 통해 제품을 개발합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;지속적인-개선&quot;&gt;지속적인 개선&lt;/h3&gt;
+
+&lt;p&gt;개발 과정에서 항상 자신들의 작업을 평가하고, 다음 스프린트에서 개선할 점을 찾아내며, 지속적으로 개선합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;장점&quot;&gt;장점&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;고객의 요구사항을 빠르게 반영할 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;빠른 속로 개발이 가능합니다.&lt;/li&gt;
+  &lt;li&gt;개발팀 간의 의사소통과 협업 능력이 강화됩니다.&lt;/li&gt;
+  &lt;li&gt;지속적이 개선이 가능합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;단점&quot;&gt;단점&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;개발 프로젝트의 규모가 큰 경우 적합하지 않습니다.&lt;/li&gt;
+  &lt;li&gt;자율적인 팀 협업 능력이 부족한 경우 프로젝트 진행이 어려울 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;계획의 불안정성이 있기 때문에, 예상치 못한 문제가 발생할 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;문서화가 미흡할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;일반적인-애자일-방법론-프로젝트-진행단계&quot;&gt;일반적인 애자일 방법론 프로젝트 진행단계&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;요구사항 수집 : 고객의 요구사항을 수집하고, 이를 우선순위에 따라 정렬합니다.&lt;/li&gt;
+  &lt;li&gt;스프린트 계획 : 이번 스프린트에서 개발할 기능을 선택하고, 개발 일정을 계획합니다.&lt;/li&gt;
+  &lt;li&gt;스프린트 실행 : 선택한 기능을 개발하고, 일정에 맞추어 작업을 완료합니다.&lt;/li&gt;
+  &lt;li&gt;스프린트 검토 : 개발한 기능을 고객에게 검토해 보여주고, 피드백을 받습니다.&lt;/li&gt;
+  &lt;li&gt;스프린트 회고 : 이번 스프린트에서 발생한 문제점과 개선점을 회고하고, 개선 방안을 도출합니다.&lt;/li&gt;
+&lt;/ol&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">애자일 방법론(Agile Methodology)</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">TIL-정보공학방법론</title>
+      <link href="http://localhost:4000/%EC%A0%95%EB%B3%B4%EA%B3%B5%ED%95%99%EB%B0%A9%EB%B2%95%EB%A1%A0" rel="alternate" type="text/html" title="TIL-정보공학방법론" />
+      <published>2023-04-19T00:00:00+09:00</published>
+      <updated>2023-04-19T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%EC%A0%95%EB%B3%B4%EA%B3%B5%ED%95%99%EB%B0%A9%EB%B2%95%EB%A1%A0</id>
+      <content type="html" xml:base="http://localhost:4000/%EC%A0%95%EB%B3%B4%EA%B3%B5%ED%95%99%EB%B0%A9%EB%B2%95%EB%A1%A0">&lt;h1 id=&quot;정보공학방법론&quot;&gt;정보공학방법론&lt;/h1&gt;
+
+&lt;p&gt;시스템 분석과 설계를 위한 소프트웨어 공학적인 방법론 중 하나입니다.&lt;br /&gt;
+소프트웨어 개발 과정 전반에 걸쳐 일관된 절차를 제공하여 시스템의 요구사항을 분석하며, 설계하고 개발하는 프로세스를 지원합니다.&lt;/p&gt;
+
+&lt;p&gt;전통적인 소프트웨어 개발 방법론인 &lt;strong&gt;폭포수 모델(Waterfall Model)&lt;/strong&gt; 을 보완하고자 개발되었습니다. &lt;br /&gt;
+폭포수 모델에서는 요구사항 수집, 분석, 설계, 구현, 시험, 유지보수의 단계가 일련의 선형적인 과정으로 수행되지만, 정보공학 방법론에서는 이러한 단계가 상호작용하여 빠른 개발이 가능하도록 설계되어 있습니다.&lt;/p&gt;
+
+&lt;p&gt;시스템 요구사항을 수집하기 위해서 인터뷰, 설문조사, 관찰 등의 방법을 사용합니다.&lt;br /&gt;
+이후에는 요구사항을 분석하여 데이터 모델링, 프로세스 모델링, 인터페이스 모델링 등의 기법을 사용하여 시스템의 구조를 설계합니다.&lt;br /&gt;
+이후에는 시스템을 개발하고, 시험을 수행하며, 유지보수를 수행하는 등의 단계를 거쳐 시스템을 완성합니다.&lt;/p&gt;
+
+&lt;h1 id=&quot;주요-특징&quot;&gt;주요 특징&lt;/h1&gt;
+
+&lt;h2 id=&quot;요구사항-중심&quot;&gt;요구사항 중심&lt;/h2&gt;
+
+&lt;p&gt;시스템의 요구사항을 중심으로 시스템을 개발하며, 요구사항을 정확히 수집하고 분석함으로써 개발 시간을 단축할 수 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;모델링-기법-활용&quot;&gt;모델링 기법 활용&lt;/h2&gt;
+
+&lt;p&gt;데이터 모델링, 프로세스 모델링 등의 모델링 기법을 사용하여 시스템의 구조를 설계합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;반복적인-개발-과정&quot;&gt;반복적인 개발 과정&lt;/h2&gt;
+
+&lt;p&gt;시스템 요구사항을 반복적으로 검토하여 설계를 수정하며, 개발을 진행합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;유지보수-고려&quot;&gt;유지보수 고려&lt;/h2&gt;
+
+&lt;p&gt;시스템을 개발한 후에도 지속적으로 유지보수를 고려하여 개발합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;전사적인-시각&quot;&gt;전사적인 시각&lt;/h2&gt;
+
+&lt;p&gt;정보공학 방법론은 기업 전체를 대상으로 하여 시스템을 설계합니다.&lt;br /&gt;
+이는 기업의 전반적인 업무 프로세스를 고려하여 시스템을 개발함으로써 기업의 전략적인 목표를 달성하는 데 도움을 줍니다.&lt;/p&gt;
+
+&lt;p&gt;시스템의 요구사항을 중심으로 한 개발 방법론으로, 개발 과정에서 요구사항을 정확히 파악하여 개발 시간을 단축하고, 유지보수를 고려하여 시스템을 개발합니다.&lt;br /&gt;
+이 방법론은 전통적인 폭포수 모델보다 더 빠르고 효율적인 소프트웨어 개발을 가능하게 합니다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">정보공학방법론</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">TIL-동기_비동기</title>
+      <link href="http://localhost:4000/%EB%8F%99%EA%B8%B0_%EB%B9%84%EB%8F%99%EA%B8%B0" rel="alternate" type="text/html" title="TIL-동기_비동기" />
+      <published>2023-04-18T00:00:00+09:00</published>
+      <updated>2023-04-18T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%EB%8F%99%EA%B8%B0_%EB%B9%84%EB%8F%99%EA%B8%B0</id>
+      <content type="html" xml:base="http://localhost:4000/%EB%8F%99%EA%B8%B0_%EB%B9%84%EB%8F%99%EA%B8%B0">&lt;h1 id=&quot;동기와-비동기의-차이&quot;&gt;동기와 비동기의 차이&lt;/h1&gt;
+
+&lt;p&gt;가장 큰 차이는 프로그램 작업이 수행되는 방식과 작업이 완료될 때까지 대기해야 하는지 여부입니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;동기&quot;&gt;동기&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;작업이 순차적으로 진행되는 방식입니다.&lt;/li&gt;
+  &lt;li&gt;즉, 하나의 작업이 완료되기 전까지는 다른 작업이 시작되지 않습니다.&lt;/li&gt;
+  &lt;li&gt;이 때문에 작업이 끝날 때까지 대기해야 하는 경우가 발생할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;비동기&quot;&gt;비동기&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;작업이 동시에 여러개 진행될 수 있는 방식입니다.&lt;/li&gt;
+  &lt;li&gt;즉, 하나의 작업이 완료될 때까지 다른 작업이 시작될 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;이를 통해 작업이 끝날 때까지 대기하지 않고 다른 작업을 진행할 수 있어서, 전체적인 시스템의 성능이 향상될 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;예시1&quot;&gt;예시1&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;웹 서버에서 클라이언트의 요청을 처리할 때, &lt;strong&gt;동기&lt;/strong&gt; 방식은 클라이언트의 요청에 대한 응답을 처리하는 동안 다른 요청을 처리하지 않습니다.&lt;/li&gt;
+  &lt;li&gt;반면, 비동기 방식은 요청을 처리하는 동안 다른 요청을 처리할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;예시2&quot;&gt;예시2&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;파일을 읽어오는 작업을 수행할 때를 들 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;동기 방식 : 파일을 읽어오는 작업이 끝날 때까지 대기해야 합니다.&lt;/li&gt;
+  &lt;li&gt;비동기 방식 : 파일을 읽어오는 작업을 백그라운드에서 수행하고, 작업이 끝나면 콜백 함수를 호출하여 결과를 처리할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">동기와 비동기의 차이</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">TIL-구조적방법론</title>
+      <link href="http://localhost:4000/%EA%B5%AC%EC%A1%B0%EC%A0%81%EB%B0%A9%EB%B2%95%EB%A1%A0" rel="alternate" type="text/html" title="TIL-구조적방법론" />
+      <published>2023-04-18T00:00:00+09:00</published>
+      <updated>2023-04-18T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%EA%B5%AC%EC%A1%B0%EC%A0%81%EB%B0%A9%EB%B2%95%EB%A1%A0</id>
+      <content type="html" xml:base="http://localhost:4000/%EA%B5%AC%EC%A1%B0%EC%A0%81%EB%B0%A9%EB%B2%95%EB%A1%A0">&lt;h1 id=&quot;구조적-방법론structured-methodology&quot;&gt;구조적 방법론(Structured Methodology)&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;소프트웨어 개발&lt;/strong&gt;의 &lt;strong&gt;초기 단계&lt;/strong&gt;에서 &lt;strong&gt;요구사항 분석&lt;/strong&gt;과 &lt;strong&gt;설계&lt;/strong&gt;를 중심으로 진행되는 &lt;strong&gt;소프트웨어 개발 방법론&lt;/strong&gt;입니다.&lt;br /&gt;
+&lt;strong&gt;개발 과정&lt;/strong&gt;을 &lt;strong&gt;체계적&lt;/strong&gt;이고 &lt;strong&gt;구조화된 절차&lt;/strong&gt;에 따라 수행하여, 개발 과정 중 발생할 수 있는 &lt;strong&gt;문제를 사전에 예방&lt;/strong&gt;하고 &lt;strong&gt;품질을 향상&lt;/strong&gt;시킬 수 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;장점&quot;&gt;장점&lt;/h2&gt;
+
+&lt;p&gt;체계적인 절차에 따라 개발이 이루어지기 때문에, 프로젝트 일정과 예산을 관리하기 용이합니다.&lt;br /&gt;
+시스템 구조를 명확하게 설계하고 문서화하기 때문에, 소프르웨어의 이해도와 유지보수성이 향상됩니다.&lt;br /&gt;
+요구사항 분석과 설계를 중심으로 개발이 이루어지기 때문에, 소프트웨어의 품질을 보장할 수 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;단점&quot;&gt;단점&lt;/h2&gt;
+
+&lt;p&gt;소프트웨어 개발의 초기 단계에서 많은 시간과 노력을 소비하기 때문에, 전체적인 개발 속도가 느려질 수 있습니다.&lt;br /&gt;
+요구사항 분석과 설계를 토대로 개발이 이루어지기 때문에, 변경사항이 발생하면 전체적인 구조를 변경해야 할 수 있습니다.&lt;br /&gt;
+개발자의 능력과 경험에 따라 구조가 다르게 설계될 수 있기 때문에, 일관성과 품질의 차이가 발생할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;결론적으로, 구조적 방법론은 체계적이고 구조와된 절차에 따라 소프트웨어를 개발하는 방법론으로, 소프트웨어의 품질을 보장할 수 있는 장점이 있지만 개발 속도가 느리고 변경사항에 취약한 단점이 있습니다.&lt;br /&gt;
+따라서 최근에는 애자일 방법론과 같은 빠르고 유연한 개발 방법론이 대세가 되고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;구조적 방법론은 크게 3가지로 분류됩니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;1-자료지향적-방법론data-oriented-methodology&quot;&gt;1. 자료지향적 방법론(Data-Oriented Methodology)&lt;/h2&gt;
+
+&lt;p&gt;소프트웨어 개발의 초창기에 많이 사용되던 방법론으로, 데이터의 흐름과 처리 과정을 중심으로 소프트웨어 시스템을 설계합니다.&lt;br /&gt;
+데이터의 특성과 유형, 그리고 데이터를 처리하는 방법에 대한 분석을 통해 소프트웨어 시스템을 설계합니다.&lt;br /&gt;
+주로 데이터 흐름도(Data Flow Diagram)나 자료 구조 다이어그램(Data Stucture Diagram) 등의 도구를 사용하여 시스템 구조를 설계합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;2-구조지향적-방법론structured-design-methodology&quot;&gt;2. 구조지향적 방법론(Structured Design Methodology)&lt;/h2&gt;
+
+&lt;p&gt;구조지향적 방법론은 자료지향적 방법론은 보완하기 위해 개발된 방법론으로, 소프트웨어 시스템을 기능 단위로 나누어 설계합니다.&lt;br /&gt;
+소프트웨어 시스템을 구성하는 기능들을 순차적으로 나열하고, 이를 조합하여 전체 시스템을 구성합니다.&lt;br /&gt;
+소프트웨어 시스템의 구조를 설계하기 위해 구조도(Structure Chart)라는 도구를 사용합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;3-객체-지향적-방법론object-oriented-methodology&quot;&gt;3. 객체 지향적 방법론(Object-Oriented Methodology)&lt;/h2&gt;
+
+&lt;p&gt;객체지향적 방법론은 객체와 클래스를 중심으로 소프트웨어 시스템을 설계하는 방법론으로, 객체와 객체 간의 상호작용에 대한 분석을 통해 소프트웨어 시스템을 구성합니다. &lt;br /&gt;
+객체 간의 상호작용을 정의하기 위해 &lt;a href=&quot;https://chanp5660.github.io/TIL-UML다이어그램&quot;&gt;&lt;strong&gt;UML(Unified Modeling Language)&lt;/strong&gt;&lt;/a&gt;을 사용하며, UML은 객체지향적 방법론에서 사용되는 다이어그램의 표준 언어입니다.&lt;br /&gt;
+UML에서는 시스템의 구성요소를 객체(Object), 클래스(Class), 상속(Inheritance), 메서드(Method), 관계(Relationship) 등의 요소로 정의하고, 이를 이용하여 시스템 구조를 설계합니다.&lt;/p&gt;
+
+&lt;p&gt;객체지향적 방법론은 자료지향적 방법론과 구조지향적 방법론의 한계를 극복하기 위해 개발된 방법론으로, 소프트웨어 개발과 유지보수의 효율성과 생산성을 높이는 데 큰 역할을 합니다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">구조적 방법론(Structured Methodology)</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">TIL-MOM(Message Oriented Middleware)</title>
+      <link href="http://localhost:4000/MOM(Message_Oriented_Middleware)" rel="alternate" type="text/html" title="TIL-MOM(Message Oriented Middleware)" />
+      <published>2023-04-18T00:00:00+09:00</published>
+      <updated>2023-04-18T00:00:00+09:00</updated>
+      <id>http://localhost:4000/MOM(Message_Oriented_Middleware)</id>
+      <content type="html" xml:base="http://localhost:4000/MOM(Message_Oriented_Middleware)">&lt;h1 id=&quot;mom-message-oriented-middleware&quot;&gt;MOM (Message Oriented Middleware)&lt;/h1&gt;
+
+&lt;p&gt;미들웨어의 한 종류로, 애플리케이션 간의 비동기식 메시지 전달을 지원하는 기술입니다. &lt;br /&gt;
+&lt;strong&gt;애플리케이션 간&lt;/strong&gt;의 &lt;strong&gt;데이터 전송&lt;/strong&gt;을 &lt;strong&gt;중개&lt;/strong&gt;하는데 중점을 둡니다.
+또한, 대용량 처리와 지연 시간(Latency) 감소를 위해 비동기적인 메시지 처리 방식을 채택합니다.&lt;/p&gt;
+
+&lt;p&gt;예를 들어, 온라인 주문 시스템에서 주문 정보를 입력하는 웹 애플리케이션과 결제를 처리하는 결제 시스템 간의 통신에서 MOM을 사용할 수 있습니다.&lt;br /&gt;
+주문 정보를 메시지로 전송하면, 결제 시스템은 메시지를 받아 해당 주문에 대한 결제를 처리하고, 처리 결과를 다시 메시지로 응답합니다.&lt;br /&gt;
+이러한 방식으로 애플리케이션 간의 통신을 구현하면, 각각의 애플리케이션이 독립적으로 동작할 수 있기 때문에 시스템 전체의 안정성과 확장성이 높아집니다.&lt;/p&gt;
+
+&lt;p&gt;발신자 애플리케이션이 메시지를 보내면 이를 대신 수신자 애플리케이션이 받아 처리하는 방식으로 작동합니다. &lt;br /&gt;
+이를 위해 MOM은 &lt;strong&gt;메시지 브로커(Message Broker)&lt;/strong&gt;라는 &lt;strong&gt;중간 매개체&lt;/strong&gt;를 사용합니다. &lt;br /&gt;
+&lt;strong&gt;발신자 애플리케이션&lt;/strong&gt;은 메시지 브로커에게 메시지를 보내며, &lt;strong&gt;수신자 애플리케이션&lt;/strong&gt;은 메시지 브로커로부터 메시지를 받습니다.&lt;/p&gt;
+
+&lt;p&gt;이러한 메시지 전달 방식은 &lt;strong&gt;느슨한 결합(loose coupling)&lt;/strong&gt;을 제공합니다. &lt;br /&gt;
+즉, 발신자와 수신자 간에 직접적인 연결이 필요하지 않으며, 애플리케이션을 분리함으로써 애플리케이션 간의 의존성을 낮추어 유연성과 확장성을 높입니다. &lt;br /&gt;
+또한, &lt;strong&gt;메시지 큐(Message Queue)&lt;/strong&gt;라는 기능을 통해 메시지를 안전하게 저장하고 처리할 수 있어, 안정성과 신뢰성을 보장할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;다양한 프로토콜과 API를 지원하며, 다양한 애플리케이션과 시스템 간의 통신을 가능하게 합니다.&lt;/p&gt;
+
+&lt;p&gt;메시지 큐는 메시지를 저장하는 일종의 버퍼로, 메시지를 순차적으로 처리할 수 있도록 보관합니다.&lt;br /&gt;
+이를 통해 대량의 메시지를 처리할 때에도 일관성 있고 안정적인 처리가 가능하며, 수신자 애플리케이션이 처리 능려이 부족한 경우에도 메시지를 안전하게 보관할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;분산 시스템&lt;/strong&gt;에서 주로 사용되며, 대규모 시스템에서 데이터를 효율적으로 전송하고 처리하기 위해 필요한 기술입니다. &lt;br /&gt;
+다양한 프로그래밍 언어와 플랫폼에서 사용할 수 있으며, 대표적인 MOM 제품으로는 Apache ActiveMQ, RabbitMQ, IBM MQ 등이 있습니다.&lt;/p&gt;
+
+&lt;p&gt;그림으로 이해하기 위해서는 &lt;a href=&quot;https://velog.io/@rlaghwns1995/MOM-Message-Oriented-Middleware-%EB%9E%80&quot;&gt;네이버 블로그 참조&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">MOM (Message Oriented Middleware)</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">정보처리기사 기출문제 20220424</title>
@@ -91,8 +681,9 @@
   &lt;li&gt;상이한 애플리케이션 간 통신을 비동기 방식으로 지원한다.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;strong&gt;문제 해설&lt;/strong&gt;
-MOM (Message Oriented Middleware)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;문제 해설&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;MOM (Message Oriented Middleware)&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;메시지 기반의 비동기형 메시지를 전달하는 방식의 미들웨어이다.&lt;/li&gt;
   &lt;li&gt;온라인 업무보다는 이기종 분산 데이터 시스템의 데이터 동기를 위해 많이 사용한다.
@@ -103,6 +694,7 @@ MOM (Message Oriented Middleware)&lt;/p&gt;
 [해설작성자 : 세유니에용]&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;내 공부&lt;/strong&gt;&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;미들웨어란?
     &lt;ul&gt;
@@ -170,8 +762,9 @@ MOM (Message Oriented Middleware)&lt;/p&gt;
   &lt;li&gt;‘금융 시스템은 조회, 인출, 입금, 송금의 기능이 있어야 한다’는 비기능적 요구이다.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;strong&gt;문제 해설&lt;/strong&gt;
-기능적 요구사항 vs 비기능적 요구사항&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;문제 해설&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;기능적 요구사항 vs 비기능적 요구사항&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;기능적 요구사항 : 시스템이 실제로 어떻게 동작하는지에 관점을 둔 요구사항&lt;/li&gt;
   &lt;li&gt;비기능적 요구사항 : 시스템 구축에 대한 성능, 보안, 품질, 안정 등에 대한 성능, 보안, 품질, 안정성 등으로 실제 수행에 보조적인 요구사항&lt;/li&gt;
@@ -183,8 +776,9 @@ MOM (Message Oriented Middleware)&lt;/p&gt;
 [해설작성자 : 두목넷]&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;내 공부&lt;/strong&gt;
-기능적 요구사항(Functional Requirements)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;내 공부&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;기능적 요구사항(Functional Requirements)&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;시스템이 수행해야 하는 작업 또는 기능에 대한 명세입니다.&lt;/li&gt;
   &lt;li&gt;주로 시스템의 사용자가 원하는 기능과 관련됩니다.&lt;/li&gt;
@@ -207,12 +801,14 @@ MOM (Message Oriented Middleware)&lt;/p&gt;
   &lt;li&gt;&lt;strong&gt;&lt;em&gt;Entity-Relationship Diagram&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;strong&gt;문제 해설&lt;/strong&gt;
-1,2,3 UML다이어그램 4 정보공학방법론&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;문제 해설&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;1,2,3 UML다이어그램 4 정보공학방법론&lt;br /&gt;
 [해설작성자 : 공부]&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;내 공부&lt;/strong&gt;
-패키지, 상태 전이, 배치 다이어그램 : UML 다이어그램&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;내 공부&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;패키지, 상태 전이, 배치 다이어그램 : UML 다이어그램&lt;br /&gt;
 &lt;a href=&quot;https://chanp5660.github.io/TIL-정보공학방법론&quot;&gt;&lt;strong&gt;정보공학방법론&lt;/strong&gt;&lt;/a&gt; 이란?&lt;br /&gt;
 &lt;a href=&quot;https://chanp5660.github.io/TIL-Entity_Relationship_Diagram&quot;&gt;&lt;strong&gt;Entity-Relationship Diagram&lt;/strong&gt;&lt;/a&gt; 이란?&lt;/p&gt;
 
@@ -317,7 +913,15 @@ MOM (Message Oriented Middleware)&lt;/p&gt;
   &lt;li&gt;오버로딩이란?&lt;/li&gt;
   &lt;li&gt;오버라이딩이란?&lt;/li&gt;
   &lt;li&gt;오버로딩과 오버라이딩의 차이는?&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+
+&lt;p&gt;다형성(Polymorphism)은 객체지향 프로그래밍에서 중요한 개념 중 하나로, 하나의 인터페이스나 추상 클래스를 상속한 여러 클래스가 각자의 방식으로 그 인터페이스나 추상 클래스의 메서드를 구현하고 사용할 수 있는 능력을 말합니다.&lt;/p&gt;
+
+&lt;p&gt;간단히 말해, 다형성은 같은 타입 또는 인터페이스를 구현한 객체가 다른 방식으로 동작할 수 있다는 것을 의미합니다. 이를 통해 다른 객체를 동일한 방식으로 다룰 수 있어 유지보수와 확장성이 좋아지며, 코드의 재사용성이 높아집니다.&lt;/p&gt;
+
+&lt;p&gt;예를 들어, 자동차 인터페이스를 구현한 여러 자동차 객체가 있다고 가정해봅시다. 이들 자동차 객체는 각자의 방식으로 구현될 수 있으며, 각각의 객체를 특정 메서드를 사용하여 제어할 수 있습니다. 이때, 자동차 인터페이스를 구현한 객체들은 같은 메서드를 사용하여 제어할 수 있지만, 각각의 객체는 내부적으로 다른 동작을 수행합니다. 이렇게 자동차 인터페이스를 구현한 객체들이 각자의 방식으로 동작할 수 있는 것이 다형성의 예입니다.&lt;/p&gt;
+
+&lt;p&gt;다형성은 오버라이딩(Overriding)과 오버로딩(Overloading)의 두 가지 형태로 나눌 수 있습니다. 오버라이딩은 부모 클래스에 정의된 메서드를 자식 클래스에서 재정의하여 사용하는 것을 말하며, 오버로딩은 같은 이름의 메서드를 여러 개 정의하고, 인자의 개수나 타입에 따라 다른 동작을 수행하도록 하는 것을 말합니다.&lt;/p&gt;</content>
 
       
       
@@ -341,6 +945,262 @@ MOM (Message Oriented Middleware)&lt;/p&gt;
 
       
         <summary type="html">정보처리기사 기출문제 부시기 20220424</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">TIL-UML다이어그램</title>
+      <link href="http://localhost:4000/UML%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8" rel="alternate" type="text/html" title="TIL-UML다이어그램" />
+      <published>2023-04-17T00:00:00+09:00</published>
+      <updated>2023-04-17T00:00:00+09:00</updated>
+      <id>http://localhost:4000/UML%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8</id>
+      <content type="html" xml:base="http://localhost:4000/UML%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8">&lt;h1 id=&quot;uml-다이어그램&quot;&gt;UML 다이어그램&lt;/h1&gt;
+
+&lt;p&gt;UML (Unified Modeling Language) 다이어그램은 &lt;strong&gt;객체 지향 소프트웨어 설계&lt;/strong&gt;에 사용되는 그래픽 표기법입니다.&lt;/p&gt;
+
+&lt;p&gt;UML은 &lt;strong&gt;객체, 클래스, 상속, 연관, 메서드, 속성&lt;/strong&gt; 등과 같은 &lt;strong&gt;객체 지향 개념&lt;/strong&gt;을 시각적으로 표현할 수 있는 방법을 제공합니다.&lt;br /&gt;
+UML 다이어그램은 이러한 개념들을 그래픽으로 표현하여 &lt;strong&gt;시스템의 구조, 동작 및 관계&lt;/strong&gt;를 &lt;strong&gt;이해&lt;/strong&gt;하기 쉽게 만들어 줍니다.&lt;/p&gt;
+
+&lt;p&gt;여러 종류가 있으며, 각각의 다이어그램은 특정한 측면을 다룹니다.&lt;br /&gt;
+예를 들어 &lt;strong&gt;클래스 다이어그램&lt;/strong&gt;은 클래스와 클래스 간의 관계를 표시하고, &lt;strong&gt;시퀀스 다이어그램&lt;/strong&gt;은 시간적인 순서에 따른 객체 간의 상호작용을 보여줍니다.&lt;/p&gt;
+
+&lt;p&gt;소프트웨어 개발에서 널리 사용되며, 다양한 도구와 언어에서 지원됩니다.&lt;br /&gt;
+UML 다이어그램을 사용하면 개발자와 설계자들이 공통의 언어로 소프트웨어를 설계하고 개발할 수 있으며, 이는 소프트웨어 개발 프로세스의 효율성을 높이고 소프트웨어의 품질을 향상시키는 데 도움이 됩니다.&lt;/p&gt;
+
+&lt;h1 id=&quot;유형&quot;&gt;유형&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;구조 다이어그램 (Strucutral Diagram)
+    &lt;ul&gt;
+      &lt;li&gt;시스템의 정적인 구조를 표현합니다.&lt;/li&gt;
+      &lt;li&gt;클래스 다이어그램, 객체 다이어그램, 컴포넌트 다이어그램, 패키지 다이어그램, 배치 다이어그램 등이 있습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;동작 다이어그램 (Behavioral Diagram)
+    &lt;ul&gt;
+      &lt;li&gt;시스템의 동적인 행위를 표현합니다.&lt;/li&gt;
+      &lt;li&gt;유스케이스 다이어그램, 시퀀스 다이어그램, 상태 다이어그램, 활동 다이어그램, 커뮤니케이션 다이어그램 등이 있습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;구조 다이어그램은 시스템을 구성하는 요소들의 관계와 구조를 보여주는 반면, 동작 다이어그램은 시스템이 동작하는 과정과 상호작용을 보여줍니다.&lt;/p&gt;
+
+&lt;p&gt;UML 다이어그램은 소프트웨어 설계뿐만 아니라, 다양한 분야에서도 활용됩니다. &lt;br /&gt;
+예를 들어, 시스템 엔지니어링에서 하드뤠어와 소프트웨어 간의 상호작용을 설명하는 데 사용되기도 합니다.&lt;br /&gt;
+또한, 비즈니스 분야에서 프로세스의 흐름을 보여주는 등의 용도로도 사용됩니다.&lt;/p&gt;
+
+&lt;p&gt;각 다이어그램의 그림에 대해서 궁금하시면 참조하기 좋은 블로그 &lt;a href=&quot;https://m.blog.naver.com/icbanq/221781238065&quot;&gt;&lt;strong&gt;링크&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;클래스-다이어그램-class-diagram&quot;&gt;클래스 다이어그램 (Class Diagram)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;클래스, 인터체페이스, 관계 등을 표현합니다.&lt;/li&gt;
+  &lt;li&gt;클래스의 속성, 메소드, 연관 관계(Association Relationship), 일반화, 집합 등을 나타냅니다.&lt;/li&gt;
+  &lt;li&gt;객체 지향 개념을 가장 잘 나타내는 다이어그램 중 하나입니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;객체-다이어그램-object-diagram&quot;&gt;객체 다이어그램 (Object Diagram)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;클래스 다이어그램에서 정의된 클래스의 인스턴스인 객체를 표현합니다.&lt;/li&gt;
+  &lt;li&gt;클래스와 객체 간의 관계, 속성, 연관 등을 표현합니다.&lt;/li&gt;
+  &lt;li&gt;객체 관계
+    &lt;ul&gt;
+      &lt;li&gt;연관 관계(Associaion Relationship)&lt;/li&gt;
+      &lt;li&gt;의존 관계(Dependency Relationship)&lt;/li&gt;
+      &lt;li&gt;실체화 관계(Realization Relationship)&lt;/li&gt;
+      &lt;li&gt;일반화 관계(Generalization Relationship)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;유스케이스-다이어그램use-case-diagram&quot;&gt;유스케이스 다이어그램(Use Case Diagram)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;시스템의 사용자 또는 액터와 시스템 간의 상호작용을 모델링합니다.&lt;/li&gt;
+  &lt;li&gt;액터, 유스케이스, 관계 등을 표현합니다.&lt;/li&gt;
+  &lt;li&gt;시스템의 기능을 기술하는 데 사용됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;액터(Actor) : 시스템의 외부에 있고 시스템과 상호작용을 하는 사람
+참고 블로그 &lt;a href=&quot;https://googry.tistory.com/2&quot;&gt;&lt;strong&gt;링크&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;시퀀스-다이어그램-sequence-diagram&quot;&gt;시퀀스 다이어그램 (Sequence Diagram)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;시스템의 객체 간 상호작용을 시간적으로 표현합니다.&lt;/li&gt;
+  &lt;li&gt;객체 간의 메시지 교환, 객체의 상태 변화, 예외 상황 등을 보여줍니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;상태-다이어그램-state-diagram&quot;&gt;상태 다이어그램 (State Diagram)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;객체의 동작과 상태 전이를 표현합니다.&lt;/li&gt;
+  &lt;li&gt;객체가 각각의 상태에서 어떤 동작을 수행하는지, 상태 전이의 조건 등을 보여줍니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;상세 참고 블로그 &lt;a href=&quot;https://ko-de-dev-green.tistory.com/96&quot;&gt;&lt;strong&gt;링크&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;활동-다이어그램activity-diagram&quot;&gt;활동 다이어그램(Activity Diagram)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;시스템 내의 비즈니스 프로세스, 알고리즘, 기능 흐름 등을 표현합니다.&lt;/li&gt;
+  &lt;li&gt;활동, 연결선, 의사결정 노드, 병합 노드 등을 사용하여 프로세스를 모델링합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;컴포넌트-다이어그램-component-diagram&quot;&gt;컴포넌트 다이어그램 (Component Diagram)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;시스템을 구성하는 컴포넌트, 인터페이스, 의존 관계 등을 표현합니다.&lt;/li&gt;
+  &lt;li&gt;컴포넌트 간의 의존 관계, 인터페이스 구현, 라이브러리 등을 나타냅니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;패키지-다이어그램-package-diagram&quot;&gt;패키지 다이어그램 (Package Diagram)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;패키지, 클래스, 인터페이스 등의 요소가 어떻게 그룹화되어 있는지를 표현합니다.&lt;/li&gt;
+  &lt;li&gt;패키지 간의 의존 관계, 패키지 내의 클래스 관계 등을 보여줍니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;커뮤니케이션-다이어그램-communication-diagram&quot;&gt;커뮤니케이션 다이어그램 (Communication Diagram)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;객체 간의 메시지 전달과 응답을 표현합니다.&lt;/li&gt;
+  &lt;li&gt;객체와 객체 간의 상호작용을 표현하여 객체 간의 관계를 이해하기 쉽게 합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;배치-다이어그램-deployment-diagram&quot;&gt;배치 다이어그램 (Deployment Diagram)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;시스템의 물리적인 배치를 나타냅니다.&lt;/li&gt;
+  &lt;li&gt;소프트웨어 컴포넌트, 하드웨어 노드, 네트워크 등을 표현합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;타이밍-다이어그램-timing-diagram&quot;&gt;타이밍 다이어그램 (Timing Diagram)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;객체 간의 시간적인 관계를 보여줍니다.&lt;/li&gt;
+  &lt;li&gt;시간 축에 따라 객체의 상태, 메시지 전달 등을 나타냅니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;상호작용-개요-다이어그램-interaction-overview-diagram&quot;&gt;상호작용 개요 다이어그램 (Interaction Overview Diagram)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;다른 다이어그램에서 표현된 상호작용을 개요 수준으로 표현합니다.&lt;/li&gt;
+  &lt;li&gt;다른 다이어그램에서 표현된 객체 간의 상호작용을 개요 수준으로 표현하여 전반적인 시스템 흐름을 이해하기 쉽게 합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;각각의 다이어그램은 시스템을 모델링하는 데 필요한 다양한 정보와 관계를 표현합니다.&lt;br /&gt;
+이를 조합하여 전체적인 시스템 구조와 동작을 모델링할 수 있습니다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">UML 다이어그램</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">TIL-Imbalanced_data</title>
+      <link href="http://localhost:4000/Imbalanced_data" rel="alternate" type="text/html" title="TIL-Imbalanced_data" />
+      <published>2023-04-15T00:00:00+09:00</published>
+      <updated>2023-04-15T00:00:00+09:00</updated>
+      <id>http://localhost:4000/Imbalanced_data</id>
+      <content type="html" xml:base="http://localhost:4000/Imbalanced_data">&lt;h1 id=&quot;imbalanced-data-다루는-방법&quot;&gt;Imbalanced data 다루는 방법&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;머신러닝을 다룰 때 학습 데이터에서 발생하는 Imbalanced data를 다루는 방법&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;발생-및-해결해야하는-이유&quot;&gt;발생 및 해결해야하는 이유&lt;/h2&gt;
+
+&lt;p&gt;학습 데이터에서 각 클래스 레이블의 분포가 불균형(Imbalanced)하게 분포되어 있을 때 발생합니다.&lt;br /&gt;
+불균형 데이터셋에서는 모델이 소수 클래스를 잘 예측하지 못하므로 데이터를 처리해서 잘 예측할 수 있도록 해야합니다.
+예를 들어, 어떤 이진 분류 문제에서 어떤 클래스는 다른 클래스보다 매우 적은 샘플을 가지고 있는 경우가 있습니다.&lt;br /&gt;
+상황을 예로 들면 암 진단 문제에서 양성 샘플이 매우 적은 경우, 모델은 거의 항상 음성 클래스를 예측하려고 할 수 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;해결-방법&quot;&gt;해결 방법&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;샘플링 기법
+    &lt;ul&gt;
+      &lt;li&gt;데이터 샘플링을 조절하는 방법으로 소수 클래스 샘플 수를 늘리거나 다수 클래스 샘플 수를 줄이는 것입니다. 방법은 언더샘플링, 오버샘플링이 존재합니다.&lt;/li&gt;
+      &lt;li&gt;언더샘플링은 다수 클래스의 샘플 수를 줄여 적은 데이터의 분포에 맞춥니다.&lt;/li&gt;
+      &lt;li&gt;오버샘플링은 소수 클래스의 샘플 수를 증가 시켜 다수 클래스의 샘플 분포에 맞춥니다.&lt;/li&gt;
+      &lt;li&gt;클래스 변경이라고 하기도 합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;가중치 부여
+    &lt;ul&gt;
+      &lt;li&gt;학습 알고리즘에서 소수 클래스를 더 중요하게 취급할 수 있도록 가중치를 부여할 수 있습니다.&lt;/li&gt;
+      &lt;li&gt;이를 통해 소수 클래스에 더 많은 비중을 두어 학습이 더 효과적으로 이루어질 수 있습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;앙상블 방법
+    &lt;ul&gt;
+      &lt;li&gt;여러 모델을 학습하여 그 결과를 결합함으로써, 소수 클래스의 샘플을 보다 정확하게 분류할 수 있습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;모델-관련-고려-사항&quot;&gt;모델 관련 고려 사항&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;평가 방법
+    &lt;ul&gt;
+      &lt;li&gt;정밀도, 재현율, F1 점수 등의 다른 지표를 사용해야 합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;데이터 전처리&lt;/li&gt;
+  &lt;li&gt;독립 변수 선택 및 추출&lt;/li&gt;
+  &lt;li&gt;하이퍼파라미터 튜닝&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;주의사항&quot;&gt;주의사항&lt;/h2&gt;
+
+&lt;p&gt;모든 기술의 적합한지에 대한 것은 데이터셋의 특성, 문제의 복자도, 모델의 종류 등 다양한 요인을 고려해야합니다.
+따라서, 적절한 기술을 선택하기 위해서는 데이터셋을 충분히 이해하고 해당 문제에 대한 이해도가 필요합니다.&lt;/p&gt;
+
+&lt;p&gt;예를 들어, 데이터셋이 매우 크다면 언더샘플링보다는 오버샘플링이 더 효과적일 수 있습니다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">Imbalanced data 다루는 방법</summary>
       
 
       
