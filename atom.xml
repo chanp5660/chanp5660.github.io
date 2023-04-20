@@ -10,8 +10,7 @@
       <item>
         <title>다형성</title>
         
-          <description>&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;ddd&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+          <description>&lt;h1 id=&quot;다형성-polymorphism&quot;&gt;다형성 (Polymorphism)&lt;/h1&gt;
 
 </description>
         
@@ -19,21 +18,6 @@
         <link>
         http://localhost:4000/%EB%8B%A4%ED%98%95%EC%84%B1</link>
         <guid isPermaLink="true">http://localhost:4000/%EB%8B%A4%ED%98%95%EC%84%B1</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>Entity_relationship_diagram</title>
-        
-          <description>&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;dwqdqwd&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-</description>
-        
-        <pubDate>Fri, 21 Apr 2023 00:00:00 +0900</pubDate>
-        <link>
-        http://localhost:4000/Entity_Relationship_Diagram</link>
-        <guid isPermaLink="true">http://localhost:4000/Entity_Relationship_Diagram</guid>
       </item>
       
     
@@ -54,7 +38,7 @@
     
       
       <item>
-        <title>TIL-정보공학방법론</title>
+        <title>정보공학방법론</title>
         
           <description>&lt;h1 id=&quot;정보공학방법론&quot;&gt;정보공학방법론&lt;/h1&gt;
 
@@ -69,7 +53,7 @@
     
       
       <item>
-        <title>TIL-유스케이스</title>
+        <title>유스케이스</title>
         
           <description>&lt;h1 id=&quot;유스케이스-uses-case&quot;&gt;유스케이스 (Uses Case)&lt;/h1&gt;
 
@@ -84,7 +68,7 @@
     
       
       <item>
-        <title>TIL-애자일방법론</title>
+        <title>애자일방법론</title>
         
           <description>&lt;h1 id=&quot;애자일-방법론agile-methodology&quot;&gt;애자일 방법론(Agile Methodology)&lt;/h1&gt;
 
@@ -99,7 +83,22 @@
     
       
       <item>
-        <title>TIL-동기_비동기</title>
+        <title>ERD</title>
+        
+          <description>&lt;h1 id=&quot;entity-relationship-diagram-erd-개체-관계-다이어그램&quot;&gt;Entity-Relationship Diagram ERD 개체 관계 다이어그램&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Wed, 19 Apr 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/Entity_Relationship_Diagram</link>
+        <guid isPermaLink="true">http://localhost:4000/Entity_Relationship_Diagram</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>동기_비동기</title>
         
           <description>&lt;h1 id=&quot;동기와-비동기의-차이&quot;&gt;동기와 비동기의 차이&lt;/h1&gt;
 
@@ -114,7 +113,7 @@
     
       
       <item>
-        <title>TIL-구조적방법론</title>
+        <title>구조적방법론</title>
         
           <description>&lt;h1 id=&quot;구조적-방법론structured-methodology&quot;&gt;구조적 방법론(Structured Methodology)&lt;/h1&gt;
 
@@ -129,7 +128,7 @@
     
       
       <item>
-        <title>TIL-MOM(Message Oriented Middleware)</title>
+        <title>MOM(Message Oriented Middleware)</title>
         
           <description>&lt;h1 id=&quot;mom-message-oriented-middleware&quot;&gt;MOM (Message Oriented Middleware)&lt;/h1&gt;
 
@@ -139,21 +138,6 @@
         <link>
         http://localhost:4000/MOM(Message_Oriented_Middleware)</link>
         <guid isPermaLink="true">http://localhost:4000/MOM(Message_Oriented_Middleware)</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>TIL-UML다이어그램</title>
-        
-          <description>&lt;h1 id=&quot;uml-다이어그램&quot;&gt;UML 다이어그램&lt;/h1&gt;
-
-</description>
-        
-        <pubDate>Mon, 17 Apr 2023 00:00:00 +0900</pubDate>
-        <link>
-        http://localhost:4000/UML%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8</link>
-        <guid isPermaLink="true">http://localhost:4000/UML%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8</guid>
       </item>
       
     
@@ -174,6 +158,21 @@
     
       
       <item>
+        <title>UML다이어그램</title>
+        
+          <description>&lt;h1 id=&quot;uml-다이어그램&quot;&gt;UML 다이어그램&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Mon, 17 Apr 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/UML%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8</link>
+        <guid isPermaLink="true">http://localhost:4000/UML%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>기수정렬</title>
         
           <description>&lt;h1 id=&quot;기수정렬radix-sort&quot;&gt;기수정렬(Radix Sort)&lt;/h1&gt;
@@ -189,7 +188,7 @@
     
       
       <item>
-        <title>TIL-Imbalanced_data</title>
+        <title>Imbalanced_data</title>
         
           <description>&lt;h1 id=&quot;imbalanced-data-다루는-방법&quot;&gt;Imbalanced data 다루는 방법&lt;/h1&gt;
 
@@ -234,7 +233,7 @@
     
       
       <item>
-        <title>TIL-Jira</title>
+        <title>Jira</title>
         
           <description>&lt;h1 id=&quot;jira&quot;&gt;Jira&lt;/h1&gt;
 
@@ -279,7 +278,7 @@
     
       
       <item>
-        <title>TIL-한국해양브레인스토밍</title>
+        <title>한국해양브레인스토밍</title>
         
           <description>&lt;h1 id=&quot;한국-해양-브레인스토밍&quot;&gt;한국 해양 브레인스토밍&lt;/h1&gt;
 
@@ -294,7 +293,7 @@
     
       
       <item>
-        <title>TIL-한국기상브레인스토밍</title>
+        <title>한국기상브레인스토밍</title>
         
           <description>&lt;h1 id=&quot;한국-기상-브레인스토밍&quot;&gt;한국 기상 브레인스토밍&lt;/h1&gt;
 
@@ -309,7 +308,7 @@
     
       
       <item>
-        <title>TIL-t-SNE</title>
+        <title>t-SNE</title>
         
           <description>&lt;h1 id=&quot;t-sne&quot;&gt;t-SNE&lt;/h1&gt;
 
@@ -339,7 +338,7 @@
     
       
       <item>
-        <title>TIL-청년주거정책</title>
+        <title>청년주거정책</title>
         
           <description>&lt;h1 id=&quot;청년주거정책&quot;&gt;청년주거정책&lt;/h1&gt;
 
@@ -369,7 +368,7 @@
     
       
       <item>
-        <title>TIL-PyMySQL</title>
+        <title>PyMySQL</title>
         
           <description>&lt;h1 id=&quot;pymysql&quot;&gt;PyMySQL&lt;/h1&gt;
 
@@ -399,7 +398,7 @@
     
       
       <item>
-        <title>TIL-TF-IDF</title>
+        <title>TF-IDF</title>
         
           <description>&lt;h1 id=&quot;tf-idf-용어-빈도---역-문서-빈도&quot;&gt;TF-IDF (용어 빈도 - 역 문서 빈도)&lt;/h1&gt;
 
@@ -414,7 +413,7 @@
     
       
       <item>
-        <title>TIL-Stop Words</title>
+        <title>Stop Words</title>
         
           <description>&lt;h1 id=&quot;stop-words-불용어&quot;&gt;Stop Words 불용어&lt;/h1&gt;
 
@@ -489,22 +488,7 @@
     
       
       <item>
-        <title>TIL-KMeanscluster</title>
-        
-          <description>&lt;h1 id=&quot;k-means-군집화&quot;&gt;K-Means 군집화&lt;/h1&gt;
-
-</description>
-        
-        <pubDate>Sun, 12 Mar 2023 00:00:00 +0900</pubDate>
-        <link>
-        http://localhost:4000/KMeans%EA%B5%B0%EC%A7%91%ED%99%94</link>
-        <guid isPermaLink="true">http://localhost:4000/KMeans%EA%B5%B0%EC%A7%91%ED%99%94</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>TIL-코스피코스닥</title>
+        <title>코스피코스닥</title>
         
           <description>&lt;h1 id=&quot;코스피-코스닥&quot;&gt;코스피 코스닥&lt;/h1&gt;
 
@@ -519,7 +503,22 @@
     
       
       <item>
-        <title>TIL-메타인지</title>
+        <title>KMeanscluster</title>
+        
+          <description>&lt;h1 id=&quot;k-means-군집화&quot;&gt;K-Means 군집화&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Sun, 12 Mar 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/KMeans%EA%B5%B0%EC%A7%91%ED%99%94</link>
+        <guid isPermaLink="true">http://localhost:4000/KMeans%EA%B5%B0%EC%A7%91%ED%99%94</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>메타인지</title>
         
           <description>&lt;h1 id=&quot;메타인지란&quot;&gt;메타인지란?&lt;/h1&gt;
 
@@ -534,7 +533,7 @@
     
       
       <item>
-        <title>TIL-whiten</title>
+        <title>whiten</title>
         
           <description>&lt;h1 id=&quot;클러스터링에서-whiten-&quot;&gt;클러스터링에서 Whiten ?&lt;/h1&gt;
 
@@ -549,7 +548,7 @@
     
       
       <item>
-        <title>TIL-SVD</title>
+        <title>SVD</title>
         
           <description>&lt;h1 id=&quot;svd란&quot;&gt;SVD란?&lt;/h1&gt;
 
@@ -564,7 +563,7 @@
     
       
       <item>
-        <title>TIL-Attention</title>
+        <title>Attention</title>
         
           <description>&lt;h1 id=&quot;attention이란&quot;&gt;Attention이란?&lt;/h1&gt;
 
@@ -579,7 +578,7 @@
     
       
       <item>
-        <title>TIL-Kaggle</title>
+        <title>Kaggle</title>
         
           <description>&lt;h1 id=&quot;kaggle&quot;&gt;Kaggle&lt;/h1&gt;
 
@@ -594,7 +593,7 @@
     
       
       <item>
-        <title>TIL-HTML입력</title>
+        <title>HTML입력</title>
         
           <description>&lt;h1 id=&quot;html-입력&quot;&gt;HTML 입력&lt;/h1&gt;
 
@@ -609,7 +608,7 @@
     
       
       <item>
-        <title>TIL-GradientDescent</title>
+        <title>GradientDescent</title>
         
           <description>&lt;h1 id=&quot;gradient-descent란&quot;&gt;Gradient Descent란?&lt;/h1&gt;
 
@@ -624,7 +623,25 @@
     
       
       <item>
-        <title>TIL-Python Warning무시</title>
+        <title>파일경로찾기</title>
+        
+          <description>&lt;h1 id=&quot;python을-이용하여-파일-경로-찾기&quot;&gt;python을 이용하여 파일 경로 찾기&lt;/h1&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;파일들을 여러개를 반복적으로 해야될 일이면 매우 귀찮습니다. 따라서 파일이 생길 때마다 반복해줘야하는 동작들을 자동화 해주는 프로그램을 작성하겠습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+        
+        <pubDate>Tue, 07 Mar 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/%ED%8C%8C%EC%9D%BC%EA%B2%BD%EB%A1%9C%EC%B0%BE%EA%B8%B0</link>
+        <guid isPermaLink="true">http://localhost:4000/%ED%8C%8C%EC%9D%BC%EA%B2%BD%EB%A1%9C%EC%B0%BE%EA%B8%B0</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Python Warning무시</title>
         
           <description>&lt;h1 id=&quot;python-warning-무시하는-방법&quot;&gt;Python Warning 무시하는 방법&lt;/h1&gt;
 
@@ -639,7 +656,7 @@
     
       
       <item>
-        <title>TIL-HTML DataFrame 출력 조절</title>
+        <title>HTML DataFrame 출력 조절</title>
         
           <description>&lt;h1 id=&quot;html-dataframe-출력-조절하기&quot;&gt;HTML DataFrame 출력 조절하기&lt;/h1&gt;
 
@@ -649,24 +666,6 @@
         <link>
         http://localhost:4000/HTML_DataFrame%EC%B6%9C%EB%A0%A5</link>
         <guid isPermaLink="true">http://localhost:4000/HTML_DataFrame%EC%B6%9C%EB%A0%A5</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>TIL-파일경로찾기</title>
-        
-          <description>&lt;h1 id=&quot;python을-이용하여-파일-경로-찾기&quot;&gt;python을 이용하여 파일 경로 찾기&lt;/h1&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;파일들을 여러개를 반복적으로 해야될 일이면 매우 귀찮습니다. 따라서 파일이 생길 때마다 반복해줘야하는 동작들을 자동화 해주는 프로그램을 작성하겠습니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-</description>
-        
-        <pubDate>Tue, 07 Mar 2023 00:00:00 +0900</pubDate>
-        <link>
-        http://localhost:4000/%ED%8C%8C%EC%9D%BC%EA%B2%BD%EB%A1%9C%EC%B0%BE%EA%B8%B0</link>
-        <guid isPermaLink="true">http://localhost:4000/%ED%8C%8C%EC%9D%BC%EA%B2%BD%EB%A1%9C%EC%B0%BE%EA%B8%B0</guid>
       </item>
       
     
@@ -687,7 +686,7 @@
     
       
       <item>
-        <title>TIL-HTML 페이지 내 이동</title>
+        <title>HTML 페이지 내 이동</title>
         
           <description>&lt;p&gt;&lt;a name=&quot;want&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&quot;html-페이지-내-이동&quot;&gt;HTML 페이지 내 이동&lt;/h1&gt;
@@ -703,7 +702,7 @@
     
       
       <item>
-        <title>TIL-HTML 토글 설정</title>
+        <title>HTML 토글 설정</title>
         
           <description>&lt;h1 id=&quot;html-토글-설정-jekyll&quot;&gt;HTML 토글 설정 (jekyll)&lt;/h1&gt;
 
@@ -718,52 +717,7 @@
     
       
       <item>
-        <title>TIL-공공데이터</title>
-        
-          <description>&lt;h1 id=&quot;공공데이터-모음&quot;&gt;공공데이터 모음&lt;/h1&gt;
-
-</description>
-        
-        <pubDate>Sun, 05 Mar 2023 00:00:00 +0900</pubDate>
-        <link>
-        http://localhost:4000/%EA%B3%B5%EA%B3%B5%EB%8D%B0%EC%9D%B4%ED%84%B0</link>
-        <guid isPermaLink="true">http://localhost:4000/%EA%B3%B5%EA%B3%B5%EB%8D%B0%EC%9D%B4%ED%84%B0</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>TIL-Slack</title>
-        
-          <description>&lt;h1 id=&quot;slack&quot;&gt;Slack&lt;/h1&gt;
-
-</description>
-        
-        <pubDate>Sun, 05 Mar 2023 00:00:00 +0900</pubDate>
-        <link>
-        http://localhost:4000/Slack</link>
-        <guid isPermaLink="true">http://localhost:4000/Slack</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>TIL-Notion</title>
-        
-          <description>&lt;h1 id=&quot;notion&quot;&gt;Notion&lt;/h1&gt;
-
-</description>
-        
-        <pubDate>Sun, 05 Mar 2023 00:00:00 +0900</pubDate>
-        <link>
-        http://localhost:4000/Notion</link>
-        <guid isPermaLink="true">http://localhost:4000/Notion</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>TIL-토이프로젝트</title>
+        <title>토이프로젝트</title>
         
           <description>&lt;h1 id=&quot;토이프로젝트&quot;&gt;토이프로젝트&lt;/h1&gt;
 
@@ -778,7 +732,7 @@
     
       
       <item>
-        <title>TIL-추천시스템필터링</title>
+        <title>추천시스템필터링</title>
         
           <description>&lt;h1 id=&quot;추천시스템-필터링&quot;&gt;추천시스템 필터링&lt;/h1&gt;
 
@@ -788,6 +742,51 @@
         <link>
         http://localhost:4000/%EC%B6%94%EC%B2%9C%EC%8B%9C%EC%8A%A4%ED%85%9C%ED%95%84%ED%84%B0%EB%A7%81</link>
         <guid isPermaLink="true">http://localhost:4000/%EC%B6%94%EC%B2%9C%EC%8B%9C%EC%8A%A4%ED%85%9C%ED%95%84%ED%84%B0%EB%A7%81</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>공공데이터</title>
+        
+          <description>&lt;h1 id=&quot;공공데이터-모음&quot;&gt;공공데이터 모음&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Sun, 05 Mar 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/%EA%B3%B5%EA%B3%B5%EB%8D%B0%EC%9D%B4%ED%84%B0</link>
+        <guid isPermaLink="true">http://localhost:4000/%EA%B3%B5%EA%B3%B5%EB%8D%B0%EC%9D%B4%ED%84%B0</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Slack</title>
+        
+          <description>&lt;h1 id=&quot;slack&quot;&gt;Slack&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Sun, 05 Mar 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/Slack</link>
+        <guid isPermaLink="true">http://localhost:4000/Slack</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Notion</title>
+        
+          <description>&lt;h1 id=&quot;notion&quot;&gt;Notion&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Sun, 05 Mar 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/Notion</link>
+        <guid isPermaLink="true">http://localhost:4000/Notion</guid>
       </item>
       
     
@@ -816,7 +815,7 @@
     
       
       <item>
-        <title>TIL-ChatGPT</title>
+        <title>ChatGPT</title>
         
           <description>&lt;h1 id=&quot;chatgpt&quot;&gt;ChatGPT&lt;/h1&gt;
 
@@ -1554,7 +1553,7 @@
     
       
       <item>
-        <title>TIL-머신러닝 엔지니어 자격요건</title>
+        <title>머신러닝 엔지니어 자격요건</title>
         
           <description>&lt;h1 id=&quot;머신러닝-엔지니어-자격요건&quot;&gt;머신러닝 엔지니어 자격요건&lt;/h1&gt;
 
@@ -1659,7 +1658,7 @@
     
       
       <item>
-        <title>TIL-RIDI</title>
+        <title>RIDI</title>
         
           <description>&lt;h1 id=&quot;ridi&quot;&gt;RIDI&lt;/h1&gt;
 
