@@ -8,6 +8,66 @@
     
       
       <item>
+        <title>자기 개발 기록 (2023년4월)</title>
+        
+          <description>&lt;h1 id=&quot;자기-개발-기록-2023년4월&quot;&gt;자기 개발 기록 (2023년4월)&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Sat, 22 Apr 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/2023%EB%85%844%EC%9B%94</link>
+        <guid isPermaLink="true">http://localhost:4000/2023%EB%85%844%EC%9B%94</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>자기 개발 기록 (2023년3월)</title>
+        
+          <description>&lt;h1 id=&quot;자기-개발-기록-2023년3월&quot;&gt;자기 개발 기록 (2023년3월)&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Sat, 22 Apr 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/2023%EB%85%843%EC%9B%94</link>
+        <guid isPermaLink="true">http://localhost:4000/2023%EB%85%843%EC%9B%94</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>자기 개발 기록 (2023년2월)</title>
+        
+          <description>&lt;h1 id=&quot;자기-개발-기록-2023년-2월&quot;&gt;자기 개발 기록 (2023년 2월)&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Sat, 22 Apr 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/2023%EB%85%842%EC%9B%94</link>
+        <guid isPermaLink="true">http://localhost:4000/2023%EB%85%842%EC%9B%94</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>자기 개발 기록 (2023년)</title>
+        
+          <description>&lt;h1 id=&quot;자기-개발-기록-2023년&quot;&gt;자기 개발 기록 (2023년)&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Sat, 22 Apr 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/2023%EB%85%84</link>
+        <guid isPermaLink="true">http://localhost:4000/2023%EB%85%84</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>다형성</title>
         
           <description>&lt;h1 id=&quot;다형성-polymorphism&quot;&gt;다형성 (Polymorphism)&lt;/h1&gt;
@@ -23,7 +83,7 @@
     
       
       <item>
-        <title>데이터준분석가 데이터의 이해</title>
+        <title>데이터준분석가(데이터의이해)</title>
         
           <description>&lt;h1 id=&quot;데이터준분석가-adsp-데이터의-이해&quot;&gt;데이터준분석가 ADsP 데이터의 이해&lt;/h1&gt;
 
@@ -248,7 +308,7 @@
     
       
       <item>
-        <title>신용카드 사기 탐지</title>
+        <title>신용카드 사기 탐지(Kaggle)</title>
         
           <description>&lt;h1 id=&quot;신용카드-사기-탐지-credit-card-fraud-detection&quot;&gt;신용카드 사기 탐지 (Credit Card Fraud Detection)&lt;/h1&gt;
 
@@ -623,19 +683,16 @@
     
       
       <item>
-        <title>파일경로찾기</title>
+        <title>파이썬에서 파일경로찾기</title>
         
           <description>&lt;h1 id=&quot;python을-이용하여-파일-경로-찾기&quot;&gt;python을 이용하여 파일 경로 찾기&lt;/h1&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;파일들을 여러개를 반복적으로 해야될 일이면 매우 귀찮습니다. 따라서 파일이 생길 때마다 반복해줘야하는 동작들을 자동화 해주는 프로그램을 작성하겠습니다.&lt;/p&gt;
-&lt;/blockquote&gt;
 
 </description>
         
         <pubDate>Tue, 07 Mar 2023 00:00:00 +0900</pubDate>
         <link>
-        http://localhost:4000/%ED%8C%8C%EC%9D%BC%EA%B2%BD%EB%A1%9C%EC%B0%BE%EA%B8%B0</link>
-        <guid isPermaLink="true">http://localhost:4000/%ED%8C%8C%EC%9D%BC%EA%B2%BD%EB%A1%9C%EC%B0%BE%EA%B8%B0</guid>
+        http://localhost:4000/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%97%90%EC%84%9C-%ED%8C%8C%EC%9D%BC%EA%B2%BD%EB%A1%9C%EC%B0%BE%EA%B8%B0</link>
+        <guid isPermaLink="true">http://localhost:4000/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%97%90%EC%84%9C-%ED%8C%8C%EC%9D%BC%EA%B2%BD%EB%A1%9C%EC%B0%BE%EA%B8%B0</guid>
       </item>
       
     
@@ -717,21 +774,6 @@
     
       
       <item>
-        <title>토이프로젝트</title>
-        
-          <description>&lt;h1 id=&quot;토이프로젝트&quot;&gt;토이프로젝트&lt;/h1&gt;
-
-</description>
-        
-        <pubDate>Sun, 05 Mar 2023 00:00:00 +0900</pubDate>
-        <link>
-        http://localhost:4000/%ED%86%A0%EC%9D%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8</link>
-        <guid isPermaLink="true">http://localhost:4000/%ED%86%A0%EC%9D%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8</guid>
-      </item>
-      
-    
-      
-      <item>
         <title>추천시스템필터링</title>
         
           <description>&lt;h1 id=&quot;추천시스템-필터링&quot;&gt;추천시스템 필터링&lt;/h1&gt;
@@ -742,6 +784,21 @@
         <link>
         http://localhost:4000/%EC%B6%94%EC%B2%9C%EC%8B%9C%EC%8A%A4%ED%85%9C%ED%95%84%ED%84%B0%EB%A7%81</link>
         <guid isPermaLink="true">http://localhost:4000/%EC%B6%94%EC%B2%9C%EC%8B%9C%EC%8A%A4%ED%85%9C%ED%95%84%ED%84%B0%EB%A7%81</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>토이프로젝트</title>
+        
+          <description>&lt;h1 id=&quot;토이프로젝트&quot;&gt;토이프로젝트&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Sun, 05 Mar 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/%ED%86%A0%EC%9D%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8</link>
+        <guid isPermaLink="true">http://localhost:4000/%ED%86%A0%EC%9D%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8</guid>
       </item>
       
     
@@ -792,24 +849,16 @@
     
       
       <item>
-        <title>ChatGPT</title>
+        <title>ChatGPT(python)</title>
         
           <description>&lt;h1 id=&quot;chatgpt-with-python&quot;&gt;ChatGPT with Python&lt;/h1&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;python에서 chatGPT 이용하기&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;기본 라이브러리 설치는 &lt;a href=&quot;https://github.com/openai/openai-python&quot;&gt;github ChatGPT 링크&lt;/a&gt;에서 설치&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;https://platform.openai.com/account/api-keys&quot;&gt;개인 api_key 링크&lt;/a&gt; 는 해당 링크에서 얻으면 됨&lt;/li&gt;
-    &lt;li&gt;model_engine은 여러가지 모델이 있으므로 목적에 따라 원하는 모델로 선택&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
 
 </description>
         
         <pubDate>Sat, 04 Mar 2023 00:00:00 +0900</pubDate>
         <link>
-        http://localhost:4000/ChatGPT</link>
-        <guid isPermaLink="true">http://localhost:4000/ChatGPT</guid>
+        http://localhost:4000/ChatGPT(python)</link>
+        <guid isPermaLink="true">http://localhost:4000/ChatGPT(python)</guid>
       </item>
       
     
