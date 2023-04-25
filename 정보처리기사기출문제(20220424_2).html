@@ -214,294 +214,45 @@ into the {body} of the default.hbs template -->
 
 <h1 id="1과목--소프트웨어-설계-11번20번">1과목 : 소프트웨어 설계 (11번~20번)</h1>
 
-<h2 id="1-uml-다이어그램-중-순차-다이어그램에-대한-설명으로-틀린것은">1. UML 다이어그램 중 순차 다이어그램에 대한 설명으로 <em>틀린</em>것은?</h2>
+<h2 id="11-객체에-대한-설명으로-틀린-것은">11. 객체에 대한 설명으로 틀린 것은?</h2>
 
 <ol>
-  <li>객체 간의 동적 상호작용을 시간 개념을 중심으로 모델링 하는 것이다.</li>
-  <li><strong><em>주로 시스템의 정적 측변을 모델링하기 위해 사용한다.</em></strong></li>
-  <li>일반적으로 다이어그램의 수직 방향이 시간의 흐름을 나타낸다.</li>
-  <li>회귀 메시지(Self-Message), 제어블록(Statement block) 등으로 구성된다.</li>
-</ol>
-
-<p><strong>문제 해설</strong></p>
-<ul>
-  <li>순차 다이어그램은 행위 다이어그램이므로 동적이고, 순차적인 포현을 위한 다이어그램이다. [해설작성자 : 두목넷]</li>
-</ul>
-
-<p><strong>내 공부</strong></p>
-<ul>
-  <li>UML 다이어그램이란?
-    <ul>
-      <li><a href="https://chanp5660.github.io/UML다이어그램"><strong>UML다이어그램</strong></a></li>
-      <li>정의 : UML (Unified Modeling Language), 통합 모델링 언어라는 뜻으로 객체 지향 소프트웨어 엔지니어링 분야의 표준화된 범용 모델링 언어를 말합니다.</li>
-    </ul>
-  </li>
-  <li>순차 다이어그램이란?
-    <ul>
-      <li>시스템의 객체 간 상호작용을 <strong>시간적</strong>으로 표현합니다.</li>
-      <li>객체 간의 메시지 교환, 객체의 상태 변화, 예외 상황 등을 보여줍니다.</li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="2-메시지-지향-미들웨어message-oriented-middleware-mom에-대한-설명으로-틀린-것은">2. 메시지 지향 미들웨어(Message-Oriented Middleware, MOM)에 대한 설명으로 <em>틀린</em> 것은?</h2>
-
-<ol>
-  <li><strong><em>느리고 안정적인 응답보다는 즉각적인 응답이 필요한 온라인 업무에 적합니다.</em></strong></li>
-  <li>독립적인 애플리케이션을 하나의 통합된 시스템으로 묶기 위한 역할을 한다.</li>
-  <li>송신측과 수신측의 연결 시 메시지 큐를 활용하는 방법이 있다.</li>
-  <li>상이한 애플리케이션 간 통신을 비동기 방식으로 지원한다.</li>
+  <li>객체는 상태, 동작, 고유 식별자를 가진 모든 것이라 할 수 있다.</li>
+  <li><strong><em>객체는 공통 속성을 공유하는 클래스들의 집합니다.</em></strong></li>
+  <li>객체는 필요한 자료 구조와 이네 수행되는 함수들을 가진 하나의 독립된 존재이다.</li>
+  <li>객체의 상태는 속성값에 의해 정의된다.</li>
 </ol>
 
 <p><strong>문제 해설</strong></p>
 
-<p>MOM (Message Oriented Middleware)</p>
-<ul>
-  <li>메시지 기반의 비동기형 메시지를 전달하는 방식의 미들웨어이다.</li>
-  <li>온라인 업무보다는 이기종 분산 데이터 시스템의 데이터 동기를 위해 많이 사용한다.
-[해설작성자 : 두목넷]</li>
-</ul>
-
-<p>MOM은 즉각적인 응답을 원하는 경우가 아니라 다소 느리고 안정적인 응답을 필요로 하는 경우에 많이 사용됩니다.
-[해설작성자 : 세유니에용]</p>
-
-<p><strong>내 공부</strong></p>
-
-<ul>
-  <li>미들웨어란?
-    <ul>
-      <li>미들웨어는 소프트웨어 시스템에서 애플리케이션과 운영체제 사이, 또는 애플리케이션과 데이터베이스 사이 등 다른 소프트웨어 구성 요소 사이에서 상호 작용을 지원하는 소프트웨어입니다.</li>
-      <li>주로 분산 시스템에서 사용되며, 서로 다른 애플리케이션 및 컴포넌트 간의 통신, 데이터 교환, 트랜잭션 관리, 보안, 인증, 로깅 등의 작업을 처리할 수 있습니다. 이를 통해 애플리케이션 개발 및 운영의 효율성과 유연성을 높일 수 있습니다.</li>
-      <li>대표적인 미들웨어에는 웹 서버와 애플리케이션 서버, 메시지 브로커, 데이터베이스 연결 라이브러리 등이 있습니다. 이러한 미들웨어는 여러 시스템에서 재사용 가능하며, 다양한 플랫폼에서 동작할 수 있도록 설계되어 있습니다.</li>
-    </ul>
-  </li>
-  <li><a href="https://chanp5660.github.io/TIL-동기_비동기"><strong>동기 vs 비동기</strong></a></li>
-  <li><a href="https://chanp5660.github.io/TIL-MOM(Message_Oriented_Middleware)"><strong>MOM 이란?</strong></a></li>
-</ul>
-
-<h2 id="3-익스트림-프로그래밍에-대한-설명으로-틀린-것은">3. 익스트림 프로그래밍에 대한 설명으로 <em>틀린</em> 것은?</h2>
-
 <ol>
-  <li><strong><em>대표적인 구조적 방법론 중 하나이다.</em></strong></li>
-  <li>소규모 개발 조직이 불확실하고 변경이 많은 요구를 접하였을 때 적절한 방법이다.</li>
-  <li>익스트림 프로그래밍을 구동시키는 원리는 상식적인 원리와 경험을 최대한 끌어올리는 것이다.</li>
-  <li>구체적인 실천 방법을 정의하고 있으며, 개발 문서 보다는 소스코드에 중점을 둔다.</li>
+  <li>클래스는 공통 속성을 공유하는 객체들의 집합이다.<br />
+[해설작성자 : 풋살은재밌어]</li>
 </ol>
 
-<p><strong>문제 해설</strong></p>
-<ol>
-  <li>구조적인 방법론이 아니라 애자일 방법론 중 하나이다.
-[해설작성자 : 지나가는 행인]</li>
-</ol>
-
-<p><strong>내 공부</strong></p>
-<ul>
-  <li><a href="https://chanp5660.github.io/TIL-구조적방법론"><strong>구조적 방법론</strong></a>이란?</li>
-  <li><a href="https://chanp5660.github.io/TIL-애자일방법론"><strong>애자일 방법론</strong></a>이란?</li>
-</ul>
-
-<h2 id="4-유스케이스use-case의-구성-요소-간의-관계에-포함되지-않는-것은">4. 유스케이스(Use Case)의 구성 요소 간의 관계에 포함되지 <em>않는</em> 것은?</h2>
+<h2 id="12-속성과-관련된-연산operation을-클래스-안에-묶어서-하나로-취급하는-것을-의미하는-객체지향-개념은">12. 속성과 관련된 연산(Operation)을 클래스 안에 묶어서 하나로 취급하는 것을 의미하는 객체지향 개념은?</h2>
 
 <ol>
-  <li>연관</li>
-  <li>확장</li>
-  <li><strong><em>구체화</em></strong></li>
-  <li>일반화</li>
-</ol>
-
-<p><strong>문제 해설</strong></p>
-
-<p>유스케이스(Use Case)의 구성 요소 간의 관계</p>
-<ul>
-  <li>연관관계(Association) : 유스케이스와 액터간의 상호작용이 있음을 표현한다.</li>
-  <li>포함관계(Include) : 하나의 유스케이스가 다른 유스케이스의 실행을 전제로 할 때 형성되는 관계이다.</li>
-  <li>확장관계(Extend) : 확장 기능 유스케이스와 확장 대상 유스케이스 사이에 형성 되는 관계이다.</li>
-  <li>일반화관계(Generalization) : 유사한 유스케이스 또는 액터를 모아 추상화한 유스케이스 또는 액터와 연결시켜 그룹을 만들어 이해도를 높이기 위한 관계이다.<br />
-[해설작성자 : 두목넷]</li>
-</ul>
-
-<p><strong>내 공부</strong></p>
-<ul>
-  <li><a href="https://chanp5660.github.io/TIL-유스케이스"><strong>유스케이스</strong></a>란?</li>
-</ul>
-
-<h2 id="5-요구사항-분석에서-비기능적nonfunctional-요구에-대한-설명으로-옳은-것은">5. 요구사항 분석에서 비기능적(Nonfunctional) 요구에 대한 설명으로 옳은 것은?</h2>
-
-<ol>
-  <li>시스템의 처리량(Throughput), 반응 시간 등의 성능 요구나 품질 요구는 비기능적 요구에 해당하지 않는다.</li>
-  <li><strong><em>‘차량 대여 시스템이 제공하는 모든 화면이 3초 이내에 사용자에게 보여야 한다’는 비기능적 요구이다.</em></strong></li>
-  <li>시스템 구축과 관련된 안전, 보안에 대한 요구사항들은 비기능적 요구에 해당하지 않는다.</li>
-  <li>‘금융 시스템은 조회, 인출, 입금, 송금의 기능이 있어야 한다’는 비기능적 요구이다.</li>
-</ol>
-
-<p><strong>문제 해설</strong></p>
-
-<p>기능적 요구사항 vs 비기능적 요구사항</p>
-<ul>
-  <li>기능적 요구사항 : 시스템이 실제로 어떻게 동작하는지에 관점을 둔 요구사항</li>
-  <li>비기능적 요구사항 : 시스템 구축에 대한 성능, 보안, 품질, 안정 등에 대한 성능, 보안, 품질, 안정성 등으로 실제 수행에 보조적인 요구사항</li>
-</ul>
-
-<p>오답 조심</p>
-<ul>
-  <li>‘차량 대여 시스템이 제공하는 모든 화면이 3초 이내에 사용자에서 보여야 한다’는 성능에 해당 하므로 비기능적 요구사항에 해당한다.<br />
-[해설작성자 : 두목넷]</li>
-</ul>
-
-<p><strong>내 공부</strong></p>
-
-<p>기능적 요구사항(Functional Requirements)</p>
-<ul>
-  <li>시스템이 수행해야 하는 작업 또는 기능에 대한 명세입니다.</li>
-  <li>주로 시스템의 사용자가 원하는 기능과 관련됩니다.</li>
-  <li>예를 들어, ‘로그인 페이지에서 사용자 이름과 비밀번호를 입력하고 로그인 버튼을 누르면 시스템이 로그인하고 사용자의 개인정보를 보여준다.’와 같은 요구사항이 있을 수 있습니다.</li>
-</ul>
-
-<p>비기능적 요구사항(Non-functional Requirements)</p>
-<ul>
-  <li>시스템의 성능, 안전성, 보안성, 유지보수성, 이식성 등과 같은 기능 외에 요구사항을 나타냅니다.</li>
-  <li>주로 시스템의 품질과 관련되며, 사용자가 직접적으로 경험하는 것보다는 보다 기술적인 측면에 대한 것입니다.</li>
-  <li>예를 들어, ‘시스템은 1000명 이상의 동시 사용자를 처리할 수 있어야 한다.’ 와 같은 요구사항이 있을 수 있습니다.</li>
-</ul>
-
-<h2 id="6-정보공학-방법론에서-데이터베이스-설계의-표현으로-사용하는-모델링-언어는">6. 정보공학 방법론에서 데이터베이스 설계의 표현으로 사용하는 모델링 언어는?</h2>
-
-<ol>
-  <li>Package Diagram</li>
-  <li>State Transition Diagram</li>
-  <li>Deployment Diagram</li>
-  <li><strong><em>Entity-Relationship Diagram</em></strong></li>
-</ol>
-
-<p><strong>문제 해설</strong></p>
-
-<p>1,2,3 UML다이어그램 4 정보공학방법론<br />
-[해설작성자 : 공부]</p>
-
-<p><strong>내 공부</strong></p>
-
-<p>패키지, 상태 전이, 배치 다이어그램 : UML 다이어그램<br />
-<a href="https://chanp5660.github.io/TIL-정보공학방법론"><strong>정보공학방법론</strong></a> 이란?<br />
-<a href="https://chanp5660.github.io/TIL-Entity_Relationship_Diagram"><strong>Entity-Relationship Diagram</strong></a> 이란?</p>
-
-<p>정보공학방법론과 ERD의 관계</p>
-
-<p>정보공학방법론에서 ERD는 <strong>시스템 분석과 설계 단계</strong>에서 <strong>데이터 모델링</strong>을 수행하는 데에 활용됩니다.<br />
-<strong>요구사항 수집과 분석</strong>을 통해 <strong>시스템의 구조를 파악</strong>하고, 이를 기반으로 데이터 모델링을 수행하는 데에 사용됩니다.<br />
-데이터 모델링은 시스템에서 사용될 데이터를 구조화하고, 이를 표현하는 모델을 만드는 것입니다.<br />
-이를 통해 시스템의 데이터 구조와 관계를 명화히하고, 데이터의 무결성과 일관성을 유지할 수 있습니다.</p>
-
-<p>따라서, 정보공학 방법론에서는 ERD를 활용하여 시스템의 데이터 모델링을 수행하며, 이를 기반으로 시스템의 구조를 설계합니다.</p>
-
-<h2 id="7-미들웨어middleware에-대한-설명으로-틀린-것은">7. 미들웨어(Middleware)에 대한 설명으로 <em>틀린</em> 것은?</h2>
-
-<ol>
-  <li>여러 운영체제에서 응용 프로그램들 사이에 위치한 소프트웨어이다.</li>
-  <li><strong><em>미들웨어의 서비스 이용을 위해 사용자가 정보 교환 방법 등의 내부 동작을 쉽게 확인할 수 있어야 한다.</em></strong></li>
-  <li>소프트웨어 컴포넌트를 연결하기 위한 준비된 인프라 구조를 제공한다.</li>
-  <li>여러 컴포넌트를 1대1, 1대 다, 다대 다 등 여러 가지 형태로 연결이 가능하다.</li>
-</ol>
-
-<p><strong>문제 해설</strong></p>
-
-<p>미들웨어</p>
-<ul>
-  <li>클라이언트와 서버 간의 통신을 담당하는 시스템 소프트웨어이다.</li>
-  <li>이기종 하드웨어, 소프트웨어, 네트워크, 프로토콜, PC 환경, 운영체제 환경 등에서 시스템 간의 표준화된 연결을 도와주는 소프트웨어이다.</li>
-  <li>표준화된 인터페이스를 통하여 시스템 간의 데이터 교환에 있어 일관성을 제공한다.</li>
-  <li>운영체제와 애플리케이션 사이에서 중간 매개 역할을 하는 다목적 소프트웨어이다.</li>
-</ul>
-
-<p>오답노트</p>
-<ul>
-  <li>미들웨어 솔루션은 미들웨어의 서비스 이용을 위해 사용자가 정보 교환 방법 등의 내부 동작을 확인할 필요가 없다.<br />
-[해설작성자 : 행복한버거]</li>
-</ul>
-
-<p><strong>내 공부</strong></p>
-
-<p>이기종 컴퓨팅이란?</p>
-<ul>
-  <li>하나 이상의 프로세서 또는 코어를 사용하는 시스템을 가리킨다.</li>
-  <li>이러한 시스템들은 특정한 작업을 수행하기 위해 동일한 종류의 프로세서를 장착하지 않고 유사하지 않은 코프로세스를 장착함으로써 성능 도는 에너지 효율성을 얻는다.</li>
-</ul>
-
-<p>코프로세스란?</p>
-<ul>
-  <li>CPU의 기능을 보충하기 위해 사용되는 컴퓨터 프로세스 입니다.</li>
-</ul>
-
-<h2 id="8-ui의-설계-지침으로-틀린-것은">8. UI의 설계 지침으로 <em>틀린</em> 것은?</h2>
-
-<ol>
-  <li>이해하기 편하고 쉽게 사용할 수 있는 환경을 제공해야 한다.</li>
-  <li>주요 기능을 메인 화면에 노출하여 조작이 쉽도록 하여야 한다.</li>
-  <li><strong><em>치명적인 오류에 대한 부정적인 사항은 사용자가 인지할 수 없도록 한다.</em></strong></li>
-  <li>사용자의 직무, 연령, 성별 등 다영한 계층을 수용하여야 한다.</li>
+  <li>Inheritance</li>
+  <li>Class</li>
+  <li><strong><em>Encapsulation</em></strong></li>
+  <li>Association</li>
 </ol>
 
 <p><strong>문제 해설</strong></p>
 
 <ul>
-  <li>사용자 중심 : 사용자가 이해하기 쉽고 편하게 사용할 수 있는 환경을 제공해 실 사용자에 대한 이해가 바탕이 되어야 함</li>
-  <li>일관성 : 버튼이나 조작 방법을 사용자가 기억하기 빠르고 쉽게 습득할 수 있도록 설계해야 함</li>
-  <li>단순성 : 조작 방법은 가장 간단하게 작동되도록 하여 인지적 부담 최소화</li>
-  <li>결과 예측 가능 : 작동시킬 기능만 보고도 결과 예측이 가능해야 함</li>
-  <li>가시성 : 주요 기능을 메인 화면에 노출하여 쉬운 조작이 가능해야 함</li>
-  <li>표준화 : 디자인을 표준화하여 기능 구조의 선행 학습 이우 쉽게 사용 가능해야 함</li>
-  <li>접근성 : 사용자의 직무, 연령, 성별 등이 고려된 다양한 계층을 수용해야 함</li>
-  <li>명확성 : 사용자가 개념적으로 쉽게 인지해야 함</li>
-  <li>오류 발생 해결 : 사용자가 오류에 대한 상황을 정확하게 인지할 수 있어야 함<br />
-[해설작성자 : pdh6941]</li>
+  <li>클래스 : 하나 이상의 유사한 객체들을 묶는다.</li>
+  <li>캡슐화 : 서로 관련성이 많은 데이터들과 연산들을 묶는다.<br />
+[해설작성자 : comcbt.com 이용자]</li>
 </ul>
-
-<p><strong>내 공부</strong><br />
-1번 사용자 중심<br />
-2번 가시성 <br />
-4번 접근성</p>
-
-<h2 id="9-객체지향-개념에서-다형성polymorphism과-관련한-설명으로-틀린-것은">9. 객체지향 개념에서 다형성(Polymorphism)과 관련한 설명으로 <em>틀린</em> 것은?</h2>
-
-<ol>
-  <li>다형성은 현재 코드를 변경하지 않고 새로운 클래스를 쉽게 추가할 수 있게 한다.</li>
-  <li>다형성이란 여러 가지 형태를 가지고 있다는 의미로, 여러 형태를 받아들일 수 있는 특징을 말한다.</li>
-  <li>메소드 오버라이딩(Overriding)은 상위 클래스에서 정의한 일반 메소드의 구현을 하위 클래스에서 무시하고 재정의할 수 있다.</li>
-  <li><strong>메소드 오버로딩(Overlodaing)의 경우 매개 변수 타입은 동일하지만 메소드명을 다르게 함으로써 구현, 구분할 수 있다.</strong></li>
-</ol>
-
-<p><strong>문제 해결</strong></p>
-
-<p>오버로딩 - 같은 이름의 메소드를 중복하여 정의하는 것<br />
-[해설작성자 : 지나가는 행인]</p>
-
-<p>오버로딩 - <strong>한 클래스 내</strong>에서 <strong>메서드의 이름은 동일</strong>하지만 <strong>매개변수의 수나 타입</strong>을 <strong>다르게</strong> 하여 재정의 하는 것<br />
-오버라이딩 - <strong>상속관계</strong>에서만 발생, 슈퍼클래스의 메서드를 서브클래스에서도 동일한 메서드를 재정의 하는 것<br />
-[해설작성자 : 칼방이]</p>
 
 <p><strong>내 공부</strong></p>
 
 <ul>
-  <li><a href="https://chanp5660.github.io/다형성"><strong>다형성, 오버로딩, 오버라이딩</strong></a>이란?</li>
+  <li><a href="https://chanp5660.github.io/상속(Inheritance)"><strong>상속성(Inheritance)</strong></a> 이란?</li>
+  <li><a href="https://chanp5660.github.io/Association관계"><strong>연관(Association)</strong></a> 이란?</li>
 </ul>
-
-<h2 id="10-소프트웨어-개발-영역을-결정하는-요소-중-다음-사항과-관계있는-것은">10. 소프트웨어 개발 영역을 결정하는 요소 중 다음 사항과 관계있는 것은?</h2>
-
-<ul>
-  <li>소프트웨어에 의해 간접적으로 제어되는 장치와 소프트웨어를 실행하는 하드웨어</li>
-  <li>기존의 소프트웨어와 새로운 소프트웨어를 연결하는 소프트웨어</li>
-  <li>순서적 연산에 의해 소프트웨어를 실행하는 절차</li>
-</ul>
-
-<ol>
-  <li>기능(Function)</li>
-  <li>성능(Performance)</li>
-  <li>제약 조건(Constraint)</li>
-  <li><strong>인터페이스(Interface)</strong></li>
-</ol>
-
-<p><strong>문제 해설</strong>
-인터페이스 : 서로 다른 두 시스템이나 소프트웨어 등을 서로 이어주는 부분 또는 접속 장치를 의미
-[해설작성자 : comcbt.com 이용자]</p>
 
                 </div>
             </section>
@@ -598,6 +349,24 @@ into the {body} of the default.hbs template -->
                                 
                                   
                                     
+                                        
+                                        
+                                            <li><a href="/%EC%83%81%EC%86%8D(Inheritance)">상속(Inheritance)</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/Association%EA%B4%80%EA%B3%84">Association관계</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
                                   
                                 
                                   
@@ -621,16 +390,12 @@ into the {body} of the default.hbs template -->
                                     
                                         
                                         
-                                            <li><a href="/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%A4%80%EB%B6%84%EC%84%9D%EA%B0%80_%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%9D%98%EC%9D%B4%ED%95%B4">데이터준분석가(데이터의이해)</a></li>
-                                        
                                     
                                   
                                 
                                   
                                     
                                         
-                                        
-                                            <li><a href="/%EC%A0%95%EB%B3%B4%EA%B3%B5%ED%95%99%EB%B0%A9%EB%B2%95%EB%A1%A0">정보공학방법론</a></li>
                                         
                                     
                                   
@@ -1236,7 +1001,7 @@ into the {body} of the default.hbs template -->
                         <footer class="read-next-card-footer">
                             <a href="/tag/exitem/">
                                 
-                                    See all 67 posts  →
+                                    See all 69 posts  →
                                 
                             </a>
                         </footer>
@@ -1245,6 +1010,61 @@ into the {body} of the default.hbs template -->
             
 
             <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+
+    <article class="post-card post-template">
+        
+            <a class="post-card-image-link" href="/Association%EA%B4%80%EA%B3%84">
+                <div class="post-card-image" style="background-image: url(/assets/built/images/Association관계.png)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/Association%EA%B4%80%EA%B3%84">
+                <header class="post-card-header">
+                    
+                        
+                            
+                               <span class="post-card-tags">Exitem</span>
+                            
+                        
+                            
+                                <span class="post-card-tags">Til</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">Association관계</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p>Association 관계
+
+</p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/built/images/favicon.jpg" alt="chanp5660" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/chanp5660/">chanp5660</a>
+                        </span>
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      1 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
             
 
             <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
