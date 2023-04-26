@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/exitem/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-04-27T01:06:33+09:00</updated>
+  <updated>2023-04-27T01:08:58+09:00</updated>
   <id>http://localhost:4000/tag/exitem/feed.xml</id>
 
   
@@ -475,7 +475,10 @@
 [해설작성자 : 아기재혁]&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;내 공부&lt;/strong&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;strong&gt;내 공부&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/GoF(Gang_of_Four)&quot;&gt;&lt;strong&gt;GoF&lt;/strong&gt;&lt;/a&gt; 란?&lt;/li&gt;
+&lt;/ul&gt;</content>
 
       
       
