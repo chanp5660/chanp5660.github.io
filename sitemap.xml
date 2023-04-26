@@ -20,6 +20,22 @@
     </url>
     
     <url>
+        <loc>http://localhost:4000/%EC%98%81%EC%96%B4%EA%B3%84%ED%9A%8D.html</loc>
+        
+        <lastmod>2023-04-27T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
         <loc>http://localhost:4000/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8.html</loc>
         
         <lastmod>2023-04-26T00:00:00+09:00</lastmod>

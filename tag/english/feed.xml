@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
+  <link href="http://localhost:4000/tag/english/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2023-04-27T01:17:18+09:00</updated>
+  <id>http://localhost:4000/tag/english/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">Engineer Chanp5660 | </title>
+  
+
+  
+    <subtitle>박찬</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">영어계획</title>
+      <link href="http://localhost:4000/%EC%98%81%EC%96%B4%EA%B3%84%ED%9A%8D" rel="alternate" type="text/html" title="영어계획" />
+      <published>2023-04-27T00:00:00+09:00</published>
+      <updated>2023-04-27T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%EC%98%81%EC%96%B4%EA%B3%84%ED%9A%8D</id>
+      <content type="html" xml:base="http://localhost:4000/%EC%98%81%EC%96%B4%EA%B3%84%ED%9A%8D">&lt;h1 id=&quot;영어계획&quot;&gt;영어계획&lt;/h1&gt;
+
+&lt;p&gt;chatgpt를 이용하여 영어를 배웁니다.&lt;br /&gt;
+그 과정을 블로그에 기록합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=rGcRb_YNs_M&amp;amp;list=LL&amp;amp;index=11&quot;&gt;영어 구동사 암기하지 않아도 돼요 💥 이제 Chat GPT로 뇌에 새기세요 [3step 공부법]&lt;/a&gt;
+&lt;a href=&quot;https://www.youtube.com/watch?v=n_zhNMrNZI0&quot;&gt;ChatGPT와 회화 연습 시 99%가 몰라서 놓치는 최적의 세팅법&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="English" />
+      
+
+      
+        <summary type="html">영어계획</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
