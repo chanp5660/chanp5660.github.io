@@ -1,4 +1,66 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-04-25T21:35:09+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">Association관계</title><link href="http://localhost:4000/Association%EA%B4%80%EA%B3%84" rel="alternate" type="text/html" title="Association관계" /><published>2023-04-25T00:00:00+09:00</published><updated>2023-04-25T00:00:00+09:00</updated><id>http://localhost:4000/Association%EA%B4%80%EA%B3%84</id><content type="html" xml:base="http://localhost:4000/Association%EA%B4%80%EA%B3%84">&lt;h1 id=&quot;association-관계&quot;&gt;Association 관계&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-04-27T00:28:07+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">GOF(Gang of Four)</title><link href="http://localhost:4000/GoF(Gang_of_Four)" rel="alternate" type="text/html" title="GOF(Gang of Four)" /><published>2023-04-27T00:00:00+09:00</published><updated>2023-04-27T00:00:00+09:00</updated><id>http://localhost:4000/GoF(Gang_of_Four)</id><content type="html" xml:base="http://localhost:4000/GoF(Gang_of_Four)">&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">```python</summary></entry><entry><title type="html">컴포넌트</title><link href="http://localhost:4000/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8" rel="alternate" type="text/html" title="컴포넌트" /><published>2023-04-26T00:00:00+09:00</published><updated>2023-04-26T00:00:00+09:00</updated><id>http://localhost:4000/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8</id><content type="html" xml:base="http://localhost:4000/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8">&lt;h1 id=&quot;컴포넌트&quot;&gt;컴포넌트&lt;/h1&gt;
+
+&lt;p&gt;프로그래밍에서 컴포넌트란, 독립적으로 작동할 수 있는 소프트웨어 모듈입니다.&lt;br /&gt;
+재사용이 가능하며, 다른 소프트웨어에서도 사용할 수 있습니다.&lt;br /&gt;
+일반적으로 컴포넌트는 자체적으로 기능을 수행하며, 다른 컴포넌트와 상호작용을 할 수 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;인터페이스&quot;&gt;인터페이스&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;일반적으로 인터페이스를 통해 다른 소프트웨어와 상호작용합니다.&lt;/li&gt;
+  &lt;li&gt;인터페이스는 컴포넌트의 기능을 정의합니다.&lt;/li&gt;
+  &lt;li&gt;컴포넌트가 다른 소프트웨어와 상호작용할 수 있도록 합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;형태&quot;&gt;형태&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;일반적으로 라이브러리, 모듈, 클래스, 함수, 객체 등의 형태로 제공됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;재사용성&quot;&gt;재사용성&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;컴포넌트는 독립적으로 작동하므로, 다른 소프트웨어에서도 사용할 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;재사용하는 것은 소프트웨어 개발의 생산성을 높이며, 소프트웨어 시스템의 유지보수와 확장성을 향상시킵니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;유지보수성&quot;&gt;유지보수성&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;컴포넌트는 독립적으로 작동하며, 다른 소프트웨어에서도 사용할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;확장성&quot;&gt;확장성&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;새로운 컴포넌트를 추가하거나 기존 컴포넌트를 대체하여 소프트웨어 시스템을 확장할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;표준화&quot;&gt;표준화&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;인터페이스가 표준화되어 있어서, 다른 컴포넌트와의 상호작용이 쉬워집니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;테스트-용이성&quot;&gt;테스트 용이성&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;컴포넌트는 독립적으로 테스트할 수 있으므로, 전체 소프트웨어 시스템을 테스트하는 것보다 효율적입니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;모듈화&quot;&gt;모듈화&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;컴포넌트는 모듈화되어 있어서, 소프트웨어 개발자가 작업하기 쉬우며, 코드의 가독성을 높입니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;참고&lt;br /&gt;
+&lt;a href=&quot;https://hanamon.kr/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-component%EB%9E%80/&quot;&gt;컴포넌트(Component)란?&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">컴포넌트</summary></entry><entry><title type="html">Association관계</title><link href="http://localhost:4000/Association%EA%B4%80%EA%B3%84" rel="alternate" type="text/html" title="Association관계" /><published>2023-04-25T00:00:00+09:00</published><updated>2023-04-25T00:00:00+09:00</updated><id>http://localhost:4000/Association%EA%B4%80%EA%B3%84</id><content type="html" xml:base="http://localhost:4000/Association%EA%B4%80%EA%B3%84">&lt;h1 id=&quot;association-관계&quot;&gt;Association 관계&lt;/h1&gt;
 
 &lt;p&gt;Association은 &lt;strong&gt;객체 지향 프로그래밍&lt;/strong&gt;에서 &lt;strong&gt;클래스 간의 관계&lt;/strong&gt;를 나타내는 개념 중 하나입니다.&lt;br /&gt;
 &lt;strong&gt;두 클래스&lt;/strong&gt;가 &lt;strong&gt;서로 연관&lt;/strong&gt;되어 있는 경우, 이를 &lt;strong&gt;Association 관계&lt;/strong&gt;라고 합니다.&lt;/p&gt;
@@ -96,31 +158,85 @@
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/상속(Inheritance)&quot;&gt;&lt;strong&gt;상속성(Inheritance)&lt;/strong&gt;&lt;/a&gt; 이란?&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/Association관계&quot;&gt;&lt;strong&gt;연관(Association)&lt;/strong&gt;&lt;/a&gt; 이란?&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">정보처리기사 기출문제 부시기 20220424</summary></entry><entry><title type="html">자기 개발 기록 (2023년)</title><link href="http://localhost:4000/2023%EB%85%84" rel="alternate" type="text/html" title="자기 개발 기록 (2023년)" /><published>2023-04-22T00:00:00+09:00</published><updated>2023-04-22T00:00:00+09:00</updated><id>http://localhost:4000/2023%EB%85%84</id><content type="html" xml:base="http://localhost:4000/2023%EB%85%84">&lt;h1 id=&quot;자기-개발-기록-2023년&quot;&gt;자기 개발 기록 (2023년)&lt;/h1&gt;
+&lt;/ul&gt;
 
-&lt;h2 id=&quot;목적&quot;&gt;목적&lt;/h2&gt;
+&lt;h2 id=&quot;13-애자일agile-프로세스-모델에-대한-설명으로-틀린-것은&quot;&gt;13. 애자일(Agile) 프로세스 모델에 대한 설명으로 &lt;em&gt;틀린&lt;/em&gt; 것은?&lt;/h2&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;자기 개발 기록을 통해 성과, 반성, 배울 점을 얻습니다.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;변화에 대한 대응보다는 자세한 계획을 중심으로 소프트웨어를 개발한다.&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;포르세스와 도구 중심이 아닌 개개인과의 상호소통을 통해 의견을 수렴한다.&lt;/li&gt;
+  &lt;li&gt;협상과 계약보다는 고객과의 협력을 중시한다.&lt;/li&gt;
+  &lt;li&gt;문서 중심이 아닌, 실행 가능한 소프트웨어를 중시한다.&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;h2 id=&quot;2월-취업-준비&quot;&gt;2월 취업 준비&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://chanp5660.github.io/2023년2월&quot;&gt;&lt;strong&gt;자기 개발 기록(2023년2월) 바로가기&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;이력서를 작성하여 회사에 지원하고 인공지능, python을 공부했습니다.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;문제 해설&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;3월-취업&quot;&gt;3월 취업&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://chanp5660.github.io/2023년3월&quot;&gt;&lt;strong&gt;자기 개발 기록(2023년3월) 바로가기&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;공부의 흐름 찾고 취업 면접, 코테 준비 및 인공지능, python을 공부했습니다.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;ul&gt;
+  &lt;li&gt;애자일 개발 프로세스 : 개발에 대한 개념적 방법론으로, 개발 프로젝트 기간을 짧은 주기로 나눠 반복적인 개발을 하는 것이 특징
+[애자일 선언문]&lt;br /&gt;
+‘프로세스, 도구 보다는 (사람과 상호작용)을 &lt;br /&gt;
+광범위한 문서 보다는 (실제 작동하는 제품)을&lt;br /&gt;
+계약 협상보다는 (고객 협력)을&lt;br /&gt;
+계획을 따르기 보다는 (변화 대응)을’&lt;br /&gt;
+[해설작성자 : 서쳐]&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h2 id=&quot;4월-신입&quot;&gt;4월 신입&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://chanp5660.github.io/2023년4월&quot;&gt;&lt;strong&gt;자기 개발 기록(2023년4월) 바로가기&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;신입으로 회사에 적응(회사 시스템, 개발 툴, 회사 동료)하고 자기 개발을 기록하며 꾸준하게 할 수 있도록 습관으로 만들었습니다.&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name>chanp5660</name></author><category term="Chan_dev_history" /><summary type="html">자기 개발 기록 (2023년)</summary></entry><entry><title type="html">자기 개발 기록 (2023년4월)</title><link href="http://localhost:4000/2023%EB%85%844%EC%9B%94" rel="alternate" type="text/html" title="자기 개발 기록 (2023년4월)" /><published>2023-04-22T00:00:00+09:00</published><updated>2023-04-22T00:00:00+09:00</updated><id>http://localhost:4000/2023%EB%85%844%EC%9B%94</id><content type="html" xml:base="http://localhost:4000/2023%EB%85%844%EC%9B%94">&lt;h1 id=&quot;자기-개발-기록-2023년4월&quot;&gt;자기 개발 기록 (2023년4월)&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;내 공부&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/애자일방법론&quot;&gt;&lt;strong&gt;애자일방법론&lt;/strong&gt;&lt;/a&gt;이란?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;14-명백한-역할을-가지고-독립적으로-존재할-수-있는-시스템의-부분으로-넓은-의미에서는-재사용되는-모든-단위라고-볼-수-있으며-인터페이스를-통해서만-접근할-수-있는-것은&quot;&gt;14. 명백한 역할을 가지고 독립적으로 존재할 수 있는 시스템의 부분으로 넓은 의미에서는 재사용되는 모든 단위라고 볼 수 있으며, 인터페이스를 통해서만 접근할 수 있는 것은?&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Model&lt;/li&gt;
+  &lt;li&gt;Sheet&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Component&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Cell&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;문제 해설&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;컴포넌트
+    &lt;ul&gt;
+      &lt;li&gt;프로그래밍에 있어 재사용이 가능한 각각의 독립된 모듈&lt;/li&gt;
+      &lt;li&gt;특정 기능 수행을 위해 독립적으로 분리&lt;br /&gt;
+[해설작성자 : 보호주의]&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;내 공부&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/컴포넌트&quot;&gt;&lt;strong&gt;컴포넌트&lt;/strong&gt;&lt;/a&gt;란?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;15gofgans-of-four-디자인-패턴을-생성-구조-행동-패턴의-세-그룹으로-분류할-때-구조-패턴이-아닌-것은&quot;&gt;15.GoF(Gans of Four) 디자인 패턴을 생성, 구조, 행동 패턴의 세 그룹으로 분류할 때, 구조 패턴이 아닌 것은?&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Adapter 패턴&lt;/li&gt;
+  &lt;li&gt;Bridge 패턴&lt;/li&gt;
+  &lt;li&gt;Builder 패턴&lt;/li&gt;
+  &lt;li&gt;Proxy 패턴&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;문제 해설&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;[구조패턴]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;어댑터&lt;/li&gt;
+  &lt;li&gt;브릿지&lt;/li&gt;
+  &lt;li&gt;컴포지트&lt;/li&gt;
+  &lt;li&gt;데코레이터&lt;/li&gt;
+  &lt;li&gt;퍼싸트&lt;/li&gt;
+  &lt;li&gt;플라이웨이트&lt;/li&gt;
+  &lt;li&gt;프록시&lt;br /&gt;
+[해설작성자 : 아기재혁]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;내 공부&lt;/strong&gt;&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">정보처리기사 기출문제 부시기 20220424</summary></entry><entry><title type="html">자기 개발 기록 (2023년4월)</title><link href="http://localhost:4000/2023%EB%85%844%EC%9B%94" rel="alternate" type="text/html" title="자기 개발 기록 (2023년4월)" /><published>2023-04-22T00:00:00+09:00</published><updated>2023-04-22T00:00:00+09:00</updated><id>http://localhost:4000/2023%EB%85%844%EC%9B%94</id><content type="html" xml:base="http://localhost:4000/2023%EB%85%844%EC%9B%94">&lt;h1 id=&quot;자기-개발-기록-2023년4월&quot;&gt;자기 개발 기록 (2023년4월)&lt;/h1&gt;
 
 &lt;h2 id=&quot;목적&quot;&gt;목적&lt;/h2&gt;
 
@@ -489,7 +605,31 @@
 
     &lt;hr /&gt;
   &lt;/div&gt;
-&lt;/details&gt;</content><author><name>chanp5660</name></author><category term="Chan_dev_history" /><summary type="html">자기 개발 기록 (2023년 2월)</summary></entry><entry><title type="html">다형성</title><link href="http://localhost:4000/%EB%8B%A4%ED%98%95%EC%84%B1" rel="alternate" type="text/html" title="다형성" /><published>2023-04-21T00:00:00+09:00</published><updated>2023-04-21T00:00:00+09:00</updated><id>http://localhost:4000/%EB%8B%A4%ED%98%95%EC%84%B1</id><content type="html" xml:base="http://localhost:4000/%EB%8B%A4%ED%98%95%EC%84%B1">&lt;h1 id=&quot;다형성-polymorphism&quot;&gt;다형성 (Polymorphism)&lt;/h1&gt;
+&lt;/details&gt;</content><author><name>chanp5660</name></author><category term="Chan_dev_history" /><summary type="html">자기 개발 기록 (2023년 2월)</summary></entry><entry><title type="html">자기 개발 기록 (2023년)</title><link href="http://localhost:4000/2023%EB%85%84" rel="alternate" type="text/html" title="자기 개발 기록 (2023년)" /><published>2023-04-22T00:00:00+09:00</published><updated>2023-04-22T00:00:00+09:00</updated><id>http://localhost:4000/2023%EB%85%84</id><content type="html" xml:base="http://localhost:4000/2023%EB%85%84">&lt;h1 id=&quot;자기-개발-기록-2023년&quot;&gt;자기 개발 기록 (2023년)&lt;/h1&gt;
+
+&lt;h2 id=&quot;목적&quot;&gt;목적&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;자기 개발 기록을 통해 성과, 반성, 배울 점을 얻습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;2월-취업-준비&quot;&gt;2월 취업 준비&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://chanp5660.github.io/2023년2월&quot;&gt;&lt;strong&gt;자기 개발 기록(2023년2월) 바로가기&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;이력서를 작성하여 회사에 지원하고 인공지능, python을 공부했습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;3월-취업&quot;&gt;3월 취업&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://chanp5660.github.io/2023년3월&quot;&gt;&lt;strong&gt;자기 개발 기록(2023년3월) 바로가기&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;공부의 흐름 찾고 취업 면접, 코테 준비 및 인공지능, python을 공부했습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;4월-신입&quot;&gt;4월 신입&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://chanp5660.github.io/2023년4월&quot;&gt;&lt;strong&gt;자기 개발 기록(2023년4월) 바로가기&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;신입으로 회사에 적응(회사 시스템, 개발 툴, 회사 동료)하고 자기 개발을 기록하며 꾸준하게 할 수 있도록 습관으로 만들었습니다.&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>chanp5660</name></author><category term="Chan_dev_history" /><summary type="html">자기 개발 기록 (2023년)</summary></entry><entry><title type="html">다형성</title><link href="http://localhost:4000/%EB%8B%A4%ED%98%95%EC%84%B1" rel="alternate" type="text/html" title="다형성" /><published>2023-04-21T00:00:00+09:00</published><updated>2023-04-21T00:00:00+09:00</updated><id>http://localhost:4000/%EB%8B%A4%ED%98%95%EC%84%B1</id><content type="html" xml:base="http://localhost:4000/%EB%8B%A4%ED%98%95%EC%84%B1">&lt;h1 id=&quot;다형성-polymorphism&quot;&gt;다형성 (Polymorphism)&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;객체지향 프로그래밍&lt;/strong&gt;에서 중요한 개념 중 하나로, 같은 인터페이스나 추상 클래스를 상속한 여러 클래스가 각자의 방식으로 그 인터페이스나 추상 클래스의 메서드를 구형하고 사용할 수 있는 능력을 말합니다.&lt;/p&gt;
 
@@ -524,94 +664,4 @@
   &lt;li&gt;오버로딩은 &lt;strong&gt;같은 이름의 메서드&lt;/strong&gt;를 여러 개 정의하고, &lt;strong&gt;인자의 개수나 타입에 따라 다른 동작&lt;/strong&gt;을 수행하도록 하는 것을 말합니다.&lt;/li&gt;
   &lt;li&gt;컴파일러는 오버로딩된 메서드 중에서 호출할 메서드를 선택할 때, 메서드 호출 시 전달하는 인자의 개수, 타입, 순서 등을 기반으로 선택합니다.&lt;/li&gt;
   &lt;li&gt;메서드의 이름을 재활용하여 코드의 가독성을 높이고, 코드의 재사용성을 높이는 데에 도움을 줍니다.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">다형성 (Polymorphism)</summary></entry><entry><title type="html">데이터준분석가(데이터의이해)</title><link href="http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%A4%80%EB%B6%84%EC%84%9D%EA%B0%80_%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%9D%98%EC%9D%B4%ED%95%B4" rel="alternate" type="text/html" title="데이터준분석가(데이터의이해)" /><published>2023-04-20T00:00:00+09:00</published><updated>2023-04-20T00:00:00+09:00</updated><id>http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%A4%80%EB%B6%84%EC%84%9D%EA%B0%80_%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%9D%98%EC%9D%B4%ED%95%B4</id><content type="html" xml:base="http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%A4%80%EB%B6%84%EC%84%9D%EA%B0%80_%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%9D%98%EC%9D%B4%ED%95%B4">&lt;h1 id=&quot;데이터준분석가-adsp-데이터의-이해&quot;&gt;데이터준분석가 ADsP 데이터의 이해&lt;/h1&gt;
-
-&lt;p&gt;데이터분석 준전문가(ADsP : Advanced Data Analytics Semi-Professional)란 데이터 이해에 대한 기본지식을 바탕으로 데이터분석 기획 및 데이터분석 등의 직무를 수행하는 실무자를 말한다.&lt;/p&gt;
-
-&lt;p&gt;ADsP에 대한 자세한 정보를 &lt;a href=&quot;https://www.dataq.or.kr/www/sub/a_06.do&quot;&gt;&lt;strong&gt;링크&lt;/strong&gt;&lt;/a&gt;에서 제공합니다.&lt;/p&gt;
-
-&lt;p&gt;목적 : 데이터준분석가와 관련된 용어들에 대해 공부를 해보겠습니다.&lt;/p&gt;
-
-&lt;h1 id=&quot;데이터와-정보&quot;&gt;데이터와 정보&lt;/h1&gt;
-
-&lt;p&gt;데이터와 정보는 서로 구분되는 개념이지만, 정보를 얻기 위해서는 데이터를 수집하고 가공해야합니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;데이터&quot;&gt;데이터&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;숫자, 문자, 기호 등의 형태로 표현된 단순한 사실이나 정보입니다.&lt;/li&gt;
-  &lt;li&gt;의미가 부여되지 않은 채로 존재합니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;정보&quot;&gt;정보&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;데이터&lt;/strong&gt;를 가공하고 의미를 부여한 것입니다.&lt;/li&gt;
-  &lt;li&gt;보통 사람들이 이해할 수 있는 형태로 정리되며, 의미가 부여된 채로 존재합니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;데이터의-유형&quot;&gt;데이터의 유형&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;정성적&lt;/strong&gt; 데이터와 &lt;strong&gt;정량적&lt;/strong&gt; 데이터는 데이터의 특성에 따라 분류된 두 가지 유형의 데이터입니다.&lt;br /&gt;
-데이터의 특성과 활용 방안에 따라 차이가 있으며, 분석 목적에 맞게 적절한 데이터를 선택하여 활용하는 것이 중요합니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;정성적-데이터&quot;&gt;정성적 데이터&lt;/h2&gt;
-
-&lt;p&gt;주로 &lt;strong&gt;질적&lt;/strong&gt; 데이터로 불리며, 수치화되지 않은 데이터를 의미합니다.&lt;br /&gt;
-예를 들어, 고객 만족도 조사에서 고객의 만족도를 ‘매우 만족’, ‘만족’, ‘보통’, ‘불만족’, ‘매우 불만족’과 같은 카테고리로 평가하는 경우가 있습니다.&lt;/p&gt;
-
-&lt;p&gt;이러한 데이터는 주로 감성적인 분석이 필요하거나, 인과관계나 통계적 분석이 어려운 경우에 활용됩니다.&lt;/p&gt;
-
-&lt;p&gt;감성 분석이나 텍스트 마이닝 등의 방법을 활용하여 분석하며, 고객 만족도 조사나 제품 리뷰 등에서 활용됩니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;정량적-데이터&quot;&gt;정량적 데이터&lt;/h2&gt;
-
-&lt;p&gt;주로 &lt;strong&gt;양적&lt;/strong&gt; 데이터로 불리며, 수치화된 데이터를 의미합니다.&lt;br /&gt;
-예를 들어, 고개 만족도 조사에서 고객의 만족도를 1점부터 5점까지의 척도로 평가하는 경우가 있습니다.&lt;/p&gt;
-
-&lt;p&gt;이러한 데이터는 주로 통계적 분석이 가능하며, 인과관계를 분석하거나 예측 모델을 만드는 등의 다양한 분석 작업에 활용됩니다.&lt;/p&gt;
-
-&lt;p&gt;통계 분석이나 데이터 마이닝 등의 방법을 활용하여 분석하며, 매출 현황, 고객 구매 패턴 등에서 활용됩니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;dikw-피라미드data-information-knowledge-wisdom&quot;&gt;DIKW 피라미드(Data Information Knowledge Wisdom)&lt;/h2&gt;
-
-&lt;p&gt;개인이나 조직이 정보를 이해하고 활용하는 과정을 보여줍니다.&lt;/p&gt;
-
-&lt;p&gt;피라미드의 목적은 데이터를 수집하고 분석한 후, 정보를 추출하고 이를 지식으로 바꾸는 과정을 거쳐 지혜를 얻는 것이 목표입니다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;D, Data : 개별 데이터 자체로는 의미가 중요하지 않은 객관적인 사실로 숫자, 문자, 기호 등의 형태로 표현된 단순한 사실이나 정보입니다.&lt;br /&gt;
-예를 들어, 날씨 정보, 주시 시장의 가격 등이 데이터의 예시입니다.&lt;/li&gt;
-  &lt;li&gt;I, Information : 데이터의 가공, 처리와 데이터간 연관 관계 속에서 의미가 도출된 것으로 데이터가 무엇을 의미하는지를 설명하는 것입니다.&lt;br /&gt;
-예를 들어, 일기예보가 ‘내일은 맑은’이라는 데이터를 정보로 변환합니다.&lt;/li&gt;
-  &lt;li&gt;K, Knowledge : 데이터를 통해 도출된 다양한 정보를 구조화하여 유의미한 정보를 분류하고 개인적인 경험을 결합시켜 고유의 지식으로 내재화된 것입니다.&lt;br /&gt;
-예를 들어, 일기예보에서 ‘맑음’이 내일 물건을 건조시키기 좋은 기상 조건이라는 지식을 얻을 수 있습니다.&lt;/li&gt;
-  &lt;li&gt;W, Wisdom : 지식을 활용하여 의사결정이나 문제 해결에 대한 지혜를 얻는 것입니다. 지혜는 지식을 응용하여 문제를 해결하는 것으로, 조직이나 개인이 지식을 기반으로 비즈니스나 생활 전반에 걸치 의사결정을 내리는 것을 돕습니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;데이터베이스-정의와-특징&quot;&gt;데이터베이스 정의와 특징&lt;/h1&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">데이터준분석가 ADsP 데이터의 이해</summary></entry><entry><title type="html">ERD</title><link href="http://localhost:4000/Entity_Relationship_Diagram" rel="alternate" type="text/html" title="ERD" /><published>2023-04-19T00:00:00+09:00</published><updated>2023-04-19T00:00:00+09:00</updated><id>http://localhost:4000/Entity_Relationship_Diagram</id><content type="html" xml:base="http://localhost:4000/Entity_Relationship_Diagram">&lt;h1 id=&quot;entity-relationship-diagram-erd-개체-관계-다이어그램&quot;&gt;Entity-Relationship Diagram ERD 개체 관계 다이어그램&lt;/h1&gt;
-
-&lt;p&gt;데이터 모델링 기술 중 하나로, 시스템에 필요한 데이터와 데이터 간의 관계를 시각적으로 표현하는 방법입니다.&lt;br /&gt;
-세 가지 요소로 이루어져 있습니다.&lt;/p&gt;
-
-&lt;p&gt;아래 세 가지 요소들을 사용하여 시스템의 데이터 구조를 시각적으로 표현합니다.&lt;br /&gt;
-보통 개체를 직사각형으로 표시하고, 속성을 타원형으로 표시하며, 관계를 화살표로 표시합니다.&lt;br /&gt;
-이렇게 사용하면 시스템의 데이터 구조를 쉽게 이해하고, 문제를 파악하고, 설계할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;즉, ERD는 데이터 모델링 기술 중 하나로, 시스템에 필요한 데이터와 데이터 간의 관계를 시각적으로 표현하는 방법입니다.&lt;br /&gt;
-객체, 속성, 관계 등의 요소를 사용하여 시스템의 데이터 구조를 설계하고, 문제를 파악하고, 시스템을 구현할 수 있습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;entity개체&quot;&gt;Entity(개체)&lt;/h2&gt;
-
-&lt;p&gt;시스템에서 저장되는 데이터의 종류를 나타내는 것으로, 보통 실제 세계에서 존재하는 개체를 표현합니다.&lt;br /&gt;
-예를 들어, ‘학생’이나 ‘강의’와 같은 개체가 있을 수 있습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;attribute속성&quot;&gt;Attribute(속성)&lt;/h2&gt;
-
-&lt;p&gt;개체의 속성을 나타내는 것으로, 개체의 속성은 개체를 식별하거나 개체에 대한 정보를 나타냅니다.&lt;br /&gt;
-예를 들어, ‘학생’ 개체의 속성으로 ‘이름’, ‘학번’, ‘전공’ 등이 있을 수 있습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;relationship관계&quot;&gt;Relationship(관계)&lt;/h2&gt;
-
-&lt;p&gt;개체 같의 연결을 나타내는 것으로, 개체 간의 관계는 일대일, 일대다, 다대다 등으로 표현할 수 있습니다.&lt;br /&gt;
-예를 들어, ‘학생’과 ‘강의’ 간의 관계는 일대다 관계로 표현할 수 있습니다.&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">Entity-Relationship Diagram ERD 개체 관계 다이어그램</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">다형성 (Polymorphism)</summary></entry></feed>

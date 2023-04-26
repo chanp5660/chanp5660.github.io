@@ -8,6 +8,36 @@
     
       
       <item>
+        <title>GOF(Gang of Four)</title>
+        
+          <description>&lt;p&gt;```python&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 27 Apr 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/GoF(Gang_of_Four)</link>
+        <guid isPermaLink="true">http://localhost:4000/GoF(Gang_of_Four)</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>컴포넌트</title>
+        
+          <description>&lt;h1 id=&quot;컴포넌트&quot;&gt;컴포넌트&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Wed, 26 Apr 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8</link>
+        <guid isPermaLink="true">http://localhost:4000/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>상속(Inheritance)</title>
         
           <description>&lt;h1 id=&quot;상속-inheritance-관계&quot;&gt;상속 Inheritance 관계&lt;/h1&gt;
