@@ -8,6 +8,36 @@
     
       
       <item>
+        <title>암묵지와 형식지</title>
+        
+          <description>&lt;p&gt;```python&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 28 Apr 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/%EC%95%94%EB%AC%B5%EC%A7%80%EC%99%80%ED%98%95%EC%8B%9D%EC%A7%80</link>
+        <guid isPermaLink="true">http://localhost:4000/%EC%95%94%EB%AC%B5%EC%A7%80%EC%99%80%ED%98%95%EC%8B%9D%EC%A7%80</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>데이터형태(정성,정량)</title>
+        
+          <description>&lt;h1 id=&quot;데이터의-유형정성정량&quot;&gt;데이터의 유형(정성,정량)&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Fri, 28 Apr 2023 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%ED%98%95%ED%83%9C_%EC%A0%95%EC%84%B1_%EC%A0%95%EB%9F%89</link>
+        <guid isPermaLink="true">http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%ED%98%95%ED%83%9C_%EC%A0%95%EC%84%B1_%EC%A0%95%EB%9F%89</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>MVC(Model View Controller)</title>
         
           <description>&lt;h1 id=&quot;mvcmodel-view-controller&quot;&gt;MVC(Model View Controller)&lt;/h1&gt;
@@ -188,7 +218,7 @@
     
       
       <item>
-        <title>데이터준분석가(데이터의이해)</title>
+        <title>데이터준분석가</title>
         
           <description>&lt;h1 id=&quot;데이터준분석가-adsp-데이터의-이해&quot;&gt;데이터준분석가 ADsP 데이터의 이해&lt;/h1&gt;
 

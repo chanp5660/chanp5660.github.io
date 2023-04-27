@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/author/chanp5660/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-04-27T23:44:21+09:00</updated>
+  <updated>2023-04-28T00:43:31+09:00</updated>
   <id>http://localhost:4000/author/chanp5660/feed.xml</id>
 
   
@@ -30,6 +30,115 @@
   
   
 
+  
+    <entry>
+      <title type="html">데이터형태(정성,정량)</title>
+      <link href="http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%ED%98%95%ED%83%9C_%EC%A0%95%EC%84%B1_%EC%A0%95%EB%9F%89" rel="alternate" type="text/html" title="데이터형태(정성,정량)" />
+      <published>2023-04-28T00:00:00+09:00</published>
+      <updated>2023-04-28T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%ED%98%95%ED%83%9C_%EC%A0%95%EC%84%B1_%EC%A0%95%EB%9F%89</id>
+      <content type="html" xml:base="http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%ED%98%95%ED%83%9C_%EC%A0%95%EC%84%B1_%EC%A0%95%EB%9F%89">&lt;h1 id=&quot;데이터의-유형정성정량&quot;&gt;데이터의 유형(정성,정량)&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;정성적&lt;/strong&gt; 데이터와 &lt;strong&gt;정량적&lt;/strong&gt; 데이터는 데이터의 특성에 따라 분류된 두 가지 유형의 데이터입니다.&lt;br /&gt;
+데이터의 특성과 활용 방안에 따라 차이가 있으며, 분석 목적에 맞게 적절한 데이터를 선택하여 활용하는 것이 중요합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;정성적-데이터&quot;&gt;정성적 데이터&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;주로 &lt;strong&gt;질적&lt;/strong&gt; 데이터로 불리며, 수치화되지 않은 데이터를 의미합니다.&lt;/li&gt;
+  &lt;li&gt;숫자나 측정 단위가 없는 비수량적인 데이터를 의미하며 ,대개 언어, 이미지, 비디오, 소리 등의 형태로 표현됩니다.&lt;/li&gt;
+  &lt;li&gt;예를 들어, 고객 만족도 조사에서 고객의 만족도를 ‘매우 만족’, ‘만족’, ‘보통’, ‘불만족’, ‘매우 불만족’과 같은 카테고리로 평가하는 경우가 있습니다.&lt;/li&gt;
+  &lt;li&gt;이러한 데이터는 주로 감성적인 분석이 필요하거나, 인과관계나 통계적 분석이 어려운 경우에 활용됩니다.&lt;/li&gt;
+  &lt;li&gt;감성 분석이나 텍스트 마이닝 등의 방법을 활용하여 분석하며, 고객 만족도 조사나 제품 리뷰 등에서 활용됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;정량적-데이터&quot;&gt;정량적 데이터&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;주로 &lt;strong&gt;양적&lt;/strong&gt; 데이터로 불리며, 수치화된 데이터를 의미합니다.&lt;/li&gt;
+  &lt;li&gt;예를 들어, 고개 만족도 조사에서 고객의 만족도를 1점부터 5점까지의 척도로 평가하는 경우가 있습니다.&lt;/li&gt;
+  &lt;li&gt;이러한 데이터는 주로 통계적 분석이 가능하며, 인과관계를 분석하거나 예측 모델을 만드는 등의 다양한 분석 작업에 활용됩니다.&lt;/li&gt;
+  &lt;li&gt;통계 분석이나 데이터 마이닝 등의 방법을 활용하여 분석하며, 매출 현황, 고객 구매 패턴 등에서 활용됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;정성적-데이터와-정량적-데이터의-차이&quot;&gt;정성적 데이터와 정량적 데이터의 차이&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;데이터 분석에서 사용하는 방법이 다릅니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;정량 데이터는 수학적 모델링, 통계 분석 등의 방법을 사용하여 처리 및 분석이 가능합니다.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;정성 데이터는 주관적인 요소가 많기 때문에, 주관적인 해석과 판단이 필요하며, 통계 분석 등의 방법이 제한적입니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;정성 데이터는 감성 분석, 이미지 분석 등과 같이 기술적인 부분이 적고, 인간의 주관적인 판단이 큰 역할을 하기 때문에 비교적 해석이 어려운 경우가 많습니다.&lt;/li&gt;
+  &lt;li&gt;정량 데이터는 분석 방법이 다양하고, 수학적 모델링을 통해 정확한 결과를 도출할 수 있기 때문에 분석과 해석이 상대적으로 쉽습니다.&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">데이터의 유형(정성,정량)</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">암묵지와 형식지</title>
+      <link href="http://localhost:4000/%EC%95%94%EB%AC%B5%EC%A7%80%EC%99%80%ED%98%95%EC%8B%9D%EC%A7%80" rel="alternate" type="text/html" title="암묵지와 형식지" />
+      <published>2023-04-28T00:00:00+09:00</published>
+      <updated>2023-04-28T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%EC%95%94%EB%AC%B5%EC%A7%80%EC%99%80%ED%98%95%EC%8B%9D%EC%A7%80</id>
+      <content type="html" xml:base="http://localhost:4000/%EC%95%94%EB%AC%B5%EC%A7%80%EC%99%80%ED%98%95%EC%8B%9D%EC%A7%80">&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">```python</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">GOF(Gang of Four)</title>
@@ -331,6 +440,61 @@ MVC는 대규모 응용 프로그램의 개발 및 유지 보수를 용이하게
     </entry>
   
     <entry>
+      <title type="html">상속(Inheritance)</title>
+      <link href="http://localhost:4000/%EC%83%81%EC%86%8D(Inheritance)" rel="alternate" type="text/html" title="상속(Inheritance)" />
+      <published>2023-04-25T00:00:00+09:00</published>
+      <updated>2023-04-25T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%EC%83%81%EC%86%8D(Inheritance)</id>
+      <content type="html" xml:base="http://localhost:4000/%EC%83%81%EC%86%8D(Inheritance)">&lt;h1 id=&quot;상속-inheritance-관계&quot;&gt;상속 Inheritance 관계&lt;/h1&gt;
+
+&lt;p&gt;객체 지향 프로그램밍에서 클래스 간의 관계를 나태내는 개념 중 하나입니다.&lt;br /&gt;
+한 클래스가 &lt;strong&gt;다른 클래스에서 정의된 속성과 메서드를 상속&lt;/strong&gt;받는 것을 의미합니다.&lt;/p&gt;
+
+&lt;p&gt;상속을 받는 클래스는 기존 클래스의 모든 속성과 메서드를 상속받으며, 이를 기반으로 새로운 속성과 메서드를 추가할 수 있습니다.&lt;br /&gt;
+이를 통해 코드의 &lt;strong&gt;재사용성&lt;/strong&gt;을 높이고, 중복된 코드를 제거하여 &lt;strong&gt;코드의 유지보수성&lt;/strong&gt;을 높일 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;상속 관계에서는 &lt;strong&gt;부모 클래스&lt;/strong&gt;와 &lt;strong&gt;자식 클래스&lt;/strong&gt;라는 개념이 존재합니다.&lt;br /&gt;
+&lt;strong&gt;부모 클래스&lt;/strong&gt;는 &lt;strong&gt;상속을 제공&lt;/strong&gt;하는 클래스이며, &lt;strong&gt;자식 클래스&lt;/strong&gt;는 &lt;strong&gt;상속을 받는&lt;/strong&gt; 클래스입니다. &lt;br /&gt;
+자식 클래스는 부모 클래스의 모든 속성과 메서드를 상속받으며, 이를 통해 새로운 기능을 추가하거나 부모 클래스의 기능을 변경할 수 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;특징&quot;&gt;특징&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;자식 클래스는 부모 클래스의 속성과 메서드를 상속받습니다.&lt;/li&gt;
+  &lt;li&gt;자식 클래스는 부모 클래스에서 정의된 메서드를 오버라이딩(Overriding)하여 수정할 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;자식 클래스는 부모 클래스에서 정의된 메서드를 호출하거나 상속된 속성을 사용할 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;자식 클래스는 부모 클래스와 같은 인터페이스를 가질 수 있으며, 다형성(Polymorphism)을 구현할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">상속 Inheritance 관계</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">Association관계</title>
       <link href="http://localhost:4000/Association%EA%B4%80%EA%B3%84" rel="alternate" type="text/html" title="Association관계" />
       <published>2023-04-25T00:00:00+09:00</published>
@@ -386,61 +550,6 @@ MVC는 대규모 응용 프로그램의 개발 및 유지 보수를 용이하게
 
       
         <summary type="html">Association 관계</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">상속(Inheritance)</title>
-      <link href="http://localhost:4000/%EC%83%81%EC%86%8D(Inheritance)" rel="alternate" type="text/html" title="상속(Inheritance)" />
-      <published>2023-04-25T00:00:00+09:00</published>
-      <updated>2023-04-25T00:00:00+09:00</updated>
-      <id>http://localhost:4000/%EC%83%81%EC%86%8D(Inheritance)</id>
-      <content type="html" xml:base="http://localhost:4000/%EC%83%81%EC%86%8D(Inheritance)">&lt;h1 id=&quot;상속-inheritance-관계&quot;&gt;상속 Inheritance 관계&lt;/h1&gt;
-
-&lt;p&gt;객체 지향 프로그램밍에서 클래스 간의 관계를 나태내는 개념 중 하나입니다.&lt;br /&gt;
-한 클래스가 &lt;strong&gt;다른 클래스에서 정의된 속성과 메서드를 상속&lt;/strong&gt;받는 것을 의미합니다.&lt;/p&gt;
-
-&lt;p&gt;상속을 받는 클래스는 기존 클래스의 모든 속성과 메서드를 상속받으며, 이를 기반으로 새로운 속성과 메서드를 추가할 수 있습니다.&lt;br /&gt;
-이를 통해 코드의 &lt;strong&gt;재사용성&lt;/strong&gt;을 높이고, 중복된 코드를 제거하여 &lt;strong&gt;코드의 유지보수성&lt;/strong&gt;을 높일 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;상속 관계에서는 &lt;strong&gt;부모 클래스&lt;/strong&gt;와 &lt;strong&gt;자식 클래스&lt;/strong&gt;라는 개념이 존재합니다.&lt;br /&gt;
-&lt;strong&gt;부모 클래스&lt;/strong&gt;는 &lt;strong&gt;상속을 제공&lt;/strong&gt;하는 클래스이며, &lt;strong&gt;자식 클래스&lt;/strong&gt;는 &lt;strong&gt;상속을 받는&lt;/strong&gt; 클래스입니다. &lt;br /&gt;
-자식 클래스는 부모 클래스의 모든 속성과 메서드를 상속받으며, 이를 통해 새로운 기능을 추가하거나 부모 클래스의 기능을 변경할 수 있습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;특징&quot;&gt;특징&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;자식 클래스는 부모 클래스의 속성과 메서드를 상속받습니다.&lt;/li&gt;
-  &lt;li&gt;자식 클래스는 부모 클래스에서 정의된 메서드를 오버라이딩(Overriding)하여 수정할 수 있습니다.&lt;/li&gt;
-  &lt;li&gt;자식 클래스는 부모 클래스에서 정의된 메서드를 호출하거나 상속된 속성을 사용할 수 있습니다.&lt;/li&gt;
-  &lt;li&gt;자식 클래스는 부모 클래스와 같은 인터페이스를 가질 수 있으며, 다형성(Polymorphism)을 구현할 수 있습니다.&lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">상속 Inheritance 관계</summary>
       
 
       
@@ -747,129 +856,6 @@ MVC는 대규모 응용 프로그램의 개발 및 유지 보수를 용이하게
     </entry>
   
     <entry>
-      <title type="html">자기 개발 기록 (2023년4월)</title>
-      <link href="http://localhost:4000/2023%EB%85%844%EC%9B%94" rel="alternate" type="text/html" title="자기 개발 기록 (2023년4월)" />
-      <published>2023-04-22T00:00:00+09:00</published>
-      <updated>2023-04-22T00:00:00+09:00</updated>
-      <id>http://localhost:4000/2023%EB%85%844%EC%9B%94</id>
-      <content type="html" xml:base="http://localhost:4000/2023%EB%85%844%EC%9B%94">&lt;h1 id=&quot;자기-개발-기록-2023년4월&quot;&gt;자기 개발 기록 (2023년4월)&lt;/h1&gt;
-
-&lt;h2 id=&quot;목적&quot;&gt;목적&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;자기 개발 기록을 통해 성과, 반성, 배울 점을 얻고 성장할 수 있도록 합니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;1주차-2023년-3월-27일&quot;&gt;1주차 2023년 3월 27일&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;한국해양브레인스토밍, 한국기상브레인스토밍, t-SNE, 힙정렬, 신용카드 사기 탐지(Kaggle)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;details&gt;
-&lt;summary&gt;&lt;span style=&quot;color:blue;font-weight:bold&quot;&gt;여기를 클릭하여 펼치기...&lt;/span&gt;&lt;/summary&gt;
-&lt;div&gt;
-    &lt;ul&gt;
-      &lt;li&gt;회사의 도메인 공부 (블로그포스팅)
-        &lt;ul&gt;
-          &lt;li&gt;한국해양브레인스토밍, 한국기상브레인스토밍&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;t-SNE (블로그포스팅)&lt;/li&gt;
-      &lt;li&gt;힙정렬 (블로그포스팅)&lt;/li&gt;
-      &lt;li&gt;신용카드 사기 탐지(Kaggle) (블로그포스팅)&lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;hr /&gt;
-  &lt;/div&gt;
-&lt;/details&gt;
-
-&lt;h2 id=&quot;2주차-2023년-4월-3일&quot;&gt;2주차 2023년 4월 3일&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Jira, 퀵정렬&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;details&gt;
-&lt;summary&gt;&lt;span style=&quot;color:blue;font-weight:bold&quot;&gt;여기를 클릭하여 펼치기...&lt;/span&gt;&lt;/summary&gt;
-&lt;div&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Jira (블로그포스팅)
-        &lt;ul&gt;
-          &lt;li&gt;회사에서 사용하는 협업툴로 Confluence와 같이 활용됩니다.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;퀵정렬 (블로그포스팅)&lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;hr /&gt;
-  &lt;/div&gt;
-&lt;/details&gt;
-
-&lt;h2 id=&quot;3주차-2023년-4월-10일&quot;&gt;3주차 2023년 4월 10일&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;공던지기, Imbalanced_data, 기수정렬&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;details&gt;
-&lt;summary&gt;&lt;span style=&quot;color:blue;font-weight:bold&quot;&gt;여기를 클릭하여 펼치기...&lt;/span&gt;&lt;/summary&gt;
-&lt;div&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Imbalanced data (블로그포스팅)&lt;/li&gt;
-      &lt;li&gt;공던지기 (블로그포스팅)&lt;/li&gt;
-      &lt;li&gt;기수정렬 (블로그포스팅)&lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;hr /&gt;
-  &lt;/div&gt;
-&lt;/details&gt;
-
-&lt;h2 id=&quot;4주차-2023년-4월-17일&quot;&gt;4주차 2023년 4월 17일&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;정보처리기사, 데이터준분석가(데이터의이해), UML다이어그램, MOM(Message Oriented Middleware), 구조적방법론, 동기_비동기, ERD, 애자일방법론, 유스케이스, 정보공학방법론, 다형성&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;details&gt;
-&lt;summary&gt;&lt;span style=&quot;color:blue;font-weight:bold&quot;&gt;여기를 클릭하여 펼치기...&lt;/span&gt;&lt;/summary&gt;
-&lt;div&gt;
-    &lt;ul&gt;
-      &lt;li&gt;정보처리기사 (블로그포스팅)
-        &lt;ul&gt;
-          &lt;li&gt;UML다이어그램, MOM(Message Oriented Middleware), 구조적방법론, 동기_비동기, ERD, 애자일방법론, 유스케이스, 정보공학방법론, 다형성&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;데이터준분석가(데이터의이해) (블로그포스팅)&lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;hr /&gt;
-  &lt;/div&gt;
-&lt;/details&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="Chan_dev_history" />
-      
-
-      
-        <summary type="html">자기 개발 기록 (2023년4월)</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
       <title type="html">자기 개발 기록 (2023년3월)</title>
       <link href="http://localhost:4000/2023%EB%85%843%EC%9B%94" rel="alternate" type="text/html" title="자기 개발 기록 (2023년3월)" />
       <published>2023-04-22T00:00:00+09:00</published>
@@ -1026,191 +1012,6 @@ MVC는 대규모 응용 프로그램의 개발 및 유지 보수를 용이하게
 
       
         <summary type="html">자기 개발 기록 (2023년3월)</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">자기 개발 기록 (2023년2월)</title>
-      <link href="http://localhost:4000/2023%EB%85%842%EC%9B%94" rel="alternate" type="text/html" title="자기 개발 기록 (2023년2월)" />
-      <published>2023-04-22T00:00:00+09:00</published>
-      <updated>2023-04-22T00:00:00+09:00</updated>
-      <id>http://localhost:4000/2023%EB%85%842%EC%9B%94</id>
-      <content type="html" xml:base="http://localhost:4000/2023%EB%85%842%EC%9B%94">&lt;h1 id=&quot;자기-개발-기록-2023년-2월&quot;&gt;자기 개발 기록 (2023년 2월)&lt;/h1&gt;
-
-&lt;h2 id=&quot;목적&quot;&gt;목적&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;자기 개발 기록을 통해 성과, 반성, 배울 점을 얻고 성장할 수 있도록 합니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;1주차-2023년-1월-31일&quot;&gt;1주차 2023년 1월 31일&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;스터디(카페), Supervised Learning with scikit-learn, 머신러닝 워크플로우, 깃허브 블로그 업로드 자동화&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;details&gt;
-&lt;summary&gt;&lt;span style=&quot;color:blue;font-weight:bold&quot;&gt;여기를 클릭하여 펼치기...&lt;/span&gt;&lt;/summary&gt;
-&lt;div&gt;
-    &lt;ul&gt;
-      &lt;li&gt;스터디
-        &lt;ul&gt;
-          &lt;li&gt;취업 준비를 위한 이력서, 면접, 공부를 위한 스터디를 당근에서 같이 스터디 할 사람을 구해서 카페에서 공부를 했습니다.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Supervised Learning with scikit-learn
-        &lt;ul&gt;
-          &lt;li&gt;데이터캠프 - Machine Learning Scientist with Python&lt;/li&gt;
-          &lt;li&gt;1년동안 잊어버려 다시 공부하면서 공부 흐름을 찾는 데 쉽지 않았습니다. 특히 영어…&lt;/li&gt;
-          &lt;li&gt;Clustering for Dataset Exploration&lt;/li&gt;
-          &lt;li&gt;Visualization with Hierarchical Clustering and t-SNE&lt;/li&gt;
-          &lt;li&gt;Decorrelating Your Data and Dimension Reduction&lt;/li&gt;
-          &lt;li&gt;Discovering Interpretable Feature&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;머신러닝 워크플로우(블로그포스팅)
-        &lt;ul&gt;
-          &lt;li&gt;자연어처리입문&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;깃허브 블로그 업로드 자동화
-        &lt;ul&gt;
-          &lt;li&gt;기존에 해놓은 자동화는 본체에서 했었는데 노트북으로 전체 과정을 옮기면서 노트북에서 ipynb을 블로그에 포스팅 할 수 있도록 해놓았습니다.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;hr /&gt;
-  &lt;/div&gt;
-&lt;/details&gt;
-
-&lt;h2 id=&quot;2주차-2023년-2월-6일&quot;&gt;2주차 2023년 2월 6일&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;이력 신청 가능 회사, 서포트 벡터 머신, 머신러닝 엔지니어 자격요건, 내적연산, 유클리드 공간, Unsupervised Learning in Python&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;details&gt;
-&lt;summary&gt;&lt;span style=&quot;color:blue;font-weight:bold&quot;&gt;여기를 클릭하여 펼치기...&lt;/span&gt;&lt;/summary&gt;
-&lt;div&gt;
-    &lt;ul&gt;
-      &lt;li&gt;이력 신청 가능 회사에 대해 공부를 하면서 요즘 어떤 회사들이 있고 어떤 아이템들이 존재하고 위치는 어디쪽에 모여있는 등의 회사 정보들을 얻었습니다.(블로그포스팅)
-        &lt;ul&gt;
-          &lt;li&gt;RIDI, 에이아이스페라, 데이터비, 애크미랩, 이노룰스, 한국해양기상기술, 코난테크놀로지&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;서포트 벡터 머신(블로그포스팅)&lt;/li&gt;
-      &lt;li&gt;머신러닝 엔지니어 자격요건
-        &lt;ul&gt;
-          &lt;li&gt;채용공고를 보면서 어떤 자격을 요구하는지 정리했습니다.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;내적연산(블로그포스팅)&lt;/li&gt;
-      &lt;li&gt;유클리드공간(블로그포스팅)&lt;/li&gt;
-      &lt;li&gt;Unsupervised Learning with python
-        &lt;ul&gt;
-          &lt;li&gt;데이터캠프 - Machine Learning Scientist with Python&lt;/li&gt;
-          &lt;li&gt;Classification&lt;/li&gt;
-          &lt;li&gt;Regression&lt;/li&gt;
-          &lt;li&gt;Fine-Tuning Your Model&lt;/li&gt;
-          &lt;li&gt;Preprocessing and Pipelines&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;hr /&gt;
-  &lt;/div&gt;
-&lt;/details&gt;
-
-&lt;h2 id=&quot;3주차-2023년-2월-13일&quot;&gt;3주차 2023년 2월 13일&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;이력 신청 가능 회사, 로지스틱회귀, 결정경계, 선형분류, 손실함수, Linear Classifier in Python&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;details&gt;
-&lt;summary&gt;&lt;span style=&quot;color:blue;font-weight:bold&quot;&gt;여기를 클릭하여 펼치기...&lt;/span&gt;&lt;/summary&gt;
-&lt;div&gt;
-    &lt;ul&gt;
-      &lt;li&gt;이력 신청 가능 회사에 대해 공부를 하면서 요즘 어떤 회사들이 있고 어떤 아이템들이 존재하고 위치는 어디쪽에 모여있는 등의 회사 정보들을 얻었습니다.(블로그포스팅)
-        &lt;ul&gt;
-          &lt;li&gt;비즈데이터, 인사이저, 아크릴, 노리스페이스, 마키나락스&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;로지스틱회귀(블로그포스팅)&lt;/li&gt;
-      &lt;li&gt;결정경계(블로그포스팅)&lt;/li&gt;
-      &lt;li&gt;선형분류(블로그포스팅)&lt;/li&gt;
-      &lt;li&gt;손실함수(블로그포스팅)&lt;/li&gt;
-      &lt;li&gt;Linear Classifier in Python
-        &lt;ul&gt;
-          &lt;li&gt;데이터캠프&lt;/li&gt;
-          &lt;li&gt;Machine Learning Scientist with Python&lt;/li&gt;
-          &lt;li&gt;Applying logistic regression and SVM&lt;/li&gt;
-          &lt;li&gt;Loss functions&lt;/li&gt;
-          &lt;li&gt;Logistic regression&lt;/li&gt;
-          &lt;li&gt;Support Vector Machines&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;hr /&gt;
-  &lt;/div&gt;
-&lt;/details&gt;
-
-&lt;h2 id=&quot;4주차-2023년-2월-20일&quot;&gt;4주차 2023년 2월 20일&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;이력 신청 가능 회사, 비지도학습, 지도학습, 의사결정트리, Machine Learning with Tree-Based Models in Python&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;details&gt;
-&lt;summary&gt;&lt;span style=&quot;color:blue;font-weight:bold&quot;&gt;여기를 클릭하여 펼치기...&lt;/span&gt;&lt;/summary&gt;
-&lt;div&gt;
-    &lt;ul&gt;
-      &lt;li&gt;이력 신청 가능 회사에 대해 공부를 하면서 요즘 어떤 회사들이 있고 어떤 아이템들이 존재하고 위치는 어디쪽에 모여있는 등의 회사 정보들을 얻었습니다. (블로그포스팅)
-        &lt;ul&gt;
-          &lt;li&gt;액션파워, 엔텔스, 웨인힐스벤처스&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;비지도학습(블로그포스팅)&lt;/li&gt;
-      &lt;li&gt;의사결정트리(블로그포스팅)&lt;/li&gt;
-      &lt;li&gt;Machine Learning with Tree-Based Models in Python
-        &lt;ul&gt;
-          &lt;li&gt;데이터캠프 - Machine Learning Scientist with Python&lt;/li&gt;
-          &lt;li&gt;Classification and Regression Trees&lt;/li&gt;
-          &lt;li&gt;The Bias-Variance Treadeoff&lt;/li&gt;
-          &lt;li&gt;Bagging and Random Forests&lt;/li&gt;
-          &lt;li&gt;Boosting&lt;/li&gt;
-          &lt;li&gt;Model Tuning&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;hr /&gt;
-  &lt;/div&gt;
-&lt;/details&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="Chan_dev_history" />
-      
-
-      
-        <summary type="html">자기 개발 기록 (2023년 2월)</summary>
       
 
       
