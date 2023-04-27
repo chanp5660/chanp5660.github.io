@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/author/chanp5660/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-04-28T00:51:45+09:00</updated>
+  <updated>2023-04-28T01:08:32+09:00</updated>
   <id>http://localhost:4000/author/chanp5660/feed.xml</id>
 
   
@@ -104,6 +104,86 @@
     </entry>
   
     <entry>
+      <title type="html">SQL 집계함수</title>
+      <link href="http://localhost:4000/SQL%EC%A7%91%EA%B3%84%ED%95%A8%EC%88%98" rel="alternate" type="text/html" title="SQL 집계함수" />
+      <published>2023-04-28T00:00:00+09:00</published>
+      <updated>2023-04-28T00:00:00+09:00</updated>
+      <id>http://localhost:4000/SQL%EC%A7%91%EA%B3%84%ED%95%A8%EC%88%98</id>
+      <content type="html" xml:base="http://localhost:4000/SQL%EC%A7%91%EA%B3%84%ED%95%A8%EC%88%98">&lt;h1 id=&quot;sql-집계함수-aggregate-function&quot;&gt;SQL 집계함수 (aggregate function)&lt;/h1&gt;
+
+&lt;p&gt;데이터베이스에서 데이터를 검색하고 집계하여 요약 정보를 제공하는 함수입니다.&lt;br /&gt;
+집계 함수는 데이터를 그룹화하고, 각 그룹에 대한 집계 값을 계산합니다.&lt;br /&gt;
+일반적으로 GROUP BY 구문과 함께 사용됩니다.&lt;/p&gt;
+
+&lt;p&gt;집계함수는 데이터를 검색하고 요약하는 데 매우 유용합니다.&lt;br /&gt;
+그룹화된 데이터의 평균, 합계, 최대값, 최소값 등을 계산할 수 있으며, 이를 활용하여 보고서나 대시보드 등을 작성하는 데 사용될 수 있습니다.&lt;/p&gt;
+
+&lt;h1 id=&quot;종류&quot;&gt;종류&lt;/h1&gt;
+
+&lt;h2 id=&quot;sum-함수&quot;&gt;SUM 함수&lt;/h2&gt;
+
+&lt;p&gt;주어진 열의 모든 값의 합계를 반환합니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SELECT SUM(sales) FROM orders;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;count-함수&quot;&gt;COUNT 함수&lt;/h2&gt;
+
+&lt;p&gt;주어진 열의 모든 값의 개수를 반환합니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SELECT COUNT(*) FROM cutomers;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;avg-함수&quot;&gt;AVG 함수&lt;/h2&gt;
+
+&lt;p&gt;주어진 열의 모든 값의 평균 값을 반환합니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SELECT AVG(price) FROM products;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;max-함수&quot;&gt;MAX 함수&lt;/h2&gt;
+
+&lt;p&gt;주어진 열의 최대 값을 반환합니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SELECT MAX(salary) FROM employees;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;min-함수&quot;&gt;MIN 함수&lt;/h2&gt;
+
+&lt;p&gt;주어진 열의 최소 값을 반환합니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SELECT MIN(price) FROM products;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">SQL 집계함수 (aggregate function)</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">암묵지와 형식지</title>
       <link href="http://localhost:4000/%EC%95%94%EB%AC%B5%EC%A7%80%EC%99%80%ED%98%95%EC%8B%9D%EC%A7%80" rel="alternate" type="text/html" title="암묵지와 형식지" />
       <published>2023-04-28T00:00:00+09:00</published>
@@ -132,7 +212,13 @@
 
 &lt;p&gt;또한, 상호작용을 통해 새로운 지식을 생성할 수 있습니다.&lt;br /&gt;
 이를 지식 창출(knowledge creation)이라고 합니다.&lt;br /&gt;
-예를 들어, 자전거를 타는 방법을 고민하다가 암묵지인 자전거를 타면서 발생하는 느낌과 형식지인 자전거 전문가의 조언을 결합하여 새로운 방법을 찾는 것입니다.&lt;/p&gt;</content>
+예를 들어, 자전거를 타는 방법을 고민하다가 암묵지인 자전거를 타면서 발생하는 느낌과 형식지인 자전거 전문가의 조언을 결합하여 새로운 방법을 찾는 것입니다.&lt;/p&gt;
+
+&lt;h1 id=&quot;상호작용-관계&quot;&gt;상호작용 관계&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;내면화(암묵지) -&amp;gt; 연결화(형식지) -&amp;gt; 표출화(형식지) -&amp;gt; 공통화(암묵지)&lt;/li&gt;
+&lt;/ul&gt;</content>
 
       
       
@@ -871,169 +957,6 @@ MVC는 대규모 응용 프로그램의 개발 및 유지 보수를 용이하게
 
       
         <summary type="html">정보처리기사 기출문제 부시기 20220424</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">자기 개발 기록 (2023년3월)</title>
-      <link href="http://localhost:4000/2023%EB%85%843%EC%9B%94" rel="alternate" type="text/html" title="자기 개발 기록 (2023년3월)" />
-      <published>2023-04-22T00:00:00+09:00</published>
-      <updated>2023-04-22T00:00:00+09:00</updated>
-      <id>http://localhost:4000/2023%EB%85%843%EC%9B%94</id>
-      <content type="html" xml:base="http://localhost:4000/2023%EB%85%843%EC%9B%94">&lt;h1 id=&quot;자기-개발-기록-2023년3월&quot;&gt;자기 개발 기록 (2023년3월)&lt;/h1&gt;
-
-&lt;h2 id=&quot;목적&quot;&gt;목적&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;자기 개발 기록을 통해 성과, 반성, 배울 점을 얻고 성장할 수 있도록 합니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;1주차-2023년-2월-27일&quot;&gt;1주차 2023년 2월 27일&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;스터디카페, 면접, 문자열뒤집기, 문자열 압축, 문자열처리, 모듈_라이브러리_프레임워크, factions Fraction, math gcd, 깊이우선탐색, 너비우선탐색, 문자열매칭, 문자열비교, 문자열에서 숫자 추출, 문자열 회전, 분수의 덧셈, 버블정렬, 삽입정렬, 최빈값 구하기, Hash, 선택정렬, 선형회귀, 병합정렬, ChatGPT, ChatGPT(python), Notion, Slack, 공공데이터, 추천시스템 필터링&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;details&gt;
-&lt;summary&gt;&lt;span style=&quot;color:blue;font-weight:bold&quot;&gt;여기를 클릭하여 펼치기...&lt;/span&gt;&lt;/summary&gt;
-&lt;div&gt;
-    &lt;ul&gt;
-      &lt;li&gt;스터디카페
-        &lt;ul&gt;
-          &lt;li&gt;현재 사는 곳 지하에 자리 넓고 노트북 치기에도 부담되지 않은 음아존이 있는 스터디카페가 있어서 정액권을 끊고 공부를 했습니다.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;면접
-        &lt;ul&gt;
-          &lt;li&gt;준비는 부족하지만 어떤 준비를 해야하는지 알기 위해서 면접을 통해 질문을 받고 해당 질문을 기록하여 다음 면접을 대비했습니다.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;알고리즘(코딩테스트)(블로그포스팅)
-        &lt;ul&gt;
-          &lt;li&gt;문자열뒤집기, 문자열 압축, 문자열처리, 깊이우선탐색, 너비우선탐색, 문자열매칭, 문자열비교, 문자열에서 숫자 추출, 문자열 회전, 분수의 덧셈, 버블정렬, 삽입정렬, 최빈값 구하기, Hash, 선택정렬, 선형회귀, 병합정렬&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Python(블로그포스팅)
-        &lt;ul&gt;
-          &lt;li&gt;factions Fraction, math gcd&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;ChatGPT, ChatGPT(python) (블로그포스팅)&lt;/li&gt;
-      &lt;li&gt;Notion(블로그포스팅)&lt;/li&gt;
-      &lt;li&gt;Slack(블로그포스팅)&lt;/li&gt;
-      &lt;li&gt;공공데이터(블로그포스팅)&lt;/li&gt;
-      &lt;li&gt;추천시스템 필터링(블로그포스팅)&lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;hr /&gt;
-  &lt;/div&gt;
-&lt;/details&gt;
-
-&lt;h2 id=&quot;2주차-2023년-3월-6일&quot;&gt;2주차 2023년 3월 6일&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;HTML 토글 설정, HTML 페이지 내 이동, XGBoosting, HTML DataFrame 출력 조절, Python Warning 무시, 파이썬에서 파일경로 찾기, GradientDescent, HTML입력, Kaggle, Attention, SVD, whiten, 메타인지, KMeanscluster, FinanceDataReader, 코스피코스닥, 순서정하기, 주식투자-수집, 주식 투자&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;details&gt;
-&lt;summary&gt;&lt;span style=&quot;color:blue;font-weight:bold&quot;&gt;여기를 클릭하여 펼치기...&lt;/span&gt;&lt;/summary&gt;
-&lt;div&gt;
-    &lt;ul&gt;
-      &lt;li&gt;HTML(블로그포스팅)
-        &lt;ul&gt;
-          &lt;li&gt;HTML 토글 설정, HTML 페이지 내 이동, HTML DataFrame 출력 조절, HTML 입력&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;머신러닝(블로그포스팅)
-        &lt;ul&gt;
-          &lt;li&gt;XGBoosting, Attention, SVD, GradientDescent, whiten, KMeanscluster&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Python Warning 무시(블로그포스팅)&lt;/li&gt;
-      &lt;li&gt;파이썬에서 파일경로 찾기(블로그포스팅)&lt;/li&gt;
-      &lt;li&gt;Kaggle(블로그포스팅)&lt;/li&gt;
-      &lt;li&gt;토이프로젝트(블로그포스팅)
-        &lt;ul&gt;
-          &lt;li&gt;주식 투자, 주식투자-수집, 코스피코스닥, FinanceDataReader&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;코딩테스트(블로그포스팅)&lt;/li&gt;
-      &lt;li&gt;순서정하기&lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;hr /&gt;
-  &lt;/div&gt;
-&lt;/details&gt;
-
-&lt;h2 id=&quot;3주차-2023년-3월-13일&quot;&gt;3주차 2023년 3월 13일&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;이력 신청 가능 회사, Stop Words, TF-IDF, PyMySQL&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;details&gt;
-&lt;summary&gt;&lt;span style=&quot;color:blue;font-weight:bold&quot;&gt;여기를 클릭하여 펼치기...&lt;/span&gt;&lt;/summary&gt;
-&lt;div&gt;
-    &lt;ul&gt;
-      &lt;li&gt;이력 신청 가능 회사에 대해 공부를 하면서 요즘 어떤 회사들이 있고 어떤 아이템들이 존재하고 위치는 어디쪽에 모여있는 등의 회사 정보들을 얻었습니다. (블로그포스팅)
-        &lt;ul&gt;
-          &lt;li&gt;디메타&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Stop Words(블로그포스팅)&lt;/li&gt;
-      &lt;li&gt;TF-IDF(블로그포스팅)&lt;/li&gt;
-      &lt;li&gt;PyMySQL(블로그포스팅)&lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;hr /&gt;
-  &lt;/div&gt;
-&lt;/details&gt;
-
-&lt;h2 id=&quot;4주차-2023년-3월-20일&quot;&gt;4주차 2023년 3월 20일&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;날짜시간(Pandas), 날짜시간(datetime), 청년주거정책&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;details&gt;
-&lt;summary&gt;&lt;span style=&quot;color:blue;font-weight:bold&quot;&gt;여기를 클릭하여 펼치기...&lt;/span&gt;&lt;/summary&gt;
-&lt;div&gt;
-    &lt;ul&gt;
-      &lt;li&gt;청년주거정책(블로그포스팅)
-        &lt;ul&gt;
-          &lt;li&gt;서울에 살려면 집을 구하려면 필요한 정보입니다.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;날짜시간(블로그포스팅)
-        &lt;ul&gt;
-          &lt;li&gt;Pandas&lt;/li&gt;
-          &lt;li&gt;datetime&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;hr /&gt;
-  &lt;/div&gt;
-&lt;/details&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="Chan_dev_history" />
-      
-
-      
-        <summary type="html">자기 개발 기록 (2023년3월)</summary>
       
 
       
