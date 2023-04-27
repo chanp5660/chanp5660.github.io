@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/til/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-04-27T23:42:40+09:00</updated>
+  <updated>2023-04-27T23:44:21+09:00</updated>
   <id>http://localhost:4000/tag/til/feed.xml</id>
 
   
@@ -674,7 +674,9 @@ MVC는 대규모 응용 프로그램의 개발 및 유지 보수를 용이하게
 [해설작성자 : 여름]&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;내 공부&lt;/strong&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;strong&gt;내 공부&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://chanp5660.github.io/MVC(Model_View_Controller)&quot;&gt;&lt;strong&gt;MVC&lt;/strong&gt;&lt;/a&gt; 란?&lt;/p&gt;</content>
 
       
       
