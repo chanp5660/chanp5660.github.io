@@ -1,10 +1,43 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-04-27T01:17:18+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">영어계획</title><link href="http://localhost:4000/%EC%98%81%EC%96%B4%EA%B3%84%ED%9A%8D" rel="alternate" type="text/html" title="영어계획" /><published>2023-04-27T00:00:00+09:00</published><updated>2023-04-27T00:00:00+09:00</updated><id>http://localhost:4000/%EC%98%81%EC%96%B4%EA%B3%84%ED%9A%8D</id><content type="html" xml:base="http://localhost:4000/%EC%98%81%EC%96%B4%EA%B3%84%ED%9A%8D">&lt;h1 id=&quot;영어계획&quot;&gt;영어계획&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-04-27T23:42:40+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">영어계획</title><link href="http://localhost:4000/%EC%98%81%EC%96%B4%EA%B3%84%ED%9A%8D" rel="alternate" type="text/html" title="영어계획" /><published>2023-04-27T00:00:00+09:00</published><updated>2023-04-27T00:00:00+09:00</updated><id>http://localhost:4000/%EC%98%81%EC%96%B4%EA%B3%84%ED%9A%8D</id><content type="html" xml:base="http://localhost:4000/%EC%98%81%EC%96%B4%EA%B3%84%ED%9A%8D">&lt;h1 id=&quot;영어계획&quot;&gt;영어계획&lt;/h1&gt;
 
 &lt;p&gt;chatgpt를 이용하여 영어를 배웁니다.&lt;br /&gt;
 그 과정을 블로그에 기록합니다.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=rGcRb_YNs_M&amp;amp;list=LL&amp;amp;index=11&quot;&gt;영어 구동사 암기하지 않아도 돼요 💥 이제 Chat GPT로 뇌에 새기세요 [3step 공부법]&lt;/a&gt;
-&lt;a href=&quot;https://www.youtube.com/watch?v=n_zhNMrNZI0&quot;&gt;ChatGPT와 회화 연습 시 99%가 몰라서 놓치는 최적의 세팅법&lt;/a&gt;&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="English" /><summary type="html">영어계획</summary></entry><entry><title type="html">GOF(Gang of Four)</title><link href="http://localhost:4000/GoF(Gang_of_Four)" rel="alternate" type="text/html" title="GOF(Gang of Four)" /><published>2023-04-27T00:00:00+09:00</published><updated>2023-04-27T00:00:00+09:00</updated><id>http://localhost:4000/GoF(Gang_of_Four)</id><content type="html" xml:base="http://localhost:4000/GoF(Gang_of_Four)">&lt;h1 id=&quot;gof-gang-of-four&quot;&gt;GOF (Gang of Four)&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=rGcRb_YNs_M&amp;amp;list=LL&amp;amp;index=11&quot;&gt;영어 구동사 암기하지 않아도 돼요 💥 이제 Chat GPT로 뇌에 새기세요 [3step 공부법]&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.youtube.com/watch?v=n_zhNMrNZI0&quot;&gt;ChatGPT와 회화 연습 시 99%가 몰라서 놓치는 최적의 세팅법&lt;/a&gt;&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="English" /><summary type="html">영어계획</summary></entry><entry><title type="html">MVC(Model View Controller)</title><link href="http://localhost:4000/MVC(Model_View_Controller)" rel="alternate" type="text/html" title="MVC(Model View Controller)" /><published>2023-04-27T00:00:00+09:00</published><updated>2023-04-27T00:00:00+09:00</updated><id>http://localhost:4000/MVC(Model_View_Controller)</id><content type="html" xml:base="http://localhost:4000/MVC(Model_View_Controller)">&lt;h1 id=&quot;mvcmodel-view-controller&quot;&gt;MVC(Model View Controller)&lt;/h1&gt;
+
+&lt;p&gt;소프트웨어 아키텍처 모델 중 하나로, 사용자 인터페이스와 애플리케이션 데이터와의 상호작용을 관리하는데 사용됩니다. &lt;br /&gt;
+MVC는 대규모 응용 프로그램의 개발 및 유지 보수를 용이하게 하며, 유연성과 확장성을 제공합니다.&lt;/p&gt;
+
+&lt;p&gt;MVC 모델에서 뷰와 모델은 서로에 대해 알지 못하며, 컨트롤러가 중개자 역할을 수행합니다.&lt;br /&gt;
+이는 뷰와 모델 간의 결합도를 낮추어 애플리케이션의 유지 보수 및 확장성을 높이는데 큰 도움을 줍니다. &lt;br /&gt;
+또한, 하나의 모델에 여러 개의 뷰를 연결할 수 있으므로, MVC는 유연성이 뛰어나고 재사용성이 높은 아키텍처 모델입니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;구성-요소&quot;&gt;구성 요소&lt;/h2&gt;
+
+&lt;h3 id=&quot;model&quot;&gt;Model&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;모델은 애플리케이션 데이터와 관련된 부분입니다.&lt;/li&gt;
+  &lt;li&gt;데이터를 표현하고, 데이터를 읽고 쓰는 작업을 수행합니다.&lt;/li&gt;
+  &lt;li&gt;비즈니스 로직을 포함하고, 데이터에 대한 유효성 검사와 같은 중요한 작업을 수행합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;view&quot;&gt;View&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;뷰는 사용자 인터페이스의 시각적인 부분입니다.&lt;/li&gt;
+  &lt;li&gt;사용자가 보는 모든 것을 담당하며, 사용자가 애플리케이션에서 수행하는 작업을 제어합니다.&lt;/li&gt;
+  &lt;li&gt;예를 들아, 뷰는 사용자에게 데이터를 표시하고, 사용자의 입력을 수신하여 애플리케이션의 상태를 변경합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;controller&quot;&gt;Controller&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;컨트롤러는 뷰와 모델 사이의 중개자 역할을 합니다.&lt;/li&gt;
+  &lt;li&gt;사용자의 입력을 받고, 이를 모델에 전달합니다.&lt;/li&gt;
+  &lt;li&gt;그리고 모델이 새로운 데이터를 반환하면, 컨트롤러는 해당 데이터를 뷰에 전달하여 사용자 인터페이스를 업데이트합니다.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">MVC(Model View Controller)</summary></entry><entry><title type="html">GOF(Gang of Four)</title><link href="http://localhost:4000/GoF(Gang_of_Four)" rel="alternate" type="text/html" title="GOF(Gang of Four)" /><published>2023-04-27T00:00:00+09:00</published><updated>2023-04-27T00:00:00+09:00</updated><id>http://localhost:4000/GoF(Gang_of_Four)</id><content type="html" xml:base="http://localhost:4000/GoF(Gang_of_Four)">&lt;h1 id=&quot;gof-gang-of-four&quot;&gt;GOF (Gang of Four)&lt;/h1&gt;
 
 &lt;p&gt;GOF 디자인 패턴은 일종의 설계 템플릿으로서, 소프트웨어 개발에서 자주 발생하는 문제들을 해결하는 방법을 정리한 것으로 소프트웨어 개발자들 사이에서 일종의 공통 언어로서 사용됩니다.&lt;br /&gt;
 디자인 패턴의 근간을 이루는 책인 ‘Design Patterns: Elements of Reusable Object-Oriented Software’에서 제안되었습니다.&lt;/p&gt;
@@ -275,7 +308,7 @@
   &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/컴포넌트&quot;&gt;&lt;strong&gt;컴포넌트&lt;/strong&gt;&lt;/a&gt;란?&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;15gofgans-of-four-디자인-패턴을-생성-구조-행동-패턴의-세-그룹으로-분류할-때-구조-패턴이-아닌-것은&quot;&gt;15.GoF(Gans of Four) 디자인 패턴을 생성, 구조, 행동 패턴의 세 그룹으로 분류할 때, 구조 패턴이 아닌 것은?&lt;/h2&gt;
+&lt;h2 id=&quot;15-gofgans-of-four-디자인-패턴을-생성-구조-행동-패턴의-세-그룹으로-분류할-때-구조-패턴이-아닌-것은&quot;&gt;15. GoF(Gans of Four) 디자인 패턴을 생성, 구조, 행동 패턴의 세 그룹으로 분류할 때, 구조 패턴이 아닌 것은?&lt;/h2&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Adapter 패턴&lt;/li&gt;
@@ -294,14 +327,141 @@
   &lt;li&gt;데코레이터&lt;/li&gt;
   &lt;li&gt;퍼싸트&lt;/li&gt;
   &lt;li&gt;플라이웨이트&lt;/li&gt;
-  &lt;li&gt;프록시&lt;br /&gt;
-[해설작성자 : 아기재혁]&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;프록시&lt;br /&gt;
+[해설작성자 : 아기재혁]&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;생성패턴 : 객체를 생성하는 것에 대한 패턴
+    &lt;ul&gt;
+      &lt;li&gt;추상 팩토리 패턴(abstract factory), 빌더 패턴(builder), 팩토리 메소드 패턴(factory method), 프로토타입 패턴(prototype), 싱글톤(singleton)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;구조패턴 : 구조를 통해 확장성을 꾀하는 패턴
+    &lt;ul&gt;
+      &lt;li&gt;어댑터 패턴(adapter), 브릿지 패턴(bridge), 컴포지트 패턴(composite), 데코레이트 패턴(decorator), 퍼사드 패턴(facade), 플라이웨잇 패턴(flyseight), 프록시 패턴(proxy)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;행위 패턴 : 행위의 변경, 수정 등을 위한 패턴
+    &lt;ul&gt;
+      &lt;li&gt;역할 사슬 패턴(책임 연쇄, chain of reposibility), 커맨드 패턴(command), 인터프리터 패턴(interpreter), 이터레이터 패턴(반복자, iterator), 미디에이터 패턴(중재자, mediator), 메멘토 패턴(memento), 옵저버 패턴(observer), 상태 패턴(state), 전략 패턴(strategy), 템플릿 메소드 패턴(templete method), 비지터 패턴(방문자, visitor)&lt;br /&gt;
+[해설작성자 : ㅈㅇㅎ]&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;내 공부&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/GoF(Gang_of_Four)&quot;&gt;&lt;strong&gt;GoF&lt;/strong&gt;&lt;/a&gt; 란?&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">정보처리기사 기출문제 부시기 20220424</summary></entry><entry><title type="html">자기 개발 기록 (2023년4월)</title><link href="http://localhost:4000/2023%EB%85%844%EC%9B%94" rel="alternate" type="text/html" title="자기 개발 기록 (2023년4월)" /><published>2023-04-22T00:00:00+09:00</published><updated>2023-04-22T00:00:00+09:00</updated><id>http://localhost:4000/2023%EB%85%844%EC%9B%94</id><content type="html" xml:base="http://localhost:4000/2023%EB%85%844%EC%9B%94">&lt;h1 id=&quot;자기-개발-기록-2023년4월&quot;&gt;자기 개발 기록 (2023년4월)&lt;/h1&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;16-ui와-관련된-기본-개념-중-하나로-시스템의-상태와-사용자의-지시에-대한-효과를-보여주어-사용자가-명령에-대한-진행-상황과-표시된-내용을-해석할-수-있도록-도와주는-것은&quot;&gt;16. UI와 관련된 기본 개념 중 하나로, 시스템의 상태와 사용자의 지시에 대한 효과를 보여주어 사용자가 명령에 대한 진행 상황과 표시된 내용을 해석할 수 있도록 도와주는 것은?&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Feedback&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Posture&lt;/li&gt;
+  &lt;li&gt;Module&lt;/li&gt;
+  &lt;li&gt;Hash&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;문제 해설&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;피드백(feedback) : 처리된 결과를 측정하고 목표에 도달되었는가를 검사하며 불충분할 경우 다시 입력하는 요소&lt;br /&gt;
+[해설작성자 : 내일시험임..]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;내 공부&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;자세(Posture) : UI 디자인에서 Posture는 UI 요소들 간의 배치와 상호작용 방법을 의미합니다. 즉, UI 요소들이 화면 상에서 어떻게 위치하고, 어떤 기능을 수행하는지에 대한 전반적인 디자인 컨셉을 의미합니다.&lt;/li&gt;
+  &lt;li&gt;모듈(Module) : UI 디자인에서 Module은 하나 이상의 기능을 수행하는 UI 요소들의 집합입니다. 이러한 모듈은 독립적으로 사용될 수 있으며, 다른 모듈과 결합하여 더 복잡한 IO 디자인을 구성할 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;해시(Hash) : UI 디자인과는 직접적인 관련이 없는 개념입니다. 해시는 데이터를 고정된 길이의 값으로 매핑하는 함수를 의미합니다. 예를 들어, 암호화와 검색 알고리즘에서 널리 사용됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;17-ui의-종류로-멀티-터치multi-touch-동작-인식gesture-recognition-등-사용자의-자연스러운-움직임을-인식하여-서로-주고-받는-정보를-제공하는-사용자-인터페이스를-의미하는-것은&quot;&gt;17. UI의 종류로 멀티 터치(Multi-touch), 동작 인식(Gesture Recognition) 등 사용자의 자연스러운 움직임을 인식하여 서로 주고 받는 정보를 제공하는 사용자 인터페이스를 의미하는 것은?&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;GUI(Graphical User Interface)&lt;/li&gt;
+  &lt;li&gt;OUI(Organic User Interface)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;NUI(Natural User Interface)&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;CLI(Command Line Interface)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;문제 해설&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;사용자 인터페이스(UI, User Interface)의 구분
+    &lt;ul&gt;
+      &lt;li&gt;CLI(Command Line Interface) : 텍스트 형태 인터페이스&lt;/li&gt;
+      &lt;li&gt;GUI(Graphical User Interface) : 마우스로 선택하여 작업하는 그래픽 환경 인터페이스&lt;/li&gt;
+      &lt;li&gt;NUI(Nature User Interface) : 사용자의 말이나 행동으로 기기 조작하는 인터페이스&lt;/li&gt;
+      &lt;li&gt;OUI(Organic User Interface) : 모든 사물과 사용자 간의 상호작용을 위한 인터페이스&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[해설작성자 : 밤진]&lt;/p&gt;
+
+&lt;h2 id=&quot;18-소프트웨어-모델링과-관련한-설명으로-틀린-것은&quot;&gt;18. 소프트웨어 모델링과 관련한 설명으로 &lt;em&gt;틀린&lt;/em&gt; 것은?&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;모델링 작업의 결과물은 다른 모델링 작업에 영향을 줄 수 없다.&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;구조적 방법론에서는 DFD(Data Flow Diagram), DD(Data Dictionary) 등을 사용하여 요구 사항의 결과를 표현한다.&lt;/li&gt;
+  &lt;li&gt;객체지향 방법론에서는 UML 표기법을 사용한다.&lt;/li&gt;
+  &lt;li&gt;소프트웨어 모델을 사용할 경우 개발될 소프트웨어에 대한 이해도 및 이해 당사자 간의 의사소통 향상에 도움이 된다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;문제 해설&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;모델링 작업의 결과물은 다른 모델링 작업에 영향을 줄 수 있음.&lt;/li&gt;
+  &lt;li&gt;예) 유스케이스 명세로부터 필요한 요소들을 가져와 도메인 모델로 정리할 수 있음.&lt;br /&gt;
+[해설 작성자 : 이예림]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;19-유스케이스-다이어그램use-case-diagram에-관련된-내용으로-틀린-것은&quot;&gt;19. 유스케이스 다이어그램(Use Case Diagram)에 관련된 내용으로 &lt;em&gt;틀린&lt;/em&gt; 것은?&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;시스템과 상호작용하는 외부시스템은 액터로 파악해서는 안된다.&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;유스케이스는 사용자 측면에서의 요구사항으로, 사용자가 원하는 목표를 달성하기 위해 수행할 내용을 기술한다.&lt;/li&gt;
+  &lt;li&gt;시스템 액터는 다른 프로젝트에서 이미 개발되어 사용되고 있으며, 본 시스템과 데이터를 주고받는 등 서로 연동되는 시스템을 말한다.&lt;/li&gt;
+  &lt;li&gt;액터가 인식할 수 없는 시스템 내부의 기능을 하나의 유스케이스로 파악해서는 안된다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;문제 해설&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;액터 : 시스템과 상호작용하는 모든 것(사람, 기계, 시스템 등)&lt;br /&gt;
+[해설작성자 : 칼방이]&lt;/li&gt;
+  &lt;li&gt;액터 : 시스템과 상호작용하는 모든 외부요소로, 사람이나 외부 시스템을 의미함&lt;br /&gt;
+[해설작성자 : comcbt.com 이용자]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;내 공부&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/유스케이스&quot;&gt;&lt;strong&gt;유스케이스&lt;/strong&gt;&lt;/a&gt; 란?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;20-소프트웨어-아키텍처-모델-중-mvcmodel-view-controller와-관련한-설명으로-틀린-것은&quot;&gt;20. 소프트웨어 아키텍처 모델 중 MVC(Model-View-Controller)와 관련한 설명으로 &lt;em&gt;틀린&lt;/em&gt; 것은?&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;MVC 모델은 사용자 인터페이스를 담당하는 계층의 응집도를 높일 수 있고, 여러 개의 다른 UI를 만들어 그 사이에 결합도를 낮출 수 있다.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;모델(Model)은 뷰(View)와 제어(Controller) 사이에서 전달자 역할을 하며, 뷰마다 모델 서브시스템이 각각 하나씩 연결된다.&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;뷰(View)는 모델(Model)에 있는 데이터를 사용자 인터페이스에 보이는 역할을 담당한다.&lt;/li&gt;
+  &lt;li&gt;제어(Controller)는 모델(Model)에 명령을 보냄으로써 모델의 상태를 변경할 수 있다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;문제 해설&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;한개의 모델에 대해 여러 개의 뷰를 만들 수 있음&lt;br /&gt;
+[해설작성자 : 밤진]&lt;/li&gt;
+  &lt;li&gt;모델은 서브 시스템의 핵심 기능과 데이터를 보관하며 MVC 패턴에서는 여러 개의 뷰를 만들 수 있으므로 한 개의 모델에 대해 여러 개의 뷰를 필요로 하는 대화형 어플리케이션에 적합하다.&lt;br /&gt;
+[해설작성자 : 여름]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;내 공부&lt;/strong&gt;&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">정보처리기사 기출문제 부시기 20220424</summary></entry><entry><title type="html">자기 개발 기록 (2023년4월)</title><link href="http://localhost:4000/2023%EB%85%844%EC%9B%94" rel="alternate" type="text/html" title="자기 개발 기록 (2023년4월)" /><published>2023-04-22T00:00:00+09:00</published><updated>2023-04-22T00:00:00+09:00</updated><id>http://localhost:4000/2023%EB%85%844%EC%9B%94</id><content type="html" xml:base="http://localhost:4000/2023%EB%85%844%EC%9B%94">&lt;h1 id=&quot;자기-개발-기록-2023년4월&quot;&gt;자기 개발 기록 (2023년4월)&lt;/h1&gt;
 
 &lt;h2 id=&quot;목적&quot;&gt;목적&lt;/h2&gt;
 
@@ -670,28 +830,4 @@
 
     &lt;hr /&gt;
   &lt;/div&gt;
-&lt;/details&gt;</content><author><name>chanp5660</name></author><category term="Chan_dev_history" /><summary type="html">자기 개발 기록 (2023년 2월)</summary></entry><entry><title type="html">자기 개발 기록 (2023년)</title><link href="http://localhost:4000/2023%EB%85%84" rel="alternate" type="text/html" title="자기 개발 기록 (2023년)" /><published>2023-04-22T00:00:00+09:00</published><updated>2023-04-22T00:00:00+09:00</updated><id>http://localhost:4000/2023%EB%85%84</id><content type="html" xml:base="http://localhost:4000/2023%EB%85%84">&lt;h1 id=&quot;자기-개발-기록-2023년&quot;&gt;자기 개발 기록 (2023년)&lt;/h1&gt;
-
-&lt;h2 id=&quot;목적&quot;&gt;목적&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;자기 개발 기록을 통해 성과, 반성, 배울 점을 얻습니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;2월-취업-준비&quot;&gt;2월 취업 준비&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://chanp5660.github.io/2023년2월&quot;&gt;&lt;strong&gt;자기 개발 기록(2023년2월) 바로가기&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;이력서를 작성하여 회사에 지원하고 인공지능, python을 공부했습니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;3월-취업&quot;&gt;3월 취업&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://chanp5660.github.io/2023년3월&quot;&gt;&lt;strong&gt;자기 개발 기록(2023년3월) 바로가기&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;공부의 흐름 찾고 취업 면접, 코테 준비 및 인공지능, python을 공부했습니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;4월-신입&quot;&gt;4월 신입&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://chanp5660.github.io/2023년4월&quot;&gt;&lt;strong&gt;자기 개발 기록(2023년4월) 바로가기&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;신입으로 회사에 적응(회사 시스템, 개발 툴, 회사 동료)하고 자기 개발을 기록하며 꾸준하게 할 수 있도록 습관으로 만들었습니다.&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name>chanp5660</name></author><category term="Chan_dev_history" /><summary type="html">자기 개발 기록 (2023년)</summary></entry></feed>
+&lt;/details&gt;</content><author><name>chanp5660</name></author><category term="Chan_dev_history" /><summary type="html">자기 개발 기록 (2023년 2월)</summary></entry></feed>

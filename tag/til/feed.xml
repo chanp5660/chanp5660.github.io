@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/til/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-04-27T01:17:18+09:00</updated>
+  <updated>2023-04-27T23:42:40+09:00</updated>
   <id>http://localhost:4000/tag/til/feed.xml</id>
 
   
@@ -118,6 +118,75 @@
 
       
         <summary type="html">GOF (Gang of Four)</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">MVC(Model View Controller)</title>
+      <link href="http://localhost:4000/MVC(Model_View_Controller)" rel="alternate" type="text/html" title="MVC(Model View Controller)" />
+      <published>2023-04-27T00:00:00+09:00</published>
+      <updated>2023-04-27T00:00:00+09:00</updated>
+      <id>http://localhost:4000/MVC(Model_View_Controller)</id>
+      <content type="html" xml:base="http://localhost:4000/MVC(Model_View_Controller)">&lt;h1 id=&quot;mvcmodel-view-controller&quot;&gt;MVC(Model View Controller)&lt;/h1&gt;
+
+&lt;p&gt;소프트웨어 아키텍처 모델 중 하나로, 사용자 인터페이스와 애플리케이션 데이터와의 상호작용을 관리하는데 사용됩니다. &lt;br /&gt;
+MVC는 대규모 응용 프로그램의 개발 및 유지 보수를 용이하게 하며, 유연성과 확장성을 제공합니다.&lt;/p&gt;
+
+&lt;p&gt;MVC 모델에서 뷰와 모델은 서로에 대해 알지 못하며, 컨트롤러가 중개자 역할을 수행합니다.&lt;br /&gt;
+이는 뷰와 모델 간의 결합도를 낮추어 애플리케이션의 유지 보수 및 확장성을 높이는데 큰 도움을 줍니다. &lt;br /&gt;
+또한, 하나의 모델에 여러 개의 뷰를 연결할 수 있으므로, MVC는 유연성이 뛰어나고 재사용성이 높은 아키텍처 모델입니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;구성-요소&quot;&gt;구성 요소&lt;/h2&gt;
+
+&lt;h3 id=&quot;model&quot;&gt;Model&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;모델은 애플리케이션 데이터와 관련된 부분입니다.&lt;/li&gt;
+  &lt;li&gt;데이터를 표현하고, 데이터를 읽고 쓰는 작업을 수행합니다.&lt;/li&gt;
+  &lt;li&gt;비즈니스 로직을 포함하고, 데이터에 대한 유효성 검사와 같은 중요한 작업을 수행합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;view&quot;&gt;View&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;뷰는 사용자 인터페이스의 시각적인 부분입니다.&lt;/li&gt;
+  &lt;li&gt;사용자가 보는 모든 것을 담당하며, 사용자가 애플리케이션에서 수행하는 작업을 제어합니다.&lt;/li&gt;
+  &lt;li&gt;예를 들아, 뷰는 사용자에게 데이터를 표시하고, 사용자의 입력을 수신하여 애플리케이션의 상태를 변경합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;controller&quot;&gt;Controller&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;컨트롤러는 뷰와 모델 사이의 중개자 역할을 합니다.&lt;/li&gt;
+  &lt;li&gt;사용자의 입력을 받고, 이를 모델에 전달합니다.&lt;/li&gt;
+  &lt;li&gt;그리고 모델이 새로운 데이터를 반환하면, 컨트롤러는 해당 데이터를 뷰에 전달하여 사용자 인터페이스를 업데이트합니다.&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">MVC(Model View Controller)</summary>
       
 
       
@@ -452,7 +521,7 @@
   &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/컴포넌트&quot;&gt;&lt;strong&gt;컴포넌트&lt;/strong&gt;&lt;/a&gt;란?&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;15gofgans-of-four-디자인-패턴을-생성-구조-행동-패턴의-세-그룹으로-분류할-때-구조-패턴이-아닌-것은&quot;&gt;15.GoF(Gans of Four) 디자인 패턴을 생성, 구조, 행동 패턴의 세 그룹으로 분류할 때, 구조 패턴이 아닌 것은?&lt;/h2&gt;
+&lt;h2 id=&quot;15-gofgans-of-four-디자인-패턴을-생성-구조-행동-패턴의-세-그룹으로-분류할-때-구조-패턴이-아닌-것은&quot;&gt;15. GoF(Gans of Four) 디자인 패턴을 생성, 구조, 행동 패턴의 세 그룹으로 분류할 때, 구조 패턴이 아닌 것은?&lt;/h2&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Adapter 패턴&lt;/li&gt;
@@ -471,14 +540,141 @@
   &lt;li&gt;데코레이터&lt;/li&gt;
   &lt;li&gt;퍼싸트&lt;/li&gt;
   &lt;li&gt;플라이웨이트&lt;/li&gt;
-  &lt;li&gt;프록시&lt;br /&gt;
-[해설작성자 : 아기재혁]&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;프록시&lt;br /&gt;
+[해설작성자 : 아기재혁]&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;생성패턴 : 객체를 생성하는 것에 대한 패턴
+    &lt;ul&gt;
+      &lt;li&gt;추상 팩토리 패턴(abstract factory), 빌더 패턴(builder), 팩토리 메소드 패턴(factory method), 프로토타입 패턴(prototype), 싱글톤(singleton)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;구조패턴 : 구조를 통해 확장성을 꾀하는 패턴
+    &lt;ul&gt;
+      &lt;li&gt;어댑터 패턴(adapter), 브릿지 패턴(bridge), 컴포지트 패턴(composite), 데코레이트 패턴(decorator), 퍼사드 패턴(facade), 플라이웨잇 패턴(flyseight), 프록시 패턴(proxy)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;행위 패턴 : 행위의 변경, 수정 등을 위한 패턴
+    &lt;ul&gt;
+      &lt;li&gt;역할 사슬 패턴(책임 연쇄, chain of reposibility), 커맨드 패턴(command), 인터프리터 패턴(interpreter), 이터레이터 패턴(반복자, iterator), 미디에이터 패턴(중재자, mediator), 메멘토 패턴(memento), 옵저버 패턴(observer), 상태 패턴(state), 전략 패턴(strategy), 템플릿 메소드 패턴(templete method), 비지터 패턴(방문자, visitor)&lt;br /&gt;
+[해설작성자 : ㅈㅇㅎ]&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;내 공부&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/GoF(Gang_of_Four)&quot;&gt;&lt;strong&gt;GoF&lt;/strong&gt;&lt;/a&gt; 란?&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;16-ui와-관련된-기본-개념-중-하나로-시스템의-상태와-사용자의-지시에-대한-효과를-보여주어-사용자가-명령에-대한-진행-상황과-표시된-내용을-해석할-수-있도록-도와주는-것은&quot;&gt;16. UI와 관련된 기본 개념 중 하나로, 시스템의 상태와 사용자의 지시에 대한 효과를 보여주어 사용자가 명령에 대한 진행 상황과 표시된 내용을 해석할 수 있도록 도와주는 것은?&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Feedback&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Posture&lt;/li&gt;
+  &lt;li&gt;Module&lt;/li&gt;
+  &lt;li&gt;Hash&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;문제 해설&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;피드백(feedback) : 처리된 결과를 측정하고 목표에 도달되었는가를 검사하며 불충분할 경우 다시 입력하는 요소&lt;br /&gt;
+[해설작성자 : 내일시험임..]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;내 공부&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;자세(Posture) : UI 디자인에서 Posture는 UI 요소들 간의 배치와 상호작용 방법을 의미합니다. 즉, UI 요소들이 화면 상에서 어떻게 위치하고, 어떤 기능을 수행하는지에 대한 전반적인 디자인 컨셉을 의미합니다.&lt;/li&gt;
+  &lt;li&gt;모듈(Module) : UI 디자인에서 Module은 하나 이상의 기능을 수행하는 UI 요소들의 집합입니다. 이러한 모듈은 독립적으로 사용될 수 있으며, 다른 모듈과 결합하여 더 복잡한 IO 디자인을 구성할 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;해시(Hash) : UI 디자인과는 직접적인 관련이 없는 개념입니다. 해시는 데이터를 고정된 길이의 값으로 매핑하는 함수를 의미합니다. 예를 들어, 암호화와 검색 알고리즘에서 널리 사용됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;17-ui의-종류로-멀티-터치multi-touch-동작-인식gesture-recognition-등-사용자의-자연스러운-움직임을-인식하여-서로-주고-받는-정보를-제공하는-사용자-인터페이스를-의미하는-것은&quot;&gt;17. UI의 종류로 멀티 터치(Multi-touch), 동작 인식(Gesture Recognition) 등 사용자의 자연스러운 움직임을 인식하여 서로 주고 받는 정보를 제공하는 사용자 인터페이스를 의미하는 것은?&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;GUI(Graphical User Interface)&lt;/li&gt;
+  &lt;li&gt;OUI(Organic User Interface)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;NUI(Natural User Interface)&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;CLI(Command Line Interface)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;문제 해설&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;사용자 인터페이스(UI, User Interface)의 구분
+    &lt;ul&gt;
+      &lt;li&gt;CLI(Command Line Interface) : 텍스트 형태 인터페이스&lt;/li&gt;
+      &lt;li&gt;GUI(Graphical User Interface) : 마우스로 선택하여 작업하는 그래픽 환경 인터페이스&lt;/li&gt;
+      &lt;li&gt;NUI(Nature User Interface) : 사용자의 말이나 행동으로 기기 조작하는 인터페이스&lt;/li&gt;
+      &lt;li&gt;OUI(Organic User Interface) : 모든 사물과 사용자 간의 상호작용을 위한 인터페이스&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[해설작성자 : 밤진]&lt;/p&gt;
+
+&lt;h2 id=&quot;18-소프트웨어-모델링과-관련한-설명으로-틀린-것은&quot;&gt;18. 소프트웨어 모델링과 관련한 설명으로 &lt;em&gt;틀린&lt;/em&gt; 것은?&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;모델링 작업의 결과물은 다른 모델링 작업에 영향을 줄 수 없다.&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;구조적 방법론에서는 DFD(Data Flow Diagram), DD(Data Dictionary) 등을 사용하여 요구 사항의 결과를 표현한다.&lt;/li&gt;
+  &lt;li&gt;객체지향 방법론에서는 UML 표기법을 사용한다.&lt;/li&gt;
+  &lt;li&gt;소프트웨어 모델을 사용할 경우 개발될 소프트웨어에 대한 이해도 및 이해 당사자 간의 의사소통 향상에 도움이 된다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;문제 해설&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;모델링 작업의 결과물은 다른 모델링 작업에 영향을 줄 수 있음.&lt;/li&gt;
+  &lt;li&gt;예) 유스케이스 명세로부터 필요한 요소들을 가져와 도메인 모델로 정리할 수 있음.&lt;br /&gt;
+[해설 작성자 : 이예림]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;19-유스케이스-다이어그램use-case-diagram에-관련된-내용으로-틀린-것은&quot;&gt;19. 유스케이스 다이어그램(Use Case Diagram)에 관련된 내용으로 &lt;em&gt;틀린&lt;/em&gt; 것은?&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;시스템과 상호작용하는 외부시스템은 액터로 파악해서는 안된다.&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;유스케이스는 사용자 측면에서의 요구사항으로, 사용자가 원하는 목표를 달성하기 위해 수행할 내용을 기술한다.&lt;/li&gt;
+  &lt;li&gt;시스템 액터는 다른 프로젝트에서 이미 개발되어 사용되고 있으며, 본 시스템과 데이터를 주고받는 등 서로 연동되는 시스템을 말한다.&lt;/li&gt;
+  &lt;li&gt;액터가 인식할 수 없는 시스템 내부의 기능을 하나의 유스케이스로 파악해서는 안된다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;문제 해설&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;액터 : 시스템과 상호작용하는 모든 것(사람, 기계, 시스템 등)&lt;br /&gt;
+[해설작성자 : 칼방이]&lt;/li&gt;
+  &lt;li&gt;액터 : 시스템과 상호작용하는 모든 외부요소로, 사람이나 외부 시스템을 의미함&lt;br /&gt;
+[해설작성자 : comcbt.com 이용자]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;내 공부&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/유스케이스&quot;&gt;&lt;strong&gt;유스케이스&lt;/strong&gt;&lt;/a&gt; 란?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;20-소프트웨어-아키텍처-모델-중-mvcmodel-view-controller와-관련한-설명으로-틀린-것은&quot;&gt;20. 소프트웨어 아키텍처 모델 중 MVC(Model-View-Controller)와 관련한 설명으로 &lt;em&gt;틀린&lt;/em&gt; 것은?&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;MVC 모델은 사용자 인터페이스를 담당하는 계층의 응집도를 높일 수 있고, 여러 개의 다른 UI를 만들어 그 사이에 결합도를 낮출 수 있다.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;모델(Model)은 뷰(View)와 제어(Controller) 사이에서 전달자 역할을 하며, 뷰마다 모델 서브시스템이 각각 하나씩 연결된다.&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;뷰(View)는 모델(Model)에 있는 데이터를 사용자 인터페이스에 보이는 역할을 담당한다.&lt;/li&gt;
+  &lt;li&gt;제어(Controller)는 모델(Model)에 명령을 보냄으로써 모델의 상태를 변경할 수 있다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;문제 해설&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;한개의 모델에 대해 여러 개의 뷰를 만들 수 있음&lt;br /&gt;
+[해설작성자 : 밤진]&lt;/li&gt;
+  &lt;li&gt;모델은 서브 시스템의 핵심 기능과 데이터를 보관하며 MVC 패턴에서는 여러 개의 뷰를 만들 수 있으므로 한 개의 모델에 대해 여러 개의 뷰를 필요로 하는 대화형 어플리케이션에 적합하다.&lt;br /&gt;
+[해설작성자 : 여름]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;내 공부&lt;/strong&gt;&lt;/p&gt;</content>
 
       
       
@@ -681,6 +877,78 @@
     </entry>
   
     <entry>
+      <title type="html">정보공학방법론</title>
+      <link href="http://localhost:4000/%EC%A0%95%EB%B3%B4%EA%B3%B5%ED%95%99%EB%B0%A9%EB%B2%95%EB%A1%A0" rel="alternate" type="text/html" title="정보공학방법론" />
+      <published>2023-04-19T00:00:00+09:00</published>
+      <updated>2023-04-19T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%EC%A0%95%EB%B3%B4%EA%B3%B5%ED%95%99%EB%B0%A9%EB%B2%95%EB%A1%A0</id>
+      <content type="html" xml:base="http://localhost:4000/%EC%A0%95%EB%B3%B4%EA%B3%B5%ED%95%99%EB%B0%A9%EB%B2%95%EB%A1%A0">&lt;h1 id=&quot;정보공학방법론&quot;&gt;정보공학방법론&lt;/h1&gt;
+
+&lt;p&gt;시스템 분석과 설계를 위한 소프트웨어 공학적인 방법론 중 하나입니다.&lt;br /&gt;
+소프트웨어 개발 과정 전반에 걸쳐 일관된 절차를 제공하여 시스템의 요구사항을 분석하며, 설계하고 개발하는 프로세스를 지원합니다.&lt;/p&gt;
+
+&lt;p&gt;전통적인 소프트웨어 개발 방법론인 &lt;strong&gt;폭포수 모델(Waterfall Model)&lt;/strong&gt; 을 보완하고자 개발되었습니다. &lt;br /&gt;
+폭포수 모델에서는 요구사항 수집, 분석, 설계, 구현, 시험, 유지보수의 단계가 일련의 선형적인 과정으로 수행되지만, 정보공학 방법론에서는 이러한 단계가 상호작용하여 빠른 개발이 가능하도록 설계되어 있습니다.&lt;/p&gt;
+
+&lt;p&gt;시스템 요구사항을 수집하기 위해서 인터뷰, 설문조사, 관찰 등의 방법을 사용합니다.&lt;br /&gt;
+이후에는 요구사항을 분석하여 데이터 모델링, 프로세스 모델링, 인터페이스 모델링 등의 기법을 사용하여 시스템의 구조를 설계합니다.&lt;br /&gt;
+이후에는 시스템을 개발하고, 시험을 수행하며, 유지보수를 수행하는 등의 단계를 거쳐 시스템을 완성합니다.&lt;/p&gt;
+
+&lt;h1 id=&quot;주요-특징&quot;&gt;주요 특징&lt;/h1&gt;
+
+&lt;h2 id=&quot;요구사항-중심&quot;&gt;요구사항 중심&lt;/h2&gt;
+
+&lt;p&gt;시스템의 요구사항을 중심으로 시스템을 개발하며, 요구사항을 정확히 수집하고 분석함으로써 개발 시간을 단축할 수 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;모델링-기법-활용&quot;&gt;모델링 기법 활용&lt;/h2&gt;
+
+&lt;p&gt;데이터 모델링, 프로세스 모델링 등의 모델링 기법을 사용하여 시스템의 구조를 설계합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;반복적인-개발-과정&quot;&gt;반복적인 개발 과정&lt;/h2&gt;
+
+&lt;p&gt;시스템 요구사항을 반복적으로 검토하여 설계를 수정하며, 개발을 진행합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;유지보수-고려&quot;&gt;유지보수 고려&lt;/h2&gt;
+
+&lt;p&gt;시스템을 개발한 후에도 지속적으로 유지보수를 고려하여 개발합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;전사적인-시각&quot;&gt;전사적인 시각&lt;/h2&gt;
+
+&lt;p&gt;정보공학 방법론은 기업 전체를 대상으로 하여 시스템을 설계합니다.&lt;br /&gt;
+이는 기업의 전반적인 업무 프로세스를 고려하여 시스템을 개발함으로써 기업의 전략적인 목표를 달성하는 데 도움을 줍니다.&lt;/p&gt;
+
+&lt;p&gt;시스템의 요구사항을 중심으로 한 개발 방법론으로, 개발 과정에서 요구사항을 정확히 파악하여 개발 시간을 단축하고, 유지보수를 고려하여 시스템을 개발합니다.&lt;br /&gt;
+이 방법론은 전통적인 폭포수 모델보다 더 빠르고 효율적인 소프트웨어 개발을 가능하게 합니다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">정보공학방법론</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">유스케이스</title>
       <link href="http://localhost:4000/%EC%9C%A0%EC%8A%A4%EC%BC%80%EC%9D%B4%EC%8A%A4" rel="alternate" type="text/html" title="유스케이스" />
       <published>2023-04-19T00:00:00+09:00</published>
@@ -785,166 +1053,6 @@
 
       
         <summary type="html">유스케이스 (Uses Case)</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">애자일방법론</title>
-      <link href="http://localhost:4000/%EC%95%A0%EC%9E%90%EC%9D%BC%EB%B0%A9%EB%B2%95%EB%A1%A0" rel="alternate" type="text/html" title="애자일방법론" />
-      <published>2023-04-19T00:00:00+09:00</published>
-      <updated>2023-04-19T00:00:00+09:00</updated>
-      <id>http://localhost:4000/%EC%95%A0%EC%9E%90%EC%9D%BC%EB%B0%A9%EB%B2%95%EB%A1%A0</id>
-      <content type="html" xml:base="http://localhost:4000/%EC%95%A0%EC%9E%90%EC%9D%BC%EB%B0%A9%EB%B2%95%EB%A1%A0">&lt;h1 id=&quot;애자일-방법론agile-methodology&quot;&gt;애자일 방법론(Agile Methodology)&lt;/h1&gt;
-
-&lt;p&gt;소프트웨어 개발 프로세스에서 일어나는 변화와 요구사항에 빠르게 대응하기 위해 고안된 방법론입니다.&lt;br /&gt;
-원래 소프트웨어 개발 프로세스를 위한 것이지만, 현재는 다른 분야에서도 적용되고 있습니다.&lt;/p&gt;
-
-&lt;p&gt;빠르고 유연한 개발 프로세스를 강조합니다.&lt;br /&gt;
-이를 위해 다양한 방법론이 개발되었는데, 그 중에서 대표적인 것은 스크럼(Scrum), 익스트림 프로그래밍(Extreme Programming, XP), 칸반(Kanban) 등이 있습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;특징&quot;&gt;특징&lt;/h2&gt;
-
-&lt;p&gt;애자일 방법론은 기존의 워터폴 방식에 비해 빠르고 유연하게 개발을 진행할 수 있으며, 고객의 요구사항을 더 잘 반영할 수 있습니다.&lt;br /&gt;
-하지만 기존 방식과 달리 자율적인 팀 협업이 중요하기 때문에 개발팀 간의 의사소통과 협업 능력이 필요합니다.&lt;br /&gt;
-또한, 스프린트 주기로 작은 기능 단위로 개발을 진행하기 때문에, 기존의 대규모 개발 프로젝트에 적합하지 않을 수 있습니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;반복적-개발&quot;&gt;반복적 개발&lt;/h3&gt;
-
-&lt;p&gt;프로젝트를 작은 단위로 나누어 짧은 주기로 개발을 진행합니다.&lt;br /&gt;
-이를 스프린트(Sprint) 라고 부르며, 스프린트는 보통 1주일에서 1개월 사이의 기간으로 설정됩니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;고객-참여&quot;&gt;고객 참여&lt;/h3&gt;
-
-&lt;p&gt;고객과 함께 일하는 것을 강조합니다.&lt;br /&gt;
-고객은 제품의 요구사항과 우선순위를 결정하고, 개발팀과 함께 일정한 주기로 제품을 검토합니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;변화에-대한-대처&quot;&gt;변화에 대한 대처&lt;/h3&gt;
-
-&lt;p&gt;요구사항이나 환경의 변화에 빠르게 대처할 수 있습니다.&lt;br /&gt;
-이를 위해 유연한 계획을 수립하고, 작은 주기로 개발을 진행하여 변화에 대응합니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;팀-협업&quot;&gt;팀 협업&lt;/h3&gt;
-
-&lt;p&gt;개발팀은 자율적으로 일하는 것을 강조하며, 팀원들은 서로의 역할을 이해하고, 지속적인 협업을 통해 제품을 개발합니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;지속적인-개선&quot;&gt;지속적인 개선&lt;/h3&gt;
-
-&lt;p&gt;개발 과정에서 항상 자신들의 작업을 평가하고, 다음 스프린트에서 개선할 점을 찾아내며, 지속적으로 개선합니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;장점&quot;&gt;장점&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;고객의 요구사항을 빠르게 반영할 수 있습니다.&lt;/li&gt;
-  &lt;li&gt;빠른 속로 개발이 가능합니다.&lt;/li&gt;
-  &lt;li&gt;개발팀 간의 의사소통과 협업 능력이 강화됩니다.&lt;/li&gt;
-  &lt;li&gt;지속적이 개선이 가능합니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;단점&quot;&gt;단점&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;개발 프로젝트의 규모가 큰 경우 적합하지 않습니다.&lt;/li&gt;
-  &lt;li&gt;자율적인 팀 협업 능력이 부족한 경우 프로젝트 진행이 어려울 수 있습니다.&lt;/li&gt;
-  &lt;li&gt;계획의 불안정성이 있기 때문에, 예상치 못한 문제가 발생할 수 있습니다.&lt;/li&gt;
-  &lt;li&gt;문서화가 미흡할 수 있습니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;일반적인-애자일-방법론-프로젝트-진행단계&quot;&gt;일반적인 애자일 방법론 프로젝트 진행단계&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;요구사항 수집 : 고객의 요구사항을 수집하고, 이를 우선순위에 따라 정렬합니다.&lt;/li&gt;
-  &lt;li&gt;스프린트 계획 : 이번 스프린트에서 개발할 기능을 선택하고, 개발 일정을 계획합니다.&lt;/li&gt;
-  &lt;li&gt;스프린트 실행 : 선택한 기능을 개발하고, 일정에 맞추어 작업을 완료합니다.&lt;/li&gt;
-  &lt;li&gt;스프린트 검토 : 개발한 기능을 고객에게 검토해 보여주고, 피드백을 받습니다.&lt;/li&gt;
-  &lt;li&gt;스프린트 회고 : 이번 스프린트에서 발생한 문제점과 개선점을 회고하고, 개선 방안을 도출합니다.&lt;/li&gt;
-&lt;/ol&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">애자일 방법론(Agile Methodology)</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">ERD</title>
-      <link href="http://localhost:4000/Entity_Relationship_Diagram" rel="alternate" type="text/html" title="ERD" />
-      <published>2023-04-19T00:00:00+09:00</published>
-      <updated>2023-04-19T00:00:00+09:00</updated>
-      <id>http://localhost:4000/Entity_Relationship_Diagram</id>
-      <content type="html" xml:base="http://localhost:4000/Entity_Relationship_Diagram">&lt;h1 id=&quot;entity-relationship-diagram-erd-개체-관계-다이어그램&quot;&gt;Entity-Relationship Diagram ERD 개체 관계 다이어그램&lt;/h1&gt;
-
-&lt;p&gt;데이터 모델링 기술 중 하나로, 시스템에 필요한 데이터와 데이터 간의 관계를 시각적으로 표현하는 방법입니다.&lt;br /&gt;
-세 가지 요소로 이루어져 있습니다.&lt;/p&gt;
-
-&lt;p&gt;아래 세 가지 요소들을 사용하여 시스템의 데이터 구조를 시각적으로 표현합니다.&lt;br /&gt;
-보통 개체를 직사각형으로 표시하고, 속성을 타원형으로 표시하며, 관계를 화살표로 표시합니다.&lt;br /&gt;
-이렇게 사용하면 시스템의 데이터 구조를 쉽게 이해하고, 문제를 파악하고, 설계할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;즉, ERD는 데이터 모델링 기술 중 하나로, 시스템에 필요한 데이터와 데이터 간의 관계를 시각적으로 표현하는 방법입니다.&lt;br /&gt;
-객체, 속성, 관계 등의 요소를 사용하여 시스템의 데이터 구조를 설계하고, 문제를 파악하고, 시스템을 구현할 수 있습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;entity개체&quot;&gt;Entity(개체)&lt;/h2&gt;
-
-&lt;p&gt;시스템에서 저장되는 데이터의 종류를 나타내는 것으로, 보통 실제 세계에서 존재하는 개체를 표현합니다.&lt;br /&gt;
-예를 들어, ‘학생’이나 ‘강의’와 같은 개체가 있을 수 있습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;attribute속성&quot;&gt;Attribute(속성)&lt;/h2&gt;
-
-&lt;p&gt;개체의 속성을 나타내는 것으로, 개체의 속성은 개체를 식별하거나 개체에 대한 정보를 나타냅니다.&lt;br /&gt;
-예를 들어, ‘학생’ 개체의 속성으로 ‘이름’, ‘학번’, ‘전공’ 등이 있을 수 있습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;relationship관계&quot;&gt;Relationship(관계)&lt;/h2&gt;
-
-&lt;p&gt;개체 같의 연결을 나타내는 것으로, 개체 간의 관계는 일대일, 일대다, 다대다 등으로 표현할 수 있습니다.&lt;br /&gt;
-예를 들어, ‘학생’과 ‘강의’ 간의 관계는 일대다 관계로 표현할 수 있습니다.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">Entity-Relationship Diagram ERD 개체 관계 다이어그램</summary>
       
 
       

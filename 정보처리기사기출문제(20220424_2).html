@@ -307,7 +307,7 @@ into the {body} of the default.hbs template -->
   <li><a href="https://chanp5660.github.io/컴포넌트"><strong>컴포넌트</strong></a>란?</li>
 </ul>
 
-<h2 id="15gofgans-of-four-디자인-패턴을-생성-구조-행동-패턴의-세-그룹으로-분류할-때-구조-패턴이-아닌-것은">15.GoF(Gans of Four) 디자인 패턴을 생성, 구조, 행동 패턴의 세 그룹으로 분류할 때, 구조 패턴이 아닌 것은?</h2>
+<h2 id="15-gofgans-of-four-디자인-패턴을-생성-구조-행동-패턴의-세-그룹으로-분류할-때-구조-패턴이-아닌-것은">15. GoF(Gans of Four) 디자인 패턴을 생성, 구조, 행동 패턴의 세 그룹으로 분류할 때, 구조 패턴이 아닌 것은?</h2>
 
 <ol>
   <li>Adapter 패턴</li>
@@ -326,14 +326,141 @@ into the {body} of the default.hbs template -->
   <li>데코레이터</li>
   <li>퍼싸트</li>
   <li>플라이웨이트</li>
-  <li>프록시<br />
-[해설작성자 : 아기재혁]</li>
+  <li>
+    <p>프록시<br />
+[해설작성자 : 아기재혁]</p>
+  </li>
+  <li>생성패턴 : 객체를 생성하는 것에 대한 패턴
+    <ul>
+      <li>추상 팩토리 패턴(abstract factory), 빌더 패턴(builder), 팩토리 메소드 패턴(factory method), 프로토타입 패턴(prototype), 싱글톤(singleton)</li>
+    </ul>
+  </li>
+  <li>구조패턴 : 구조를 통해 확장성을 꾀하는 패턴
+    <ul>
+      <li>어댑터 패턴(adapter), 브릿지 패턴(bridge), 컴포지트 패턴(composite), 데코레이트 패턴(decorator), 퍼사드 패턴(facade), 플라이웨잇 패턴(flyseight), 프록시 패턴(proxy)</li>
+    </ul>
+  </li>
+  <li>행위 패턴 : 행위의 변경, 수정 등을 위한 패턴
+    <ul>
+      <li>역할 사슬 패턴(책임 연쇄, chain of reposibility), 커맨드 패턴(command), 인터프리터 패턴(interpreter), 이터레이터 패턴(반복자, iterator), 미디에이터 패턴(중재자, mediator), 메멘토 패턴(memento), 옵저버 패턴(observer), 상태 패턴(state), 전략 패턴(strategy), 템플릿 메소드 패턴(templete method), 비지터 패턴(방문자, visitor)<br />
+[해설작성자 : ㅈㅇㅎ]</li>
+    </ul>
+  </li>
 </ul>
 
 <p><strong>내 공부</strong></p>
 <ul>
   <li><a href="https://chanp5660.github.io/GoF(Gang_of_Four)"><strong>GoF</strong></a> 란?</li>
 </ul>
+
+<h2 id="16-ui와-관련된-기본-개념-중-하나로-시스템의-상태와-사용자의-지시에-대한-효과를-보여주어-사용자가-명령에-대한-진행-상황과-표시된-내용을-해석할-수-있도록-도와주는-것은">16. UI와 관련된 기본 개념 중 하나로, 시스템의 상태와 사용자의 지시에 대한 효과를 보여주어 사용자가 명령에 대한 진행 상황과 표시된 내용을 해석할 수 있도록 도와주는 것은?</h2>
+
+<ol>
+  <li><strong><em>Feedback</em></strong></li>
+  <li>Posture</li>
+  <li>Module</li>
+  <li>Hash</li>
+</ol>
+
+<p><strong>문제 해설</strong></p>
+
+<ul>
+  <li>피드백(feedback) : 처리된 결과를 측정하고 목표에 도달되었는가를 검사하며 불충분할 경우 다시 입력하는 요소<br />
+[해설작성자 : 내일시험임..]</li>
+</ul>
+
+<p><strong>내 공부</strong></p>
+
+<ul>
+  <li>자세(Posture) : UI 디자인에서 Posture는 UI 요소들 간의 배치와 상호작용 방법을 의미합니다. 즉, UI 요소들이 화면 상에서 어떻게 위치하고, 어떤 기능을 수행하는지에 대한 전반적인 디자인 컨셉을 의미합니다.</li>
+  <li>모듈(Module) : UI 디자인에서 Module은 하나 이상의 기능을 수행하는 UI 요소들의 집합입니다. 이러한 모듈은 독립적으로 사용될 수 있으며, 다른 모듈과 결합하여 더 복잡한 IO 디자인을 구성할 수 있습니다.</li>
+  <li>해시(Hash) : UI 디자인과는 직접적인 관련이 없는 개념입니다. 해시는 데이터를 고정된 길이의 값으로 매핑하는 함수를 의미합니다. 예를 들어, 암호화와 검색 알고리즘에서 널리 사용됩니다.</li>
+</ul>
+
+<h2 id="17-ui의-종류로-멀티-터치multi-touch-동작-인식gesture-recognition-등-사용자의-자연스러운-움직임을-인식하여-서로-주고-받는-정보를-제공하는-사용자-인터페이스를-의미하는-것은">17. UI의 종류로 멀티 터치(Multi-touch), 동작 인식(Gesture Recognition) 등 사용자의 자연스러운 움직임을 인식하여 서로 주고 받는 정보를 제공하는 사용자 인터페이스를 의미하는 것은?</h2>
+
+<ol>
+  <li>GUI(Graphical User Interface)</li>
+  <li>OUI(Organic User Interface)</li>
+  <li><strong><em>NUI(Natural User Interface)</em></strong></li>
+  <li>CLI(Command Line Interface)</li>
+</ol>
+
+<p><strong>문제 해설</strong></p>
+
+<ul>
+  <li>사용자 인터페이스(UI, User Interface)의 구분
+    <ul>
+      <li>CLI(Command Line Interface) : 텍스트 형태 인터페이스</li>
+      <li>GUI(Graphical User Interface) : 마우스로 선택하여 작업하는 그래픽 환경 인터페이스</li>
+      <li>NUI(Nature User Interface) : 사용자의 말이나 행동으로 기기 조작하는 인터페이스</li>
+      <li>OUI(Organic User Interface) : 모든 사물과 사용자 간의 상호작용을 위한 인터페이스</li>
+    </ul>
+  </li>
+</ul>
+
+<p>[해설작성자 : 밤진]</p>
+
+<h2 id="18-소프트웨어-모델링과-관련한-설명으로-틀린-것은">18. 소프트웨어 모델링과 관련한 설명으로 <em>틀린</em> 것은?</h2>
+
+<ol>
+  <li><strong><em>모델링 작업의 결과물은 다른 모델링 작업에 영향을 줄 수 없다.</em></strong></li>
+  <li>구조적 방법론에서는 DFD(Data Flow Diagram), DD(Data Dictionary) 등을 사용하여 요구 사항의 결과를 표현한다.</li>
+  <li>객체지향 방법론에서는 UML 표기법을 사용한다.</li>
+  <li>소프트웨어 모델을 사용할 경우 개발될 소프트웨어에 대한 이해도 및 이해 당사자 간의 의사소통 향상에 도움이 된다.</li>
+</ol>
+
+<p><strong>문제 해설</strong></p>
+
+<ul>
+  <li>모델링 작업의 결과물은 다른 모델링 작업에 영향을 줄 수 있음.</li>
+  <li>예) 유스케이스 명세로부터 필요한 요소들을 가져와 도메인 모델로 정리할 수 있음.<br />
+[해설 작성자 : 이예림]</li>
+</ul>
+
+<h2 id="19-유스케이스-다이어그램use-case-diagram에-관련된-내용으로-틀린-것은">19. 유스케이스 다이어그램(Use Case Diagram)에 관련된 내용으로 <em>틀린</em> 것은?</h2>
+
+<ol>
+  <li><strong><em>시스템과 상호작용하는 외부시스템은 액터로 파악해서는 안된다.</em></strong></li>
+  <li>유스케이스는 사용자 측면에서의 요구사항으로, 사용자가 원하는 목표를 달성하기 위해 수행할 내용을 기술한다.</li>
+  <li>시스템 액터는 다른 프로젝트에서 이미 개발되어 사용되고 있으며, 본 시스템과 데이터를 주고받는 등 서로 연동되는 시스템을 말한다.</li>
+  <li>액터가 인식할 수 없는 시스템 내부의 기능을 하나의 유스케이스로 파악해서는 안된다.</li>
+</ol>
+
+<p><strong>문제 해설</strong></p>
+
+<ul>
+  <li>액터 : 시스템과 상호작용하는 모든 것(사람, 기계, 시스템 등)<br />
+[해설작성자 : 칼방이]</li>
+  <li>액터 : 시스템과 상호작용하는 모든 외부요소로, 사람이나 외부 시스템을 의미함<br />
+[해설작성자 : comcbt.com 이용자]</li>
+</ul>
+
+<p><strong>내 공부</strong></p>
+
+<ul>
+  <li><a href="https://chanp5660.github.io/유스케이스"><strong>유스케이스</strong></a> 란?</li>
+</ul>
+
+<h2 id="20-소프트웨어-아키텍처-모델-중-mvcmodel-view-controller와-관련한-설명으로-틀린-것은">20. 소프트웨어 아키텍처 모델 중 MVC(Model-View-Controller)와 관련한 설명으로 <em>틀린</em> 것은?</h2>
+
+<ol>
+  <li>MVC 모델은 사용자 인터페이스를 담당하는 계층의 응집도를 높일 수 있고, 여러 개의 다른 UI를 만들어 그 사이에 결합도를 낮출 수 있다.</li>
+  <li><strong><em>모델(Model)은 뷰(View)와 제어(Controller) 사이에서 전달자 역할을 하며, 뷰마다 모델 서브시스템이 각각 하나씩 연결된다.</em></strong></li>
+  <li>뷰(View)는 모델(Model)에 있는 데이터를 사용자 인터페이스에 보이는 역할을 담당한다.</li>
+  <li>제어(Controller)는 모델(Model)에 명령을 보냄으로써 모델의 상태를 변경할 수 있다.</li>
+</ol>
+
+<p><strong>문제 해설</strong></p>
+
+<ul>
+  <li>한개의 모델에 대해 여러 개의 뷰를 만들 수 있음<br />
+[해설작성자 : 밤진]</li>
+  <li>모델은 서브 시스템의 핵심 기능과 데이터를 보관하며 MVC 패턴에서는 여러 개의 뷰를 만들 수 있으므로 한 개의 모델에 대해 여러 개의 뷰를 필요로 하는 대화형 어플리케이션에 적합하다.<br />
+[해설작성자 : 여름]</li>
+</ul>
+
+<p><strong>내 공부</strong></p>
 
 
                 </div>
@@ -433,6 +560,15 @@ into the {body} of the default.hbs template -->
                                     
                                         
                                         
+                                            <li><a href="/MVC(Model_View_Controller)">MVC(Model View Controller)</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
                                             <li><a href="/GoF(Gang_of_Four)">GOF(Gang of Four)</a></li>
                                         
                                     
@@ -452,8 +588,6 @@ into the {body} of the default.hbs template -->
                                   
                                     
                                         
-                                        
-                                            <li><a href="/%EC%83%81%EC%86%8D(Inheritance)">상속(Inheritance)</a></li>
                                         
                                     
                                   
@@ -1099,7 +1233,7 @@ into the {body} of the default.hbs template -->
                         <footer class="read-next-card-footer">
                             <a href="/tag/exitem/">
                                 
-                                    See all 71 posts  →
+                                    See all 72 posts  →
                                 
                             </a>
                         </footer>
