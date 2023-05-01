@@ -1,4 +1,129 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-04-29T00:03:22+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">SQL 집계함수</title><link href="http://localhost:4000/SQL%EC%A7%91%EA%B3%84%ED%95%A8%EC%88%98" rel="alternate" type="text/html" title="SQL 집계함수" /><published>2023-04-28T00:00:00+09:00</published><updated>2023-04-28T00:00:00+09:00</updated><id>http://localhost:4000/SQL%EC%A7%91%EA%B3%84%ED%95%A8%EC%88%98</id><content type="html" xml:base="http://localhost:4000/SQL%EC%A7%91%EA%B3%84%ED%95%A8%EC%88%98">&lt;h1 id=&quot;sql-집계함수-aggregate-function&quot;&gt;SQL 집계함수 (aggregate function)&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-01T16:46:01+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">트랜스포머 - 포지셔널 인코딩</title><link href="http://localhost:4000/%ED%8A%B8%EB%9E%9C%EC%8A%A4%ED%8F%AC%EB%A8%B8_1" rel="alternate" type="text/html" title="트랜스포머 - 포지셔널 인코딩" /><published>2023-05-01T00:00:00+09:00</published><updated>2023-05-01T00:00:00+09:00</updated><id>http://localhost:4000/%ED%8A%B8%EB%9E%9C%EC%8A%A4%ED%8F%AC%EB%A8%B8_1</id><content type="html" xml:base="http://localhost:4000/%ED%8A%B8%EB%9E%9C%EC%8A%A4%ED%8F%AC%EB%A8%B8_1">&lt;h1 id=&quot;트랜스포머---포지셔널-인코딩&quot;&gt;트랜스포머 - 포지셔널 인코딩&lt;/h1&gt;
+
+&lt;p&gt;발표 형식으로 진행하겠습니다.&lt;/p&gt;
+
+&lt;h1 id=&quot;참고-자료&quot;&gt;참고 자료&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wikidocs.net/book/2155&quot;&gt;&lt;strong&gt;딥러닝을 이용한 자연어 처리 입문&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/pdf/1706.03762&quot;&gt;&lt;strong&gt;Attention is All You Need&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img alt=&quot;1&quot; src=&quot;https://user-images.githubusercontent.com/46266247/235421992-c5018fdf-85e1-4c4d-9c25-53e2b3944ee2.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;이번 발표는 트랜스포머에서 인코더 입력 데이터에 대해 발표하겠습니다.&lt;/p&gt;
+
+&lt;p&gt;다음 발표에 트랜스포머 인코더와 디코더 내부의 어텐션에 대해 발표하겠습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;2&quot; src=&quot;https://user-images.githubusercontent.com/46266247/235421995-9f5b7987-4ca6-4846-a55e-472ef8ab84a8.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;딥러닝을 이용한 자연어 처리 입문 책에서 Attention is All You Need에 대해 설명을 참고했습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;3&quot; src=&quot;https://user-images.githubusercontent.com/46266247/235422001-951420cc-8d81-474b-b8a7-6093c3c153be.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;순서는 역사, 주요 하이퍼파라미터 설명, 트랜스포머 모델의 흐름, 입력되는 임베딩 벡터에 위치 정보를 담는 방법인 포지셔널 인코딩 방법에 대한 순서로 발표하겠습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;4&quot; src=&quot;https://user-images.githubusercontent.com/46266247/235422003-b2d90365-4846-47e7-8b6c-3b23b776ab5b.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;트랜스포머의 역사는 단순 인공신경망에서 순차적인 정보를 기억하는 순환신경망으로 발전했습니다.&lt;/p&gt;
+
+&lt;p&gt;입력과 출력 문장의 길이가 같아야하는 단점을 시퀀스투시퀀스에서 인코더, 디코더를 이용하면서 해결해주었습니다.&lt;/p&gt;
+
+&lt;p&gt;여기서 RNN을 기반으로 인코더 디코더를 구성했기 때문에 문장의 길이가 길면 정보의 손실이 발생합니다. 따라서 이를 보안하는 방법으로 어텐션 메커니즘을 이용했습니다.&lt;/p&gt;
+
+&lt;p&gt;추후 어텐션만으로만 구성된 인코더와 디코더를 사용한 Seqence-to-Sequence 모델이 트랜스포머입니다. 기존의 RNN을 이용한 Sequence-to-Sequence 보다 성능이 월등히 뛰어났습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;5&quot; src=&quot;https://user-images.githubusercontent.com/46266247/235422006-1b3d79af-d15a-4be3-852f-fd45a8be24f1.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;트랜스포머 모델을 살펴보기 전에 사용되는 주요 하이퍼파라미터를 알아보겠습니다.&lt;/p&gt;
+
+&lt;p&gt;총 4가지가 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;6&quot; src=&quot;https://user-images.githubusercontent.com/46266247/235422013-a75e3583-0873-4dc9-90f5-b04595851f54.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;첫번째는 dmodel로 인코더와 디코더의 입력과 출력의 크기를 의미합니다.&lt;/p&gt;
+
+&lt;p&gt;논문에서는 512 값을 사용했습니다.&lt;/p&gt;
+
+&lt;p&gt;그리고 입력값으로 사용되는 임베딩 벡터 차원 또한 dmodel과 같습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;7&quot; src=&quot;https://user-images.githubusercontent.com/46266247/235422018-64d09d52-25ff-4745-8001-7641f5774ea3.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;두번째는 numlayer로 인코더와 디코더가 몇개 층으로 이루어졌는지를 의미합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;8&quot; src=&quot;https://user-images.githubusercontent.com/46266247/235422023-5529adf5-38f3-43e2-bd8c-c5ac39790100.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;세번째는 numheads 로 어텐션을 사용할 때 여러 개로 분할해서 병렬로 어텐션을 수행하고 결과값을 다시 하나로 합치는 방식을 사용하는데 이때 병렬의 개수를 의미합니다.&lt;/p&gt;
+
+&lt;p&gt;병렬로 수행하는 이유는 계산량 감소로 속도 향상과 각각의 어텐션이 다른 측면을 볼 수 있어서 정확도 향상도 됩니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;9&quot; src=&quot;https://user-images.githubusercontent.com/46266247/235422028-54ee6d13-1762-4663-b891-4359b1cacea3.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;네번째는 dff로 ff는 피드포워드를 의미하고 신경망의 은닉층의 크기를 의미합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;10&quot; src=&quot;https://user-images.githubusercontent.com/46266247/235422953-ec185b10-2999-4b2f-b27c-b493eb281b1b.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;트랜스포머 모델을 살펴보겠습니다.&lt;/p&gt;
+
+&lt;p&gt;간단하게 i am a student가 트랜스포머 모델로 입력되고 인코더를 거쳐 디코더에서 프랑스어로 번역된 결과를 볼 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;점점 내부적으로 살펴보겠습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;11&quot; src=&quot;https://user-images.githubusercontent.com/46266247/235422957-18c3e110-7897-447f-9146-06ff0e0ddd8b.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;주요 하이퍼파라미터였던 numlayer는 인코더와 디코더의 층을 의미한다고 했습니다.&lt;/p&gt;
+
+&lt;p&gt;논문에서는 6 값을 가집니다.&lt;/p&gt;
+
+&lt;p&gt;따라서 각 인코더, 디코더는 6개씩 층이 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;12&quot; src=&quot;https://user-images.githubusercontent.com/46266247/235422960-9e1b6e2d-abae-420b-bcb2-ea4d2a8032ab.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;각 6개의 인코더 디코더를 인코더들과 디코더들로 지칭하고 입력되는 임베딩 차원의 크기는 논문에서 512로 지정했습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;13&quot; src=&quot;https://user-images.githubusercontent.com/46266247/235422961-3bd18f40-82bf-4719-bd9e-50839cbee44c.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;기존의 RNN을 이용한 시퀀스투시퀀스와 다른점 하나입니다.&lt;/p&gt;
+
+&lt;p&gt;RNN은 순차적으로 입력을 받기 때문에 위치 정보가 있었습니다.&lt;/p&gt;
+
+&lt;p&gt;하지만, 트랜스포머는 한번에 입력을 받기 때문에 입력받는 임베딩 벡터에 위치정보를 추가해주어야합니다.&lt;/p&gt;
+
+&lt;p&gt;이 방법이 포지셔널 인코딩 입니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;14&quot; src=&quot;https://user-images.githubusercontent.com/46266247/235422964-78758240-e5ae-4929-803e-69d37ce80ba9.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;포지셔널 인코딩은 단어마다 가지는 임베딩 벡터에 위치정보를 추가해주는 것입니다.&lt;/p&gt;
+
+&lt;p&gt;포지셔널 인코딩을 하는 방법은 위치가 짝수인 인덱스는 sin 함수를 홀수인 인덱스는 cos 함수를 이용하여 연산합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;15&quot; src=&quot;https://user-images.githubusercontent.com/46266247/235422969-6a753bd9-b06f-484e-a134-6e433c5ebc22.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;입력 데이터는 실제 연산은 2개의 행렬의 덧셈 연산으로 임베딩 벡터의 문장행렬과 포지셔널 인코딩의 행렬의 합으로 이루어집니다.&lt;/p&gt;
+
+&lt;p&gt;여기까지가 포지셔널 인코딩의 이론입니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;16&quot; src=&quot;https://user-images.githubusercontent.com/46266247/235422974-283a6863-8712-4d95-98c7-318c8ecb12cf.png&quot; width=&quot;100%&quot; /&gt;
+&lt;img alt=&quot;17&quot; src=&quot;https://user-images.githubusercontent.com/46266247/235422979-1454ee85-59c5-4525-93a8-0c6c47f4b069.PNG&quot; width=&quot;100%&quot; /&gt;
+&lt;img alt=&quot;18&quot; src=&quot;https://user-images.githubusercontent.com/46266247/235423017-2ce7fd40-c76d-44a2-aa7f-b7bcc32a7798.PNG&quot; width=&quot;100%&quot; /&gt;
+&lt;img alt=&quot;19&quot; src=&quot;https://user-images.githubusercontent.com/46266247/235423037-770bbf97-1e0b-46e7-b029-f0818ac5b235.PNG&quot; width=&quot;100%&quot; /&gt;
+&lt;img alt=&quot;20&quot; src=&quot;https://user-images.githubusercontent.com/46266247/235423058-fc03d202-6661-4770-8902-eb8ef7c1d019.PNG&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;포지셔널 인코딩의 코드 부분입니다.&lt;/p&gt;
+
+&lt;p&gt;초기화 부분에 position인 문장의 길이와 d_model인 인코더, 디코더 입력의 크기를 설정합니다.&lt;/p&gt;
+
+&lt;p&gt;포지셔널 인코딩 수식대로 코드는 만들어지며 call 부분에서 실제 입력값이 만들어집니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;21&quot; src=&quot;https://user-images.githubusercontent.com/46266247/235423089-280919b5-df11-4ed1-bc4e-fcb2e80155bc.PNG&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;현재까지는 인코더, 디코더에 데이터를 입력하기 위한 작업을 했습니다.&lt;/p&gt;
+
+&lt;p&gt;다음 발표에서 각 인코더와 디코더의 내부를 살펴보겠습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;22&quot; src=&quot;https://user-images.githubusercontent.com/46266247/235423095-d62431f8-f467-46dd-8c69-c0db23e2586d.PNG&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;추가로 시각화 부분을 넣어서 살펴보겠습니다. 오른쪽 위에 있는 그림을 실제 데이터에서 시각화 해본 것입니다. 각 단어마다 패턴이 다른 모습을 볼 수 있습니다.&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="ai" /><summary type="html">트랜스포머 - 포지셔널 인코딩</summary></entry><entry><title type="html">SQL 집계함수</title><link href="http://localhost:4000/SQL%EC%A7%91%EA%B3%84%ED%95%A8%EC%88%98" rel="alternate" type="text/html" title="SQL 집계함수" /><published>2023-04-28T00:00:00+09:00</published><updated>2023-04-28T00:00:00+09:00</updated><id>http://localhost:4000/SQL%EC%A7%91%EA%B3%84%ED%95%A8%EC%88%98</id><content type="html" xml:base="http://localhost:4000/SQL%EC%A7%91%EA%B3%84%ED%95%A8%EC%88%98">&lt;h1 id=&quot;sql-집계함수-aggregate-function&quot;&gt;SQL 집계함수 (aggregate function)&lt;/h1&gt;
 
 &lt;p&gt;데이터베이스에서 데이터를 검색하고 집계하여 요약 정보를 제공하는 함수입니다.&lt;br /&gt;
 집계 함수는 데이터를 그룹화하고, 각 그룹에 대한 집계 값을 계산합니다.&lt;br /&gt;
@@ -374,30 +499,4 @@ MVC는 대규모 응용 프로그램의 개발 및 유지 보수를 용이하게
 &lt;/ul&gt;
 
 &lt;p&gt;참고&lt;br /&gt;
-&lt;a href=&quot;https://hanamon.kr/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-component%EB%9E%80/&quot;&gt;컴포넌트(Component)란?&lt;/a&gt;&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">컴포넌트</summary></entry><entry><title type="html">Association관계</title><link href="http://localhost:4000/Association%EA%B4%80%EA%B3%84" rel="alternate" type="text/html" title="Association관계" /><published>2023-04-25T00:00:00+09:00</published><updated>2023-04-25T00:00:00+09:00</updated><id>http://localhost:4000/Association%EA%B4%80%EA%B3%84</id><content type="html" xml:base="http://localhost:4000/Association%EA%B4%80%EA%B3%84">&lt;h1 id=&quot;association-관계&quot;&gt;Association 관계&lt;/h1&gt;
-
-&lt;p&gt;Association은 &lt;strong&gt;객체 지향 프로그래밍&lt;/strong&gt;에서 &lt;strong&gt;클래스 간의 관계&lt;/strong&gt;를 나타내는 개념 중 하나입니다.&lt;br /&gt;
-&lt;strong&gt;두 클래스&lt;/strong&gt;가 &lt;strong&gt;서로 연관&lt;/strong&gt;되어 있는 경우, 이를 &lt;strong&gt;Association 관계&lt;/strong&gt;라고 합니다.&lt;/p&gt;
-
-&lt;p&gt;두 클래스가 협력하여 작업을 수행하는 것을 의미하며, &lt;strong&gt;클래스 간의 의존성&lt;/strong&gt;을 표현합니다.&lt;/p&gt;
-
-&lt;p&gt;단방향 또는 양방향일 수 있으며, 방향은 클래스 간의 의존성에 따라 결정됩니다.&lt;br /&gt;
-또한, 단순히 두 클래스 사이의 관계를 나타내기만 하는 것이 아니라, 클래스 간의 데이터 전달 및 상호작용을 가능하게 합니다.&lt;/p&gt;
-
-&lt;p&gt;두 객체 간의 연결성을 표현하기 때문에, 클래스 다이어그램에서는 객체들 간의 선으로 표시됩니다.&lt;br /&gt;
-이 선은 객체 간의 관계를 나타내며, 관계의 종류에 따라 다양한 방식으로 표현될 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;객체 지향 프로그래밍에서 중요한 개념 중 하나이며, 객체 지향 설계에서 클래스 간의 관계를 분석하고 모델링하는 데 사용됩니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;예시&quot;&gt;예시&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;학생과 과목 클래스가 있을 때, 학생이 수강하는 과목과 과목을 수강하는 학생 사이에 Assocication 관계가 있을 수 있습니다.&lt;/li&gt;
-  &lt;li&gt;한 객체가 다른 객체를 사용하여 기능을 수행하거나, 한 객체가 다른 객체를 생성하거나, 다른 객체에게 메시지를 보내는 등의 상호작용이 가능합니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;종류&quot;&gt;종류&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;One-to-One (일대일) : 한 객체가 다른 객체와 연관되어 있으며, 반대로 다른 객체도 해당 객체와 연관되어 있는 경우&lt;/li&gt;
-  &lt;li&gt;One-to-Many (일대다) : 한 객체가 여러 개의 다른 객체와 연관되어 있으며, 다른 객체는 해당 객체와 연관되어 있지 않은 경우&lt;/li&gt;
-  &lt;li&gt;Many-to-Many (다대다) : 여러 개의 객체가 서로 연관되어 있으며, 서로가 일대일 또는 일대다 관계가 아닌 경우&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">Association 관계</summary></entry></feed>
+&lt;a href=&quot;https://hanamon.kr/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-component%EB%9E%80/&quot;&gt;컴포넌트(Component)란?&lt;/a&gt;&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">컴포넌트</summary></entry></feed>
