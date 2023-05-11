@@ -1,4 +1,101 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-01T16:46:01+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">트랜스포머 - 포지셔널 인코딩</title><link href="http://localhost:4000/%ED%8A%B8%EB%9E%9C%EC%8A%A4%ED%8F%AC%EB%A8%B8_1" rel="alternate" type="text/html" title="트랜스포머 - 포지셔널 인코딩" /><published>2023-05-01T00:00:00+09:00</published><updated>2023-05-01T00:00:00+09:00</updated><id>http://localhost:4000/%ED%8A%B8%EB%9E%9C%EC%8A%A4%ED%8F%AC%EB%A8%B8_1</id><content type="html" xml:base="http://localhost:4000/%ED%8A%B8%EB%9E%9C%EC%8A%A4%ED%8F%AC%EB%A8%B8_1">&lt;h1 id=&quot;트랜스포머---포지셔널-인코딩&quot;&gt;트랜스포머 - 포지셔널 인코딩&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-11T23:16:17+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">익스트림 프로그래밍</title><link href="http://localhost:4000/%EC%9D%B5%EC%8A%A4%ED%8A%B8%EB%A6%BC_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D" rel="alternate" type="text/html" title="익스트림 프로그래밍" /><published>2023-05-11T00:00:00+09:00</published><updated>2023-05-11T00:00:00+09:00</updated><id>http://localhost:4000/%EC%9D%B5%EC%8A%A4%ED%8A%B8%EB%A6%BC_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D</id><content type="html" xml:base="http://localhost:4000/%EC%9D%B5%EC%8A%A4%ED%8A%B8%EB%A6%BC_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D">&lt;h1 id=&quot;익스트림-프로그래밍-extreme-programming-xp&quot;&gt;익스트림 프로그래밍 Extreme Programming, XP&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;애자일 소프트웨어 개발 방법론&lt;/strong&gt; 중 하나로, 소규모 개발 팀이 빠르게 변화하는 요구사항에 대응하기 위해 고안된 방법론입니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;개발자에게-장점&quot;&gt;개발자에게 장점&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;효과적으로 협력&lt;/li&gt;
+  &lt;li&gt;빠르게 소프트웨어를 개발&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;목표&quot;&gt;목표&lt;/h2&gt;
+
+&lt;p&gt;고품질의 소프트웨어를 지속적으로 제공&lt;/p&gt;
+
+&lt;h2 id=&quot;핵심가치&quot;&gt;핵심가치&lt;/h2&gt;
+
+&lt;h3 id=&quot;의사소통&quot;&gt;의사소통&lt;/h3&gt;
+
+&lt;p&gt;팀 내외의 모든 구성원들이 활발하게 의사소통하고, 지식과 정보를 공유합니다.&lt;br /&gt;
+이를 위해 팀원들은 자주 모이고, 대화하며, 직접적인 의사소통 수단을 선호합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;단순성&quot;&gt;단순성&lt;/h3&gt;
+
+&lt;p&gt;최대한 간단한 방식으로 소프트웨어을 개발합니다.&lt;br /&gt;
+불필요한 기능이나 복잡성을 줄이고, 간결하고 이해하기 쉬운 코드를 작성합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;피드백&quot;&gt;피드백&lt;/h3&gt;
+
+&lt;p&gt;지속적으로 피드백을 받고, 이를 기반으로 개선합니다.&lt;br /&gt;
+고객, 사용자, 팀원 등과의 소통을 통해 요구사항을 이행하고, 개발한 소프트웨어에 대한 피드백을 수렴합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;용기&quot;&gt;용기&lt;/h3&gt;
+
+&lt;p&gt;적극적으로 도전하고 실패를 인정하며, 개선을 위해 노력합니다.&lt;br /&gt;
+개발자들은 더 나은 방법을 시도하고, 기존의 관행에 논리적으로 의문을 제기합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;실천-방법&quot;&gt;실천 방법&lt;/h2&gt;
+
+&lt;h3 id=&quot;짧은-반복주기&quot;&gt;짧은 반복주기&lt;/h3&gt;
+
+&lt;p&gt;짧은 개발 주기를 가지고 작업을 진행합니다.&lt;br /&gt;
+주로 1-2주 정도의 시간을 갖고, 작은 기능 단위로 개발을 완료하고 배포합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;계획조정&quot;&gt;계획조정&lt;/h3&gt;
+
+&lt;p&gt;주기적으로 계획을 조정하고 우선순위를 결정합니다.&lt;br /&gt;
+변경사항에 유연하게 대응하기 위해, 요구사항을 작은 단위로 쪼개고, 짧은 주기마다 우선순위를 조정합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;테스트주도개발test-driven-development-tod&quot;&gt;테스트주도개발(Test-Driven Development, TOD)&lt;/h3&gt;
+
+&lt;p&gt;테스트 주도 개발은 XP의 핵심적인 실험 방법 중 하나입니다.&lt;br /&gt;
+TOD는 개발자가 먼저 테스트 코드를 작성하고, 그에 맞춰 소프트웨어를 개발하는 방법입니다.&lt;br /&gt;
+아래(실패하는 테스트 작성, 테스트 통과를 위한 최소한의 코드 작성, 코드 리팩토링) 사이클을 반복하면서 점진적으로 기능을 구현하고, 테스트 커버리지를 높이며, 코드의 품질을 유지하고 개선할 수 있습니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;실패하는-테스트-작성&quot;&gt;실패하는 테스트 작성&lt;/h4&gt;
+
+&lt;p&gt;개발자는 먼저 새로운 기능 또는 변경사항에 대한 테스트를 작성합니다.&lt;br /&gt;
+이 테스트는 현재 작업하려는 코드에 대해 예상한 동작을 검증하는 목적을 가지며, 당연히 실패해야 합니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;테스트-통과를-위한-최소한의-코드-작성&quot;&gt;테스트 통과를 위한 최소한의 코드 작성&lt;/h4&gt;
+
+&lt;p&gt;테스트가 실패했으므로, 개발자는 최소하의 코드를 작성하여 테스트를 통과시키려고 합니다.&lt;br /&gt;
+이 단계에서는 코드가 간단하고 테스트를 통과하는 것에만 초점을 둡니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;코드-리팩토링&quot;&gt;코드 리팩토링&lt;/h4&gt;
+
+&lt;p&gt;작성한 코드를 리팩토딩하여 중복 코드를 제거하고, 설계를 개선하며, 가독성을 높이는 등의 작업을 수행합니다.&lt;br /&gt;
+리팩토링은 테스트를 통과하는 상태에서 수행되어야 합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;공동-소유권&quot;&gt;공동 소유권&lt;/h3&gt;
+
+&lt;p&gt;XP에서는 개발 팀 내의 구성원들이 코드와 기능에 대한 공동 소유권을 가집니다.&lt;br /&gt;
+개발자들은 서로의 코드를 이해하고 유지보수할 수 있으며, 효과적인 협업을 위해 지식을 공유하고 도움을 주고받을 수 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;지속적인-통합&quot;&gt;지속적인 통합&lt;/h3&gt;
+
+&lt;p&gt;팀 내의 개발자들이 작성한 코드를 지속적으로 통합하는 것을 의미합니다.&lt;br /&gt;
+통합 단계에서는 코드의 충돌을 해결하고, 빌드 및 자동화된 테스트를 실행하여 오류를 신속하게 감지하고 해결합니다.&lt;br /&gt;
+이를 통해 팀 전체의 코드 품질을 유지하고 소프트웨어를 안정적으로 구축합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;계획-기술&quot;&gt;계획 기술&lt;/h3&gt;
+
+&lt;p&gt;XP에서는 고객과 개발자가 함께 계획을 수립하는 계획 기술을 사용합니다.&lt;br /&gt;
+고객은 요구사항을 우선순위에 따라 명시하고, 개발자는 작업의 복잡성과 필요한 시간 등을 추정합니다.&lt;br /&gt;
+이러한 계획 과정을 통해 팀은 실질적인 목표와 일정을 설정하고 조정할 수 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;쌍끌이-프로그래밍pair-programming&quot;&gt;쌍끌이 프로그래밍(Pair Programming)&lt;/h3&gt;
+
+&lt;p&gt;두 명의 개발자가 하나의 컴퓨터에서 함께 작업하는 방식입니다. &lt;br /&gt;
+한 명은 코드를 작성하고, 다른 한 명은 코드를 검토하며 지속적인 피드백을 제공합니다.&lt;br /&gt;
+이를 통해 코드 품질과 지식 공유를 강화하고 오류를 빠르게 발견할 수 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;기능-단위-릴리즈small-realeases&quot;&gt;기능 단위 릴리즈(Small Realeases)&lt;/h3&gt;
+
+&lt;p&gt;개발된 기능을 가능한 빨리 릴리즈하는 것을 지향합니다.&lt;br /&gt;
+작은 기능 단위로 릴리즈를 수행하여 고객에게는 실질적인 가치를 제공하고 피드백을 수렴합니다.&lt;br /&gt;
+이를 통해 고객의 요구에 신속하게 대응하고 소프트웨어를 점진적으로 개선할 수 있습니다.&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">익스트림 프로그래밍 Extreme Programming, XP</summary></entry><entry><title type="html">트랜스포머 - 포지셔널 인코딩</title><link href="http://localhost:4000/%ED%8A%B8%EB%9E%9C%EC%8A%A4%ED%8F%AC%EB%A8%B8_1" rel="alternate" type="text/html" title="트랜스포머 - 포지셔널 인코딩" /><published>2023-05-01T00:00:00+09:00</published><updated>2023-05-01T00:00:00+09:00</updated><id>http://localhost:4000/%ED%8A%B8%EB%9E%9C%EC%8A%A4%ED%8F%AC%EB%A8%B8_1</id><content type="html" xml:base="http://localhost:4000/%ED%8A%B8%EB%9E%9C%EC%8A%A4%ED%8F%AC%EB%A8%B8_1">&lt;h1 id=&quot;트랜스포머---포지셔널-인코딩&quot;&gt;트랜스포머 - 포지셔널 인코딩&lt;/h1&gt;
 
 &lt;p&gt;발표 형식으로 진행하겠습니다.&lt;/p&gt;
 
@@ -123,51 +220,7 @@
 
 &lt;p&gt;&lt;img alt=&quot;22&quot; src=&quot;https://user-images.githubusercontent.com/46266247/235423095-d62431f8-f467-46dd-8c69-c0db23e2586d.PNG&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;추가로 시각화 부분을 넣어서 살펴보겠습니다. 오른쪽 위에 있는 그림을 실제 데이터에서 시각화 해본 것입니다. 각 단어마다 패턴이 다른 모습을 볼 수 있습니다.&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="ai" /><summary type="html">트랜스포머 - 포지셔널 인코딩</summary></entry><entry><title type="html">SQL 집계함수</title><link href="http://localhost:4000/SQL%EC%A7%91%EA%B3%84%ED%95%A8%EC%88%98" rel="alternate" type="text/html" title="SQL 집계함수" /><published>2023-04-28T00:00:00+09:00</published><updated>2023-04-28T00:00:00+09:00</updated><id>http://localhost:4000/SQL%EC%A7%91%EA%B3%84%ED%95%A8%EC%88%98</id><content type="html" xml:base="http://localhost:4000/SQL%EC%A7%91%EA%B3%84%ED%95%A8%EC%88%98">&lt;h1 id=&quot;sql-집계함수-aggregate-function&quot;&gt;SQL 집계함수 (aggregate function)&lt;/h1&gt;
-
-&lt;p&gt;데이터베이스에서 데이터를 검색하고 집계하여 요약 정보를 제공하는 함수입니다.&lt;br /&gt;
-집계 함수는 데이터를 그룹화하고, 각 그룹에 대한 집계 값을 계산합니다.&lt;br /&gt;
-일반적으로 GROUP BY 구문과 함께 사용됩니다.&lt;/p&gt;
-
-&lt;p&gt;집계함수는 데이터를 검색하고 요약하는 데 매우 유용합니다.&lt;br /&gt;
-그룹화된 데이터의 평균, 합계, 최대값, 최소값 등을 계산할 수 있으며, 이를 활용하여 보고서나 대시보드 등을 작성하는 데 사용될 수 있습니다.&lt;/p&gt;
-
-&lt;h1 id=&quot;종류&quot;&gt;종류&lt;/h1&gt;
-
-&lt;h2 id=&quot;sum-함수&quot;&gt;SUM 함수&lt;/h2&gt;
-
-&lt;p&gt;주어진 열의 모든 값의 합계를 반환합니다.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SELECT SUM(sales) FROM orders;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;count-함수&quot;&gt;COUNT 함수&lt;/h2&gt;
-
-&lt;p&gt;주어진 열의 모든 값의 개수를 반환합니다.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SELECT COUNT(*) FROM cutomers;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;avg-함수&quot;&gt;AVG 함수&lt;/h2&gt;
-
-&lt;p&gt;주어진 열의 모든 값의 평균 값을 반환합니다.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SELECT AVG(price) FROM products;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;max-함수&quot;&gt;MAX 함수&lt;/h2&gt;
-
-&lt;p&gt;주어진 열의 최대 값을 반환합니다.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SELECT MAX(salary) FROM employees;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;min-함수&quot;&gt;MIN 함수&lt;/h2&gt;
-
-&lt;p&gt;주어진 열의 최소 값을 반환합니다.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SELECT MIN(price) FROM products;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">SQL 집계함수 (aggregate function)</summary></entry><entry><title type="html">정보처리기사 기출문제 20220424_3</title><link href="http://localhost:4000/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC%EA%B8%B0%EC%B6%9C%EB%AC%B8%EC%A0%9C(20220424_3)" rel="alternate" type="text/html" title="정보처리기사 기출문제 20220424_3" /><published>2023-04-28T00:00:00+09:00</published><updated>2023-04-28T00:00:00+09:00</updated><id>http://localhost:4000/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC%EA%B8%B0%EC%B6%9C%EB%AC%B8%EC%A0%9C(20220424_3)</id><content type="html" xml:base="http://localhost:4000/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC%EA%B8%B0%EC%B6%9C%EB%AC%B8%EC%A0%9C(20220424_3)">&lt;h1 id=&quot;정보처리기사-기출문제-부시기-20220424&quot;&gt;정보처리기사 기출문제 부시기 20220424&lt;/h1&gt;
+&lt;p&gt;추가로 시각화 부분을 넣어서 살펴보겠습니다. 오른쪽 위에 있는 그림을 실제 데이터에서 시각화 해본 것입니다. 각 단어마다 패턴이 다른 모습을 볼 수 있습니다.&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="ai" /><summary type="html">트랜스포머 - 포지셔널 인코딩</summary></entry><entry><title type="html">정보처리기사 기출문제 20220424_3</title><link href="http://localhost:4000/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC%EA%B8%B0%EC%B6%9C%EB%AC%B8%EC%A0%9C(20220424_3)" rel="alternate" type="text/html" title="정보처리기사 기출문제 20220424_3" /><published>2023-04-28T00:00:00+09:00</published><updated>2023-04-28T00:00:00+09:00</updated><id>http://localhost:4000/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC%EA%B8%B0%EC%B6%9C%EB%AC%B8%EC%A0%9C(20220424_3)</id><content type="html" xml:base="http://localhost:4000/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC%EA%B8%B0%EC%B6%9C%EB%AC%B8%EC%A0%9C(20220424_3)">&lt;h1 id=&quot;정보처리기사-기출문제-부시기-20220424&quot;&gt;정보처리기사 기출문제 부시기 20220424&lt;/h1&gt;
 
 &lt;p&gt;합격을 기원합니다.&lt;/p&gt;
 
@@ -345,7 +398,57 @@
   &lt;/li&gt;
   &lt;li&gt;정성 데이터는 감성 분석, 이미지 분석 등과 같이 기술적인 부분이 적고, 인간의 주관적인 판단이 큰 역할을 하기 때문에 비교적 해석이 어려운 경우가 많습니다.&lt;/li&gt;
   &lt;li&gt;정량 데이터는 분석 방법이 다양하고, 수학적 모델링을 통해 정확한 결과를 도출할 수 있기 때문에 분석과 해석이 상대적으로 쉽습니다.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">데이터의 유형(정성,정량)</summary></entry><entry><title type="html">MVC(Model View Controller)</title><link href="http://localhost:4000/MVC(Model_View_Controller)" rel="alternate" type="text/html" title="MVC(Model View Controller)" /><published>2023-04-27T00:00:00+09:00</published><updated>2023-04-27T00:00:00+09:00</updated><id>http://localhost:4000/MVC(Model_View_Controller)</id><content type="html" xml:base="http://localhost:4000/MVC(Model_View_Controller)">&lt;h1 id=&quot;mvcmodel-view-controller&quot;&gt;MVC(Model View Controller)&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">데이터의 유형(정성,정량)</summary></entry><entry><title type="html">SQL 집계함수</title><link href="http://localhost:4000/SQL%EC%A7%91%EA%B3%84%ED%95%A8%EC%88%98" rel="alternate" type="text/html" title="SQL 집계함수" /><published>2023-04-28T00:00:00+09:00</published><updated>2023-04-28T00:00:00+09:00</updated><id>http://localhost:4000/SQL%EC%A7%91%EA%B3%84%ED%95%A8%EC%88%98</id><content type="html" xml:base="http://localhost:4000/SQL%EC%A7%91%EA%B3%84%ED%95%A8%EC%88%98">&lt;h1 id=&quot;sql-집계함수-aggregate-function&quot;&gt;SQL 집계함수 (aggregate function)&lt;/h1&gt;
+
+&lt;p&gt;데이터베이스에서 데이터를 검색하고 집계하여 요약 정보를 제공하는 함수입니다.&lt;br /&gt;
+집계 함수는 데이터를 그룹화하고, 각 그룹에 대한 집계 값을 계산합니다.&lt;br /&gt;
+일반적으로 GROUP BY 구문과 함께 사용됩니다.&lt;/p&gt;
+
+&lt;p&gt;집계함수는 데이터를 검색하고 요약하는 데 매우 유용합니다.&lt;br /&gt;
+그룹화된 데이터의 평균, 합계, 최대값, 최소값 등을 계산할 수 있으며, 이를 활용하여 보고서나 대시보드 등을 작성하는 데 사용될 수 있습니다.&lt;/p&gt;
+
+&lt;h1 id=&quot;종류&quot;&gt;종류&lt;/h1&gt;
+
+&lt;h2 id=&quot;sum-함수&quot;&gt;SUM 함수&lt;/h2&gt;
+
+&lt;p&gt;주어진 열의 모든 값의 합계를 반환합니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SELECT SUM(sales) FROM orders;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;count-함수&quot;&gt;COUNT 함수&lt;/h2&gt;
+
+&lt;p&gt;주어진 열의 모든 값의 개수를 반환합니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SELECT COUNT(*) FROM cutomers;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;avg-함수&quot;&gt;AVG 함수&lt;/h2&gt;
+
+&lt;p&gt;주어진 열의 모든 값의 평균 값을 반환합니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SELECT AVG(price) FROM products;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;max-함수&quot;&gt;MAX 함수&lt;/h2&gt;
+
+&lt;p&gt;주어진 열의 최대 값을 반환합니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SELECT MAX(salary) FROM employees;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;min-함수&quot;&gt;MIN 함수&lt;/h2&gt;
+
+&lt;p&gt;주어진 열의 최소 값을 반환합니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SELECT MIN(price) FROM products;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">SQL 집계함수 (aggregate function)</summary></entry><entry><title type="html">영어계획</title><link href="http://localhost:4000/%EC%98%81%EC%96%B4%EA%B3%84%ED%9A%8D" rel="alternate" type="text/html" title="영어계획" /><published>2023-04-27T00:00:00+09:00</published><updated>2023-04-27T00:00:00+09:00</updated><id>http://localhost:4000/%EC%98%81%EC%96%B4%EA%B3%84%ED%9A%8D</id><content type="html" xml:base="http://localhost:4000/%EC%98%81%EC%96%B4%EA%B3%84%ED%9A%8D">&lt;h1 id=&quot;영어계획&quot;&gt;영어계획&lt;/h1&gt;
+
+&lt;p&gt;chatgpt를 이용하여 영어를 배웁니다.&lt;br /&gt;
+그 과정을 블로그에 기록합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=rGcRb_YNs_M&amp;amp;list=LL&amp;amp;index=11&quot;&gt;영어 구동사 암기하지 않아도 돼요 💥 이제 Chat GPT로 뇌에 새기세요 [3step 공부법]&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.youtube.com/watch?v=n_zhNMrNZI0&quot;&gt;ChatGPT와 회화 연습 시 99%가 몰라서 놓치는 최적의 세팅법&lt;/a&gt;&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="English" /><summary type="html">영어계획</summary></entry><entry><title type="html">MVC(Model View Controller)</title><link href="http://localhost:4000/MVC(Model_View_Controller)" rel="alternate" type="text/html" title="MVC(Model View Controller)" /><published>2023-04-27T00:00:00+09:00</published><updated>2023-04-27T00:00:00+09:00</updated><id>http://localhost:4000/MVC(Model_View_Controller)</id><content type="html" xml:base="http://localhost:4000/MVC(Model_View_Controller)">&lt;h1 id=&quot;mvcmodel-view-controller&quot;&gt;MVC(Model View Controller)&lt;/h1&gt;
 
 &lt;p&gt;소프트웨어 아키텍처 모델 중 하나로, 사용자 인터페이스와 애플리케이션 데이터와의 상호작용을 관리하는데 사용됩니다. &lt;br /&gt;
 MVC는 대규모 응용 프로그램의 개발 및 유지 보수를 용이하게 하며, 유연성과 확장성을 제공합니다.&lt;/p&gt;
@@ -435,68 +538,4 @@ MVC는 대규모 응용 프로그램의 개발 및 유지 보수를 용이하게
   &lt;li&gt;디자인 패턴을 이해하기 위해서는 객체지향 프로그래밍의 개념과 원칙에 대한 이해가 필수적입니다.&lt;/li&gt;
   &lt;li&gt;패턴의 남용은 코드의 가독성을 떨어뜨릴 수 있으므로, 패턴의 적용은 상황에 맞게 사용해야 합니다.&lt;/li&gt;
   &lt;li&gt;또한, 디자인 패턴을 이해하기 위해서는 객체지향 프로그래밍의 개념과 원칙에 대한 이해가 필수적입니다.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">GOF (Gang of Four)</summary></entry><entry><title type="html">영어계획</title><link href="http://localhost:4000/%EC%98%81%EC%96%B4%EA%B3%84%ED%9A%8D" rel="alternate" type="text/html" title="영어계획" /><published>2023-04-27T00:00:00+09:00</published><updated>2023-04-27T00:00:00+09:00</updated><id>http://localhost:4000/%EC%98%81%EC%96%B4%EA%B3%84%ED%9A%8D</id><content type="html" xml:base="http://localhost:4000/%EC%98%81%EC%96%B4%EA%B3%84%ED%9A%8D">&lt;h1 id=&quot;영어계획&quot;&gt;영어계획&lt;/h1&gt;
-
-&lt;p&gt;chatgpt를 이용하여 영어를 배웁니다.&lt;br /&gt;
-그 과정을 블로그에 기록합니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=rGcRb_YNs_M&amp;amp;list=LL&amp;amp;index=11&quot;&gt;영어 구동사 암기하지 않아도 돼요 💥 이제 Chat GPT로 뇌에 새기세요 [3step 공부법]&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://www.youtube.com/watch?v=n_zhNMrNZI0&quot;&gt;ChatGPT와 회화 연습 시 99%가 몰라서 놓치는 최적의 세팅법&lt;/a&gt;&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="English" /><summary type="html">영어계획</summary></entry><entry><title type="html">컴포넌트</title><link href="http://localhost:4000/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8" rel="alternate" type="text/html" title="컴포넌트" /><published>2023-04-26T00:00:00+09:00</published><updated>2023-04-26T00:00:00+09:00</updated><id>http://localhost:4000/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8</id><content type="html" xml:base="http://localhost:4000/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8">&lt;h1 id=&quot;컴포넌트&quot;&gt;컴포넌트&lt;/h1&gt;
-
-&lt;p&gt;프로그래밍에서 컴포넌트란, 독립적으로 작동할 수 있는 소프트웨어 모듈입니다.&lt;br /&gt;
-재사용이 가능하며, 다른 소프트웨어에서도 사용할 수 있습니다.&lt;br /&gt;
-일반적으로 컴포넌트는 자체적으로 기능을 수행하며, 다른 컴포넌트와 상호작용을 할 수 있습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;인터페이스&quot;&gt;인터페이스&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;일반적으로 인터페이스를 통해 다른 소프트웨어와 상호작용합니다.&lt;/li&gt;
-  &lt;li&gt;인터페이스는 컴포넌트의 기능을 정의합니다.&lt;/li&gt;
-  &lt;li&gt;컴포넌트가 다른 소프트웨어와 상호작용할 수 있도록 합니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;형태&quot;&gt;형태&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;일반적으로 라이브러리, 모듈, 클래스, 함수, 객체 등의 형태로 제공됩니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;재사용성&quot;&gt;재사용성&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;컴포넌트는 독립적으로 작동하므로, 다른 소프트웨어에서도 사용할 수 있습니다.&lt;/li&gt;
-  &lt;li&gt;재사용하는 것은 소프트웨어 개발의 생산성을 높이며, 소프트웨어 시스템의 유지보수와 확장성을 향상시킵니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;유지보수성&quot;&gt;유지보수성&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;컴포넌트는 독립적으로 작동하며, 다른 소프트웨어에서도 사용할 수 있습니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;확장성&quot;&gt;확장성&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;새로운 컴포넌트를 추가하거나 기존 컴포넌트를 대체하여 소프트웨어 시스템을 확장할 수 있습니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;표준화&quot;&gt;표준화&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;인터페이스가 표준화되어 있어서, 다른 컴포넌트와의 상호작용이 쉬워집니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;테스트-용이성&quot;&gt;테스트 용이성&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;컴포넌트는 독립적으로 테스트할 수 있으므로, 전체 소프트웨어 시스템을 테스트하는 것보다 효율적입니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;모듈화&quot;&gt;모듈화&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;컴포넌트는 모듈화되어 있어서, 소프트웨어 개발자가 작업하기 쉬우며, 코드의 가독성을 높입니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;참고&lt;br /&gt;
-&lt;a href=&quot;https://hanamon.kr/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-component%EB%9E%80/&quot;&gt;컴포넌트(Component)란?&lt;/a&gt;&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">컴포넌트</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="TIL" /><summary type="html">GOF (Gang of Four)</summary></entry></feed>

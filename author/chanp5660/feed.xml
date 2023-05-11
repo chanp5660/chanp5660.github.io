@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/author/chanp5660/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-05-01T16:46:01+09:00</updated>
+  <updated>2023-05-11T23:16:17+09:00</updated>
   <id>http://localhost:4000/author/chanp5660/feed.xml</id>
 
   
@@ -30,6 +30,139 @@
   
   
 
+  
+    <entry>
+      <title type="html">익스트림 프로그래밍</title>
+      <link href="http://localhost:4000/%EC%9D%B5%EC%8A%A4%ED%8A%B8%EB%A6%BC_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D" rel="alternate" type="text/html" title="익스트림 프로그래밍" />
+      <published>2023-05-11T00:00:00+09:00</published>
+      <updated>2023-05-11T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%EC%9D%B5%EC%8A%A4%ED%8A%B8%EB%A6%BC_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D</id>
+      <content type="html" xml:base="http://localhost:4000/%EC%9D%B5%EC%8A%A4%ED%8A%B8%EB%A6%BC_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D">&lt;h1 id=&quot;익스트림-프로그래밍-extreme-programming-xp&quot;&gt;익스트림 프로그래밍 Extreme Programming, XP&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;애자일 소프트웨어 개발 방법론&lt;/strong&gt; 중 하나로, 소규모 개발 팀이 빠르게 변화하는 요구사항에 대응하기 위해 고안된 방법론입니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;개발자에게-장점&quot;&gt;개발자에게 장점&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;효과적으로 협력&lt;/li&gt;
+  &lt;li&gt;빠르게 소프트웨어를 개발&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;목표&quot;&gt;목표&lt;/h2&gt;
+
+&lt;p&gt;고품질의 소프트웨어를 지속적으로 제공&lt;/p&gt;
+
+&lt;h2 id=&quot;핵심가치&quot;&gt;핵심가치&lt;/h2&gt;
+
+&lt;h3 id=&quot;의사소통&quot;&gt;의사소통&lt;/h3&gt;
+
+&lt;p&gt;팀 내외의 모든 구성원들이 활발하게 의사소통하고, 지식과 정보를 공유합니다.&lt;br /&gt;
+이를 위해 팀원들은 자주 모이고, 대화하며, 직접적인 의사소통 수단을 선호합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;단순성&quot;&gt;단순성&lt;/h3&gt;
+
+&lt;p&gt;최대한 간단한 방식으로 소프트웨어을 개발합니다.&lt;br /&gt;
+불필요한 기능이나 복잡성을 줄이고, 간결하고 이해하기 쉬운 코드를 작성합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;피드백&quot;&gt;피드백&lt;/h3&gt;
+
+&lt;p&gt;지속적으로 피드백을 받고, 이를 기반으로 개선합니다.&lt;br /&gt;
+고객, 사용자, 팀원 등과의 소통을 통해 요구사항을 이행하고, 개발한 소프트웨어에 대한 피드백을 수렴합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;용기&quot;&gt;용기&lt;/h3&gt;
+
+&lt;p&gt;적극적으로 도전하고 실패를 인정하며, 개선을 위해 노력합니다.&lt;br /&gt;
+개발자들은 더 나은 방법을 시도하고, 기존의 관행에 논리적으로 의문을 제기합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;실천-방법&quot;&gt;실천 방법&lt;/h2&gt;
+
+&lt;h3 id=&quot;짧은-반복주기&quot;&gt;짧은 반복주기&lt;/h3&gt;
+
+&lt;p&gt;짧은 개발 주기를 가지고 작업을 진행합니다.&lt;br /&gt;
+주로 1-2주 정도의 시간을 갖고, 작은 기능 단위로 개발을 완료하고 배포합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;계획조정&quot;&gt;계획조정&lt;/h3&gt;
+
+&lt;p&gt;주기적으로 계획을 조정하고 우선순위를 결정합니다.&lt;br /&gt;
+변경사항에 유연하게 대응하기 위해, 요구사항을 작은 단위로 쪼개고, 짧은 주기마다 우선순위를 조정합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;테스트주도개발test-driven-development-tod&quot;&gt;테스트주도개발(Test-Driven Development, TOD)&lt;/h3&gt;
+
+&lt;p&gt;테스트 주도 개발은 XP의 핵심적인 실험 방법 중 하나입니다.&lt;br /&gt;
+TOD는 개발자가 먼저 테스트 코드를 작성하고, 그에 맞춰 소프트웨어를 개발하는 방법입니다.&lt;br /&gt;
+아래(실패하는 테스트 작성, 테스트 통과를 위한 최소한의 코드 작성, 코드 리팩토링) 사이클을 반복하면서 점진적으로 기능을 구현하고, 테스트 커버리지를 높이며, 코드의 품질을 유지하고 개선할 수 있습니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;실패하는-테스트-작성&quot;&gt;실패하는 테스트 작성&lt;/h4&gt;
+
+&lt;p&gt;개발자는 먼저 새로운 기능 또는 변경사항에 대한 테스트를 작성합니다.&lt;br /&gt;
+이 테스트는 현재 작업하려는 코드에 대해 예상한 동작을 검증하는 목적을 가지며, 당연히 실패해야 합니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;테스트-통과를-위한-최소한의-코드-작성&quot;&gt;테스트 통과를 위한 최소한의 코드 작성&lt;/h4&gt;
+
+&lt;p&gt;테스트가 실패했으므로, 개발자는 최소하의 코드를 작성하여 테스트를 통과시키려고 합니다.&lt;br /&gt;
+이 단계에서는 코드가 간단하고 테스트를 통과하는 것에만 초점을 둡니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;코드-리팩토링&quot;&gt;코드 리팩토링&lt;/h4&gt;
+
+&lt;p&gt;작성한 코드를 리팩토딩하여 중복 코드를 제거하고, 설계를 개선하며, 가독성을 높이는 등의 작업을 수행합니다.&lt;br /&gt;
+리팩토링은 테스트를 통과하는 상태에서 수행되어야 합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;공동-소유권&quot;&gt;공동 소유권&lt;/h3&gt;
+
+&lt;p&gt;XP에서는 개발 팀 내의 구성원들이 코드와 기능에 대한 공동 소유권을 가집니다.&lt;br /&gt;
+개발자들은 서로의 코드를 이해하고 유지보수할 수 있으며, 효과적인 협업을 위해 지식을 공유하고 도움을 주고받을 수 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;지속적인-통합&quot;&gt;지속적인 통합&lt;/h3&gt;
+
+&lt;p&gt;팀 내의 개발자들이 작성한 코드를 지속적으로 통합하는 것을 의미합니다.&lt;br /&gt;
+통합 단계에서는 코드의 충돌을 해결하고, 빌드 및 자동화된 테스트를 실행하여 오류를 신속하게 감지하고 해결합니다.&lt;br /&gt;
+이를 통해 팀 전체의 코드 품질을 유지하고 소프트웨어를 안정적으로 구축합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;계획-기술&quot;&gt;계획 기술&lt;/h3&gt;
+
+&lt;p&gt;XP에서는 고객과 개발자가 함께 계획을 수립하는 계획 기술을 사용합니다.&lt;br /&gt;
+고객은 요구사항을 우선순위에 따라 명시하고, 개발자는 작업의 복잡성과 필요한 시간 등을 추정합니다.&lt;br /&gt;
+이러한 계획 과정을 통해 팀은 실질적인 목표와 일정을 설정하고 조정할 수 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;쌍끌이-프로그래밍pair-programming&quot;&gt;쌍끌이 프로그래밍(Pair Programming)&lt;/h3&gt;
+
+&lt;p&gt;두 명의 개발자가 하나의 컴퓨터에서 함께 작업하는 방식입니다. &lt;br /&gt;
+한 명은 코드를 작성하고, 다른 한 명은 코드를 검토하며 지속적인 피드백을 제공합니다.&lt;br /&gt;
+이를 통해 코드 품질과 지식 공유를 강화하고 오류를 빠르게 발견할 수 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;기능-단위-릴리즈small-realeases&quot;&gt;기능 단위 릴리즈(Small Realeases)&lt;/h3&gt;
+
+&lt;p&gt;개발된 기능을 가능한 빨리 릴리즈하는 것을 지향합니다.&lt;br /&gt;
+작은 기능 단위로 릴리즈를 수행하여 고객에게는 실질적인 가치를 제공하고 피드백을 수렴합니다.&lt;br /&gt;
+이를 통해 고객의 요구에 신속하게 대응하고 소프트웨어를 점진적으로 개선할 수 있습니다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">익스트림 프로그래밍 Extreme Programming, XP</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">트랜스포머 - 포지셔널 인코딩</title>
@@ -788,100 +921,6 @@ MVC는 대규모 응용 프로그램의 개발 및 유지 보수를 용이하게
 
       
         <summary type="html">영어계획</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">컴포넌트</title>
-      <link href="http://localhost:4000/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8" rel="alternate" type="text/html" title="컴포넌트" />
-      <published>2023-04-26T00:00:00+09:00</published>
-      <updated>2023-04-26T00:00:00+09:00</updated>
-      <id>http://localhost:4000/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8</id>
-      <content type="html" xml:base="http://localhost:4000/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8">&lt;h1 id=&quot;컴포넌트&quot;&gt;컴포넌트&lt;/h1&gt;
-
-&lt;p&gt;프로그래밍에서 컴포넌트란, 독립적으로 작동할 수 있는 소프트웨어 모듈입니다.&lt;br /&gt;
-재사용이 가능하며, 다른 소프트웨어에서도 사용할 수 있습니다.&lt;br /&gt;
-일반적으로 컴포넌트는 자체적으로 기능을 수행하며, 다른 컴포넌트와 상호작용을 할 수 있습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;인터페이스&quot;&gt;인터페이스&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;일반적으로 인터페이스를 통해 다른 소프트웨어와 상호작용합니다.&lt;/li&gt;
-  &lt;li&gt;인터페이스는 컴포넌트의 기능을 정의합니다.&lt;/li&gt;
-  &lt;li&gt;컴포넌트가 다른 소프트웨어와 상호작용할 수 있도록 합니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;형태&quot;&gt;형태&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;일반적으로 라이브러리, 모듈, 클래스, 함수, 객체 등의 형태로 제공됩니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;재사용성&quot;&gt;재사용성&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;컴포넌트는 독립적으로 작동하므로, 다른 소프트웨어에서도 사용할 수 있습니다.&lt;/li&gt;
-  &lt;li&gt;재사용하는 것은 소프트웨어 개발의 생산성을 높이며, 소프트웨어 시스템의 유지보수와 확장성을 향상시킵니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;유지보수성&quot;&gt;유지보수성&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;컴포넌트는 독립적으로 작동하며, 다른 소프트웨어에서도 사용할 수 있습니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;확장성&quot;&gt;확장성&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;새로운 컴포넌트를 추가하거나 기존 컴포넌트를 대체하여 소프트웨어 시스템을 확장할 수 있습니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;표준화&quot;&gt;표준화&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;인터페이스가 표준화되어 있어서, 다른 컴포넌트와의 상호작용이 쉬워집니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;테스트-용이성&quot;&gt;테스트 용이성&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;컴포넌트는 독립적으로 테스트할 수 있으므로, 전체 소프트웨어 시스템을 테스트하는 것보다 효율적입니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;모듈화&quot;&gt;모듈화&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;컴포넌트는 모듈화되어 있어서, 소프트웨어 개발자가 작업하기 쉬우며, 코드의 가독성을 높입니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;참고&lt;br /&gt;
-&lt;a href=&quot;https://hanamon.kr/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-component%EB%9E%80/&quot;&gt;컴포넌트(Component)란?&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="TIL" />
-      
-
-      
-        <summary type="html">컴포넌트</summary>
       
 
       
