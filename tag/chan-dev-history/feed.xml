@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/chan-dev-history/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-05-12T01:51:03+09:00</updated>
+  <updated>2023-05-14T16:36:29+09:00</updated>
   <id>http://localhost:4000/tag/chan-dev-history/feed.xml</id>
 
   
@@ -30,6 +30,112 @@
   
   
 
+  
+    <entry>
+      <title type="html">자기 개발 기록 (2023년5월)</title>
+      <link href="http://localhost:4000/2023%EB%85%845%EC%9B%94" rel="alternate" type="text/html" title="자기 개발 기록 (2023년5월)" />
+      <published>2023-05-13T00:00:00+09:00</published>
+      <updated>2023-05-13T00:00:00+09:00</updated>
+      <id>http://localhost:4000/2023%EB%85%845%EC%9B%94</id>
+      <content type="html" xml:base="http://localhost:4000/2023%EB%85%845%EC%9B%94">&lt;h1 id=&quot;자기-개발-기록-2023년5월&quot;&gt;자기 개발 기록 (2023년5월)&lt;/h1&gt;
+
+&lt;h2 id=&quot;목적&quot;&gt;목적&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;자기 개발 기록을 통해 성과, 반성, 배울 점을 얻고 성장할 수 있도록 합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;1주차-2023년-5월-1일&quot;&gt;1주차 2023년 5월 1일&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;트랜스포머(인코더)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;details&gt;
+&lt;summary&gt;&lt;span style=&quot;color:blue;font-weight:bold&quot;&gt;여기를 클릭하여 펼치기...&lt;/span&gt;&lt;/summary&gt;
+&lt;div&gt;
+    &lt;ul&gt;
+      &lt;li&gt;트랜스포머(인코더)
+        &lt;ul&gt;
+          &lt;li&gt;포지셔널 인코딩&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;hr /&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&quot;2주차-2023년-5월-8일&quot;&gt;2주차 2023년 5월 8일&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;정보처리기사, 익스트림 프로그래밍&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;details&gt;
+&lt;summary&gt;&lt;span style=&quot;color:blue;font-weight:bold&quot;&gt;여기를 클릭하여 펼치기...&lt;/span&gt;&lt;/summary&gt;
+&lt;div&gt;
+    &lt;ul&gt;
+      &lt;li&gt;정보처리기사(블로그 포스팅)
+        &lt;ul&gt;
+          &lt;li&gt;익스트림 프로그래밍&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;hr /&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&quot;3주차-2023년-5월-15일&quot;&gt;3주차 2023년 5월 15일&lt;/h2&gt;
+&lt;blockquote&gt;
+
+&lt;/blockquote&gt;
+
+&lt;details&gt;
+&lt;summary&gt;&lt;span style=&quot;color:blue;font-weight:bold&quot;&gt;여기를 클릭하여 펼치기...&lt;/span&gt;&lt;/summary&gt;
+&lt;div&gt;
+
+    &lt;hr /&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&quot;4주차-2023년-5월-22일&quot;&gt;4주차 2023년 5월 22일&lt;/h2&gt;
+&lt;blockquote&gt;
+
+&lt;/blockquote&gt;
+
+&lt;details&gt;
+&lt;summary&gt;&lt;span style=&quot;color:blue;font-weight:bold&quot;&gt;여기를 클릭하여 펼치기...&lt;/span&gt;&lt;/summary&gt;
+&lt;div&gt;
+
+    &lt;hr /&gt;
+  &lt;/div&gt;
+&lt;/details&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="Chan_dev_history" />
+      
+
+      
+        <summary type="html">자기 개발 기록 (2023년5월)</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">자기 개발 기록 (2023년3월)</title>
