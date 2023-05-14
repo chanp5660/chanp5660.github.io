@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
+  <link href="http://localhost:4000/tag/adsp/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2023-05-15T01:20:58+09:00</updated>
+  <id>http://localhost:4000/tag/adsp/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">Engineer Chanp5660 | </title>
+  
+
+  
+    <subtitle>박찬</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">클라우딩 컴퓨팅</title>
+      <link href="http://localhost:4000/%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%94%A9%EC%BB%B4%ED%93%A8%ED%8C%85" rel="alternate" type="text/html" title="클라우딩 컴퓨팅" />
+      <published>2023-05-15T00:00:00+09:00</published>
+      <updated>2023-05-15T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%94%A9%EC%BB%B4%ED%93%A8%ED%8C%85</id>
+      <content type="html" xml:base="http://localhost:4000/%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%94%A9%EC%BB%B4%ED%93%A8%ED%8C%85">&lt;h1 id=&quot;클라우딩-컴퓨팅cloud-computing&quot;&gt;클라우딩 컴퓨팅(Cloud Computing)&lt;/h1&gt;
+
+&lt;p&gt;인터넷을 통해 컴퓨터 리소스를 제공하고 관리하는 기술 및 서비스입니다.&lt;br /&gt;
+기존에는 개별적으로 소유하고 관리되는 로컬 컴퓨터 또는 서버를 사용하여 데이터를 저장하고 응용 프로그램을 실행했지만, 클라우딩 컴퓨팅은 인터넷을 통해 필요한 컴퓨팅 리소스에 대한 접근성과 유연성을 제공합니다.&lt;/p&gt;
+
+&lt;p&gt;기업과 개인 모두에게 다양한 이점을 제공합니다. &lt;br /&gt;
+비즈니스에 있어서는 비용 절감과 유연성을 통해 경제적인 이점을 얻을 수 있으며, 개발자와 IT 전문가에게는 개발과 운영의 간소화와 효율성 향상을 가져옵니다. &lt;br /&gt;
+또한, 사용자는 모바일 기기나 웹 브라우저를 통해 언제 어디서든 필요한 서비스에 접근할 수 있으므로 편의성과 업무 유연성을 확보할 수 있습니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;주요-특징&quot;&gt;주요 특징&lt;/h2&gt;
+
+&lt;h3 id=&quot;온디맨드-서비스on-demand-유연성과-확장성&quot;&gt;온디맨드 서비스(On-Demand), 유연성과 확장성&lt;/h3&gt;
+
+&lt;p&gt;클라우드 서비스는 필요에 따라 리소스를 증가 또는 축소할 수 있으므로 유연성과 확장성이 뛰어납니다.&lt;br /&gt;
+사용자는 필요한 만큼의 컴퓨팅 리소스를 사용할 수 있으며, 규모에 따라 리소스를 조정할 수 있습니다.&lt;br /&gt;
+이는 사용자의 요구에 따라 유연하게 서버, 스토리지, 대역폭 등의 리소스를 조정할 수 있는 능력을 갖추었음을 의미합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;네트워크-접근성&quot;&gt;네트워크 접근성&lt;/h3&gt;
+
+&lt;p&gt;클라우드 서비스는 인터넷을 통해 언제 어디서든 접근할 수 있습니다.&lt;br /&gt;
+사용자는 클라우드에 저장된 데이터와 애플리케이션에 대한 접근성을 인터넷을 통해 얻을 수 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;공유-리소스협업과-유연한-작업환경&quot;&gt;공유 리소스(협업과 유연한 작업환경)&lt;/h3&gt;
+
+&lt;p&gt;여러 사용자가 동일한 물리적 리소스를 공유함으로써 비용과 자원 사용률을 최적화합니다.&lt;br /&gt;
+이는 여러 사용자가 동시에 클라우드에서 서비스를 이용하며, 필요에 따라 자원을 할당받을 수 있음을 의미합니다.&lt;/p&gt;
+
+&lt;p&gt;여러 사용자가 동시에 작업하고 데이터 및 문서를 공유할 수 있습니다.&lt;br /&gt;
+협업 도구, 파일 공유, 팀 프로젝트 관리 등을 제공하여 효율적인 작업 환경을 조성할 수 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;유지보수-및-관리-간소화&quot;&gt;유지보수 및 관리 간소화&lt;/h3&gt;
+
+&lt;p&gt;클라우드 서비스 제공업체는 시스템의 유지보수, 업그레이드, 보안 등을 관리하므로 사용자는 이에 대한 부담과 관리 비용을 줄일 수 있습니다.&lt;br /&gt;
+사용자는 클라우드 서비스에 대한 기술적인 측면을 걱정하지 않고 핵심 비즈니스에 집중할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;클라우드 서비스 제공업체는 데이터 보안에 대한 향상된 기술과 보안 매커니즘을 갖추고 있습니다.&lt;br /&gt;
+데이터 암호화, 접근 제어, 모니터링, 백업 및 복구 등의 보안 기능을 제공하여 데이터의 기밀성과 무결성을 보호합니다.&lt;/p&gt;
+
+&lt;p&gt;그러나 클라우드 사용자는 데이터 보안을 위해 적절한 접근 권한 관리와 추가적인 보안 조치를 적용해야 합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;비용-절감&quot;&gt;비용 절감&lt;/h3&gt;
+
+&lt;p&gt;초기 투자 비용을 줄일 수 있습니다.&lt;br /&gt;
+사용자는 인프라를 구매하고 유지보수하는 대신 사용한 만큼 비용을 지불하게 됩니다.&lt;br /&gt;
+또한, 클라우드 서비스는 사용량에 따라 가격이 유동적으로 책정되므로 비용을 최적화할 수 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;고가용성과-신뢰성&quot;&gt;고가용성과 신뢰성&lt;/h3&gt;
+
+&lt;p&gt;여러 가용 영역에 데이터 및 애플리케이션을 분산시키고 복제함으로써 고가용성과 신뢰성을 제공합니다.&lt;br /&gt;
+이는 단일 서버 또는 인프라 장애로부터의 회복력을 향상시키고, 시스템의 가동 시간을 최대화할 수 있습니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;서비스-모델&quot;&gt;서비스 모델&lt;/h2&gt;
+
+&lt;h3 id=&quot;인프라스트럭처-as-a-service-iaas&quot;&gt;인프라스트럭처 as a Service (IaaS)&lt;/h3&gt;
+
+&lt;p&gt;가상화된 컴퓨팅 리소스를 제공하는 서비스입니다.&lt;br /&gt;
+사용자는 가상 서버, 스토리지, 네트워킹 등의 인프라를 필요에 따라 사용할 수 있습니다.&lt;br /&gt;
+이 모델은 자체적으로 하드웨어를 관리하고자 하는 기업에게 유용하며, 서버나 네트워크 인프라 등을 클라우드로 외부에 위탁할 수 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;플랫폼-as-a-service-paas&quot;&gt;플랫폼 as a Service (Paas)&lt;/h3&gt;
+
+&lt;p&gt;애플리케이션 개발과 운영을 위한 플랫폼을 제공하는 서비스입니다.&lt;br /&gt;
+개발자는 클라우드 플랫폼에서 애플리케이션을 개발, 테스트, 배포 및 관리할 수 있습니다. 
+개발자가 인프라 관리보다 애플리케이션 개발에 더 집중할 수 있도록 지원합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;소프트웨어-as-a-service-saas&quot;&gt;소프트웨어 as a Service (SaaS)&lt;/h3&gt;
+
+&lt;p&gt;애플리케이션을 인터넷을 통해 제공하는 서비스입니다.&lt;br /&gt;
+사용자는 클라우드 상에서 제공되는 소프트웨어를 웹 브라우저나 모바일 앱을 통해 접근하여 사용할 수 있습니다.&lt;br /&gt;
+이 모델은 일반 사용자와 기업에게 소프트웨어를 구매하지 않고도 필요한 기능을 이용할 수 있는 편리성을 제공합니다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="Adsp" />
+      
+
+      
+        <summary type="html">클라우딩 컴퓨팅(Cloud Computing)</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">하드 스킬 VS 소프트 스킬</title>
+      <link href="http://localhost:4000/%ED%95%98%EB%93%9C%EC%8A%A4%ED%82%ACvs%EC%86%8C%ED%94%84%ED%8A%B8%EC%8A%A4%ED%82%AC" rel="alternate" type="text/html" title="하드 스킬 VS 소프트 스킬" />
+      <published>2023-05-15T00:00:00+09:00</published>
+      <updated>2023-05-15T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%ED%95%98%EB%93%9C%EC%8A%A4%ED%82%ACvs%EC%86%8C%ED%94%84%ED%8A%B8%EC%8A%A4%ED%82%AC</id>
+      <content type="html" xml:base="http://localhost:4000/%ED%95%98%EB%93%9C%EC%8A%A4%ED%82%ACvs%EC%86%8C%ED%94%84%ED%8A%B8%EC%8A%A4%ED%82%AC">&lt;h1 id=&quot;하드-스킬-vs-소프트-스킬&quot;&gt;하드 스킬 VS 소프트 스킬&lt;/h1&gt;
+
+&lt;h2 id=&quot;하드-스킬hard-skills&quot;&gt;하드 스킬(Hard Skills)&lt;/h2&gt;
+
+&lt;p&gt;측정 가능하고 구체적인 기술을 나타냅니다.&lt;br /&gt;
+이는 특정 작업을 수행하기 위해 교육, 훈련, 또는 경험을 통해 습득한 기술입니다.&lt;/p&gt;
+
+&lt;p&gt;주로 학위, 자격증, 수리적 능력, 컴퓨터 프로그래밍, 외국어 구사 등과 같은 전문적인 분야에 속하는 기술을 의미합니다.&lt;br /&gt;
+측정 가능하며, 정확한 프로세스에 기반하여 개발됩니다.&lt;/p&gt;
+
+&lt;p&gt;예를 들어, 의사의 수술 기술, 회계사의 재무 분석 능력, 프로그래머의 코딩 기술 등이 하드 스킬의 예입니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;소프트-스킬soft-skills&quot;&gt;소프트 스킬(Soft Skills)&lt;/h2&gt;
+
+&lt;p&gt;개인의 인성, 태도, 커뮤니케이션 능력, 리더십, 문제 해결 능력 등과 같은 비기술적인 기술을 나타냅니다.&lt;br /&gt;
+사회적, 대인 관계 및 조직 내에서 효과적으로 작업하고 협업하기 위해 필요한 기술입니다.&lt;br /&gt;
+이러한 스킬은 팀워크, 대화, 리더십, 시간 관리, 문제 해결, 유연성, 커뮤니케이션, 적응력, 창의성 등과 같은 영역을 포함합니다.&lt;br /&gt;
+주로 사회적인 상호작용과 관련되어 있으며, 협업과 리더십 능력을 향상시키는 데 중요합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://asana.com/ko/resources/hard-skills-vs-soft-skills&quot;&gt;&lt;strong&gt;&lt;em&gt;참고하기 좋은 사이트&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="Adsp" />
+      
+
+      
+        <summary type="html">하드 스킬 VS 소프트 스킬</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">데이터사이언티스트(Data Scientist)</title>
+      <link href="http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%82%AC%EC%9D%B4%EC%96%B8%ED%8B%B0%EC%8A%A4%ED%8A%B8" rel="alternate" type="text/html" title="데이터사이언티스트(Data Scientist)" />
+      <published>2023-05-14T00:00:00+09:00</published>
+      <updated>2023-05-14T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%82%AC%EC%9D%B4%EC%96%B8%ED%8B%B0%EC%8A%A4%ED%8A%B8</id>
+      <content type="html" xml:base="http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%82%AC%EC%9D%B4%EC%96%B8%ED%8B%B0%EC%8A%A4%ED%8A%B8">&lt;h1 id=&quot;데이터-사이언티스트data-scientist&quot;&gt;데이터 사이언티스트(Data Scientist)&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;데이터를 분석하고 해석하여 비즈니스나 조직의 의사 결정에 활용하는 전문가&lt;/strong&gt;입니다.&lt;br /&gt;
+다양한 &lt;strong&gt;데이터 소스&lt;/strong&gt;로부터 &lt;strong&gt;정보를 추출&lt;/strong&gt;하고, 데이터를 &lt;strong&gt;정제&lt;/strong&gt;, &lt;strong&gt;변환&lt;/strong&gt;하며, &lt;strong&gt;분석 모델을 개발&lt;/strong&gt;하여 &lt;strong&gt;예측&lt;/strong&gt;, &lt;strong&gt;패턴 분석, 통계적 추론 등을 수행&lt;/strong&gt;합니다.&lt;br /&gt;
+그 결과로 &lt;strong&gt;인사이트를 도출&lt;/strong&gt;하고 &lt;strong&gt;문제를 해결&lt;/strong&gt;하며, &lt;strong&gt;비즈니스 가치를 창출&lt;/strong&gt;하는 역할을 수행합니다.&lt;br /&gt;
+다양한 분야에서 활용될 수 있으며, 기업, 연구소, 정부 기관 등 다양한 조직에서 일할 수 있습니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;주요-역할&quot;&gt;주요 역할&lt;/h2&gt;
+
+&lt;h3 id=&quot;데이터-수집-및-전처리&quot;&gt;데이터 수집 및 전처리&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;다양한 소스에서 데이터를 수집&lt;/strong&gt;하고, 데이터를 &lt;strong&gt;정제&lt;/strong&gt;하고 &lt;strong&gt;변환&lt;/strong&gt;하여 분석에 적합한 형태로 &lt;strong&gt;가공&lt;/strong&gt;합니다.&lt;br /&gt;
+이 단계에서는 데이터 &lt;strong&gt;품질 검사, 결측치 처리, 이상치 제거&lt;/strong&gt; 등의 작업이 이루어집니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;데이터-탐색-및-시각화&quot;&gt;데이터 탐색 및 시각화&lt;/h3&gt;
+
+&lt;p&gt;수집한 데이터를 &lt;strong&gt;시각화&lt;/strong&gt;하여 &lt;strong&gt;패턴, 상관 관계, 트랜드 등을 탐색하고 이해&lt;/strong&gt;합니다.&lt;br /&gt;
+&lt;strong&gt;시각화&lt;/strong&gt;를 통해 데이터에 대한 &lt;strong&gt;통찰력&lt;/strong&gt;을 얻고, &lt;strong&gt;향후 분석 방향을 결정&lt;/strong&gt;하는 데 도움이 됩니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;머신러닝-및-통계-모델-개발&quot;&gt;머신러닝 및 통계 모델 개발&lt;/h3&gt;
+
+&lt;p&gt;머신러닝 알고리즘과 통계적 기법을 활용하여 &lt;strong&gt;예측 모델&lt;/strong&gt;, &lt;strong&gt;분류 모델&lt;/strong&gt;, &lt;strong&gt;군집화 모델&lt;/strong&gt; 등을 개발합니다.&lt;br /&gt;
+이를 통해 데이터에서 &lt;strong&gt;의미 있는 인사이트를 도출&lt;/strong&gt;하고, &lt;strong&gt;비즈니스 문제를 해결&lt;/strong&gt;하거나 &lt;strong&gt;의사 결정&lt;/strong&gt;에 활용합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;데이터-분석-및-인사이트-도출&quot;&gt;데이터 분석 및 인사이트 도출&lt;/h3&gt;
+
+&lt;p&gt;개발한 모델을 활용하여 데이터를 분석하고, 인사이트를 도출합니다.&lt;br /&gt;
+이를 통해 기업이나 조직의 문제를 이해하고, 의사 결정에 필요한 정보를 제공합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;모델-평가-및-최적화&quot;&gt;모델 평가 및 최적화&lt;/h3&gt;
+
+&lt;p&gt;개발한 모델의 &lt;strong&gt;성능을 평가&lt;/strong&gt;하고, 필요에 &lt;strong&gt;모델을 최적화&lt;/strong&gt;합니다.&lt;br /&gt;
+모델의 정확도, 정밀도, 재현율 등을 평가하고, 향상시키는 작업을 수행합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;결과-보고-및-시각화&quot;&gt;결과 보고 및 시각화&lt;/h3&gt;
+
+&lt;p&gt;분석 결과를 이해하기 쉽게 보고서나 시각화 자료로 정리하여 관련자에 전달합니다.&lt;br /&gt;
+분석 결과를 이해하기 쉽게 시각화하고, 보고서로 작성하여 해당 조직이나 이해 관계자들에게 전달합니다.&lt;br /&gt;
+이를 통해 데이터 기반으로 한 의사 결정에 필요한 정보를 제공하고, 비즈니스 전략 수립과 문제 해결에 기여합니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;필수적인-기술과-역량&quot;&gt;필수적인 기술과 역량&lt;/h2&gt;
+
+&lt;h3 id=&quot;프로그래밍&quot;&gt;프로그래밍&lt;/h3&gt;
+
+&lt;p&gt;프로그래밍 언어(예: python, R, SQL)를 활용하여 데이터 분석 및 모델링 작업을 수행해야 합니다.&lt;br /&gt;
+프로그래밍 스킬을 통해 데이터 처리, 모델 개발, 자동화 등의 작업을 효율적으로 수행할 수 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;통계-및-수학&quot;&gt;통계 및 수학&lt;/h3&gt;
+
+&lt;p&gt;통계적 기법과 수학적 지식은 데이터 사이언티스트가 데이터를 분석하고 모델을 개발하는 데 필수적입니다.&lt;br /&gt;
+통계적 추론, 가설 검정, 회귀 분석 등의 개념을 이해하고 활용할 수 있어야 합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;머신러닝-및-데이터-마이닝&quot;&gt;머신러닝 및 데이터 마이닝&lt;/h3&gt;
+
+&lt;p&gt;머신러닝 알고리즘과 데이터 마이닝 기법을 이해하고 적응할 수 있어야 합니다.&lt;br /&gt;
+이를 통해 데이터에서 패턴을 발견하고 예측 모델을 구축할 수 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;데이터베이스-및-sql&quot;&gt;데이터베이스 및 SQL&lt;/h3&gt;
+
+&lt;p&gt;대부분의 조직에서 데이터는 데이터베이스에 저장되어 있으므로, 데이터 사이언티스트는 데이터베이스와 SQL(Query)에 대한 이해와 기술을 가져야 합니다.&lt;br /&gt;
+데이터 추출, 조작, 조인 등의 작업을 수행할 수 있어야 합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;데이터-시각화&quot;&gt;데이터 시각화&lt;/h3&gt;
+
+&lt;p&gt;데이터를 시각화하여 효과적으로 전달해야 합니다.&lt;br /&gt;
+&lt;strong&gt;시각화 도구(예: Matplotlib, ggplot, Tableau)&lt;/strong&gt; 를 사용하여 데이터를 이해하기 쉬운 그래프나 차트로 표현할 수 있어야 합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;도메인-지식&quot;&gt;도메인 지식&lt;/h3&gt;
+
+&lt;p&gt;자신이 작업하는 도메인에 대한 지식을 가지고 있어야 합니다.&lt;br /&gt;
+비즈니스, 마케팅, 의료, 금융 등 해당 분야의 도메인 지식은 데이터 분석과 모델링을 좀 더 효과적으로 수행할 수 있도록 도와줍니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;작업&quot;&gt;작업&lt;/h2&gt;
+
+&lt;h3 id=&quot;데이터-관리-및-처리&quot;&gt;데이터 관리 및 처리&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;대용량의 데이터&lt;/strong&gt;를 다루어야 하므로 &lt;strong&gt;데이터베이스&lt;/strong&gt;, &lt;strong&gt;데이터 웨어하우스&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;데이터 레이크&lt;/em&gt;&lt;/strong&gt; 등의 데이터 관리 시스템을 이해하고 활용할 수 있어야 합니다.&lt;br /&gt;
+데이터 수집, 정제, 통합, 변환 등의 과정을 거쳐 데이터를 준비하고 분석에 활용합니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cloud.google.com/learn/what-is-a-data-lake?hl=ko#section-1&quot;&gt;&lt;em&gt;데이터 레이크&lt;/em&gt;&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;구조화되거나 반구조화되거나 구조화되지 않은 대량의 데이터를 저장, 처리, 보호하기 위한 중앙 집중식 저장소입니다.&lt;/li&gt;
+      &lt;li&gt;데이터를 기본 형식으로 저장할 수 있으며, 크기 제한을 무시하고 다양한 데이터를 처리 할 수 있습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://aws.amazon.com/ko/data-warehouse/&quot;&gt;&lt;em&gt;데이터 웨어하우스&lt;/em&gt;&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;보다 정보에 입각한 의사 결정을 내릴 수 있도록 분석 가능한 정보의 중앙 &lt;em&gt;리포지토리&lt;/em&gt;입니다.&lt;/li&gt;
+      &lt;li&gt;데이터 웨어하우스는 데이터를 효율적으로 저장하여 보고서, 대시보드 및 분석 도구를 강화함으로써 데이터의 입출력(I/O)을 최소화하고 수백 수천 명의 사용자에게 동시에 신속하게 쿼리 결과를 제공합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://aws.amazon.com/ko/what-is/repo/&quot;&gt;&lt;em&gt;리포지토리&lt;/em&gt;&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;개발자가 애플리케이션 소스 코드에 대한 변경을 수행 및 관리하는 데 사용하는 중앙화된 디지털 스토리지입니다.&lt;/li&gt;
+      &lt;li&gt;개발자는 소프트웨어를 개발할 때 폴더, 텍스트 파일 및 기타 유형의 문서를 저장 및 공유해야 합니다.&lt;/li&gt;
+      &lt;li&gt;개발자가 쉽게 코드 변경 사항을 추적하고, 파일을 동시에 편집하고 어디에서든 동일한 프로젝트에서 효율적인 협업을 수핼할 수 있게 해 주는 기능을 갖추고 있습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;예측-모델-개발&quot;&gt;예측 모델 개발&lt;/h3&gt;
+
+&lt;p&gt;머신러닝과 통계 기법을 활용하여 예측 모델을 개발합니다.&lt;br /&gt;
+회귀 분석, 분류, 군집화, 추천 시스템 등의 알고리즘을 사용하여 데이터로부터 특정 결과를 예측하고 패턴을 찾아냅니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;데이터-마이닝&quot;&gt;데이터 마이닝&lt;/h3&gt;
+
+&lt;p&gt;데이터 마이닝 기법을 활용하여 &lt;strong&gt;숨겨진 패턴, 상관 관계, 트랜드&lt;/strong&gt; 등을 발견합니다.&lt;br /&gt;
+연관 규칙 분석, 군집 분석, 이상 탐지 등의 기법을 사용하여 데이터에서 유용한 정보를 추출합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;딥러닝과-인공지능&quot;&gt;딥러닝과 인공지능&lt;/h3&gt;
+
+&lt;p&gt;최근에는 딥러닝과 인공지는 기술이 데이터 사이언스 분야에서 많은 관심을 받고 있습니다.&lt;br /&gt;
+데이터 사이언티스트는 신경망 알고리즘과 딥러닝 프레임워크를 사용하여 이미지 인식, 자연어 처리, 음성 인식 등의 작업을 수행합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;ab-테스트-및-실험-설계&quot;&gt;A/B 테스트 및 실험 설계&lt;/h3&gt;
+
+&lt;p&gt;A/B 테스트를 설계하고 분석하여 제품, 서비스, 마케팅 전략 등의 효과를 평가합니다.&lt;br /&gt;
+실험 설계 통계적 가설 검정을 통해 유의미한 결과를 도출하고 의사 결정에 활용합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;커뮤니케이션-및-협업&quot;&gt;커뮤니케이션 및 협업&lt;/h3&gt;
+
+&lt;p&gt;기술적인 역량 뿐만 아니라 커뮤니케이션과 협업 능력도 중요합니다.&lt;br /&gt;
+데이터 분석 결과를 비전문가에게 명확하게 전달하고, 동료들과 협업하여 문제 해결에 참여하며, 비즈니스적인 요구를 이해하고 반영할 수 있어야 합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;지속적인-학습과-개발&quot;&gt;지속적인 학습과 개발&lt;/h3&gt;
+
+&lt;p&gt;빠르게 진화하는 분야이므로, 최신 기술과 도구에 대한 학습을 지속적으로 진행해야 합니다.&lt;br /&gt;
+새로운 알고리즘, 라이브러리, 프레임워크 등을 습득하고 적용하는 능력을 갖추어야 합니다.&lt;br /&gt;
+또한, 데이터 사이언스 커뮤니티나 학회에 참여하여 동료들과 지식을 공유하고 네트워킹을 확장할 수도 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;윤리적-고려사항&quot;&gt;윤리적 고려사항&lt;/h3&gt;
+
+&lt;p&gt;개인정보 보호, 공정성, 편향성 등과 같은 윤리적인 고려사항을 이해하고 준수해야 합니다.&lt;br /&gt;
+데이터 처리와 분석 과정에서 개인정보 보호를 위한 적절한 방법을 적용하고, 모델의 공정성과 편향성을 평가하고 공정한 결과를 도출해야 합니다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="Adsp" />
+      
+
+      
+        <summary type="html">데이터 사이언티스트(Data Scientist)</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">데이터베이스</title>
+      <link href="http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4" rel="alternate" type="text/html" title="데이터베이스" />
+      <published>2023-05-14T00:00:00+09:00</published>
+      <updated>2023-05-14T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4</id>
+      <content type="html" xml:base="http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4">&lt;h1 id=&quot;데이터베이스database&quot;&gt;데이터베이스(Database)&lt;/h1&gt;
+
+&lt;p&gt;데이터베이스는 정보를 구조화하여 저장하고 조작할 수 있는 시스템입니다.&lt;br /&gt;
+데이터를 효율적으로 &lt;strong&gt;저장, 검색, 수정 및 삭제&lt;/strong&gt;할 수 있도록 설계되어 있습니다.&lt;br /&gt;
+다양한 종류의 애플리케이션에서 사용됩니다.&lt;/p&gt;
+
+&lt;p&gt;일반적으로 구조화된 데이터를 테이블 형식으로 저장하며, 이러한 테이블은 행과 열의 집합으로 이루어져 있습니다.&lt;/p&gt;
+
+&lt;p&gt;데이터의 &lt;strong&gt;일관성, 무결성, 보안&lt;/strong&gt; 등을 유지하기 위해 다양한 기능을 제공합니다.&lt;/p&gt;
+
+&lt;p&gt;데이터베이스는 다양한 분야에서 활용되며, 데이터 분석가로서 데이터베이스에 대한 이해는 중요한 기술입니다.&lt;br /&gt;
+데이터를 추출하고 변환하여 분석할 때 데이터베이스에서 쿼리를 작성하고 데이터를 가져오는 작업을 수행하게 됩니다.&lt;br /&gt;
+따라서 SQL 등의 데이터베이스 관련 기술을 학습하고 실습하여 데이터베이스에서 데이터를 효과적으로 관리하고 분석하는 능력을 키우는 것이 데이터 분석가로서 중요합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;관계형-데이터-베이스realational-database&quot;&gt;관계형 데이터 베이스(Realational Database)&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;데이터&lt;/strong&gt;를 &lt;strong&gt;여러 테이블로 나누어 저장&lt;/strong&gt;하고, &lt;strong&gt;테이블 간의 관계를 설정&lt;/strong&gt;하여 데이터를 구성합니다.&lt;br /&gt;
+&lt;strong&gt;SQL(Structured Query Language)&lt;/strong&gt;을 사용하여 데이터베이스에 대한 &lt;strong&gt;질의(Query)를 수행&lt;/strong&gt;하고, &lt;strong&gt;데이터를 조작&lt;/strong&gt;할 수 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;용어-개념&quot;&gt;용어 개념&lt;/h2&gt;
+
+&lt;h3 id=&quot;테이블table&quot;&gt;테이블(Table)&lt;/h3&gt;
+
+&lt;p&gt;데이터가 &lt;strong&gt;저장되는 가장 기본적인 단위&lt;/strong&gt;로, &lt;strong&gt;행&lt;/strong&gt;과 &lt;strong&gt;열&lt;/strong&gt;로 구성됩니다.&lt;br /&gt;
+각 &lt;strong&gt;행은 레코드(Record)&lt;/strong&gt;를 나타내며, 각 &lt;strong&gt;열은 특정 유형&lt;/strong&gt;의 데이터를 저장합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;스키마schema&quot;&gt;스키마(Schema)&lt;/h3&gt;
+
+&lt;p&gt;데이터베이스의 &lt;strong&gt;구조&lt;/strong&gt;와 &lt;strong&gt;제약 조건&lt;/strong&gt;을 정의하는 개체입니다.&lt;br /&gt;
+테이블, 열, 관계, 제약 조건 등의 정보를 포함합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;관계relationship&quot;&gt;관계(Relationship)&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;테이블 간의 연결&lt;/strong&gt;을 나타내는 개념입니다.&lt;br /&gt;
+일대일(One-to-One), 일대다(One-to-Many), 다대다(Many-to-Many) 등 다양한 형태로 정의될 수 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;쿼리query&quot;&gt;쿼리(Query)&lt;/h3&gt;
+
+&lt;p&gt;데이터를 &lt;strong&gt;검색&lt;/strong&gt;하거나 &lt;strong&gt;조작&lt;/strong&gt;하기 위해 사용되는 &lt;strong&gt;명령어 집합&lt;/strong&gt;입니다.&lt;br /&gt;
+SQL을 사용하여 쿼리를 작성하고 실행할 수 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;인덱스index&quot;&gt;인덱스(Index)&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;검색 속도를 향상&lt;/strong&gt;시키기 위해 사용되는 구조입니다.&lt;br /&gt;
+인덱스는 특정 열 또는 열의 조합에 대한 정렬된 데이터로 구성되며, 데이터 검색 시 인덱스를 활용하여 빠른 결과를 얻을 수 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;무결성-제약-조건intergity-constraint&quot;&gt;무결성 제약 조건(Intergity Constraint)&lt;/h3&gt;
+
+&lt;p&gt;데이터의 &lt;strong&gt;일관성&lt;/strong&gt;과 &lt;strong&gt;정확성&lt;/strong&gt;을 &lt;strong&gt;유지&lt;/strong&gt;하기 위해 설정되는 규칙입니다.&lt;br /&gt;
+무결성 제약 조건은 &lt;strong&gt;데이터의 유효성을 검증&lt;/strong&gt;하고, &lt;strong&gt;잘못된 데이터의 삽입 또는 수정 방지&lt;/strong&gt;하여 데이터의 &lt;strong&gt;일관성을 유지&lt;/strong&gt;합니다.&lt;/p&gt;
+
+&lt;p&gt;예를 들면, 기본키 제약 조건은 테이블의 특정 열의 기준으로 고유한 값을 가져야 함을 나타냅니다.&lt;br /&gt;
+외래키 제약 조건은 한 테이블의 열이 다른 테이블의 기본 키와 관련되어야 함을 의미합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;트랜잭션transaction&quot;&gt;트랜잭션(Transaction)&lt;/h3&gt;
+
+&lt;p&gt;데이터베이스에서 수행되는 &lt;strong&gt;작업의 논리적 단위&lt;/strong&gt;입니다.&lt;br /&gt;
+일련의 작업을 하나의 단위로 묶어서 &lt;em&gt;ACID&lt;/em&gt;; &lt;em&gt;원자성(Atomicity)&lt;/em&gt;, 일관성(Consistency), 독립성(Isolation), 지속성(Durability)을 보장합니다.  &lt;br /&gt;
+트랜잭션은 모두 수행되거나 모두 롤백되어야 하며, 데이터베이스의 일관성을 유지하기 위해 중요한 개념입니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/원자성_(데이터베이스_시스템)&quot;&gt;&lt;em&gt;원자성(Atomicity)&lt;/em&gt;&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;하나의 원자 트랜잭션은 모두 성공하거나 또는 실패하는 데이터베이스 운용의 집합입니다. 원자성의 보증은 데이터베이스의 부분적인 갱신으로 더 큰 문제가 야기되는 것을 방지합니다.&lt;/li&gt;
+      &lt;li&gt;예) 항공 티켓 주문
+        &lt;ul&gt;
+          &lt;li&gt;반드시 지불과 예약이 동시에 되거나 아니면 모두 되지 않아야 합니다. 성공적으로 지불은 되었으나 좌석 예약은 되지 않은 경우는 허용되지 않는다. 하나의 트랜잭션은 항공 티켓 예약뿐 아니라 호텔, 운송, 현재 환율로 정확히 환전되는 데에도 적용됩니다.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/ACID&quot;&gt;&lt;em&gt;ACID&lt;/em&gt;&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;트랜잭션이 안전하게 수행된다는 것을 보장하기 위한 성질을 가리키는 약어입니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;데이터베이스-관리-시스템dbms&quot;&gt;데이터베이스 관리 시스템(DBMS)&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;데이터베이스를 관리하고 조작하기 위한 소프트웨어&lt;/strong&gt;입니다.&lt;br /&gt;
+DBMS는 데이터의 &lt;strong&gt;생성, 수정, 삭제, 검색 등을 지원&lt;/strong&gt;합니다.&lt;br /&gt;
+다양한 기능과 도구를 제공하여 데이터베이스를 관리합니다.&lt;br /&gt;
+대표적인 관계형 DBMS로는 Oracle, MySQL, Microsoft SQL Server, PostgreSQL 등이 있습니다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="Adsp" />
+      
+
+      
+        <summary type="html">데이터베이스(Database)</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">DIKW 피라미드</title>
+      <link href="http://localhost:4000/DIKW%ED%94%BC%EB%9D%BC%EB%AF%B8%EB%93%9C" rel="alternate" type="text/html" title="DIKW 피라미드" />
+      <published>2023-05-14T00:00:00+09:00</published>
+      <updated>2023-05-14T00:00:00+09:00</updated>
+      <id>http://localhost:4000/DIKW%ED%94%BC%EB%9D%BC%EB%AF%B8%EB%93%9C</id>
+      <content type="html" xml:base="http://localhost:4000/DIKW%ED%94%BC%EB%9D%BC%EB%AF%B8%EB%93%9C">&lt;h1 id=&quot;dikw-피라미드data-information-knowledge-wisdom&quot;&gt;DIKW 피라미드(Data Information Knowledge Wisdom)&lt;/h1&gt;
+
+&lt;p&gt;DIKW 피라미드는 정보과학과 지식 관리 분야에서 널리 사용되는 개념적인 모델입니다.&lt;br /&gt;
+&lt;strong&gt;데이터, 정보, 지식 및 지혜&lt;/strong&gt;라는 네 가지 계층으로 구성되어 있으며, &lt;strong&gt;하위 계층에서 상위 계층으로 가는 방향으로 계층화&lt;/strong&gt;되어 있습니다.&lt;br /&gt;
+각 계층은 이전 계층의 결과물을 기반으로 하여 더 높은 수준의 추상화와 이해를 제공합니다.&lt;/p&gt;
+
+&lt;p&gt;DIKW 피라미드는 이러한 &lt;strong&gt;계층 구조를 통해 데이터가 지혜로 가는 과정&lt;/strong&gt;을 설명합니다.&lt;br /&gt;
+데이터는 정보로 가공되며, 정보는 지식으로 변환되고, 지식은 지혜의 토대가 됩니다. &lt;br /&gt;
+이 모델은 정보 관리, 지식 전달, 의사 결정, 학습 및 혁신 등 다양한 분야에서 활용되며, 지식의 가치를 최대화하기 위한 전략과 방법론의 개발에도 도움이 됩니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;데이터data&quot;&gt;데이터(Data)&lt;/h2&gt;
+
+&lt;p&gt;단순히 &lt;strong&gt;사실&lt;/strong&gt;이나 기록으로서 &lt;strong&gt;원시적&lt;/strong&gt;이고 &lt;strong&gt;구조화되지 않은 형태의 정보&lt;/strong&gt;입니다.&lt;br /&gt;
+개별적인 사실이나 관찰을 나타내며, 그 자체로는 큰 의미나 가치를 지니지 않습니다.&lt;/p&gt;
+
+&lt;p&gt;예를 들어, 온도 측정 데이터, 고객 주문 데이터, 주식 시장 거래 데이터 등이 데이터의 예시입니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;정보information&quot;&gt;정보(Information)&lt;/h2&gt;
+
+&lt;p&gt;데이터를 &lt;strong&gt;조직화&lt;/strong&gt;하고 &lt;strong&gt;해석&lt;/strong&gt;하며 &lt;strong&gt;의미 있는 내용&lt;/strong&gt;을 제공하는 것입니다.&lt;br /&gt;
+데이터의 패턴, 관계, 특성 등을 이해하고 분석함으로써 얻어집니다.&lt;br /&gt;
+컨텍스트와 의미를 부여하여 가치를 더합니다.&lt;/p&gt;
+
+&lt;p&gt;예를 들어, 온도 데이터를 바탕으로 특정 지역의 날씨 정보를 제공하거나, 고객 주문 데이터를 분석하여 판매 동향 정보를 도출하는 것이 정보의 예시입니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;지식knowledge&quot;&gt;지식(Knowledge)&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;정보를 이해&lt;/strong&gt;하고 &lt;strong&gt;활용&lt;/strong&gt;할 수 있는 &lt;strong&gt;인식과 깨달음&lt;/strong&gt;을 말합니다.&lt;br /&gt;
+개별 정보들의 상호 연결, 패턴 인식, 근거에 기반한 추론, 경험 등을 통해 형성됩니다.&lt;br /&gt;
+문제 해결, 의사 결정, 예측 등을 위해 활용 될 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;예를 들어, 날씨 정보를 바탕으로 특정 지역에서 휴가를 가기 좋은 시기를 예측하는 것입니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;지혜wisdom&quot;&gt;지혜(Wisdom)&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;넓은 시야&lt;/strong&gt;와 &lt;strong&gt;깊은 이해&lt;/strong&gt;를 바탕으로 형성되며, &lt;strong&gt;지식을 토대로 한 윤리적이고 상황에 맞는 판단과 행동을 포함&lt;/strong&gt;합니다.&lt;br /&gt;
+비지니스 전략 수립, 사회적 문제 해결, 윤리적인 결정 등에 관련되며, 전문적인 지식과 경험이 요구됩니다.&lt;br /&gt;
+지혜는 지식을 최고 수준으로 활용하여 긍정적인 영향력을 가지는 행동을 취함으로써 얻어집니다.&lt;br /&gt;
+&lt;strong&gt;지식과 경험의 결합으로 형성&lt;/strong&gt;되며, 복잡하고 불확실한 상황에서 효과적인 판단을 내릴 수 있는 능력을 강조합니다.&lt;/p&gt;
+
+&lt;p&gt;비즈니스, 리더십, 정치, 인간관계 등 다양한 영역에서 중요한 역할을 합니다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="Adsp" />
+      
+
+      
+        <summary type="html">DIKW 피라미드(Data Information Knowledge Wisdom)</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">데이터형태(정성,정량)</title>
+      <link href="http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%ED%98%95%ED%83%9C_%EC%A0%95%EC%84%B1_%EC%A0%95%EB%9F%89" rel="alternate" type="text/html" title="데이터형태(정성,정량)" />
+      <published>2023-04-28T00:00:00+09:00</published>
+      <updated>2023-04-28T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%ED%98%95%ED%83%9C_%EC%A0%95%EC%84%B1_%EC%A0%95%EB%9F%89</id>
+      <content type="html" xml:base="http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%ED%98%95%ED%83%9C_%EC%A0%95%EC%84%B1_%EC%A0%95%EB%9F%89">&lt;h1 id=&quot;데이터의-유형정성정량&quot;&gt;데이터의 유형(정성,정량)&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;정성적&lt;/strong&gt; 데이터와 &lt;strong&gt;정량적&lt;/strong&gt; 데이터는 데이터의 특성에 따라 분류된 두 가지 유형의 데이터입니다.&lt;br /&gt;
+데이터의 특성과 활용 방안에 따라 차이가 있으며, 분석 목적에 맞게 적절한 데이터를 선택하여 활용하는 것이 중요합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;정성적-데이터&quot;&gt;정성적 데이터&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;주로 &lt;strong&gt;질적&lt;/strong&gt; 데이터로 불리며, 수치화되지 않은 데이터를 의미합니다.&lt;/li&gt;
+  &lt;li&gt;숫자나 측정 단위가 없는 비수량적인 데이터를 의미하며 ,대개 언어, 이미지, 비디오, 소리 등의 형태로 표현됩니다.&lt;/li&gt;
+  &lt;li&gt;예를 들어, 고객 만족도 조사에서 고객의 만족도를 ‘매우 만족’, ‘만족’, ‘보통’, ‘불만족’, ‘매우 불만족’과 같은 카테고리로 평가하는 경우가 있습니다.&lt;/li&gt;
+  &lt;li&gt;이러한 데이터는 주로 감성적인 분석이 필요하거나, 인과관계나 통계적 분석이 어려운 경우에 활용됩니다.&lt;/li&gt;
+  &lt;li&gt;감성 분석이나 텍스트 마이닝 등의 방법을 활용하여 분석하며, 고객 만족도 조사나 제품 리뷰 등에서 활용됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;정량적-데이터&quot;&gt;정량적 데이터&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;주로 &lt;strong&gt;양적&lt;/strong&gt; 데이터로 불리며, 수치화된 데이터를 의미합니다.&lt;/li&gt;
+  &lt;li&gt;예를 들어, 고개 만족도 조사에서 고객의 만족도를 1점부터 5점까지의 척도로 평가하는 경우가 있습니다.&lt;/li&gt;
+  &lt;li&gt;이러한 데이터는 주로 통계적 분석이 가능하며, 인과관계를 분석하거나 예측 모델을 만드는 등의 다양한 분석 작업에 활용됩니다.&lt;/li&gt;
+  &lt;li&gt;통계 분석이나 데이터 마이닝 등의 방법을 활용하여 분석하며, 매출 현황, 고객 구매 패턴 등에서 활용됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;정성적-데이터와-정량적-데이터의-차이&quot;&gt;정성적 데이터와 정량적 데이터의 차이&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;데이터 분석에서 사용하는 방법이 다릅니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;정량 데이터는 수학적 모델링, 통계 분석 등의 방법을 사용하여 처리 및 분석이 가능합니다.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;정성 데이터는 주관적인 요소가 많기 때문에, 주관적인 해석과 판단이 필요하며, 통계 분석 등의 방법이 제한적입니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;정성 데이터는 감성 분석, 이미지 분석 등과 같이 기술적인 부분이 적고, 인간의 주관적인 판단이 큰 역할을 하기 때문에 비교적 해석이 어려운 경우가 많습니다.&lt;/li&gt;
+  &lt;li&gt;정량 데이터는 분석 방법이 다양하고, 수학적 모델링을 통해 정확한 결과를 도출할 수 있기 때문에 분석과 해석이 상대적으로 쉽습니다.&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="Adsp" />
+      
+
+      
+        <summary type="html">데이터의 유형(정성,정량)</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">SQL 집계함수</title>
+      <link href="http://localhost:4000/SQL%EC%A7%91%EA%B3%84%ED%95%A8%EC%88%98" rel="alternate" type="text/html" title="SQL 집계함수" />
+      <published>2023-04-28T00:00:00+09:00</published>
+      <updated>2023-04-28T00:00:00+09:00</updated>
+      <id>http://localhost:4000/SQL%EC%A7%91%EA%B3%84%ED%95%A8%EC%88%98</id>
+      <content type="html" xml:base="http://localhost:4000/SQL%EC%A7%91%EA%B3%84%ED%95%A8%EC%88%98">&lt;h1 id=&quot;sql-집계함수-aggregate-function&quot;&gt;SQL 집계함수 (aggregate function)&lt;/h1&gt;
+
+&lt;p&gt;데이터베이스에서 데이터를 검색하고 집계하여 요약 정보를 제공하는 함수입니다.&lt;br /&gt;
+집계 함수는 데이터를 그룹화하고, 각 그룹에 대한 집계 값을 계산합니다.&lt;br /&gt;
+일반적으로 GROUP BY 구문과 함께 사용됩니다.&lt;/p&gt;
+
+&lt;p&gt;집계함수는 데이터를 검색하고 요약하는 데 매우 유용합니다.&lt;br /&gt;
+그룹화된 데이터의 평균, 합계, 최대값, 최소값 등을 계산할 수 있으며, 이를 활용하여 보고서나 대시보드 등을 작성하는 데 사용될 수 있습니다.&lt;/p&gt;
+
+&lt;h1 id=&quot;종류&quot;&gt;종류&lt;/h1&gt;
+
+&lt;h2 id=&quot;sum-함수&quot;&gt;SUM 함수&lt;/h2&gt;
+
+&lt;p&gt;주어진 열의 모든 값의 합계를 반환합니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SELECT SUM(sales) FROM orders;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;count-함수&quot;&gt;COUNT 함수&lt;/h2&gt;
+
+&lt;p&gt;주어진 열의 모든 값의 개수를 반환합니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SELECT COUNT(*) FROM cutomers;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;avg-함수&quot;&gt;AVG 함수&lt;/h2&gt;
+
+&lt;p&gt;주어진 열의 모든 값의 평균 값을 반환합니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SELECT AVG(price) FROM products;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;max-함수&quot;&gt;MAX 함수&lt;/h2&gt;
+
+&lt;p&gt;주어진 열의 최대 값을 반환합니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SELECT MAX(salary) FROM employees;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;min-함수&quot;&gt;MIN 함수&lt;/h2&gt;
+
+&lt;p&gt;주어진 열의 최소 값을 반환합니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SELECT MIN(price) FROM products;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="Adsp" />
+      
+
+      
+        <summary type="html">SQL 집계함수 (aggregate function)</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">암묵지와 형식지</title>
+      <link href="http://localhost:4000/%EC%95%94%EB%AC%B5%EC%A7%80%EC%99%80%ED%98%95%EC%8B%9D%EC%A7%80" rel="alternate" type="text/html" title="암묵지와 형식지" />
+      <published>2023-04-28T00:00:00+09:00</published>
+      <updated>2023-04-28T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%EC%95%94%EB%AC%B5%EC%A7%80%EC%99%80%ED%98%95%EC%8B%9D%EC%A7%80</id>
+      <content type="html" xml:base="http://localhost:4000/%EC%95%94%EB%AC%B5%EC%A7%80%EC%99%80%ED%98%95%EC%8B%9D%EC%A7%80">&lt;h1 id=&quot;암묵지와-형식지&quot;&gt;암묵지와 형식지&lt;/h1&gt;
+
+&lt;p&gt;암묵지와 형식지의 상호작용은 지식의 효과적인 전달과 창출에 있어서 중요한 역할을 합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;암묵지&quot;&gt;암묵지&lt;/h2&gt;
+
+&lt;p&gt;개인이 경험과 직관을 통해 얻은 비구조적 지식으로서, 대개 말로 표현하기 어렵거나 쉽게 공유되지 않습니다.&lt;br /&gt;
+예를 들어, 자전거를 타는 방법을 배우는 것은 대개 암묵지입니다. &lt;br /&gt;
+사람들은 이를 몸으로 익히기 때문에, 말로 설명하기 어려운 경우가 많습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;형식지&quot;&gt;형식지&lt;/h2&gt;
+
+&lt;p&gt;문서나 이미지 등의 형태로 쉽게 전달할 수 있는 명시적인 지식으로서, 대개 정량적이며 분명합니다.&lt;br /&gt;
+예를 들어, 자전거를 조립하는 방법은 대개 형식지입니다.&lt;br /&gt;
+설명서나 동영상 등으로 명확하게 전달할 수 있습니다.&lt;/p&gt;
+
+&lt;h1 id=&quot;암묵지와-형식지는-상호보완적인-관계&quot;&gt;암묵지와 형식지는 상호보완적인 관계&lt;/h1&gt;
+
+&lt;p&gt;서로 상호보완적인 관계를 가지며, 상호작용을 통해 더 나은 결과를 도출할 수 있습니다.&lt;br /&gt;
+예를 들어, 자전거를 타는 방법을 배울 때, 암묵지인 실제 타는 경험과 형식지인 설명서나 온라인 동영상 등을 모두 활용하면, 보다 효과적인 학습이 가능합니다.&lt;/p&gt;
+
+&lt;p&gt;또한, 상호작용을 통해 새로운 지식을 생성할 수 있습니다.&lt;br /&gt;
+이를 지식 창출(knowledge creation)이라고 합니다.&lt;br /&gt;
+예를 들어, 자전거를 타는 방법을 고민하다가 암묵지인 자전거를 타면서 발생하는 느낌과 형식지인 자전거 전문가의 조언을 결합하여 새로운 방법을 찾는 것입니다.&lt;/p&gt;
+
+&lt;h1 id=&quot;상호작용-관계&quot;&gt;상호작용 관계&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;내면화(암묵지) -&amp;gt; 연결화(형식지) -&amp;gt; 표출화(형식지) -&amp;gt; 공통화(암묵지)&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="Adsp" />
+      
+
+      
+        <summary type="html">암묵지와 형식지</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">데이터준분석가</title>
+      <link href="http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%A4%80%EB%B6%84%EC%84%9D%EA%B0%80" rel="alternate" type="text/html" title="데이터준분석가" />
+      <published>2023-04-20T00:00:00+09:00</published>
+      <updated>2023-04-20T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%A4%80%EB%B6%84%EC%84%9D%EA%B0%80</id>
+      <content type="html" xml:base="http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%A4%80%EB%B6%84%EC%84%9D%EA%B0%80">&lt;h1 id=&quot;데이터준분석가-adsp-데이터의-이해&quot;&gt;데이터준분석가 ADsP 데이터의 이해&lt;/h1&gt;
+
+&lt;p&gt;데이터분석 준전문가(ADsP : Advanced Data Analytics Semi-Professional)란 데이터 이해에 대한 기본지식을 바탕으로 데이터분석 기획 및 데이터분석 등의 직무를 수행하는 실무자를 말한다.&lt;/p&gt;
+
+&lt;p&gt;ADsP에 대한 자세한 정보를 &lt;a href=&quot;https://www.dataq.or.kr/www/sub/a_06.do&quot;&gt;&lt;strong&gt;링크&lt;/strong&gt;&lt;/a&gt;에서 제공합니다.&lt;/p&gt;
+
+&lt;p&gt;목적 : 데이터준분석가와 관련된 용어들에 대해 공부를 해보겠습니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/데이터형태_정성_정량&quot;&gt;&lt;strong&gt;데이터형태(정성, 정량)&lt;/strong&gt;&lt;/a&gt; 란?&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/암묵지와형식지&quot;&gt;&lt;strong&gt;암묵지와 형식지&lt;/strong&gt;&lt;/a&gt; 란?&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/SQL집계함수&quot;&gt;&lt;strong&gt;SQL 집계함수&lt;/strong&gt;&lt;/a&gt; 란?&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/DIKW피라미드&quot;&gt;&lt;strong&gt;DIKW 피라미드&lt;/strong&gt;&lt;/a&gt; 란?&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/데이터베이스&quot;&gt;&lt;strong&gt;데이터베이스&lt;/strong&gt;&lt;/a&gt; 란?&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chanp5660.github.io/하드스킬vs소프트스킬&quot;&gt;&lt;strong&gt;하드 스킬 VS 소프트 스킬&lt;/strong&gt;&lt;/a&gt; 란?&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="Adsp" />
+      
+
+      
+        <summary type="html">데이터준분석가 ADsP 데이터의 이해</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
