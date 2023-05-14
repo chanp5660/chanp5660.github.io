@@ -215,47 +215,47 @@ into the {body} of the default.hbs template -->
 
 <h2 id="관계형-데이터-베이스realational-database">관계형 데이터 베이스(Realational Database)</h2>
 
-<p>데이터를 여러 테이블로 나누어 저장하고, 테이블 간의 관계를 설정하여 데이터를 구성합니다.<br />
-SQL(Structured Query Language)을 사용하여 데이터베이스에 대한 질의(Query)를 수행하고, 데이터를 조절할 수 있습니다.</p>
+<p><strong>데이터</strong>를 <strong>여러 테이블로 나누어 저장</strong>하고, <strong>테이블 간의 관계를 설정</strong>하여 데이터를 구성합니다.<br />
+<strong>SQL(Structured Query Language)</strong>을 사용하여 데이터베이스에 대한 <strong>질의(Query)를 수행</strong>하고, <strong>데이터를 조작</strong>할 수 있습니다.</p>
 
 <h2 id="용어-개념">용어 개념</h2>
 
 <h3 id="테이블table">테이블(Table)</h3>
 
-<p>데이터가 저장되는 가장 기본적인 단위로, 행과 열로 구성됩니다.<br />
-각 행은 레코드(Record)를 나타내며, 각 열은 특정 유형의 데이터를 저장합니다.</p>
+<p>데이터가 <strong>저장되는 가장 기본적인 단위</strong>로, <strong>행</strong>과 <strong>열</strong>로 구성됩니다.<br />
+각 <strong>행은 레코드(Record)</strong>를 나타내며, 각 <strong>열은 특정 유형</strong>의 데이터를 저장합니다.</p>
 
 <h3 id="스키마schema">스키마(Schema)</h3>
 
-<p>데이터베이스의 구조와 제약 조건을 정의하는 개체입니다.<br />
+<p>데이터베이스의 <strong>구조</strong>와 <strong>제약 조건</strong>을 정의하는 개체입니다.<br />
 테이블, 열, 관계, 제약 조건 등의 정보를 포함합니다.</p>
 
 <h3 id="관계relationship">관계(Relationship)</h3>
 
-<p>테이블 간의 연결을 나타내는 개념입니다.<br />
+<p><strong>테이블 간의 연결</strong>을 나타내는 개념입니다.<br />
 일대일(One-to-One), 일대다(One-to-Many), 다대다(Many-to-Many) 등 다양한 형태로 정의될 수 있습니다.</p>
 
 <h3 id="쿼리query">쿼리(Query)</h3>
 
-<p>데이터를 검색하거나 조작하기 위해 사용되는 명령어 집합입니다.<br />
+<p>데이터를 <strong>검색</strong>하거나 <strong>조작</strong>하기 위해 사용되는 <strong>명령어 집합</strong>입니다.<br />
 SQL을 사용하여 쿼리를 작성하고 실행할 수 있습니다.</p>
 
 <h3 id="인덱스index">인덱스(Index)</h3>
 
-<p>검색 속도를 향상시키기 위해 사용되는 구조입니다.<br />
+<p><strong>검색 속도를 향상</strong>시키기 위해 사용되는 구조입니다.<br />
 인덱스는 특정 열 또는 열의 조합에 대한 정렬된 데이터로 구성되며, 데이터 검색 시 인덱스를 활용하여 빠른 결과를 얻을 수 있습니다.</p>
 
 <h3 id="무결성-제약-조건intergity-constraint">무결성 제약 조건(Intergity Constraint)</h3>
 
-<p>데이터의 일관성과 정확성을 유지하기 위해 설정되는 규칙입니다.<br />
-무결성 제약 조건은 데이터의 유효성을 검증하고, 잘못된 데이터의 삽입 또는 수정 방지하여 데이터의 일관성을 유지합니다.</p>
+<p>데이터의 <strong>일관성</strong>과 <strong>정확성</strong>을 <strong>유지</strong>하기 위해 설정되는 규칙입니다.<br />
+무결성 제약 조건은 <strong>데이터의 유효성을 검증</strong>하고, <strong>잘못된 데이터의 삽입 또는 수정 방지</strong>하여 데이터의 <strong>일관성을 유지</strong>합니다.</p>
 
 <p>예를 들면, 기본키 제약 조건은 테이블의 특정 열의 기준으로 고유한 값을 가져야 함을 나타냅니다.<br />
 외래키 제약 조건은 한 테이블의 열이 다른 테이블의 기본 키와 관련되어야 함을 의미합니다.</p>
 
 <h3 id="트랜잭션transaction">트랜잭션(Transaction)</h3>
 
-<p>데이터베이스에서 수행되는 작업의 논리적 단위입니다.<br />
+<p>데이터베이스에서 수행되는 <strong>작업의 논리적 단위</strong>입니다.<br />
 일련의 작업을 하나의 단위로 묶어서 <em>ACID</em>; <em>원자성(Atomicity)</em>, 일관성(Consistency), 독립성(Isolation), 지속성(Durability)을 보장합니다.  <br />
 트랜잭션은 모두 수행되거나 모두 롤백되어야 하며, 데이터베이스의 일관성을 유지하기 위해 중요한 개념입니다.</p>
 
@@ -279,8 +279,8 @@ SQL을 사용하여 쿼리를 작성하고 실행할 수 있습니다.</p>
 
 <h3 id="데이터베이스-관리-시스템dbms">데이터베이스 관리 시스템(DBMS)</h3>
 
-<p>데이터베이스를 관리하고 조작하기 위한 소프트웨어입니다.<br />
-DBMS는 데이터의 생성, 수정, 삭제, 검색 등을 지원합니다.<br />
+<p><strong>데이터베이스를 관리하고 조작하기 위한 소프트웨어</strong>입니다.<br />
+DBMS는 데이터의 <strong>생성, 수정, 삭제, 검색 등을 지원</strong>합니다.<br />
 다양한 기능과 도구를 제공하여 데이터베이스를 관리합니다.<br />
 대표적인 관계형 DBMS로는 Oracle, MySQL, Microsoft SQL Server, PostgreSQL 등이 있습니다.</p>
 
@@ -379,6 +379,15 @@ DBMS는 데이터의 생성, 수정, 삭제, 검색 등을 지원합니다.<br /
                                 
                                   
                                     
+                                        
+                                        
+                                            <li><a href="/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%82%AC%EC%9D%B4%EC%96%B8%ED%8B%B0%EC%8A%A4%ED%8A%B8">데이터사이언티스트(Data Scientist)</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
                                   
                                 
                                   
@@ -406,8 +415,6 @@ DBMS는 데이터의 생성, 수정, 삭제, 검색 등을 지원합니다.<br /
                                   
                                     
                                         
-                                        
-                                            <li><a href="/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC%EA%B8%B0%EC%B6%9C%EB%AC%B8%EC%A0%9C(20220424_3)">정보처리기사 기출문제 20220424_3</a></li>
                                         
                                     
                                   
@@ -1114,7 +1121,7 @@ DBMS는 데이터의 생성, 수정, 삭제, 검색 등을 지원합니다.<br /
                         <footer class="read-next-card-footer">
                             <a href="/tag/exitem/">
                                 
-                                    See all 80 posts  →
+                                    See all 81 posts  →
                                 
                             </a>
                         </footer>
@@ -1123,6 +1130,61 @@ DBMS는 데이터의 생성, 수정, 삭제, 검색 등을 지원합니다.<br /
             
 
             <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+
+    <article class="post-card post-template">
+        
+            <a class="post-card-image-link" href="/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%82%AC%EC%9D%B4%EC%96%B8%ED%8B%B0%EC%8A%A4%ED%8A%B8">
+                <div class="post-card-image" style="background-image: url(/assets/built/images/데이터사이언티스트.png)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%82%AC%EC%9D%B4%EC%96%B8%ED%8B%B0%EC%8A%A4%ED%8A%B8">
+                <header class="post-card-header">
+                    
+                        
+                            
+                               <span class="post-card-tags">Exitem</span>
+                            
+                        
+                            
+                                <span class="post-card-tags">Til</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">데이터사이언티스트(Data Scientist)</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p>데이터 사이언티스트(Data Scientist)
+
+</p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/built/images/favicon.jpg" alt="chanp5660" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/chanp5660/">chanp5660</a>
+                        </span>
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      3 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
             
 
             <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
