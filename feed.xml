@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-15T23:22:44+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">하드 스킬 VS 소프트 스킬</title><link href="http://localhost:4000/%ED%95%98%EB%93%9C%EC%8A%A4%ED%82%ACvs%EC%86%8C%ED%94%84%ED%8A%B8%EC%8A%A4%ED%82%AC" rel="alternate" type="text/html" title="하드 스킬 VS 소프트 스킬" /><published>2023-05-15T00:00:00+09:00</published><updated>2023-05-15T00:00:00+09:00</updated><id>http://localhost:4000/%ED%95%98%EB%93%9C%EC%8A%A4%ED%82%ACvs%EC%86%8C%ED%94%84%ED%8A%B8%EC%8A%A4%ED%82%AC</id><content type="html" xml:base="http://localhost:4000/%ED%95%98%EB%93%9C%EC%8A%A4%ED%82%ACvs%EC%86%8C%ED%94%84%ED%8A%B8%EC%8A%A4%ED%82%AC">&lt;h1 id=&quot;하드-스킬-vs-소프트-스킬&quot;&gt;하드 스킬 VS 소프트 스킬&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-15T23:45:56+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">하드 스킬 VS 소프트 스킬</title><link href="http://localhost:4000/%ED%95%98%EB%93%9C%EC%8A%A4%ED%82%ACvs%EC%86%8C%ED%94%84%ED%8A%B8%EC%8A%A4%ED%82%AC" rel="alternate" type="text/html" title="하드 스킬 VS 소프트 스킬" /><published>2023-05-15T00:00:00+09:00</published><updated>2023-05-15T00:00:00+09:00</updated><id>http://localhost:4000/%ED%95%98%EB%93%9C%EC%8A%A4%ED%82%ACvs%EC%86%8C%ED%94%84%ED%8A%B8%EC%8A%A4%ED%82%AC</id><content type="html" xml:base="http://localhost:4000/%ED%95%98%EB%93%9C%EC%8A%A4%ED%82%ACvs%EC%86%8C%ED%94%84%ED%8A%B8%EC%8A%A4%ED%82%AC">&lt;h1 id=&quot;하드-스킬-vs-소프트-스킬&quot;&gt;하드 스킬 VS 소프트 스킬&lt;/h1&gt;
 
 &lt;h2 id=&quot;하드-스킬hard-skills&quot;&gt;하드 스킬(Hard Skills)&lt;/h2&gt;
 
@@ -178,7 +178,47 @@
 &lt;h2 id=&quot;리소스&quot;&gt;리소스&lt;/h2&gt;
 
 &lt;p&gt;분석에 &lt;strong&gt;사용할 수 있는 리소스(인력, 시간, 도구 등)를 고려&lt;/strong&gt;해야 합니다.&lt;br /&gt;
-사용 가능한 리소스에 따라 분석 범위를 조정해야 할 수도 있습니다.&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="Adsp" /><summary type="html">분석 기회 발굴 범위</summary></entry><entry><title type="html">DIKW 피라미드</title><link href="http://localhost:4000/DIKW%ED%94%BC%EB%9D%BC%EB%AF%B8%EB%93%9C" rel="alternate" type="text/html" title="DIKW 피라미드" /><published>2023-05-14T00:00:00+09:00</published><updated>2023-05-14T00:00:00+09:00</updated><id>http://localhost:4000/DIKW%ED%94%BC%EB%9D%BC%EB%AF%B8%EB%93%9C</id><content type="html" xml:base="http://localhost:4000/DIKW%ED%94%BC%EB%9D%BC%EB%AF%B8%EB%93%9C">&lt;h1 id=&quot;dikw-피라미드data-information-knowledge-wisdom&quot;&gt;DIKW 피라미드(Data Information Knowledge Wisdom)&lt;/h1&gt;
+사용 가능한 리소스에 따라 분석 범위를 조정해야 할 수도 있습니다.&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="Adsp" /><summary type="html">분석 기회 발굴 범위</summary></entry><entry><title type="html">STEEP</title><link href="http://localhost:4000/STEEP" rel="alternate" type="text/html" title="STEEP" /><published>2023-05-15T00:00:00+09:00</published><updated>2023-05-15T00:00:00+09:00</updated><id>http://localhost:4000/STEEP</id><content type="html" xml:base="http://localhost:4000/STEEP">&lt;h1 id=&quot;steep&quot;&gt;STEEP&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;사회적, 경제적, 기술적, 환경적, 정치적 요인&lt;/strong&gt;을 나타내는 단어로, &lt;strong&gt;현재의 조직와 해당 산업에 폭넓게 영향을 미치는 다양한 맥락을 이해하고 분석&lt;/strong&gt;하는 데 도움을 줍니다.&lt;br /&gt;
+각 요인들은 각각 독립적으로 작용할 수도 있지만, 종종 상호작요하며 복잡한 관계를 형성합니다.&lt;/p&gt;
+
+&lt;p&gt;예를 들어, 사회적 요인은 소비자의 가치관과 행동 양식에 영향을 주고, 경제적 요인은 소비 패턴과 투자 결정에 영향을 줄 수 있습니다.&lt;br /&gt;
+또한, 기술적 요인은 경제적 효율성을 향상시키고, 환경적 요인은 기술 개발과 사용에 대한 제약을 가할 수 있습니다.&lt;br /&gt;
+정치적 요인은 모든 다른 요인들에 대한 법적 및 규제적 제약을 가하거나 조정할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;따라서, 조직과 산업은 STEEP 요인들을 체계적으로 평가하고 이해하여 변화에 대응하고 새로운 기회를 발견할 수 있어야 합니다.&lt;br /&gt;
+이를 통해 조직은 경쟁력을 유지하고 성장할 수 있으며, 현재의 조직과 산업 환경을 파악하여 장기적인 비즈니스 전략을 수립할 수 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;사회적-요인-social&quot;&gt;사회적 요인 (Social)&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;사회 구성원들의 가치, 태도, 행동 양식, 인구 특성 등을 의미&lt;/strong&gt;합니다.&lt;br /&gt;
+&lt;strong&gt;사회 문화, 라이프스타일, 인구 구성, 교육 수준, 건강과 웹빙 등이 포함&lt;/strong&gt;될 수 있습니다.&lt;br /&gt;
+이러한 요인들은 &lt;strong&gt;소비자 행동, 시장 동향, 소비 트렌드 등에 영향&lt;/strong&gt;을 미치며, 조직과 산업의 관점에서는 &lt;strong&gt;소비자 요구를 파악하고 시장에 적응&lt;/strong&gt;하는 데 중요한 역할을 합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;경제적-요인-economic&quot;&gt;경제적 요인 (Economic)&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;경제 활동과 관련된 요인&lt;/strong&gt;을 의미합니다.&lt;br /&gt;
+이는 &lt;strong&gt;GDP 성장률, 인플레이션, 금리, 환율 등의 결제 지표와 관련&lt;/strong&gt;이 있습니다.&lt;br /&gt;
+경제적 요인은 &lt;strong&gt;소비패턴, 투자 활동, 경쟁 환경 등에 영향&lt;/strong&gt;을 주며, 조직과 산업의 관점에서는 &lt;strong&gt;수익성, 시장 조건, 경쟁력 등에 영향&lt;/strong&gt;을 미칩니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;기술적-요인-technological&quot;&gt;기술적 요인 (Technological)&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;기술의 발전과 혁신에 관련된 요인&lt;/strong&gt;을 의미합니다.&lt;br /&gt;
+이는 &lt;strong&gt;정보 기술(IT), 인공지능(AI), 자동화, 로봇 기술, 빅데이터&lt;/strong&gt; 등을 포함합니다.&lt;br /&gt;
+기술적 요인은 &lt;strong&gt;제품 혁신, 생산성 향상, 경영 방식 변화 등에 영향&lt;/strong&gt;을 주며, 조직과 산업의 관점에서는 &lt;strong&gt;디지털 전환, 경쟁 우위 확보, 새로운 비즈니스 모델 등에 영향&lt;/strong&gt;을 미칩니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;환경적-요인-environmaental&quot;&gt;환경적 요인 (Environmaental)&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;환경 보호, 지속 가능성, 기후 변화, 에너지 효율성 등과 관련된 요인&lt;/strong&gt;을 의미합니다.&lt;br /&gt;
+기업의 &lt;strong&gt;사회적 책임과 관련하여 환경 규제, 친환경 제품 및 서비스 수요, 환경요인들의 상호작용&lt;/strong&gt;을 고려하여 조직과 산업에 영향을 미칩니다.&lt;br /&gt;
+이러한 요인은 조직의 &lt;strong&gt;비즈니스 모델, 전략 수립, 제품 개발, 시장 진입 전략 등을 결정&lt;/strong&gt;하는 데 영향을 미칩니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;정치적-요인-political&quot;&gt;정치적 요인 (Political)&lt;/h2&gt;
+
+&lt;p&gt;정부의 &lt;strong&gt;정책, 법률, 규제, 정치적 안정성&lt;/strong&gt; 등을 포함합니다.&lt;br /&gt;
+&lt;strong&gt;산업 규제, 법적 제약, 정부 지원 정책&lt;/strong&gt; 등을 통해 조직과 산업에 영향을 미칩니다.&lt;br /&gt;
+정부의 결정은 &lt;strong&gt;비즈니스 환경과 경영 전략&lt;/strong&gt;에 미치며, &lt;strong&gt;시장 진출 전략, 정부와의 협력, 규정 준수&lt;/strong&gt; 등을 고려해야 하는 중요한 요소입니다.&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="Adsp" /><summary type="html">STEEP</summary></entry><entry><title type="html">DIKW 피라미드</title><link href="http://localhost:4000/DIKW%ED%94%BC%EB%9D%BC%EB%AF%B8%EB%93%9C" rel="alternate" type="text/html" title="DIKW 피라미드" /><published>2023-05-14T00:00:00+09:00</published><updated>2023-05-14T00:00:00+09:00</updated><id>http://localhost:4000/DIKW%ED%94%BC%EB%9D%BC%EB%AF%B8%EB%93%9C</id><content type="html" xml:base="http://localhost:4000/DIKW%ED%94%BC%EB%9D%BC%EB%AF%B8%EB%93%9C">&lt;h1 id=&quot;dikw-피라미드data-information-knowledge-wisdom&quot;&gt;DIKW 피라미드(Data Information Knowledge Wisdom)&lt;/h1&gt;
 
 &lt;p&gt;DIKW 피라미드는 정보과학과 지식 관리 분야에서 널리 사용되는 개념적인 모델입니다.&lt;br /&gt;
 &lt;strong&gt;데이터, 정보, 지식 및 지혜&lt;/strong&gt;라는 네 가지 계층으로 구성되어 있으며, &lt;strong&gt;하위 계층에서 상위 계층으로 가는 방향으로 계층화&lt;/strong&gt;되어 있습니다.&lt;br /&gt;
@@ -514,101 +554,4 @@ DBMS는 데이터의 &lt;strong&gt;생성, 수정, 삭제, 검색 등을 지원&
 
     &lt;hr /&gt;
   &lt;/div&gt;
-&lt;/details&gt;</content><author><name>chanp5660</name></author><category term="Chan_dev_history" /><summary type="html">자기 개발 기록 (2023년5월)</summary></entry><entry><title type="html">익스트림 프로그래밍</title><link href="http://localhost:4000/%EC%9D%B5%EC%8A%A4%ED%8A%B8%EB%A6%BC_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D" rel="alternate" type="text/html" title="익스트림 프로그래밍" /><published>2023-05-11T00:00:00+09:00</published><updated>2023-05-11T00:00:00+09:00</updated><id>http://localhost:4000/%EC%9D%B5%EC%8A%A4%ED%8A%B8%EB%A6%BC_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D</id><content type="html" xml:base="http://localhost:4000/%EC%9D%B5%EC%8A%A4%ED%8A%B8%EB%A6%BC_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D">&lt;h1 id=&quot;익스트림-프로그래밍-extreme-programming-xp&quot;&gt;익스트림 프로그래밍 Extreme Programming, XP&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;애자일 소프트웨어 개발 방법론&lt;/strong&gt; 중 하나로, 소규모 개발 팀이 빠르게 변화하는 요구사항에 대응하기 위해 고안된 방법론입니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;개발자에게-장점&quot;&gt;개발자에게 장점&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;효과적으로 협력&lt;/li&gt;
-  &lt;li&gt;빠르게 소프트웨어를 개발&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;목표&quot;&gt;목표&lt;/h2&gt;
-
-&lt;p&gt;고품질의 소프트웨어를 지속적으로 제공&lt;/p&gt;
-
-&lt;h2 id=&quot;핵심가치&quot;&gt;핵심가치&lt;/h2&gt;
-
-&lt;h3 id=&quot;의사소통&quot;&gt;의사소통&lt;/h3&gt;
-
-&lt;p&gt;팀 내외의 모든 구성원들이 활발하게 의사소통하고, 지식과 정보를 공유합니다.&lt;br /&gt;
-이를 위해 팀원들은 자주 모이고, 대화하며, 직접적인 의사소통 수단을 선호합니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;단순성&quot;&gt;단순성&lt;/h3&gt;
-
-&lt;p&gt;최대한 간단한 방식으로 소프트웨어을 개발합니다.&lt;br /&gt;
-불필요한 기능이나 복잡성을 줄이고, 간결하고 이해하기 쉬운 코드를 작성합니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;피드백&quot;&gt;피드백&lt;/h3&gt;
-
-&lt;p&gt;지속적으로 피드백을 받고, 이를 기반으로 개선합니다.&lt;br /&gt;
-고객, 사용자, 팀원 등과의 소통을 통해 요구사항을 이행하고, 개발한 소프트웨어에 대한 피드백을 수렴합니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;용기&quot;&gt;용기&lt;/h3&gt;
-
-&lt;p&gt;적극적으로 도전하고 실패를 인정하며, 개선을 위해 노력합니다.&lt;br /&gt;
-개발자들은 더 나은 방법을 시도하고, 기존의 관행에 논리적으로 의문을 제기합니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;실천-방법&quot;&gt;실천 방법&lt;/h2&gt;
-
-&lt;h3 id=&quot;짧은-반복주기&quot;&gt;짧은 반복주기&lt;/h3&gt;
-
-&lt;p&gt;짧은 개발 주기를 가지고 작업을 진행합니다.&lt;br /&gt;
-주로 1-2주 정도의 시간을 갖고, 작은 기능 단위로 개발을 완료하고 배포합니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;계획조정&quot;&gt;계획조정&lt;/h3&gt;
-
-&lt;p&gt;주기적으로 계획을 조정하고 우선순위를 결정합니다.&lt;br /&gt;
-변경사항에 유연하게 대응하기 위해, 요구사항을 작은 단위로 쪼개고, 짧은 주기마다 우선순위를 조정합니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;테스트주도개발test-driven-development-tod&quot;&gt;테스트주도개발(Test-Driven Development, TOD)&lt;/h3&gt;
-
-&lt;p&gt;테스트 주도 개발은 XP의 핵심적인 실험 방법 중 하나입니다.&lt;br /&gt;
-TOD는 개발자가 먼저 테스트 코드를 작성하고, 그에 맞춰 소프트웨어를 개발하는 방법입니다.&lt;br /&gt;
-아래(실패하는 테스트 작성, 테스트 통과를 위한 최소한의 코드 작성, 코드 리팩토링) 사이클을 반복하면서 점진적으로 기능을 구현하고, 테스트 커버리지를 높이며, 코드의 품질을 유지하고 개선할 수 있습니다.&lt;/p&gt;
-
-&lt;h4 id=&quot;실패하는-테스트-작성&quot;&gt;실패하는 테스트 작성&lt;/h4&gt;
-
-&lt;p&gt;개발자는 먼저 새로운 기능 또는 변경사항에 대한 테스트를 작성합니다.&lt;br /&gt;
-이 테스트는 현재 작업하려는 코드에 대해 예상한 동작을 검증하는 목적을 가지며, 당연히 실패해야 합니다.&lt;/p&gt;
-
-&lt;h4 id=&quot;테스트-통과를-위한-최소한의-코드-작성&quot;&gt;테스트 통과를 위한 최소한의 코드 작성&lt;/h4&gt;
-
-&lt;p&gt;테스트가 실패했으므로, 개발자는 최소하의 코드를 작성하여 테스트를 통과시키려고 합니다.&lt;br /&gt;
-이 단계에서는 코드가 간단하고 테스트를 통과하는 것에만 초점을 둡니다.&lt;/p&gt;
-
-&lt;h4 id=&quot;코드-리팩토링&quot;&gt;코드 리팩토링&lt;/h4&gt;
-
-&lt;p&gt;작성한 코드를 리팩토딩하여 중복 코드를 제거하고, 설계를 개선하며, 가독성을 높이는 등의 작업을 수행합니다.&lt;br /&gt;
-리팩토링은 테스트를 통과하는 상태에서 수행되어야 합니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;공동-소유권&quot;&gt;공동 소유권&lt;/h3&gt;
-
-&lt;p&gt;XP에서는 개발 팀 내의 구성원들이 코드와 기능에 대한 공동 소유권을 가집니다.&lt;br /&gt;
-개발자들은 서로의 코드를 이해하고 유지보수할 수 있으며, 효과적인 협업을 위해 지식을 공유하고 도움을 주고받을 수 있습니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;지속적인-통합&quot;&gt;지속적인 통합&lt;/h3&gt;
-
-&lt;p&gt;팀 내의 개발자들이 작성한 코드를 지속적으로 통합하는 것을 의미합니다.&lt;br /&gt;
-통합 단계에서는 코드의 충돌을 해결하고, 빌드 및 자동화된 테스트를 실행하여 오류를 신속하게 감지하고 해결합니다.&lt;br /&gt;
-이를 통해 팀 전체의 코드 품질을 유지하고 소프트웨어를 안정적으로 구축합니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;계획-기술&quot;&gt;계획 기술&lt;/h3&gt;
-
-&lt;p&gt;XP에서는 고객과 개발자가 함께 계획을 수립하는 계획 기술을 사용합니다.&lt;br /&gt;
-고객은 요구사항을 우선순위에 따라 명시하고, 개발자는 작업의 복잡성과 필요한 시간 등을 추정합니다.&lt;br /&gt;
-이러한 계획 과정을 통해 팀은 실질적인 목표와 일정을 설정하고 조정할 수 있습니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;쌍끌이-프로그래밍pair-programming&quot;&gt;쌍끌이 프로그래밍(Pair Programming)&lt;/h3&gt;
-
-&lt;p&gt;두 명의 개발자가 하나의 컴퓨터에서 함께 작업하는 방식입니다. &lt;br /&gt;
-한 명은 코드를 작성하고, 다른 한 명은 코드를 검토하며 지속적인 피드백을 제공합니다.&lt;br /&gt;
-이를 통해 코드 품질과 지식 공유를 강화하고 오류를 빠르게 발견할 수 있습니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;기능-단위-릴리즈small-realeases&quot;&gt;기능 단위 릴리즈(Small Realeases)&lt;/h3&gt;
-
-&lt;p&gt;개발된 기능을 가능한 빨리 릴리즈하는 것을 지향합니다.&lt;br /&gt;
-작은 기능 단위로 릴리즈를 수행하여 고객에게는 실질적인 가치를 제공하고 피드백을 수렴합니다.&lt;br /&gt;
-이를 통해 고객의 요구에 신속하게 대응하고 소프트웨어를 점진적으로 개선할 수 있습니다.&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="정처기" /><summary type="html">익스트림 프로그래밍 Extreme Programming, XP</summary></entry></feed>
+&lt;/details&gt;</content><author><name>chanp5660</name></author><category term="Chan_dev_history" /><summary type="html">자기 개발 기록 (2023년5월)</summary></entry></feed>

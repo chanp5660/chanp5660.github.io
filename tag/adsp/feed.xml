@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/adsp/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-05-15T23:22:44+09:00</updated>
+  <updated>2023-05-15T23:45:56+09:00</updated>
   <id>http://localhost:4000/tag/adsp/feed.xml</id>
 
   
@@ -330,6 +330,82 @@
 
       
         <summary type="html">분석 기회 발굴 범위</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">STEEP</title>
+      <link href="http://localhost:4000/STEEP" rel="alternate" type="text/html" title="STEEP" />
+      <published>2023-05-15T00:00:00+09:00</published>
+      <updated>2023-05-15T00:00:00+09:00</updated>
+      <id>http://localhost:4000/STEEP</id>
+      <content type="html" xml:base="http://localhost:4000/STEEP">&lt;h1 id=&quot;steep&quot;&gt;STEEP&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;사회적, 경제적, 기술적, 환경적, 정치적 요인&lt;/strong&gt;을 나타내는 단어로, &lt;strong&gt;현재의 조직와 해당 산업에 폭넓게 영향을 미치는 다양한 맥락을 이해하고 분석&lt;/strong&gt;하는 데 도움을 줍니다.&lt;br /&gt;
+각 요인들은 각각 독립적으로 작용할 수도 있지만, 종종 상호작요하며 복잡한 관계를 형성합니다.&lt;/p&gt;
+
+&lt;p&gt;예를 들어, 사회적 요인은 소비자의 가치관과 행동 양식에 영향을 주고, 경제적 요인은 소비 패턴과 투자 결정에 영향을 줄 수 있습니다.&lt;br /&gt;
+또한, 기술적 요인은 경제적 효율성을 향상시키고, 환경적 요인은 기술 개발과 사용에 대한 제약을 가할 수 있습니다.&lt;br /&gt;
+정치적 요인은 모든 다른 요인들에 대한 법적 및 규제적 제약을 가하거나 조정할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;따라서, 조직과 산업은 STEEP 요인들을 체계적으로 평가하고 이해하여 변화에 대응하고 새로운 기회를 발견할 수 있어야 합니다.&lt;br /&gt;
+이를 통해 조직은 경쟁력을 유지하고 성장할 수 있으며, 현재의 조직과 산업 환경을 파악하여 장기적인 비즈니스 전략을 수립할 수 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;사회적-요인-social&quot;&gt;사회적 요인 (Social)&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;사회 구성원들의 가치, 태도, 행동 양식, 인구 특성 등을 의미&lt;/strong&gt;합니다.&lt;br /&gt;
+&lt;strong&gt;사회 문화, 라이프스타일, 인구 구성, 교육 수준, 건강과 웹빙 등이 포함&lt;/strong&gt;될 수 있습니다.&lt;br /&gt;
+이러한 요인들은 &lt;strong&gt;소비자 행동, 시장 동향, 소비 트렌드 등에 영향&lt;/strong&gt;을 미치며, 조직과 산업의 관점에서는 &lt;strong&gt;소비자 요구를 파악하고 시장에 적응&lt;/strong&gt;하는 데 중요한 역할을 합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;경제적-요인-economic&quot;&gt;경제적 요인 (Economic)&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;경제 활동과 관련된 요인&lt;/strong&gt;을 의미합니다.&lt;br /&gt;
+이는 &lt;strong&gt;GDP 성장률, 인플레이션, 금리, 환율 등의 결제 지표와 관련&lt;/strong&gt;이 있습니다.&lt;br /&gt;
+경제적 요인은 &lt;strong&gt;소비패턴, 투자 활동, 경쟁 환경 등에 영향&lt;/strong&gt;을 주며, 조직과 산업의 관점에서는 &lt;strong&gt;수익성, 시장 조건, 경쟁력 등에 영향&lt;/strong&gt;을 미칩니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;기술적-요인-technological&quot;&gt;기술적 요인 (Technological)&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;기술의 발전과 혁신에 관련된 요인&lt;/strong&gt;을 의미합니다.&lt;br /&gt;
+이는 &lt;strong&gt;정보 기술(IT), 인공지능(AI), 자동화, 로봇 기술, 빅데이터&lt;/strong&gt; 등을 포함합니다.&lt;br /&gt;
+기술적 요인은 &lt;strong&gt;제품 혁신, 생산성 향상, 경영 방식 변화 등에 영향&lt;/strong&gt;을 주며, 조직과 산업의 관점에서는 &lt;strong&gt;디지털 전환, 경쟁 우위 확보, 새로운 비즈니스 모델 등에 영향&lt;/strong&gt;을 미칩니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;환경적-요인-environmaental&quot;&gt;환경적 요인 (Environmaental)&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;환경 보호, 지속 가능성, 기후 변화, 에너지 효율성 등과 관련된 요인&lt;/strong&gt;을 의미합니다.&lt;br /&gt;
+기업의 &lt;strong&gt;사회적 책임과 관련하여 환경 규제, 친환경 제품 및 서비스 수요, 환경요인들의 상호작용&lt;/strong&gt;을 고려하여 조직과 산업에 영향을 미칩니다.&lt;br /&gt;
+이러한 요인은 조직의 &lt;strong&gt;비즈니스 모델, 전략 수립, 제품 개발, 시장 진입 전략 등을 결정&lt;/strong&gt;하는 데 영향을 미칩니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;정치적-요인-political&quot;&gt;정치적 요인 (Political)&lt;/h2&gt;
+
+&lt;p&gt;정부의 &lt;strong&gt;정책, 법률, 규제, 정치적 안정성&lt;/strong&gt; 등을 포함합니다.&lt;br /&gt;
+&lt;strong&gt;산업 규제, 법적 제약, 정부 지원 정책&lt;/strong&gt; 등을 통해 조직과 산업에 영향을 미칩니다.&lt;br /&gt;
+정부의 결정은 &lt;strong&gt;비즈니스 환경과 경영 전략&lt;/strong&gt;에 미치며, &lt;strong&gt;시장 진출 전략, 정부와의 협력, 규정 준수&lt;/strong&gt; 등을 고려해야 하는 중요한 요소입니다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="Adsp" />
+      
+
+      
+        <summary type="html">STEEP</summary>
       
 
       
@@ -829,86 +905,6 @@ DBMS는 데이터의 &lt;strong&gt;생성, 수정, 삭제, 검색 등을 지원&
 
       
         <summary type="html">데이터의 유형(정성,정량)</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">SQL 집계함수</title>
-      <link href="http://localhost:4000/SQL%EC%A7%91%EA%B3%84%ED%95%A8%EC%88%98" rel="alternate" type="text/html" title="SQL 집계함수" />
-      <published>2023-04-28T00:00:00+09:00</published>
-      <updated>2023-04-28T00:00:00+09:00</updated>
-      <id>http://localhost:4000/SQL%EC%A7%91%EA%B3%84%ED%95%A8%EC%88%98</id>
-      <content type="html" xml:base="http://localhost:4000/SQL%EC%A7%91%EA%B3%84%ED%95%A8%EC%88%98">&lt;h1 id=&quot;sql-집계함수-aggregate-function&quot;&gt;SQL 집계함수 (aggregate function)&lt;/h1&gt;
-
-&lt;p&gt;데이터베이스에서 데이터를 검색하고 집계하여 요약 정보를 제공하는 함수입니다.&lt;br /&gt;
-집계 함수는 데이터를 그룹화하고, 각 그룹에 대한 집계 값을 계산합니다.&lt;br /&gt;
-일반적으로 GROUP BY 구문과 함께 사용됩니다.&lt;/p&gt;
-
-&lt;p&gt;집계함수는 데이터를 검색하고 요약하는 데 매우 유용합니다.&lt;br /&gt;
-그룹화된 데이터의 평균, 합계, 최대값, 최소값 등을 계산할 수 있으며, 이를 활용하여 보고서나 대시보드 등을 작성하는 데 사용될 수 있습니다.&lt;/p&gt;
-
-&lt;h1 id=&quot;종류&quot;&gt;종류&lt;/h1&gt;
-
-&lt;h2 id=&quot;sum-함수&quot;&gt;SUM 함수&lt;/h2&gt;
-
-&lt;p&gt;주어진 열의 모든 값의 합계를 반환합니다.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SELECT SUM(sales) FROM orders;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;count-함수&quot;&gt;COUNT 함수&lt;/h2&gt;
-
-&lt;p&gt;주어진 열의 모든 값의 개수를 반환합니다.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SELECT COUNT(*) FROM cutomers;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;avg-함수&quot;&gt;AVG 함수&lt;/h2&gt;
-
-&lt;p&gt;주어진 열의 모든 값의 평균 값을 반환합니다.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SELECT AVG(price) FROM products;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;max-함수&quot;&gt;MAX 함수&lt;/h2&gt;
-
-&lt;p&gt;주어진 열의 최대 값을 반환합니다.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SELECT MAX(salary) FROM employees;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;min-함수&quot;&gt;MIN 함수&lt;/h2&gt;
-
-&lt;p&gt;주어진 열의 최소 값을 반환합니다.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SELECT MIN(price) FROM products;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="Adsp" />
-      
-
-      
-        <summary type="html">SQL 집계함수 (aggregate function)</summary>
       
 
       
