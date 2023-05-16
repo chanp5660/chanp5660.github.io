@@ -1,4 +1,170 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-15T23:45:56+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">하드 스킬 VS 소프트 스킬</title><link href="http://localhost:4000/%ED%95%98%EB%93%9C%EC%8A%A4%ED%82%ACvs%EC%86%8C%ED%94%84%ED%8A%B8%EC%8A%A4%ED%82%AC" rel="alternate" type="text/html" title="하드 스킬 VS 소프트 스킬" /><published>2023-05-15T00:00:00+09:00</published><updated>2023-05-15T00:00:00+09:00</updated><id>http://localhost:4000/%ED%95%98%EB%93%9C%EC%8A%A4%ED%82%ACvs%EC%86%8C%ED%94%84%ED%8A%B8%EC%8A%A4%ED%82%AC</id><content type="html" xml:base="http://localhost:4000/%ED%95%98%EB%93%9C%EC%8A%A4%ED%82%ACvs%EC%86%8C%ED%94%84%ED%8A%B8%EC%8A%A4%ED%82%AC">&lt;h1 id=&quot;하드-스킬-vs-소프트-스킬&quot;&gt;하드 스킬 VS 소프트 스킬&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-16T20:41:37+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">분석프로젝트관리</title><link href="http://localhost:4000/%EB%B6%84%EC%84%9D%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EA%B4%80%EB%A6%AC" rel="alternate" type="text/html" title="분석프로젝트관리" /><published>2023-05-16T00:00:00+09:00</published><updated>2023-05-16T00:00:00+09:00</updated><id>http://localhost:4000/%EB%B6%84%EC%84%9D%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EA%B4%80%EB%A6%AC</id><content type="html" xml:base="http://localhost:4000/%EB%B6%84%EC%84%9D%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EA%B4%80%EB%A6%AC">&lt;h1 id=&quot;분석-프로젝트-관리&quot;&gt;분석 프로젝트 관리&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;크기(양), 속도, 데이터 복잡성, 분석 복잡성, 정확도/정밀도&lt;/strong&gt; 다섯 가지 요소들은 분석 프로젝트를 계획하고 수행할 때 고려해야 할 중요한 측면들입니다.&lt;br /&gt;
+이를 효과적으로 관리하고 적절한 대응을 취함으로써 &lt;strong&gt;분석 결과의 신뢰성과 유용성&lt;/strong&gt;을 향상시킬 수 있습니다.&lt;br /&gt;
+각 요소의 특성과 상호 관계를 이해하고 적절한 전략을 수립하여 분석 프로젝트를 성공적으로 진행할 수 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;크기양&quot;&gt;크기(양)&lt;/h2&gt;
+
+&lt;p&gt;크기는 &lt;strong&gt;분석에 사용되는 데이터의 양&lt;/strong&gt;을 나타냅니다.&lt;br /&gt;
+분석의 복잡성과 결과의 타당성에 직접적인 영향을 미칩니다.&lt;br /&gt;
+큰 데이터 세트를 다룰 때는 데이터 수집, 저장, 처리, 분석에 필요한 리소스와 시간을 고려해야 합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;속도&quot;&gt;속도&lt;/h2&gt;
+
+&lt;p&gt;분석 작업의 &lt;strong&gt;진행 속도와 결과 도출에 걸리는 시간&lt;/strong&gt;을 의미합니다.&lt;br /&gt;
+분석 프로젝트에서는 신속한 결과 도출이 필요한 경우가 많습니다.&lt;br /&gt;
+이를 위해 효율적인 데이터 처리 및 분석 방법을 선택하고, 병렬 처리 기술 또는 클라우드 컴퓨팅과 같은 기술을 활용하여 작업 속도를 향상시킬 수 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;데이터-복잡성&quot;&gt;데이터 복잡성&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;다양한 속성, 변수 또는 차원으로 구성된 데이터의 복잡성&lt;/strong&gt;을 의미합니다.&lt;br /&gt;
+다차원 데이터의 경우 차원의 수가 많아지면 데이터 분석과 시각화가 어려워질 수 있습니다.&lt;br /&gt;
+이를 해결하기 위해 차원 축소 기법이나 특징 기법 등을 활용하여 데이터를 단순화하고 핵심 특징을 추출할 수 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;분석-복잡성&quot;&gt;분석 복잡성&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;분석 기술의 복잡성을 의미&lt;/strong&gt;합니다.&lt;br /&gt;
+분석 프로젝트에서는 다양한 분석 방법과 모델을 사용해야 할 수 있으며, 이를 위해 전문 지식과 기술이 필요합니다.&lt;br /&gt;
+분석 복잡성을 관리하기 위해 팀의 역량을 고려하고, 필요한 기술과 도구를 활용하여 분석 작업을 지원해야 합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;정확도정밀도&quot;&gt;정확도/정밀도&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;분석 결과의 신뢰성과 타당성&lt;/strong&gt;을 나타냅니다.&lt;br /&gt;
+정확도는 분석 결과가 실제 데이터와 얼마나 일치하는지를 평가하는 것이며, 정밀도는 분석 결과의 일관성과 견고성을 나타냅니다.&lt;br /&gt;
+정확도와 정밀도는 분석 프로젝트의 목표와 요구 사항에 따라 다를 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;예를 들어, 예측 모델의 경우 정확도가 높아야 하고, 특정 패턴을 식별하는 분류 모델의 경우 정밀도가 중요합니다.&lt;/p&gt;
+
+&lt;p&gt;정확도와 정밀도를 관리하기 위해 데이터의 품질을 유지하고 전처리 과정에서 잡음을 제거하고 오류를 보정해야 합니다. &lt;br /&gt;
+또한, 적절한 분석 기법과 모델을 선택하고 파라미터 튜닝을 수행하여 정확도와 정밀도를 극대화할 수 있습니다.&lt;br /&gt;
+이를 위해 신중한 분석 설계와 실험 계획을 수립하여 분석의 신뢰성을 높일 수 있습니다.&lt;/p&gt;
+
+&lt;h1 id=&quot;주요-관리-항목&quot;&gt;주요 관리 항목&lt;/h1&gt;
+
+&lt;p&gt;관리 항목들은 분석 프로젝트를 계획하고 실행하는 과정에서 고려해야 할 &lt;strong&gt;중요한 측면&lt;/strong&gt;들입니다.&lt;br /&gt;
+각 관리 항목은 &lt;strong&gt;프로젝트의 성공과 결과물의 품질에 직접적인 영향&lt;/strong&gt;을 미치므로, 전략적인 접근과 체계적인 관리를 통해 이를 관리해야 합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;범위scope&quot;&gt;범위(Scope)&lt;/h2&gt;
+
+&lt;p&gt;분석 프로젝트의 범위는 &lt;strong&gt;데이터의 형태, 양, 적용 모델 등에 따라 결정&lt;/strong&gt;됩니다.&lt;br /&gt;
+이는 분석 알고리즘의 범위와 관련이 있으며, 프로젝트의 목표와 요구사항을 정의하고 범위 변동을 감지하고 관리해야 합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;시간time&quot;&gt;시간(Time)&lt;/h2&gt;
+
+&lt;p&gt;프로젝트 &lt;strong&gt;일정 관리&lt;/strong&gt;와 관련이 있습니다.&lt;br /&gt;
+분석 작업의 기간과 마일스톤, 작업의 선후 관계 등을 계획하고 추적하여 프로젝트가 정해진 일정 내에 완료될 수 있도록 해야 합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;원가cost&quot;&gt;원가(Cost)&lt;/h2&gt;
+
+&lt;p&gt;분석 프로젝트의 원가는 &lt;strong&gt;데이터 분석에 소요되는 비용&lt;/strong&gt;을 의미합니다.&lt;br /&gt;
+데이터 수집, 전처리, 분석 도구 및 인프라 구매, 전문가의 임금 등을 고려하여 예산을 설정하고 비용을 추적하며 효율적인 비용 관리를 진행해야 합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;품질quality&quot;&gt;품질(Quality)&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;품질 관리(QC)와 품질 보증(QA)&lt;/strong&gt;을 통해 관리됩니다.&lt;br /&gt;
+데이터의 정확성과 일관성, 분석 결과의 신뢰성과 일치성을 유지하고 품질 표준과 프로세스를 준수하여 프로젝트 품질을 관리해야 합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;통합integration&quot;&gt;통합(Integration)&lt;/h2&gt;
+
+&lt;p&gt;프로젝트의 &lt;strong&gt;프로세스와 작업을 효율적으로 조율하는 운영 관리&lt;/strong&gt;를 의미합니다.&lt;br /&gt;
+이는 각 분석 단계와 활동 간의 연결, 의존성 관리, 작업 흐름의 일관성을 유지하는 것을 포함합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;조달procurement&quot;&gt;조달(Procurement)&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;외부 소싱, 인프라 구매, 클라우드 서비스 등을 통해 필요한 자원을 확보&lt;/strong&gt;하는 것을 의미합니다.&lt;br /&gt;
+프로젝트에 필요한 데이터, 도구, 기술적 자원 등을 효율적으로 조달하고 계약 및 공급자 관리를 수행해야 합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;자원resource&quot;&gt;자원(Resource)&lt;/h2&gt;
+
+&lt;p&gt;분석 프로젝트에 필요한 자원은 &lt;strong&gt;인력, 아키텍처, 전문가&lt;/strong&gt; 등을 포함합니다.&lt;br /&gt;
+팀 구성원의 역량과 역할을 고려하고 필요한 전문지식과 기술을 보유한 전문가를 확보하야 합니다.&lt;br /&gt;
+또한, 적절한 아키텍처와 인프라를 구축하여 데이터 처리 및 분석에 필요한 자원을 제공해야 합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;리스크risk&quot;&gt;리스크(Risk)&lt;/h2&gt;
+
+&lt;p&gt;분석 프로젝트에서는 &lt;strong&gt;위험 요소를 식별하고 대응&lt;/strong&gt;하는 것이 중요합니다.&lt;br /&gt;
+프로젝트의 목표 달성을 방해하는 잠재적인 위험을 식별하고 평가하여 위험 관리 전략을 수립하고 실행해야 합니다.&lt;br /&gt;
+이를 통해 예상되는 문제와 장애물을 사전에 대비하고 대응할 수 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;의사소통communication&quot;&gt;의사소통(Communication)&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;원활한 프로젝트 진행을 위해 의사소통 체계를 구축&lt;/strong&gt;해야 합니다.&lt;br /&gt;
+팀 구성원 및 이해관계자 간의 명확하고 효과적인 의사소통을 유지하고 정보 및 업데이트를 공유해야 합니다.&lt;br /&gt;
+이를 통해 프로젝트 진척 상황과 이슈를 효과적으로 관리하고 협력을 강화할 수 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;이해관계자stakeholders&quot;&gt;이해관계자(Stakeholders)&lt;/h2&gt;
+
+&lt;p&gt;분석 프로젝트에는 &lt;strong&gt;데이터, 비즈니스, 분석, 시스템 등의 전문가로 구성된 이해관계자&lt;/strong&gt;가 포함됩니다.&lt;br /&gt;
+이해관계자의 요구사항과 기대치를 이해하고 관리하여 프로젝트 결과가 이해관계자의 기대에 부합하도록 해야 합니다.&lt;br /&gt;
+이를 위해 이해관계자 관리 전략을 수립하고 필요한 소통 및 협력을 유지해야 합니다.&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="Adsp" /><summary type="html">분석 프로젝트 관리</summary></entry><entry><title type="html">분석기회 발굴범위</title><link href="http://localhost:4000/%EB%B6%84%EC%84%9D%EA%B8%B0%ED%9A%8C%EB%B0%9C%EA%B5%B4%EB%B2%94%EC%9C%84" rel="alternate" type="text/html" title="분석기회 발굴범위" /><published>2023-05-15T00:00:00+09:00</published><updated>2023-05-15T00:00:00+09:00</updated><id>http://localhost:4000/%EB%B6%84%EC%84%9D%EA%B8%B0%ED%9A%8C%EB%B0%9C%EA%B5%B4%EB%B2%94%EC%9C%84</id><content type="html" xml:base="http://localhost:4000/%EB%B6%84%EC%84%9D%EA%B8%B0%ED%9A%8C%EB%B0%9C%EA%B5%B4%EB%B2%94%EC%9C%84">&lt;h1 id=&quot;분석-기회-발굴-범위&quot;&gt;분석 기회 발굴 범위&lt;/h1&gt;
+
+&lt;p&gt;분석 프로젝트에서 &lt;strong&gt;조사 및 분석할 대상 및 범위를 결정하는 것을 의미&lt;/strong&gt;합니다.&lt;br /&gt;
+이는 분석 목적과 목표를 달성하기 위해 필요한 데이터와 리소스에 대한 범위를 정하는 과정입니다.&lt;/p&gt;
+
+&lt;p&gt;분석 기회 발굴 범위를 명확히 정의하고 이해함으로써 효율적인 분석을 수행할 수 있으며, 비즈니스 목표 달성에 필요한 통찰력과 결과를 도출할 수 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;비즈니스-목표&quot;&gt;비즈니스 목표&lt;/h2&gt;
+
+&lt;p&gt;분석 기회는 비즈니스 목표와 관련되어야 합니다.&lt;br /&gt;
+&lt;strong&gt;어떤 문제를 해결&lt;/strong&gt;하고자 하는지, &lt;strong&gt;어떤 비즈니스 결과를 도출&lt;/strong&gt;하고자 하는지를 명확히 이해해야 합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;데이터&quot;&gt;데이터&lt;/h2&gt;
+
+&lt;p&gt;분석에 필요한 &lt;strong&gt;데이터를 식별&lt;/strong&gt;해야 합니다.&lt;br /&gt;
+어떤 &lt;strong&gt;종류&lt;/strong&gt;의 데이터가 필요하고, 어떻게 &lt;strong&gt;수집&lt;/strong&gt;되는지, 사용 가능한 데이터 세트의 &lt;strong&gt;범위와 품질&lt;/strong&gt;을 평가해야 합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;분석-범위&quot;&gt;분석 범위&lt;/h2&gt;
+
+&lt;p&gt;분석할 &lt;strong&gt;대상의 범위&lt;/strong&gt;를 정해야 합니다.&lt;/p&gt;
+
+&lt;p&gt;예를 들어, 특정 제품, 고객 세그먼트, 지역 또는 기간 등에 초점을 맞출 수 있습니다.&lt;br /&gt;
+이는 분석 목표와 관련하여 가장 중요한 영역을 식별하는 것입니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;리소스&quot;&gt;리소스&lt;/h2&gt;
+
+&lt;p&gt;분석에 &lt;strong&gt;사용할 수 있는 리소스(인력, 시간, 도구 등)를 고려&lt;/strong&gt;해야 합니다.&lt;br /&gt;
+사용 가능한 리소스에 따라 분석 범위를 조정해야 할 수도 있습니다.&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="Adsp" /><summary type="html">분석 기회 발굴 범위</summary></entry><entry><title type="html">STEEP</title><link href="http://localhost:4000/STEEP" rel="alternate" type="text/html" title="STEEP" /><published>2023-05-15T00:00:00+09:00</published><updated>2023-05-15T00:00:00+09:00</updated><id>http://localhost:4000/STEEP</id><content type="html" xml:base="http://localhost:4000/STEEP">&lt;h1 id=&quot;steep&quot;&gt;STEEP&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;사회적, 경제적, 기술적, 환경적, 정치적 요인&lt;/strong&gt;을 나타내는 단어로, &lt;strong&gt;현재의 조직와 해당 산업에 폭넓게 영향을 미치는 다양한 맥락을 이해하고 분석&lt;/strong&gt;하는 데 도움을 줍니다.&lt;br /&gt;
+각 요인들은 각각 독립적으로 작용할 수도 있지만, 종종 상호작요하며 복잡한 관계를 형성합니다.&lt;/p&gt;
+
+&lt;p&gt;예를 들어, 사회적 요인은 소비자의 가치관과 행동 양식에 영향을 주고, 경제적 요인은 소비 패턴과 투자 결정에 영향을 줄 수 있습니다.&lt;br /&gt;
+또한, 기술적 요인은 경제적 효율성을 향상시키고, 환경적 요인은 기술 개발과 사용에 대한 제약을 가할 수 있습니다.&lt;br /&gt;
+정치적 요인은 모든 다른 요인들에 대한 법적 및 규제적 제약을 가하거나 조정할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;따라서, 조직과 산업은 STEEP 요인들을 체계적으로 평가하고 이해하여 변화에 대응하고 새로운 기회를 발견할 수 있어야 합니다.&lt;br /&gt;
+이를 통해 조직은 경쟁력을 유지하고 성장할 수 있으며, 현재의 조직과 산업 환경을 파악하여 장기적인 비즈니스 전략을 수립할 수 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;사회적-요인-social&quot;&gt;사회적 요인 (Social)&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;사회 구성원들의 가치, 태도, 행동 양식, 인구 특성 등을 의미&lt;/strong&gt;합니다.&lt;br /&gt;
+&lt;strong&gt;사회 문화, 라이프스타일, 인구 구성, 교육 수준, 건강과 웹빙 등이 포함&lt;/strong&gt;될 수 있습니다.&lt;br /&gt;
+이러한 요인들은 &lt;strong&gt;소비자 행동, 시장 동향, 소비 트렌드 등에 영향&lt;/strong&gt;을 미치며, 조직과 산업의 관점에서는 &lt;strong&gt;소비자 요구를 파악하고 시장에 적응&lt;/strong&gt;하는 데 중요한 역할을 합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;기술적-요인-technological&quot;&gt;기술적 요인 (Technological)&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;기술의 발전과 혁신에 관련된 요인&lt;/strong&gt;을 의미합니다.&lt;br /&gt;
+이는 &lt;strong&gt;정보 기술(IT), 인공지능(AI), 자동화, 로봇 기술, 빅데이터&lt;/strong&gt; 등을 포함합니다.&lt;br /&gt;
+기술적 요인은 &lt;strong&gt;제품 혁신, 생산성 향상, 경영 방식 변화 등에 영향&lt;/strong&gt;을 주며, 조직과 산업의 관점에서는 &lt;strong&gt;디지털 전환, 경쟁 우위 확보, 새로운 비즈니스 모델 등에 영향&lt;/strong&gt;을 미칩니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;경제적-요인-economic&quot;&gt;경제적 요인 (Economic)&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;경제 활동과 관련된 요인&lt;/strong&gt;을 의미합니다.&lt;br /&gt;
+이는 &lt;strong&gt;GDP 성장률, 인플레이션, 금리, 환율 등의 결제 지표와 관련&lt;/strong&gt;이 있습니다.&lt;br /&gt;
+경제적 요인은 &lt;strong&gt;소비패턴, 투자 활동, 경쟁 환경 등에 영향&lt;/strong&gt;을 주며, 조직과 산업의 관점에서는 &lt;strong&gt;수익성, 시장 조건, 경쟁력 등에 영향&lt;/strong&gt;을 미칩니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;환경적-요인-environmental&quot;&gt;환경적 요인 (Environmental)&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;환경 보호, 지속 가능성, 기후 변화, 에너지 효율성 등과 관련된 요인&lt;/strong&gt;을 의미합니다.&lt;br /&gt;
+기업의 &lt;strong&gt;사회적 책임과 관련하여 환경 규제, 친환경 제품 및 서비스 수요, 환경요인들의 상호작용&lt;/strong&gt;을 고려하여 조직과 산업에 영향을 미칩니다.&lt;br /&gt;
+이러한 요인은 조직의 &lt;strong&gt;비즈니스 모델, 전략 수립, 제품 개발, 시장 진입 전략 등을 결정&lt;/strong&gt;하는 데 영향을 미칩니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;정치적-요인-political&quot;&gt;정치적 요인 (Political)&lt;/h2&gt;
+
+&lt;p&gt;정부의 &lt;strong&gt;정책, 법률, 규제, 정치적 안정성&lt;/strong&gt; 등을 포함합니다.&lt;br /&gt;
+&lt;strong&gt;산업 규제, 법적 제약, 정부 지원 정책&lt;/strong&gt; 등을 통해 조직과 산업에 영향을 미칩니다.&lt;br /&gt;
+정부의 결정은 &lt;strong&gt;비즈니스 환경과 경영 전략&lt;/strong&gt;에 미치며, &lt;strong&gt;시장 진출 전략, 정부와의 협력, 규정 준수&lt;/strong&gt; 등을 고려해야 하는 중요한 요소입니다.&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="Adsp" /><summary type="html">STEEP</summary></entry><entry><title type="html">하드 스킬 VS 소프트 스킬</title><link href="http://localhost:4000/%ED%95%98%EB%93%9C%EC%8A%A4%ED%82%ACvs%EC%86%8C%ED%94%84%ED%8A%B8%EC%8A%A4%ED%82%AC" rel="alternate" type="text/html" title="하드 스킬 VS 소프트 스킬" /><published>2023-05-15T00:00:00+09:00</published><updated>2023-05-15T00:00:00+09:00</updated><id>http://localhost:4000/%ED%95%98%EB%93%9C%EC%8A%A4%ED%82%ACvs%EC%86%8C%ED%94%84%ED%8A%B8%EC%8A%A4%ED%82%AC</id><content type="html" xml:base="http://localhost:4000/%ED%95%98%EB%93%9C%EC%8A%A4%ED%82%ACvs%EC%86%8C%ED%94%84%ED%8A%B8%EC%8A%A4%ED%82%AC">&lt;h1 id=&quot;하드-스킬-vs-소프트-스킬&quot;&gt;하드 스킬 VS 소프트 스킬&lt;/h1&gt;
 
 &lt;h2 id=&quot;하드-스킬hard-skills&quot;&gt;하드 스킬(Hard Skills)&lt;/h2&gt;
 
@@ -151,114 +317,7 @@
 이를 통해 특정 결과를 얻기 위한 효과적인 전략과 의사 결정 방안을 제시합니다.&lt;br /&gt;
 설명적 분석은 주로 원인 분석, 영향 요인 식별, 의사 결정 지원 등의 작업에 활용됩니다.&lt;/p&gt;
 
-&lt;p&gt;예를 들어, 마케팅 데이터를 분석하여 고객 이탈의 주요 원인을 파악하고, 이를 기반으로 개선 전략을 도출하는 작업이 포함될 수 있습니다.&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="Adsp" /><summary type="html">분석 방법</summary></entry><entry><title type="html">분석기회 발굴범위</title><link href="http://localhost:4000/%EB%B6%84%EC%84%9D%EA%B8%B0%ED%9A%8C%EB%B0%9C%EA%B5%B4%EB%B2%94%EC%9C%84" rel="alternate" type="text/html" title="분석기회 발굴범위" /><published>2023-05-15T00:00:00+09:00</published><updated>2023-05-15T00:00:00+09:00</updated><id>http://localhost:4000/%EB%B6%84%EC%84%9D%EA%B8%B0%ED%9A%8C%EB%B0%9C%EA%B5%B4%EB%B2%94%EC%9C%84</id><content type="html" xml:base="http://localhost:4000/%EB%B6%84%EC%84%9D%EA%B8%B0%ED%9A%8C%EB%B0%9C%EA%B5%B4%EB%B2%94%EC%9C%84">&lt;h1 id=&quot;분석-기회-발굴-범위&quot;&gt;분석 기회 발굴 범위&lt;/h1&gt;
-
-&lt;p&gt;분석 프로젝트에서 &lt;strong&gt;조사 및 분석할 대상 및 범위를 결정하는 것을 의미&lt;/strong&gt;합니다.&lt;br /&gt;
-이는 분석 목적과 목표를 달성하기 위해 필요한 데이터와 리소스에 대한 범위를 정하는 과정입니다.&lt;/p&gt;
-
-&lt;p&gt;분석 기회 발굴 범위를 명확히 정의하고 이해함으로써 효율적인 분석을 수행할 수 있으며, 비즈니스 목표 달성에 필요한 통찰력과 결과를 도출할 수 있습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;비즈니스-목표&quot;&gt;비즈니스 목표&lt;/h2&gt;
-
-&lt;p&gt;분석 기회는 비즈니스 목표와 관련되어야 합니다.&lt;br /&gt;
-&lt;strong&gt;어떤 문제를 해결&lt;/strong&gt;하고자 하는지, &lt;strong&gt;어떤 비즈니스 결과를 도출&lt;/strong&gt;하고자 하는지를 명확히 이해해야 합니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;데이터&quot;&gt;데이터&lt;/h2&gt;
-
-&lt;p&gt;분석에 필요한 &lt;strong&gt;데이터를 식별&lt;/strong&gt;해야 합니다.&lt;br /&gt;
-어떤 &lt;strong&gt;종류&lt;/strong&gt;의 데이터가 필요하고, 어떻게 &lt;strong&gt;수집&lt;/strong&gt;되는지, 사용 가능한 데이터 세트의 &lt;strong&gt;범위와 품질&lt;/strong&gt;을 평가해야 합니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;분석-범위&quot;&gt;분석 범위&lt;/h2&gt;
-
-&lt;p&gt;분석할 &lt;strong&gt;대상의 범위&lt;/strong&gt;를 정해야 합니다.&lt;/p&gt;
-
-&lt;p&gt;예를 들어, 특정 제품, 고객 세그먼트, 지역 또는 기간 등에 초점을 맞출 수 있습니다.&lt;br /&gt;
-이는 분석 목표와 관련하여 가장 중요한 영역을 식별하는 것입니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;리소스&quot;&gt;리소스&lt;/h2&gt;
-
-&lt;p&gt;분석에 &lt;strong&gt;사용할 수 있는 리소스(인력, 시간, 도구 등)를 고려&lt;/strong&gt;해야 합니다.&lt;br /&gt;
-사용 가능한 리소스에 따라 분석 범위를 조정해야 할 수도 있습니다.&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="Adsp" /><summary type="html">분석 기회 발굴 범위</summary></entry><entry><title type="html">STEEP</title><link href="http://localhost:4000/STEEP" rel="alternate" type="text/html" title="STEEP" /><published>2023-05-15T00:00:00+09:00</published><updated>2023-05-15T00:00:00+09:00</updated><id>http://localhost:4000/STEEP</id><content type="html" xml:base="http://localhost:4000/STEEP">&lt;h1 id=&quot;steep&quot;&gt;STEEP&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;사회적, 경제적, 기술적, 환경적, 정치적 요인&lt;/strong&gt;을 나타내는 단어로, &lt;strong&gt;현재의 조직와 해당 산업에 폭넓게 영향을 미치는 다양한 맥락을 이해하고 분석&lt;/strong&gt;하는 데 도움을 줍니다.&lt;br /&gt;
-각 요인들은 각각 독립적으로 작용할 수도 있지만, 종종 상호작요하며 복잡한 관계를 형성합니다.&lt;/p&gt;
-
-&lt;p&gt;예를 들어, 사회적 요인은 소비자의 가치관과 행동 양식에 영향을 주고, 경제적 요인은 소비 패턴과 투자 결정에 영향을 줄 수 있습니다.&lt;br /&gt;
-또한, 기술적 요인은 경제적 효율성을 향상시키고, 환경적 요인은 기술 개발과 사용에 대한 제약을 가할 수 있습니다.&lt;br /&gt;
-정치적 요인은 모든 다른 요인들에 대한 법적 및 규제적 제약을 가하거나 조정할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;따라서, 조직과 산업은 STEEP 요인들을 체계적으로 평가하고 이해하여 변화에 대응하고 새로운 기회를 발견할 수 있어야 합니다.&lt;br /&gt;
-이를 통해 조직은 경쟁력을 유지하고 성장할 수 있으며, 현재의 조직과 산업 환경을 파악하여 장기적인 비즈니스 전략을 수립할 수 있습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;사회적-요인-social&quot;&gt;사회적 요인 (Social)&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;사회 구성원들의 가치, 태도, 행동 양식, 인구 특성 등을 의미&lt;/strong&gt;합니다.&lt;br /&gt;
-&lt;strong&gt;사회 문화, 라이프스타일, 인구 구성, 교육 수준, 건강과 웹빙 등이 포함&lt;/strong&gt;될 수 있습니다.&lt;br /&gt;
-이러한 요인들은 &lt;strong&gt;소비자 행동, 시장 동향, 소비 트렌드 등에 영향&lt;/strong&gt;을 미치며, 조직과 산업의 관점에서는 &lt;strong&gt;소비자 요구를 파악하고 시장에 적응&lt;/strong&gt;하는 데 중요한 역할을 합니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;경제적-요인-economic&quot;&gt;경제적 요인 (Economic)&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;경제 활동과 관련된 요인&lt;/strong&gt;을 의미합니다.&lt;br /&gt;
-이는 &lt;strong&gt;GDP 성장률, 인플레이션, 금리, 환율 등의 결제 지표와 관련&lt;/strong&gt;이 있습니다.&lt;br /&gt;
-경제적 요인은 &lt;strong&gt;소비패턴, 투자 활동, 경쟁 환경 등에 영향&lt;/strong&gt;을 주며, 조직과 산업의 관점에서는 &lt;strong&gt;수익성, 시장 조건, 경쟁력 등에 영향&lt;/strong&gt;을 미칩니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;기술적-요인-technological&quot;&gt;기술적 요인 (Technological)&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;기술의 발전과 혁신에 관련된 요인&lt;/strong&gt;을 의미합니다.&lt;br /&gt;
-이는 &lt;strong&gt;정보 기술(IT), 인공지능(AI), 자동화, 로봇 기술, 빅데이터&lt;/strong&gt; 등을 포함합니다.&lt;br /&gt;
-기술적 요인은 &lt;strong&gt;제품 혁신, 생산성 향상, 경영 방식 변화 등에 영향&lt;/strong&gt;을 주며, 조직과 산업의 관점에서는 &lt;strong&gt;디지털 전환, 경쟁 우위 확보, 새로운 비즈니스 모델 등에 영향&lt;/strong&gt;을 미칩니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;환경적-요인-environmaental&quot;&gt;환경적 요인 (Environmaental)&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;환경 보호, 지속 가능성, 기후 변화, 에너지 효율성 등과 관련된 요인&lt;/strong&gt;을 의미합니다.&lt;br /&gt;
-기업의 &lt;strong&gt;사회적 책임과 관련하여 환경 규제, 친환경 제품 및 서비스 수요, 환경요인들의 상호작용&lt;/strong&gt;을 고려하여 조직과 산업에 영향을 미칩니다.&lt;br /&gt;
-이러한 요인은 조직의 &lt;strong&gt;비즈니스 모델, 전략 수립, 제품 개발, 시장 진입 전략 등을 결정&lt;/strong&gt;하는 데 영향을 미칩니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;정치적-요인-political&quot;&gt;정치적 요인 (Political)&lt;/h2&gt;
-
-&lt;p&gt;정부의 &lt;strong&gt;정책, 법률, 규제, 정치적 안정성&lt;/strong&gt; 등을 포함합니다.&lt;br /&gt;
-&lt;strong&gt;산업 규제, 법적 제약, 정부 지원 정책&lt;/strong&gt; 등을 통해 조직과 산업에 영향을 미칩니다.&lt;br /&gt;
-정부의 결정은 &lt;strong&gt;비즈니스 환경과 경영 전략&lt;/strong&gt;에 미치며, &lt;strong&gt;시장 진출 전략, 정부와의 협력, 규정 준수&lt;/strong&gt; 등을 고려해야 하는 중요한 요소입니다.&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="Adsp" /><summary type="html">STEEP</summary></entry><entry><title type="html">DIKW 피라미드</title><link href="http://localhost:4000/DIKW%ED%94%BC%EB%9D%BC%EB%AF%B8%EB%93%9C" rel="alternate" type="text/html" title="DIKW 피라미드" /><published>2023-05-14T00:00:00+09:00</published><updated>2023-05-14T00:00:00+09:00</updated><id>http://localhost:4000/DIKW%ED%94%BC%EB%9D%BC%EB%AF%B8%EB%93%9C</id><content type="html" xml:base="http://localhost:4000/DIKW%ED%94%BC%EB%9D%BC%EB%AF%B8%EB%93%9C">&lt;h1 id=&quot;dikw-피라미드data-information-knowledge-wisdom&quot;&gt;DIKW 피라미드(Data Information Knowledge Wisdom)&lt;/h1&gt;
-
-&lt;p&gt;DIKW 피라미드는 정보과학과 지식 관리 분야에서 널리 사용되는 개념적인 모델입니다.&lt;br /&gt;
-&lt;strong&gt;데이터, 정보, 지식 및 지혜&lt;/strong&gt;라는 네 가지 계층으로 구성되어 있으며, &lt;strong&gt;하위 계층에서 상위 계층으로 가는 방향으로 계층화&lt;/strong&gt;되어 있습니다.&lt;br /&gt;
-각 계층은 이전 계층의 결과물을 기반으로 하여 더 높은 수준의 추상화와 이해를 제공합니다.&lt;/p&gt;
-
-&lt;p&gt;DIKW 피라미드는 이러한 &lt;strong&gt;계층 구조를 통해 데이터가 지혜로 가는 과정&lt;/strong&gt;을 설명합니다.&lt;br /&gt;
-데이터는 정보로 가공되며, 정보는 지식으로 변환되고, 지식은 지혜의 토대가 됩니다. &lt;br /&gt;
-이 모델은 정보 관리, 지식 전달, 의사 결정, 학습 및 혁신 등 다양한 분야에서 활용되며, 지식의 가치를 최대화하기 위한 전략과 방법론의 개발에도 도움이 됩니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;데이터data&quot;&gt;데이터(Data)&lt;/h2&gt;
-
-&lt;p&gt;단순히 &lt;strong&gt;사실&lt;/strong&gt;이나 기록으로서 &lt;strong&gt;원시적&lt;/strong&gt;이고 &lt;strong&gt;구조화되지 않은 형태의 정보&lt;/strong&gt;입니다.&lt;br /&gt;
-개별적인 사실이나 관찰을 나타내며, 그 자체로는 큰 의미나 가치를 지니지 않습니다.&lt;/p&gt;
-
-&lt;p&gt;예를 들어, 온도 측정 데이터, 고객 주문 데이터, 주식 시장 거래 데이터 등이 데이터의 예시입니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;정보information&quot;&gt;정보(Information)&lt;/h2&gt;
-
-&lt;p&gt;데이터를 &lt;strong&gt;조직화&lt;/strong&gt;하고 &lt;strong&gt;해석&lt;/strong&gt;하며 &lt;strong&gt;의미 있는 내용&lt;/strong&gt;을 제공하는 것입니다.&lt;br /&gt;
-데이터의 패턴, 관계, 특성 등을 이해하고 분석함으로써 얻어집니다.&lt;br /&gt;
-컨텍스트와 의미를 부여하여 가치를 더합니다.&lt;/p&gt;
-
-&lt;p&gt;예를 들어, 온도 데이터를 바탕으로 특정 지역의 날씨 정보를 제공하거나, 고객 주문 데이터를 분석하여 판매 동향 정보를 도출하는 것이 정보의 예시입니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;지식knowledge&quot;&gt;지식(Knowledge)&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;정보를 이해&lt;/strong&gt;하고 &lt;strong&gt;활용&lt;/strong&gt;할 수 있는 &lt;strong&gt;인식과 깨달음&lt;/strong&gt;을 말합니다.&lt;br /&gt;
-개별 정보들의 상호 연결, 패턴 인식, 근거에 기반한 추론, 경험 등을 통해 형성됩니다.&lt;br /&gt;
-문제 해결, 의사 결정, 예측 등을 위해 활용 될 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;예를 들어, 날씨 정보를 바탕으로 특정 지역에서 휴가를 가기 좋은 시기를 예측하는 것입니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;지혜wisdom&quot;&gt;지혜(Wisdom)&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;넓은 시야&lt;/strong&gt;와 &lt;strong&gt;깊은 이해&lt;/strong&gt;를 바탕으로 형성되며, &lt;strong&gt;지식을 토대로 한 윤리적이고 상황에 맞는 판단과 행동을 포함&lt;/strong&gt;합니다.&lt;br /&gt;
-비지니스 전략 수립, 사회적 문제 해결, 윤리적인 결정 등에 관련되며, 전문적인 지식과 경험이 요구됩니다.&lt;br /&gt;
-지혜는 지식을 최고 수준으로 활용하여 긍정적인 영향력을 가지는 행동을 취함으로써 얻어집니다.&lt;br /&gt;
-&lt;strong&gt;지식과 경험의 결합으로 형성&lt;/strong&gt;되며, 복잡하고 불확실한 상황에서 효과적인 판단을 내릴 수 있는 능력을 강조합니다.&lt;/p&gt;
-
-&lt;p&gt;비즈니스, 리더십, 정치, 인간관계 등 다양한 영역에서 중요한 역할을 합니다.&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="Adsp" /><summary type="html">DIKW 피라미드(Data Information Knowledge Wisdom)</summary></entry><entry><title type="html">데이터사이언티스트(Data Scientist)</title><link href="http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%82%AC%EC%9D%B4%EC%96%B8%ED%8B%B0%EC%8A%A4%ED%8A%B8" rel="alternate" type="text/html" title="데이터사이언티스트(Data Scientist)" /><published>2023-05-14T00:00:00+09:00</published><updated>2023-05-14T00:00:00+09:00</updated><id>http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%82%AC%EC%9D%B4%EC%96%B8%ED%8B%B0%EC%8A%A4%ED%8A%B8</id><content type="html" xml:base="http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%82%AC%EC%9D%B4%EC%96%B8%ED%8B%B0%EC%8A%A4%ED%8A%B8">&lt;h1 id=&quot;데이터-사이언티스트data-scientist&quot;&gt;데이터 사이언티스트(Data Scientist)&lt;/h1&gt;
+&lt;p&gt;예를 들어, 마케팅 데이터를 분석하여 고객 이탈의 주요 원인을 파악하고, 이를 기반으로 개선 전략을 도출하는 작업이 포함될 수 있습니다.&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="Adsp" /><summary type="html">분석 방법</summary></entry><entry><title type="html">데이터사이언티스트(Data Scientist)</title><link href="http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%82%AC%EC%9D%B4%EC%96%B8%ED%8B%B0%EC%8A%A4%ED%8A%B8" rel="alternate" type="text/html" title="데이터사이언티스트(Data Scientist)" /><published>2023-05-14T00:00:00+09:00</published><updated>2023-05-14T00:00:00+09:00</updated><id>http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%82%AC%EC%9D%B4%EC%96%B8%ED%8B%B0%EC%8A%A4%ED%8A%B8</id><content type="html" xml:base="http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%82%AC%EC%9D%B4%EC%96%B8%ED%8B%B0%EC%8A%A4%ED%8A%B8">&lt;h1 id=&quot;데이터-사이언티스트data-scientist&quot;&gt;데이터 사이언티스트(Data Scientist)&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;데이터를 분석하고 해석하여 비즈니스나 조직의 의사 결정에 활용하는 전문가&lt;/strong&gt;입니다.&lt;br /&gt;
 다양한 &lt;strong&gt;데이터 소스&lt;/strong&gt;로부터 &lt;strong&gt;정보를 추출&lt;/strong&gt;하고, 데이터를 &lt;strong&gt;정제&lt;/strong&gt;, &lt;strong&gt;변환&lt;/strong&gt;하며, &lt;strong&gt;분석 모델을 개발&lt;/strong&gt;하여 &lt;strong&gt;예측&lt;/strong&gt;, &lt;strong&gt;패턴 분석, 통계적 추론 등을 수행&lt;/strong&gt;합니다.&lt;br /&gt;
@@ -482,76 +541,44 @@ SQL을 사용하여 쿼리를 작성하고 실행할 수 있습니다.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;데이터베이스를 관리하고 조작하기 위한 소프트웨어&lt;/strong&gt;입니다.&lt;br /&gt;
 DBMS는 데이터의 &lt;strong&gt;생성, 수정, 삭제, 검색 등을 지원&lt;/strong&gt;합니다.&lt;br /&gt;
 다양한 기능과 도구를 제공하여 데이터베이스를 관리합니다.&lt;br /&gt;
-대표적인 관계형 DBMS로는 Oracle, MySQL, Microsoft SQL Server, PostgreSQL 등이 있습니다.&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="Adsp" /><summary type="html">데이터베이스(Database)</summary></entry><entry><title type="html">자기 개발 기록 (2023년5월)</title><link href="http://localhost:4000/2023%EB%85%845%EC%9B%94" rel="alternate" type="text/html" title="자기 개발 기록 (2023년5월)" /><published>2023-05-13T00:00:00+09:00</published><updated>2023-05-13T00:00:00+09:00</updated><id>http://localhost:4000/2023%EB%85%845%EC%9B%94</id><content type="html" xml:base="http://localhost:4000/2023%EB%85%845%EC%9B%94">&lt;h1 id=&quot;자기-개발-기록-2023년5월&quot;&gt;자기 개발 기록 (2023년5월)&lt;/h1&gt;
+대표적인 관계형 DBMS로는 Oracle, MySQL, Microsoft SQL Server, PostgreSQL 등이 있습니다.&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="Adsp" /><summary type="html">데이터베이스(Database)</summary></entry><entry><title type="html">DIKW 피라미드</title><link href="http://localhost:4000/DIKW%ED%94%BC%EB%9D%BC%EB%AF%B8%EB%93%9C" rel="alternate" type="text/html" title="DIKW 피라미드" /><published>2023-05-14T00:00:00+09:00</published><updated>2023-05-14T00:00:00+09:00</updated><id>http://localhost:4000/DIKW%ED%94%BC%EB%9D%BC%EB%AF%B8%EB%93%9C</id><content type="html" xml:base="http://localhost:4000/DIKW%ED%94%BC%EB%9D%BC%EB%AF%B8%EB%93%9C">&lt;h1 id=&quot;dikw-피라미드data-information-knowledge-wisdom&quot;&gt;DIKW 피라미드(Data Information Knowledge Wisdom)&lt;/h1&gt;
 
-&lt;h2 id=&quot;목적&quot;&gt;목적&lt;/h2&gt;
+&lt;p&gt;DIKW 피라미드는 정보과학과 지식 관리 분야에서 널리 사용되는 개념적인 모델입니다.&lt;br /&gt;
+&lt;strong&gt;데이터, 정보, 지식 및 지혜&lt;/strong&gt;라는 네 가지 계층으로 구성되어 있으며, &lt;strong&gt;하위 계층에서 상위 계층으로 가는 방향으로 계층화&lt;/strong&gt;되어 있습니다.&lt;br /&gt;
+각 계층은 이전 계층의 결과물을 기반으로 하여 더 높은 수준의 추상화와 이해를 제공합니다.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;자기 개발 기록을 통해 성과, 반성, 배울 점을 얻고 성장할 수 있도록 합니다.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;DIKW 피라미드는 이러한 &lt;strong&gt;계층 구조를 통해 데이터가 지혜로 가는 과정&lt;/strong&gt;을 설명합니다.&lt;br /&gt;
+데이터는 정보로 가공되며, 정보는 지식으로 변환되고, 지식은 지혜의 토대가 됩니다. &lt;br /&gt;
+이 모델은 정보 관리, 지식 전달, 의사 결정, 학습 및 혁신 등 다양한 분야에서 활용되며, 지식의 가치를 최대화하기 위한 전략과 방법론의 개발에도 도움이 됩니다.&lt;/p&gt;
 
-&lt;h2 id=&quot;1주차-2023년-5월-1일&quot;&gt;1주차 2023년 5월 1일&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;트랜스포머(인코더)&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;h2 id=&quot;데이터data&quot;&gt;데이터(Data)&lt;/h2&gt;
 
-&lt;details&gt;
-&lt;summary&gt;&lt;span style=&quot;color:blue;font-weight:bold&quot;&gt;여기를 클릭하여 펼치기...&lt;/span&gt;&lt;/summary&gt;
-&lt;div&gt;
-    &lt;ul&gt;
-      &lt;li&gt;트랜스포머(인코더)
-        &lt;ul&gt;
-          &lt;li&gt;포지셔널 인코딩&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
+&lt;p&gt;단순히 &lt;strong&gt;사실&lt;/strong&gt;이나 기록으로서 &lt;strong&gt;원시적&lt;/strong&gt;이고 &lt;strong&gt;구조화되지 않은 형태의 정보&lt;/strong&gt;입니다.&lt;br /&gt;
+개별적인 사실이나 관찰을 나타내며, 그 자체로는 큰 의미나 가치를 지니지 않습니다.&lt;/p&gt;
 
-    &lt;hr /&gt;
-  &lt;/div&gt;
-&lt;/details&gt;
+&lt;p&gt;예를 들어, 온도 측정 데이터, 고객 주문 데이터, 주식 시장 거래 데이터 등이 데이터의 예시입니다.&lt;/p&gt;
 
-&lt;h2 id=&quot;2주차-2023년-5월-8일&quot;&gt;2주차 2023년 5월 8일&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;정보처리기사, 익스트림 프로그래밍&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;h2 id=&quot;정보information&quot;&gt;정보(Information)&lt;/h2&gt;
 
-&lt;details&gt;
-&lt;summary&gt;&lt;span style=&quot;color:blue;font-weight:bold&quot;&gt;여기를 클릭하여 펼치기...&lt;/span&gt;&lt;/summary&gt;
-&lt;div&gt;
-    &lt;ul&gt;
-      &lt;li&gt;정보처리기사(블로그 포스팅)
-        &lt;ul&gt;
-          &lt;li&gt;익스트림 프로그래밍&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
+&lt;p&gt;데이터를 &lt;strong&gt;조직화&lt;/strong&gt;하고 &lt;strong&gt;해석&lt;/strong&gt;하며 &lt;strong&gt;의미 있는 내용&lt;/strong&gt;을 제공하는 것입니다.&lt;br /&gt;
+데이터의 패턴, 관계, 특성 등을 이해하고 분석함으로써 얻어집니다.&lt;br /&gt;
+컨텍스트와 의미를 부여하여 가치를 더합니다.&lt;/p&gt;
 
-    &lt;hr /&gt;
-  &lt;/div&gt;
-&lt;/details&gt;
+&lt;p&gt;예를 들어, 온도 데이터를 바탕으로 특정 지역의 날씨 정보를 제공하거나, 고객 주문 데이터를 분석하여 판매 동향 정보를 도출하는 것이 정보의 예시입니다.&lt;/p&gt;
 
-&lt;h2 id=&quot;3주차-2023년-5월-15일&quot;&gt;3주차 2023년 5월 15일&lt;/h2&gt;
-&lt;blockquote&gt;
+&lt;h2 id=&quot;지식knowledge&quot;&gt;지식(Knowledge)&lt;/h2&gt;
 
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;정보를 이해&lt;/strong&gt;하고 &lt;strong&gt;활용&lt;/strong&gt;할 수 있는 &lt;strong&gt;인식과 깨달음&lt;/strong&gt;을 말합니다.&lt;br /&gt;
+개별 정보들의 상호 연결, 패턴 인식, 근거에 기반한 추론, 경험 등을 통해 형성됩니다.&lt;br /&gt;
+문제 해결, 의사 결정, 예측 등을 위해 활용 될 수 있습니다.&lt;/p&gt;
 
-&lt;details&gt;
-&lt;summary&gt;&lt;span style=&quot;color:blue;font-weight:bold&quot;&gt;여기를 클릭하여 펼치기...&lt;/span&gt;&lt;/summary&gt;
-&lt;div&gt;
+&lt;p&gt;예를 들어, 날씨 정보를 바탕으로 특정 지역에서 휴가를 가기 좋은 시기를 예측하는 것입니다.&lt;/p&gt;
 
-    &lt;hr /&gt;
-  &lt;/div&gt;
-&lt;/details&gt;
+&lt;h2 id=&quot;지혜wisdom&quot;&gt;지혜(Wisdom)&lt;/h2&gt;
 
-&lt;h2 id=&quot;4주차-2023년-5월-22일&quot;&gt;4주차 2023년 5월 22일&lt;/h2&gt;
-&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;넓은 시야&lt;/strong&gt;와 &lt;strong&gt;깊은 이해&lt;/strong&gt;를 바탕으로 형성되며, &lt;strong&gt;지식을 토대로 한 윤리적이고 상황에 맞는 판단과 행동을 포함&lt;/strong&gt;합니다.&lt;br /&gt;
+비지니스 전략 수립, 사회적 문제 해결, 윤리적인 결정 등에 관련되며, 전문적인 지식과 경험이 요구됩니다.&lt;br /&gt;
+지혜는 지식을 최고 수준으로 활용하여 긍정적인 영향력을 가지는 행동을 취함으로써 얻어집니다.&lt;br /&gt;
+&lt;strong&gt;지식과 경험의 결합으로 형성&lt;/strong&gt;되며, 복잡하고 불확실한 상황에서 효과적인 판단을 내릴 수 있는 능력을 강조합니다.&lt;/p&gt;
 
-&lt;/blockquote&gt;
-
-&lt;details&gt;
-&lt;summary&gt;&lt;span style=&quot;color:blue;font-weight:bold&quot;&gt;여기를 클릭하여 펼치기...&lt;/span&gt;&lt;/summary&gt;
-&lt;div&gt;
-
-    &lt;hr /&gt;
-  &lt;/div&gt;
-&lt;/details&gt;</content><author><name>chanp5660</name></author><category term="Chan_dev_history" /><summary type="html">자기 개발 기록 (2023년5월)</summary></entry></feed>
+&lt;p&gt;비즈니스, 리더십, 정치, 인간관계 등 다양한 영역에서 중요한 역할을 합니다.&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="Adsp" /><summary type="html">DIKW 피라미드(Data Information Knowledge Wisdom)</summary></entry></feed>
