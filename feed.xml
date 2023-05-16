@@ -1,4 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-16T20:41:37+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">분석프로젝트관리</title><link href="http://localhost:4000/%EB%B6%84%EC%84%9D%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EA%B4%80%EB%A6%AC" rel="alternate" type="text/html" title="분석프로젝트관리" /><published>2023-05-16T00:00:00+09:00</published><updated>2023-05-16T00:00:00+09:00</updated><id>http://localhost:4000/%EB%B6%84%EC%84%9D%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EA%B4%80%EB%A6%AC</id><content type="html" xml:base="http://localhost:4000/%EB%B6%84%EC%84%9D%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EA%B4%80%EB%A6%AC">&lt;h1 id=&quot;분석-프로젝트-관리&quot;&gt;분석 프로젝트 관리&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-16T23:25:08+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">분석 과제 관리 프로세스</title><link href="http://localhost:4000/%EB%B6%84%EC%84%9D%EA%B3%BC%EC%A0%9C%EA%B4%80%EB%A6%AC%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4" rel="alternate" type="text/html" title="분석 과제 관리 프로세스" /><published>2023-05-16T00:00:00+09:00</published><updated>2023-05-16T00:00:00+09:00</updated><id>http://localhost:4000/%EB%B6%84%EC%84%9D%EA%B3%BC%EC%A0%9C%EA%B4%80%EB%A6%AC%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4</id><content type="html" xml:base="http://localhost:4000/%EB%B6%84%EC%84%9D%EA%B3%BC%EC%A0%9C%EA%B4%80%EB%A6%AC%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4">&lt;h1 id=&quot;분석-과제-관리-프로세스&quot;&gt;분석 과제 관리 프로세스&lt;/h1&gt;
+
+&lt;p&gt;분석 프로젝트를 효율적으로 계획, 모니터링 및 제어하기 위한 일련의 절차와 활동입니다.&lt;/p&gt;
+
+&lt;p&gt;분석 프로젝트의 &lt;strong&gt;전체 생명주기를 관리하며, 효율적인 일정 관리, 자원 할당, 품질 관리, 위험 관리, 의사소통, 변경 관리&lt;/strong&gt; 등의 관리 활동을 수행하여 프로젝트의 성공을 이끌어내는 것을 목표로 합니다.&lt;/p&gt;
+
+&lt;h1 id=&quot;단계&quot;&gt;단계&lt;/h1&gt;
+
+&lt;h2 id=&quot;문제-정의&quot;&gt;문제 정의&lt;/h2&gt;
+
+&lt;p&gt;분석 프로젝트의 시작 단계로, &lt;strong&gt;목표와 요구사항을 명확히 정의하고 분석&lt;/strong&gt;해야 할 문제나 도메인을 이해합니다.&lt;br /&gt;
+이를 통해 프로젝트의 방향성과 범위를 설정할 수 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;계획-및-자원-할당&quot;&gt;계획 및 자원 할당&lt;/h2&gt;
+
+&lt;p&gt;분석 프로젝트를 위한 전략적인 계획을 수립합니다.&lt;br /&gt;
+프로젝트 &lt;strong&gt;일정, 자원(인력, 도구, 데이터 등)의 할당, 역할 및 책임&lt;/strong&gt; 등을 명확히 정의하여 프로젝트 팀의 업무를 조정합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;데이터-수집-및-전처리&quot;&gt;데이터 수집 및 전처리&lt;/h2&gt;
+
+&lt;p&gt;필요한 &lt;strong&gt;데이터&lt;/strong&gt;를 &lt;strong&gt;수집&lt;/strong&gt;하고, 데이터의 &lt;strong&gt;품질&lt;/strong&gt;을 &lt;strong&gt;평가&lt;/strong&gt;하고 &lt;strong&gt;전처리 과정을 수행&lt;/strong&gt;합니다.&lt;br /&gt;
+이 단계에서는 데이터의 누락, 오류, 이상치 등을 처리하여 분석에 적합한 상태로 준비합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;분석-방법론-및-모델-선택&quot;&gt;분석 방법론 및 모델 선택&lt;/h2&gt;
+
+&lt;p&gt;적절한 &lt;strong&gt;분석 방법론과 모델을 선택&lt;/strong&gt;합니다.&lt;br /&gt;
+이는 &lt;strong&gt;분석 목표와 데이터의 특성에 기반&lt;/strong&gt;하여 결정됩니다.&lt;br /&gt;
+분석 방법론과 모델의 선택은 프로젝트의 목표 달성과 결과의 신뢰성에 직결됩니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;모델-구축-및-분석&quot;&gt;모델 구축 및 분석&lt;/h2&gt;
+
+&lt;p&gt;선택한 분석 모델을 구축하고 데이터에 대한 분석을 수행합니다.&lt;br /&gt;
+이 단계에서는 모델의 &lt;strong&gt;파라미터 조정, 변수 선택, 특징 공학 등을 수행&lt;/strong&gt;하여 &lt;strong&gt;분석 결과를 개선하고 최적화&lt;/strong&gt;합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;결과-해석-및-의사-결정&quot;&gt;결과 해석 및 의사 결정&lt;/h2&gt;
+
+&lt;p&gt;분석 결과를 해석하고 비즈니스 인텔리전스를 변환합니다.&lt;br /&gt;
+이를 통해 의사 결정을 지원하고, 추천이나 향상점을 제시합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;결과-보고-및-시각화&quot;&gt;결과 보고 및 시각화&lt;/h2&gt;
+
+&lt;p&gt;분석 결과를 효과적으로 전달하기 위해 시각화 및 보고서를 작성합니다.&lt;br /&gt;
+이를 통해 프로젝트 팀과 이해관계자들이 결과를 이해하고 활용할 수 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;모니터링-및-제어&quot;&gt;모니터링 및 제어&lt;/h2&gt;
+
+&lt;p&gt;프로젝트 진행 중에는 프로젝트의 진행 상황과 성과를 모니터링하고 필요한 조치를 취해야 합니다.&lt;br /&gt;
+이를 위해 주기적인 회의와 업데이트를 통해 프로젝트의 진척 상황을 파악하고, 문제 또는 지연 상황을 식별하여 조치합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;변경-관리&quot;&gt;변경 관리&lt;/h2&gt;
+
+&lt;p&gt;프로젝트 진행 중에는 요구사항의 변경이나 추가가 발생할 수 있습니다.&lt;br /&gt;
+이러한 변경사항을 관리하기 위해 변경 요청의 평가 및 우선순위를 결정하고, 영향 분석을 수행하여 변경사항을 프로젝트에 적용하거나 거부합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;위험-관리&quot;&gt;위험 관리&lt;/h2&gt;
+
+&lt;p&gt;프로젝트 진행 중에 발생할 수 있는 위험을 식별하고, 평가하며 대응 전략을 수립합니다.&lt;br /&gt;
+위험의 가능성과 영향을 평가하고, 위험에 대한 대응 계획을 수립하여 프로젝트의 성공 확률을 높입니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;품질-관리&quot;&gt;품질 관리&lt;/h2&gt;
+
+&lt;p&gt;분석 프로젝트에서는 데&lt;strong&gt;이터의 정확성, 분석 모델의 신뢰성, 결과의 일관성&lt;/strong&gt; 등 &lt;strong&gt;품질 요건&lt;/strong&gt;을 충족해야 합니다.&lt;br /&gt;
+적절한 커뮤니케이션 채널과 방법을 설정하고, 이해관계자의 요구사항과 기대를 이해하며 관리하여 프로젝트의 협업과 지지를 유지합니다.&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="Adsp" /><summary type="html">분석 과제 관리 프로세스</summary></entry><entry><title type="html">풀(pool)</title><link href="http://localhost:4000/%ED%92%80(pool)" rel="alternate" type="text/html" title="풀(pool)" /><published>2023-05-16T00:00:00+09:00</published><updated>2023-05-16T00:00:00+09:00</updated><id>http://localhost:4000/%ED%92%80(pool)</id><content type="html" xml:base="http://localhost:4000/%ED%92%80(pool)">&lt;h1 id=&quot;풀pool&quot;&gt;풀(pool)&lt;/h1&gt;
+
+&lt;p&gt;분석과제 중 발생된 시사점과 분석 결과물을 풀(pool)로 관리하고 공유하는 것은 프로젝트 팀과 이해관계자들이 생성된 지식과 정보를 효과적으로 관리하고 활용하기 위한 방법입니다.&lt;br /&gt;
+이는 재사용 가능한 자산을 구축하고 팀 간 협업을 강화하여 효율성과 생산성을 향상시키는데 도움이 됩니다.&lt;/p&gt;
+
+&lt;p&gt;분석 프로젝트에서 생성되는 &lt;strong&gt;시사점, 인사이트, 모델, 코드, 보고서, 데이터셋 등의 자원을 포함하는 중앙 저장소나 지식 베이스&lt;/strong&gt;를 말합니다.&lt;br /&gt;
+이 풀은 다양한 형태의 문서, 파일, 데이터베이스, 협업 도구 등을 통해 구성될 수 있습니다.&lt;/p&gt;
+
+&lt;h1 id=&quot;주요-목적&quot;&gt;주요 목적&lt;/h1&gt;
+
+&lt;h2 id=&quot;지식-공유&quot;&gt;지식 공유&lt;/h2&gt;
+
+&lt;p&gt;분석과제를 수행하면서 팀원들이 얻은 시사점이나 인사이트를 풀에 공유함으로써 팀 전체의 지식을 공유하고 확산시킵니다.&lt;br /&gt;
+이를 통해 중복된 작업을 방지하고, 고객 또는 이행관계자에게 제공되는 결과의 일관성을 유지할 수 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;재사용&quot;&gt;재사용&lt;/h2&gt;
+
+&lt;p&gt;이전에 완료된 분석 결과물이나 모델을 풀에서 재사용함으로써 프로젝트의 생산성을 향상시킵니다.&lt;br /&gt;
+이는 비슷한 분서과제에 대해 반복적으로 작업할 필요를 줄이고, 시간과 비용을 절감할 수 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;협업&quot;&gt;협업&lt;/h2&gt;
+
+&lt;p&gt;풀은 팀원들 간의 협업을 촉진하고 지원합니다.&lt;br /&gt;
+팀원들은 풀에 접근하여 필요한 자원을 검색하고 활용할 수 있으며, 이를 통해 팀 간의 지식 공유와 협업을 원활하게 진행할 수 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;관리&quot;&gt;관리&lt;/h2&gt;
+
+&lt;p&gt;풀을 통해 생성된 자원들을 효과적으로 관리할 수 있습니다.&lt;br /&gt;
+이는 자원의 버전 관리, 접근 권한 관리, 메타데이터 관리 등을 포함합니다.&lt;br /&gt;
+풀을 통해 자원을 체계적으로 관리함으로써 오류나 혼동을 줄이고, 자원의 품질과 신뢰성을 유지할 수 있습니다.&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="Adsp" /><summary type="html">풀(pool)</summary></entry><entry><title type="html">분석프로젝트관리</title><link href="http://localhost:4000/%EB%B6%84%EC%84%9D%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EA%B4%80%EB%A6%AC" rel="alternate" type="text/html" title="분석프로젝트관리" /><published>2023-05-16T00:00:00+09:00</published><updated>2023-05-16T00:00:00+09:00</updated><id>http://localhost:4000/%EB%B6%84%EC%84%9D%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EA%B4%80%EB%A6%AC</id><content type="html" xml:base="http://localhost:4000/%EB%B6%84%EC%84%9D%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EA%B4%80%EB%A6%AC">&lt;h1 id=&quot;분석-프로젝트-관리&quot;&gt;분석 프로젝트 관리&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;크기(양), 속도, 데이터 복잡성, 분석 복잡성, 정확도/정밀도&lt;/strong&gt; 다섯 가지 요소들은 분석 프로젝트를 계획하고 수행할 때 고려해야 할 중요한 측면들입니다.&lt;br /&gt;
 이를 효과적으로 관리하고 적절한 대응을 취함으로써 &lt;strong&gt;분석 결과의 신뢰성과 유용성&lt;/strong&gt;을 향상시킬 수 있습니다.&lt;br /&gt;
@@ -97,34 +188,7 @@
 
 &lt;p&gt;분석 프로젝트에는 &lt;strong&gt;데이터, 비즈니스, 분석, 시스템 등의 전문가로 구성된 이해관계자&lt;/strong&gt;가 포함됩니다.&lt;br /&gt;
 이해관계자의 요구사항과 기대치를 이해하고 관리하여 프로젝트 결과가 이해관계자의 기대에 부합하도록 해야 합니다.&lt;br /&gt;
-이를 위해 이해관계자 관리 전략을 수립하고 필요한 소통 및 협력을 유지해야 합니다.&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="Adsp" /><summary type="html">분석 프로젝트 관리</summary></entry><entry><title type="html">분석기회 발굴범위</title><link href="http://localhost:4000/%EB%B6%84%EC%84%9D%EA%B8%B0%ED%9A%8C%EB%B0%9C%EA%B5%B4%EB%B2%94%EC%9C%84" rel="alternate" type="text/html" title="분석기회 발굴범위" /><published>2023-05-15T00:00:00+09:00</published><updated>2023-05-15T00:00:00+09:00</updated><id>http://localhost:4000/%EB%B6%84%EC%84%9D%EA%B8%B0%ED%9A%8C%EB%B0%9C%EA%B5%B4%EB%B2%94%EC%9C%84</id><content type="html" xml:base="http://localhost:4000/%EB%B6%84%EC%84%9D%EA%B8%B0%ED%9A%8C%EB%B0%9C%EA%B5%B4%EB%B2%94%EC%9C%84">&lt;h1 id=&quot;분석-기회-발굴-범위&quot;&gt;분석 기회 발굴 범위&lt;/h1&gt;
-
-&lt;p&gt;분석 프로젝트에서 &lt;strong&gt;조사 및 분석할 대상 및 범위를 결정하는 것을 의미&lt;/strong&gt;합니다.&lt;br /&gt;
-이는 분석 목적과 목표를 달성하기 위해 필요한 데이터와 리소스에 대한 범위를 정하는 과정입니다.&lt;/p&gt;
-
-&lt;p&gt;분석 기회 발굴 범위를 명확히 정의하고 이해함으로써 효율적인 분석을 수행할 수 있으며, 비즈니스 목표 달성에 필요한 통찰력과 결과를 도출할 수 있습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;비즈니스-목표&quot;&gt;비즈니스 목표&lt;/h2&gt;
-
-&lt;p&gt;분석 기회는 비즈니스 목표와 관련되어야 합니다.&lt;br /&gt;
-&lt;strong&gt;어떤 문제를 해결&lt;/strong&gt;하고자 하는지, &lt;strong&gt;어떤 비즈니스 결과를 도출&lt;/strong&gt;하고자 하는지를 명확히 이해해야 합니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;데이터&quot;&gt;데이터&lt;/h2&gt;
-
-&lt;p&gt;분석에 필요한 &lt;strong&gt;데이터를 식별&lt;/strong&gt;해야 합니다.&lt;br /&gt;
-어떤 &lt;strong&gt;종류&lt;/strong&gt;의 데이터가 필요하고, 어떻게 &lt;strong&gt;수집&lt;/strong&gt;되는지, 사용 가능한 데이터 세트의 &lt;strong&gt;범위와 품질&lt;/strong&gt;을 평가해야 합니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;분석-범위&quot;&gt;분석 범위&lt;/h2&gt;
-
-&lt;p&gt;분석할 &lt;strong&gt;대상의 범위&lt;/strong&gt;를 정해야 합니다.&lt;/p&gt;
-
-&lt;p&gt;예를 들어, 특정 제품, 고객 세그먼트, 지역 또는 기간 등에 초점을 맞출 수 있습니다.&lt;br /&gt;
-이는 분석 목표와 관련하여 가장 중요한 영역을 식별하는 것입니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;리소스&quot;&gt;리소스&lt;/h2&gt;
-
-&lt;p&gt;분석에 &lt;strong&gt;사용할 수 있는 리소스(인력, 시간, 도구 등)를 고려&lt;/strong&gt;해야 합니다.&lt;br /&gt;
-사용 가능한 리소스에 따라 분석 범위를 조정해야 할 수도 있습니다.&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="Adsp" /><summary type="html">분석 기회 발굴 범위</summary></entry><entry><title type="html">STEEP</title><link href="http://localhost:4000/STEEP" rel="alternate" type="text/html" title="STEEP" /><published>2023-05-15T00:00:00+09:00</published><updated>2023-05-15T00:00:00+09:00</updated><id>http://localhost:4000/STEEP</id><content type="html" xml:base="http://localhost:4000/STEEP">&lt;h1 id=&quot;steep&quot;&gt;STEEP&lt;/h1&gt;
+이를 위해 이해관계자 관리 전략을 수립하고 필요한 소통 및 협력을 유지해야 합니다.&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="Adsp" /><summary type="html">분석 프로젝트 관리</summary></entry><entry><title type="html">STEEP</title><link href="http://localhost:4000/STEEP" rel="alternate" type="text/html" title="STEEP" /><published>2023-05-15T00:00:00+09:00</published><updated>2023-05-15T00:00:00+09:00</updated><id>http://localhost:4000/STEEP</id><content type="html" xml:base="http://localhost:4000/STEEP">&lt;h1 id=&quot;steep&quot;&gt;STEEP&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;사회적, 경제적, 기술적, 환경적, 정치적 요인&lt;/strong&gt;을 나타내는 단어로, &lt;strong&gt;현재의 조직와 해당 산업에 폭넓게 영향을 미치는 다양한 맥락을 이해하고 분석&lt;/strong&gt;하는 데 도움을 줍니다.&lt;br /&gt;
 각 요인들은 각각 독립적으로 작용할 수도 있지만, 종종 상호작요하며 복잡한 관계를 형성합니다.&lt;/p&gt;
@@ -317,7 +381,34 @@
 이를 통해 특정 결과를 얻기 위한 효과적인 전략과 의사 결정 방안을 제시합니다.&lt;br /&gt;
 설명적 분석은 주로 원인 분석, 영향 요인 식별, 의사 결정 지원 등의 작업에 활용됩니다.&lt;/p&gt;
 
-&lt;p&gt;예를 들어, 마케팅 데이터를 분석하여 고객 이탈의 주요 원인을 파악하고, 이를 기반으로 개선 전략을 도출하는 작업이 포함될 수 있습니다.&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="Adsp" /><summary type="html">분석 방법</summary></entry><entry><title type="html">데이터사이언티스트(Data Scientist)</title><link href="http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%82%AC%EC%9D%B4%EC%96%B8%ED%8B%B0%EC%8A%A4%ED%8A%B8" rel="alternate" type="text/html" title="데이터사이언티스트(Data Scientist)" /><published>2023-05-14T00:00:00+09:00</published><updated>2023-05-14T00:00:00+09:00</updated><id>http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%82%AC%EC%9D%B4%EC%96%B8%ED%8B%B0%EC%8A%A4%ED%8A%B8</id><content type="html" xml:base="http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%82%AC%EC%9D%B4%EC%96%B8%ED%8B%B0%EC%8A%A4%ED%8A%B8">&lt;h1 id=&quot;데이터-사이언티스트data-scientist&quot;&gt;데이터 사이언티스트(Data Scientist)&lt;/h1&gt;
+&lt;p&gt;예를 들어, 마케팅 데이터를 분석하여 고객 이탈의 주요 원인을 파악하고, 이를 기반으로 개선 전략을 도출하는 작업이 포함될 수 있습니다.&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="Adsp" /><summary type="html">분석 방법</summary></entry><entry><title type="html">분석기회 발굴범위</title><link href="http://localhost:4000/%EB%B6%84%EC%84%9D%EA%B8%B0%ED%9A%8C%EB%B0%9C%EA%B5%B4%EB%B2%94%EC%9C%84" rel="alternate" type="text/html" title="분석기회 발굴범위" /><published>2023-05-15T00:00:00+09:00</published><updated>2023-05-15T00:00:00+09:00</updated><id>http://localhost:4000/%EB%B6%84%EC%84%9D%EA%B8%B0%ED%9A%8C%EB%B0%9C%EA%B5%B4%EB%B2%94%EC%9C%84</id><content type="html" xml:base="http://localhost:4000/%EB%B6%84%EC%84%9D%EA%B8%B0%ED%9A%8C%EB%B0%9C%EA%B5%B4%EB%B2%94%EC%9C%84">&lt;h1 id=&quot;분석-기회-발굴-범위&quot;&gt;분석 기회 발굴 범위&lt;/h1&gt;
+
+&lt;p&gt;분석 프로젝트에서 &lt;strong&gt;조사 및 분석할 대상 및 범위를 결정하는 것을 의미&lt;/strong&gt;합니다.&lt;br /&gt;
+이는 분석 목적과 목표를 달성하기 위해 필요한 데이터와 리소스에 대한 범위를 정하는 과정입니다.&lt;/p&gt;
+
+&lt;p&gt;분석 기회 발굴 범위를 명확히 정의하고 이해함으로써 효율적인 분석을 수행할 수 있으며, 비즈니스 목표 달성에 필요한 통찰력과 결과를 도출할 수 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;비즈니스-목표&quot;&gt;비즈니스 목표&lt;/h2&gt;
+
+&lt;p&gt;분석 기회는 비즈니스 목표와 관련되어야 합니다.&lt;br /&gt;
+&lt;strong&gt;어떤 문제를 해결&lt;/strong&gt;하고자 하는지, &lt;strong&gt;어떤 비즈니스 결과를 도출&lt;/strong&gt;하고자 하는지를 명확히 이해해야 합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;데이터&quot;&gt;데이터&lt;/h2&gt;
+
+&lt;p&gt;분석에 필요한 &lt;strong&gt;데이터를 식별&lt;/strong&gt;해야 합니다.&lt;br /&gt;
+어떤 &lt;strong&gt;종류&lt;/strong&gt;의 데이터가 필요하고, 어떻게 &lt;strong&gt;수집&lt;/strong&gt;되는지, 사용 가능한 데이터 세트의 &lt;strong&gt;범위와 품질&lt;/strong&gt;을 평가해야 합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;분석-범위&quot;&gt;분석 범위&lt;/h2&gt;
+
+&lt;p&gt;분석할 &lt;strong&gt;대상의 범위&lt;/strong&gt;를 정해야 합니다.&lt;/p&gt;
+
+&lt;p&gt;예를 들어, 특정 제품, 고객 세그먼트, 지역 또는 기간 등에 초점을 맞출 수 있습니다.&lt;br /&gt;
+이는 분석 목표와 관련하여 가장 중요한 영역을 식별하는 것입니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;리소스&quot;&gt;리소스&lt;/h2&gt;
+
+&lt;p&gt;분석에 &lt;strong&gt;사용할 수 있는 리소스(인력, 시간, 도구 등)를 고려&lt;/strong&gt;해야 합니다.&lt;br /&gt;
+사용 가능한 리소스에 따라 분석 범위를 조정해야 할 수도 있습니다.&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="Adsp" /><summary type="html">분석 기회 발굴 범위</summary></entry><entry><title type="html">데이터사이언티스트(Data Scientist)</title><link href="http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%82%AC%EC%9D%B4%EC%96%B8%ED%8B%B0%EC%8A%A4%ED%8A%B8" rel="alternate" type="text/html" title="데이터사이언티스트(Data Scientist)" /><published>2023-05-14T00:00:00+09:00</published><updated>2023-05-14T00:00:00+09:00</updated><id>http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%82%AC%EC%9D%B4%EC%96%B8%ED%8B%B0%EC%8A%A4%ED%8A%B8</id><content type="html" xml:base="http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%82%AC%EC%9D%B4%EC%96%B8%ED%8B%B0%EC%8A%A4%ED%8A%B8">&lt;h1 id=&quot;데이터-사이언티스트data-scientist&quot;&gt;데이터 사이언티스트(Data Scientist)&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;데이터를 분석하고 해석하여 비즈니스나 조직의 의사 결정에 활용하는 전문가&lt;/strong&gt;입니다.&lt;br /&gt;
 다양한 &lt;strong&gt;데이터 소스&lt;/strong&gt;로부터 &lt;strong&gt;정보를 추출&lt;/strong&gt;하고, 데이터를 &lt;strong&gt;정제&lt;/strong&gt;, &lt;strong&gt;변환&lt;/strong&gt;하며, &lt;strong&gt;분석 모델을 개발&lt;/strong&gt;하여 &lt;strong&gt;예측&lt;/strong&gt;, &lt;strong&gt;패턴 분석, 통계적 추론 등을 수행&lt;/strong&gt;합니다.&lt;br /&gt;
@@ -458,127 +549,4 @@
 &lt;h3 id=&quot;윤리적-고려사항&quot;&gt;윤리적 고려사항&lt;/h3&gt;
 
 &lt;p&gt;개인정보 보호, 공정성, 편향성 등과 같은 윤리적인 고려사항을 이해하고 준수해야 합니다.&lt;br /&gt;
-데이터 처리와 분석 과정에서 개인정보 보호를 위한 적절한 방법을 적용하고, 모델의 공정성과 편향성을 평가하고 공정한 결과를 도출해야 합니다.&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="Adsp" /><summary type="html">데이터 사이언티스트(Data Scientist)</summary></entry><entry><title type="html">데이터베이스</title><link href="http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4" rel="alternate" type="text/html" title="데이터베이스" /><published>2023-05-14T00:00:00+09:00</published><updated>2023-05-14T00:00:00+09:00</updated><id>http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4</id><content type="html" xml:base="http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4">&lt;h1 id=&quot;데이터베이스database&quot;&gt;데이터베이스(Database)&lt;/h1&gt;
-
-&lt;p&gt;데이터베이스는 정보를 구조화하여 저장하고 조작할 수 있는 시스템입니다.&lt;br /&gt;
-데이터를 효율적으로 &lt;strong&gt;저장, 검색, 수정 및 삭제&lt;/strong&gt;할 수 있도록 설계되어 있습니다.&lt;br /&gt;
-다양한 종류의 애플리케이션에서 사용됩니다.&lt;/p&gt;
-
-&lt;p&gt;일반적으로 구조화된 데이터를 테이블 형식으로 저장하며, 이러한 테이블은 행과 열의 집합으로 이루어져 있습니다.&lt;/p&gt;
-
-&lt;p&gt;데이터의 &lt;strong&gt;일관성, 무결성, 보안&lt;/strong&gt; 등을 유지하기 위해 다양한 기능을 제공합니다.&lt;/p&gt;
-
-&lt;p&gt;데이터베이스는 다양한 분야에서 활용되며, 데이터 분석가로서 데이터베이스에 대한 이해는 중요한 기술입니다.&lt;br /&gt;
-데이터를 추출하고 변환하여 분석할 때 데이터베이스에서 쿼리를 작성하고 데이터를 가져오는 작업을 수행하게 됩니다.&lt;br /&gt;
-따라서 SQL 등의 데이터베이스 관련 기술을 학습하고 실습하여 데이터베이스에서 데이터를 효과적으로 관리하고 분석하는 능력을 키우는 것이 데이터 분석가로서 중요합니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;관계형-데이터-베이스realational-database&quot;&gt;관계형 데이터 베이스(Realational Database)&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;데이터&lt;/strong&gt;를 &lt;strong&gt;여러 테이블로 나누어 저장&lt;/strong&gt;하고, &lt;strong&gt;테이블 간의 관계를 설정&lt;/strong&gt;하여 데이터를 구성합니다.&lt;br /&gt;
-&lt;strong&gt;SQL(Structured Query Language)&lt;/strong&gt;을 사용하여 데이터베이스에 대한 &lt;strong&gt;질의(Query)를 수행&lt;/strong&gt;하고, &lt;strong&gt;데이터를 조작&lt;/strong&gt;할 수 있습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;용어-개념&quot;&gt;용어 개념&lt;/h2&gt;
-
-&lt;h3 id=&quot;테이블table&quot;&gt;테이블(Table)&lt;/h3&gt;
-
-&lt;p&gt;데이터가 &lt;strong&gt;저장되는 가장 기본적인 단위&lt;/strong&gt;로, &lt;strong&gt;행&lt;/strong&gt;과 &lt;strong&gt;열&lt;/strong&gt;로 구성됩니다.&lt;br /&gt;
-각 &lt;strong&gt;행은 레코드(Record)&lt;/strong&gt;를 나타내며, 각 &lt;strong&gt;열은 특정 유형&lt;/strong&gt;의 데이터를 저장합니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;스키마schema&quot;&gt;스키마(Schema)&lt;/h3&gt;
-
-&lt;p&gt;데이터베이스의 &lt;strong&gt;구조&lt;/strong&gt;와 &lt;strong&gt;제약 조건&lt;/strong&gt;을 정의하는 개체입니다.&lt;br /&gt;
-테이블, 열, 관계, 제약 조건 등의 정보를 포함합니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;관계relationship&quot;&gt;관계(Relationship)&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;테이블 간의 연결&lt;/strong&gt;을 나타내는 개념입니다.&lt;br /&gt;
-일대일(One-to-One), 일대다(One-to-Many), 다대다(Many-to-Many) 등 다양한 형태로 정의될 수 있습니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;쿼리query&quot;&gt;쿼리(Query)&lt;/h3&gt;
-
-&lt;p&gt;데이터를 &lt;strong&gt;검색&lt;/strong&gt;하거나 &lt;strong&gt;조작&lt;/strong&gt;하기 위해 사용되는 &lt;strong&gt;명령어 집합&lt;/strong&gt;입니다.&lt;br /&gt;
-SQL을 사용하여 쿼리를 작성하고 실행할 수 있습니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;인덱스index&quot;&gt;인덱스(Index)&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;검색 속도를 향상&lt;/strong&gt;시키기 위해 사용되는 구조입니다.&lt;br /&gt;
-인덱스는 특정 열 또는 열의 조합에 대한 정렬된 데이터로 구성되며, 데이터 검색 시 인덱스를 활용하여 빠른 결과를 얻을 수 있습니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;무결성-제약-조건intergity-constraint&quot;&gt;무결성 제약 조건(Intergity Constraint)&lt;/h3&gt;
-
-&lt;p&gt;데이터의 &lt;strong&gt;일관성&lt;/strong&gt;과 &lt;strong&gt;정확성&lt;/strong&gt;을 &lt;strong&gt;유지&lt;/strong&gt;하기 위해 설정되는 규칙입니다.&lt;br /&gt;
-무결성 제약 조건은 &lt;strong&gt;데이터의 유효성을 검증&lt;/strong&gt;하고, &lt;strong&gt;잘못된 데이터의 삽입 또는 수정 방지&lt;/strong&gt;하여 데이터의 &lt;strong&gt;일관성을 유지&lt;/strong&gt;합니다.&lt;/p&gt;
-
-&lt;p&gt;예를 들면, 기본키 제약 조건은 테이블의 특정 열의 기준으로 고유한 값을 가져야 함을 나타냅니다.&lt;br /&gt;
-외래키 제약 조건은 한 테이블의 열이 다른 테이블의 기본 키와 관련되어야 함을 의미합니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;트랜잭션transaction&quot;&gt;트랜잭션(Transaction)&lt;/h3&gt;
-
-&lt;p&gt;데이터베이스에서 수행되는 &lt;strong&gt;작업의 논리적 단위&lt;/strong&gt;입니다.&lt;br /&gt;
-일련의 작업을 하나의 단위로 묶어서 &lt;em&gt;ACID&lt;/em&gt;; &lt;em&gt;원자성(Atomicity)&lt;/em&gt;, 일관성(Consistency), 독립성(Isolation), 지속성(Durability)을 보장합니다.  &lt;br /&gt;
-트랜잭션은 모두 수행되거나 모두 롤백되어야 하며, 데이터베이스의 일관성을 유지하기 위해 중요한 개념입니다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/원자성_(데이터베이스_시스템)&quot;&gt;&lt;em&gt;원자성(Atomicity)&lt;/em&gt;&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;하나의 원자 트랜잭션은 모두 성공하거나 또는 실패하는 데이터베이스 운용의 집합입니다. 원자성의 보증은 데이터베이스의 부분적인 갱신으로 더 큰 문제가 야기되는 것을 방지합니다.&lt;/li&gt;
-      &lt;li&gt;예) 항공 티켓 주문
-        &lt;ul&gt;
-          &lt;li&gt;반드시 지불과 예약이 동시에 되거나 아니면 모두 되지 않아야 합니다. 성공적으로 지불은 되었으나 좌석 예약은 되지 않은 경우는 허용되지 않는다. 하나의 트랜잭션은 항공 티켓 예약뿐 아니라 호텔, 운송, 현재 환율로 정확히 환전되는 데에도 적용됩니다.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/ACID&quot;&gt;&lt;em&gt;ACID&lt;/em&gt;&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;트랜잭션이 안전하게 수행된다는 것을 보장하기 위한 성질을 가리키는 약어입니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;데이터베이스-관리-시스템dbms&quot;&gt;데이터베이스 관리 시스템(DBMS)&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;데이터베이스를 관리하고 조작하기 위한 소프트웨어&lt;/strong&gt;입니다.&lt;br /&gt;
-DBMS는 데이터의 &lt;strong&gt;생성, 수정, 삭제, 검색 등을 지원&lt;/strong&gt;합니다.&lt;br /&gt;
-다양한 기능과 도구를 제공하여 데이터베이스를 관리합니다.&lt;br /&gt;
-대표적인 관계형 DBMS로는 Oracle, MySQL, Microsoft SQL Server, PostgreSQL 등이 있습니다.&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="Adsp" /><summary type="html">데이터베이스(Database)</summary></entry><entry><title type="html">DIKW 피라미드</title><link href="http://localhost:4000/DIKW%ED%94%BC%EB%9D%BC%EB%AF%B8%EB%93%9C" rel="alternate" type="text/html" title="DIKW 피라미드" /><published>2023-05-14T00:00:00+09:00</published><updated>2023-05-14T00:00:00+09:00</updated><id>http://localhost:4000/DIKW%ED%94%BC%EB%9D%BC%EB%AF%B8%EB%93%9C</id><content type="html" xml:base="http://localhost:4000/DIKW%ED%94%BC%EB%9D%BC%EB%AF%B8%EB%93%9C">&lt;h1 id=&quot;dikw-피라미드data-information-knowledge-wisdom&quot;&gt;DIKW 피라미드(Data Information Knowledge Wisdom)&lt;/h1&gt;
-
-&lt;p&gt;DIKW 피라미드는 정보과학과 지식 관리 분야에서 널리 사용되는 개념적인 모델입니다.&lt;br /&gt;
-&lt;strong&gt;데이터, 정보, 지식 및 지혜&lt;/strong&gt;라는 네 가지 계층으로 구성되어 있으며, &lt;strong&gt;하위 계층에서 상위 계층으로 가는 방향으로 계층화&lt;/strong&gt;되어 있습니다.&lt;br /&gt;
-각 계층은 이전 계층의 결과물을 기반으로 하여 더 높은 수준의 추상화와 이해를 제공합니다.&lt;/p&gt;
-
-&lt;p&gt;DIKW 피라미드는 이러한 &lt;strong&gt;계층 구조를 통해 데이터가 지혜로 가는 과정&lt;/strong&gt;을 설명합니다.&lt;br /&gt;
-데이터는 정보로 가공되며, 정보는 지식으로 변환되고, 지식은 지혜의 토대가 됩니다. &lt;br /&gt;
-이 모델은 정보 관리, 지식 전달, 의사 결정, 학습 및 혁신 등 다양한 분야에서 활용되며, 지식의 가치를 최대화하기 위한 전략과 방법론의 개발에도 도움이 됩니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;데이터data&quot;&gt;데이터(Data)&lt;/h2&gt;
-
-&lt;p&gt;단순히 &lt;strong&gt;사실&lt;/strong&gt;이나 기록으로서 &lt;strong&gt;원시적&lt;/strong&gt;이고 &lt;strong&gt;구조화되지 않은 형태의 정보&lt;/strong&gt;입니다.&lt;br /&gt;
-개별적인 사실이나 관찰을 나타내며, 그 자체로는 큰 의미나 가치를 지니지 않습니다.&lt;/p&gt;
-
-&lt;p&gt;예를 들어, 온도 측정 데이터, 고객 주문 데이터, 주식 시장 거래 데이터 등이 데이터의 예시입니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;정보information&quot;&gt;정보(Information)&lt;/h2&gt;
-
-&lt;p&gt;데이터를 &lt;strong&gt;조직화&lt;/strong&gt;하고 &lt;strong&gt;해석&lt;/strong&gt;하며 &lt;strong&gt;의미 있는 내용&lt;/strong&gt;을 제공하는 것입니다.&lt;br /&gt;
-데이터의 패턴, 관계, 특성 등을 이해하고 분석함으로써 얻어집니다.&lt;br /&gt;
-컨텍스트와 의미를 부여하여 가치를 더합니다.&lt;/p&gt;
-
-&lt;p&gt;예를 들어, 온도 데이터를 바탕으로 특정 지역의 날씨 정보를 제공하거나, 고객 주문 데이터를 분석하여 판매 동향 정보를 도출하는 것이 정보의 예시입니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;지식knowledge&quot;&gt;지식(Knowledge)&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;정보를 이해&lt;/strong&gt;하고 &lt;strong&gt;활용&lt;/strong&gt;할 수 있는 &lt;strong&gt;인식과 깨달음&lt;/strong&gt;을 말합니다.&lt;br /&gt;
-개별 정보들의 상호 연결, 패턴 인식, 근거에 기반한 추론, 경험 등을 통해 형성됩니다.&lt;br /&gt;
-문제 해결, 의사 결정, 예측 등을 위해 활용 될 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;예를 들어, 날씨 정보를 바탕으로 특정 지역에서 휴가를 가기 좋은 시기를 예측하는 것입니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;지혜wisdom&quot;&gt;지혜(Wisdom)&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;넓은 시야&lt;/strong&gt;와 &lt;strong&gt;깊은 이해&lt;/strong&gt;를 바탕으로 형성되며, &lt;strong&gt;지식을 토대로 한 윤리적이고 상황에 맞는 판단과 행동을 포함&lt;/strong&gt;합니다.&lt;br /&gt;
-비지니스 전략 수립, 사회적 문제 해결, 윤리적인 결정 등에 관련되며, 전문적인 지식과 경험이 요구됩니다.&lt;br /&gt;
-지혜는 지식을 최고 수준으로 활용하여 긍정적인 영향력을 가지는 행동을 취함으로써 얻어집니다.&lt;br /&gt;
-&lt;strong&gt;지식과 경험의 결합으로 형성&lt;/strong&gt;되며, 복잡하고 불확실한 상황에서 효과적인 판단을 내릴 수 있는 능력을 강조합니다.&lt;/p&gt;
-
-&lt;p&gt;비즈니스, 리더십, 정치, 인간관계 등 다양한 영역에서 중요한 역할을 합니다.&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="Adsp" /><summary type="html">DIKW 피라미드(Data Information Knowledge Wisdom)</summary></entry></feed>
+데이터 처리와 분석 과정에서 개인정보 보호를 위한 적절한 방법을 적용하고, 모델의 공정성과 편향성을 평가하고 공정한 결과를 도출해야 합니다.&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="Adsp" /><summary type="html">데이터 사이언티스트(Data Scientist)</summary></entry></feed>

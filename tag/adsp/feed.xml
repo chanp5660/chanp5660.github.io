@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/adsp/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-05-16T20:41:37+09:00</updated>
+  <updated>2023-05-16T23:25:08+09:00</updated>
   <id>http://localhost:4000/tag/adsp/feed.xml</id>
 
   
@@ -160,6 +160,245 @@
 
       
         <summary type="html">분석 프로젝트 관리</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">분석 과제 관리 프로세스</title>
+      <link href="http://localhost:4000/%EB%B6%84%EC%84%9D%EA%B3%BC%EC%A0%9C%EA%B4%80%EB%A6%AC%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4" rel="alternate" type="text/html" title="분석 과제 관리 프로세스" />
+      <published>2023-05-16T00:00:00+09:00</published>
+      <updated>2023-05-16T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%EB%B6%84%EC%84%9D%EA%B3%BC%EC%A0%9C%EA%B4%80%EB%A6%AC%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4</id>
+      <content type="html" xml:base="http://localhost:4000/%EB%B6%84%EC%84%9D%EA%B3%BC%EC%A0%9C%EA%B4%80%EB%A6%AC%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4">&lt;h1 id=&quot;분석-과제-관리-프로세스&quot;&gt;분석 과제 관리 프로세스&lt;/h1&gt;
+
+&lt;p&gt;분석 프로젝트를 효율적으로 계획, 모니터링 및 제어하기 위한 일련의 절차와 활동입니다.&lt;/p&gt;
+
+&lt;p&gt;분석 프로젝트의 &lt;strong&gt;전체 생명주기를 관리하며, 효율적인 일정 관리, 자원 할당, 품질 관리, 위험 관리, 의사소통, 변경 관리&lt;/strong&gt; 등의 관리 활동을 수행하여 프로젝트의 성공을 이끌어내는 것을 목표로 합니다.&lt;/p&gt;
+
+&lt;h1 id=&quot;단계&quot;&gt;단계&lt;/h1&gt;
+
+&lt;h2 id=&quot;문제-정의&quot;&gt;문제 정의&lt;/h2&gt;
+
+&lt;p&gt;분석 프로젝트의 시작 단계로, &lt;strong&gt;목표와 요구사항을 명확히 정의하고 분석&lt;/strong&gt;해야 할 문제나 도메인을 이해합니다.&lt;br /&gt;
+이를 통해 프로젝트의 방향성과 범위를 설정할 수 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;계획-및-자원-할당&quot;&gt;계획 및 자원 할당&lt;/h2&gt;
+
+&lt;p&gt;분석 프로젝트를 위한 전략적인 계획을 수립합니다.&lt;br /&gt;
+프로젝트 &lt;strong&gt;일정, 자원(인력, 도구, 데이터 등)의 할당, 역할 및 책임&lt;/strong&gt; 등을 명확히 정의하여 프로젝트 팀의 업무를 조정합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;데이터-수집-및-전처리&quot;&gt;데이터 수집 및 전처리&lt;/h2&gt;
+
+&lt;p&gt;필요한 &lt;strong&gt;데이터&lt;/strong&gt;를 &lt;strong&gt;수집&lt;/strong&gt;하고, 데이터의 &lt;strong&gt;품질&lt;/strong&gt;을 &lt;strong&gt;평가&lt;/strong&gt;하고 &lt;strong&gt;전처리 과정을 수행&lt;/strong&gt;합니다.&lt;br /&gt;
+이 단계에서는 데이터의 누락, 오류, 이상치 등을 처리하여 분석에 적합한 상태로 준비합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;분석-방법론-및-모델-선택&quot;&gt;분석 방법론 및 모델 선택&lt;/h2&gt;
+
+&lt;p&gt;적절한 &lt;strong&gt;분석 방법론과 모델을 선택&lt;/strong&gt;합니다.&lt;br /&gt;
+이는 &lt;strong&gt;분석 목표와 데이터의 특성에 기반&lt;/strong&gt;하여 결정됩니다.&lt;br /&gt;
+분석 방법론과 모델의 선택은 프로젝트의 목표 달성과 결과의 신뢰성에 직결됩니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;모델-구축-및-분석&quot;&gt;모델 구축 및 분석&lt;/h2&gt;
+
+&lt;p&gt;선택한 분석 모델을 구축하고 데이터에 대한 분석을 수행합니다.&lt;br /&gt;
+이 단계에서는 모델의 &lt;strong&gt;파라미터 조정, 변수 선택, 특징 공학 등을 수행&lt;/strong&gt;하여 &lt;strong&gt;분석 결과를 개선하고 최적화&lt;/strong&gt;합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;결과-해석-및-의사-결정&quot;&gt;결과 해석 및 의사 결정&lt;/h2&gt;
+
+&lt;p&gt;분석 결과를 해석하고 비즈니스 인텔리전스를 변환합니다.&lt;br /&gt;
+이를 통해 의사 결정을 지원하고, 추천이나 향상점을 제시합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;결과-보고-및-시각화&quot;&gt;결과 보고 및 시각화&lt;/h2&gt;
+
+&lt;p&gt;분석 결과를 효과적으로 전달하기 위해 시각화 및 보고서를 작성합니다.&lt;br /&gt;
+이를 통해 프로젝트 팀과 이해관계자들이 결과를 이해하고 활용할 수 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;모니터링-및-제어&quot;&gt;모니터링 및 제어&lt;/h2&gt;
+
+&lt;p&gt;프로젝트 진행 중에는 프로젝트의 진행 상황과 성과를 모니터링하고 필요한 조치를 취해야 합니다.&lt;br /&gt;
+이를 위해 주기적인 회의와 업데이트를 통해 프로젝트의 진척 상황을 파악하고, 문제 또는 지연 상황을 식별하여 조치합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;변경-관리&quot;&gt;변경 관리&lt;/h2&gt;
+
+&lt;p&gt;프로젝트 진행 중에는 요구사항의 변경이나 추가가 발생할 수 있습니다.&lt;br /&gt;
+이러한 변경사항을 관리하기 위해 변경 요청의 평가 및 우선순위를 결정하고, 영향 분석을 수행하여 변경사항을 프로젝트에 적용하거나 거부합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;위험-관리&quot;&gt;위험 관리&lt;/h2&gt;
+
+&lt;p&gt;프로젝트 진행 중에 발생할 수 있는 위험을 식별하고, 평가하며 대응 전략을 수립합니다.&lt;br /&gt;
+위험의 가능성과 영향을 평가하고, 위험에 대한 대응 계획을 수립하여 프로젝트의 성공 확률을 높입니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;품질-관리&quot;&gt;품질 관리&lt;/h2&gt;
+
+&lt;p&gt;분석 프로젝트에서는 데&lt;strong&gt;이터의 정확성, 분석 모델의 신뢰성, 결과의 일관성&lt;/strong&gt; 등 &lt;strong&gt;품질 요건&lt;/strong&gt;을 충족해야 합니다.&lt;br /&gt;
+적절한 커뮤니케이션 채널과 방법을 설정하고, 이해관계자의 요구사항과 기대를 이해하며 관리하여 프로젝트의 협업과 지지를 유지합니다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="Adsp" />
+      
+
+      
+        <summary type="html">분석 과제 관리 프로세스</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">풀(pool)</title>
+      <link href="http://localhost:4000/%ED%92%80(pool)" rel="alternate" type="text/html" title="풀(pool)" />
+      <published>2023-05-16T00:00:00+09:00</published>
+      <updated>2023-05-16T00:00:00+09:00</updated>
+      <id>http://localhost:4000/%ED%92%80(pool)</id>
+      <content type="html" xml:base="http://localhost:4000/%ED%92%80(pool)">&lt;h1 id=&quot;풀pool&quot;&gt;풀(pool)&lt;/h1&gt;
+
+&lt;p&gt;분석과제 중 발생된 시사점과 분석 결과물을 풀(pool)로 관리하고 공유하는 것은 프로젝트 팀과 이해관계자들이 생성된 지식과 정보를 효과적으로 관리하고 활용하기 위한 방법입니다.&lt;br /&gt;
+이는 재사용 가능한 자산을 구축하고 팀 간 협업을 강화하여 효율성과 생산성을 향상시키는데 도움이 됩니다.&lt;/p&gt;
+
+&lt;p&gt;분석 프로젝트에서 생성되는 &lt;strong&gt;시사점, 인사이트, 모델, 코드, 보고서, 데이터셋 등의 자원을 포함하는 중앙 저장소나 지식 베이스&lt;/strong&gt;를 말합니다.&lt;br /&gt;
+이 풀은 다양한 형태의 문서, 파일, 데이터베이스, 협업 도구 등을 통해 구성될 수 있습니다.&lt;/p&gt;
+
+&lt;h1 id=&quot;주요-목적&quot;&gt;주요 목적&lt;/h1&gt;
+
+&lt;h2 id=&quot;지식-공유&quot;&gt;지식 공유&lt;/h2&gt;
+
+&lt;p&gt;분석과제를 수행하면서 팀원들이 얻은 시사점이나 인사이트를 풀에 공유함으로써 팀 전체의 지식을 공유하고 확산시킵니다.&lt;br /&gt;
+이를 통해 중복된 작업을 방지하고, 고객 또는 이행관계자에게 제공되는 결과의 일관성을 유지할 수 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;재사용&quot;&gt;재사용&lt;/h2&gt;
+
+&lt;p&gt;이전에 완료된 분석 결과물이나 모델을 풀에서 재사용함으로써 프로젝트의 생산성을 향상시킵니다.&lt;br /&gt;
+이는 비슷한 분서과제에 대해 반복적으로 작업할 필요를 줄이고, 시간과 비용을 절감할 수 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;협업&quot;&gt;협업&lt;/h2&gt;
+
+&lt;p&gt;풀은 팀원들 간의 협업을 촉진하고 지원합니다.&lt;br /&gt;
+팀원들은 풀에 접근하여 필요한 자원을 검색하고 활용할 수 있으며, 이를 통해 팀 간의 지식 공유와 협업을 원활하게 진행할 수 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;관리&quot;&gt;관리&lt;/h2&gt;
+
+&lt;p&gt;풀을 통해 생성된 자원들을 효과적으로 관리할 수 있습니다.&lt;br /&gt;
+이는 자원의 버전 관리, 접근 권한 관리, 메타데이터 관리 등을 포함합니다.&lt;br /&gt;
+풀을 통해 자원을 체계적으로 관리함으로써 오류나 혼동을 줄이고, 자원의 품질과 신뢰성을 유지할 수 있습니다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="Adsp" />
+      
+
+      
+        <summary type="html">풀(pool)</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">STEEP</title>
+      <link href="http://localhost:4000/STEEP" rel="alternate" type="text/html" title="STEEP" />
+      <published>2023-05-15T00:00:00+09:00</published>
+      <updated>2023-05-15T00:00:00+09:00</updated>
+      <id>http://localhost:4000/STEEP</id>
+      <content type="html" xml:base="http://localhost:4000/STEEP">&lt;h1 id=&quot;steep&quot;&gt;STEEP&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;사회적, 경제적, 기술적, 환경적, 정치적 요인&lt;/strong&gt;을 나타내는 단어로, &lt;strong&gt;현재의 조직와 해당 산업에 폭넓게 영향을 미치는 다양한 맥락을 이해하고 분석&lt;/strong&gt;하는 데 도움을 줍니다.&lt;br /&gt;
+각 요인들은 각각 독립적으로 작용할 수도 있지만, 종종 상호작요하며 복잡한 관계를 형성합니다.&lt;/p&gt;
+
+&lt;p&gt;예를 들어, 사회적 요인은 소비자의 가치관과 행동 양식에 영향을 주고, 경제적 요인은 소비 패턴과 투자 결정에 영향을 줄 수 있습니다.&lt;br /&gt;
+또한, 기술적 요인은 경제적 효율성을 향상시키고, 환경적 요인은 기술 개발과 사용에 대한 제약을 가할 수 있습니다.&lt;br /&gt;
+정치적 요인은 모든 다른 요인들에 대한 법적 및 규제적 제약을 가하거나 조정할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;따라서, 조직과 산업은 STEEP 요인들을 체계적으로 평가하고 이해하여 변화에 대응하고 새로운 기회를 발견할 수 있어야 합니다.&lt;br /&gt;
+이를 통해 조직은 경쟁력을 유지하고 성장할 수 있으며, 현재의 조직과 산업 환경을 파악하여 장기적인 비즈니스 전략을 수립할 수 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;사회적-요인-social&quot;&gt;사회적 요인 (Social)&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;사회 구성원들의 가치, 태도, 행동 양식, 인구 특성 등을 의미&lt;/strong&gt;합니다.&lt;br /&gt;
+&lt;strong&gt;사회 문화, 라이프스타일, 인구 구성, 교육 수준, 건강과 웹빙 등이 포함&lt;/strong&gt;될 수 있습니다.&lt;br /&gt;
+이러한 요인들은 &lt;strong&gt;소비자 행동, 시장 동향, 소비 트렌드 등에 영향&lt;/strong&gt;을 미치며, 조직과 산업의 관점에서는 &lt;strong&gt;소비자 요구를 파악하고 시장에 적응&lt;/strong&gt;하는 데 중요한 역할을 합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;기술적-요인-technological&quot;&gt;기술적 요인 (Technological)&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;기술의 발전과 혁신에 관련된 요인&lt;/strong&gt;을 의미합니다.&lt;br /&gt;
+이는 &lt;strong&gt;정보 기술(IT), 인공지능(AI), 자동화, 로봇 기술, 빅데이터&lt;/strong&gt; 등을 포함합니다.&lt;br /&gt;
+기술적 요인은 &lt;strong&gt;제품 혁신, 생산성 향상, 경영 방식 변화 등에 영향&lt;/strong&gt;을 주며, 조직과 산업의 관점에서는 &lt;strong&gt;디지털 전환, 경쟁 우위 확보, 새로운 비즈니스 모델 등에 영향&lt;/strong&gt;을 미칩니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;경제적-요인-economic&quot;&gt;경제적 요인 (Economic)&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;경제 활동과 관련된 요인&lt;/strong&gt;을 의미합니다.&lt;br /&gt;
+이는 &lt;strong&gt;GDP 성장률, 인플레이션, 금리, 환율 등의 결제 지표와 관련&lt;/strong&gt;이 있습니다.&lt;br /&gt;
+경제적 요인은 &lt;strong&gt;소비패턴, 투자 활동, 경쟁 환경 등에 영향&lt;/strong&gt;을 주며, 조직과 산업의 관점에서는 &lt;strong&gt;수익성, 시장 조건, 경쟁력 등에 영향&lt;/strong&gt;을 미칩니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;환경적-요인-environmental&quot;&gt;환경적 요인 (Environmental)&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;환경 보호, 지속 가능성, 기후 변화, 에너지 효율성 등과 관련된 요인&lt;/strong&gt;을 의미합니다.&lt;br /&gt;
+기업의 &lt;strong&gt;사회적 책임과 관련하여 환경 규제, 친환경 제품 및 서비스 수요, 환경요인들의 상호작용&lt;/strong&gt;을 고려하여 조직과 산업에 영향을 미칩니다.&lt;br /&gt;
+이러한 요인은 조직의 &lt;strong&gt;비즈니스 모델, 전략 수립, 제품 개발, 시장 진입 전략 등을 결정&lt;/strong&gt;하는 데 영향을 미칩니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;정치적-요인-political&quot;&gt;정치적 요인 (Political)&lt;/h2&gt;
+
+&lt;p&gt;정부의 &lt;strong&gt;정책, 법률, 규제, 정치적 안정성&lt;/strong&gt; 등을 포함합니다.&lt;br /&gt;
+&lt;strong&gt;산업 규제, 법적 제약, 정부 지원 정책&lt;/strong&gt; 등을 통해 조직과 산업에 영향을 미칩니다.&lt;br /&gt;
+정부의 결정은 &lt;strong&gt;비즈니스 환경과 경영 전략&lt;/strong&gt;에 미치며, &lt;strong&gt;시장 진출 전략, 정부와의 협력, 규정 준수&lt;/strong&gt; 등을 고려해야 하는 중요한 요소입니다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exitem" />
+      
+        <category term="Adsp" />
+      
+
+      
+        <summary type="html">STEEP</summary>
       
 
       
@@ -527,259 +766,6 @@
     </entry>
   
     <entry>
-      <title type="html">STEEP</title>
-      <link href="http://localhost:4000/STEEP" rel="alternate" type="text/html" title="STEEP" />
-      <published>2023-05-15T00:00:00+09:00</published>
-      <updated>2023-05-15T00:00:00+09:00</updated>
-      <id>http://localhost:4000/STEEP</id>
-      <content type="html" xml:base="http://localhost:4000/STEEP">&lt;h1 id=&quot;steep&quot;&gt;STEEP&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;사회적, 경제적, 기술적, 환경적, 정치적 요인&lt;/strong&gt;을 나타내는 단어로, &lt;strong&gt;현재의 조직와 해당 산업에 폭넓게 영향을 미치는 다양한 맥락을 이해하고 분석&lt;/strong&gt;하는 데 도움을 줍니다.&lt;br /&gt;
-각 요인들은 각각 독립적으로 작용할 수도 있지만, 종종 상호작요하며 복잡한 관계를 형성합니다.&lt;/p&gt;
-
-&lt;p&gt;예를 들어, 사회적 요인은 소비자의 가치관과 행동 양식에 영향을 주고, 경제적 요인은 소비 패턴과 투자 결정에 영향을 줄 수 있습니다.&lt;br /&gt;
-또한, 기술적 요인은 경제적 효율성을 향상시키고, 환경적 요인은 기술 개발과 사용에 대한 제약을 가할 수 있습니다.&lt;br /&gt;
-정치적 요인은 모든 다른 요인들에 대한 법적 및 규제적 제약을 가하거나 조정할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;따라서, 조직과 산업은 STEEP 요인들을 체계적으로 평가하고 이해하여 변화에 대응하고 새로운 기회를 발견할 수 있어야 합니다.&lt;br /&gt;
-이를 통해 조직은 경쟁력을 유지하고 성장할 수 있으며, 현재의 조직과 산업 환경을 파악하여 장기적인 비즈니스 전략을 수립할 수 있습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;사회적-요인-social&quot;&gt;사회적 요인 (Social)&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;사회 구성원들의 가치, 태도, 행동 양식, 인구 특성 등을 의미&lt;/strong&gt;합니다.&lt;br /&gt;
-&lt;strong&gt;사회 문화, 라이프스타일, 인구 구성, 교육 수준, 건강과 웹빙 등이 포함&lt;/strong&gt;될 수 있습니다.&lt;br /&gt;
-이러한 요인들은 &lt;strong&gt;소비자 행동, 시장 동향, 소비 트렌드 등에 영향&lt;/strong&gt;을 미치며, 조직과 산업의 관점에서는 &lt;strong&gt;소비자 요구를 파악하고 시장에 적응&lt;/strong&gt;하는 데 중요한 역할을 합니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;기술적-요인-technological&quot;&gt;기술적 요인 (Technological)&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;기술의 발전과 혁신에 관련된 요인&lt;/strong&gt;을 의미합니다.&lt;br /&gt;
-이는 &lt;strong&gt;정보 기술(IT), 인공지능(AI), 자동화, 로봇 기술, 빅데이터&lt;/strong&gt; 등을 포함합니다.&lt;br /&gt;
-기술적 요인은 &lt;strong&gt;제품 혁신, 생산성 향상, 경영 방식 변화 등에 영향&lt;/strong&gt;을 주며, 조직과 산업의 관점에서는 &lt;strong&gt;디지털 전환, 경쟁 우위 확보, 새로운 비즈니스 모델 등에 영향&lt;/strong&gt;을 미칩니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;경제적-요인-economic&quot;&gt;경제적 요인 (Economic)&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;경제 활동과 관련된 요인&lt;/strong&gt;을 의미합니다.&lt;br /&gt;
-이는 &lt;strong&gt;GDP 성장률, 인플레이션, 금리, 환율 등의 결제 지표와 관련&lt;/strong&gt;이 있습니다.&lt;br /&gt;
-경제적 요인은 &lt;strong&gt;소비패턴, 투자 활동, 경쟁 환경 등에 영향&lt;/strong&gt;을 주며, 조직과 산업의 관점에서는 &lt;strong&gt;수익성, 시장 조건, 경쟁력 등에 영향&lt;/strong&gt;을 미칩니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;환경적-요인-environmental&quot;&gt;환경적 요인 (Environmental)&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;환경 보호, 지속 가능성, 기후 변화, 에너지 효율성 등과 관련된 요인&lt;/strong&gt;을 의미합니다.&lt;br /&gt;
-기업의 &lt;strong&gt;사회적 책임과 관련하여 환경 규제, 친환경 제품 및 서비스 수요, 환경요인들의 상호작용&lt;/strong&gt;을 고려하여 조직과 산업에 영향을 미칩니다.&lt;br /&gt;
-이러한 요인은 조직의 &lt;strong&gt;비즈니스 모델, 전략 수립, 제품 개발, 시장 진입 전략 등을 결정&lt;/strong&gt;하는 데 영향을 미칩니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;정치적-요인-political&quot;&gt;정치적 요인 (Political)&lt;/h2&gt;
-
-&lt;p&gt;정부의 &lt;strong&gt;정책, 법률, 규제, 정치적 안정성&lt;/strong&gt; 등을 포함합니다.&lt;br /&gt;
-&lt;strong&gt;산업 규제, 법적 제약, 정부 지원 정책&lt;/strong&gt; 등을 통해 조직과 산업에 영향을 미칩니다.&lt;br /&gt;
-정부의 결정은 &lt;strong&gt;비즈니스 환경과 경영 전략&lt;/strong&gt;에 미치며, &lt;strong&gt;시장 진출 전략, 정부와의 협력, 규정 준수&lt;/strong&gt; 등을 고려해야 하는 중요한 요소입니다.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="Adsp" />
-      
-
-      
-        <summary type="html">STEEP</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">데이터사이언티스트(Data Scientist)</title>
-      <link href="http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%82%AC%EC%9D%B4%EC%96%B8%ED%8B%B0%EC%8A%A4%ED%8A%B8" rel="alternate" type="text/html" title="데이터사이언티스트(Data Scientist)" />
-      <published>2023-05-14T00:00:00+09:00</published>
-      <updated>2023-05-14T00:00:00+09:00</updated>
-      <id>http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%82%AC%EC%9D%B4%EC%96%B8%ED%8B%B0%EC%8A%A4%ED%8A%B8</id>
-      <content type="html" xml:base="http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%82%AC%EC%9D%B4%EC%96%B8%ED%8B%B0%EC%8A%A4%ED%8A%B8">&lt;h1 id=&quot;데이터-사이언티스트data-scientist&quot;&gt;데이터 사이언티스트(Data Scientist)&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;데이터를 분석하고 해석하여 비즈니스나 조직의 의사 결정에 활용하는 전문가&lt;/strong&gt;입니다.&lt;br /&gt;
-다양한 &lt;strong&gt;데이터 소스&lt;/strong&gt;로부터 &lt;strong&gt;정보를 추출&lt;/strong&gt;하고, 데이터를 &lt;strong&gt;정제&lt;/strong&gt;, &lt;strong&gt;변환&lt;/strong&gt;하며, &lt;strong&gt;분석 모델을 개발&lt;/strong&gt;하여 &lt;strong&gt;예측&lt;/strong&gt;, &lt;strong&gt;패턴 분석, 통계적 추론 등을 수행&lt;/strong&gt;합니다.&lt;br /&gt;
-그 결과로 &lt;strong&gt;인사이트를 도출&lt;/strong&gt;하고 &lt;strong&gt;문제를 해결&lt;/strong&gt;하며, &lt;strong&gt;비즈니스 가치를 창출&lt;/strong&gt;하는 역할을 수행합니다.&lt;br /&gt;
-다양한 분야에서 활용될 수 있으며, 기업, 연구소, 정부 기관 등 다양한 조직에서 일할 수 있습니다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;주요-역할&quot;&gt;주요 역할&lt;/h2&gt;
-
-&lt;h3 id=&quot;데이터-수집-및-전처리&quot;&gt;데이터 수집 및 전처리&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;다양한 소스에서 데이터를 수집&lt;/strong&gt;하고, 데이터를 &lt;strong&gt;정제&lt;/strong&gt;하고 &lt;strong&gt;변환&lt;/strong&gt;하여 분석에 적합한 형태로 &lt;strong&gt;가공&lt;/strong&gt;합니다.&lt;br /&gt;
-이 단계에서는 데이터 &lt;strong&gt;품질 검사, 결측치 처리, 이상치 제거&lt;/strong&gt; 등의 작업이 이루어집니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;데이터-탐색-및-시각화&quot;&gt;데이터 탐색 및 시각화&lt;/h3&gt;
-
-&lt;p&gt;수집한 데이터를 &lt;strong&gt;시각화&lt;/strong&gt;하여 &lt;strong&gt;패턴, 상관 관계, 트랜드 등을 탐색하고 이해&lt;/strong&gt;합니다.&lt;br /&gt;
-&lt;strong&gt;시각화&lt;/strong&gt;를 통해 데이터에 대한 &lt;strong&gt;통찰력&lt;/strong&gt;을 얻고, &lt;strong&gt;향후 분석 방향을 결정&lt;/strong&gt;하는 데 도움이 됩니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;머신러닝-및-통계-모델-개발&quot;&gt;머신러닝 및 통계 모델 개발&lt;/h3&gt;
-
-&lt;p&gt;머신러닝 알고리즘과 통계적 기법을 활용하여 &lt;strong&gt;예측 모델&lt;/strong&gt;, &lt;strong&gt;분류 모델&lt;/strong&gt;, &lt;strong&gt;군집화 모델&lt;/strong&gt; 등을 개발합니다.&lt;br /&gt;
-이를 통해 데이터에서 &lt;strong&gt;의미 있는 인사이트를 도출&lt;/strong&gt;하고, &lt;strong&gt;비즈니스 문제를 해결&lt;/strong&gt;하거나 &lt;strong&gt;의사 결정&lt;/strong&gt;에 활용합니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;데이터-분석-및-인사이트-도출&quot;&gt;데이터 분석 및 인사이트 도출&lt;/h3&gt;
-
-&lt;p&gt;개발한 모델을 활용하여 데이터를 분석하고, 인사이트를 도출합니다.&lt;br /&gt;
-이를 통해 기업이나 조직의 문제를 이해하고, 의사 결정에 필요한 정보를 제공합니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;모델-평가-및-최적화&quot;&gt;모델 평가 및 최적화&lt;/h3&gt;
-
-&lt;p&gt;개발한 모델의 &lt;strong&gt;성능을 평가&lt;/strong&gt;하고, 필요에 &lt;strong&gt;모델을 최적화&lt;/strong&gt;합니다.&lt;br /&gt;
-모델의 정확도, 정밀도, 재현율 등을 평가하고, 향상시키는 작업을 수행합니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;결과-보고-및-시각화&quot;&gt;결과 보고 및 시각화&lt;/h3&gt;
-
-&lt;p&gt;분석 결과를 이해하기 쉽게 보고서나 시각화 자료로 정리하여 관련자에 전달합니다.&lt;br /&gt;
-분석 결과를 이해하기 쉽게 시각화하고, 보고서로 작성하여 해당 조직이나 이해 관계자들에게 전달합니다.&lt;br /&gt;
-이를 통해 데이터 기반으로 한 의사 결정에 필요한 정보를 제공하고, 비즈니스 전략 수립과 문제 해결에 기여합니다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;필수적인-기술과-역량&quot;&gt;필수적인 기술과 역량&lt;/h2&gt;
-
-&lt;h3 id=&quot;프로그래밍&quot;&gt;프로그래밍&lt;/h3&gt;
-
-&lt;p&gt;프로그래밍 언어(예: python, R, SQL)를 활용하여 데이터 분석 및 모델링 작업을 수행해야 합니다.&lt;br /&gt;
-프로그래밍 스킬을 통해 데이터 처리, 모델 개발, 자동화 등의 작업을 효율적으로 수행할 수 있습니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;통계-및-수학&quot;&gt;통계 및 수학&lt;/h3&gt;
-
-&lt;p&gt;통계적 기법과 수학적 지식은 데이터 사이언티스트가 데이터를 분석하고 모델을 개발하는 데 필수적입니다.&lt;br /&gt;
-통계적 추론, 가설 검정, 회귀 분석 등의 개념을 이해하고 활용할 수 있어야 합니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;머신러닝-및-데이터-마이닝&quot;&gt;머신러닝 및 데이터 마이닝&lt;/h3&gt;
-
-&lt;p&gt;머신러닝 알고리즘과 데이터 마이닝 기법을 이해하고 적응할 수 있어야 합니다.&lt;br /&gt;
-이를 통해 데이터에서 패턴을 발견하고 예측 모델을 구축할 수 있습니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;데이터베이스-및-sql&quot;&gt;데이터베이스 및 SQL&lt;/h3&gt;
-
-&lt;p&gt;대부분의 조직에서 데이터는 데이터베이스에 저장되어 있으므로, 데이터 사이언티스트는 데이터베이스와 SQL(Query)에 대한 이해와 기술을 가져야 합니다.&lt;br /&gt;
-데이터 추출, 조작, 조인 등의 작업을 수행할 수 있어야 합니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;데이터-시각화&quot;&gt;데이터 시각화&lt;/h3&gt;
-
-&lt;p&gt;데이터를 시각화하여 효과적으로 전달해야 합니다.&lt;br /&gt;
-&lt;strong&gt;시각화 도구(예: Matplotlib, ggplot, Tableau)&lt;/strong&gt; 를 사용하여 데이터를 이해하기 쉬운 그래프나 차트로 표현할 수 있어야 합니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;도메인-지식&quot;&gt;도메인 지식&lt;/h3&gt;
-
-&lt;p&gt;자신이 작업하는 도메인에 대한 지식을 가지고 있어야 합니다.&lt;br /&gt;
-비즈니스, 마케팅, 의료, 금융 등 해당 분야의 도메인 지식은 데이터 분석과 모델링을 좀 더 효과적으로 수행할 수 있도록 도와줍니다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;작업&quot;&gt;작업&lt;/h2&gt;
-
-&lt;h3 id=&quot;데이터-관리-및-처리&quot;&gt;데이터 관리 및 처리&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;대용량의 데이터&lt;/strong&gt;를 다루어야 하므로 &lt;strong&gt;데이터베이스&lt;/strong&gt;, &lt;strong&gt;데이터 웨어하우스&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;데이터 레이크&lt;/em&gt;&lt;/strong&gt; 등의 데이터 관리 시스템을 이해하고 활용할 수 있어야 합니다.&lt;br /&gt;
-데이터 수집, 정제, 통합, 변환 등의 과정을 거쳐 데이터를 준비하고 분석에 활용합니다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://cloud.google.com/learn/what-is-a-data-lake?hl=ko#section-1&quot;&gt;&lt;em&gt;데이터 레이크&lt;/em&gt;&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;구조화되거나 반구조화되거나 구조화되지 않은 대량의 데이터를 저장, 처리, 보호하기 위한 중앙 집중식 저장소입니다.&lt;/li&gt;
-      &lt;li&gt;데이터를 기본 형식으로 저장할 수 있으며, 크기 제한을 무시하고 다양한 데이터를 처리 할 수 있습니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://aws.amazon.com/ko/data-warehouse/&quot;&gt;&lt;em&gt;데이터 웨어하우스&lt;/em&gt;&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;보다 정보에 입각한 의사 결정을 내릴 수 있도록 분석 가능한 정보의 중앙 &lt;em&gt;리포지토리&lt;/em&gt;입니다.&lt;/li&gt;
-      &lt;li&gt;데이터 웨어하우스는 데이터를 효율적으로 저장하여 보고서, 대시보드 및 분석 도구를 강화함으로써 데이터의 입출력(I/O)을 최소화하고 수백 수천 명의 사용자에게 동시에 신속하게 쿼리 결과를 제공합니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://aws.amazon.com/ko/what-is/repo/&quot;&gt;&lt;em&gt;리포지토리&lt;/em&gt;&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;개발자가 애플리케이션 소스 코드에 대한 변경을 수행 및 관리하는 데 사용하는 중앙화된 디지털 스토리지입니다.&lt;/li&gt;
-      &lt;li&gt;개발자는 소프트웨어를 개발할 때 폴더, 텍스트 파일 및 기타 유형의 문서를 저장 및 공유해야 합니다.&lt;/li&gt;
-      &lt;li&gt;개발자가 쉽게 코드 변경 사항을 추적하고, 파일을 동시에 편집하고 어디에서든 동일한 프로젝트에서 효율적인 협업을 수핼할 수 있게 해 주는 기능을 갖추고 있습니다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;예측-모델-개발&quot;&gt;예측 모델 개발&lt;/h3&gt;
-
-&lt;p&gt;머신러닝과 통계 기법을 활용하여 예측 모델을 개발합니다.&lt;br /&gt;
-회귀 분석, 분류, 군집화, 추천 시스템 등의 알고리즘을 사용하여 데이터로부터 특정 결과를 예측하고 패턴을 찾아냅니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;데이터-마이닝&quot;&gt;데이터 마이닝&lt;/h3&gt;
-
-&lt;p&gt;데이터 마이닝 기법을 활용하여 &lt;strong&gt;숨겨진 패턴, 상관 관계, 트랜드&lt;/strong&gt; 등을 발견합니다.&lt;br /&gt;
-연관 규칙 분석, 군집 분석, 이상 탐지 등의 기법을 사용하여 데이터에서 유용한 정보를 추출합니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;딥러닝과-인공지능&quot;&gt;딥러닝과 인공지능&lt;/h3&gt;
-
-&lt;p&gt;최근에는 딥러닝과 인공지는 기술이 데이터 사이언스 분야에서 많은 관심을 받고 있습니다.&lt;br /&gt;
-데이터 사이언티스트는 신경망 알고리즘과 딥러닝 프레임워크를 사용하여 이미지 인식, 자연어 처리, 음성 인식 등의 작업을 수행합니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;ab-테스트-및-실험-설계&quot;&gt;A/B 테스트 및 실험 설계&lt;/h3&gt;
-
-&lt;p&gt;A/B 테스트를 설계하고 분석하여 제품, 서비스, 마케팅 전략 등의 효과를 평가합니다.&lt;br /&gt;
-실험 설계 통계적 가설 검정을 통해 유의미한 결과를 도출하고 의사 결정에 활용합니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;커뮤니케이션-및-협업&quot;&gt;커뮤니케이션 및 협업&lt;/h3&gt;
-
-&lt;p&gt;기술적인 역량 뿐만 아니라 커뮤니케이션과 협업 능력도 중요합니다.&lt;br /&gt;
-데이터 분석 결과를 비전문가에게 명확하게 전달하고, 동료들과 협업하여 문제 해결에 참여하며, 비즈니스적인 요구를 이해하고 반영할 수 있어야 합니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;지속적인-학습과-개발&quot;&gt;지속적인 학습과 개발&lt;/h3&gt;
-
-&lt;p&gt;빠르게 진화하는 분야이므로, 최신 기술과 도구에 대한 학습을 지속적으로 진행해야 합니다.&lt;br /&gt;
-새로운 알고리즘, 라이브러리, 프레임워크 등을 습득하고 적용하는 능력을 갖추어야 합니다.&lt;br /&gt;
-또한, 데이터 사이언스 커뮤니티나 학회에 참여하여 동료들과 지식을 공유하고 네트워킹을 확장할 수도 있습니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;윤리적-고려사항&quot;&gt;윤리적 고려사항&lt;/h3&gt;
-
-&lt;p&gt;개인정보 보호, 공정성, 편향성 등과 같은 윤리적인 고려사항을 이해하고 준수해야 합니다.&lt;br /&gt;
-데이터 처리와 분석 과정에서 개인정보 보호를 위한 적절한 방법을 적용하고, 모델의 공정성과 편향성을 평가하고 공정한 결과를 도출해야 합니다.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="Adsp" />
-      
-
-      
-        <summary type="html">데이터 사이언티스트(Data Scientist)</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
       <title type="html">데이터베이스</title>
       <link href="http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4" rel="alternate" type="text/html" title="데이터베이스" />
       <published>2023-05-14T00:00:00+09:00</published>
@@ -892,82 +878,6 @@ DBMS는 데이터의 &lt;strong&gt;생성, 수정, 삭제, 검색 등을 지원&
 
       
         <summary type="html">데이터베이스(Database)</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">DIKW 피라미드</title>
-      <link href="http://localhost:4000/DIKW%ED%94%BC%EB%9D%BC%EB%AF%B8%EB%93%9C" rel="alternate" type="text/html" title="DIKW 피라미드" />
-      <published>2023-05-14T00:00:00+09:00</published>
-      <updated>2023-05-14T00:00:00+09:00</updated>
-      <id>http://localhost:4000/DIKW%ED%94%BC%EB%9D%BC%EB%AF%B8%EB%93%9C</id>
-      <content type="html" xml:base="http://localhost:4000/DIKW%ED%94%BC%EB%9D%BC%EB%AF%B8%EB%93%9C">&lt;h1 id=&quot;dikw-피라미드data-information-knowledge-wisdom&quot;&gt;DIKW 피라미드(Data Information Knowledge Wisdom)&lt;/h1&gt;
-
-&lt;p&gt;DIKW 피라미드는 정보과학과 지식 관리 분야에서 널리 사용되는 개념적인 모델입니다.&lt;br /&gt;
-&lt;strong&gt;데이터, 정보, 지식 및 지혜&lt;/strong&gt;라는 네 가지 계층으로 구성되어 있으며, &lt;strong&gt;하위 계층에서 상위 계층으로 가는 방향으로 계층화&lt;/strong&gt;되어 있습니다.&lt;br /&gt;
-각 계층은 이전 계층의 결과물을 기반으로 하여 더 높은 수준의 추상화와 이해를 제공합니다.&lt;/p&gt;
-
-&lt;p&gt;DIKW 피라미드는 이러한 &lt;strong&gt;계층 구조를 통해 데이터가 지혜로 가는 과정&lt;/strong&gt;을 설명합니다.&lt;br /&gt;
-데이터는 정보로 가공되며, 정보는 지식으로 변환되고, 지식은 지혜의 토대가 됩니다. &lt;br /&gt;
-이 모델은 정보 관리, 지식 전달, 의사 결정, 학습 및 혁신 등 다양한 분야에서 활용되며, 지식의 가치를 최대화하기 위한 전략과 방법론의 개발에도 도움이 됩니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;데이터data&quot;&gt;데이터(Data)&lt;/h2&gt;
-
-&lt;p&gt;단순히 &lt;strong&gt;사실&lt;/strong&gt;이나 기록으로서 &lt;strong&gt;원시적&lt;/strong&gt;이고 &lt;strong&gt;구조화되지 않은 형태의 정보&lt;/strong&gt;입니다.&lt;br /&gt;
-개별적인 사실이나 관찰을 나타내며, 그 자체로는 큰 의미나 가치를 지니지 않습니다.&lt;/p&gt;
-
-&lt;p&gt;예를 들어, 온도 측정 데이터, 고객 주문 데이터, 주식 시장 거래 데이터 등이 데이터의 예시입니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;정보information&quot;&gt;정보(Information)&lt;/h2&gt;
-
-&lt;p&gt;데이터를 &lt;strong&gt;조직화&lt;/strong&gt;하고 &lt;strong&gt;해석&lt;/strong&gt;하며 &lt;strong&gt;의미 있는 내용&lt;/strong&gt;을 제공하는 것입니다.&lt;br /&gt;
-데이터의 패턴, 관계, 특성 등을 이해하고 분석함으로써 얻어집니다.&lt;br /&gt;
-컨텍스트와 의미를 부여하여 가치를 더합니다.&lt;/p&gt;
-
-&lt;p&gt;예를 들어, 온도 데이터를 바탕으로 특정 지역의 날씨 정보를 제공하거나, 고객 주문 데이터를 분석하여 판매 동향 정보를 도출하는 것이 정보의 예시입니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;지식knowledge&quot;&gt;지식(Knowledge)&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;정보를 이해&lt;/strong&gt;하고 &lt;strong&gt;활용&lt;/strong&gt;할 수 있는 &lt;strong&gt;인식과 깨달음&lt;/strong&gt;을 말합니다.&lt;br /&gt;
-개별 정보들의 상호 연결, 패턴 인식, 근거에 기반한 추론, 경험 등을 통해 형성됩니다.&lt;br /&gt;
-문제 해결, 의사 결정, 예측 등을 위해 활용 될 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;예를 들어, 날씨 정보를 바탕으로 특정 지역에서 휴가를 가기 좋은 시기를 예측하는 것입니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;지혜wisdom&quot;&gt;지혜(Wisdom)&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;넓은 시야&lt;/strong&gt;와 &lt;strong&gt;깊은 이해&lt;/strong&gt;를 바탕으로 형성되며, &lt;strong&gt;지식을 토대로 한 윤리적이고 상황에 맞는 판단과 행동을 포함&lt;/strong&gt;합니다.&lt;br /&gt;
-비지니스 전략 수립, 사회적 문제 해결, 윤리적인 결정 등에 관련되며, 전문적인 지식과 경험이 요구됩니다.&lt;br /&gt;
-지혜는 지식을 최고 수준으로 활용하여 긍정적인 영향력을 가지는 행동을 취함으로써 얻어집니다.&lt;br /&gt;
-&lt;strong&gt;지식과 경험의 결합으로 형성&lt;/strong&gt;되며, 복잡하고 불확실한 상황에서 효과적인 판단을 내릴 수 있는 능력을 강조합니다.&lt;/p&gt;
-
-&lt;p&gt;비즈니스, 리더십, 정치, 인간관계 등 다양한 영역에서 중요한 역할을 합니다.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exitem" />
-      
-        <category term="Adsp" />
-      
-
-      
-        <summary type="html">DIKW 피라미드(Data Information Knowledge Wisdom)</summary>
       
 
       
