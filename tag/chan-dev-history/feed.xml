@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/chan-dev-history/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-05-16T23:25:08+09:00</updated>
+  <updated>2023-05-20T14:25:08+09:00</updated>
   <id>http://localhost:4000/tag/chan-dev-history/feed.xml</id>
 
   
@@ -67,7 +67,7 @@
 
 &lt;h2 id=&quot;2주차-2023년-5월-8일&quot;&gt;2주차 2023년 5월 8일&lt;/h2&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;정보처리기사, 익스트림 프로그래밍&lt;/p&gt;
+  &lt;p&gt;정보처리기사, 익스트림 프로그래밍, DIKW 피라미드, 데이터베이스, 데이터사이언티스트&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;details&gt;
@@ -77,6 +77,9 @@
       &lt;li&gt;정보처리기사(블로그 포스팅)
         &lt;ul&gt;
           &lt;li&gt;익스트림 프로그래밍&lt;/li&gt;
+          &lt;li&gt;DIKW 피라미드&lt;/li&gt;
+          &lt;li&gt;데이터베이스&lt;/li&gt;
+          &lt;li&gt;데이터사이언티스트&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
@@ -87,12 +90,27 @@
 
 &lt;h2 id=&quot;3주차-2023년-5월-15일&quot;&gt;3주차 2023년 5월 15일&lt;/h2&gt;
 &lt;blockquote&gt;
-
+  &lt;p&gt;데이터분석준전문가, 분석기회 발굴범위, 분석 방법, 빅데이터와 인문학, 클라우딩 컴퓨팅, 하드 스킬, 소프트 스킬, STEEP, 분석 과제 관리 프로세스, 분석프로젝트관리, 분석 과제 관리 프로세스, 풀(pool)&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;details&gt;
 &lt;summary&gt;&lt;span style=&quot;color:blue;font-weight:bold&quot;&gt;여기를 클릭하여 펼치기...&lt;/span&gt;&lt;/summary&gt;
 &lt;div&gt;
+    &lt;ul&gt;
+      &lt;li&gt;데이터분석준전문가
+        &lt;ul&gt;
+          &lt;li&gt;분석기회 발굴범위&lt;/li&gt;
+          &lt;li&gt;분석 방법&lt;/li&gt;
+          &lt;li&gt;빅데이터와 인문학&lt;/li&gt;
+          &lt;li&gt;클라우딩 컴퓨팅&lt;/li&gt;
+          &lt;li&gt;하드 스킬 vs 소프트 스킬&lt;/li&gt;
+          &lt;li&gt;STEEP&lt;/li&gt;
+          &lt;li&gt;분석 과제 관리 프로세스&lt;/li&gt;
+          &lt;li&gt;분석프로젝트관리&lt;/li&gt;
+          &lt;li&gt;풀(pool)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
 
     &lt;hr /&gt;
   &lt;/div&gt;
@@ -131,6 +149,129 @@
 
       
         <summary type="html">자기 개발 기록 (2023년5월)</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">자기 개발 기록 (2023년4월)</title>
+      <link href="http://localhost:4000/2023%EB%85%844%EC%9B%94" rel="alternate" type="text/html" title="자기 개발 기록 (2023년4월)" />
+      <published>2023-04-22T00:00:00+09:00</published>
+      <updated>2023-04-22T00:00:00+09:00</updated>
+      <id>http://localhost:4000/2023%EB%85%844%EC%9B%94</id>
+      <content type="html" xml:base="http://localhost:4000/2023%EB%85%844%EC%9B%94">&lt;h1 id=&quot;자기-개발-기록-2023년4월&quot;&gt;자기 개발 기록 (2023년4월)&lt;/h1&gt;
+
+&lt;h2 id=&quot;목적&quot;&gt;목적&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;자기 개발 기록을 통해 성과, 반성, 배울 점을 얻고 성장할 수 있도록 합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;1주차-2023년-3월-27일&quot;&gt;1주차 2023년 3월 27일&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;한국해양브레인스토밍, 한국기상브레인스토밍, t-SNE, 힙정렬, 신용카드 사기 탐지(Kaggle)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;details&gt;
+&lt;summary&gt;&lt;span style=&quot;color:blue;font-weight:bold&quot;&gt;여기를 클릭하여 펼치기...&lt;/span&gt;&lt;/summary&gt;
+&lt;div&gt;
+    &lt;ul&gt;
+      &lt;li&gt;회사의 도메인 공부 (블로그포스팅)
+        &lt;ul&gt;
+          &lt;li&gt;한국해양브레인스토밍, 한국기상브레인스토밍&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;t-SNE (블로그포스팅)&lt;/li&gt;
+      &lt;li&gt;힙정렬 (블로그포스팅)&lt;/li&gt;
+      &lt;li&gt;신용카드 사기 탐지(Kaggle) (블로그포스팅)&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;hr /&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&quot;2주차-2023년-4월-3일&quot;&gt;2주차 2023년 4월 3일&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Jira, 퀵정렬&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;details&gt;
+&lt;summary&gt;&lt;span style=&quot;color:blue;font-weight:bold&quot;&gt;여기를 클릭하여 펼치기...&lt;/span&gt;&lt;/summary&gt;
+&lt;div&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Jira (블로그포스팅)
+        &lt;ul&gt;
+          &lt;li&gt;회사에서 사용하는 협업툴로 Confluence와 같이 활용됩니다.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;퀵정렬 (블로그포스팅)&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;hr /&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&quot;3주차-2023년-4월-10일&quot;&gt;3주차 2023년 4월 10일&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;공던지기, Imbalanced_data, 기수정렬&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;details&gt;
+&lt;summary&gt;&lt;span style=&quot;color:blue;font-weight:bold&quot;&gt;여기를 클릭하여 펼치기...&lt;/span&gt;&lt;/summary&gt;
+&lt;div&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Imbalanced data (블로그포스팅)&lt;/li&gt;
+      &lt;li&gt;공던지기 (블로그포스팅)&lt;/li&gt;
+      &lt;li&gt;기수정렬 (블로그포스팅)&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;hr /&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&quot;4주차-2023년-4월-17일&quot;&gt;4주차 2023년 4월 17일&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;정보처리기사, 데이터준분석가(데이터의이해), UML다이어그램, MOM(Message Oriented Middleware), 구조적방법론, 동기_비동기, ERD, 애자일방법론, 유스케이스, 정보공학방법론, 다형성&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;details&gt;
+&lt;summary&gt;&lt;span style=&quot;color:blue;font-weight:bold&quot;&gt;여기를 클릭하여 펼치기...&lt;/span&gt;&lt;/summary&gt;
+&lt;div&gt;
+    &lt;ul&gt;
+      &lt;li&gt;정보처리기사 (블로그포스팅)
+        &lt;ul&gt;
+          &lt;li&gt;UML다이어그램, MOM(Message Oriented Middleware), 구조적방법론, 동기_비동기, ERD, 애자일방법론, 유스케이스, 정보공학방법론, 다형성&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;데이터준분석가(데이터의이해) (블로그포스팅)&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;hr /&gt;
+  &lt;/div&gt;
+&lt;/details&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>chanp5660</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="Chan_dev_history" />
+      
+
+      
+        <summary type="html">자기 개발 기록 (2023년4월)</summary>
       
 
       
@@ -515,6 +656,12 @@
 &lt;p&gt;&lt;a href=&quot;https://chanp5660.github.io/2023년4월&quot;&gt;&lt;strong&gt;자기 개발 기록(2023년4월) 바로가기&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;신입으로 회사에 적응(회사 시스템, 개발 툴, 회사 동료)하고 자기 개발을 기록하며 꾸준하게 할 수 있도록 습관으로 만들었습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;5월-자격증&quot;&gt;5월 자격증&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://chanp5660.github.io/2023년5월&quot;&gt;&lt;strong&gt;자기 개발 기록(2023년5월) 바로가기&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;자격증을 취득한다고 전문가는 아니지만 본인을 간단하게 테스트를 할 수 있는 자격증(정보처리기사, 데이터분석준전문가)를 시험을 보았습니다.&lt;/p&gt;
 &lt;/blockquote&gt;</content>
 
       
@@ -537,129 +684,6 @@
 
       
         <summary type="html">자기 개발 기록 (2023년)</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">자기 개발 기록 (2023년4월)</title>
-      <link href="http://localhost:4000/2023%EB%85%844%EC%9B%94" rel="alternate" type="text/html" title="자기 개발 기록 (2023년4월)" />
-      <published>2023-04-22T00:00:00+09:00</published>
-      <updated>2023-04-22T00:00:00+09:00</updated>
-      <id>http://localhost:4000/2023%EB%85%844%EC%9B%94</id>
-      <content type="html" xml:base="http://localhost:4000/2023%EB%85%844%EC%9B%94">&lt;h1 id=&quot;자기-개발-기록-2023년4월&quot;&gt;자기 개발 기록 (2023년4월)&lt;/h1&gt;
-
-&lt;h2 id=&quot;목적&quot;&gt;목적&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;자기 개발 기록을 통해 성과, 반성, 배울 점을 얻고 성장할 수 있도록 합니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;1주차-2023년-3월-27일&quot;&gt;1주차 2023년 3월 27일&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;한국해양브레인스토밍, 한국기상브레인스토밍, t-SNE, 힙정렬, 신용카드 사기 탐지(Kaggle)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;details&gt;
-&lt;summary&gt;&lt;span style=&quot;color:blue;font-weight:bold&quot;&gt;여기를 클릭하여 펼치기...&lt;/span&gt;&lt;/summary&gt;
-&lt;div&gt;
-    &lt;ul&gt;
-      &lt;li&gt;회사의 도메인 공부 (블로그포스팅)
-        &lt;ul&gt;
-          &lt;li&gt;한국해양브레인스토밍, 한국기상브레인스토밍&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;t-SNE (블로그포스팅)&lt;/li&gt;
-      &lt;li&gt;힙정렬 (블로그포스팅)&lt;/li&gt;
-      &lt;li&gt;신용카드 사기 탐지(Kaggle) (블로그포스팅)&lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;hr /&gt;
-  &lt;/div&gt;
-&lt;/details&gt;
-
-&lt;h2 id=&quot;2주차-2023년-4월-3일&quot;&gt;2주차 2023년 4월 3일&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Jira, 퀵정렬&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;details&gt;
-&lt;summary&gt;&lt;span style=&quot;color:blue;font-weight:bold&quot;&gt;여기를 클릭하여 펼치기...&lt;/span&gt;&lt;/summary&gt;
-&lt;div&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Jira (블로그포스팅)
-        &lt;ul&gt;
-          &lt;li&gt;회사에서 사용하는 협업툴로 Confluence와 같이 활용됩니다.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;퀵정렬 (블로그포스팅)&lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;hr /&gt;
-  &lt;/div&gt;
-&lt;/details&gt;
-
-&lt;h2 id=&quot;3주차-2023년-4월-10일&quot;&gt;3주차 2023년 4월 10일&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;공던지기, Imbalanced_data, 기수정렬&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;details&gt;
-&lt;summary&gt;&lt;span style=&quot;color:blue;font-weight:bold&quot;&gt;여기를 클릭하여 펼치기...&lt;/span&gt;&lt;/summary&gt;
-&lt;div&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Imbalanced data (블로그포스팅)&lt;/li&gt;
-      &lt;li&gt;공던지기 (블로그포스팅)&lt;/li&gt;
-      &lt;li&gt;기수정렬 (블로그포스팅)&lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;hr /&gt;
-  &lt;/div&gt;
-&lt;/details&gt;
-
-&lt;h2 id=&quot;4주차-2023년-4월-17일&quot;&gt;4주차 2023년 4월 17일&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;정보처리기사, 데이터준분석가(데이터의이해), UML다이어그램, MOM(Message Oriented Middleware), 구조적방법론, 동기_비동기, ERD, 애자일방법론, 유스케이스, 정보공학방법론, 다형성&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;details&gt;
-&lt;summary&gt;&lt;span style=&quot;color:blue;font-weight:bold&quot;&gt;여기를 클릭하여 펼치기...&lt;/span&gt;&lt;/summary&gt;
-&lt;div&gt;
-    &lt;ul&gt;
-      &lt;li&gt;정보처리기사 (블로그포스팅)
-        &lt;ul&gt;
-          &lt;li&gt;UML다이어그램, MOM(Message Oriented Middleware), 구조적방법론, 동기_비동기, ERD, 애자일방법론, 유스케이스, 정보공학방법론, 다형성&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;데이터준분석가(데이터의이해) (블로그포스팅)&lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;hr /&gt;
-  &lt;/div&gt;
-&lt;/details&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>chanp5660</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="Chan_dev_history" />
-      
-
-      
-        <summary type="html">자기 개발 기록 (2023년4월)</summary>
       
 
       
