@@ -241,6 +241,30 @@ into the {body} of the default.hbs template -->
 <p>계산 복잡도가 높기 때문에 대규모 데이터셋에는 적용하기 어려울 수 있습니다.<br />
 초기값에 따라 결과가 달라질 수 있으며, 최적의 임베딩을 찾기 위해서는 여러번 실험해야 할 수 있습니다.</p>
 
+<h1 id="예시">예시</h1>
+
+<p><a href="https://chanp5660.github.io/신용카드사기탐지(Kaggle)">신용카드사기탐지(Kaggle)</a> 내용에 있는 코드</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># TruncatedSVD
+</span><span class="n">t0</span> <span class="o">=</span> <span class="n">time</span><span class="p">.</span><span class="n">time</span><span class="p">()</span>
+<span class="n">X_reduced_svd</span> <span class="o">=</span> <span class="n">TruncatedSVD</span><span class="p">(</span><span class="n">n_components</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">algorithm</span><span class="o">=</span><span class="s">'randomized'</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">).</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">X</span><span class="p">.</span><span class="n">values</span><span class="p">)</span>
+<span class="n">t1</span> <span class="o">=</span> <span class="n">time</span><span class="p">.</span><span class="n">time</span><span class="p">()</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"Truncated SVD took {:.2} s"</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="n">t1</span> <span class="o">-</span> <span class="n">t0</span><span class="p">))</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">X_reduced_svd</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Truncated SVD took 0.006 s
+[[-0.25397344 -0.4026077 ]
+ [39.96986913 -5.54968943]
+ [-0.42670461 -0.47991786]
+ ...
+ [-0.24530641 -0.29455811]
+ [24.33797738 -4.63517225]
+ [50.95163444 33.17574323]]
+</code></pre></div></div>
+
+
                 </div>
             </section>
 

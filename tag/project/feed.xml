@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/project/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-05-20T14:25:08+09:00</updated>
+  <updated>2023-05-28T17:33:42+09:00</updated>
   <id>http://localhost:4000/tag/project/feed.xml</id>
 
   
@@ -159,7 +159,9 @@ The first thing we must do is gather a &lt;b&gt; basic sense &lt;/b&gt; of our d
 
 &lt;h2 id=&quot;데이터를-이해하고-파악하기&quot;&gt;데이터를 이해하고 파악하기&lt;/h2&gt;
 &lt;p&gt;&lt;a id=&quot;gather&quot;&gt;&lt;/a&gt;
-우리가 가장 먼저 해야 할 일은 우리의 데이터에 대한 기본적인 정보를 수집하는 것입니다. 거래와 금액을 제외하고는 (개인 정보 보호상의 이유로) 다른 열이 무엇인지 알 수 없습니다. 알고 있는 열을 제외하고 모두 스케일링 되어 있다는 것을 알 수 있습니다.&lt;/p&gt;
+우리가 가장 먼저 해야 할 일은 우리의 데이터에 대한 기본적인 정보를 수집하는 것입니다. &lt;br /&gt;
+거래와 금액을 제외하고는 (개인 정보 보호상의 이유로) 다른 열이 무엇인지 알 수 없습니다.&lt;br /&gt;
+알고 있는 열을 제외하고 모두 스케일링 되어 있다는 것을 알 수 있습니다.&lt;/p&gt;
 
 &lt;h3&gt; Summary: &lt;/h3&gt;
 &lt;ul&gt;
@@ -525,6 +527,8 @@ Frauds 0.17% of the dataset
 &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
+&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_9_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/229357738-fab387ba-9b67-43f0-bd83-39789ad10e47.png&quot; width=&quot;50%&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Distributions:&lt;/strong&gt; By seeing the distributions we can have an idea how skewed are these features, we can also see further distributions of the other features. There are techniques that can help the distributions be less skewed which will be implemented in this notebook in the future.&lt;/p&gt;
@@ -548,6 +552,8 @@ Frauds 0.17% of the dataset
 
 &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_12_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/229357740-cf4e4fbb-69b5-4fe1-aebf-0490cec1efab.png&quot; width=&quot;80%&quot; /&gt;&lt;/p&gt;
 
@@ -884,7 +890,7 @@ Label Distributions:
 
 &lt;p&gt;프로젝트의 이 단계에서 우리는 임의 하위 샘플링을 구현할 것입니다. 이는 기본적으로 데이터를 제거하여 보다 균형 잡힌 데이터 세트를 보유하고 모델이 과적합되는 것을 방지하는 것으로 구성됩니다.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://hwi-doc.tistory.com/entry/%EC%96%B8%EB%8D%94-%EC%83%98%ED%94%8C%EB%A7%81Undersampling%EA%B3%BC-%EC%98%A4%EB%B2%84-%EC%83%98%ED%94%8C%EB%A7%81Oversampling&quot;&gt;랜덤 샘플링 vs 오버샘플링&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://hwi-doc.tistory.com/entry/%EC%96%B8%EB%8D%94-%EC%83%98%ED%94%8C%EB%A7%81Undersampling%EA%B3%BC-%EC%98%A4%EB%B2%84-%EC%83%98%ED%94%8C%EB%A7%81Oversampling&quot;&gt;&lt;strong&gt;&lt;em&gt;언더 샘플링 vs 오버샘플링&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;steps&quot;&gt;Steps:&lt;/h4&gt;
 &lt;ul&gt;
@@ -906,15 +912,6 @@ Label Distributions:
 &lt;ul&gt;
   &lt;li&gt;임의 언더샘플링의 주요 문제는 엄청난 양의 정보 손실(284,315개의 “Non-Fraud” 거래에서 492개의 거래 발생)이 있기 때문에 분류 모델이 원하는 만큼 정확하게 수행되지 않을 위험이 있다는 것입니다.&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sample&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;frac&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;fraud_df&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Class&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;non_fraud_df&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Class&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;492&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;normal_distributed_df&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;concat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fraud_df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;non_fraud_df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# 클래스가 심하게 치우쳐 있으므로 클래스의 정규 분포를 얻으려면 클래스를 동등하게 만들어야 합니다.
 &lt;/span&gt;
@@ -989,123 +986,123 @@ Label Distributions:
   &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;th&gt;98509&lt;/th&gt;
-      &lt;td&gt;0.809055&lt;/td&gt;
-      &lt;td&gt;-0.211504&lt;/td&gt;
-      &lt;td&gt;1.002074&lt;/td&gt;
-      &lt;td&gt;-0.518813&lt;/td&gt;
-      &lt;td&gt;0.894617&lt;/td&gt;
-      &lt;td&gt;0.916939&lt;/td&gt;
-      &lt;td&gt;-1.089434&lt;/td&gt;
-      &lt;td&gt;-0.131757&lt;/td&gt;
-      &lt;td&gt;-0.461370&lt;/td&gt;
-      &lt;td&gt;0.185238&lt;/td&gt;
+      &lt;th&gt;68789&lt;/th&gt;
+      &lt;td&gt;0.158597&lt;/td&gt;
+      &lt;td&gt;-0.370669&lt;/td&gt;
+      &lt;td&gt;-0.719391&lt;/td&gt;
+      &lt;td&gt;-0.048663&lt;/td&gt;
+      &lt;td&gt;1.490211&lt;/td&gt;
+      &lt;td&gt;-0.370573&lt;/td&gt;
+      &lt;td&gt;0.534053&lt;/td&gt;
+      &lt;td&gt;0.035476&lt;/td&gt;
+      &lt;td&gt;0.131233&lt;/td&gt;
+      &lt;td&gt;0.361854&lt;/td&gt;
       &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;-0.047349&lt;/td&gt;
-      &lt;td&gt;-0.049445&lt;/td&gt;
-      &lt;td&gt;-0.066818&lt;/td&gt;
-      &lt;td&gt;-0.099627&lt;/td&gt;
-      &lt;td&gt;0.590103&lt;/td&gt;
-      &lt;td&gt;0.388942&lt;/td&gt;
-      &lt;td&gt;0.493591&lt;/td&gt;
-      &lt;td&gt;-0.029994&lt;/td&gt;
-      &lt;td&gt;0.015366&lt;/td&gt;
+      &lt;td&gt;-0.038740&lt;/td&gt;
+      &lt;td&gt;-0.145766&lt;/td&gt;
+      &lt;td&gt;-0.554125&lt;/td&gt;
+      &lt;td&gt;0.071964&lt;/td&gt;
+      &lt;td&gt;-0.316707&lt;/td&gt;
+      &lt;td&gt;-0.002313&lt;/td&gt;
+      &lt;td&gt;0.171520&lt;/td&gt;
+      &lt;td&gt;-0.078408&lt;/td&gt;
+      &lt;td&gt;-0.043258&lt;/td&gt;
       &lt;td&gt;0&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;th&gt;95534&lt;/th&gt;
-      &lt;td&gt;0.138476&lt;/td&gt;
-      &lt;td&gt;-0.227141&lt;/td&gt;
-      &lt;td&gt;1.193916&lt;/td&gt;
-      &lt;td&gt;-0.571085&lt;/td&gt;
-      &lt;td&gt;0.742522&lt;/td&gt;
-      &lt;td&gt;-0.014588&lt;/td&gt;
-      &lt;td&gt;-0.624561&lt;/td&gt;
-      &lt;td&gt;0.832162&lt;/td&gt;
-      &lt;td&gt;-0.833350&lt;/td&gt;
-      &lt;td&gt;0.272897&lt;/td&gt;
+      &lt;th&gt;183106&lt;/th&gt;
+      &lt;td&gt;-0.307413&lt;/td&gt;
+      &lt;td&gt;0.481279&lt;/td&gt;
+      &lt;td&gt;0.224414&lt;/td&gt;
+      &lt;td&gt;2.994499&lt;/td&gt;
+      &lt;td&gt;-3.432458&lt;/td&gt;
+      &lt;td&gt;3.986519&lt;/td&gt;
+      &lt;td&gt;3.760233&lt;/td&gt;
+      &lt;td&gt;0.165640&lt;/td&gt;
+      &lt;td&gt;1.099378&lt;/td&gt;
+      &lt;td&gt;-0.654557&lt;/td&gt;
       &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;0.062908&lt;/td&gt;
-      &lt;td&gt;-0.049502&lt;/td&gt;
-      &lt;td&gt;0.207265&lt;/td&gt;
-      &lt;td&gt;-0.265272&lt;/td&gt;
-      &lt;td&gt;-0.679294&lt;/td&gt;
-      &lt;td&gt;0.511812&lt;/td&gt;
-      &lt;td&gt;1.246604&lt;/td&gt;
-      &lt;td&gt;-0.028671&lt;/td&gt;
-      &lt;td&gt;-0.006112&lt;/td&gt;
+      &lt;td&gt;-0.200846&lt;/td&gt;
+      &lt;td&gt;0.491337&lt;/td&gt;
+      &lt;td&gt;-0.984223&lt;/td&gt;
+      &lt;td&gt;-0.421979&lt;/td&gt;
+      &lt;td&gt;-1.048058&lt;/td&gt;
+      &lt;td&gt;0.726412&lt;/td&gt;
+      &lt;td&gt;0.268625&lt;/td&gt;
+      &lt;td&gt;0.283689&lt;/td&gt;
+      &lt;td&gt;0.419102&lt;/td&gt;
       &lt;td&gt;1&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;th&gt;165444&lt;/th&gt;
-      &lt;td&gt;2.822609&lt;/td&gt;
-      &lt;td&gt;0.384720&lt;/td&gt;
-      &lt;td&gt;1.576410&lt;/td&gt;
-      &lt;td&gt;-1.385526&lt;/td&gt;
-      &lt;td&gt;-0.335421&lt;/td&gt;
-      &lt;td&gt;-0.286623&lt;/td&gt;
-      &lt;td&gt;-1.244921&lt;/td&gt;
-      &lt;td&gt;-0.427657&lt;/td&gt;
-      &lt;td&gt;-0.450099&lt;/td&gt;
-      &lt;td&gt;-0.102136&lt;/td&gt;
+      &lt;th&gt;199649&lt;/th&gt;
+      &lt;td&gt;0.725215&lt;/td&gt;
+      &lt;td&gt;0.568345&lt;/td&gt;
+      &lt;td&gt;1.840359&lt;/td&gt;
+      &lt;td&gt;-0.328201&lt;/td&gt;
+      &lt;td&gt;-1.443581&lt;/td&gt;
+      &lt;td&gt;0.605344&lt;/td&gt;
+      &lt;td&gt;-0.024695&lt;/td&gt;
+      &lt;td&gt;-0.361448&lt;/td&gt;
+      &lt;td&gt;-0.256120&lt;/td&gt;
+      &lt;td&gt;0.110281&lt;/td&gt;
       &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;0.307440&lt;/td&gt;
-      &lt;td&gt;-0.110957&lt;/td&gt;
-      &lt;td&gt;-0.397984&lt;/td&gt;
-      &lt;td&gt;0.168028&lt;/td&gt;
-      &lt;td&gt;0.066283&lt;/td&gt;
-      &lt;td&gt;-0.591906&lt;/td&gt;
-      &lt;td&gt;0.380951&lt;/td&gt;
-      &lt;td&gt;-0.045874&lt;/td&gt;
-      &lt;td&gt;-0.007303&lt;/td&gt;
+      &lt;td&gt;-0.119201&lt;/td&gt;
+      &lt;td&gt;-0.034598&lt;/td&gt;
+      &lt;td&gt;-0.228939&lt;/td&gt;
+      &lt;td&gt;0.201407&lt;/td&gt;
+      &lt;td&gt;0.575203&lt;/td&gt;
+      &lt;td&gt;-0.321012&lt;/td&gt;
+      &lt;td&gt;0.168316&lt;/td&gt;
+      &lt;td&gt;-0.052961&lt;/td&gt;
+      &lt;td&gt;-0.020989&lt;/td&gt;
       &lt;td&gt;0&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;th&gt;74794&lt;/th&gt;
-      &lt;td&gt;4.051003&lt;/td&gt;
-      &lt;td&gt;-0.339901&lt;/td&gt;
-      &lt;td&gt;-6.003422&lt;/td&gt;
-      &lt;td&gt;-3.930731&lt;/td&gt;
-      &lt;td&gt;-0.007045&lt;/td&gt;
-      &lt;td&gt;1.714669&lt;/td&gt;
-      &lt;td&gt;3.414667&lt;/td&gt;
-      &lt;td&gt;-2.329583&lt;/td&gt;
-      &lt;td&gt;-1.901512&lt;/td&gt;
-      &lt;td&gt;-2.746111&lt;/td&gt;
+      &lt;th&gt;263877&lt;/th&gt;
+      &lt;td&gt;-0.302103&lt;/td&gt;
+      &lt;td&gt;0.898295&lt;/td&gt;
+      &lt;td&gt;-3.387601&lt;/td&gt;
+      &lt;td&gt;3.977881&lt;/td&gt;
+      &lt;td&gt;-6.978585&lt;/td&gt;
+      &lt;td&gt;1.657766&lt;/td&gt;
+      &lt;td&gt;-1.100500&lt;/td&gt;
+      &lt;td&gt;-3.599487&lt;/td&gt;
+      &lt;td&gt;-3.686651&lt;/td&gt;
+      &lt;td&gt;1.942252&lt;/td&gt;
       &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;-4.128186&lt;/td&gt;
-      &lt;td&gt;1.101671&lt;/td&gt;
-      &lt;td&gt;-0.992494&lt;/td&gt;
-      &lt;td&gt;-0.698259&lt;/td&gt;
-      &lt;td&gt;0.139898&lt;/td&gt;
-      &lt;td&gt;-0.205151&lt;/td&gt;
-      &lt;td&gt;-0.472412&lt;/td&gt;
-      &lt;td&gt;1.775378&lt;/td&gt;
-      &lt;td&gt;-0.104285&lt;/td&gt;
+      &lt;td&gt;-0.004301&lt;/td&gt;
+      &lt;td&gt;1.043587&lt;/td&gt;
+      &lt;td&gt;0.262189&lt;/td&gt;
+      &lt;td&gt;-0.479224&lt;/td&gt;
+      &lt;td&gt;-0.326638&lt;/td&gt;
+      &lt;td&gt;-0.156939&lt;/td&gt;
+      &lt;td&gt;0.113807&lt;/td&gt;
+      &lt;td&gt;0.354124&lt;/td&gt;
+      &lt;td&gt;0.287592&lt;/td&gt;
       &lt;td&gt;1&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;th&gt;192687&lt;/th&gt;
-      &lt;td&gt;3.551596&lt;/td&gt;
-      &lt;td&gt;0.530034&lt;/td&gt;
-      &lt;td&gt;1.522080&lt;/td&gt;
-      &lt;td&gt;-0.519429&lt;/td&gt;
-      &lt;td&gt;-2.581685&lt;/td&gt;
-      &lt;td&gt;0.774741&lt;/td&gt;
-      &lt;td&gt;0.206722&lt;/td&gt;
-      &lt;td&gt;-1.431020&lt;/td&gt;
-      &lt;td&gt;0.757011&lt;/td&gt;
-      &lt;td&gt;-0.444418&lt;/td&gt;
+      &lt;th&gt;248296&lt;/th&gt;
+      &lt;td&gt;-0.307413&lt;/td&gt;
+      &lt;td&gt;0.812780&lt;/td&gt;
+      &lt;td&gt;-0.613696&lt;/td&gt;
+      &lt;td&gt;3.698772&lt;/td&gt;
+      &lt;td&gt;-5.534941&lt;/td&gt;
+      &lt;td&gt;5.620486&lt;/td&gt;
+      &lt;td&gt;1.649263&lt;/td&gt;
+      &lt;td&gt;-2.335145&lt;/td&gt;
+      &lt;td&gt;-0.907188&lt;/td&gt;
+      &lt;td&gt;0.706362&lt;/td&gt;
       &lt;td&gt;...&lt;/td&gt;
-      &lt;td&gt;0.361169&lt;/td&gt;
-      &lt;td&gt;0.019649&lt;/td&gt;
-      &lt;td&gt;-0.211678&lt;/td&gt;
-      &lt;td&gt;-0.247452&lt;/td&gt;
-      &lt;td&gt;-0.279472&lt;/td&gt;
-      &lt;td&gt;0.239646&lt;/td&gt;
-      &lt;td&gt;-0.508398&lt;/td&gt;
-      &lt;td&gt;-0.015551&lt;/td&gt;
-      &lt;td&gt;0.041881&lt;/td&gt;
+      &lt;td&gt;0.354773&lt;/td&gt;
+      &lt;td&gt;0.319261&lt;/td&gt;
+      &lt;td&gt;-0.471379&lt;/td&gt;
+      &lt;td&gt;-0.075890&lt;/td&gt;
+      &lt;td&gt;-0.667909&lt;/td&gt;
+      &lt;td&gt;-0.642848&lt;/td&gt;
+      &lt;td&gt;0.070600&lt;/td&gt;
+      &lt;td&gt;0.488410&lt;/td&gt;
+      &lt;td&gt;0.292345&lt;/td&gt;
       &lt;td&gt;1&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
@@ -1120,7 +1117,7 @@ Label Distributions:
 Now that we have our dataframe correctly balanced, we can go further with our &lt;b&gt;analysis&lt;/b&gt; and &lt;b&gt;data preprocessing&lt;/b&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;균등-분산과-상관관계&quot;&gt;균등 분산과 상관관계&lt;/h2&gt;
-&lt;p&gt;이제 데이터프레임의 균형이 올바르게 조정되었으므로 분석과 데이터 전처리를 더 진행할 수 있습니다.&lt;/p&gt;
+&lt;p&gt;이제 데이터프레임의 균형이 올바르게 조정되었으므로 &lt;strong&gt;분석과 데이터 전처리&lt;/strong&gt;를 더 진행할 수 있습니다.&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Distribution of the Classes in the subsample dataset&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new_df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Class&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value_counts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new_df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
@@ -1136,6 +1133,8 @@ Name: Class, dtype: float64
 &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Equally Distributed Classed&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fontsize&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;14&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_23_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/229357741-6b3ea131-0d26-4088-bf25-5b071902a5f3.png&quot; width=&quot;50%&quot; /&gt;&lt;/p&gt;
 
@@ -1182,6 +1181,8 @@ Name: Class, dtype: float64
 &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
+&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_26_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/229357742-c9f3c001-ff83-4813-9cd1-4403da33dca7.png&quot; width=&quot;90%&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;axes&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subplots&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ncols&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;figsize&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
@@ -1203,6 +1204,8 @@ Name: Class, dtype: float64
 &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
+&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_28_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/229357744-9585f4ed-adb6-48e9-b26c-83d1ad6c6f38.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;axes&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subplots&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ncols&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;figsize&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
@@ -1223,6 +1226,8 @@ Name: Class, dtype: float64
 &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_30_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/46266247/229357745-375b625d-848f-4416-a546-41b82486e2e1.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
 
@@ -1263,7 +1268,7 @@ Name: Class, dtype: float64
 &lt;p&gt;이상값을 제거하기 위한 임계값을 어디까지 설정할지 신중하게 결정해야 합니다.&lt;br /&gt;
 임계값은 숫자(예:1.5)에 사분위수 범위(IQR)를 곱하여 결정합니다. 이 임계값이 높을수록 더 적은 수의 이상값을 감지하고 낮을수록 더 많은 이상값을 감지합니다.&lt;/p&gt;
 
-&lt;p&gt;**The Tradeoff: **
+&lt;p&gt;&lt;strong&gt;The Tradeoff:&lt;/strong&gt;&lt;br /&gt;
 The lower the threshold the more outliers it will remove however, we want to focus more on “extreme outliers” rather than just outliers. Why? because we might run the risk of information loss which will cause our models to have a lower accuracy. You can play with this threshold and see how it affects the accuracy of our classification models.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;The Tradeoff:&lt;/strong&gt;&lt;br /&gt;
@@ -1333,7 +1338,7 @@ The lower the threshold the more outliers it will remove however, we want to foc
 &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_34_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_33_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# # -----&amp;gt; V14 Removing Outliers (Highest Negative Correlated with Labels)
 &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;v14_fraud&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;new_df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;V14&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new_df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Class&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;values&lt;/span&gt;
@@ -1394,19 +1399,19 @@ Cut Off: 8.114853173228282
 V14 Lower: -17.807576138200666
 V14 Upper: 3.8320323237414167
 Feature V14 Outliers for Fraud Cases: 4
-V14 outliers:[-18.0499976898594, -18.4937733551053, -18.8220867423816, -19.2143254902614]
+V14 outliers:[-18.8220867423816, -19.2143254902614, -18.0499976898594, -18.4937733551053]
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 V12 Lower: -17.3430371579634
 V12 Upper: 5.776973384895937
-V12 outliers: [-18.5536970096458, -18.6837146333443, -18.4311310279993, -18.0475965708216]
+V12 outliers: [-18.5536970096458, -18.4311310279993, -18.6837146333443, -18.0475965708216]
 Feature V12 Outliers for Fraud Cases: 4
-Number of Instances after outliers removal: 976
+Number of Instances after outliers removal: 975
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 V10 Lower: -14.89885463232024
 V10 Upper: 4.92033495834214
-V10 outliers: [-17.1415136412892, -22.1870885620007, -18.2711681738888, -16.3035376590131, -18.9132433348732, -14.9246547735487, -15.2318333653018, -19.836148851696, -15.5637913387301, -22.1870885620007, -15.2399619587112, -15.2399619587112, -16.2556117491401, -22.1870885620007, -15.3460988468775, -15.1241628144947, -22.1870885620007, -16.6496281595399, -20.9491915543611, -15.5637913387301, -16.7460441053944, -15.1237521803455, -24.4031849699728, -24.5882624372475, -14.9246547735487, -16.6011969664137, -23.2282548357516]
+V10 outliers: [-16.6496281595399, -15.3460988468775, -24.5882624372475, -16.6011969664137, -14.9246547735487, -16.7460441053944, -18.2711681738888, -15.1237521803455, -22.1870885620007, -15.5637913387301, -14.9246547735487, -22.1870885620007, -16.2556117491401, -15.2399619587112, -18.9132433348732, -15.2318333653018, -15.5637913387301, -15.2399619587112, -20.9491915543611, -24.4031849699728, -15.1241628144947, -16.3035376590131, -22.1870885620007, -23.2282548357516, -19.836148851696, -22.1870885620007, -17.1415136412892]
 Feature V10 Outliers for Fraud Cases: 27
-Number of Instances after outliers removal: 944
+Number of Instances after outliers removal: 948
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ax1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ax2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ax3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subplots&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;figsize&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
@@ -1438,7 +1443,7 @@ Number of Instances after outliers removal: 944
 &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_36_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_35_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
 
 &lt;h2&gt;Dimensionality Reduction and Clustering: &lt;/h2&gt;
 &lt;p&gt;&lt;a id=&quot;clustering&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1484,7 +1489,6 @@ Number of Instances after outliers removal: 944
 &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;X&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;new_df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;drop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Class&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;axis&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;new_df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Class&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 
-
 &lt;span class=&quot;c1&quot;&gt;# T-SNE Implementation
 &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t0&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;X_reduced_tsne&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;TSNE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_components&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;random_state&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fit_transform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;values&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
@@ -1504,9 +1508,9 @@ Number of Instances after outliers removal: 944
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Truncated SVD took {:.2} s&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;t0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;T-SNE took 3.9 s
-PCA took 0.057 s
-Truncated SVD took 0.003 s
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;T-SNE took 5.0 s
+PCA took 0.044 s
+Truncated SVD took 0.008 s
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ax1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ax2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ax3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subplots&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;figsize&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;24&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
@@ -1549,7 +1553,7 @@ Truncated SVD took 0.003 s
 &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_39_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_38_0.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
 
 &lt;h2&gt; Classifiers (UnderSampling):  &lt;/h2&gt;
 &lt;p&gt;&lt;a id=&quot;classifiers&quot;&gt;&lt;/a&gt;
@@ -1610,11 +1614,11 @@ In this section we will train four types of classifiers and decide which classif
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Let&apos;s implement simple classifiers
 &lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;classifiers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;s&quot;&gt;&quot;LogisiticRegression&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;LogisticRegression&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt;
-    &lt;span class=&quot;s&quot;&gt;&quot;KNearest&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;KNeighborsClassifier&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt;
-    &lt;span class=&quot;s&quot;&gt;&quot;Support Vector Classifier&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;SVC&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt;
-    &lt;span class=&quot;s&quot;&gt;&quot;DecisionTreeClassifier&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DecisionTreeClassifier&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;&quot;LogisiticRegression&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;LogisticRegression&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 로지스틱 회귀분석을 활용한 분류
+&lt;/span&gt;    &lt;span class=&quot;s&quot;&gt;&quot;KNearest&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;KNeighborsClassifier&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# K 최근접 이웃을 활용한 분류
+&lt;/span&gt;    &lt;span class=&quot;s&quot;&gt;&quot;Support Vector Classifier&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;SVC&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 서포트 벡터 머신을 활용한 분류
+&lt;/span&gt;    &lt;span class=&quot;s&quot;&gt;&quot;DecisionTreeClassifier&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DecisionTreeClassifier&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 의사결정트리를 활용한 분류
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Wow our scores are getting even high scores even when applying cross validation.
@@ -1628,9 +1632,9 @@ In this section we will train four types of classifiers and decide which classif
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Classifiers:  LogisticRegression Has a training score of 94.0 % accuracy score
-Classifiers:  KNeighborsClassifier Has a training score of 92.0 % accuracy score
-Classifiers:  SVC Has a training score of 93.0 % accuracy score
-Classifiers:  DecisionTreeClassifier Has a training score of 89.0 % accuracy score
+Classifiers:  KNeighborsClassifier Has a training score of 94.0 % accuracy score
+Classifiers:  SVC Has a training score of 94.0 % accuracy score
+Classifiers:  DecisionTreeClassifier Has a training score of 92.0 % accuracy score
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Use GridSearchCV to find the best parameters.
@@ -1672,6 +1676,22 @@ Classifiers:  DecisionTreeClassifier Has a training score of 89.0 % accuracy sco
 &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tree_clf&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;grid_tree&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;best_estimator_&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;undersample_X&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;drop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Class&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;axis&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;undersample_y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Class&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;train_index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;test_index&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sss&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;undersample_X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;undersample_y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Train:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;train_index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Test:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;test_index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;undersample_Xtrain&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;undersample_Xtest&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;undersample_X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iloc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;train_index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;undersample_X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iloc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test_index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+    
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Train: [ 56957  56958  56959 ... 284804 284805 284806] Test: [    0     1     2 ... 57730 57849 57878]
+Train: [     0      1      2 ... 284804 284805 284806] Test: [ 56957  56958  56959 ... 113936 113937 113938]
+Train: [     0      1      2 ... 284804 284805 284806] Test: [107172 107788 108085 ... 170905 170906 170907]
+Train: [     0      1      2 ... 284804 284805 284806] Test: [158569 159327 160459 ... 227866 227867 227868]
+Train: [     0      1      2 ... 227866 227867 227868] Test: [211163 211291 213367 ... 284804 284805 284806]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Overfitting Case
 &lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;log_reg_score&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cross_val_score&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log_reg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;X_train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y_train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cv&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
@@ -1688,10 +1708,10 @@ Classifiers:  DecisionTreeClassifier Has a training score of 89.0 % accuracy sco
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;DecisionTree Classifier Cross Validation Score&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;round&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tree_score&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mean&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;astype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;%&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Logistic Regression Cross Validation Score:  93.91%
-Knears Neighbors Cross Validation Score 92.72%
-Support Vector Classifier Cross Validation Score 93.25%
-DecisionTree Classifier Cross Validation Score 91.92%
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Logistic Regression Cross Validation Score:  94.33%
+Knears Neighbors Cross Validation Score 93.93%
+Support Vector Classifier Cross Validation Score 93.94%
+DecisionTree Classifier Cross Validation Score 93.54%
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# We will undersample during cross validating
@@ -1715,11 +1735,11 @@ DecisionTree Classifier Cross Validation Score 91.92%
 &lt;span class=&quot;n&quot;&gt;undersample_auc&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Train: [ 56961  56962  56963 ... 284804 284805 284806] Test: [    0     1     2 ... 56959 56960 57206]
-Train: [     0      1      2 ... 284804 284805 284806] Test: [ 56961  56962  56963 ... 113921 113922 114407]
-Train: [     0      1      2 ... 284804 284805 284806] Test: [113923 113924 113925 ... 172832 173003 174817]
-Train: [     0      1      2 ... 284804 284805 284806] Test: [170879 170880 170881 ... 230183 231820 232250]
-Train: [     0      1      2 ... 230183 231820 232250] Test: [227837 227838 227839 ... 284804 284805 284806]
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Train: [ 56957  56958  56959 ... 284804 284805 284806] Test: [    0     1     2 ... 57730 57849 57878]
+Train: [     0      1      2 ... 284804 284805 284806] Test: [ 56957  56958  56959 ... 113936 113937 113938]
+Train: [     0      1      2 ... 284804 284805 284806] Test: [107172 107788 108085 ... 170905 170906 170907]
+Train: [     0      1      2 ... 284804 284805 284806] Test: [158569 159327 160459 ... 227866 227867 227868]
+Train: [     0      1      2 ... 227866 227867 227868] Test: [211163 211291 213367 ... 284804 284805 284806]
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Implementing NearMiss Technique 
@@ -1744,6 +1764,9 @@ Train: [     0      1      2 ... 230183 231820 232250] Test: [227837 227838 2278
     &lt;span class=&quot;n&quot;&gt;undersample_recall&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;recall_score&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;original_ytrain&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;undersample_prediction&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;undersample_f1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;f1_score&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;original_ytrain&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;undersample_prediction&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;undersample_auc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;roc_auc_score&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;original_ytrain&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;undersample_prediction&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;NearMiss Label Distribution: Counter({0: 492, 1: 492})
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# We will undersample during cross validating
@@ -1789,11 +1812,11 @@ Train: [     0      1      2 ... 230183 231820 232250] Test: [227837 227838 2278
     &lt;span class=&quot;n&quot;&gt;undersample_auc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;roc_auc_score&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;original_ytrain&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;undersample_prediction&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Train: [ 56016  56963  56964 ... 284804 284805 284806] Test: [    0     1     2 ... 56960 56961 56962]
-Train: [     0      1      2 ... 284804 284805 284806] Test: [ 56016  56963  56964 ... 116256 118787 118918]
-Train: [     0      1      2 ... 284804 284805 284806] Test: [113919 113920 113921 ... 180037 180301 180370]
-Train: [     0      1      2 ... 284804 284805 284806] Test: [170872 170873 170874 ... 229984 230294 230438]
-Train: [     0      1      2 ... 229984 230294 230438] Test: [227840 227841 227842 ... 284804 284805 284806]
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Train: [ 56957  56958  56959 ... 284804 284805 284806] Test: [    0     1     2 ... 57730 57849 57878]
+Train: [     0      1      2 ... 284804 284805 284806] Test: [ 56957  56958  56959 ... 113936 113937 113938]
+Train: [     0      1      2 ... 284804 284805 284806] Test: [107172 107788 108085 ... 170905 170906 170907]
+Train: [     0      1      2 ... 284804 284805 284806] Test: [158569 159327 160459 ... 227866 227867 227868]
+Train: [     0      1      2 ... 227866 227867 227868] Test: [211163 211291 213367 ... 284804 284805 284806]
 NearMiss Label Distribution: Counter({0: 492, 1: 492})
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
@@ -1900,7 +1923,7 @@ NearMiss Label Distribution: Counter({0: 492, 1: 492})
 &lt;span class=&quot;n&quot;&gt;plot_learning_curve&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log_reg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;knears_neighbors&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;svc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tree_clf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;X_train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y_train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.87&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;1.01&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cv&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n_jobs&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;module &apos;matplotlib.pyplot&apos; from &apos;C:\\Users\\master\\anaconda3\\envs\\chanp5660\\lib\\site-packages\\matplotlib\\pyplot.py&apos;&amp;gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;module &apos;matplotlib.pyplot&apos; from &apos;c:\\Users\\master\\anaconda3\\envs\\chanp5660\\lib\\site-packages\\matplotlib\\pyplot.py&apos;&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_53_1.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
@@ -1928,10 +1951,10 @@ NearMiss Label Distribution: Counter({0: 492, 1: 492})
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Decision Tree Classifier: &apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;roc_auc_score&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y_train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tree_pred&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Logistic Regression:  0.9819356837125479
-KNears Neighbors:  0.9290028722685288
-Support Vector Classifier:  0.9764093827438612
-Decision Tree Classifier:  0.9153525568821806
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Logistic Regression:  0.974245810055866
+KNears Neighbors:  0.9373673184357542
+Support Vector Classifier:  0.9729469273743017
+Decision Tree Classifier:  0.9327374301675977
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;log_fpr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;log_tpr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;log_thresold&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;roc_curve&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y_train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;log_reg_pred&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
@@ -2030,17 +2053,17 @@ In this section we will ive a deeper look into the &lt;b&gt; logistic regression
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---------------------------------------------------------------------------------------------------------------------------------------
 Overfitting: 
 
-Recall Score: 0.93
-Precision Score: 0.73
-F1 Score: 0.82
-Accuracy Score: 0.80
+Recall Score: 0.92
+Precision Score: 0.77
+F1 Score: 0.84
+Accuracy Score: 0.83
 ---------------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------------------
 How it should be:
 
-Accuracy Score: 0.79
+Accuracy Score: 0.67
 Precision Score: 0.00
-Recall Score: 0.22
+Recall Score: 0.25
 F1 Score: 0.00
 ---------------------------------------------------------------------------------------------------------------------------------------
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -2056,7 +2079,7 @@ F1 Score: 0.00
       &lt;span class=&quot;n&quot;&gt;undersample_average_precision&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Average precision-recall score: 0.07
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Average precision-recall score: 0.03
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sklearn.metrics&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;precision_recall_curve&lt;/span&gt;
@@ -2079,7 +2102,7 @@ F1 Score: 0.00
           &lt;span class=&quot;n&quot;&gt;undersample_average_precision&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fontsize&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Text(0.5, 1.0, &apos;UnderSampling Precision-Recall curve: \n Average Precision-Recall Score =0.07&apos;)
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Text(0.5, 1.0, &apos;UnderSampling Precision-Recall curve: \n Average Precision-Recall Score =0.03&apos;)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_63_1.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
@@ -2172,10 +2195,10 @@ DEALING WITH IMBALANCED DATA: UNDERSAMPLING, OVERSAMPLING AND PROPER CROSS-VALID
 Length of X (test): 56961 | Length of y (test): 56961
 ---------------------------------------------------------------------------------------------------------------------------------------
 
-accuracy: 0.9708093972022731
-precision: 0.06528802853097392
-recall: 0.9111976630963973
-f1: 0.12065454676338967
+accuracy: 0.9429314114380596
+precision: 0.06252759950989174
+recall: 0.9137617656604998
+f1: 0.11520272714033197
 ---------------------------------------------------------------------------------------------------------------------------------------
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
@@ -2187,7 +2210,7 @@ f1: 0.12065454676338967
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;              precision    recall  f1-score   support
 
     No Fraud       1.00      0.99      0.99     56863
-       Fraud       0.11      0.85      0.20        98
+       Fraud       0.11      0.86      0.20        98
 
     accuracy                           0.99     56961
    macro avg       0.56      0.92      0.60     56961
@@ -2203,7 +2226,7 @@ weighted avg       1.00      0.99      0.99     56961
       &lt;span class=&quot;n&quot;&gt;average_precision&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Average precision-recall score: 0.76
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Average precision-recall score: 0.75
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;fig&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;figure&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;figsize&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
@@ -2223,7 +2246,7 @@ weighted avg       1.00      0.99      0.99     56961
           &lt;span class=&quot;n&quot;&gt;average_precision&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fontsize&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Text(0.5, 1.0, &apos;OverSampling Precision-Recall curve: \n Average Precision-Recall Score =0.76&apos;)
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Text(0.5, 1.0, &apos;OverSampling Precision-Recall curve: \n Average Precision-Recall Score =0.75&apos;)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;img src=&quot;%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_files/%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%EC%82%AC%EA%B8%B0%ED%83%90%EC%A7%80%28Kaggle%29_69_1.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
@@ -2250,7 +2273,7 @@ weighted avg       1.00      0.99      0.99     56961
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Fitting oversample data took :{} sec&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;t0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Fitting oversample data took :4.898994207382202 sec
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Fitting oversample data took :7.0485217571258545 sec
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h1 id=&quot;test-data-with-logistic-regression&quot;&gt;Test Data with Logistic Regression:&lt;/h1&gt;
@@ -2337,42 +2360,42 @@ weighted avg       1.00      0.99      0.99     56961
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Logistic Regression:
               precision    recall  f1-score   support
 
-           0       0.92      0.99      0.95       100
-           1       0.99      0.90      0.94        89
+           0       0.90      0.98      0.94        96
+           1       0.98      0.89      0.93        93
 
-    accuracy                           0.95       189
-   macro avg       0.95      0.94      0.95       189
-weighted avg       0.95      0.95      0.95       189
+    accuracy                           0.94       189
+   macro avg       0.94      0.94      0.94       189
+weighted avg       0.94      0.94      0.94       189
 
 KNears Neighbors:
               precision    recall  f1-score   support
 
-           0       0.91      0.96      0.93       100
-           1       0.95      0.89      0.92        89
-
-    accuracy                           0.93       189
-   macro avg       0.93      0.92      0.93       189
-weighted avg       0.93      0.93      0.93       189
-
-Support Vector Classifier:
-              precision    recall  f1-score   support
-
-           0       0.91      0.98      0.94       100
-           1       0.98      0.89      0.93        89
+           0       0.90      0.98      0.94        96
+           1       0.98      0.89      0.93        93
 
     accuracy                           0.94       189
-   macro avg       0.94      0.93      0.94       189
+   macro avg       0.94      0.94      0.94       189
 weighted avg       0.94      0.94      0.94       189
 
 Support Vector Classifier:
               precision    recall  f1-score   support
 
-           0       0.90      0.94      0.92       100
-           1       0.93      0.89      0.91        89
+           0       0.90      1.00      0.95        96
+           1       1.00      0.88      0.94        93
 
-    accuracy                           0.92       189
+    accuracy                           0.94       189
+   macro avg       0.95      0.94      0.94       189
+weighted avg       0.95      0.94      0.94       189
+
+Support Vector Classifier:
+              precision    recall  f1-score   support
+
+           0       0.86      0.98      0.92        96
+           1       0.97      0.84      0.90        93
+
+    accuracy                           0.91       189
    macro avg       0.92      0.91      0.91       189
-weighted avg       0.92      0.92      0.92       189
+weighted avg       0.92      0.91      0.91       189
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Final Score in the test set of logistic regression
@@ -2440,12 +2463,12 @@ weighted avg       0.92      0.92      0.92       189
     &lt;tr&gt;
       &lt;th&gt;0&lt;/th&gt;
       &lt;td&gt;Random UnderSampling&lt;/td&gt;
-      &lt;td&gt;0.947090&lt;/td&gt;
+      &lt;td&gt;0.936508&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;th&gt;1&lt;/th&gt;
       &lt;td&gt;Oversampling (SMOTE)&lt;/td&gt;
-      &lt;td&gt;0.988115&lt;/td&gt;
+      &lt;td&gt;0.987992&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -2520,51 +2543,51 @@ _________________________________________________________________
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Epoch 1/20
-25/25 - 1s - loss: 0.5016 - accuracy: 0.7131 - val_loss: 0.4120 - val_accuracy: 0.7748 - 1s/epoch - 41ms/step
+25/25 - 2s - loss: 0.6606 - accuracy: 0.5662 - val_loss: 0.4294 - val_accuracy: 0.7020 - 2s/epoch - 83ms/step
 Epoch 2/20
-25/25 - 0s - loss: 0.2984 - accuracy: 0.8856 - val_loss: 0.3205 - val_accuracy: 0.9205 - 78ms/epoch - 3ms/step
+25/25 - 0s - loss: 0.3961 - accuracy: 0.7980 - val_loss: 0.2999 - val_accuracy: 0.9205 - 103ms/epoch - 4ms/step
 Epoch 3/20
-25/25 - 0s - loss: 0.2374 - accuracy: 0.9254 - val_loss: 0.2717 - val_accuracy: 0.9272 - 105ms/epoch - 4ms/step
+25/25 - 0s - loss: 0.2949 - accuracy: 0.9156 - val_loss: 0.2266 - val_accuracy: 0.9603 - 97ms/epoch - 4ms/step
 Epoch 4/20
-25/25 - 0s - loss: 0.1981 - accuracy: 0.9320 - val_loss: 0.2426 - val_accuracy: 0.9338 - 97ms/epoch - 4ms/step
+25/25 - 0s - loss: 0.2320 - accuracy: 0.9288 - val_loss: 0.1779 - val_accuracy: 0.9603 - 98ms/epoch - 4ms/step
 Epoch 5/20
-25/25 - 0s - loss: 0.1732 - accuracy: 0.9386 - val_loss: 0.2241 - val_accuracy: 0.9404 - 111ms/epoch - 4ms/step
+25/25 - 0s - loss: 0.1913 - accuracy: 0.9371 - val_loss: 0.1501 - val_accuracy: 0.9603 - 101ms/epoch - 4ms/step
 Epoch 6/20
-25/25 - 0s - loss: 0.1569 - accuracy: 0.9436 - val_loss: 0.2117 - val_accuracy: 0.9338 - 109ms/epoch - 4ms/step
+25/25 - 0s - loss: 0.1646 - accuracy: 0.9437 - val_loss: 0.1298 - val_accuracy: 0.9603 - 98ms/epoch - 4ms/step
 Epoch 7/20
-25/25 - 0s - loss: 0.1433 - accuracy: 0.9453 - val_loss: 0.2042 - val_accuracy: 0.9404 - 83ms/epoch - 3ms/step
+25/25 - 0s - loss: 0.1464 - accuracy: 0.9487 - val_loss: 0.1177 - val_accuracy: 0.9536 - 97ms/epoch - 4ms/step
 Epoch 8/20
-25/25 - 0s - loss: 0.1338 - accuracy: 0.9486 - val_loss: 0.2012 - val_accuracy: 0.9338 - 81ms/epoch - 3ms/step
+25/25 - 0s - loss: 0.1337 - accuracy: 0.9570 - val_loss: 0.1110 - val_accuracy: 0.9536 - 107ms/epoch - 4ms/step
 Epoch 9/20
-25/25 - 0s - loss: 0.1268 - accuracy: 0.9469 - val_loss: 0.1998 - val_accuracy: 0.9338 - 78ms/epoch - 3ms/step
+25/25 - 0s - loss: 0.1243 - accuracy: 0.9586 - val_loss: 0.1033 - val_accuracy: 0.9536 - 84ms/epoch - 3ms/step
 Epoch 10/20
-25/25 - 0s - loss: 0.1198 - accuracy: 0.9502 - val_loss: 0.1953 - val_accuracy: 0.9470 - 89ms/epoch - 4ms/step
+25/25 - 0s - loss: 0.1174 - accuracy: 0.9603 - val_loss: 0.1009 - val_accuracy: 0.9603 - 88ms/epoch - 4ms/step
 Epoch 11/20
-25/25 - 0s - loss: 0.1150 - accuracy: 0.9502 - val_loss: 0.1985 - val_accuracy: 0.9404 - 85ms/epoch - 3ms/step
+25/25 - 0s - loss: 0.1096 - accuracy: 0.9603 - val_loss: 0.0979 - val_accuracy: 0.9603 - 86ms/epoch - 3ms/step
 Epoch 12/20
-25/25 - 0s - loss: 0.1081 - accuracy: 0.9569 - val_loss: 0.1987 - val_accuracy: 0.9338 - 87ms/epoch - 3ms/step
+25/25 - 0s - loss: 0.1034 - accuracy: 0.9636 - val_loss: 0.0963 - val_accuracy: 0.9669 - 91ms/epoch - 4ms/step
 Epoch 13/20
-25/25 - 0s - loss: 0.1046 - accuracy: 0.9602 - val_loss: 0.2006 - val_accuracy: 0.9338 - 82ms/epoch - 3ms/step
+25/25 - 0s - loss: 0.0984 - accuracy: 0.9652 - val_loss: 0.0933 - val_accuracy: 0.9669 - 84ms/epoch - 3ms/step
 Epoch 14/20
-25/25 - 0s - loss: 0.0992 - accuracy: 0.9602 - val_loss: 0.2023 - val_accuracy: 0.9205 - 82ms/epoch - 3ms/step
+25/25 - 0s - loss: 0.0929 - accuracy: 0.9685 - val_loss: 0.0924 - val_accuracy: 0.9603 - 86ms/epoch - 3ms/step
 Epoch 15/20
-25/25 - 0s - loss: 0.0959 - accuracy: 0.9619 - val_loss: 0.1991 - val_accuracy: 0.9272 - 82ms/epoch - 3ms/step
+25/25 - 0s - loss: 0.0887 - accuracy: 0.9685 - val_loss: 0.0911 - val_accuracy: 0.9603 - 87ms/epoch - 3ms/step
 Epoch 16/20
-25/25 - 0s - loss: 0.0914 - accuracy: 0.9635 - val_loss: 0.1999 - val_accuracy: 0.9338 - 82ms/epoch - 3ms/step
+25/25 - 0s - loss: 0.0849 - accuracy: 0.9719 - val_loss: 0.0892 - val_accuracy: 0.9603 - 84ms/epoch - 3ms/step
 Epoch 17/20
-25/25 - 0s - loss: 0.0878 - accuracy: 0.9652 - val_loss: 0.2041 - val_accuracy: 0.9470 - 80ms/epoch - 3ms/step
+25/25 - 0s - loss: 0.0806 - accuracy: 0.9719 - val_loss: 0.0895 - val_accuracy: 0.9669 - 91ms/epoch - 4ms/step
 Epoch 18/20
-25/25 - 0s - loss: 0.0845 - accuracy: 0.9652 - val_loss: 0.2035 - val_accuracy: 0.9338 - 95ms/epoch - 4ms/step
+25/25 - 0s - loss: 0.0780 - accuracy: 0.9752 - val_loss: 0.0886 - val_accuracy: 0.9603 - 83ms/epoch - 3ms/step
 Epoch 19/20
-25/25 - 0s - loss: 0.0815 - accuracy: 0.9685 - val_loss: 0.2028 - val_accuracy: 0.9470 - 99ms/epoch - 4ms/step
+25/25 - 0s - loss: 0.0740 - accuracy: 0.9768 - val_loss: 0.0917 - val_accuracy: 0.9669 - 87ms/epoch - 3ms/step
 Epoch 20/20
-25/25 - 0s - loss: 0.0786 - accuracy: 0.9652 - val_loss: 0.2048 - val_accuracy: 0.9470 - 94ms/epoch - 4ms/step
+25/25 - 0s - loss: 0.0713 - accuracy: 0.9735 - val_loss: 0.0892 - val_accuracy: 0.9669 - 84ms/epoch - 3ms/step
 
 
 
 
 
-&amp;lt;keras.callbacks.History at 0x239d300bc48&amp;gt;
+&amp;lt;keras.callbacks.History at 0x157090d5988&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;undersample_predictions&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;undersample_model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;predict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;original_Xtest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;batch_size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;verbose&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
@@ -2626,8 +2649,8 @@ Epoch 20/20
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Confusion matrix, without normalization
-[[54963  1900]
- [    6    92]]
+[[54616  2247]
+ [    5    93]]
 Confusion matrix, without normalization
 [[56863     0]
  [    0    98]]
@@ -2653,51 +2676,51 @@ Confusion matrix, without normalization
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Epoch 1/20
-1214/1214 - 3s - loss: 0.0769 - accuracy: 0.9696 - val_loss: 0.0295 - val_accuracy: 0.9903 - 3s/epoch - 3ms/step
+1214/1214 - 4s - loss: 0.0729 - accuracy: 0.9737 - val_loss: 0.0314 - val_accuracy: 0.9903 - 4s/epoch - 4ms/step
 Epoch 2/20
-1214/1214 - 3s - loss: 0.0157 - accuracy: 0.9961 - val_loss: 0.0138 - val_accuracy: 0.9986 - 3s/epoch - 2ms/step
+1214/1214 - 3s - loss: 0.0144 - accuracy: 0.9966 - val_loss: 0.0061 - val_accuracy: 0.9998 - 3s/epoch - 3ms/step
 Epoch 3/20
-1214/1214 - 3s - loss: 0.0081 - accuracy: 0.9982 - val_loss: 0.0051 - val_accuracy: 0.9997 - 3s/epoch - 2ms/step
+1214/1214 - 3s - loss: 0.0079 - accuracy: 0.9982 - val_loss: 0.0054 - val_accuracy: 0.9998 - 3s/epoch - 3ms/step
 Epoch 4/20
-1214/1214 - 3s - loss: 0.0056 - accuracy: 0.9988 - val_loss: 0.0013 - val_accuracy: 1.0000 - 3s/epoch - 2ms/step
+1214/1214 - 3s - loss: 0.0053 - accuracy: 0.9989 - val_loss: 0.0022 - val_accuracy: 1.0000 - 3s/epoch - 3ms/step
 Epoch 5/20
-1214/1214 - 3s - loss: 0.0042 - accuracy: 0.9991 - val_loss: 0.0032 - val_accuracy: 0.9998 - 3s/epoch - 2ms/step
+1214/1214 - 3s - loss: 0.0042 - accuracy: 0.9992 - val_loss: 0.0044 - val_accuracy: 0.9999 - 3s/epoch - 3ms/step
 Epoch 6/20
-1214/1214 - 3s - loss: 0.0034 - accuracy: 0.9993 - val_loss: 0.0168 - val_accuracy: 0.9983 - 3s/epoch - 3ms/step
+1214/1214 - 3s - loss: 0.0035 - accuracy: 0.9993 - val_loss: 0.0030 - val_accuracy: 1.0000 - 3s/epoch - 3ms/step
 Epoch 7/20
-1214/1214 - 3s - loss: 0.0030 - accuracy: 0.9994 - val_loss: 0.0027 - val_accuracy: 0.9999 - 3s/epoch - 3ms/step
+1214/1214 - 3s - loss: 0.0030 - accuracy: 0.9994 - val_loss: 8.4192e-04 - val_accuracy: 1.0000 - 3s/epoch - 3ms/step
 Epoch 8/20
-1214/1214 - 3s - loss: 0.0027 - accuracy: 0.9995 - val_loss: 0.0015 - val_accuracy: 1.0000 - 3s/epoch - 3ms/step
+1214/1214 - 3s - loss: 0.0027 - accuracy: 0.9995 - val_loss: 0.0025 - val_accuracy: 0.9998 - 3s/epoch - 3ms/step
 Epoch 9/20
-1214/1214 - 3s - loss: 0.0024 - accuracy: 0.9995 - val_loss: 6.3834e-04 - val_accuracy: 1.0000 - 3s/epoch - 2ms/step
+1214/1214 - 3s - loss: 0.0023 - accuracy: 0.9995 - val_loss: 0.0056 - val_accuracy: 0.9981 - 3s/epoch - 3ms/step
 Epoch 10/20
-1214/1214 - 3s - loss: 0.0021 - accuracy: 0.9996 - val_loss: 0.0012 - val_accuracy: 0.9999 - 3s/epoch - 3ms/step
+1214/1214 - 3s - loss: 0.0022 - accuracy: 0.9995 - val_loss: 0.0011 - val_accuracy: 1.0000 - 3s/epoch - 3ms/step
 Epoch 11/20
-1214/1214 - 3s - loss: 0.0018 - accuracy: 0.9996 - val_loss: 0.0012 - val_accuracy: 0.9998 - 3s/epoch - 2ms/step
+1214/1214 - 3s - loss: 0.0018 - accuracy: 0.9996 - val_loss: 0.0052 - val_accuracy: 0.9986 - 3s/epoch - 3ms/step
 Epoch 12/20
-1214/1214 - 3s - loss: 0.0017 - accuracy: 0.9996 - val_loss: 3.3734e-04 - val_accuracy: 1.0000 - 3s/epoch - 2ms/step
+1214/1214 - 3s - loss: 0.0020 - accuracy: 0.9996 - val_loss: 5.1910e-04 - val_accuracy: 1.0000 - 3s/epoch - 3ms/step
 Epoch 13/20
-1214/1214 - 3s - loss: 0.0016 - accuracy: 0.9997 - val_loss: 9.1454e-04 - val_accuracy: 1.0000 - 3s/epoch - 3ms/step
+1214/1214 - 3s - loss: 0.0017 - accuracy: 0.9997 - val_loss: 5.2539e-04 - val_accuracy: 1.0000 - 3s/epoch - 3ms/step
 Epoch 14/20
-1214/1214 - 3s - loss: 0.0014 - accuracy: 0.9997 - val_loss: 7.4361e-04 - val_accuracy: 1.0000 - 3s/epoch - 2ms/step
+1214/1214 - 3s - loss: 0.0015 - accuracy: 0.9997 - val_loss: 2.3989e-04 - val_accuracy: 1.0000 - 3s/epoch - 3ms/step
 Epoch 15/20
-1214/1214 - 3s - loss: 0.0014 - accuracy: 0.9997 - val_loss: 0.0024 - val_accuracy: 0.9993 - 3s/epoch - 2ms/step
+1214/1214 - 3s - loss: 0.0014 - accuracy: 0.9997 - val_loss: 2.3781e-04 - val_accuracy: 1.0000 - 3s/epoch - 3ms/step
 Epoch 16/20
-1214/1214 - 3s - loss: 0.0012 - accuracy: 0.9997 - val_loss: 7.2585e-04 - val_accuracy: 1.0000 - 3s/epoch - 2ms/step
+1214/1214 - 4s - loss: 0.0013 - accuracy: 0.9997 - val_loss: 2.5659e-04 - val_accuracy: 1.0000 - 4s/epoch - 4ms/step
 Epoch 17/20
-1214/1214 - 3s - loss: 0.0011 - accuracy: 0.9998 - val_loss: 3.6759e-04 - val_accuracy: 0.9999 - 3s/epoch - 2ms/step
+1214/1214 - 5s - loss: 0.0013 - accuracy: 0.9997 - val_loss: 8.1755e-04 - val_accuracy: 0.9999 - 5s/epoch - 4ms/step
 Epoch 18/20
-1214/1214 - 3s - loss: 0.0010 - accuracy: 0.9998 - val_loss: 2.6780e-04 - val_accuracy: 1.0000 - 3s/epoch - 2ms/step
+1214/1214 - 4s - loss: 0.0014 - accuracy: 0.9997 - val_loss: 0.0019 - val_accuracy: 0.9999 - 4s/epoch - 3ms/step
 Epoch 19/20
-1214/1214 - 3s - loss: 0.0015 - accuracy: 0.9997 - val_loss: 0.0010 - val_accuracy: 1.0000 - 3s/epoch - 2ms/step
+1214/1214 - 3s - loss: 9.0269e-04 - accuracy: 0.9998 - val_loss: 2.1974e-04 - val_accuracy: 1.0000 - 3s/epoch - 3ms/step
 Epoch 20/20
-1214/1214 - 3s - loss: 9.7896e-04 - accuracy: 0.9998 - val_loss: 0.0014 - val_accuracy: 1.0000 - 3s/epoch - 2ms/step
+1214/1214 - 4s - loss: 0.0011 - accuracy: 0.9997 - val_loss: 4.4519e-04 - val_accuracy: 1.0000 - 4s/epoch - 3ms/step
 
 
 
 
 
-&amp;lt;keras.callbacks.History at 0x239e9e05148&amp;gt;
+&amp;lt;keras.callbacks.History at 0x15709109208&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;oversample_predictions&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;oversample_model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;predict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;original_Xtest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;batch_size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;verbose&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
@@ -2721,8 +2744,8 @@ Epoch 20/20
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Confusion matrix, without normalization
-[[56851    12]
- [   28    70]]
+[[56844    19]
+ [   27    71]]
 Confusion matrix, without normalization
 [[56863     0]
  [    0    98]]
