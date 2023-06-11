@@ -1751,18 +1751,22 @@ In this section we will train four types of classifiers and decide which classif
 </ul>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Undersampling before cross validating (prone to overfit)
+# 교차 검증 전의 언더샘플링(과적합이 발생하기 쉬움)
 </span><span class="n">X</span> <span class="o">=</span> <span class="n">new_df</span><span class="p">.</span><span class="n">drop</span><span class="p">(</span><span class="s">'Class'</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
 <span class="n">y</span> <span class="o">=</span> <span class="n">new_df</span><span class="p">[</span><span class="s">'Class'</span><span class="p">]</span>
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Our data is already scaled we should split our training and test sets
+# 이미 X,y 데이터는 스케일화 되어 있어 데이터 분리만 합니다.
 </span><span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">train_test_split</span>
 
 <span class="c1"># This is explicitly used for undersampling.
+# 이는 언더샘플링에 명시적으로 사용됩니다.
 </span><span class="n">X_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">test_size</span><span class="o">=</span><span class="mf">0.2</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">)</span>
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Turn the values into an array for feeding the classification algorithms.
+# 분류 알고리즘에 입력하기 위해 값으로 배열로 전환합니다.
 </span><span class="n">X_train</span> <span class="o">=</span> <span class="n">X_train</span><span class="p">.</span><span class="n">values</span>
 <span class="n">X_test</span> <span class="o">=</span> <span class="n">X_test</span><span class="p">.</span><span class="n">values</span>
 <span class="n">y_train</span> <span class="o">=</span> <span class="n">y_train</span><span class="p">.</span><span class="n">values</span>
@@ -1770,6 +1774,7 @@ In this section we will train four types of classifiers and decide which classif
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Let's implement simple classifiers
+# 단순 분류기를 구현
 </span>
 <span class="n">classifiers</span> <span class="o">=</span> <span class="p">{</span>
     <span class="s">"LogisiticRegression"</span><span class="p">:</span> <span class="n">LogisticRegression</span><span class="p">(),</span> <span class="c1"># 로지스틱 회귀분석을 활용한 분류
@@ -1780,8 +1785,8 @@ In this section we will train four types of classifiers and decide which classif
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Wow our scores are getting even high scores even when applying cross validation.
+# 교차검증 유효성 검사를 적용했을 때에도 높은 점수를 받고 있습니다.
 </span><span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">cross_val_score</span>
-
 
 <span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">classifier</span> <span class="ow">in</span> <span class="n">classifiers</span><span class="p">.</span><span class="n">items</span><span class="p">():</span>
     <span class="n">classifier</span><span class="p">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
@@ -1796,17 +1801,17 @@ Classifiers:  DecisionTreeClassifier Has a training score of 92.0 % accuracy sco
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Use GridSearchCV to find the best parameters.
+# GridSearchCV 를 사용해서 최적의 파라미터를 찾습니다.
 </span><span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">GridSearchCV</span>
 
-
 <span class="c1"># Logistic Regression 
+# 로지스틱 회귀분석
 </span><span class="n">log_reg_params</span> <span class="o">=</span> <span class="p">{</span><span class="s">"penalty"</span><span class="p">:</span> <span class="p">[</span><span class="s">'l1'</span><span class="p">,</span> <span class="s">'l2'</span><span class="p">],</span> <span class="s">'C'</span><span class="p">:</span> <span class="p">[</span><span class="mf">0.001</span><span class="p">,</span> <span class="mf">0.01</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">1000</span><span class="p">]}</span>
-
-
 
 <span class="n">grid_log_reg</span> <span class="o">=</span> <span class="n">GridSearchCV</span><span class="p">(</span><span class="n">LogisticRegression</span><span class="p">(),</span> <span class="n">log_reg_params</span><span class="p">)</span>
 <span class="n">grid_log_reg</span><span class="p">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
 <span class="c1"># We automatically get the logistic regression with the best parameters.
+# 최적의 파라미터로 로지스틱 회귀를 자동으로 계산합니다.
 </span><span class="n">log_reg</span> <span class="o">=</span> <span class="n">grid_log_reg</span><span class="p">.</span><span class="n">best_estimator_</span>
 
 <span class="n">knears_params</span> <span class="o">=</span> <span class="p">{</span><span class="s">"n_neighbors"</span><span class="p">:</span> <span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">1</span><span class="p">)),</span> <span class="s">'algorithm'</span><span class="p">:</span> <span class="p">[</span><span class="s">'auto'</span><span class="p">,</span> <span class="s">'ball_tree'</span><span class="p">,</span> <span class="s">'kd_tree'</span><span class="p">,</span> <span class="s">'brute'</span><span class="p">]}</span>
@@ -1814,23 +1819,28 @@ Classifiers:  DecisionTreeClassifier Has a training score of 92.0 % accuracy sco
 <span class="n">grid_knears</span> <span class="o">=</span> <span class="n">GridSearchCV</span><span class="p">(</span><span class="n">KNeighborsClassifier</span><span class="p">(),</span> <span class="n">knears_params</span><span class="p">)</span>
 <span class="n">grid_knears</span><span class="p">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
 <span class="c1"># KNears best estimator
+# KNears 최적의 추정치
 </span><span class="n">knears_neighbors</span> <span class="o">=</span> <span class="n">grid_knears</span><span class="p">.</span><span class="n">best_estimator_</span>
 
 <span class="c1"># Support Vector Classifier
+# 서포트 백터 분류기
 </span><span class="n">svc_params</span> <span class="o">=</span> <span class="p">{</span><span class="s">'C'</span><span class="p">:</span> <span class="p">[</span><span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.7</span><span class="p">,</span> <span class="mf">0.9</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="s">'kernel'</span><span class="p">:</span> <span class="p">[</span><span class="s">'rbf'</span><span class="p">,</span> <span class="s">'poly'</span><span class="p">,</span> <span class="s">'sigmoid'</span><span class="p">,</span> <span class="s">'linear'</span><span class="p">]}</span>
 <span class="n">grid_svc</span> <span class="o">=</span> <span class="n">GridSearchCV</span><span class="p">(</span><span class="n">SVC</span><span class="p">(),</span> <span class="n">svc_params</span><span class="p">)</span>
 <span class="n">grid_svc</span><span class="p">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
 
 <span class="c1"># SVC best estimator
+# SVC 최적의 추정치
 </span><span class="n">svc</span> <span class="o">=</span> <span class="n">grid_svc</span><span class="p">.</span><span class="n">best_estimator_</span>
 
 <span class="c1"># DecisionTree Classifier
+# 의사결정트리 분류기
 </span><span class="n">tree_params</span> <span class="o">=</span> <span class="p">{</span><span class="s">"criterion"</span><span class="p">:</span> <span class="p">[</span><span class="s">"gini"</span><span class="p">,</span> <span class="s">"entropy"</span><span class="p">],</span> <span class="s">"max_depth"</span><span class="p">:</span> <span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">1</span><span class="p">)),</span> 
               <span class="s">"min_samples_leaf"</span><span class="p">:</span> <span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">1</span><span class="p">))}</span>
 <span class="n">grid_tree</span> <span class="o">=</span> <span class="n">GridSearchCV</span><span class="p">(</span><span class="n">DecisionTreeClassifier</span><span class="p">(),</span> <span class="n">tree_params</span><span class="p">)</span>
 <span class="n">grid_tree</span><span class="p">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
 
 <span class="c1"># tree best estimator
+# 트리의 최적 추정치
 </span><span class="n">tree_clf</span> <span class="o">=</span> <span class="n">grid_tree</span><span class="p">.</span><span class="n">best_estimator_</span>
 </code></pre></div></div>
 
@@ -1840,7 +1850,6 @@ Classifiers:  DecisionTreeClassifier Has a training score of 92.0 % accuracy sco
 <span class="k">for</span> <span class="n">train_index</span><span class="p">,</span> <span class="n">test_index</span> <span class="ow">in</span> <span class="n">sss</span><span class="p">.</span><span class="n">split</span><span class="p">(</span><span class="n">undersample_X</span><span class="p">,</span> <span class="n">undersample_y</span><span class="p">):</span>
     <span class="k">print</span><span class="p">(</span><span class="s">"Train:"</span><span class="p">,</span> <span class="n">train_index</span><span class="p">,</span> <span class="s">"Test:"</span><span class="p">,</span> <span class="n">test_index</span><span class="p">)</span>
     <span class="n">undersample_Xtrain</span><span class="p">,</span> <span class="n">undersample_Xtest</span> <span class="o">=</span> <span class="n">undersample_X</span><span class="p">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">train_index</span><span class="p">],</span> <span class="n">undersample_X</span><span class="p">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">test_index</span><span class="p">]</span>
-    
 </code></pre></div></div>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Train: [ 56957  56958  56959 ... 284804 284805 284806] Test: [    0     1     2 ... 57730 57849 57878]
@@ -1851,10 +1860,10 @@ Train: [     0      1      2 ... 227866 227867 227868] Test: [211163 211291 2133
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Overfitting Case
+# 과적합 케이스
 </span>
 <span class="n">log_reg_score</span> <span class="o">=</span> <span class="n">cross_val_score</span><span class="p">(</span><span class="n">log_reg</span><span class="p">,</span> <span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">cv</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
 <span class="k">print</span><span class="p">(</span><span class="s">'Logistic Regression Cross Validation Score: '</span><span class="p">,</span> <span class="nb">round</span><span class="p">(</span><span class="n">log_reg_score</span><span class="p">.</span><span class="n">mean</span><span class="p">()</span> <span class="o">*</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">2</span><span class="p">).</span><span class="n">astype</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span> <span class="o">+</span> <span class="s">'%'</span><span class="p">)</span>
-
 
 <span class="n">knears_score</span> <span class="o">=</span> <span class="n">cross_val_score</span><span class="p">(</span><span class="n">knears_neighbors</span><span class="p">,</span> <span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">cv</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
 <span class="k">print</span><span class="p">(</span><span class="s">'Knears Neighbors Cross Validation Score'</span><span class="p">,</span> <span class="nb">round</span><span class="p">(</span><span class="n">knears_score</span><span class="p">.</span><span class="n">mean</span><span class="p">()</span> <span class="o">*</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">2</span><span class="p">).</span><span class="n">astype</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span> <span class="o">+</span> <span class="s">'%'</span><span class="p">)</span>
@@ -1880,7 +1889,7 @@ DecisionTree Classifier Cross Validation Score 93.54%
     <span class="k">print</span><span class="p">(</span><span class="s">"Train:"</span><span class="p">,</span> <span class="n">train_index</span><span class="p">,</span> <span class="s">"Test:"</span><span class="p">,</span> <span class="n">test_index</span><span class="p">)</span>
     <span class="n">undersample_Xtrain</span><span class="p">,</span> <span class="n">undersample_Xtest</span> <span class="o">=</span> <span class="n">undersample_X</span><span class="p">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">train_index</span><span class="p">],</span> <span class="n">undersample_X</span><span class="p">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">test_index</span><span class="p">]</span>
     <span class="n">undersample_ytrain</span><span class="p">,</span> <span class="n">undersample_ytest</span> <span class="o">=</span> <span class="n">undersample_y</span><span class="p">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">train_index</span><span class="p">],</span> <span class="n">undersample_y</span><span class="p">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">test_index</span><span class="p">]</span>
-    
+
 <span class="n">undersample_Xtrain</span> <span class="o">=</span> <span class="n">undersample_Xtrain</span><span class="p">.</span><span class="n">values</span>
 <span class="n">undersample_Xtest</span> <span class="o">=</span> <span class="n">undersample_Xtest</span><span class="p">.</span><span class="n">values</span>
 <span class="n">undersample_ytrain</span> <span class="o">=</span> <span class="n">undersample_ytrain</span><span class="p">.</span><span class="n">values</span>
@@ -1902,6 +1911,7 @@ Train: [     0      1      2 ... 227866 227867 227868] Test: [211163 211291 2133
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Implementing NearMiss Technique 
 # Distribution of NearMiss (Just to see how it distributes the labels we won't use these variables)
+# 다수 클래스에 속하는 샘플을 무작위로 제거하여 데이터셋의 클래스를 균형있게 만드는 방식으로 작동
 </span><span class="kn">from</span> <span class="nn">imblearn.under_sampling</span> <span class="kn">import</span> <span class="n">RandomUnderSampler</span>  
 
 <span class="n">under_sampler</span> <span class="o">=</span> <span class="n">RandomUnderSampler</span><span class="p">()</span>
@@ -2147,7 +2157,11 @@ Decision Tree Classifier:  0.9327374301675977
 <p><a id="logistic"></a>
 In this section we will ive a deeper look into the <b> logistic regression classifier</b>.</p>
 
-<h3 id="terms">Terms:</h3>
+<h2 id="로지스틱-회귀에-대해서-자세히-살펴보기">로지스틱 회귀에 대해서 자세히 살펴보기</h2>
+
+<p>이 섹션에서는 로지스틱 회귀 분류기에 대해 자세히 살펴보겠습니다.</p>
+
+<h3 id="terms">Terms</h3>
 <ul>
 <li><b>True Positives:</b> Correctly Classified Fraud Transactions </li>
 <li><b>False Positives:</b> Incorrectly Classified Fraud Transactions</li>
@@ -2159,11 +2173,31 @@ In this section we will ive a deeper look into the <b> logistic regression class
 <li><b>Precision/Recall Tradeoff: </b> The more precise (selective) our model is, the less cases it will detect. Example: Assuming that our model has a precision of 95%, Let's say there are only 5 fraud cases in which the model is 95% precise or more that these are fraud cases. Then let's say there are 5 more cases that our model considers 90% to be a fraud case, if we lower the precision there are more cases that our model will be able to detect. </li>
 </ul>
 
+<h3 id="용어">용어:</h3>
+
+<ul>
+  <li>True Positives : 올바르게 분류된 Fraud 거래</li>
+  <li>False Positives : 잘못 분류된 Fraud 거래</li>
+  <li>True Negative : 올바르게 분류된 Non-Fraud 거래</li>
+  <li>False Negative : 잘못 분류된 Non-Fraud 거래</li>
+  <li>Precision(정밀도) : TP / (TP + FP), Fraud 라고 예측된 것 중 실제 Fraud 인 확률</li>
+  <li>Recall(재현율) : TP / (TP + FN), 실제 Fraud 중 예측하여 맞춘 확률</li>
+  <li>Precision/Recall Trade-off
+    <ul>
+      <li>모델이 정확할수록 탐지할 수 있는 사례가 줄어듭니다.</li>
+      <li>예시 : 모델의 정확도가 95%라고 가정할 때, 모델의 정확도가 95% 이상인 Fraud 사례가 5건만 있다고 가정해 보겠습니다. 그런 다음 모델이 90%를 사기 사례로 간주하는 사례가 5건 더 있다고 가정하면, 정확도를 낮추면 모델이 탐지할 수 있는 사례가 더 많아집니다.</li>
+    </ul>
+  </li>
+</ul>
+
 <h3 id="summary-2">Summary:</h3>
 <ul>
 <li> <b>Precision starts to descend</b> between 0.90 and 0.92 nevertheless, our precision score is still pretty high and still we have a descent recall score. </li>
-
 </ul>
+
+<h3 id="요약-5">요약:</h3>
+
+<p>정밀도가 0.9에서 0.92 사이로 감수하기 시작해도, 정밀도 점수는 상당히 높으며 재현율 점수도 감소합니다.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">logistic_roc_curve</span><span class="p">(</span><span class="n">log_fpr</span><span class="p">,</span> <span class="n">log_tpr</span><span class="p">):</span>
     <span class="n">plt</span><span class="p">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span><span class="mi">8</span><span class="p">))</span>
@@ -3009,6 +3043,8 @@ Confusion matrix, without normalization
                         <div class="read-next-card-content">
                             <ul>
                                 
+                                
+                                  
                                 
                                   
                                 
