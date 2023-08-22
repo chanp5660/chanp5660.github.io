@@ -1,4 +1,159 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-08-20T18:11:55+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">분석과제 목표가치(KPI)</title><link href="http://localhost:4000/%EB%B6%84%EC%84%9D%EA%B3%BC%EC%A0%9C-%EB%AA%A9%ED%91%9C%EA%B0%80%EC%B9%98_KPI" rel="alternate" type="text/html" title="분석과제 목표가치(KPI)" /><published>2023-08-20T00:00:00+09:00</published><updated>2023-08-20T00:00:00+09:00</updated><id>http://localhost:4000/%EB%B6%84%EC%84%9D%EA%B3%BC%EC%A0%9C%20%EB%AA%A9%ED%91%9C%EA%B0%80%EC%B9%98_KPI</id><content type="html" xml:base="http://localhost:4000/%EB%B6%84%EC%84%9D%EA%B3%BC%EC%A0%9C-%EB%AA%A9%ED%91%9C%EA%B0%80%EC%B9%98_KPI">&lt;h1 id=&quot;분석과제의-목표가치kpi&quot;&gt;분석과제의 목표가치(KPI)&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-08-23T00:01:32+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Engineer Chanp5660</title><subtitle>박찬</subtitle><entry><title type="html">수치모델 WaveWatch3</title><link href="http://localhost:4000/%EC%88%98%EC%B9%98%EB%AA%A8%EB%8D%B8_WaveWatch3" rel="alternate" type="text/html" title="수치모델 WaveWatch3" /><published>2023-08-22T00:00:00+09:00</published><updated>2023-08-22T00:00:00+09:00</updated><id>http://localhost:4000/%EC%88%98%EC%B9%98%EB%AA%A8%EB%8D%B8_WaveWatch3</id><content type="html" xml:base="http://localhost:4000/%EC%88%98%EC%B9%98%EB%AA%A8%EB%8D%B8_WaveWatch3">&lt;h1 id=&quot;wavewatch-iii-모델이란&quot;&gt;WaveWatch III 모델이란?&lt;/h1&gt;
+
+&lt;p&gt;WaveWatch III(WW3)는 미국 국립해양대기청(NOAA) 산하 국립환경예측센터(NCEP)에서 개발한 3세대 수치파 모델입니다. 이는 세계 해양 및 해안 지역의 다양한 지역에서 해양 표면파의 거동을 예측하도록 설계되었습니다. 이 모델은 해양 안전, 해양 작업, 해안 엔지니어링, 기후 연구 등 광범위한 응용 분야에 사용됩니다.&lt;/p&gt;
+
+&lt;p&gt;전반적으로 WaveWatch III는 기상 및 해양학 데이터를 정교한 수학 방정식과 결합하여 해양 표면파의 동작을 시뮬레이션하는 복잡한 수치 모델입니다. 그 예측은 일기예보부터 해양 안전, 해안 관리에 이르기까지 광범위한 응용 분야에 유용합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;작동-방식&quot;&gt;작동 방식&lt;/h2&gt;
+
+&lt;h3 id=&quot;파도-생성wave-generation&quot;&gt;파도 생성(Wave Generation)&lt;/h3&gt;
+&lt;p&gt;모델은 바람에 의한 파도 생성을 시뮬레이션하는 것으로 시작됩니다. 바다 표면을 가로질러 부는 바람은 에너지를 물에 전달하여 파도를 생성합니다. WaveWatch III는 속도, 방향 등 바람장의 특성을 고려하여 초기 파도 조건을 계산합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;파도-전파wave-propagation&quot;&gt;파도 전파(Wave Propagation)&lt;/h3&gt;
+&lt;p&gt;그런 다음 모델은 이러한 초기 파도가 바다를 통해 어떻게 전파되는지 계산합니다. 여기에는 수심, 해류, 다른 파도와의 상호 작용과 같은 요소를 고려하는 것이 포함됩니다. 이 모델은 관심 영역 전체를 포괄하는 수치 그리드를 사용합니다. 각 그리드 셀에는 파고, 방향, 주기와 같은 파동 특성에 대한 정보가 포함되어 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;파도-상호-작용wave-interaction&quot;&gt;파도 상호 작용(Wave Interaction)&lt;/h3&gt;
+&lt;p&gt;파도는 독립적으로 이동하지 않습니다. 그들은 서로 상호 작용합니다. 이러한 상호 작용은 파도 깨짐 및 파도 병합과 같은 현상으로 이어질 수 있습니다. WaveWatch III는 전체 파동장에 큰 영향을 미칠 수 있는 이러한 상호 작용을 설명합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;파도-소실wave-dissipation&quot;&gt;파도 소실(Wave Dissipation)&lt;/h3&gt;
+&lt;p&gt;파도가 이동하면서 공기 및 해저와의 마찰과 같은 다양한 요인으로 인해 에너지를 잃습니다. 모델은 이러한 소산을 시뮬레이션하여 시간이 지남에 따라 파동장이 어떻게 전개될지 예측합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;출력-및-시각화output-and-visualization&quot;&gt;출력 및 시각화(Output and Visualization)&lt;/h3&gt;
+&lt;p&gt;모델은 시간과 공간의 다양한 지점에서 예측된 파동 조건을 설명하는 출력 데이터를 생성합니다. 이 출력에는 파도 높이, 파도 방향, 파도 주기 등에 대한 정보가 포함될 수 있습니다. 그런 다음 지도, 그래프 및 애니메이션을 사용하여 이 데이터를 시각화하여 주어진 기간 동안 파도 상태가 어떻게 변하는지에 대한 통찰력을 제공할 수 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;검증-및-교정validation-and-calibration&quot;&gt;검증 및 교정(Validation and Calibration)&lt;/h3&gt;
+&lt;p&gt;WaveWatch III 모델은 운영 목적으로 사용되기 전에 실제 파도 관측을 사용하여 검증 및 교정됩니다. 모델의 예측을 실제 관찰과 비교하면 예측의 정확성과 신뢰성을 보장하는 데 도움이 됩니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;지속적인-업데이트continuous-updating&quot;&gt;지속적인 업데이트(Continuous Updating)&lt;/h3&gt;
+&lt;p&gt;모델은 지속적으로 실행되어 새 데이터가 제공될 때 예측을 업데이트합니다. 이를 통해 몇 시간부터 며칠까지 다양한 시간대에 대한 예측을 제공할 수 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;모델-작동의-기초가-되는-주요-원칙&quot;&gt;모델 작동의 기초가 되는 주요 원칙&lt;/h2&gt;
+
+&lt;p&gt;WaveWatch III는 이러한 원리를 포괄적인 수치 프레임워크에 통합하여 복잡한 방정식 시스템을 풀어 해양 표면파의 동작을 시뮬레이션합니다. 모델의 정확성과 신뢰성은 입력 데이터의 품질, 계산 그리드의 해상도, 파도 동작에 영향을 미치는 다양한 물리적 프로세스의 표현에 따라 달라집니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;바람에-의한-파동-생성&quot;&gt;바람에 의한 파동 생성&lt;/h3&gt;
+&lt;p&gt;파도는 바람에서 수면으로 에너지가 전달되어 생성됩니다. 이 과정은 풍속, 지속 시간 및 방향에 따라 결정됩니다. 이 모델은 “바람 입력 함수”라는 공식을 사용하여 바람에서 파도로 전달되는 에너지의 양을 계산합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;분산-관계&quot;&gt;분산 관계&lt;/h3&gt;
+&lt;p&gt;서로 다른 파장(또는 주기)의 파동은 분산 관계로 인해 물 속에서 서로 다른 속도로 이동합니다. 분산 관계는 수심에 따라 달라지며 다양한 수심 측량에서 파동 전파를 정확하게 시뮬레이션하는 데 필수적입니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;파동-전파-방정식&quot;&gt;파동 전파 방정식&lt;/h3&gt;
+&lt;p&gt;이 모델은 파동 작용 균형 방정식으로 알려진 일련의 편미분 방정식을 사용하여 파동 특성(예: 파고, 파향, 파주기)의 공간적 및 시간적 변화를 시뮬레이션합니다. 이러한 방정식은 파동 이류(이동), 분산, 굴절(다양한 깊이로 인한 파동의 휘어짐) 및 소산과 같은 요소를 고려합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;파동-상호작용-및-비선형-효과&quot;&gt;파동 상호작용 및 비선형 효과&lt;/h3&gt;
+&lt;p&gt;파동은 파동-파동 상호작용 및 파동 쇄파와 같은 비선형 과정을 통해 서로 상호작용합니다. 이러한 상호 작용은 파동 특성의 변화와 심지어 새로운 파동의 생성으로 이어질 수 있습니다. 모델은 이러한 비선형 효과를 포착하기 위해 고차 항을 통합합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;파동-소멸&quot;&gt;파동 소멸&lt;/h3&gt;
+&lt;p&gt;파도는 화이트캐핑(파도 꼭대기에 거품 형성), 바닥 마찰, 파도 깨짐 등 다양한 메커니즘으로 인해 에너지를 잃습니다. 이 모델은 시간이 지남에 따라 파동 에너지의 감쇠를 예측하는 데 중요한 이러한 소산 과정을 설명하기 위해 경험적 공식을 통합합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;공간-그리드-및-시간-단계&quot;&gt;공간 그리드 및 시간 단계&lt;/h3&gt;
+&lt;p&gt;계산 영역(모델링되는 영역)은 개별 점의 그리드로 나뉩니다. 모델은 이 그리드에서 수치적으로 파동 방정식을 풀고 시간 단계라는 기술을 사용하여 작은 시간 간격에 걸쳐 파동 특성을 업데이트합니다. 시간 단계가 작을수록 시뮬레이션이 더 정확해지지만 계산 요구도 증가합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;경계-조건&quot;&gt;경계 조건&lt;/h3&gt;
+&lt;p&gt;계산 그리드의 가장자리는 모델링된 영역의 경계를 나타냅니다. 이 모델은 도메인 외부에서 들어오는 파도를 설명하는 경계 조건을 사용합니다. 이러한 조건은 영역에 들어오는 파동이 실제 조건을 정확하게 반영하도록 보장합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;검증-및-교정&quot;&gt;검증 및 교정&lt;/h3&gt;
+&lt;p&gt;모델 예측의 정확성을 보장하기 위해 관측된 파동 데이터에 대해 모델을 검증하고 보정합니다. 여기에는 모델의 예측을 실제 측정과 비교하고 정확도를 높이기 위해 필요에 따라 조정하는 작업이 포함됩니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;입력-및-출력&quot;&gt;입력 및 출력&lt;/h2&gt;
+
+&lt;p&gt;이는 WaveWatch III 모델의 입력 매개변수 및 출력 값의 몇 가지 예일 뿐입니다. 해수면파 거동을 시뮬레이션하고 예측하는 이 모델의 기능은 해양 안전 및 항해부터 해안 엔지니어링 및 환경 모니터링에 이르기까지 광범위한 응용 분야에 귀중한 정보를 제공합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;입력-매개변수&quot;&gt;입력 매개변수&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;바람 데이터 : 풍속과 방향, 이는 바람에서 바다 표면으로 전달되어 파도를 생성하는 에너지를 결정하는 데 중요합니다.&lt;/li&gt;
+  &lt;li&gt;대기압 : 대기압 분포는 해수면에 영향을 미치고 파도 전파에 영향을 줄 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;해류 : 해류에 대한 정보는 해류가 파도 전파에 미치는 영향을 설명하는 데 도움이 됩니다.&lt;/li&gt;
+  &lt;li&gt;수심 측정 : 파동 굴절 및 기타 해저와의 상호 작용을 시뮬레이션하려면 해저 깊이에 대한 자세한 정보가 필요합니다.&lt;/li&gt;
+  &lt;li&gt;초기 웨이브 조건 : 파고, 방향, 주기 등 초기 파동장을 설명하는 입력 매개변수입니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;출력-매개변수&quot;&gt;출력 매개변수&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;파도 : 평균 해수면 위의 파도의 높이.&lt;/li&gt;
+  &lt;li&gt;파동 방향 : 파도가 접근하는 방향은 일반적으로 진북을 기준으로 시계 방향으로 각도로 측정됩니다.&lt;/li&gt;
+  &lt;li&gt;파동 주기 : 한 번의 전파주기가 고정점을 통과하는 데 걸리는 시간입니다. 주기가 길수록 파도가 커집니다.&lt;/li&gt;
+  &lt;li&gt;파동 스펙트럼 : 다양한 파동 주파수와 방향 간의 에너지 분포를 그래픽으로 표현한 것입니다. 이는 파동장의 구성에 대한 통찰력을 제공합니다.&lt;/li&gt;
+  &lt;li&gt;파동 에너지 플럭스 : 단위시간당 단위면적을 통과하는 파동에너지의 양. 이는 파동장 내 에너지 전달을 이해하는 데 중요합니다.&lt;/li&gt;
+  &lt;li&gt;파동 소산율 : 화이트캡핑, 바닥 마찰 등 다양한 소산 메커니즘으로 인해 파력 에너지가 얼마나 손실되는지에 대한 정보입니다.&lt;/li&gt;
+  &lt;li&gt;파도 깨는 강도 : 파도가 부서지는 위치와 정도를 나타냅니다. 부서지는 파도는 해안 역학에 큰 영향을 미칠 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;파동에 의한 전류 : 파도의 움직임에 의해 생성되는 전류. 이는 항해, 퇴적물 이동 및 해안 침식에 영향을 미칠 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;파도에 의한 응력 및 압력 : 바다 표면에 파도가 가하는 응력과 압력에 대한 정보. 이는 파도가 구조물과 선박에 미치는 영향을 이해하는 데 적합합니다.&lt;/li&gt;
+  &lt;li&gt;예측 파동 조건 : 시간과 공간의 다양한 지점에서 예측된 파동 특성을 통해 사용자가 미래의 파동 상태를 예측할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;그-외-원리-및-결과를-이해하는데-도움이-될-수-있는-교육-리소스나-시각화-자료&quot;&gt;그 외 원리 및 결과를 이해하는데 도움이 될 수 있는 교육 리소스나 시각화 자료&lt;/h3&gt;
+
+&lt;p&gt;이러한 웹사이트는 WaveWatch III를 포함한 다양한 모델을 기반으로 공식 예측 및 예측을 제공합니다. 모델의 기술적 복잡성과 생성되는 데이터의 특수성으로 인해 상세한 모델 출력 및 시뮬레이션에 대한 액세스가 제한될 수 있다는 점을 명심하십시오.&lt;/p&gt;
+
+&lt;p&gt;대화형 시뮬레이션이나 교육 도구를 통해 파도의 행동을 탐구하는 데 관심이 있다면 교육 기관이나 연구 기관에서 제공하는 온라인 리소스를 찾을 수도 있습니다. “해양파 시뮬레이션” 또는 “해양파 시각화”와 같은 용어를 검색하면 관련 리소스를 찾을 수 있습니다. 이러한 도구의 가용성은 다양할 수 있으므로 최신 정보를 보려면 최근 소스를 확인하는 것이 좋습니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;NOAA 국립 기상청&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;국립해양대기청 산하 기상청에서는 다양한 지역의 파도예보를 제공하고 있습니다.&lt;br /&gt;
+홈페이지 : &lt;a href=&quot;https://www.weather.gov/&quot;&gt;National Weather Service&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;유럽 중거리 기상예보 센터(ECMWF):&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ECMWF는 운영 서비스의 일부로 파도 예측을 제공합니다.&lt;br /&gt;
+홈페이지 : &lt;a href=&quot;https://www.ecmwf.int/&quot;&gt;ECMWF&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;호주 기상청:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;호주 기상청은 호주 해역에 대한 파도 예측을 제공합니다.&lt;br /&gt;
+홈페이지 : &lt;a href=&quot;http://www.bom.gov.au/marine/&quot;&gt;http://www.bom.gov.au/marine/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;자체-데이터에-wavewatch-iii-모델을-사용하려면&quot;&gt;자체 데이터에 WaveWatch III 모델을 사용하려면?&lt;/h2&gt;
+&lt;p&gt;수치 모델링에 대한 기술적 전문 지식과 필요한 계산 리소스에 대한 액세스가 필요합니다. 모델 자체는 일반 프로그램처럼 다운로드하여 실행할 수 있는 단순한 소프트웨어 애플리케이션이 아닙니다. 대신, 설정하고 운영하는 데 상당한 양의 인프라와 전문 지식이 필요한 복잡한 수치 시뮬레이션입니다. 수행해야 할 일반적인 단계는 다음과 같습니다.&lt;/p&gt;
+
+&lt;p&gt;WaveWatch III와 같은 고급 수치 모델을 활용하는 것은 시간, 자원 및 전문 지식의 상당한 투자가 필요한 복잡한 노력이라는 점을 기억하십시오. 결과의 품질과 신뢰성을 보장하려면 해당 분야 전문가와 협력하는 것이 좋습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;모델-사용-단계&quot;&gt;모델 사용 단계&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;모델 코드에 대한 액세스: WaveWatch III 모델 코드는 일반적으로 공개적으로 직접 다운로드할 수 없습니다. 특정 연구 목표를 가진 정부 기관, 연구 기관 및 조직에서 주로 사용됩니다. 모델 코드를 얻으려면 협업을 구축하거나 모델을 개발했거나 사용하는 조직으로부터 액세스 권한을 얻어야 할 것입니다. caiostringari/pyww3&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;기술 전문성: WaveWatch III 모델을 작동하려면 해양학, 수치 모델링 기술 및 프로그래밍 기술에 대한 확실한 이해가 필요합니다. 이러한 전문 지식이 없다면 프로세스를 안내해 줄 수 있는 해당 분야의 연구원이나 전문가와 협력해야 할 수도 있습니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;데이터 준비: 모델에 필요한 입력 데이터를 수집하고 준비해야 합니다. 여기에는 바람 데이터, 기압 데이터, 해류 데이터, 수심 측량 데이터 및 초기 파도 조건이 포함됩니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;모델 구성: 시뮬레이션하려는 특정 지역 및 기간을 기반으로 모델을 구성해야 합니다. 여기에는 계산 그리드 설정, 경계 조건 지정, 적절한 모델 매개변수 선택이 포함됩니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;계산 자원: WaveWatch III 모델을 실행하려면 고성능 컴퓨팅 클러스터를 포함한 상당한 컴퓨팅 리소스가 필요합니다. 모델은 계산 집약적이므로 시뮬레이션을 수행하려면 이러한 리소스에 액세스해야 합니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;출력 해석: 시뮬레이션이 완료되면 모델 출력을 해석해야 합니다. 이러한 출력에는 공간과 시간의 다양한 지점에 대한 파고, 방향 및 주기와 같은 파동 특성이 포함됩니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;검증 및 해석: 정확성을 보장하려면 관찰된 데이터에 대해 모델 결과를 검증하는 것이 중요합니다. 또한 모델 출력을 해석하려면 해양 파도 물리학 및 역학에 대한 확실한 이해가 필요합니다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;추가--모델-사용-정보&quot;&gt;추가  모델 사용 정보&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;연구 협력: 해양학 및 수치 모델링을 전문으로 하는 연구 기관, 대학 또는 조직과의 잠재적인 협력을 살펴보세요. 그들은 귀하를 안내하는 데 필요한 모델과 전문 지식에 접근할 수 있습니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;교육 자료: 해양 파도 모델링에 대한 통찰력을 제공하는 교육 리소스, 워크숍 또는 강좌를 찾아보세요. 이러한 리소스는 모델과 해당 적용의 기본 사항을 이해하는 데 도움이 될 수 있습니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;데이터 액세스: 필요한 입력 데이터와 계산 리소스에 액세스할 수 있는 경우 모델 설정 및 실행 과정을 안내하기 위해 해당 분야 전문가와 상담하는 것을 고려할 수 있습니다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><summary type="html">WaveWatch III 모델이란?</summary></entry><entry><title type="html">분석과제 목표가치(KPI)</title><link href="http://localhost:4000/%EB%B6%84%EC%84%9D%EA%B3%BC%EC%A0%9C-%EB%AA%A9%ED%91%9C%EA%B0%80%EC%B9%98_KPI" rel="alternate" type="text/html" title="분석과제 목표가치(KPI)" /><published>2023-08-20T00:00:00+09:00</published><updated>2023-08-20T00:00:00+09:00</updated><id>http://localhost:4000/%EB%B6%84%EC%84%9D%EA%B3%BC%EC%A0%9C%20%EB%AA%A9%ED%91%9C%EA%B0%80%EC%B9%98_KPI</id><content type="html" xml:base="http://localhost:4000/%EB%B6%84%EC%84%9D%EA%B3%BC%EC%A0%9C-%EB%AA%A9%ED%91%9C%EA%B0%80%EC%B9%98_KPI">&lt;h1 id=&quot;분석과제의-목표가치kpi&quot;&gt;분석과제의 목표가치(KPI)&lt;/h1&gt;
 
 &lt;p&gt;KPI는 Key Performance Indicator의 약자로 분석과제의 목표값은 조직이나 프로젝트의 성과를 측정하고 평가하는데 사용되는 중요한 지표입니다. &lt;br /&gt;
 조직의 목표와 전략에 따라 설정되며, 성과를 정량적으로 측정하여 비즈니스의 성공 여부를 파악하고 조정하는데 도움을 줍니다.&lt;br /&gt;
@@ -383,66 +538,4 @@
 
 &lt;p&gt;분석 프로젝트에는 &lt;strong&gt;데이터, 비즈니스, 분석, 시스템 등의 전문가로 구성된 이해관계자&lt;/strong&gt;가 포함됩니다.&lt;br /&gt;
 이해관계자의 요구사항과 기대치를 이해하고 관리하여 프로젝트 결과가 이해관계자의 기대에 부합하도록 해야 합니다.&lt;br /&gt;
-이를 위해 이해관계자 관리 전략을 수립하고 필요한 소통 및 협력을 유지해야 합니다.&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="Adsp" /><summary type="html">분석 프로젝트 관리</summary></entry><entry><title type="html">분석 과제 관리 프로세스</title><link href="http://localhost:4000/%EB%B6%84%EC%84%9D%EA%B3%BC%EC%A0%9C%EA%B4%80%EB%A6%AC%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4" rel="alternate" type="text/html" title="분석 과제 관리 프로세스" /><published>2023-05-16T00:00:00+09:00</published><updated>2023-05-16T00:00:00+09:00</updated><id>http://localhost:4000/%EB%B6%84%EC%84%9D%EA%B3%BC%EC%A0%9C%EA%B4%80%EB%A6%AC%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4</id><content type="html" xml:base="http://localhost:4000/%EB%B6%84%EC%84%9D%EA%B3%BC%EC%A0%9C%EA%B4%80%EB%A6%AC%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4">&lt;h1 id=&quot;분석-과제-관리-프로세스&quot;&gt;분석 과제 관리 프로세스&lt;/h1&gt;
-
-&lt;p&gt;분석 프로젝트를 효율적으로 계획, 모니터링 및 제어하기 위한 일련의 절차와 활동입니다.&lt;/p&gt;
-
-&lt;p&gt;분석 프로젝트의 &lt;strong&gt;전체 생명주기를 관리하며, 효율적인 일정 관리, 자원 할당, 품질 관리, 위험 관리, 의사소통, 변경 관리&lt;/strong&gt; 등의 관리 활동을 수행하여 프로젝트의 성공을 이끌어내는 것을 목표로 합니다.&lt;/p&gt;
-
-&lt;h1 id=&quot;단계&quot;&gt;단계&lt;/h1&gt;
-
-&lt;h2 id=&quot;문제-정의&quot;&gt;문제 정의&lt;/h2&gt;
-
-&lt;p&gt;분석 프로젝트의 시작 단계로, &lt;strong&gt;목표와 요구사항을 명확히 정의하고 분석&lt;/strong&gt;해야 할 문제나 도메인을 이해합니다.&lt;br /&gt;
-이를 통해 프로젝트의 방향성과 범위를 설정할 수 있습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;계획-및-자원-할당&quot;&gt;계획 및 자원 할당&lt;/h2&gt;
-
-&lt;p&gt;분석 프로젝트를 위한 전략적인 계획을 수립합니다.&lt;br /&gt;
-프로젝트 &lt;strong&gt;일정, 자원(인력, 도구, 데이터 등)의 할당, 역할 및 책임&lt;/strong&gt; 등을 명확히 정의하여 프로젝트 팀의 업무를 조정합니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;데이터-수집-및-전처리&quot;&gt;데이터 수집 및 전처리&lt;/h2&gt;
-
-&lt;p&gt;필요한 &lt;strong&gt;데이터&lt;/strong&gt;를 &lt;strong&gt;수집&lt;/strong&gt;하고, 데이터의 &lt;strong&gt;품질&lt;/strong&gt;을 &lt;strong&gt;평가&lt;/strong&gt;하고 &lt;strong&gt;전처리 과정을 수행&lt;/strong&gt;합니다.&lt;br /&gt;
-이 단계에서는 데이터의 누락, 오류, 이상치 등을 처리하여 분석에 적합한 상태로 준비합니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;분석-방법론-및-모델-선택&quot;&gt;분석 방법론 및 모델 선택&lt;/h2&gt;
-
-&lt;p&gt;적절한 &lt;strong&gt;분석 방법론과 모델을 선택&lt;/strong&gt;합니다.&lt;br /&gt;
-이는 &lt;strong&gt;분석 목표와 데이터의 특성에 기반&lt;/strong&gt;하여 결정됩니다.&lt;br /&gt;
-분석 방법론과 모델의 선택은 프로젝트의 목표 달성과 결과의 신뢰성에 직결됩니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;모델-구축-및-분석&quot;&gt;모델 구축 및 분석&lt;/h2&gt;
-
-&lt;p&gt;선택한 분석 모델을 구축하고 데이터에 대한 분석을 수행합니다.&lt;br /&gt;
-이 단계에서는 모델의 &lt;strong&gt;파라미터 조정, 변수 선택, 특징 공학 등을 수행&lt;/strong&gt;하여 &lt;strong&gt;분석 결과를 개선하고 최적화&lt;/strong&gt;합니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;결과-해석-및-의사-결정&quot;&gt;결과 해석 및 의사 결정&lt;/h2&gt;
-
-&lt;p&gt;분석 결과를 해석하고 비즈니스 인텔리전스를 변환합니다.&lt;br /&gt;
-이를 통해 의사 결정을 지원하고, 추천이나 향상점을 제시합니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;결과-보고-및-시각화&quot;&gt;결과 보고 및 시각화&lt;/h2&gt;
-
-&lt;p&gt;분석 결과를 효과적으로 전달하기 위해 시각화 및 보고서를 작성합니다.&lt;br /&gt;
-이를 통해 프로젝트 팀과 이해관계자들이 결과를 이해하고 활용할 수 있습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;모니터링-및-제어&quot;&gt;모니터링 및 제어&lt;/h2&gt;
-
-&lt;p&gt;프로젝트 진행 중에는 프로젝트의 진행 상황과 성과를 모니터링하고 필요한 조치를 취해야 합니다.&lt;br /&gt;
-이를 위해 주기적인 회의와 업데이트를 통해 프로젝트의 진척 상황을 파악하고, 문제 또는 지연 상황을 식별하여 조치합니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;변경-관리&quot;&gt;변경 관리&lt;/h2&gt;
-
-&lt;p&gt;프로젝트 진행 중에는 요구사항의 변경이나 추가가 발생할 수 있습니다.&lt;br /&gt;
-이러한 변경사항을 관리하기 위해 변경 요청의 평가 및 우선순위를 결정하고, 영향 분석을 수행하여 변경사항을 프로젝트에 적용하거나 거부합니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;위험-관리&quot;&gt;위험 관리&lt;/h2&gt;
-
-&lt;p&gt;프로젝트 진행 중에 발생할 수 있는 위험을 식별하고, 평가하며 대응 전략을 수립합니다.&lt;br /&gt;
-위험의 가능성과 영향을 평가하고, 위험에 대한 대응 계획을 수립하여 프로젝트의 성공 확률을 높입니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;품질-관리&quot;&gt;품질 관리&lt;/h2&gt;
-
-&lt;p&gt;분석 프로젝트에서는 데&lt;strong&gt;이터의 정확성, 분석 모델의 신뢰성, 결과의 일관성&lt;/strong&gt; 등 &lt;strong&gt;품질 요건&lt;/strong&gt;을 충족해야 합니다.&lt;br /&gt;
-적절한 커뮤니케이션 채널과 방법을 설정하고, 이해관계자의 요구사항과 기대를 이해하며 관리하여 프로젝트의 협업과 지지를 유지합니다.&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="Adsp" /><summary type="html">분석 과제 관리 프로세스</summary></entry></feed>
+이를 위해 이해관계자 관리 전략을 수립하고 필요한 소통 및 협력을 유지해야 합니다.&lt;/p&gt;</content><author><name>chanp5660</name></author><category term="exitem" /><category term="Adsp" /><summary type="html">분석 프로젝트 관리</summary></entry></feed>

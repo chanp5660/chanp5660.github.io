@@ -4,6 +4,22 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc>http://localhost:4000/%EC%88%98%EC%B9%98%EB%AA%A8%EB%8D%B8_WaveWatch3.html</loc>
+        
+        <lastmod>2023-08-22T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
         <loc>http://localhost:4000/%ED%88%AC%EC%9E%90%EB%8C%80%EB%B9%84_%EC%88%98%EC%9D%B5%EB%A5%A0_ROI.html</loc>
         
         <lastmod>2023-08-20T00:00:00+09:00</lastmod>
