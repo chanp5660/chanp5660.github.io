@@ -95,13 +95,26 @@ jobs:
       - name: Install Prettier
         run: npm install prettier
       - name: List files in directory
-        run: ls -R
+        run: |
+          echo "Current directory:"
+          pwd
+          echo "Directory contents:"
+          ls -R
+          echo "Find command result:"
+          find . -type f
       - name: Check formatting with Prettier 🎨
         run: npx prettier --check "**/*.{js,jsx,ts,tsx,json,md,yml,yaml}"
         continue-on-error: true
-      - name: Format code with Prettier 🎨
-        if: failure()
-        run: npx prettier --write "**/*.{js,jsx,ts,tsx,json,md,yml,yaml}"
+      - name: Run Prettier
+        run: |
+          FILES=$(find . -type f \( -name "*.js" -o -name "*.jsx" -o -name "*.ts" -o -name "*.tsx" -o -name "*.json" -o -name "*.md" -o -name "*.yml" -o -name "*.yaml" \))
+          if [ -z "$FILES" ]; then
+            echo "No files found to format"
+          else
+            echo "Files to format:"
+            echo "$FILES"
+            npx prettier --write $FILES
+          fi
       - name: Check links 🔗
         run: |
           npm install -g broken-link-checker
