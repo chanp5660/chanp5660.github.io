@@ -1,41 +1,95 @@
-name: Deploy Jekyll site to GitHub Pages
+name: Deploy site
 
-# 워크플로우 트리거 설정 (예: push, PR 등의 이벤트)
 on:
   push:
     branches:
-      - main  # main 브랜치에 푸시될 때 워크플로우 실행
+      - master
+      - main
+    paths:
+      - "assets/**"
+      - "**.bib"
+      - "**.html"
+      - "**.js"
+      - "**.liquid"
+      - "**/*.md"
+      - "**.yml"
+      - "Gemfile"
+      - "Gemfile.lock"
+      - "!.github/workflows/axe.yml"
+      - "!.github/workflows/broken-links.yml"
+      - "!.github/workflows/deploy-docker-tag.yml"
+      - "!.github/workflows/deploy-image.yml"
+      - "!.github/workflows/docker-slim.yml"
+      - "!.github/workflows/lighthouse-badger.yml"
+      - "!.github/workflows/prettier.yml"
+      - "!lighthouse_results/**"
+      - "!CONTRIBUTING.md"
+      - "!CUSTOMIZE.md"
+      - "!FAQ.md"
+      - "!INSTALL.md"
+      - "!README.md"
+  pull_request:
+    branches:
+      - master
+      - main
+    paths:
+      - "assets/**"
+      - "**.bib"
+      - "**.html"
+      - "**.js"
+      - "**.liquid"
+      - "**/*.md"
+      - "**.yml"
+      - "Gemfile"
+      - "Gemfile.lock"
+      - "!.github/workflows/axe.yml"
+      - "!.github/workflows/broken-links.yml"
+      - "!.github/workflows/deploy-docker-tag.yml"
+      - "!.github/workflows/deploy-image.yml"
+      - "!.github/workflows/docker-slim.yml"
+      - "!.github/workflows/lighthouse-badger.yml"
+      - "!.github/workflows/prettier.yml"
+      - "!lighthouse_results/**"
+      - "!CONTRIBUTING.md"
+      - "!CUSTOMIZE.md"
+      - "!FAQ.md"
+      - "!INSTALL.md"
+      - "!README.md"
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
-  build:
+  deploy:
+    # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
-
     steps:
-      # 소스 코드를 체크아웃
-      - name: Checkout code
-        uses: actions/checkout@v3
-        with:
-            token: ${{ secrets.MY_PAT }}  # GitHub PAT
-
-      # Ruby 설정
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'  # Jekyll이 지원하는 Ruby 버전
-
-      # Jekyll 의존성 설치
-      - name: Install dependencies
-        run: |
-          gem install bundler
-          bundle install
-
-      # Jekyll 사이트 빌드
-      - name: Build site with Jekyll
-        run: bundle exec jekyll build
-
-      # GitHub Pages에 배포
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
+          ruby-version: "3.2.2"
+          bundler-cache: true
+      - name: Update _config.yml ⚙️
+        uses: fjogeleit/yaml-update-action@main
         with:
-          github_token: ${{ secrets.MY_PAT }}
-          publish_dir: ./_site  # Jekyll의 빌드된 파일이 저장되는 디렉토리
+          commitChange: false
+          valueFile: "_config.yml"
+          propertyPath: "giscus.repo"
+          value: ${{ github.repository }}
+      - name: Install and Build 🔧
+        run: |
+          pip3 install --upgrade jupyter
+          export JEKYLL_ENV=production
+          bundle exec jekyll build
+      - name: Purge unused CSS 🧹
+        run: |
+          npm install -g purgecss
+          purgecss -c purgecss.config.js
+      - name: Deploy 🚀
+        if: github.event_name != 'pull_request'
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: _site
