@@ -95,3 +95,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: _site
+          token: ${{ secrets.MY_PAT }}  # 이 부분을 추가
