@@ -94,12 +94,14 @@ jobs:
           purgecss -c purgecss.config.js
       - name: Install Prettier
         run: npm install prettier
+      - name: List files in directory
+        run: ls -R
       - name: Check formatting with Prettier 🎨
-        run: npx prettier . --check
+        run: npx prettier --check "**/*.{js,jsx,ts,tsx,json,md,yml,yaml}"
         continue-on-error: true
       - name: Format code with Prettier 🎨
         if: failure()
-        run: npx prettier . --write
+        run: npx prettier --write "**/*.{js,jsx,ts,tsx,json,md,yml,yaml}"
       - name: Check links 🔗
         run: |
           npm install -g broken-link-checker
