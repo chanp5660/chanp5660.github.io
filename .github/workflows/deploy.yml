@@ -69,8 +69,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}  # 이 부분을 추가
-          repository: chanp5660/chanp5660.github.io
-          ref: master
+          fetch-depth: 0
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
