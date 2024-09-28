@@ -94,6 +94,7 @@ jobs:
         run: |
           npm install prettier
           npx prettier . --write
+        continue-on-error: true  # 오류가 발생해도 워크플로우가 계속 진행됨
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4
