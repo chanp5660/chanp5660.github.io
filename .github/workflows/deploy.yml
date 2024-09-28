@@ -98,6 +98,11 @@ jobs:
       - name: Format code with Prettier 🎨
         if: failure()
         run: npx prettier . --write
+      - name: Check links 🔗
+        run: |
+          npm install -g broken-link-checker
+          blc http://localhost:4000 -ro --exclude-external
+        continue-on-error: true  # 이 줄을 추가합니다
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4.4.3
