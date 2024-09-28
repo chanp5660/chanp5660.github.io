@@ -68,7 +68,9 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.MY_PAT }}  # 이 부분을 추가
+          token: ${{ secrets.GITHUB_TOKEN }}  # 이 부분을 추가
+          repository: chanp5660/chanp5660.github.io
+          ref: master
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -108,7 +110,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4.4.3
         with:
           folder: _site
-          token: ${{ secrets.MY_PAT }}  # 이 부분을 추가
+          token: ${{ secrets.GITHUB_TOKEN }}  # 이 부분을 추가
           branch: gh-pages  # 배포할 브랜치를 명시적으로 지정
           clean: true  # 배포 전 기존 파일 정리
           single-commit: true  # 단일 커밋으로 배포
