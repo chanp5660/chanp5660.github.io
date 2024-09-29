@@ -133,7 +133,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Chanp5660's blog # blog_name will be displayed in your blog page
+blog_name: Chan's blog # blog_name will be displayed in your blog page
 blog_description: 박찬의 기술블로그
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
@@ -162,7 +162,7 @@ giscus:
   lang: ko
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: chanp # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
