@@ -1,4 +1,3 @@
-# %%
 import os
 import yaml
 import re
@@ -155,12 +154,16 @@ def synchronize_folders(folder_path, destination_base):
             # Modify YAML front matter
             metadata['mathjax'] = True
             metadata['layout'] = 'post'
+            # 프론트매터에 'toc: sidebar: left' 추가
+            metadata['toc'] = {'sidebar': 'left'}
             # Convert metadata back to YAML string
             new_yaml_content = yaml.dump(metadata, allow_unicode=True, sort_keys=False)
             # Reconstruct YAML front matter
             new_front_matter = f"---\n{new_yaml_content}---\n"
             # Replace existing YAML front matter in content
-            new_content = re.sub(r'^---\s*\n(.*?)\n---\s*\n?', new_front_matter, original_content, flags=re.DOTALL)
+            content_without_front_matter = re.sub(r'^---\s*\n(.*?)\n---\s*\n?', '', original_content, flags=re.DOTALL)
+            # '```table-of-contents' 코드 블록 제거
+            content_without_toc = re.sub(r'```table-of-contents[\s\S]*?```', '', content_without_front_matter, flags=re.MULTILINE)
             # Update links in content
             # Pattern: [[File Title]] (excluding [[#File Title]])
             def replace_link(match):
@@ -178,7 +181,9 @@ def synchronize_folders(folder_path, destination_base):
                     else:
                         return full_match  # Do not change if no mapping exists
 
-            new_content = re.sub(r'\[\[([^\[\]]+)\]\]', replace_link, new_content)
+            content_updated_links = re.sub(r'\[\[([^\[\]]+)\]\]', replace_link, content_without_toc)
+            # Combine new front matter with updated content
+            new_content = new_front_matter + content_updated_links
             # Write the modified content to the destination file
             with open(destination_path, 'w', encoding='utf-8') as f:
                 f.write(new_content)
@@ -201,5 +206,3 @@ else:
 target_path = '.\\_posts'  # Change to your destination folder path.
 
 synchronize_folders(source_path, target_path)
-
-
