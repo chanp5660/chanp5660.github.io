@@ -1,10 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - chanp5660
 
 repo_description_lines_max: 2
 
 github_repos:
+  - chanp5660/chanp5660.github.io
   - alshedivat/al-folio
   - jekyll/jekyll
   - twbs/bootstrap
