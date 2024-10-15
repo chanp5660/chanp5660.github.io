@@ -19,13 +19,15 @@ $(document).ready(function () {
 
   // bootstrap-toc
   if ($("#toc-sidebar").length) {
-    // remove related publications years from the TOC
+    // 관련된 출판물의 연도를 TOC에서 제거
     $(".publications h2").each(function () {
       $(this).attr("data-toc-skip", "");
     });
     var navSelector = "#toc-sidebar";
     var $myNav = $(navSelector);
-    Toc.init($myNav);
+    Toc.init($myNav, {
+      headings: 'h1,h2,h3,h4' // H4까지 포함하도록 설정
+    });
     $("body").scrollspy({
       target: navSelector,
     });
