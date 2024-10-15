@@ -1,6 +1,6 @@
 ---
 title: al-folio toc 표시
-create_date: 2024-10-06 01:14
+create_date: 2024-09-30 17:53
 status_complete: false
 tags:
 - al-folio
@@ -9,6 +9,8 @@ aliases: null
 blog: true
 mathjax: true
 layout: post
+toc:
+  sidebar: left
 ---
 연결 문서
 
@@ -33,11 +35,10 @@ layout: post
 
 ## 옵시디언 파일의 table-of-contents 와 겹치는 문제 해결 
 
-- 옵시디언에서는 ```table-of-contents``` 를 사용하는데 이러면 2개의 toc 가 생기는 문제가 생기고 실제로 html로는 표시가 되지 않는 문제가 발생
-- 이를 해결하기 위해서 옵시디언 동기화 파일에서 ```table-of-contents``` 를 직접 제거해주는 코드를 추가한다.
+- 옵시디언에서는  를 사용하는데 이러면 2개의 toc 가 생기는 문제가 생기고 실제로 html로는 표시가 되지 않는 문제가 발생
+- 이를 해결하기 위해서 옵시디언 동기화 파일에서  를 직접 제거해주는 코드를 추가한다.
 ```python
-# '```table-of-contents' 코드 블록 제거
-content_without_toc = re.sub(r'```table-of-contents[\s\S]*?```', '', content_without_front_matter, flags=re.MULTILINE)
+# 'table-of-contents[\s\S]*?```', '', content_without_front_matter, flags=re.MULTILINE)
 ```
 
 - 또한 프론트매터에 toc 표시 조건을 추가한다.
