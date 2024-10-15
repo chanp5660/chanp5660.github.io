@@ -1,6 +1,6 @@
 ---
 title: al-folio toc 표시
-create_date: 2024-09-30 17:53
+create_date: 2024-10-06 01:14
 status_complete: false
 tags:
 - al-folio

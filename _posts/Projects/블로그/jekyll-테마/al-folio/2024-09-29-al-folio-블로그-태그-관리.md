@@ -10,6 +10,8 @@ aliases: null
 blog: true
 mathjax: true
 layout: post
+toc:
+  sidebar: left
 ---
 연결 문서
 
