@@ -18,11 +18,11 @@ toc:
 
 # GitHub Pages와 Jekyll을 이용하여 블로그를 만드는 방법
 
-## 1. GitHub 계정 생성하기
+## GitHub 계정 생성하기
 
 - 아직 GitHub 계정이 없다면 [GitHub](https://github.com/)에서 무료로 계정을 생성하세요.
 
-## 2. Ruby와 Jekyll 설치하기
+## Ruby와 Jekyll 설치하기
 
 - **Ruby 설치하기**
   - **Windows**: [RubyInstaller](https://rubyinstaller.org/)를 사용하여 Ruby를 설치합니다.
@@ -35,7 +35,7 @@ toc:
     gem install jekyll bundler
     ```
 
-## 3. 새로운 Jekyll 사이트 생성하기
+## 새로운 Jekyll 사이트 생성하기
 
 - 터미널에서 블로그를 만들고 싶은 디렉토리로 이동한 후, 다음 명령어를 실행합니다:
   ```
@@ -43,7 +43,7 @@ toc:
   ```
 - `my-blog`는 원하는 디렉토리 이름으로 변경 가능합니다.
 
-## 4. 로컬에서 사이트 실행 및 테스트하기
+## 로컬에서 사이트 실행 및 테스트하기
 
 - 생성된 디렉토리로 이동합니다:
   ```
@@ -60,12 +60,12 @@ toc:
   ```
 - 브라우저에서 `http://localhost:4000`에 접속하여 사이트가 제대로 작동하는지 확인합니다.
 
-## 5. GitHub 저장소 생성하기
+## GitHub 저장소 생성하기
 
 - GitHub에서 **새로운 저장소**를 생성합니다.
 - 저장소 이름은 `yourusername.github.io` 형식으로 지정해야 합니다. 여기서 `yourusername`은 당신의 GitHub 사용자명입니다.
 
-## 6. 로컬 저장소와 GitHub 연동하기
+## 로컬 저장소와 GitHub 연동하기
 
 - Git 초기화 및 원격 저장소 추가:
   ```
@@ -85,13 +85,13 @@ toc:
 [[git 토큰으로 clone]]
 
 [[사용된 github 공유 토큰]]
-## 7. GitHub Pages 설정 확인하기
+## GitHub Pages 설정 확인하기
 
 - GitHub 저장소의 **Settings** 탭으로 이동합니다.
 - 좌측 메뉴에서 **Pages**를 선택하고, 소스 브랜치가 `master` 또는 `main`으로 설정되어 있는지 확인합니다.
 - 몇 분 후에 `https://yourusername.github.io`에서 블로그를 확인할 수 있습니다.
 
-## 8. Markdown 파일로 게시물 작성하기
+## Markdown 파일로 게시물 작성하기
 
 - `_posts` 폴더에서 새로운 Markdown 파일을 생성합니다.
 - 파일명은 `YYYY-MM-DD-제목.md` 형식이어야 합니다 (예: `2023-10-01-hello-world.md`).
@@ -106,7 +106,7 @@ toc:
   ```
 - 그 아래에 Markdown 형식으로 내용을 작성합니다.
 
-## 9. 테마 및 스타일 적용하기
+## 테마 및 스타일 적용하기
 
 - **테마 선택** : [Jekyll 테마 다운로드](https://chanp5660.github.io/blog/2024/Jekyll-테마-다운로드/)
   - [Jekyll 테마](https://jekyllthemes.io/) 사이트에서 마음에 드는 테마를 선택합니다.
@@ -114,7 +114,7 @@ toc:
 - **CSS 커스터마이징**
   - `_sass` 폴더나 `assets/css` 폴더에서 스타일을 수정하여 원하는 디자인을 적용할 수 있습니다.
 
-## 10. 변경사항을 GitHub에 반영하기
+## 변경사항을 GitHub에 반영하기
 
 - 새로운 게시물이나 변경사항이 있을 때마다 다음 명령어로 업데이트합니다:
   ```

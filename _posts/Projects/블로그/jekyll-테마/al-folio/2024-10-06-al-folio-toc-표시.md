@@ -7,6 +7,7 @@ tags:
 - 블로그
 aliases: null
 blog: true
+featured: true
 mathjax: true
 layout: post
 toc:
@@ -82,39 +83,138 @@ metadata['toc'] = {'sidebar': 'left'}
 5. **추가 사항**:
    - 작은 화면에서는 목차가 확장되지 않도록 하거나, 두 번째 레벨의 목차도 표시되도록 선택할 수 있음.
 
-## Toc 목차 H2 이상도 표시하기
+## Toc 목차 H4 까지 표시하기
 
-common.js 파일을 수정함
-- 기존코드
-```js
-  if ($("#toc-sidebar").length) {
-    // remove related publications years from the TOC
-    $(".publications h2").each(function () {
-      $(this).attr("data-toc-skip", "");
-    });
-    var navSelector = "#toc-sidebar";
-    var $myNav = $(navSelector);
-    Toc.init($myNav);
-    $("body").scrollspy({
-      target: navSelector,
-    });
-  }
+al-folio Jekyll 테마에서 **H4**까지의 제목을 목차(TOC) 사이드바에 표시하려면, TOC가 초기화되는 JavaScript 파일을 수정해야 함. 관련 파일은 `common.js`임.
+
+**수정 방법:**
+
+1. **`common.js` 파일 찾기:**
+
+   이 파일은 일반적으로 al-folio Jekyll 테마의 `assets/js/` 디렉터리에 있음.
+
+2. **TOC 초기화 코드 수정:**
+
+   `common.js`에서 TOC가 초기화되는 부분을 찾음. 대략 다음과 같이 생김:
+
+   ```javascript
+   // bootstrap-toc
+   if ($("#toc-sidebar").length) {
+     // remove related publications years from the TOC
+     $(".publications h2").each(function () {
+       $(this).attr("data-toc-skip", "");
+     });
+     var navSelector = "#toc-sidebar";
+     var $myNav = $(navSelector);
+     Toc.init($myNav);
+     $('body').scrollspy({
+       target: navSelector,
+     });
+   }
+   ```
+
+3. **TOC 초기화 코드에서 H4 제목을 포함하도록 수정:**
+
+   `Toc.init()` 함수 호출을 `$scope` 옵션으로 수정하여 포함할 제목 레벨을 지정함.
+
+   **이 부분을:**
+
+   ```javascript
+   Toc.init($myNav);
+   ```
+
+   **다음과 같이 변경:**
+
+   ```javascript
+   Toc.init({
+     $nav: $myNav,
+     $scope: $('h2, h3, h4'), // H2, H3, H4 제목 포함
+   });
+   ```
+
+   이 수정은 TOC 플러그인에 `<h2>`, `<h3>`, `<h4>` 제목을 포함하도록 지시함.
+
+4. **변경 사항 저장 후 사이트 재빌드:**
+
+   `common.js` 파일을 저장한 후, Jekyll 사이트를 재빌드하여 업데이트된 TOC를 확인함.
+
+**설명:**
+
+- **왜 `common.js` 파일을 수정하는가?**: 이 파일은 al-folio 테마에서 TOC 플러그인을 초기화하는 코드를 포함하고 있음.
+- **`$scope` 사용 이유:** 기본적으로 TOC 플러그인은 여러 번 나타나는 제목 수준을 기준으로 포함할 제목을 결정함. `$scope` 옵션을 사용하면 명시적으로 포함할 제목 레벨을 정의할 수 있음.
+- **H4 제목 포함:** `$scope` 선택기에 `'h4'`를 추가하면 `<h4>` 제목도 TOC에 포함됨.
+
+**최종 수정된 `common.js` 코드:**
+
+```javascript
+$(document).ready(function () {
+  // add toggle functionality to abstract, award and bibtex buttons
+  $("a.abstract").click(function () {
+    $(this).parent().parent().find(".abstract.hidden").toggleClass("open");
+    $(this).parent().parent().find(".award.hidden.open").toggleClass("open");
+    $(this).parent().parent().find(".bibtex.hidden.open").toggleClass("open");
+  });
+  $("a.award").click(function () {
+    $(this).parent().parent().find(".abstract.hidden.open").toggleClass("open");
+    $(this).parent().parent().find(".award.hidden").toggleClass("open");
+    $(this).parent().parent().find(".bibtex.hidden.open").toggleClass("open");
+  });
+  $("a.bibtex").click(function () {
+    $(this).parent().parent().find(".abstract.hidden.open").toggleClass("open");
+    $(this).parent().parent().find(".award.hidden.open").toggleClass("open");
+    $(this).parent().parent().find(".bibtex.hidden").toggleClass("open");
+  });
+  $("a").removeClass("waves-effect waves-light");
+
+  // bootstrap-toc
+  if ($("#toc-sidebar").length) {
+    // remove related publications years from the TOC
+    $(".publications h2").each(function () {
+      $(this).attr("data-toc-skip", "");
+    });
+    var navSelector = "#toc-sidebar";
+    var $myNav = $(navSelector);
+    Toc.init({
+      $nav: $myNav,
+      $scope: $('h2, h3, h4'), // H2, H3, H4 제목 포함
+    });
+    $('body').scrollspy({
+      target: navSelector,
+    });
+  }
+
+  // add css to jupyter notebooks
+  // ... 나머지 코드 ...
+});
 ```
 
-- 수정코드
-```js
-if ($("#toc-sidebar").length) {
-  // 관련된 출판물의 연도를 TOC에서 제거
-  $(".publications h2").each(function () {
-    $(this).attr("data-toc-skip", "");
-  });
-  var navSelector = "#toc-sidebar";
-  var $myNav = $(navSelector);
-  Toc.init($myNav, {
-    headings: 'h1,h2,h3,h4' // H4까지 포함하도록 설정
-  });
-  $("body").scrollspy({
-    target: navSelector,
-  });
-}
+이 과정을 따르면 목차 사이드바에 **H4**까지의 제목이 표시됨.
+
+---
+
+**추가 참고사항:**
+
+- 더 깊은 제목 수준(H5, H6 등)을 포함하려면 `$scope` 선택기를 다음과 같이 확장 가능:
+
+```javascript
+Toc.init({
+  $nav: $myNav,
+  $scope: $('h2, h3, h4, h5, h6'),
+});
 ```
+
+컨텐츠 구조에 따라 제목 레벨을 조정하면 됨.
+
+- Header 에 `## 1. 제목`
+ 과 같은 형태는 bootstrap-toc 움직임이 제대로 따라가지 않음, `## 제목 1.2` 이런 형태는 움직임이 제대로 따라감
+
+ 움직임을 따라가는 예시  
+ 
+![](https://i.imgur.com/R1zxXGK.png)
+
+움직임을 못 따라가는 예시  
+
+![](https://i.imgur.com/Z5316pC.png)
+
+`.` 이 있지만 따라가는 형식 ( 한칸 위가 표시되는 것은 원래부터 그랬기도 하고 내용을 이해하는데 크게 문제가 있을 것 같지 않아서 해결하지 않음 )
+![](https://i.imgur.com/EfvFIMb.png)
