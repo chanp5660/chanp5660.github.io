@@ -1,6 +1,6 @@
 ---
 title: al-folio toc 표시
-create_date: 2024-09-30 17:53
+create_date: 2024-10-06 01:14
 status_complete: false
 tags:
 - al-folio
@@ -18,6 +18,8 @@ toc:
 [Table of Contents plugin for Bootstrap](https://afeld.github.io/bootstrap-toc/)
 # al-folio toc 표시
 
+
+
 이 글은 포스트에 사이드바 형식으로 목차(Table of Contents, TOC)를 추가하는 방법을 설명함. 요약하자면 아래와 같음:
 
 1. **목차 추가 방법**:
@@ -31,6 +33,7 @@ toc:
 
 2. **목차 커스터마이징**:
    - 더 자세히 커스터마이징 하고 싶다면, `bootstrap-toc` 문서를 참고할 것을 권장함.
+	   - Bootstrap : **Bootstrap**은 웹 페이지를 쉽게 디자인할 수 있도록 도와주는 오픈소스 도구 모음임.
    - 목차에 표시되는 제목 텍스트도 수정 가능함.
 
 ## 옵시디언 파일의 table-of-contents 와 겹치는 문제 해결 
@@ -78,3 +81,40 @@ metadata['toc'] = {'sidebar': 'left'}
 
 5. **추가 사항**:
    - 작은 화면에서는 목차가 확장되지 않도록 하거나, 두 번째 레벨의 목차도 표시되도록 선택할 수 있음.
+
+## Toc 목차 H2 이상도 표시하기
+
+common.js 파일을 수정함
+- 기존코드
+```js
+  if ($("#toc-sidebar").length) {
+    // remove related publications years from the TOC
+    $(".publications h2").each(function () {
+      $(this).attr("data-toc-skip", "");
+    });
+    var navSelector = "#toc-sidebar";
+    var $myNav = $(navSelector);
+    Toc.init($myNav);
+    $("body").scrollspy({
+      target: navSelector,
+    });
+  }
+```
+
+- 수정코드
+```js
+if ($("#toc-sidebar").length) {
+  // 관련된 출판물의 연도를 TOC에서 제거
+  $(".publications h2").each(function () {
+    $(this).attr("data-toc-skip", "");
+  });
+  var navSelector = "#toc-sidebar";
+  var $myNav = $(navSelector);
+  Toc.init($myNav, {
+    headings: 'h1,h2,h3,h4' // H4까지 포함하도록 설정
+  });
+  $("body").scrollspy({
+    target: navSelector,
+  });
+}
+```
