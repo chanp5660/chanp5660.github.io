@@ -26,9 +26,15 @@ $(document).ready(function () {
     var navSelector = "#toc-sidebar";
     var $myNav = $(navSelector);
     Toc.init($myNav, {
-      headings: 'h1,h2,h3,h4' // H4까지 포함하도록 설정
+      // 헤딩이 포함된 컨텐츠 영역의 셀렉터로 수정하세요
+      content: '#main-content', // 예시로 '#main-content'를 사용
+      // 포함할 헤딩 레벨 지정
+      headings: 'h1, h2, h3, h4',
+      level: 2, // 최상위 레벨을 h2로 지정
+      minimum_heading_level: 2, // 최소 h2부터
+      maximum_heading_level: 4  // 최대 h4까지
     });
-    $("body").scrollspy({
+    $('body').scrollspy({
       target: navSelector,
     });
   }
