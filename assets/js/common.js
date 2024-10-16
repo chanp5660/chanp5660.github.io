@@ -19,20 +19,15 @@ $(document).ready(function () {
 
   // bootstrap-toc
   if ($("#toc-sidebar").length) {
-    // 관련된 출판물의 연도를 TOC에서 제거
+    // remove related publications years from the TOC
     $(".publications h2").each(function () {
       $(this).attr("data-toc-skip", "");
     });
     var navSelector = "#toc-sidebar";
     var $myNav = $(navSelector);
-    Toc.init($myNav, {
-      // 헤딩이 포함된 컨텐츠 영역의 셀렉터로 수정하세요
-      content: '#main-content', // 예시로 '#main-content'를 사용
-      // 포함할 헤딩 레벨 지정
-      headings: 'h1, h2, h3, h4',
-      level: 2, // 최상위 레벨을 h2로 지정
-      minimum_heading_level: 2, // 최소 h2부터
-      maximum_heading_level: 4  // 최대 h4까지
+    Toc.init({
+      $nav: $myNav,
+      $scope: $('h2, h3, h4'), // H2, H3, H4 제목 포함
     });
     $('body').scrollspy({
       target: navSelector,
