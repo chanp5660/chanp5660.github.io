@@ -17,6 +17,7 @@ def get_md_files_with_blog_true(folder_path):
     """
     md_files_with_metadata = []
     folder_path = Path(folder_path)
+    print(folder_path)
     exclude_dirs = {'Planner', 'Areas'}
     
     for md_file in folder_path.glob('**/*.md'):
@@ -209,7 +210,7 @@ save_path = Path('C:\\Users\\master\\Desktop\\PARA')
 if save_path.exists():
     source_path = save_path
 else:
-    source_path = Path('C:\\Users\\user\\Desktop\\PARA')
+    source_path = Path('C:\\Users\\user\\Desktop\\chanp5660\\PARA')
 
 target_path = Path('.\\_posts')  # 대상 폴더 경로 설정
 
