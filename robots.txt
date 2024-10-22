@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://chanp5660.github.io/sitemap.xml
