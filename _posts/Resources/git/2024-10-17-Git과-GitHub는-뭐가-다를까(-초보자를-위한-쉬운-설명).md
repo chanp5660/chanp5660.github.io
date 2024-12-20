@@ -3,7 +3,6 @@ title: Git과 GitHub는 뭐가 다를까( 초보자를 위한 쉬운 설명)
 create_date: 2024-10-17 01:12
 status_complete: false
 tags:
-- git
 - git/github
 aliases: null
 blog: true
