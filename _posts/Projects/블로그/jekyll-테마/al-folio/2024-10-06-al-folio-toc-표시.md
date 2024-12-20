@@ -3,8 +3,7 @@ title: al-folio toc 표시
 create_date: 2024-10-06 01:14
 status_complete: false
 tags:
-- al-folio
-- 블로그
+- 블로그/Jekyll/al-folio
 aliases: null
 blog: true
 featured: true

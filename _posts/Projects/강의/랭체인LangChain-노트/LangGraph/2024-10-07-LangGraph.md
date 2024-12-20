@@ -3,7 +3,7 @@ title: LangGraph
 create_date: 2024-10-07 22:27
 status_complete: false
 tags:
-- LangGraph
+- LLM/LangGraph
 aliases: null
 blog: true
 mathjax: true

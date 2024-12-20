@@ -4,7 +4,7 @@ create_date: 2024-10-17 01:12
 status_complete: false
 tags:
 - git
-- github
+- git/github
 aliases: null
 blog: true
 featured: true

@@ -3,9 +3,7 @@ title: al-folio footer 작성 방법
 create_date: 2024-09-30 13:22
 status_complete: false
 tags:
-- Jekyll
-- 블로그
-- al-folio
+- 블로그/Jekyll/al-folio
 aliases: null
 blog: true
 mathjax: true

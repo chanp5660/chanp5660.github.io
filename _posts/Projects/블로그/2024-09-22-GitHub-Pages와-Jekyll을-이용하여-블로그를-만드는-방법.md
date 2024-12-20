@@ -3,9 +3,9 @@ title: GitHub Pages와 Jekyll을 이용하여 블로그를 만드는 방법
 create_date: 2024-09-22 21:54
 status_complete: false
 tags:
-- github
+- git/github
 - 블로그
-- Jekyll
+- 블로그/Jekyll
 aliases: null
 blog: true
 mathjax: true
