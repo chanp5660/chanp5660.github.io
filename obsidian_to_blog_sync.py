@@ -8,16 +8,9 @@ from datetime import datetime
 def get_md_files_with_blog_true(folder_path):
     """
     지정된 폴더 내에서 YAML 프론트 매터에 'blog: true'가 포함된 마크다운 파일을 재귀적으로 검색합니다.
-
-    매개변수:
-        folder_path (str): 검색할 폴더의 경로.
-
-    반환값:
-        list: 파일 경로, 메타데이터 딕셔너리, 파일 내용을 포함하는 튜플 목록.
     """
     md_files_with_metadata = []
     folder_path = Path(folder_path)
-    print(folder_path)
     exclude_dirs = {'Planner', 'Areas'}
     
     for md_file in folder_path.glob('**/*.md'):
@@ -43,19 +36,10 @@ def get_md_files_with_blog_true(folder_path):
         except Exception as e:
             print(f"Error opening file {md_file}: {e}")
     return md_files_with_metadata
-    
+
 def generate_destination_path(md_file, metadata, folder_path, destination_base):
     """
     마크다운 파일의 메타데이터와 원래 위치를 기반으로 대상 경로를 생성합니다.
-
-    매개변수:
-        md_file (Path): 마크다운 파일의 경로.
-        metadata (dict): 마크다운 파일의 YAML 프론트 매터 메타데이터.
-        folder_path (Path): 원래 폴더 경로.
-        destination_base (Path): 대상 기본 폴더 경로.
-
-    반환값:
-        Path 또는 None: 대상 파일 경로를 반환하거나, 오류가 발생하면 None을 반환합니다.
     """
     md_file = Path(md_file)
     folder_path = Path(folder_path)
@@ -104,27 +88,19 @@ def generate_destination_path(md_file, metadata, folder_path, destination_base):
     destination_path = destination_base / new_relative_path
     return destination_path
 
-def synchronize_folders(folder_path, destination_base):
+def preview_changes(folder_path, destination_base):
     """
-    마크다운 파일을 소스 폴더에서 대상 폴더로 동기화하며, 메타데이터에 'blog: true'가 포함된 파일을 처리하고 링크와 내용을 적절하게 업데이트합니다.
-
-    매개변수:
-        folder_path (str 또는 Path): 소스 폴더 경로.
-        destination_base (str 또는 Path): 대상 폴더 경로.
-
+    변경사항을 사전에 예고: 추가/수정/삭제될 파일 목록을 출력.
     """
     folder_path = Path(folder_path)
     destination_base = Path(destination_base)
 
     # 'blog: true'인 마크다운 파일 목록 가져오기
     md_files_with_metadata = get_md_files_with_blog_true(folder_path)
-
-    # 대상 폴더에 존재하는 마크다운 파일 목록 가져오기
     existing_files_in_destination = list(destination_base.glob('**/*.md'))
 
-    # 소스 파일에서 대상 경로로의 매핑 생성
+    # 소스 파일 → 대상 경로 매핑 & title-to-url 매핑
     source_to_destination = {}
-    # 링크 매핑 생성 (파일 제목: URL)
     title_to_url = {}
     for md_file, metadata, original_content in md_files_with_metadata:
         destination_path = generate_destination_path(md_file, metadata, folder_path, destination_base)
@@ -134,7 +110,6 @@ def synchronize_folders(folder_path, destination_base):
             if 'title' in metadata and 'create_date' in metadata:
                 title = metadata['title']
                 url_title = title.replace(' ', '-')
-                # create_date에서 연도 추출
                 create_date_str = str(metadata['create_date'])
                 try:
                     create_date = datetime.strptime(create_date_str, '%Y-%m-%d %H:%M')
@@ -145,42 +120,70 @@ def synchronize_folders(folder_path, destination_base):
                         print(f"Date format error ({md_file}): {create_date_str}")
                         continue
                 year = create_date.strftime('%Y')
-                # URL 생성
                 url = f"https://chanp5660.github.io/blog/{year}/{url_title}/"
                 title_to_url[title] = url
 
-    # 대상 파일 목록
     destination_files = [dest_path for dest_path, _, _ in source_to_destination.values()]
 
-    # 대상 폴더에서 소스에 없는 파일 삭제
+    files_to_delete = []
+    files_to_add = []
+    files_to_modify = []
+
+    # 삭제될 파일
+    for existing_file in existing_files_in_destination:
+        if existing_file not in destination_files:
+            files_to_delete.append(existing_file.relative_to(destination_base))
+
+    # 추가/수정될 파일
+    for md_file, (destination_path, metadata, original_content) in source_to_destination.items():
+        md_file = Path(md_file)
+        destination_path = Path(destination_path)
+        if not destination_path.exists():
+            files_to_add.append(destination_path.relative_to(destination_base))
+        elif md_file.stat().st_mtime > destination_path.stat().st_mtime:
+            files_to_modify.append(destination_path.relative_to(destination_base))
+        else:
+            continue
+
+    return files_to_add, files_to_modify, files_to_delete, source_to_destination, title_to_url
+
+def perform_sync(source_to_destination, title_to_url, destination_base):
+    """
+    실제 파일 동기화 수행: 삭제/수정/추가 작업.
+    """
+    destination_base = Path(destination_base)
+    # 현재 소스 기준으로 존재하지 않는 파일 삭제
+    existing_files_in_destination = list(destination_base.glob('**/*.md'))
+    destination_files = [dest_path for dest_path, _, _ in source_to_destination.values()]
+
+    # 삭제
     for existing_file in existing_files_in_destination:
         if existing_file not in destination_files:
             existing_file.unlink()
             print(f"Deleted: {existing_file}")
 
-    # 파일 복사 및 업데이트
+    # 파일 복사 & 업데이트
     for md_file, (destination_path, metadata, original_content) in source_to_destination.items():
         md_file = Path(md_file)
         destination_path = Path(destination_path)
-        # 대상 디렉토리 생성
         destination_dir = destination_path.parent
         if not destination_dir.exists():
             destination_dir.mkdir(parents=True)
-        # 파일 복사 여부 결정
+
+        # 새로 복사하거나, 수정된 경우에만 처리
         if (not destination_path.exists()) or (md_file.stat().st_mtime > destination_path.stat().st_mtime):
             # YAML 프론트 매터 수정
             metadata['mathjax'] = True
             metadata['layout'] = 'post'
             metadata['toc'] = {'sidebar': 'left'}
-            # 메타데이터를 YAML 문자열로 변환
+
             new_yaml_content = yaml.dump(metadata, allow_unicode=True, sort_keys=False)
-            # 새로운 프론트 매터 생성
             new_front_matter = f"---\n{new_yaml_content}---\n"
             # 기존 프론트 매터 제거
             content_without_front_matter = re.sub(r'^---\s*\n(.*?)\n---\s*\n?', '', original_content, flags=re.DOTALL)
             # '```table-of-contents' 코드 블록 제거
             content_without_toc = re.sub(r'```table-of-contents[\s\S]*?```', '', content_without_front_matter, flags=re.MULTILINE)
-            # 콘텐츠 내 링크 업데이트
+
             def replace_link(match):
                 full_match = match.group(0)
                 link_text = match.group(1)
@@ -195,23 +198,49 @@ def synchronize_folders(folder_path, destination_base):
                         return full_match
 
             content_updated_links = re.sub(r'\[\[([^\[\]]+)\]\]', replace_link, content_without_toc)
-            # 새로운 콘텐츠 생성
             new_content = new_front_matter + content_updated_links
-            # 수정된 콘텐츠를 대상 파일에 쓰기
             with destination_path.open('w', encoding='utf-8') as f:
                 f.write(new_content)
             print(f"Copied and modified: {md_file} -> {destination_path}")
-        else:
-            continue
 
-# 실행 부분
-save_path = Path('C:\\Users\\master\\Desktop\\PARA')
-# 소스 폴더 경로 설정
-if save_path.exists():
-    source_path = save_path
-else:
-    source_path = Path('C:\\Users\\user\\Desktop\\chanp5660\\PARA')
+def main():
+    # .env 파일 사용
+    from dotenv import load_dotenv
+    load_dotenv()
+    
+    SAVE_PATH_URL = os.getenv('SAVE_PATH_URL')
+    SOURCE_PATH_URL = os.getenv('SOURCE_PATH_URL')
+    
+    save_path = Path(SAVE_PATH_URL) # 'C:\\Users\\master\\Desktop\\PARA'
+    if save_path.exists():
+        source_path = save_path
+    else:
+        source_path = Path(SOURCE_PATH_URL) # 'C:\\Users\\user\\Desktop\\chanp5660\\PARA'
 
-target_path = Path('.\\_posts')  # 대상 폴더 경로 설정
+    target_path = Path('.\\_posts')  # 대상 폴더 경로 설정
 
-synchronize_folders(source_path, target_path)
+    files_to_add, files_to_modify, files_to_delete, source_to_destination, title_to_url = preview_changes(source_path, target_path)
+
+    # 변경사항 출력
+    print("\n추가될 파일:")
+    for file in files_to_add:
+        print(file)
+
+    print("\n수정될 파일:")
+    for file in files_to_modify:
+        print(file)
+
+    print("\n삭제될 파일:")
+    for file in files_to_delete:
+        print(file)
+
+    # 실제 실행 여부 확인
+    user_input = input("\n위 변경 사항을 실제로 적용하시겠습니까? (예/아니오): ")
+    if user_input.strip() == '예':
+        perform_sync(source_to_destination, title_to_url, target_path)
+        print("\n동기화가 완료되었습니다.")
+    else:
+        print("\n동기화를 취소하였습니다.")
+
+if __name__ == "__main__":
+    main()
